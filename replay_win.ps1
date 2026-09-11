@@ -1,4 +1,4 @@
-# replay_win.ps1 — Windows 版:繞過 696 舊 build 的「date-lock + MSG 8 校時」雙鎖後重播。
+﻿# replay_win.ps1 — Windows 版:繞過 696 舊 build 的「date-lock + MSG 8 校時」雙鎖後重播。
 #
 # 背景(2026-09-29):9/2 的 build 約一個月後開始鎖:
 #   (1) Jscrambler date-lock:過期就在 handshake 前停(送 dateLock / j-002-00003)。
