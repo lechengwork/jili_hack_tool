@@ -1,0 +1,380 @@
+{
+  "idx": 98,
+  "seq": 98,
+  "type": 0,
+  "ret": 0,
+  "round_id": "24262-586880-00010696",
+  "sig_ok": true,
+  "server_time": 1789957968155,
+  "response_wire_hex": "5ef534a9fcfbb7b47a6ad08b32ddbf00944df693b8cfe5bde8e46231d44740789af4f3bb94ddfb630c671bf34a41e688422ea098b09bbc1e34cbf295f5171f0a66b6d7885b966f5118ad4f6e8185de36045057eb8372d2116d90717b0a5b674a50ca0e6ca0d67866a7e5f372eccb8d0b7352636fdc896c812be877aec559949e82f8948d906067483343717ee7d96d0b06f92c738241bd30f8061a7d1d738649fd7178b0167cdf1e3ec09dbb8407ca18cefb33ee343c813d8694e2b3de556d681532565ab12912c1654cfbb57b62d11f857ec27df1dad37f60cbe9fe380e832637ee87cf80a5a9c2b90901b7953ea2828d19cee89d4925bd1d6f650174abf7b56989852cea8820e59054fc452b5797b577886e",
+  "plaintext_hex": "089ba2bc8e8c342aad010a780a050a030403030a050a030404030a050a0307000012070a05100f0e1112320f08041003180121cdccccccccccfc3f380142050000000000610000000000002e4069cdccccccccccfc3f790ad7a3703d0aef3f9001029a01050a030000009a01050a030000009a01050a030000009a01070a050000000000120019cdccccccccccfc3f31643bdf4f1f0ef840a001c8d3c8fbbfadf3d521ba0111099a9999999999b93fca0100d201020801",
+  "payload_hex": "0a780a050a030403030a050a030404030a050a0307000012070a05100f0e1112320f08041003180121cdccccccccccfc3f380142050000000000610000000000002e4069cdccccccccccfc3f790ad7a3703d0aef3f9001029a01050a030000009a01050a030000009a01050a030000009a01070a050000000000120019cdccccccccccfc3f31643bdf4f1f0ef840a001c8d3c8fbbfadf3d521ba0111099a9999999999b93fca0100d201020801",
+  "envelope_fields": {
+    "1": 1789957968155,
+    "5": "0a780a050a030403030a050a030404030a050a0307000012070a05100f0e1112320f08041003180121cdccccccccccfc3f380142050000000000610000000000002e4069cdccccccccccfc3f790ad7a3703d0aef3f9001029a01050a030000009a01050a030000009a01050a030000009a01070a050000000000120019cdccccccccccfc3f31643bdf4f1f0ef840a001c8d3c8fbbfadf3d521ba0111099a9999999999b93fca0100d201020801"
+  },
+  "payload_decoded": [
+    {
+      "f": 1,
+      "k": "msg",
+      "v": [
+        {
+          "f": 1,
+          "k": "msg",
+          "v": [
+            {
+              "f": 1,
+              "k": "str",
+              "v": "\u0004\u0003\u0003"
+            }
+          ]
+        },
+        {
+          "f": 1,
+          "k": "msg",
+          "v": [
+            {
+              "f": 1,
+              "k": "str",
+              "v": "\u0004\u0004\u0003"
+            }
+          ]
+        },
+        {
+          "f": 1,
+          "k": "msg",
+          "v": [
+            {
+              "f": 1,
+              "k": "str",
+              "v": "\u0007\u0000\u0000"
+            }
+          ]
+        },
+        {
+          "f": 2,
+          "k": "msg",
+          "v": [
+            {
+              "f": 1,
+              "k": "msg",
+              "v": [
+                {
+                  "f": 2,
+                  "k": "varint",
+                  "v": 15
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "f": 6,
+          "k": "msg",
+          "v": [
+            {
+              "f": 1,
+              "k": "varint",
+              "v": 4
+            },
+            {
+              "f": 2,
+              "k": "varint",
+              "v": 3
+            },
+            {
+              "f": 3,
+              "k": "varint",
+              "v": 1
+            },
+            {
+              "f": 4,
+              "k": "f64",
+              "v": 1.8,
+              "i64": 4610785298501913805
+            }
+          ]
+        },
+        {
+          "f": 7,
+          "k": "varint",
+          "v": 1
+        },
+        {
+          "f": 8,
+          "k": "msg",
+          "v": [
+            {
+              "f": 0,
+              "k": "varint",
+              "v": 0
+            },
+            {
+              "f": 0,
+              "k": "varint",
+              "v": 0
+            }
+          ]
+        },
+        {
+          "f": 12,
+          "k": "f64",
+          "v": 15.0,
+          "i64": 4624633867356078080
+        },
+        {
+          "f": 13,
+          "k": "f64",
+          "v": 1.8,
+          "i64": 4610785298501913805
+        },
+        {
+          "f": 15,
+          "k": "f64",
+          "v": 0.97,
+          "i64": 4606912202822375178
+        },
+        {
+          "f": 18,
+          "k": "varint",
+          "v": 2
+        },
+        {
+          "f": 19,
+          "k": "msg",
+          "v": [
+            {
+              "f": 1,
+              "k": "msg",
+              "v": [
+                {
+                  "f": 0,
+                  "k": "varint",
+                  "v": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "f": 19,
+          "k": "msg",
+          "v": [
+            {
+              "f": 1,
+              "k": "msg",
+              "v": [
+                {
+                  "f": 0,
+                  "k": "varint",
+                  "v": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "f": 19,
+          "k": "msg",
+          "v": [
+            {
+              "f": 1,
+              "k": "msg",
+              "v": [
+                {
+                  "f": 0,
+                  "k": "varint",
+                  "v": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "f": 19,
+          "k": "msg",
+          "v": [
+            {
+              "f": 1,
+              "k": "msg",
+              "v": [
+                {
+                  "f": 0,
+                  "k": "varint",
+                  "v": 0
+                },
+                {
+                  "f": 0,
+                  "k": "varint",
+                  "v": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "f": 2,
+      "k": "str",
+      "v": ""
+    },
+    {
+      "f": 3,
+      "k": "f64",
+      "v": 1.8,
+      "i64": 4610785298501913805
+    },
+    {
+      "f": 6,
+      "k": "f64",
+      "v": 98529.957,
+      "i64": 4681507340298435428
+    },
+    {
+      "f": 20,
+      "k": "varint",
+      "v": 2426258688000010696
+    },
+    {
+      "f": 23,
+      "k": "msg",
+      "v": [
+        {
+          "f": 1,
+          "k": "f64",
+          "v": 0.1,
+          "i64": 4591870180066957722
+        },
+        {
+          "f": 25,
+          "k": "str",
+          "v": ""
+        },
+        {
+          "f": 26,
+          "k": "msg",
+          "v": [
+            {
+              "f": 1,
+              "k": "varint",
+              "v": 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "payload_named": {
+    "_message": "SpinResult",
+    "board": {
+      "_message": "BoardDetail",
+      "reels": [
+        {
+          "_message": "Reel",
+          "symbols": [
+            4,
+            3,
+            3
+          ]
+        },
+        {
+          "_message": "Reel",
+          "symbols": [
+            4,
+            4,
+            3
+          ]
+        },
+        {
+          "_message": "Reel",
+          "symbols": [
+            7,
+            0,
+            0
+          ]
+        }
+      ],
+      "window": {
+        "_message": "SymbolWindow",
+        "symbols": [
+          16,
+          15,
+          14,
+          17,
+          18
+        ]
+      },
+      "line_wins": [
+        {
+          "_message": "LineWin",
+          "symbol_id": 4,
+          "match_count": 3,
+          "payline_index": 1,
+          "win_cash": 1.8
+        }
+      ],
+      "win_line_cnt": 1,
+      "nudge_pos": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "multiplier": 15.0,
+      "total_win": 1.8,
+      "rtp_const": 0.97,
+      "ante_level": 2,
+      "post_nudge": [
+        {
+          "_message": "PostNudgeState",
+          "a": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "_message": "PostNudgeState",
+          "a": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "_message": "PostNudgeState",
+          "a": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "_message": "PostNudgeState",
+          "a": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    "reserved_f2": [],
+    "total_win": 1.8,
+    "balance": 98529.957,
+    "round_id": 2426258688000010696,
+    "bet": {
+      "_message": "BetInfo",
+      "base_bet": 0.1,
+      "reserved_f25": [],
+      "ante": {
+        "_message": "Ante",
+        "level": 1
+      }
+    }
+  }
+}

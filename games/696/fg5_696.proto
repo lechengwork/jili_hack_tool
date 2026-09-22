@@ -1,0 +1,358 @@
+syntax = "proto3";
+
+// =============================================================================
+// JILI game 696 — Fortune Garuda 500 (FG5) 應用層協定 schema
+// endpoint: POST /fg5/req  (明文 protobuf 請求 / AES-256-GCM 加密回應)
+//
+// 這份 .proto 是「完整結構」——把 proto3 會省略的零值/空欄位全部顯式列出，
+// 讓你不必靠單一 JSON 樣本反推。欄位號、wire type、repeated 皆由 887 個真實
+// spin 樣本嚴格解碼 union 得出（含中獎/沒中/1.5x/8x 額外下注/Ex Nudge/連鎖/饋贈/
+// 三種注額），並與【遊戲內說明頁與官方賠付表】交叉比對。
+//
+// 標記慣例：沒標的 = 727 局封包實證；標「說明書」= 遊戲內說明頁；
+//           標「★待確認★」= 樣本不足，還沒定案。兩者不一致處會明講，以封包為準。
+//
+// ★可逆性★ 本 schema 有雙向轉換實作 ../../math_adapter.py，
+//   834 局 wire → 結構 → wire 【byte 完全相同】（python math_adapter.py --selftest）。
+//
+// ⚠ proto3 省略規則：win=0 時 total_win / board.total_win 整個欄位不出現；
+//   沒開額外下注時 ante 不出現。用本 schema decode 才看得到「該有但被省略」的欄位。
+//
+// 來源：games/696/{exchanges_ordered.jsonl,responses.jsonl} + GAME_FORMAT_SPEC.md
+//       傳輸/加解密見 ../../PROTOCOL_SOLVED.md（本檔不重複）
+// =============================================================================
+
+package jili.fg5.v696;
+
+option go_package = "jili/games/696/fg5proto";
+
+// ─── 外層信封（解密後的 wire 明文）────────────────────────────────────────────
+// 解密後的 protobuf = { f3=type, f5=data, f6=error_msg, f7=ret }。
+// data(f5) 是「依 type 而不同」的內層訊息 → 這裡放 bytes，再依 type 二次 decode：
+//   type 1  -> GameConfig      (握手設定，223B)
+//   type 0  -> SpinResult      (每把 spin，128~183B)   ★機率/RTP 核心★
+//   type 2  -> BalanceUpdate   (餘額更新，15B)
+//   type 58 -> SessionInfo     (回合/session 資訊，67~69B)
+//   type 19 -> SmallState      (init 小狀態，2B)
+//   type 10/21/25/27/33/51/60/69/49 -> 空 data 的 init 序列 ack
+message Envelope {
+  int32  type      = 3;
+  bytes  data      = 5;   // 依 type decode 成下列某個 message
+  string error_msg = 6;
+  int32  ret       = 7;   // 0=ok；type 60 的 ack 帶 ret=801
+}
+
+// ═══════════════════════════════════════════════════════════════════════════
+// type 0 — SPIN 結果（核心）
+// ═══════════════════════════════════════════════════════════════════════════
+message SpinResult {
+  BoardDetail board       = 1;   // 局面明細（盤面/中獎線/倍率）
+  bytes       reserved_f2 = 2;   // 恆空但固定出現（887 局實證）；重建封包時必須補上
+  double      total_win   = 3;   // 總中獎金額；★win=0 時省略★（= board.total_win）
+  double      balance     = 6;   // spin 後玩家餘額
+  uint64      round_id    = 20;  // 單號；顯示才插 '-'（見檔尾註 A），末3碼=696
+  BetInfo     bet         = 23;  // 下注/額外下注資訊
+}
+
+message BoardDetail {
+  // ── 盤面（3 軸 × 3 格）──────────────────────────────────────────────────
+  repeated Reel reels       = 1;   // 固定 3 個，每軸 3 個符號 id（由上到下）
+
+  // ── 倍率轉輪（= 遊戲說明的「第 4 特殊轉軸」）────────────────────────────
+  // 平常 5 格 = 畫面上看得到的 5 個位置；★window[2]（正中間、有金框那格）= 選中的倍率★
+  // Ex Nudge 觸發後會變長：len = 5 + window_extra + window_extra2
+  SymbolWindow  window       = 2;
+
+  // ── Ex Nudge：向下抓取倍率 ──────────────────────────────────────────────
+  // ★★倍率算法（887 局零反例，一般局與 Ex Nudge 局同一條）★★
+  //     multiplier = sum(window[2 .. len(window)-3])   ← 符號 20 計為 0
+  //   即「從中間格開始往下抓，連起點一起算」。沒觸發時 len=5，退化成 window[2]。
+  //   ⚠ 不要用 window_extra 去算：連鎖觸發時它只記第一段。
+  int32         window_extra  = 3;   // 第一段抓取次數（原標 unknown_f3）
+  int32         window_extra2 = 4;   // ★連鎖第二段★：抓到一半又撞到轉輪上的 Ex NUDGE
+                                     //   887 局裡只有 1 局非 0（該局 5 + 4 = 9）
+
+  // 觸發源（原標 unknown_f5）：0=沒觸發、1=盤面(符號 8)、2=轉輪(符號 20 落在中間格)、
+  //                            3=連鎖(盤面先觸發，往下抓時又撞到轉輪的 Ex NUDGE)
+  // ★不影響倍率計算★，純資訊。
+  int32         nudge_group  = 5;
+
+  repeated LineWin line_wins = 6;   // 中獎線；★沒中整段省略★
+
+  // 中獎類型（原標 win_line_cnt，★不是線數也不是符號種類數★）：
+  //   0=沒中獎（省略）、1=一般中獎、3=Ex Nudge 局中獎
+  //   887 局零例外；有局 5 條線是 1、有局 3 條線是 3。
+  int32         win_type     = 7;
+
+  // ── 迦樓羅的饋贈（隨機加成功能）─────────────────────────────────────────
+  // ★★說明頁原文(2026-09-21 從遊戲內 ⓘ 說明頁抄錄)★★
+  //   「每次旋轉都有機會隨機觸發『迦樓羅的饋贈』功能。觸發後可能出現以下【一種或多種】效果：」
+  //     ① 隨機挑選 3~5 個倍率符號或 Ex NUDGE(x2…x500、Ex NUDGE)，顯著提高它們在特殊轉軸出現的概率
+  //     ② 隨機選擇 1 個更高價值的倍率符號或 Ex NUDGE，將特殊轉軸的最終結果替換為所選符號
+  //     ③ 把特殊轉軸最終的倍率符號升級為更高的數值
+  //     ④ 重轉一個轉軸，並保證獲得更高的獎金
+  //     ⑤ 將中獎倍數替換為特殊轉軸上的更高倍數之一
+  //   ⇒ 槽位對應:★① = index0(伴隨 f9)、② = index1、③ = index2(伴隨 f10)、④ = index4、⑤ = index3★
+  //     (2026-09-21 下午曾把 ①③ 對調,被當晚 1.5x 場抓到的 index0 樣本推翻,見下)
+  //   ⇒ ★「一種或多種」= nudge_pos 可以【同時多格非零】★
+  //      1699 局真封包每次都只中一種、機率的測試資料也每局只填一格 —— 兩邊都當成單選是【錯的】。
+  //   ⇒ 倍率池是 x2…x500 + Ex NUDGE(11 項,★不含 x1★);實測 boost_symbols 全部落在池內。
+  // ★不是位置★，是【5 格效果槽】：哪一格非零 = 觸發哪個效果，該格的值 = 該效果的參數。
+  // 887 局真封包只用到 index 1/2/3（8 局）；index 0/4 靠 2026-09-21 的前端回放實證補上。
+  //   index 0  值恆 1     說明頁①「挑 3~5 個倍率符號或 Ex NUDGE,顯著提高它們出現的概率」
+  //                       ★伴隨欄位 = f9(不是 f10)★;2 局實證,f9 各 3 個符號,
+  //                       而該局轉輪可見 5 格【5/5 全部】落在 f9 的集合裡。
+  //                       ⚠ 只在【額外下注 1.5x】抓到;8x 跑了 1398 局一次都沒出現
+  //                         (8x 把 1x~10x 移出轉輪,推測壓縮了這個效果)。
+  //   index 1  值 = 被替換掉的原符號 id   「把最終結果替換為所選符號」
+  //                       （真封包實例 14=15x，中間格變成 Ex NUDGE）
+  //                       前端動畫 FX_Symbol_Change / Character_Throw_Multiplier
+  //   index 2  值恆 1     說明頁③「把特殊轉軸最終的倍率符號升級為更高的數值」
+  //                       ★與 f10 完全綁定★:6 局兩者都有，0 局只有其中一個。
+  //                       f10 = 升級的候選值(2~3 個)，★6/6 局最終中間格都落在 f10 內★;
+  //                       但轉輪其餘格只有 2~3/5 落在清單內 —— 與 index0 的 5/5 明顯不同，
+  //                       這就是分辨 ①(整盤) 與 ③(只管最終格) 的判準。
+  //   index 3  值 = 1..4  ★「交換」不是「升階」★：把中間格跟轉輪上另一格對調
+  //                       值→格號對照：1→idx0、2→idx1、3→idx3、4→idx4（不含中間格自己）
+  //                       前端動畫 Character_Exchange_Multiplier（有 _Win / _Fail 兩版）
+  //                       ⚠ 舊版本這裡寫「值 = 升了幾階」是【錯的】，兩個反證：
+  //                         (a) 24127-552000-00290696 是 8x 額外下注（轉輪最小 id=14），
+  //                             升 4 階要求原符號 id=13(10x) —— 8x 已把 10x 移出轉輪，不可能存在
+  //                         (b) 回放 i3_02（值 1）肉眼看到的就是「中間格與最上格對調」
+  //   index 4  值 = 1..3  「重轉一軸」，疑似 = 重轉第幾軸
+  //                       前端動畫 Respin / Reel_Respin / m_respinSpine（有 _Win / _Fail）
+  //                       ★★只有這一格前端會卡死★★：轉軸停住後不結算、按不了下一局。
+  //                       推測前端需要「重轉前的轉軸內容」才能決定放 _Win 還是 _Fail，
+  //                       而那份資料不在已知欄位裡（f9/f11/f14/f16/f17 都沒在真封包出現過）。
+  //                       ⇒ 在找到伴隨欄位之前，★不要產生 index 4★。
+  bytes         gift_slots   = 8;
+
+  // ★饋贈①(index0)挑中的 3~5 個倍率符號★ 2026-09-21 首次觀測(1.5x 額外下注)。
+  //   實例 [15,17,16]=20x/50x/25x、[13,19,17]=10x/500x/50x;兩局轉輪 5 格都 100% 從中抽出。
+  //   ⚠ 1699 局 8x 樣本裡從未出現 —— 之前被當成「未使用的欄位號」。
+  bytes         gift_pool_f9 = 9;
+
+  // ★饋贈④(index4「重轉一軸」):被重轉那一軸【重轉前】的 3 個符號★
+  //   2026-09-21 首次觀測(1.5x)。實例:nudge_pos[4]=3(重轉第 3 軸)、f11=[0,2,3]=J/K/A,
+  //   重轉後該軸變 [6,6,1]=紅寶/紅寶/Q —— 原本兩條線都不中,重轉後各中 3 個 Q。
+  //   ⇒ nudge_pos[4] 的值 = 【第幾軸】(1..3,1-based);f11 = 那一軸的舊內容。
+  //   ★這就是前端演重轉動畫必需的資料;少了它前端會停在動畫階段不結算(1699 局都沒抓到時卡了一整天)★
+  bytes         respin_prev_f11 = 11;
+
+  // 饋贈③(index2)升級的候選倍率符號。★文件未載★
+  // 實例 [15,16,18]=20x/25x/100x（命中 3/5）、[17,18]=50x/100x（命中 2/5）；全體平均 33.7%。
+  // ⚠ 說明書寫「3~5 個」，但實測有一局只有 2 個 —— 長度別寫死。
+  bytes         boost_symbols = 10;
+
+  double        multiplier   = 12;  // = 上面那條算式的結果；★已乘進 LineWin.win_cash★
+  double        total_win    = 13;  // 同頂層 total_win；沒中省略
+  double        rtp_const    = 15;  // 887 局恆 0.97
+  int32         ante_level   = 18;  // ★不是 BetInfo.ante.level，是它 +1★：
+                                    //   沒開=省略、ante.level 省略(1.5x)=1、ante.level=1(8x)=2
+  repeated PostNudgeState post_nudge = 19;  // 見下
+}
+
+// ⚠ 以下所有「符號/次數陣列」都是【packed varint】，不是原始 bytes。
+//    符號 id 都 <128 所以兩者長得一樣，但 Ex Nudge 次數可到 200/500 ——
+//    當成 raw bytes 會變成兩格（500 讀成 244,3）且值是錯的。
+//
+// 盤面符號（Reel）：
+//   0=J(賠1) 1=Q(2.5) 2=K(4) 3=A(5) 4=綠寶石(6) 5=藍寶石(7.5) 6=紅寶石(10)
+//   7 = ★WILD 百搭★      賠 25；可出現在所有轉軸，替代任意符號
+//   8 = ★Ex NUDGE 百搭★  賠 25；只在第 1/2/3 軸，同時是百搭 + Ex Nudge 觸發源
+//   7/8 中獎時記在【被替代的符號】上，不會以 symbol_id=7/8 出現在 LineWin。
+message Reel {
+  bytes symbols = 1;   // packed varint，3 個符號 id（由上到下）
+}
+
+// 倍率轉輪符號（SymbolWindow）：
+//   9=1x 10=2x 11=3x 12=5x 13=10x 14=15x 15=20x 16=25x 17=50x 18=100x 19=500x
+//   （說明書：共 11 種倍數，最高 500x —— 剛好對上 id 9–19）
+//   20 = ★Ex NUDGE 推動符號★，只出現在第 4 轉軸；★加總倍率時計為 0★
+message SymbolWindow {
+  bytes symbols = 1;   // packed varint
+}
+
+// 一條中獎線。win_cash 已含 multiplier。每條線只計最高獎。
+// ★公式（101 條中獎線 100% 吻合，跨注額 0.1/0.3/10 線性）★
+//     win_cash = base_bet × payrate[symbol_id] × multiplier / 5
+//     payrate  = {J:1, Q:2.5, K:4, A:5, 綠:6, 藍:7.5, 紅:10, WILD:25, ExNudge百搭:25}
+//   與說明書規則 5「獎金 = 賠付 × 特殊轉軸倍率 / 5」同一條式子。
+message LineWin {
+  int32  symbol_id     = 1;   // 中獎符號（WILD 替代時記被替代的那個）
+  int32  match_count   = 2;   // 3 軸機台，實測恆為 3
+  // 支付線（★由 82 條中獎線反解，每條唯一解，且「該中沒判中」0 條★）：
+  //   0=中排  1=上排  2=下排  3=左上→右下斜線  4=左下→右上斜線
+  //   ⚠ 注意 0 是【中排】不是上排。
+  int32  payline_index = 3;
+  double win_cash      = 4;
+}
+
+// 固定 4 組：前 3 組各 3 格（對應盤面 3 軸）、第 4 組 5 格（對應倍率轉輪）。
+// ★記錄「Ex Nudge 符號的位置 + 它上面寫的次數」——不管那一局有沒有觸發★
+//   （498 局零反例：轉輪可見格有符號 20 ⇔ 第 4 組在該位置有非零值）
+//   實測次數 2,3,4,5,8,10,15,20,25,50,100,200,500 —— 與說明書清單一字不差。
+message PostNudgeState {
+  bytes  cells = 1;   // packed varint（次數可到 500，超過一個 byte）
+  bytes  b     = 2;   // 887 局從未出現；保留
+}
+
+message BetInfo {
+  double base_bet    = 1;    // base 下注額（eg 0.3）；★額外下注時這裡仍是 base，不是實付額★
+  bytes  reserved_f25 = 25;  // 恆空但固定出現（887 局實證）；重建封包時必須補上
+  Ante   ante        = 26;   // 額外下注；★有此欄位=有開★（沒開整個省略）
+}
+
+// 額外下注（ante）。存在=有開額外下注：
+//   ante 省略        -> 一般 spin（沒開）
+//   ante = {}（空）   -> 1.5x 額外下注（level=0 被省略）
+//   ante = {level:1} -> 8x  額外下注
+// ★實扣金額 = base_bet × {1, 1.5, 8}，封包裡【沒有】實扣欄位，算 RTP 必須自己乘。★
+//   (餘額 Δ 實證：無 ante −0.30 / 1.5x −0.45 / 8x −2.40，注額 10 開 8x −80.00)
+// 說明書：1.5x 會從轉輪移除 1x、2x（保底 3x）；8x 移除 1x,2x,3x,5x,10x（保底 15x）。
+//   實測倍率池最小值正好是 3 和 15，完全吻合。
+message Ante {
+  int32 level = 1;   // 0（省略）=1.5x，1=8x
+}
+
+// ═══════════════════════════════════════════════════════════════════════════
+// type 1 — GameConfig（進遊戲握手設定，223B）
+//   注意：bet_menu / config_f5 是 packed double[] 原始 bytes（非子訊息）；
+//   generic decoder 會把它們誤判成 message，這裡以 bytes 存，見檔尾註 B。
+// ═══════════════════════════════════════════════════════════════════════════
+message GameConfig {
+  ConfigCore core        = 1;
+  ConfigExtra extra       = 5;
+  // ★不是「最大賠付金額」，是【最大倍率】★ = 25000.0
+  //   對上說明書「最大倍率 25,000x」；最大贏分 $2,500,000 = 25000 × 最大押注 100。
+  double     max_multiplier = 13;
+  string     reserved_f14 = 14;  // 恆空
+  uint64     no_limit     = 15;  // eg 0xFFFFFFFFFFFFFFFF（=-1，無上限旗標）
+}
+
+message ConfigCore {
+  int32  flag_f1     = 1;   // eg 2 ★待確認★
+  bytes  cur_code    = 2;   // 幣別碼，eg [85,83,68] = "USD"
+  bytes  cur_symbol  = 3;   // 幣別符號，eg [36] = "$"
+  double balance     = 4;   // 玩家餘額
+  // ★下注選單，packed double[15]★ 與遊戲押注面板一字不差：
+  //   [0.1, 0.2, 0.3, 0.5, 0.8, 1, 2, 5, 10, 20, 30, 40, 50, 70, 100]
+  //   首值 = 說明書「最小押注 $0.1」、末值 = 「最大押注 $100」。
+  bytes  bet_menu    = 5;
+  double limit_f6    = 6;   // eg 1.0 ★待確認★
+  double min_bet     = 7;   // 0.1 = 說明書「最小押注 $0.1」（= bet_menu 首值）
+  double cur_factor  = 8;   // 32.5 ★待確認★ = SessionBody.cur_factor，見該處註解
+  int32  flag_f12    = 12;  // eg 4 ★待確認★
+}
+
+message ConfigExtra {
+  // ★額外下注的三檔倍率★ packed double[3] = [1.0, 1.5, 8.0]
+  //   = 關 / 1.5x / 8x，與 BetInfo.ante 的三種狀態一一對應。
+  bytes ante_multipliers = 2;
+}
+
+// ═══════════════════════════════════════════════════════════════════════════
+// type 2 — BalanceUpdate（餘額更新，15B）
+// ═══════════════════════════════════════════════════════════════════════════
+message BalanceUpdate {
+  BalanceBody body = 1;
+}
+message BalanceBody {
+  int32  kind    = 1;   // eg 4
+  double balance = 2;
+  int32  flag_f5 = 5;   // eg 2
+}
+
+// ═══════════════════════════════════════════════════════════════════════════
+// type 58 — ★最近大獎列表★（不是自己的 session 資訊）
+//   一則回應帶【多筆 body】，每筆是【不同玩家】的一局大獎（id_frag 各不相同）。
+//   用我們自己的局號反查驗證過：f3=局號、f4=實扣、f5=贏分 全部對得上。
+// ═══════════════════════════════════════════════════════════════════════════
+message SessionInfo {
+  SessionBody body     = 1;
+  int32       flag_f2  = 2;   // eg 2（69B 版本才有；67B 版本省略）
+}
+message SessionBody {
+  uint64    txn_id     = 1;   // 玩家/交易 id
+  bytes     id_frag    = 2;   // eg "8e00"（玩家 id 片段，每位玩家不同）
+  uint64    round_id   = 3;   // 局號（格式同 SpinResult.round_id）
+  // ★實際扣款（含 ante）★ —— 不是 base_bet。
+  //   驗證：局號 2412603152000250696 是我們的 100x 局，base_bet 0.3 開 8x → 這裡是 2.4 ✓
+  double    paid_bet   = 4;
+  // ★該局贏分★ 驗證：上面那局 f5=108.0，與我們解出的 total_win 完全相同 ✓
+  double    total_win  = 5;
+  // ★待確認★ f6 與 f7 是【一一對應】的一組：2↔32.5、6↔0.43、17↔0.64，
+  //   同一個 id_frag 一定配同一組值，且我們自己(USD)的 f7=2、f6=32.5 = ConfigCore.f8。
+  //   看起來像「幣別 id ↔ 該幣別的某個係數」，但 USD 的係數是 32.5 而不是 1，
+  //   所以不是單純匯率。要另一種幣別的帳號擷取才能定案（watch_games.sh 有 THB 帳號）。
+  double    cur_factor = 6;
+  int32     cur_id     = 7;
+  Timestamp ts         = 8;
+}
+message Timestamp {
+  uint32 unix_sec = 1;   // eg 1787737731（≈2026）
+  uint32 sub      = 2;   // eg 277537795
+}
+
+// ═══════════════════════════════════════════════════════════════════════════
+// type 19 — SmallState（init 小狀態，2B）
+// ═══════════════════════════════════════════════════════════════════════════
+message SmallState {
+  int32 flag_f3 = 3;   // eg 1
+}
+
+// ═══════════════════════════════════════════════════════════════════════════
+// 請求端（明文 protobuf，netlog 擷取）
+//   所有請求共通：seq(f1)、token(f3,20B,整場固定)、client_pubkey(f4,32B,整場固定)
+// ═══════════════════════════════════════════════════════════════════════════
+message SpinRequest {
+  uint64      seq          = 1;
+  SpinReqBody game         = 2;
+  bytes       token        = 3;   // 20B，整場固定
+  bytes       client_pub   = 4;   // 32B X25519，握手建立、整場固定
+}
+message SpinReqBody {
+  double   bet   = 1;    // 玩家設定下注額（eg 0.3 / 100.0）
+  SpinOpts opts  = 25;   // { f1,f2,f4 全 0 }（疑：auto/turbo/快速 旗標）
+  Ante     ante  = 26;   // 有此欄位=開額外下注（與回應 BetInfo.ante 完全鏡射）
+}
+message SpinOpts {
+  int32 f1 = 1;
+  int32 f2 = 2;
+  int32 f4 = 4;
+}
+
+// ─── 選用：對自架 backend 的 gRPC 介面（明文結構）─────────────────────────────
+service Fg5GameService {
+  rpc Spin (SpinRequest) returns (SpinResult);
+}
+
+// =============================================================================
+// 註 A — round_id 顯示格式：儲存為 varint 純數字，顯示分段插 '-'（前5/中6/後8）：
+//   2393298960000770696 -> 23932-989600-00770696   末3碼固定 696 = gameID
+//
+// 註 B — packed double[] 陷阱：GameConfig.bet_menu / ConfigExtra.packed_doubles_f2
+//   是「連續 little-endian f64」的原始 bytes，不是子訊息。用 generic protobuf
+//   decoder 會誤遞迴出亂七八糟的欄位號（如 f4464675184232851）。要取值請把 bytes
+//   每 8 個切一段、struct.unpack('<d', ...)。bet_menu 實測 = [0.3,0.5,0.8,1.0,
+//   2.0,5.0,10,20,30,40,70,100,...]（共 15 個 double）。
+//
+// 註 C — 目前【還沒定案】的欄位（其餘都已由 887 局實證或說明書交叉確認）：
+//   BoardDetail.gift_slots  index 0 / 4 沒見過；index 1/2 的值各只見過一種。樣本 8 局。
+//   BoardDetail.boost_symbols  2 局樣本（長度 3 與 2；說明書寫 3~5 個，與實測不符）。
+//   PostNudgeState.b        887 局從未出現。
+//   ConfigCore.flag_f1 / limit_f6 / flag_f12
+//   ConfigCore.cur_factor 與 SessionBody.cur_factor/cur_id
+//     —— 已知是一一對應的一組(2↔32.5、6↔0.43、17↔0.64)，疑為幣別相關係數；
+//        要用非 USD 帳號(watch_games.sh 有 THB)再擷取一次才能定案。
+//   SpinRequest.SpinOpts    f1/f2/f4 實測恆 0（疑：auto/turbo 旗標，沒改過設定所以沒變化）
+//
+// 註 D — 已被實證【推翻】的舊解讀，別再沿用：
+//   unknown_f3「符號總數/盤面尺寸」→ 其實是 Ex Nudge 第一段抓取次數
+//   unknown_f5「reel set/遊戲狀態」→ 其實是觸發源 0/1/2/3
+//   win_line_cnt「中獎線數」        → 其實是中獎類型 0/1/3
+//   nudge_pos「EX NUDGE 後各軸位置」→ 其實是饋贈的 5 格效果槽（727 局只有 5 局非零）
+//   max_pay「最大賠付」             → 其實是最大倍率 25000x
+//   符號陣列「原始 bytes」           → 其實是 packed varint（500 會被讀成 244,3）
+//
+// =============================================================================

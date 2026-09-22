@@ -1,0 +1,17 @@
+{
+  "name": "deobf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "deobfuscator": "^2.4.6",
+    "jsdom": "^30.0.1"
+  }
+}

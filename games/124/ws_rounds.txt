@@ -1,0 +1,193 @@
+time-ordered cmd22 rounds (balance-delta corrected)
+
+SEND bet   amount=2.0 position=10  (f2=1 f3=0)
+RECV result bal=98609.907 Δ=? rid=369567362124357 | res.f1(win?)=None res.f2=5 res.f3=2 | echo(amt=2.0,pos=10)
+           arr[13]=[1.0, 1.0, 1.0, 2.0, 2.0, 1.0, 1.0, 1.0, 2.0, 1.0, 1.0, 1.0, 1.0]
+SEND bet   amount=2.0 position=2  (f2=1 f3=0)
+RECV result bal=98607.907 Δ=-2.000 rid=369567362124388 | res.f1(win?)=None res.f2=1 res.f3=2 | echo(amt=2.0,pos=2)
+           arr[13]=[1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 2.0, 1.0, 1.0, 1.0, 1.0, 1.0, 2.0]
+SEND bet   amount=2.0 position=1  (f2=1 f3=0)
+RECV result bal=98611.907 Δ=+4.000 rid=369567362124414 | res.f1(win?)=6.0 res.f2=3 res.f3=1 | echo(amt=2.0,pos=1)
+           arr[13]=[1.0, 2.0, 2.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 2.0, 1.0, 1.0, 1.0]
+SEND roll  (f2=1 f3=0)  [8B no-bet]
+RECV result bal=98611.907 Δ=+0.000 rid=369567362124441 | res.f1(win?)=None res.f2=5 res.f3=2 | 
+           arr[13]=[1.0, 1.0, 1.0, 2.0, 1.0, 1.0, 1.0, 1.0, 1.0, 2.0, 1.0, 10.0, 1.0]
+SEND roll  (f2=1 f3=0)  [8B no-bet]
+RECV result bal=98611.907 Δ=+0.000 rid=369567362124469 | res.f1(win?)=None res.f2=4 res.f3=4 | 
+           arr[13]=[2.0, 2.0, 1.0, 2.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 2.0, 1.0, 1.0]
+SEND roll  (f2=1 f3=0)  [8B no-bet]
+RECV result bal=98611.907 Δ=+0.000 rid=369567362124493 | res.f1(win?)=None res.f2=4 res.f3=1 | 
+           arr[13]=[1.0, 2.0, 1.0, 1.0, 2.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 2.0, 1.0]
+SEND bet   amount=4.0 position=0  (f2=1 f3=0)
+RECV result bal=98607.907 Δ=-4.000 rid=369567362124519 | res.f1(win?)=None res.f2=1 res.f3=5 | echo(amt=4.0,pos=None)
+           arr[13]=[1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+SEND bet   amount=1.0 position=0  (f2=1 f3=0)
+RECV result bal=98602.907 Δ=-5.000 rid=369567362124542 | res.f1(win?)=7.0 res.f2=4 res.f3=1 | echo(amt=1.0,pos=None)
+           arr[13]=[1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+SEND bet   amount=4.0 position=1  (f2=1 f3=0)
+RECV result bal=98582.907 Δ=-20.000 rid=369567362124563 | res.f1(win?)=24.0 res.f2=5 res.f3=3 | echo(amt=4.0,pos=1)
+           arr[13]=[1.0, 1.0, 1.0, 1.0, 1.0, 5.0, 1.0, 2.0, 1.0, 1.0, 2.0, 1.0, 1.0]
+SEND bet   amount=2.0 position=11  (f2=1 f3=0)
+RECV result bal=98578.907 Δ=-4.000 rid=369567362124590 | res.f1(win?)=None res.f2=2 res.f3=3 | echo(amt=2.0,pos=11)
+           arr[13]=[2.0, 2.0, 1.0, 1.0, 2.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+SEND bet   amount=2.0 position=11  (f2=1 f3=0)
+RECV result bal=98574.907 Δ=-4.000 rid=369567362124620 | res.f1(win?)=None res.f2=3 res.f3=2 | echo(amt=2.0,pos=11)
+           arr[13]=[2.0, 1.0, 1.0, 2.0, 2.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+
+
+########## GameConfig(767B) 與 multibet(152/165B) ##########
+
+----- SEND 165B -----
+f1 msg(11):
+  f1 d=1.0
+  f2 i=0
+f1 msg(11):
+  f1 d=1.0
+  f2 i=2
+f1 msg(11):
+  f1 d=1.0
+  f2 i=3
+f1 msg(11):
+  f1 d=1.0
+  f2 i=4
+f1 msg(11):
+  f1 d=1.0
+  f2 i=5
+f1 msg(11):
+  f1 d=1.0
+  f2 i=6
+f1 msg(11):
+  f1 d=1.0
+  f2 i=7
+f1 msg(11):
+  f1 d=1.0
+  f2 i=8
+f1 msg(11):
+  f1 d=1.0
+  f2 i=9
+f1 msg(11):
+  f1 d=1.0
+  f2 i=10
+f1 msg(11):
+  f1 d=1.0
+  f2 i=11
+f1 msg(11):
+  f1 d=1.0
+  f2 i=12
+f2 i=1
+f3 i=0
+
+----- RECV 301B -----
+f1 bytes(123)=090000000000001c4010041801220201062a68000000000000f03f000000
+f3 d=98602.907
+f4 i=369567362124542
+f5 msg(9):
+  f1 d=1.0
+f5 msg(11):
+  f1 d=1.0
+  f2 i=2
+f5 msg(11):
+  f1 d=1.0
+  f2 i=3
+f5 msg(11):
+  f1 d=1.0
+  f2 i=4
+f5 msg(11):
+  f1 d=1.0
+  f2 i=5
+f5 msg(11):
+  f1 d=1.0
+  f2 i=6
+f5 msg(11):
+  f1 d=1.0
+  f2 i=7
+f5 msg(11):
+  f1 d=1.0
+  f2 i=8
+f5 msg(11):
+  f1 d=1.0
+  f2 i=9
+f5 msg(11):
+  f1 d=1.0
+  f2 i=10
+f5 msg(11):
+  f1 d=1.0
+  f2 i=11
+f5 msg(11):
+  f1 d=1.0
+  f2 i=12
+
+----- SEND 152B -----
+f1 msg(11):
+  f1 d=4.0
+  f2 i=1
+f1 msg(11):
+  f1 d=4.0
+  f2 i=3
+f1 msg(11):
+  f1 d=4.0
+  f2 i=4
+f1 msg(11):
+  f1 d=4.0
+  f2 i=5
+f1 msg(11):
+  f1 d=4.0
+  f2 i=6
+f1 msg(11):
+  f1 d=4.0
+  f2 i=7
+f1 msg(11):
+  f1 d=4.0
+  f2 i=8
+f1 msg(11):
+  f1 d=4.0
+  f2 i=9
+f1 msg(11):
+  f1 d=4.0
+  f2 i=10
+f1 msg(11):
+  f1 d=4.0
+  f2 i=11
+f1 msg(11):
+  f1 d=4.0
+  f2 i=12
+f2 i=1
+f3 i=0
+
+----- RECV 290B -----
+f1 bytes(123)=09000000000000384010051803220202082a68000000000000f03f000000
+f3 d=98582.907
+f4 i=369567362124563
+f5 msg(11):
+  f1 d=4.0
+  f2 i=1
+f5 msg(11):
+  f1 d=4.0
+  f2 i=3
+f5 msg(11):
+  f1 d=4.0
+  f2 i=4
+f5 msg(11):
+  f1 d=4.0
+  f2 i=5
+f5 msg(11):
+  f1 d=4.0
+  f2 i=6
+f5 msg(11):
+  f1 d=4.0
+  f2 i=7
+f5 msg(11):
+  f1 d=4.0
+  f2 i=8
+f5 msg(11):
+  f1 d=4.0
+  f2 i=9
+f5 msg(11):
+  f1 d=4.0
+  f2 i=10
+f5 msg(11):
+  f1 d=4.0
+  f2 i=11
+f5 msg(11):
+  f1 d=4.0
+  f2 i=12

@@ -1,0 +1,17 @@
+[
+ {
+  "name": "__wbg_crypto_574e78ad8b13b65f"
+ },
+ {
+  "name": "getRandomValues",
+  "args": [
+   135,
+   134
+  ]
+ },
+ {
+  "name": "future_to_promise",
+  "arg0": 1048572,
+  "arg1": 1052196
+ }
+]

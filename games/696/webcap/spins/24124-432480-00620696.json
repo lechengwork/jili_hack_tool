@@ -1,0 +1,39 @@
+{
+  "type": 0,
+  "kind": "spin",
+  "round_id": "24124-432480-00620696",
+  "balance": 97594.387,
+  "total_win": 0.0,
+  "base_bet": 0.3,
+  "ante": null,
+  "paid_bet": 0.3,
+  "multiplier": 3.0,
+  "win_lines": 0,
+  "board": [
+    12,
+    10,
+    11,
+    9,
+    14
+  ],
+  "reels": [
+    [
+      0,
+      6,
+      6
+    ],
+    [
+      2,
+      6,
+      6
+    ],
+    [
+      2,
+      2,
+      3
+    ]
+  ],
+  "paylines": [],
+  "idx": 31,
+  "ret": 0
+}

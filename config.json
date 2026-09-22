@@ -1,0 +1,71 @@
+{
+  "_comment": "JILI 站台設定。域名不含 scheme。capture 與 server 都讀這個檔。",
+  "site": {
+    "game_host": "uat-wbgame.jlfafafa3.com",
+    "gs_host": "uat-wbslot-fd.jlfafafa1.com",
+    "platform_host": "uat-wbslot-platform.jlfafafa3.com",
+    "be_host": "uat-wbwebapi.jlfafafa2.com",
+    "game_path": "/fg5/",
+    "api_id": "1778",
+    "lang": "zh-CN",
+    "skin": "0"
+  },
+  "login": {
+    "_comment": "呼叫 LoginGame 換取單次有效的 game_url。body 內的值可用 {gameid} 與 {gameid:06d} 佔位。",
+    "enabled": true,
+    "url": "https://aggregate.gamejar.cc/api/LoginGame",
+    "method": "POST",
+    "headers": {
+      "Content-Type": "application/json",
+      "authorization": "bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6Iml4NiIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6ImFnZW50IiwianRpIjoiNGRjYTdmY2MtYzMzNS00Y2Y5LTljOTctNmJmNzg0ZjA0YTYyIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9ncm91cHNpZCI6IkFHRU5UIiwidHlwIjoiU0dKMTRVU0QiLCJleHAiOjIwMjgyNjk3NDYsImlzcyI6IkdhbWVKYXIuY29tIiwiYXVkIjoiR2FtZUphciJ9.OiLwPoe33heKZoSfUh2lG6CeDgBCWX_aBrhFCi8orVE",
+      "origin": "https://gamejar.cc",
+      "referer": "https://gamejar.cc/"
+    },
+    "body": {
+      "device": 1,
+      "language": "zh-CN",
+      "player_id": "tryplayer002usd",
+      "game_id": "111{gameid:06d}"
+    },
+    "token_path": "data.game_url",
+    "_note": "token_path 取到的值若以 http 開頭，直接當成完整遊戲 URL 使用（不再自行組裝）。",
+    "_game_id_note": "111{gameid:06d} 由單一樣本推得：gameID 696 → 111000696。若其他遊戲對不上請改這裡。",
+    "_credential_warning": "此檔含 bearer token，勿提交到版控或外流。"
+  },
+  "manual_url": {
+    "_comment": "login.enabled=false 時使用。從瀏覽器複製含 ssoKey 的完整遊戲 URL 貼在這裡，或用面版的輸入框傳入。",
+    "url": ""
+  },
+  "capture": {
+    "spins": 60,
+    "spin_delay": 1.2,
+    "load_wait": 25,
+    "headless": false,
+    "idle_timeout": 20
+  },
+  "login_accounts": {
+    "_comment": "候選帳號:jili_login.py --account <key>;覆蓋 login.headers.authorization + body.player_id。token 存純 JWT(不含 'bearer ')。",
+    "usd": {
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6Iml4NiIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6ImFnZW50IiwianRpIjoiNGRjYTdmY2MtYzMzNS00Y2Y5LTljOTctNmJmNzg0ZjA0YTYyIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9ncm91cHNpZCI6IkFHRU5UIiwidHlwIjoiU0dKMTRVU0QiLCJleHAiOjIwMjgyNjk3NDYsImlzcyI6IkdhbWVKYXIuY29tIiwiYXVkIjoiR2FtZUphciJ9.OiLwPoe33heKZoSfUh2lG6CeDgBCWX_aBrhFCi8orVE",
+      "player_id": "tryplayer002usd",
+      "currency": "USD",
+      "agent": "ix6/SGJ14USD",
+      "note": "config 原本用的;696 目前 success+null(平台下架),697/698/719 正常"
+    },
+    "evo": {
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6Iml4NiIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6ImFnZW50IiwianRpIjoiNGRjYTdmY2MtYzMzNS00Y2Y5LTljOTctNmJmNzg0ZjA0YTYyIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9ncm91cHNpZCI6IkFHRU5UIiwidHlwIjoiU0dKMTRVU0QiLCJleHAiOjIwMjgyNjk3NDYsImlzcyI6IkdhbWVKYXIuY29tIiwiYXVkIjoiR2FtZUphciJ9.OiLwPoe33heKZoSfUh2lG6CeDgBCWX_aBrhFCi8orVE",
+      "player_id": "evotest001",
+      "currency": "USD",
+      "agent": "JFS-USD/ix6/SGJ14USD",
+      "sub_agent": "evo",
+      "note": "0918 面板新帳號:JFS-USD代理→子代理 evo→evotest001。★token 待補★:沿用母代理 usd(ix6/SGJ14USD)實測登不進(124/697 皆 success+game_url=null)——子代理 evo 需自己的 token。要用時把面板按確定時瀏覽器實送的 authorization:bearer... 填進這裡的 token,再用 --account evo"
+    },
+    "thb": {
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IndudSIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6ImFnZW50IiwianRpIjoiYWUxYzAwYjQtMTExMi00ZGJlLWJmM2QtZDQwMmMwYmMyMDBmIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9ncm91cHNpZCI6IkFHRU5UIiwidHlwIjoiU0dKMDJUSEIiLCJleHAiOjIwMzQ0NzM3ODksImlzcyI6IkdhbWVKYXIuY29tIiwiYXVkIjoiR2FtZUphciJ9.X8MbdMEoC_sD-Fsf6q5i4274QF5Oqey-oJu2ruUADp8",
+      "player_id": "testplayer001thb",
+      "currency": "THB",
+      "agent": "wnu/SGJ02THB",
+      "note": "平台工具實測可拿 url(游戏540 迦罗宝石500,fg4);子代理 try"
+    }
+  }
+}

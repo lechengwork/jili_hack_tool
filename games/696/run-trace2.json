@@ -1,0 +1,398 @@
+[
+ {
+  "seq": 0,
+  "name": "getRandomValues",
+  "info": {
+   "len": 32
+  }
+ },
+ {
+  "seq": 1,
+  "name": "Promise::new",
+  "info": {
+   "a": 1048572,
+   "b": 1052196
+  }
+ },
+ {
+  "seq": 2,
+  "name": "closure_wrapper",
+  "info": {
+   "a": 1114600,
+   "b": 1106512,
+   "c": 41
+  }
+ },
+ {
+  "seq": 3,
+  "name": "queueMicrotask",
+  "info": {
+   "cbType": "function"
+  }
+ },
+ {
+  "seq": 4,
+  "name": "instanceof_Window",
+  "info": {
+   "i": 142
+  }
+ },
+ {
+  "seq": 5,
+  "name": "href",
+  "info": {
+   "GAME_URL": "https://uat-wbgame.jlfafafa3.com/fg5/?ssoKey=a40bc27ef48cced7974cd6dc86ae57f13090f9e0&lang=zh-CN&apiId=1778&be=moc.2afafaflj.ipabewbw-tau&domain_gs=1afafaflj&domain_platform=moc.3afafaflj.mroftalp-tolsbw-tau&gameID=696&gs=moc.1afafaflj.df-tolsbw-tau&iu=true&legalLang=true&skin=0"
+  }
+ },
+ {
+  "seq": 6,
+  "name": "new URL",
+  "info": {
+   "s": "https://uat-wbgame.jlfafafa3.com/fg5/?ssoKey=a40bc27ef48cced7974cd6dc86ae57f13090f9e0&lang=zh-CN&apiId=1778&be=moc.2afafaflj.ipabewbw-tau&domain_gs=1afafaflj&domain_platform=moc.3afafaflj.mroftalp-tolsbw-tau&gameID=696&gs=moc.1afafaflj.df-tolsbw-tau&iu=true&legalLang=true&skin=0"
+  }
+ },
+ {
+  "seq": 7,
+  "name": "URLSearchParams.get",
+  "info": {
+   "key": "domain_gs",
+   "val": "1afafaflj"
+  }
+ },
+ {
+  "seq": 8,
+  "name": "URLSearchParams.get",
+  "info": {
+   "key": "domain_gs",
+   "val": "1afafaflj"
+  }
+ },
+ {
+  "seq": 9,
+  "name": "URLSearchParams.get",
+  "info": {
+   "key": "iu",
+   "val": "true"
+  }
+ },
+ {
+  "seq": 10,
+  "name": "URLSearchParams.get",
+  "info": {
+   "key": "iu",
+   "val": "true"
+  }
+ },
+ {
+  "seq": 11,
+  "name": "URLSearchParams.get",
+  "info": {
+   "key": "region",
+   "val": null
+  }
+ },
+ {
+  "seq": 12,
+  "name": "URLSearchParams.get",
+  "info": {
+   "key": "be",
+   "val": "moc.2afafaflj.ipabewbw-tau"
+  }
+ },
+ {
+  "seq": 13,
+  "name": "URLSearchParams.get",
+  "info": {
+   "key": "ssoKey",
+   "val": "a40bc27ef48cced7974cd6dc86ae57f13090f9e0"
+  }
+ },
+ {
+  "seq": 14,
+  "name": "URLSearchParams.get",
+  "info": {
+   "key": "lang",
+   "val": "zh-CN"
+  }
+ },
+ {
+  "seq": 15,
+  "name": "new Headers/obj",
+  "info": {
+   "a": []
+  }
+ },
+ {
+  "seq": 16,
+  "name": "STUB:__wbg_setmode_5dc300b865044b65",
+  "info": {
+   "a": [
+    142,
+    2
+   ]
+  }
+ },
+ {
+  "seq": 17,
+  "name": "string_new",
+  "info": {
+   "s": "key=a40bc27ef48cced7974cd6dc86ae57f13090f9e0&lang=zh-CN"
+  }
+ },
+ {
+  "seq": 18,
+  "name": "setbody",
+  "info": {
+   "ctor": "String",
+   "len": 55
+  }
+ },
+ {
+  "seq": 19,
+  "name": "new Request",
+  "info": {
+   "url": "https://uat-wbwebapi.jlfafafa2.com/sso-login.api",
+   "method": "POST"
+  }
+ },
+ {
+  "seq": 20,
+  "name": "instanceof_Window",
+  "info": {
+   "i": 145
+  }
+ },
+ {
+  "seq": 21,
+  "name": "FETCH",
+  "info": {
+   "url": "https://uat-wbwebapi.jlfafafa2.com/sso-login.api",
+   "method": "POST",
+   "bodyLen": 55,
+   "bodyHex": "00000000000400000002070000040800000000070907040000060000080600000507000103000900000900000000000000000000000000"
+  }
+ },
+ {
+  "seq": 22,
+  "name": "closure_wrapper",
+  "info": {
+   "a": 1114640,
+   "b": 1106648,
+   "c": 41
+  }
+ },
+ {
+  "seq": 23,
+  "name": "closure_wrapper",
+  "info": {
+   "a": 1114840,
+   "b": 1106628,
+   "c": 41
+  }
+ },
+ {
+  "seq": 24,
+  "name": "queueMicrotask",
+  "info": {
+   "cbType": "function"
+  }
+ },
+ {
+  "seq": 25,
+  "name": "Response.json",
+  "info": {}
+ },
+ {
+  "seq": 26,
+  "name": "closure_wrapper",
+  "info": {
+   "a": 1114840,
+   "b": 1106648,
+   "c": 41
+  }
+ },
+ {
+  "seq": 27,
+  "name": "closure_wrapper",
+  "info": {
+   "a": 1114856,
+   "b": 1106628,
+   "c": 41
+  }
+ },
+ {
+  "seq": 28,
+  "name": "queueMicrotask",
+  "info": {
+   "cbType": "function"
+  }
+ },
+ {
+  "seq": 29,
+  "name": "string_new",
+  "info": {
+   "s": "token"
+  }
+ },
+ {
+  "seq": 30,
+  "name": "getwithrefkey",
+  "info": {
+   "k": "token",
+   "vtype": "string"
+  }
+ },
+ {
+  "seq": 31,
+  "name": "PROMISE_RESOLVE",
+  "info": {
+   "t": "object",
+   "v": "{\"homeUrl\":\"\",\"linecode\":0,\"profile\":{\"id\":\"\",\"aid\":1661835,\"apiId\":1778,\"transactionMode\":1,\"subAgentCode\":1,\"isLobbyOp"
+  }
+ },
+ {
+  "seq": 32,
+  "name": "Promise::new",
+  "info": {
+   "a": 1048572,
+   "b": 1052156
+  }
+ },
+ {
+  "seq": 33,
+  "name": "queueMicrotask",
+  "info": {
+   "cbType": "function"
+  }
+ },
+ {
+  "seq": 34,
+  "name": "new Headers/obj",
+  "info": {
+   "a": []
+  }
+ },
+ {
+  "seq": 35,
+  "name": "STUB:__wbg_setmode_5dc300b865044b65",
+  "info": {
+   "a": [
+    144,
+    2
+   ]
+  }
+ },
+ {
+  "seq": 36,
+  "name": "uint8_array_new(from wasm)",
+  "info": {
+   "len": 66
+  }
+ },
+ {
+  "seq": 37,
+  "name": "setbody",
+  "info": {
+   "ctor": "Uint8Array",
+   "len": 66
+  }
+ },
+ {
+  "seq": 38,
+  "name": "new Request",
+  "info": {
+   "url": "https://uat-wbslot-fd.jlfafafa1.com/a40bc27ef48cced7974cd6dc86ae57f13090f9e0/req",
+   "method": "POST"
+  }
+ },
+ {
+  "seq": 39,
+  "name": "instanceof_Window",
+  "info": {
+   "i": 143
+  }
+ },
+ {
+  "seq": 40,
+  "name": "FETCH",
+  "info": {
+   "url": "https://uat-wbslot-fd.jlfafafa1.com/a40bc27ef48cced7974cd6dc86ae57f13090f9e0/req",
+   "method": "POST",
+   "bodyLen": 66,
+   "bodyHex": "080112060a044f5320581a149492e028bf32eb2fa98e0d20d73b6b89d931858422204d27bcee3135c4944b28d27dd809b07be10c35160d20131caa7e85575498d07c"
+  }
+ },
+ {
+  "seq": 41,
+  "name": "fg5-resp",
+  "info": {
+   "len": 278,
+   "hex": "e82f371f1762fb52a498ca4713f353087d4feb75d0f8ed7438233e19bb883f2c7eb3cd6e79e4e05c"
+  }
+ },
+ {
+  "seq": 42,
+  "name": "closure_wrapper",
+  "info": {
+   "a": 1114816,
+   "b": 1106648,
+   "c": 41
+  }
+ },
+ {
+  "seq": 43,
+  "name": "closure_wrapper",
+  "info": {
+   "a": 1115096,
+   "b": 1106628,
+   "c": 41
+  }
+ },
+ {
+  "seq": 44,
+  "name": "queueMicrotask",
+  "info": {
+   "cbType": "function"
+  }
+ },
+ {
+  "seq": 45,
+  "name": "Response.arrayBuffer",
+  "info": {
+   "len": 278
+  }
+ },
+ {
+  "seq": 46,
+  "name": "closure_wrapper",
+  "info": {
+   "a": 1115096,
+   "b": 1106648,
+   "c": 41
+  }
+ },
+ {
+  "seq": 47,
+  "name": "closure_wrapper",
+  "info": {
+   "a": 1114520,
+   "b": 1106628,
+   "c": 41
+  }
+ },
+ {
+  "seq": 48,
+  "name": "queueMicrotask",
+  "info": {
+   "cbType": "function"
+  }
+ },
+ {
+  "seq": 49,
+  "name": "PROMISE_RESOLVE",
+  "info": {
+   "t": "object",
+   "v": "{\"type\":0,\"ret\":0,\"error_msg\":\"\",\"data\":[10,134,1,10,5,10,3,5,5,5,10,5,10,3,3,5,5,10,5,10,3,1,1,5,18,7,10,5,14,10,11,9,1"
+  }
+ }
+]

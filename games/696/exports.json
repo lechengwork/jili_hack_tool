@@ -1,0 +1,135 @@
+[
+ {
+  "name": "start",
+  "funcIdx": 75,
+  "sig": {
+   "params": [],
+   "results": []
+  }
+ },
+ {
+  "name": "__wbindgen_start",
+  "funcIdx": 75,
+  "sig": {
+   "params": [],
+   "results": []
+  }
+ },
+ {
+  "name": "send_to",
+  "funcIdx": 246,
+  "sig": {
+   "params": [
+    "i32",
+    "i32",
+    "i32",
+    "i32"
+   ],
+   "results": [
+    "i32"
+   ]
+  }
+ },
+ {
+  "name": "send",
+  "funcIdx": 250,
+  "sig": {
+   "params": [
+    "i32",
+    "i32",
+    "i32"
+   ],
+   "results": [
+    "i32"
+   ]
+  }
+ },
+ {
+  "name": "login",
+  "funcIdx": 258,
+  "sig": {
+   "params": [
+    "i32",
+    "i32"
+   ],
+   "results": [
+    "i32"
+   ]
+  }
+ },
+ {
+  "name": "__wbindgen_export_1",
+  "funcIdx": 312,
+  "sig": {
+   "params": [
+    "i32",
+    "i32"
+   ],
+   "results": [
+    "i32"
+   ]
+  }
+ },
+ {
+  "name": "__wbindgen_export_2",
+  "funcIdx": 324,
+  "sig": {
+   "params": [
+    "i32",
+    "i32",
+    "i32",
+    "i32"
+   ],
+   "results": [
+    "i32"
+   ]
+  }
+ },
+ {
+  "name": "__wbindgen_export_6",
+  "funcIdx": 376,
+  "sig": {
+   "params": [
+    "i32",
+    "i32",
+    "i32",
+    "i32"
+   ],
+   "results": []
+  }
+ },
+ {
+  "name": "__wbindgen_export_5",
+  "funcIdx": 380,
+  "sig": {
+   "params": [
+    "i32",
+    "i32",
+    "i32"
+   ],
+   "results": []
+  }
+ },
+ {
+  "name": "__wbindgen_export_0",
+  "funcIdx": 425,
+  "sig": {
+   "params": [
+    "i32"
+   ],
+   "results": []
+  }
+ },
+ {
+  "name": "__wbindgen_export_4",
+  "funcIdx": 426,
+  "sig": {
+   "params": [
+    "i32",
+    "i32",
+    "i32"
+   ],
+   "results": []
+  }
+ }
+]

@@ -1,0 +1,59 @@
+syntax = "proto3";
+// JILI 124 = 7up7down (7上7下, Extra Pay) — WebSocket 協定草稿
+// 2026-09-18 由 games/124/ws_session1.jsonl(139 frames, 真實對局) 逆向。
+// ★明文 protobuf，無加密★(與 696 的 Ed25519/X25519/AES-GCM 完全不同)。
+// 傳輸: wss://uat-fish.jlfafafa1.com/sudm/ws/<40hex>?r=0；每個 WS binary frame = 一個 Envelope。
+// 心跳: 2-byte frames(SEND/RECV)，非本檔範圍。
+
+// 通用外層。cmd 決定 body 型別；遊戲局 cmd = 22。
+message Envelope {
+  uint32 cmd  = 1;   // 22=game(下注/開獎)；其它觀察到:23,100,105,111,115 等=session/config/心跳控制
+  bytes  body = 2;   // 依 cmd 解成下列 message
+}
+
+// ── cmd 22 ──────────────────────────────────────────────────────────
+// SEND: 下注 + 開骰
+message BetReq {
+  repeated Bet bets   = 1;  // 可一注或多注(實測一次下 12 個點)
+  uint32       action = 2;  // 觀察恆 =1 (下注並開)
+  uint32       f3     = 3;  // 觀察恆 =0
+}
+message Bet {
+  double amount   = 1;  // 下注金額
+  uint32 position = 2;  // 注點 0..12 (0 會省略)。★已確認對照(單注實驗+對稱賠率反證)★:
+                        //   0=和(=7,sum7)  1=小(7down,sum<7)  2=大(7up,sum>7)
+                        //   3=sum2 4=sum3 5=sum4 6=sum5 7=sum6  8=sum8 9=sum9 10=sum10 11=sum11 12=sum12
+}
+
+// SEND: 純開骰(8B，無 bets) — 沿用場上既有注/連續開
+// 形狀同 BetReq 但 bets 為空: {action=1, f3=0}
+
+// RECV: 開獎結果
+message GameResp {
+  Result       result   = 1;  // 本局結果
+  double       balance  = 3;  // 開獎後餘額
+  uint64       round_id = 4;  // 局號(單調遞增，每局 +~26~30)
+  repeated Bet bets_echo= 5;  // 回聲這局下的注(含金額/注點)
+}
+message Result {
+  double total_win        = 1;  // 本局總贏額(贏才有；輸/0 省略)
+  uint32 die1             = 2;  // 骰子1 (1..6)
+  uint32 die2             = 3;  // 骰子2 (1..6)  → sum=die1+die2 決定 大/小/和 與命中的數字注
+  bytes  won_positions    = 4;  // 中獎注點(每 byte 一個 position；編碼待確認)
+  repeated double extra_multipliers = 5;  // ★Extra Pay★:該局隨機灑在 13 注點的額外倍率(2/5/10x)。
+                                          //   ★不是★基礎賠率(與骰子結果無關)。基礎賠率在 GameConfig.base_odds。
+}
+
+// ── cmd 23 — GameConfig(RECV 767B) ─────────────────────────────────
+message GameConfig {
+  uint64 round_id = 1;
+  // f2: repeated 6 筆(限額/幣別區塊，各 106B，含 double[13] 之類，未完整逆向)
+  repeated double base_odds = 3;  // ★基礎賠率表[13],按 position 索引★:
+     // [和=4, 小=1, 大=1, sum2=26, sum3=12, sum4=8, sum5=6, sum6=5, sum8=5, sum9=6, sum10=8, sum11=12, sum12=26]
+     // 以 sum7 對稱(骰越罕見賠越高)。
+}
+
+// ── 其它(未完整逆向) ────────────────────────────────────────────────
+// SEND handshake(58B): 帶 OS/lang/chrome/裝置。session cmd 100/105/111/115 等。
+// provably-fair: 遊戲內文「回合結果由服务器种子和该回合前3个投注组合决定」→ 伺服器權威 RNG。
+// win 公式(待與機率確認): 大概 = 命中注 × base_odds[pos] × (Extra Pay 啟用時 × extra_multipliers[pos]) × ante。

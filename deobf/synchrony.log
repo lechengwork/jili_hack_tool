@@ -1,0 +1,18 @@
+Running Simplify transformer
+Running MemberExpressionCleaner transformer
+Running LiteralMap transformer
+Running DeadCode transformer
+Running Demangle transformer
+Running StringDecoder transformer
+shifted = 0 arrays = 0
+Running Simplify transformer
+Running MemberExpressionCleaner transformer
+Running Desequence transformer
+Running ControlFlow transformer
+U0ο.o83 = Identifier
+Running Desequence transformer
+Running MemberExpressionCleaner transformer
+Running Simplify transformer
+Running DeadCode transformer
+Running Simplify transformer
+Running DeadCode transformer

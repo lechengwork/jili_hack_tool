@@ -1,0 +1,408 @@
+{
+  "idx": 984,
+  "seq": 984,
+  "type": 0,
+  "ret": 0,
+  "round_id": "24264-389440-00750696",
+  "sig_ok": true,
+  "server_time": 1789969234907,
+  "response_wire_hex": "4272cb7baa03450996ca0675ddd4ef4dbb738d08b269acb9bc381659a5fe8ced2d8788631e9d7d9ec2a7bddd27f4558f082c2c831b27a7fc36c4eccafd37ca03d88981a86f74d5e1892d07ea4dbe92294f909a1f09274ad5b43cb089f396486da54f10e9d0ef484146fcb5edd2563f336a41532ea906a9510d03522b7c65e77fd3c3f6077c018532947d084691339c279850034f1f42d0df5296545347b23c7839f537ef39bdf5581c2cc1b5dae3836fde6960ee6a9e063a34953753a6927094d9fe1d0a7dfcc6eb74cfda9f89fa4a91b6c6e0be3a87f293b598907c9a28817fdcb6b895c3adfb54ed16a7f5ee4bbb41d1feef02a2624362d4d8253e3ceb6170de8b274033a33f93c5ecd13258c40dab681f61cf9e40d8c2301f2b26c8cc72671d6e2799b7",
+  "plaintext_hex": "08dbf7eb938c342abf010a89010a050a030606040a050a030707070a050a0304040412070a0511100e120f320f08041003180221cdccccccccccfc3f320f08041003180421cdccccccccccfc3f380142050000000000610000000000002e4069cdcccccccccc0c40790ad7a3703d0aef3f9001029a01050a030000009a01050a030000009a01050a030000009a01070a050000000000120019cdcccccccccc0c4031986e1283d209f840a001e8e8daf2d1ab9cd621ba0111099a9999999999b93fca0100d201020801",
+  "payload_hex": "0a89010a050a030606040a050a030707070a050a0304040412070a0511100e120f320f08041003180221cdccccccccccfc3f320f08041003180421cdccccccccccfc3f380142050000000000610000000000002e4069cdcccccccccc0c40790ad7a3703d0aef3f9001029a01050a030000009a01050a030000009a01050a030000009a01070a050000000000120019cdcccccccccc0c4031986e1283d209f840a001e8e8daf2d1ab9cd621ba0111099a9999999999b93fca0100d201020801",
+  "envelope_fields": {
+    "1": 1789969234907,
+    "5": "0a89010a050a030606040a050a030707070a050a0304040412070a0511100e120f320f08041003180221cdccccccccccfc3f320f08041003180421cdccccccccccfc3f380142050000000000610000000000002e4069cdcccccccccc0c40790ad7a3703d0aef3f9001029a01050a030000009a01050a030000009a01050a030000009a01070a050000000000120019cdcccccccccc0c4031986e1283d209f840a001e8e8daf2d1ab9cd621ba0111099a9999999999b93fca0100d201020801"
+  },
+  "payload_decoded": [
+    {
+      "f": 1,
+      "k": "msg",
+      "v": [
+        {
+          "f": 1,
+          "k": "msg",
+          "v": [
+            {
+              "f": 1,
+              "k": "str",
+              "v": "\u0006\u0006\u0004"
+            }
+          ]
+        },
+        {
+          "f": 1,
+          "k": "msg",
+          "v": [
+            {
+              "f": 1,
+              "k": "str",
+              "v": "\u0007\u0007\u0007"
+            }
+          ]
+        },
+        {
+          "f": 1,
+          "k": "msg",
+          "v": [
+            {
+              "f": 1,
+              "k": "str",
+              "v": "\u0004\u0004\u0004"
+            }
+          ]
+        },
+        {
+          "f": 2,
+          "k": "msg",
+          "v": [
+            {
+              "f": 1,
+              "k": "str",
+              "v": "\u0011\u0010\u000e\u0012\u000f"
+            }
+          ]
+        },
+        {
+          "f": 6,
+          "k": "msg",
+          "v": [
+            {
+              "f": 1,
+              "k": "varint",
+              "v": 4
+            },
+            {
+              "f": 2,
+              "k": "varint",
+              "v": 3
+            },
+            {
+              "f": 3,
+              "k": "varint",
+              "v": 2
+            },
+            {
+              "f": 4,
+              "k": "f64",
+              "v": 1.8,
+              "i64": 4610785298501913805
+            }
+          ]
+        },
+        {
+          "f": 6,
+          "k": "msg",
+          "v": [
+            {
+              "f": 1,
+              "k": "varint",
+              "v": 4
+            },
+            {
+              "f": 2,
+              "k": "varint",
+              "v": 3
+            },
+            {
+              "f": 3,
+              "k": "varint",
+              "v": 4
+            },
+            {
+              "f": 4,
+              "k": "f64",
+              "v": 1.8,
+              "i64": 4610785298501913805
+            }
+          ]
+        },
+        {
+          "f": 7,
+          "k": "varint",
+          "v": 1
+        },
+        {
+          "f": 8,
+          "k": "msg",
+          "v": [
+            {
+              "f": 0,
+              "k": "varint",
+              "v": 0
+            },
+            {
+              "f": 0,
+              "k": "varint",
+              "v": 0
+            }
+          ]
+        },
+        {
+          "f": 12,
+          "k": "f64",
+          "v": 15.0,
+          "i64": 4624633867356078080
+        },
+        {
+          "f": 13,
+          "k": "f64",
+          "v": 3.6,
+          "i64": 4615288898129284301
+        },
+        {
+          "f": 15,
+          "k": "f64",
+          "v": 0.97,
+          "i64": 4606912202822375178
+        },
+        {
+          "f": 18,
+          "k": "varint",
+          "v": 2
+        },
+        {
+          "f": 19,
+          "k": "msg",
+          "v": [
+            {
+              "f": 1,
+              "k": "msg",
+              "v": [
+                {
+                  "f": 0,
+                  "k": "varint",
+                  "v": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "f": 19,
+          "k": "msg",
+          "v": [
+            {
+              "f": 1,
+              "k": "msg",
+              "v": [
+                {
+                  "f": 0,
+                  "k": "varint",
+                  "v": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "f": 19,
+          "k": "msg",
+          "v": [
+            {
+              "f": 1,
+              "k": "msg",
+              "v": [
+                {
+                  "f": 0,
+                  "k": "varint",
+                  "v": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "f": 19,
+          "k": "msg",
+          "v": [
+            {
+              "f": 1,
+              "k": "msg",
+              "v": [
+                {
+                  "f": 0,
+                  "k": "varint",
+                  "v": 0
+                },
+                {
+                  "f": 0,
+                  "k": "varint",
+                  "v": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "f": 2,
+      "k": "str",
+      "v": ""
+    },
+    {
+      "f": 3,
+      "k": "f64",
+      "v": 3.6,
+      "i64": 4615288898129284301
+    },
+    {
+      "f": 6,
+      "k": "f64",
+      "v": 98461.157,
+      "i64": 4681502612398435992
+    },
+    {
+      "f": 20,
+      "k": "varint",
+      "v": 2426438944000750696
+    },
+    {
+      "f": 23,
+      "k": "msg",
+      "v": [
+        {
+          "f": 1,
+          "k": "f64",
+          "v": 0.1,
+          "i64": 4591870180066957722
+        },
+        {
+          "f": 25,
+          "k": "str",
+          "v": ""
+        },
+        {
+          "f": 26,
+          "k": "msg",
+          "v": [
+            {
+              "f": 1,
+              "k": "varint",
+              "v": 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "payload_named": {
+    "_message": "SpinResult",
+    "board": {
+      "_message": "BoardDetail",
+      "reels": [
+        {
+          "_message": "Reel",
+          "symbols": [
+            6,
+            6,
+            4
+          ]
+        },
+        {
+          "_message": "Reel",
+          "symbols": [
+            7,
+            7,
+            7
+          ]
+        },
+        {
+          "_message": "Reel",
+          "symbols": [
+            4,
+            4,
+            4
+          ]
+        }
+      ],
+      "window": {
+        "_message": "SymbolWindow",
+        "symbols": [
+          17,
+          16,
+          14,
+          18,
+          15
+        ]
+      },
+      "line_wins": [
+        {
+          "_message": "LineWin",
+          "symbol_id": 4,
+          "match_count": 3,
+          "payline_index": 2,
+          "win_cash": 1.8
+        },
+        {
+          "_message": "LineWin",
+          "symbol_id": 4,
+          "match_count": 3,
+          "payline_index": 4,
+          "win_cash": 1.8
+        }
+      ],
+      "win_line_cnt": 1,
+      "nudge_pos": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "multiplier": 15.0,
+      "total_win": 3.6,
+      "rtp_const": 0.97,
+      "ante_level": 2,
+      "post_nudge": [
+        {
+          "_message": "PostNudgeState",
+          "a": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "_message": "PostNudgeState",
+          "a": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "_message": "PostNudgeState",
+          "a": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "_message": "PostNudgeState",
+          "a": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    "reserved_f2": [],
+    "total_win": 3.6,
+    "balance": 98461.157,
+    "round_id": 2426438944000750696,
+    "bet": {
+      "_message": "BetInfo",
+      "base_bet": 0.1,
+      "reserved_f25": [],
+      "ante": {
+        "_message": "Ante",
+        "level": 1
+      }
+    }
+  }
+}

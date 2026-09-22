@@ -1,0 +1,34 @@
+{
+  "data": {
+    "board": {
+      "reels": [{"symbols": [7, 7, 2]}, {"symbols": [5, 6, 6]}, {"symbols": [2, 2, 3]}],
+      "window": [12, 11, 10, 9, 19],
+      "line_wins": [],
+      "win_type": 0,
+      "multiplier": 2.0,
+      "rtp_const": 0.97,
+      "window_extra": 0,
+      "window_extra2": 0,
+      "nudge_group": 0,
+      "nudge_pos": [0, 0, 0, 0, 0],
+      "gift_pool": [],
+      "boost_symbols": [],
+      "respin_prev": [],
+      "post_nudge": [
+        {"cells": [0, 0, 0]},
+        {"cells": [0, 0, 0]},
+        {"cells": [0, 0, 0]},
+        {"cells": [0, 0, 0, 0, 0]}
+      ]
+    },
+    "total_win": 0.0,
+    "balance": 97594.837,
+    "round_id": "2412443888000320696",
+    "base_bet": 0.3,
+    "ante": "ANTE_NONE"
+  },
+  "service": {},
+  "postMoney": 97594.837,
+  "roundIndexV2": "2412443888000320696",
+  "spinReq": {"bet": 0.3, "special": {}}
+}
