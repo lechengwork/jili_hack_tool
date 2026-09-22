@@ -311,7 +311,10 @@ LIVE_RAW = os.environ.get('LIVE_RAW', '0') == '1'
 _seq_reported = [0]
 _seq_received = [0]
 
-import pwd as _pwd   # SUDO_USER uid 查詢(chown-back)
+try:
+    import pwd as _pwd   # SUDO_USER uid 查詢(chown-back);Windows 無此模組
+except ImportError:
+    _pwd = None          # Windows:_chown_back 會因無 os.geteuid 提早 return,不會用到
 def _chown_back(path):
     """跑在 sudo(root)下時,把 path 擁有者改回原使用者(SUDO_USER),讓非 sudo 的
     webcapture_finish.sh 能寫入 webcap/。非 root / 無 SUDO_USER / 失敗都靜默 no-op。"""
