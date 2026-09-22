@@ -1,3 +1,7 @@
 # Large network-capture logs (exceed GitHub's file size limits)
 games/696/netlog.json
 games/696/netlog_live.json
+
+# Chrome SafeBrowsing telemetry captured during the site mirror.
+# Filename contains ":" which is illegal on Windows and breaks checkout.
+game_site_backup/safebrowsing.googleapis.com/
