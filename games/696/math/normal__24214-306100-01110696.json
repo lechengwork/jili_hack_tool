@@ -1,0 +1,114 @@
+{
+  "data": {
+    "board": {
+      "reels": [
+        {
+          "symbols": [
+            5,
+            5,
+            1
+          ]
+        },
+        {
+          "symbols": [
+            0,
+            7,
+            7
+          ]
+        },
+        {
+          "symbols": [
+            5,
+            5,
+            5
+          ]
+        }
+      ],
+      "window": [
+        18,
+        16,
+        13,
+        16,
+        16
+      ],
+      "line_wins": [
+        {
+          "symbol_id": 5,
+          "match_count": 3,
+          "payline_index": 0,
+          "win_cash": 15.0
+        },
+        {
+          "symbol_id": 5,
+          "match_count": 3,
+          "payline_index": 3,
+          "win_cash": 15.0
+        }
+      ],
+      "win_type": 1,
+      "multiplier": 10.0,
+      "rtp_const": 0.97,
+      "window_extra": 0,
+      "window_extra2": 0,
+      "nudge_group": 0,
+      "nudge_pos": [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "gift_pool": [
+        13,
+        16,
+        18
+      ],
+      "boost_symbols": [],
+      "respin_prev": [],
+      "post_nudge": [
+        {
+          "cells": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "cells": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "cells": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "cells": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    "total_win": 30.0,
+    "balance": 994932.7825,
+    "round_id": "2421430610001110696",
+    "base_bet": 1.0,
+    "ante": "ANTE_NONE"
+  },
+  "service": {},
+  "postMoney": 994932.7825,
+  "roundIndexV2": "2421430610001110696",
+  "spinReq": {
+    "bet": 1.0,
+    "special": {}
+  }
+}
