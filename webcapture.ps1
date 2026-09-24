@@ -2,13 +2,17 @@
 # 對應 webcapture.sh。① VPN關→產token ② split hosts(只 doc 指本機) ③ 開 server(capture)
 #                    ④ VPN開→BR ⑤ 開 Chrome 連真 token 的 game_url。
 # VPN 自動切用官方 WireGuard(wireguard.exe /installtunnelservice);抓不到就退回手動。
-# 開頭跳一次 UAC(綁 443 + 改 hosts)。用法:.\webcapture.ps1 [696]
+# 開頭跳一次 UAC(綁 443 + 改 hosts)。用法:.\webcapture.ps1 <遊戲號>  例:696(route-X) / 124(明文WS)
 #   可用環境變數(會轉發給 server):MATH_OUT / LIVE_RAW / SPIN_OUT / SPIN_RAW_OUT / BR_SPIN_OUT
 
 param([string]$GID = "696")
 
 $ErrorActionPreference = "Stop"
 try { [Console]::OutputEncoding = [System.Text.Encoding]::UTF8 } catch {}
+
+# ── 分派:124 等【明文 WebSocket】遊戲走 wscapture.ps1(與 696 route-X 是兩套不同協定) ──
+#   統一入口:機率團隊永遠 .\webcapture.ps1 <遊戲號>,號碼決定走哪套,不用記兩個腳本名。
+if (@("124") -contains $GID) { & "$PSScriptRoot\wscapture.ps1" $GID; exit $LASTEXITCODE }
 
 # ── 自動提權 ──
 $ident = [Security.Principal.WindowsIdentity]::GetCurrent()

@@ -5,7 +5,8 @@
 #   ③ 開 ws_capture_server(服務 static + 注入 WS-hook shim) ④ VPN開→BR ⑤ 開 Chrome 連真 token。
 # 遊戲的 WebSocket 直連真站(uat-fish),頁面內的 shim 側錄每個明文 frame → 本機 server。
 # 用 jili host 就過 Jscrambler domain-lock,不用任何 bypass(同 696)。
-# VPN 自動切用官方 WireGuard;開頭跳一次 UAC(綁 443 + 改 hosts)。用法:.\wscapture.ps1
+# VPN 自動切用官方 WireGuard;開頭跳一次 UAC(綁 443 + 改 hosts)。
+# ★機率團隊統一用 .\webcapture.ps1 124(會自動分派到這);也可直接 .\wscapture.ps1。
 
 param([string]$GID = "124")
 

@@ -1,5 +1,7 @@
 ﻿# wscapture_finish.ps1 — 收工:把側錄的 124 WebSocket 封包攤成【機率團隊介面】。Windows 版。
-# 124 是明文 protobuf,不用解密。用法:.\wscapture_finish.ps1
+# 124 是明文 protobuf,不用解密。用法:.\webcapture_finish.ps1 124 (統一入口會分派到這;也可直接 .\wscapture_finish.ps1)
+
+param([string]$GID = "124")   # 只為相容統一入口的分派;124 目前是唯一 WS 遊戲
 
 $ErrorActionPreference = "Stop"
 try { [Console]::OutputEncoding = [System.Text.Encoding]::UTF8 } catch {}

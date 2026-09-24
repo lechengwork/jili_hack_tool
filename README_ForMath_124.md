@@ -8,9 +8,11 @@
 > cd C:\lechengwork\dyson\jili
 > ```
 
-> **124 和 696 不一樣**：124 的後端是【明文 WebSocket】，**沒有加密**。
-> 所以不用金鑰、不用解密、不用等記憶體 —— 抓到就直接看得到骰子、賠率、extra 倍率。
-> 指令換一組（`ws` 開頭）：抓 = `.\wscapture.ps1`、匯出 = `.\wscapture_finish.ps1`。
+> **指令跟 696 一模一樣，只是換遊戲號**：抓 = `.\webcapture.ps1 124`、匯出 = `.\webcapture_finish.ps1 124`。
+> （696 是 `.\webcapture.ps1 696`；號碼決定走哪套，腳本自動分派，你不用記兩個腳本名。）
+>
+> 幕後：124 的後端是【明文 WebSocket、沒有加密】，所以不用金鑰、不用解密、不用等記憶體
+> —— 抓到就直接看得到骰子、賠率、extra 倍率。跟 696 的 route-X 是兩套協定，但**你不用管**。
 
 ---
 
@@ -32,9 +34,10 @@
 ## 1. 抓封包
 
 1. `cd C:\lechengwork\dyson\jili`
-2. `.\wscapture.ps1`
+2. `.\webcapture.ps1 124`   （跟抓 696 同一個指令，只是號碼換 124）
 3. 跳 **UAC** 按「是」；VPN 會自動切（台灣產 token → 巴西擷取）。
-4. 自動開的 **Chrome** 會進遊戲。**下注 / 開骰**，或開 **autoplay** 連續轉到你要的局數。**★別開 DevTools★**。
+4. 自動開的 **Chrome** 會進 **124 七上七下（骰子）** 遊戲——一看畫面是骰子就知道抓對了（696 是 slot 轉輪）。
+   **下注 / 開骰**，或開 **autoplay** 連續轉到你要的局數。**★別開 DevTools★**。
 5. 盯著另一個 **server 視窗**：每局會印
    ```
    [ws] SEND   NNB
@@ -43,7 +46,7 @@
    看到 `[ws]` 逐筆進來 = 有抓到。**沒看到就是 WS 沒連上**（見下面疑難排解）。
 6. 轉夠了，匯出：
    ```
-   .\wscapture_finish.ps1
+   .\webcapture_finish.ps1 124
    ```
 7. 收工：`.\stop.ps1`
 
@@ -57,8 +60,8 @@
 - **`INTERFACE.md`** ← 欄位表（算 RTP 必看）。**完整規格與注意事項**（例如 position 對照的坑）在
   `games\124\EXTRA_MULT.md`。
 
-> 原料（別刪）：`games\124\webcap_ws.jsonl` 是側錄的原始 WS 封包，`wscapture_finish.ps1` 讀它。
-> 每次 `.\wscapture.ps1` 會**清空**它重抓；要累積多輪就先把它複製走。
+> 原料（別刪）：`games\124\webcap_ws.jsonl` 是側錄的原始 WS 封包，`.\webcapture_finish.ps1 124` 讀它。
+> 每次 `.\webcapture.ps1 124` 會**清空**它重抓；要累積多輪就先把它複製走。
 
 ---
 
@@ -81,9 +84,9 @@
 | 症狀 | 解法 |
 |---|---|
 | server 視窗**完全沒有 `[ws]`** | ①遊戲要真的**進到牌桌並下注/開骰**才有 WS 遊戲封包。②確認 VPN 在**巴西**。③server 視窗看有沒有 `[shim] ws-capture-shim installed`（有=shim 注入成功）。把 server 視窗整段貼給我。 |
-| server 視窗有 `[shim]` 但沒 `[ws]` | WS 沒連上真站（Origin/VPN）。確認在**巴西**、token 沒過期（重跑 `.\wscapture.ps1`）。 |
+| server 視窗有 `[shim]` 但沒 `[ws]` | WS 沒連上真站（Origin/VPN）。確認在**巴西**、token 沒過期（重跑 `.\webcapture.ps1 124`）。 |
 | server 狂洗 `[404] …​.webp`、遊戲卡 splash | 缺跨平台材質。**VPN 開巴西**後跑 `.\fetch_assets.ps1`（會掃缺圖去真站補）。 |
-| 遊戲跳「連線中斷 / MSG202」 | token 過期或 VPN 掉，重跑 `.\wscapture.ps1`。 |
+| 遊戲跳「連線中斷 / MSG202」 | token 過期或 VPN 掉，重跑 `.\webcapture.ps1 124`。 |
 | Chrome 找不到網站 / 憑證錯 | 用最新版腳本（已用 hosts + 自簽憑證 + `--ignore-certificate-errors`）。 |
 | PowerShell 紅字「執行原則」 | 先跑 `Set-ExecutionPolicy -Scope CurrentUser RemoteSigned`。 |
 | `wscapture_finish` 說「賠付公式對不上」 | 先別發樣本，把訊息貼給我（可能是抓到殘缺 frame 或協定變動）。 |
@@ -92,6 +95,6 @@
 
 ## 一句話總結
 
-- **抓封包**：`.\wscapture.ps1` → 進遊戲下注/開 autoplay → `.\wscapture_finish.ps1`。
+- **抓封包**：`.\webcapture.ps1 124` → 進遊戲下注/開 autoplay → `.\webcapture_finish.ps1 124`。
 - **要看的**：`games\124\math\EXTRA_SUMMARY.json`（extra 出現哪些倍率、每格頻率/E[extra]）。
 - 收工：`.\stop.ps1`。
