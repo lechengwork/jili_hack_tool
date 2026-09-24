@@ -1,0 +1,151 @@
+{
+  "rounds": 29,
+  "extra_values_seen": [
+    1.0,
+    2.0,
+    5.0,
+    10.0
+  ],
+  "per_position": [
+    {
+      "idx": 0,
+      "name": "小(2-6)",
+      "base_odds": 2,
+      "extra_counts": {
+        "1.0": 22,
+        "2.0": 7
+      },
+      "E_extra": 1.2414
+    },
+    {
+      "idx": 1,
+      "name": "和(7)",
+      "base_odds": 5,
+      "extra_counts": {
+        "1.0": 22,
+        "2.0": 5,
+        "5.0": 2
+      },
+      "E_extra": 1.4483
+    },
+    {
+      "idx": 2,
+      "name": "大(8-12)",
+      "base_odds": 2,
+      "extra_counts": {
+        "1.0": 23,
+        "2.0": 5,
+        "5.0": 1
+      },
+      "E_extra": 1.3103
+    },
+    {
+      "idx": 3,
+      "name": "點數2",
+      "base_odds": 27,
+      "extra_counts": {
+        "1.0": 19,
+        "2.0": 10
+      },
+      "E_extra": 1.3448
+    },
+    {
+      "idx": 4,
+      "name": "點數3",
+      "base_odds": 13,
+      "extra_counts": {
+        "1.0": 23,
+        "2.0": 6
+      },
+      "E_extra": 1.2069
+    },
+    {
+      "idx": 5,
+      "name": "點數4",
+      "base_odds": 9,
+      "extra_counts": {
+        "1.0": 27,
+        "2.0": 1,
+        "5.0": 1
+      },
+      "E_extra": 1.1724
+    },
+    {
+      "idx": 6,
+      "name": "點數5",
+      "base_odds": 7,
+      "extra_counts": {
+        "1.0": 20,
+        "2.0": 9
+      },
+      "E_extra": 1.3103
+    },
+    {
+      "idx": 7,
+      "name": "點數6",
+      "base_odds": 6,
+      "extra_counts": {
+        "1.0": 25,
+        "2.0": 2,
+        "5.0": 2
+      },
+      "E_extra": 1.3448
+    },
+    {
+      "idx": 8,
+      "name": "點數8",
+      "base_odds": 6,
+      "extra_counts": {
+        "1.0": 25,
+        "2.0": 2,
+        "5.0": 2
+      },
+      "E_extra": 1.3448
+    },
+    {
+      "idx": 9,
+      "name": "點數9",
+      "base_odds": 7,
+      "extra_counts": {
+        "1.0": 20,
+        "2.0": 7,
+        "5.0": 2
+      },
+      "E_extra": 1.5172
+    },
+    {
+      "idx": 10,
+      "name": "點數10",
+      "base_odds": 9,
+      "extra_counts": {
+        "1.0": 22,
+        "2.0": 6,
+        "5.0": 1
+      },
+      "E_extra": 1.3448
+    },
+    {
+      "idx": 11,
+      "name": "點數11",
+      "base_odds": 13,
+      "extra_counts": {
+        "1.0": 20,
+        "2.0": 7,
+        "5.0": 1,
+        "10.0": 1
+      },
+      "E_extra": 1.6897
+    },
+    {
+      "idx": 12,
+      "name": "點數12",
+      "base_odds": 27,
+      "extra_counts": {
+        "1.0": 25,
+        "2.0": 4
+      },
+      "E_extra": 1.1379
+    }
+  ],
+  "note": "extra=1 代表沒蓋;值域=實測出現過的倍率(樣本不足可能抽不到高倍，見 EXTRA_MULT.md)。"
+}

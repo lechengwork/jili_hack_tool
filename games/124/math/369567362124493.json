@@ -1,0 +1,167 @@
+{
+  "round_id": 369567362124493,
+  "dice": [
+    4,
+    1
+  ],
+  "sum": 5,
+  "total_win": 0.0,
+  "bet_total": 0.0,
+  "balance": 98611.907,
+  "extra_row_screen": [
+    2.0,
+    1.0,
+    1.0,
+    1.0,
+    2.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    2.0,
+    1.0
+  ],
+  "won_idx_screen": [
+    0,
+    6
+  ],
+  "positions": [
+    {
+      "idx": 0,
+      "name": "小(2-6)",
+      "base_odds": 2,
+      "extra": 2.0,
+      "final_odds": 3.0,
+      "bet": 0.0,
+      "won": true,
+      "win": 0.0
+    },
+    {
+      "idx": 1,
+      "name": "和(7)",
+      "base_odds": 5,
+      "extra": 1.0,
+      "final_odds": 5.0,
+      "bet": 0.0,
+      "won": false,
+      "win": 0.0
+    },
+    {
+      "idx": 2,
+      "name": "大(8-12)",
+      "base_odds": 2,
+      "extra": 1.0,
+      "final_odds": 2.0,
+      "bet": 0.0,
+      "won": false,
+      "win": 0.0
+    },
+    {
+      "idx": 3,
+      "name": "點數2",
+      "base_odds": 27,
+      "extra": 1.0,
+      "final_odds": 27.0,
+      "bet": 0.0,
+      "won": false,
+      "win": 0.0
+    },
+    {
+      "idx": 4,
+      "name": "點數3",
+      "base_odds": 13,
+      "extra": 2.0,
+      "final_odds": 25.0,
+      "bet": 0.0,
+      "won": false,
+      "win": 0.0
+    },
+    {
+      "idx": 5,
+      "name": "點數4",
+      "base_odds": 9,
+      "extra": 1.0,
+      "final_odds": 9.0,
+      "bet": 0.0,
+      "won": false,
+      "win": 0.0
+    },
+    {
+      "idx": 6,
+      "name": "點數5",
+      "base_odds": 7,
+      "extra": 1.0,
+      "final_odds": 7.0,
+      "bet": 0.0,
+      "won": true,
+      "win": 0.0
+    },
+    {
+      "idx": 7,
+      "name": "點數6",
+      "base_odds": 6,
+      "extra": 1.0,
+      "final_odds": 6.0,
+      "bet": 0.0,
+      "won": false,
+      "win": 0.0
+    },
+    {
+      "idx": 8,
+      "name": "點數8",
+      "base_odds": 6,
+      "extra": 1.0,
+      "final_odds": 6.0,
+      "bet": 0.0,
+      "won": false,
+      "win": 0.0
+    },
+    {
+      "idx": 9,
+      "name": "點數9",
+      "base_odds": 7,
+      "extra": 1.0,
+      "final_odds": 7.0,
+      "bet": 0.0,
+      "won": false,
+      "win": 0.0
+    },
+    {
+      "idx": 10,
+      "name": "點數10",
+      "base_odds": 9,
+      "extra": 1.0,
+      "final_odds": 9.0,
+      "bet": 0.0,
+      "won": false,
+      "win": 0.0
+    },
+    {
+      "idx": 11,
+      "name": "點數11",
+      "base_odds": 13,
+      "extra": 2.0,
+      "final_odds": 25.0,
+      "bet": 0.0,
+      "won": false,
+      "win": 0.0
+    },
+    {
+      "idx": 12,
+      "name": "點數12",
+      "base_odds": 27,
+      "extra": 1.0,
+      "final_odds": 27.0,
+      "bet": 0.0,
+      "won": false,
+      "win": 0.0
+    }
+  ],
+  "_check": {
+    "calc_win": 0.0,
+    "win_match": true,
+    "won_pkt_match": true
+  }
+}

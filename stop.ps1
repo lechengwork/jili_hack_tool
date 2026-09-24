@@ -13,8 +13,8 @@ if (-not (New-Object Security.Principal.WindowsPrincipal($ident)).IsInRole([Secu
 
 Write-Host "停止 JILI mock/capture…"
 
-# 1) 停 server.py
-$srv=@(Get-CimInstance Win32_Process | Where-Object { $_.CommandLine -match "routex[\\/]+server\.py" })
+# 1) 停 server.py(696 route-X)+ ws_capture_server.py(124 WS 擷取)+ ws_replay_server.py(124 回放)
+$srv=@(Get-CimInstance Win32_Process | Where-Object { $_.CommandLine -match "(routex[\\/]+server|ws_capture_server|ws_replay_server)\.py" })
 if ($srv.Count -gt 0) { $srv | ForEach-Object { Stop-Process -Id $_.ProcessId -Force -EA SilentlyContinue }; Write-Host "  ✓ server 已停($($srv.Count) 個)" } else { Write-Host "  · server 未在跑" }
 
 # 2) 關拋棄式 profile 的 Chrome(擷取/純網頁/自有域名/回放;不誤殺日常 Chrome)

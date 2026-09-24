@@ -1,0 +1,48 @@
+syntax = "proto3";
+// JILI 124 = 7up7down (七上七下 / Extra Pay) — 【機率團隊介面】乾淨 schema。
+// 對應 696 的 math_696.proto。這是 ws_math_view.py 產出的每局 JSON 形狀(全 int/double/enum，
+// 無 bytes / 無密文 / 無工程欄位)。線路上是明文 protobuf(見 ws_124.proto)，這份是攤平給機率看的。
+//
+// ★全部用【畫面順序】(idx 0..12 由上到下、由左到右) + 【含本金賠率】(win = bet × final_odds)。
+//   封包序↔畫面序的重排由遊戲層做;規格與坑見 games/124/EXTRA_MULT.md。
+
+// 一局(對應 games/124/math/<round_id>.json)
+message Round {
+  uint64 round_id      = 1;   // 局號(單調遞增)
+  repeated uint32 dice = 2;   // [die1, die2]，各 1..6
+  uint32 sum           = 3;   // die1 + die2
+  double total_win     = 4;   // 本局總贏(封包值)
+  double bet_total     = 5;   // 本局總下注
+  double balance       = 6;   // 開獎後餘額
+  repeated double extra_row_screen = 7;  // 13 格 extra 快照(畫面順序;1=無)
+  repeated uint32 won_idx_screen   = 8;  // 本局中獎格(畫面順序 idx)
+  repeated Position positions       = 9; // 13 格明細(畫面順序)
+}
+
+// 一個注區(畫面順序)
+message Position {
+  uint32 idx        = 1;  // 畫面順序 0..12
+  string name       = 2;  // 注區名(小(2-6)/和(7)/大(8-12)/點數2..點數12)
+  uint32 base_odds  = 3;  // 含本金基礎賠率(押1拿回 base_odds)
+  double extra      = 4;  // 這局這格的額外倍率(1=無;實測 {1,2,5,10}…)
+  double final_odds = 5;  // 含本金最終賠率 = (base_odds-1) × extra + 1
+  double bet        = 6;  // 這局你在這格下的注
+  bool   won        = 7;  // 這格是否中獎
+  double win        = 8;  // 賠付 = won ? bet × final_odds : 0
+}
+
+// extra 彙總(對應 EXTRA_SUMMARY.json) — 機率主看
+message ExtraSummary {
+  uint32 rounds                     = 1;  // 統計局數
+  repeated double extra_values_seen = 2;  // 實測出現過的 extra 值域
+  repeated PositionExtra per_position = 3;
+}
+message PositionExtra {
+  uint32 idx       = 1;
+  string name      = 2;
+  uint32 base_odds = 3;
+  // extra_counts: 各 extra 值 → 出現次數(JSON 是 map<string,int>，proto 用兩條平行陣列表示)
+  repeated double extra_value = 4;
+  repeated uint32 extra_count = 5;
+  double E_extra   = 6;    // 這格的平均額外倍率(= Σextra / rounds)
+}
