@@ -1,5 +1,9 @@
 # JILI 696 route X — 本地 mock harness
 
+> ⚠ **以前能重播、現在打開就卡（dateLock / j-002-00003 /「设备时间异常 MSG 8」）？**
+> 舊 build 約一個月後會觸發日期鎖 + 校時鎖。修法見 **[README_REPLAY_DATELOCK.md](README_REPLAY_DATELOCK.md)**。
+> Windows 一鍵：`.\replay_win.ps1`（自動撥回系統時鐘→重播→還原）。Mac：`./replay_cft.sh`。
+
 在本機用**真實 Chrome for Testing** 把 JILI 網頁老虎機（gameID **696**，迦罗战神500 / Fortune Garuda 500）跑起來，接自架 mock server。**協定已 100% 破解、遊戲端到端可玩、spin 可回放。**
 
 ---
