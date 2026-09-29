@@ -18,8 +18,3 @@ games/696/webcap/spins_from_math/
 # 124 live-decode outputs (per-round dumps + side-log) — local only.
 games/124/ws_rounds/
 games/124/webcap_ws.jsonl
-
-# Fetched game image assets (missing .webp, re-fetchable with BR VPN).
-# NOTE: 68 .webp in this tree ARE tracked; these are only the extra ones
-# fetched locally. If the team wants them in the repo, `git add -f` them.
-dist124/static/annin/3.8/web-mobile/assets/**/*.webp
