@@ -56,15 +56,24 @@ cd <解壓後的資料夾>        # 內含 routex\、games\696\、replay_win.ps1
 
 ---
 
-## 替代法：不想動系統時鐘（免 admin、per-process）
+## 隔離版：不動系統時鐘/hosts、可【同時玩真遊戲】（`replay_win_isolated.ps1`）
 
-用 **RunAsDate**（NirSoft 免費小工具，per-process 假時鐘、不改系統時鐘）：
-1. 下載 RunAsDate（x64）。
-2. **同時**用它包住**兩個**程式，設**同一個日期 2026-09-11**，且**勾選「Move the time forward according to the real time」**（讓時鐘正常走，避免被判「時鐘凍結」）、勾「child processes」：
-   - 一個包 `python.exe routex\server.py`（帶 replay.ps1 那組環境變數：PORT=443/TLS=1/INJECT_BUNDLE=1/REPLAY/REPLAY_SPINS）。
-   - 一個包 `chrome.exe`（帶 replay.ps1 那組旗標 + game_url）。
-3. hosts 仍需 4 host → 127.0.0.1（可先跑 `replay.ps1` 讓它設好 hosts，或手動）。
-> 兩個一定要**同一天、都勾 move-forward**，否則 server/裝置時戳對不上又會 MSG 8。系統時鐘法比較不會出錯，建議優先。
+`replay_win.ps1` 是**全機**做法（改系統時鐘 + 改 hosts），所以**重播進行中，同一台機器沒辦法同時連 JFS 玩真的**（系統時鐘被撥到 09-11、遊戲域名被導到本機 mock）。
+
+如果要**同機同時玩真遊戲**，改用 **`replay_win_isolated.ps1`**（per-process 隔離，不動系統時鐘、不動 hosts、免 admin）：
+- 時間用 **RunAsDate** 只騙 `python server` 和 replay `chrome` 兩個進程；DNS 用 Chrome `--host-resolver-rules` 只導向這個 Chrome 實例。
+- → 另開一個**正常的 Chrome** 就能同時連 JFS 玩真遊戲，互不干擾。
+
+前置：
+1. 下載 **RunAsDate**（x64，https://www.nirsoft.net/utils/run_as_date.html），放本資料夾或設 `$env:RUNASDATE`。
+2. ★先在 RunAsDate GUI 勾一次「**Inject the date/time into child processes**」★——Chrome 遊戲 JS 跑在 renderer 子進程，不勾的話子進程沒被騙時鐘 → 照樣 dateLock。
+3. `.\replay_win_isolated.ps1`（參數同上）。
+
+兩個要現場驗的坑：
+- **RunAsDate 子進程注入沒生效** → 進遊戲出 dateLock。去 GUI 勾好再跑。
+- **`--host-resolver-rules` 在某些 Windows 不穩**（這正是 `replay.ps1` 當初改用 hosts 的原因）。若 replay Chrome 一直連不到本機 mock（splash 卡死、mock log 沒 `[GET]`），就退回 `replay_win.ps1`（全機版，但就不能同機玩真的了）。
+
+> 只想穩、不需要同機玩真的 → 用 `replay_win.ps1`；真遊戲需求就拿**另一台裝置**連 JFS。要同機共存才用這支隔離版。
 
 ---
 
