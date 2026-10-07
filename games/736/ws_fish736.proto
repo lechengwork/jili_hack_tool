@@ -1,0 +1,132 @@
+syntax = "proto3";
+// JILI 736 = Jackpot Fishing 2 (魚機 / fishing) WS 協定。
+// 明文 protobuf,零加密。傳輸 wss://uat-fish.jlfafafa1.com/v23/ws/<40hex>
+// 外層 Envelope{f1=cmd, f2=body};握手兩幀無 envelope(見 Welcome/DeviceHello)。
+// 欄位編號 = 實測 wire 欄位(proto3 省略預設值)。金流模型見 WS_PROTOCOL.md / ws_fish736_view.py。
+
+package jili.fish736;
+
+// ── 外層信封 ──────────────────────────────────────────────
+message Envelope {
+  uint32 cmd  = 1;   // 指令碼
+  bytes  body = 2;   // 依 cmd 解
+}
+
+// ── 握手(無 envelope,WS 開啟後裸送/裸收)──────────────────
+message DeviceHello {       // SEND,第一幀
+  string os       = 1;      // "OS X"
+  string lang     = 2;      // "zh-CN"
+  message Client {
+    string browser = 1;     // "chrome"
+    string version = 2;     // "154.0.0.0"
+    uint32 width   = 4;     // 1920
+    uint32 height  = 5;     // 1080
+    float  dpr     = 6;     // 1.0
+  }
+  Client client   = 3;
+  string platform = 5;      // "Macintosh"
+}
+
+message Welcome {           // RECV,第一幀(328B)
+  message Session {
+    uint64 session_id = 1;
+    string account    = 2;  // "ix6tryplayer002usd898e00"
+    message Wallet {
+      uint32 kind      = 1;
+      double balance   = 2; // 起始餘額
+      double min_bet   = 3; // 0.1
+      double f4        = 4; // 32.5
+      string currency  = 5; // "$"
+      uint32 decimals  = 6; // 4
+    }
+    Wallet wallet     = 4;
+    double rate       = 5;  // 0.97
+    uint64 session_id2= 6;
+  }
+  Session session = 3;
+  uint32 f6       = 6;
+  message Opt { uint32 f1 = 1; bytes f2 = 2; }
+  Opt    f7       = 7;
+  message BetLadder { bytes doubles = 3; }  // packed double[],下注級距 0.1/0.2/...
+  BetLadder ladder = 8;
+}
+
+// ── 遊戲迴圈 ──────────────────────────────────────────────
+// SEND cmd22 = 發射子彈
+message FireReq {
+  message Bullet { uint32 bullet_id = 1; double bet = 3; }
+  Bullet bullet = 1;
+  message Aim { float x = 1; float y = 2; }  // f32 瞄準向量
+  Aim    aim    = 2;
+  bytes  f3     = 3;   // 空
+}
+
+// SEND cmd23 = 宣稱命中魚
+message HitReq {
+  message Bullet { uint32 bullet_id = 1; double bet = 3; }
+  Bullet bullet = 1;
+  message Target { uint32 fish_id = 1; uint32 f2 = 2; } // fish_id=畫面實例(transient)
+  Target target = 2;
+  uint32 f3     = 3;   // 1
+}
+
+// RECV cmd25 = 開砲結算 ★機率核心★  (餘額 = 前餘額 − bet*power + payout)
+message ShotResult {
+  message Meta {
+    uint32 bullet_id  = 1;
+    uint32 power_flag = 2;  // 砲台等級旗標 → power 倍數(1/缺→x1, 6→x5;見 WS_PROTOCOL)
+    double bet        = 3;  // 下注基數(coin);成本 = bet × power
+  }
+  Meta meta = 2;
+  message Catch {
+    uint32 fish_id = 1;     // 畫面實例 id(非魚種)
+    double payout  = 2;     // 配當 = bet × M(魚倍率,整數)
+    bytes  effect3 = 3;     // AoE/連鎖波及的魚(視覺,RTP 不需要)
+    bytes  effect4 = 4;     // 同上(另一種效果結構)
+  }
+  Catch  catch_   = 5;      // 捕獲才有;無=miss
+  double balance  = 6;      // 結算後餘額
+  double f7       = 7;      // 1.0
+  uint64 tick     = 8;      // 伺服器 tick/seed(多發可共用)
+}
+
+// RECV cmd24 = 作廢的一發(魚已不在)→ 金流淨 0,RTP 排除
+message ShotVoid {
+  message Bullet { uint32 bullet_id = 1; double bet = 3; }
+  Bullet bullet  = 1;
+  double bet2    = 2;   // = bet(未實際扣)
+  double balance = 3;   // 不變
+}
+
+// ── 目錄 / 設定 ───────────────────────────────────────────
+message FishCatalog {      // RECV cmd82(1521B):魚種清單
+  message Entry { uint32 type_id = 1; }   // 16411001..16444001
+  repeated Entry fish = 1;
+  uint32 start_ts = 3;
+  uint32 end_ts   = 4;
+  // f5... = 賽程/魚種屬性(含 type_id, 子項)
+}
+message SceneConfig { bytes data = 1; }   // RECV cmd45(5291B):場景/魚群設定
+
+// ── 彩金 / 副功能 ─────────────────────────────────────────
+message JackpotPools {     // RECV cmd28:四層彩金池(會累積跳動)
+  double grand = 1;        // ~40000
+  double major = 2;        // ~5000
+  double minor = 3;        // ~500
+  double mini  = 4;        // ~50
+}
+message BigWin {           // RECV cmd30:大獎公告
+  string account = 1;
+  uint32 f2      = 2;
+  double mult    = 3;      // 690 / 222 ...
+  uint32 f4      = 4;
+  double net     = 5;
+}
+message Pickup {           // RECV cmd46:金幣/道具拾取(側收入)
+  bytes  pos    = 1;       // 座標
+  double amount = 2;       // +0.017 / 0.086 ...
+}
+
+// 其他:cmd50=心跳(2B);cmd92=餘額快照{f1,f3=bal};cmd21=進遊戲;
+//       cmd95/100=session;cmd115=語言;cmd27(裸)→cmd31 ack/cmd28/cmd30;
+//       cmd25(裸 SEND)→cmd28;cmd40/140/143/144/146=狀態同步。

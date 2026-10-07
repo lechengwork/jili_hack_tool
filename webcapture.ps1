@@ -12,7 +12,7 @@ try { [Console]::OutputEncoding = [System.Text.Encoding]::UTF8 } catch {}
 
 # ── 分派:124 等【明文 WebSocket】遊戲走 wscapture.ps1(與 696 route-X 是兩套不同協定) ──
 #   統一入口:機率團隊永遠 .\webcapture.ps1 <遊戲號>,號碼決定走哪套,不用記兩個腳本名。
-if (@("124") -contains $GID) { & "$PSScriptRoot\wscapture.ps1" $GID; exit $LASTEXITCODE }
+if (@("124","94","736") -contains $GID) { & "$PSScriptRoot\wscapture.ps1" $GID; exit $LASTEXITCODE }
 
 # ── 自動提權 ──
 $ident = [Security.Principal.WindowsIdentity]::GetCurrent()

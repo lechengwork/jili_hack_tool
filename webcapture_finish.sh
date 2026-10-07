@@ -8,6 +8,8 @@ set -euo pipefail
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"; cd "$ROOT"
 PY="$ROOT/.venv/bin/python3"
 GID="${1:-696}"
+# ── 分派:124/94/736 等【明文 WebSocket】遊戲走 wscapture_finish.sh(與 696 route-X 兩套不同) ──
+case " 124 94 736 " in *" $GID "*) exec "$ROOT/wscapture_finish.sh" "$GID";; esac
 JSONL="games/$GID/webcap_exchanges.jsonl"
 ARR="games/$GID/webcap/fg5_exchanges.json"
 OUTDIR="games/$GID/webcap"

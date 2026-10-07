@@ -8,7 +8,7 @@ $ErrorActionPreference = "Stop"
 try { [Console]::OutputEncoding = [System.Text.Encoding]::UTF8 } catch {}
 
 # ── 分派:124 等【明文 WebSocket】遊戲走 wscapture_finish.ps1(統一入口) ──
-if (@("124") -contains $GID) { & "$PSScriptRoot\wscapture_finish.ps1" $GID; exit $LASTEXITCODE }
+if (@("124","94","736") -contains $GID) { & "$PSScriptRoot\wscapture_finish.ps1" $GID; exit $LASTEXITCODE }
 
 $ROOT = $PSScriptRoot; Set-Location -LiteralPath $ROOT
 $env:PYTHONUTF8 = "1"

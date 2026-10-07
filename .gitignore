@@ -18,3 +18,8 @@ games/696/webcap/spins_from_math/
 # 124 live-decode outputs (per-round dumps + side-log) — local only.
 games/124/ws_rounds/
 games/124/webcap_ws.jsonl
+
+# JILI 736 魚機:肥大的原始側錄 / 大資料(機率隊自己抓,不進版控)
+games/736/webcap_ws.jsonl
+games/736/raw_sessions/
+games/736/math/shots.jsonl

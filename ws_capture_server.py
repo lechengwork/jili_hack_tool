@@ -23,7 +23,7 @@ env: PORT(預設 8443；Windows 擷取用 443) HOST(預設 127.0.0.1)
      CERT/KEY(TLS，預設 dist124/cert.pem, dist124/key.pem)  TLS(1=開，預設 1)
      VERBOSE(1=印每個請求)
 """
-import json, os, ssl, sys, threading, time
+import json, os, ssl, sys, threading, time, urllib.request
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from urllib.parse import urlsplit, unquote
 
@@ -37,6 +37,11 @@ CERT = os.environ.get('CERT', os.path.join(HERE, 'dist124', 'cert.pem'))
 KEY = os.environ.get('KEY', os.path.join(HERE, 'dist124', 'key.pem'))
 TLS = os.environ.get('TLS', '1') != '0'
 VERBOSE = os.environ.get('VERBOSE', '0') != '0'
+# 根路徑 '/' 要導去哪個 index(124=sudm;Rummy 走 /rummy/index.html,Chrome 直接開,通常不會打到根)
+DOC_INDEX = os.environ.get('DOC_INDEX', '/sudm/index.html')
+# 非空 = 鏡像缺檔時自動從【真 doc host】補抓並快取(自我補完鏡像;需 VPN 在 BR)。
+#   例: ORIGIN=https://uat-wbgame.jlfafafa3.com  (server 自己的 DNS 不受 Chrome --host-resolver-rules 影響 → 解到真站)
+ORIGIN = os.environ.get('ORIGIN', '')
 
 CTYPE = {'.html':'text/html','.js':'application/javascript','.mjs':'application/javascript',
          '.json':'application/json','.css':'text/css','.png':'image/png','.jpg':'image/jpeg',
@@ -67,6 +72,35 @@ def safe_static(path):
     if full != root and not full.startswith(root + os.sep):
         return None
     return full
+
+
+_BF_CTX = ssl.create_default_context()
+_BF_CTX.check_hostname = False
+_BF_CTX.verify_mode = ssl.CERT_NONE   # doc host TLS 容錯(同 Chrome --ignore-certificate-errors)
+
+def backfill(path, full):
+    """鏡像缺檔:從 ORIGIN(真 doc host)補抓該 path,快取到 full,服務之。回 True=補到。
+    只在 ORIGIN 非空時呼叫;任何失敗都回 False(維持原本 404 行為)。"""
+    if not ORIGIN:
+        return False
+    try:
+        url = ORIGIN.rstrip('/') + path
+        req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+        with urllib.request.urlopen(req, timeout=15, context=_BF_CTX) as r:
+            if getattr(r, 'status', 200) != 200:
+                return False
+            data = r.read()
+        os.makedirs(os.path.dirname(full), exist_ok=True)
+        with open(full, 'wb') as f:
+            f.write(data)
+        with _lock:
+            _stats['backfill'] = _stats.get('backfill', 0) + 1
+        print('  [backfill] %s (%d B) ← %s' % (path, len(data), ORIGIN), flush=True)
+        return True
+    except Exception as e:
+        if VERBOSE:
+            print('  [backfill-fail] %s :: %s' % (path, e), flush=True)
+        return False
 
 
 class H(BaseHTTPRequestHandler):
@@ -114,16 +148,20 @@ class H(BaseHTTPRequestHandler):
             return
 
         if p == '/' or p == '':
-            p = '/sudm/index.html'
+            p = DOC_INDEX
+        elif p.endswith('/'):
+            p = p + 'index.html'   # 目錄請求(如 /fish23/)→ 補 index.html
 
         full = safe_static(p)
         if not full or not os.path.isfile(full):
-            with _lock:
-                _stats['miss'] += 1
-            if VERBOSE:
-                print('  [404] ' + p, flush=True)
-            self._send(404, 'not found: ' + p)
-            return
+            # 鏡像缺檔:若設了 ORIGIN,從真 doc host 補抓並快取(自我補完),補到就往下服務
+            if not (full and backfill(p, full) and os.path.isfile(full)):
+                with _lock:
+                    _stats['miss'] += 1
+                if VERBOSE:
+                    print('  [404] ' + p, flush=True)
+                self._send(404, 'not found: ' + p)
+                return
 
         with open(full, 'rb') as f:
             data = f.read()
@@ -182,7 +220,7 @@ def main():
         httpd.socket = ctx.wrap_socket(httpd.socket, server_side=True)
     else:
         scheme = 'http'
-    print('── JILI 124 實時擷取 server ──', flush=True)
+    print('── JILI WS 實時擷取 server ──', flush=True)
     print('  listen   %s://%s:%d' % (scheme, HOST, PORT), flush=True)
     print('  static   %s' % STATIC, flush=True)
     print('  shim     %s (%d bytes) → 注入 system.bundle' % (SHIM_PATH, len(SHIM_SRC)), flush=True)
