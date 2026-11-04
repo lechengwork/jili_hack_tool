@@ -12,6 +12,7 @@ import urllib.request
 ap = argparse.ArgumentParser()
 ap.add_argument('--login-json', default=str(Path(__file__).resolve().parent / 'login_session.local.json'))
 ap.add_argument('--seconds', type=int, default=3600)
+ap.add_argument('--netlog', help='Optional local Chrome network diagnostic JSON (may contain private URLs)')
 args = ap.parse_args()
 r = json.loads(Path(args.login_json).read_text())
 if isinstance(r, list):
@@ -27,7 +28,8 @@ for attempt in range(2):
         'https://127.0.0.1:8807/fg1000/src/polyfills.bundle.5adbf.js',
         context=ssl._create_unverified_context(), timeout=30,
     ) as response:
-        if b'/fg1000/req' in response.read():
+        shim = response.read()
+        if b'/fg1000/req' in shim and b'getRandomValues hooked' in shim:
             break
 else:
     raise SystemExit('807 capture shim is missing')
@@ -36,7 +38,8 @@ p = subprocess.Popen([
     '--user-data-dir=' + tempfile.mkdtemp(prefix='jili-807-capture-'),
     '--host-resolver-rules=MAP uat-wbgame.jlfafafa3.com 127.0.0.1:8807',
     '--ignore-certificate-errors', '--disable-quic', '--no-first-run',
-    '--no-default-browser-check', '--disable-features=ChromeWhatsNewUI', url,
+    '--no-default-browser-check', '--disable-features=ChromeWhatsNewUI',
+    *(['--log-net-log=' + str(Path(args.netlog).resolve())] if args.netlog else []), url,
 ], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
 Path('/tmp/jili807_capture_pid').write_text(str(p.pid))
 print('807 capture Chrome pid=%s player_id=%s' % (p.pid, r.get('player_id', '?')), flush=True)

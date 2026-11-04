@@ -33,7 +33,10 @@ import decrypt_capture as dc
 import fg5
 
 # Keep the existing wasm/grv hooks; capture the new game's endpoint.
-server.WASM_SHIM = (HERE / 'wasm_patch_shim.js').read_text().replace('/fg5/req', '/fg1000/req')
+# server has already selected capture_shim (real keys), not the offline mock shim.
+server.WASM_SHIM = server.WASM_SHIM.replace('/fg5/req', '/fg1000/req')
+if 'getRandomValues hooked' not in server.WASM_SHIM or 'patchBytes' in server.WASM_SHIM:
+    raise RuntimeError('807 requires passive capture shim; refusing a mock key patch')
 lock = threading.Lock()
 if resume_key:
     server._cap_key = bytes.fromhex(resume_key['key'])
