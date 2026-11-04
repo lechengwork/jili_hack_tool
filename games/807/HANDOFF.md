@@ -53,3 +53,7 @@ f17索引2仍未出現；f9雖有重複兩筆，但內容皆空。8×有升級�
 早期v2提交 a0d6bbe2 的capture_server誤以離線mock公鑰替換shim覆蓋server已選好的被動capture_shim。此版本可能真站登入後999.2且沒有exchanges，不能僅據此斷言後端故障。修正版保留server的被動capture_shim，只改807端點；啟動與open_capture預檢均檢查getRandomValues抓包標記，server並拒絕帶patchBytes的mock shim。離線mock仍使用自己獨立的公鑰替換shim，不變更既有2399局與機率資料。
 
 需要額外診斷時可加 `--netlog games/807/runtime/netlog-local.json`；檔案可能含登入網址，僅留本機，勿上傳原始netlog。
+
+## SPIN即時機率JSON
+
+每筆成功SPIN現在會立即寫 `games/807/math/<單號>.json` 與 `webcap/<session>/math/<單號>.json`，不必等finish。518同樣支援；錯誤保留、同單號修改保護及補轉流程見根目錄 `LIVE_MATH_CAPTURE.md`。

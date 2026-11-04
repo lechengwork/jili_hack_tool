@@ -31,6 +31,9 @@ sys.path.insert(0, str(ROOT / 'routex'))
 import server
 import decrypt_capture as dc
 import fg5
+from live_math import export_spin, format_status
+sys.path.insert(0, str(HERE))
+from math_adapter import wire_to_math, math_to_wire
 
 # Keep the existing wasm/grv hooks; capture the new game's endpoint.
 server.WASM_SHIM = server.WASM_SHIM.replace('/fg5/req', '/cj/req')
@@ -84,13 +87,14 @@ def live_decode(rec):
         d = dc.decrypt_response(bytes.fromhex(rec['resp_body_hex']), server._cap_key)
         if not d['_sig_ok']:
             raise ValueError('518 response signature verification failed')
-        # Only generic wire decoding here. Never feed this payload into the 696 adapter.
+        # Raw capture is durable before game-specific math export; never use the 696 codec.
         d['idx'] = rec.get('seq')
         d['kind'] = dc.kind_of(fg5.parse_fields(req.get(2, b'')))
         with (SESSION / 'exchanges_ordered.jsonl').open('a') as f:
             f.write(json.dumps(d, ensure_ascii=False) + '\n')
+        math_status = format_status(export_spin(d, HERE, SESSION, wire_to_math, math_to_wire))
         return '[518 decode] seq=%s type=%s ret=%s payload=%sB signature=OK' % (
-            d['idx'], d['type'], d['ret'], d['len'])
+            d['idx'], d['type'], d['ret'], d['len']) + math_status
 
 
 server._live_decode = live_decode
