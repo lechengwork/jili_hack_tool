@@ -7,7 +7,7 @@ from pathlib import Path
 import struct
 
 HERE = Path(__file__).resolve().parent
-SCHEMA = json.loads((HERE / 'math_schema.json').read_text())
+SCHEMA = json.loads((HERE / 'math_schema.json').read_text(encoding='utf-8'))
 
 
 def varint(value):
@@ -249,13 +249,13 @@ def math_to_wire(env):
 
 def selftest(directory=None):
     directory = Path(directory or HERE / 'math')
-    vectors = [json.loads(l) for l in (directory / 'roundtrip_vectors.jsonl').read_text().splitlines() if l]
+    vectors = [json.loads(l) for l in (directory / 'roundtrip_vectors.jsonl').read_text(encoding='utf-8').splitlines() if l]
     for v in vectors:
         wire = bytes.fromhex(v['response_payload_hex'])
         env = wire_to_math(wire)
         if math_to_wire(env) != wire or encode_message(env['data']).hex() != v['payload_hex']:
             raise ValueError('Round-trip mismatch: ' + env['roundIndexV2'])
-        sample = json.loads((directory / (env['roundIndexV2'] + '.json')).read_text())
+        sample = json.loads((directory / (env['roundIndexV2'] + '.json')).read_text(encoding='utf-8'))
         validate(sample)
     print('PASS: %s original payload and full-envelope byte round-trips; math JSON samples valid' % len(vectors))
 
@@ -271,8 +271,8 @@ if __name__ == '__main__':
     if args.selftest:
         selftest(args.math_dir)
     elif args.encode and args.out:
-        Path(args.out).write_bytes(math_to_wire(json.loads(Path(args.encode).read_text())))
+        Path(args.out).write_bytes(math_to_wire(json.loads(Path(args.encode).read_text(encoding='utf-8'))))
     elif args.decode and args.out:
-        Path(args.out).write_text(json.dumps(wire_to_math(Path(args.decode).read_bytes()), indent=2) + '\n')
+        Path(args.out).write_text(json.dumps(wire_to_math(Path(args.decode).read_bytes()), indent=2) + '\n', encoding='utf-8')
     else:
         ap.error('Use --selftest, or --encode/--decode with --out')

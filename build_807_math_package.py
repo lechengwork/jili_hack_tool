@@ -10,7 +10,7 @@ marker=STAGE/'.generated_807_package'
 if STAGE.exists():
  if not marker.exists():raise RuntimeError('Refusing to replace an unrecognized dist807_math directory')
  shutil.rmtree(STAGE)
-STAGE.mkdir();marker.write_text('build_807_math_package.py\n')
+STAGE.mkdir();marker.write_text('build_807_math_package.py\n', encoding='utf-8')
 def copy(source,dest=None):
  target=STAGE/(dest or source);target.parent.mkdir(parents=True,exist_ok=True);shutil.copyfile(ROOT/source,target)
 for name in ['replay_807.py','replay_807.cmd','replay_807.ps1','requirements_807.txt','LIVE_MATH_CAPTURE.md']:copy(name)
@@ -31,26 +31,26 @@ for command in [
  [sys.executable,'-B',str(STAGE/'games/807/verify_math.py')]]:
  subprocess.run(command,cwd=str(STAGE),env=env,check=True)
 # Build reports come from actual checks, not hard-coded success values.
-coverage=json.loads((STAGE/'games/807/math/COVERAGE.json').read_text())
-protocol=json.loads((STAGE/'games/807/mock_validation.json').read_text())
-editing=json.loads((STAGE/'games/807/math/EDIT_VALIDATION.json').read_text())
+coverage=json.loads((STAGE/'games/807/math/COVERAGE.json').read_text(encoding='utf-8'))
+protocol=json.loads((STAGE/'games/807/mock_validation.json').read_text(encoding='utf-8'))
+editing=json.loads((STAGE/'games/807/math/EDIT_VALIDATION.json').read_text(encoding='utf-8'))
 report={'samples':coverage['samples'],'byte_roundtrips':coverage['wire_roundtrips'],'compiled_protobuf_roundtrips':coverage['independent_compiled_protobuf_roundtrips'],'standalone_https':protocol,'edited_math_http':editing,'macos_wire_browser':'user confirmed entry and consecutive spins','macos_edited_math_browser':'not yet visually verified','windows_browser':'not tested on a Windows host','captured_credentials_included':False,'private_keys':'local mock signing/encryption keys only; not live server keys','schema_scope':'2399 spins; repeated f9 contexts and all observed fields preserved. Unseen f17[2] and nonempty f9 remain undefined; see INTERFACE.md.'}
-(STAGE/'VALIDATION.json').write_text(json.dumps(report,indent=2)+'\n')
+(STAGE/'VALIDATION.json').write_text(json.dumps(report,indent=2)+'\n', encoding='utf-8')
 shutil.rmtree(STAGE/'games/807/runtime',ignore_errors=True)
 # No original login, auth token or per-session key may enter the output.
 sys.path.insert(0,str(ROOT/'routex'));import fg5
 secrets=set()
 config_path=ROOT/'config.json'
 if config_path.exists():
- for account in json.loads(config_path.read_text()).get('login_accounts',{}).values():
+ for account in json.loads(config_path.read_text(encoding='utf-8')).get('login_accounts',{}).values():
   if isinstance(account,dict) and account.get('token'):secrets.add(account['token'].encode())
 for session in (GAME/'webcap').glob('*'):
  if not session.is_dir():continue
- for line in (session/'exchanges.jsonl').read_text().splitlines() if (session/'exchanges.jsonl').exists() else []:
+ for line in (session/'exchanges.jsonl').read_text(encoding='utf-8').splitlines() if (session/'exchanges.jsonl').exists() else []:
   token=fg5.parse_fields(bytes.fromhex(json.loads(line)['req_body_hex'])).get(3,b'')
   if len(token)>=16:secrets.add(token)
- if (session/'key.json').exists():secrets.add(bytes.fromhex(json.loads((session/'key.json').read_text())['key']))
- for line in (session/'grv.jsonl').read_text().splitlines() if (session/'grv.jsonl').exists() else []:
+ if (session/'key.json').exists():secrets.add(bytes.fromhex(json.loads((session/'key.json').read_text(encoding='utf-8'))['key']))
+ for line in (session/'grv.jsonl').read_text(encoding='utf-8').splitlines() if (session/'grv.jsonl').exists() else []:
   raw=bytes.fromhex(json.loads(line)['out'])
   if len(raw)>=32:secrets.add(raw)
 patterns=[pattern for secret in secrets for pattern in (secret,secret.hex().encode())]
@@ -60,7 +60,7 @@ for file in sorted(STAGE.rglob('*')):
   content=file.read_bytes()
   if any(pattern in content for pattern in patterns):raise RuntimeError('Captured credential found in staged file: '+str(file.relative_to(STAGE)))
   manifest[file.relative_to(STAGE).as_posix()]=hashlib.sha256(content).hexdigest()
-(STAGE/'MANIFEST.sha256.json').write_text(json.dumps(manifest,indent=2)+'\n')
+(STAGE/'MANIFEST.sha256.json').write_text(json.dumps(manifest,indent=2)+'\n', encoding='utf-8')
 with zipfile.ZipFile(ARCHIVE,'w',zipfile.ZIP_DEFLATED,compresslevel=6) as z:
  for file in sorted(STAGE.rglob('*')):
   if file.is_file():z.write(file,'jili_807_math_test/'+file.relative_to(STAGE).as_posix())

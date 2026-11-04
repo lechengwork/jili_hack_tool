@@ -33,16 +33,16 @@ else:
         sock.bind(('127.0.0.1', 0))
         port = sock.getsockname()[1]
     (HERE / 'runtime').mkdir(exist_ok=True)
-    log = (HERE / 'runtime/verification.log').open('w')
+    log = (HERE / 'runtime/verification.log').open('w', encoding='utf-8')
     process = subprocess.Popen([sys.executable, '-B', '-u', str(HERE / 'mock_server.py')],
                                env=dict(os.environ, MOCK_PORT=str(port), REPLAY_SOURCE=args.source), stdout=log, stderr=log)
 
 url = 'https://127.0.0.1:%s' % port
 ctx = ssl._create_unverified_context()
-keys = json.loads((HERE.parent.parent / 'routex/mockkeys.json').read_text())
+keys = json.loads((HERE.parent.parent / 'routex/mockkeys.json').read_text(encoding='utf-8'))
 signer = ed25519.Ed25519PublicKey.from_public_bytes(bytes.fromhex(keys['ed25519_pub']))
 server_pub = x25519.X25519PublicKey.from_public_bytes(bytes.fromhex(keys['x25519_pub']))
-rows = json.loads((HERE / 'replay_samples.json').read_text())
+rows = json.loads((HERE / 'replay_samples.json').read_text(encoding='utf-8'))
 spins = [r for r in rows if r['type'] == 0 and r['ret'] == 0]
 if args.source == 'math':
     from math_adapter import math_to_wire
@@ -50,7 +50,7 @@ if args.source == 'math':
     directory = Path(os.environ.get('MATH_DIR', str(HERE / 'math')))
     for file in sorted(directory.glob('*.json')):
         if not file.stem.isdigit():continue
-        sample = json.loads(file.read_text())
+        sample = json.loads(file.read_text(encoding='utf-8'))
         raw = math_to_wire(sample)
         info = fg5.parse_fields(fg5.parse_fields(raw)[23])
         action = fg5.enc_tag(1, 1) + info[1] + fg5.field_bytes(25, b'\x08\0\x10\0\x20\0')
@@ -136,7 +136,7 @@ try:
               'balance_polling_verified': True, 'client_isolation_verified': True,
               'unsupported_actions_rejected': True, 'synthetic_sso_verified': True,
               'utf8_headers_verified': True, 'browser_visual_verification': 'pending'}
-    (HERE / 'mock_validation.json').write_text(json.dumps(report, indent=2) + '\n')
+    (HERE / 'mock_validation.json').write_text(json.dumps(report, indent=2) + '\n', encoding='utf-8')
     print(json.dumps(report))
 finally:
     if process and process.poll() is None:

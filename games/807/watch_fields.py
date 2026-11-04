@@ -21,7 +21,7 @@ MULT = {9:1,10:2,11:3,12:5,13:10,14:15,15:20,16:25,17:50,21:0}
 def atomic_json(path, value):
     path.parent.mkdir(parents=True, exist_ok=True)
     tmp = path.with_suffix(path.suffix + '.tmp')
-    tmp.write_text(json.dumps(value, ensure_ascii=False, indent=2) + '\n')
+    tmp.write_text(json.dumps(value, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     tmp.replace(path)
 
 
@@ -100,7 +100,7 @@ class Monitor:
         self.state = {'version':2,'baseline_sha256':fingerprint,'seen':{},'known':{},'examples':{},
                       'baseline_rounds':0,'new_rounds':0,'special_rounds':0,'last_spin':None,
                       'last_activity':None,'cursors':{},'status':'waiting_for_capture'}
-        for row in json.loads(baseline.read_text()):
+        for row in json.loads(baseline.read_text(encoding='utf-8')):
             if row['type'] == 0 and row['ret'] == 0:
                 raw=bytes.fromhex(row['raw_hex']);f=features(raw)
                 self.state['seen'][f['round_id']]=hashlib.sha256(raw).hexdigest()
@@ -109,7 +109,7 @@ class Monitor:
                     self.remember(kind,key)
         saved=self.directory/'state.json'
         if resume and saved.exists():
-            previous=json.loads(saved.read_text())
+            previous=json.loads(saved.read_text(encoding='utf-8'))
             if previous.get('version')!=2 or previous.get('baseline_sha256')!=fingerprint:
                 raise ValueError('Baseline changed; use a new --out directory to preserve evidence')
             self.state=previous
@@ -157,7 +157,7 @@ class Monitor:
         if rid:event['round_id']=rid
         if details is not None:event['details']=details
         if evidence:event['evidence']=str(evidence)
-        with (self.directory/'events.jsonl').open('a') as output:
+        with (self.directory/'events.jsonl').open('a', encoding='utf-8') as output:
             output.write(json.dumps(event,ensure_ascii=False)+'\n')
         notice_key=kind+':'+str((details or {}).get('path',''))
         counts=self.state.setdefault('notice_counts',{})
@@ -322,7 +322,7 @@ def main():
     try:
         while True:
             pointer=HERE/'current_session.txt'
-            session=Path(args.session) if args.session else Path(pointer.read_text().strip()) if pointer.exists() else None
+            session=Path(args.session) if args.session else Path(pointer.read_text(encoding='utf-8').strip()) if pointer.exists() else None
             old=monitor.state['new_rounds']
             if session:monitor.scan(session)
             if monitor.state['new_rounds']>old:idle_reported=False

@@ -30,7 +30,7 @@ p = subprocess.Popen([
     '--disable-background-networking', '--disable-component-update',
     '--no-default-browser-check', '--disable-features=ChromeWhatsNewUI,DnsOverHttps', url,
 ], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
-(HERE / 'mock_runtime.json').write_text(json.dumps({'chrome_pid':p.pid,'url':url}))
+(HERE / 'mock_runtime.json').write_text(json.dumps({'chrome_pid':p.pid,'url':url}), encoding='utf-8')
 print('[807 mock] Chrome pid=%s; all hosts map to localhost:%s' % (p.pid, port), flush=True)
 try:
     p.wait()

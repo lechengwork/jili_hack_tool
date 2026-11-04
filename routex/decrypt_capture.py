@@ -124,7 +124,7 @@ def load_grv_outputs(path):
     Accepts jsonl/json lines each with an 'out'/'bytes'/'hex' hex field, or a
     json list of hex strings. Any >=32-byte output contributes its first 32 bytes."""
     outs = []
-    txt = open(path).read().strip()
+    txt = open(path, encoding='utf-8').read().strip()
     def grab(o):
         if isinstance(o, str):
             h = o
@@ -185,7 +185,7 @@ def kind_of(af):
 
 
 def run(exchanges_path, grv_path, priv_hex, out_path, key_hex=None):
-    exch = json.load(open(exchanges_path))
+    exch = json.load(open(exchanges_path, encoding='utf-8'))
     # client_pub (f4) — must be identical across the session (one ephemeral key).
     pubs = set()
     for e in exch:
@@ -260,12 +260,12 @@ def run(exchanges_path, grv_path, priv_hex, out_path, key_hex=None):
                                  'time': d.get('time', 0), 'pt_hex': d.get('pt_hex'),
                                  'raw': d['raw'], 'decoded': d['decoded']}, ensure_ascii=False))
     if out_path:
-        open(out_path, 'w').write('\n'.join(lines) + '\n')
+        open(out_path, 'w', encoding='utf-8').write('\n'.join(lines) + '\n')
         print(f'[wrote] {out_path} ({len(lines)} distinct types: {sorted(seen)})')
         # ALSO write the FULL ORDERED session — server.py replays this (cycles spin boards, switches
         # to the post-spin balance). This is what makes >2 captured spins show up in the mock.
         ordered = os.path.join(os.path.dirname(out_path) or '.', 'exchanges_ordered.jsonl')
-        with open(ordered, 'w') as f:
+        with open(ordered, 'w', encoding='utf-8') as f:
             for d in rows:
                 f.write(json.dumps({'idx': d['idx'], 'kind': d['kind'], 'reqlen': d['reqlen'],
                                     'type': d['type'], 'ret': d['ret'], 'len': d['len'],
@@ -323,6 +323,6 @@ if __name__ == '__main__':
     else:
         priv, key = a.priv, a.key
         if a.grab:
-            g = json.load(open(a.grab))
+            g = json.load(open(a.grab, encoding='utf-8'))
             priv = priv or g.get('priv'); key = key or g.get('key')
         run(a.exchanges, a.grv, priv, a.out, key_hex=key)

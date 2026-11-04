@@ -192,7 +192,7 @@ def main():
         sys.exit("[錯誤] 一張都沒產到")
 
     if args.save:
-        remaining = sum(1 for l in pool.read_text().splitlines()
+        remaining = sum(1 for l in pool.read_text(encoding='utf-8').splitlines()
                         if l.strip() and not json.loads(l).get("used"))
         print(f"\n[池] 這次新增 {len(results)} 張，池內未用共 {remaining} 張 → {pool}", file=sys.stderr)
         print(f"     開 VPN 後： ./.venv/bin/python jili_capture.py {args.gameid} --no-proxy --from-pool", file=sys.stderr)

@@ -14,7 +14,7 @@ from urllib.parse import urlsplit
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parent.parent
 PORT = int(os.environ.get('MOCK_PORT', '8808'))
-ROWS = json.loads((HERE / 'replay_samples.json').read_text())
+ROWS = json.loads((HERE / 'replay_samples.json').read_text(encoding='utf-8'))
 # Override inherited capture/replay settings explicitly; no original 696 samples.
 os.environ.update(STATIC=str(HERE / 'static'), HOST='127.0.0.1', PORT=str(PORT),
                   TLS='1', GAME_PATH='/fg1000/', CAPTURE='0', LIVE_DECODE='0',
@@ -26,8 +26,8 @@ sys.path.insert(0, str(ROOT / 'routex'))
 import server
 import fg5
 
-server.WASM_SHIM = (HERE / 'wasm_patch_shim.js').read_text()
-server.WASM_SHIM = (ROOT / 'routex/err_probe_shim.js').read_text() + '\n' + server.WASM_SHIM
+server.WASM_SHIM = (HERE / 'wasm_patch_shim.js').read_text(encoding='utf-8')
+server.WASM_SHIM = (ROOT / 'routex/err_probe_shim.js').read_text(encoding='utf-8') + '\n' + server.WASM_SHIM
 server.SHARED_ROOT = str(HERE / 'static')
 server.SAMPLES = {}
 by_action = defaultdict(list)
