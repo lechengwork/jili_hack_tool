@@ -1,0 +1,24 @@
+{
+  "login": {
+    "url": "https://aggregate.gamejar.cc/api/LoginGame",
+    "method": "POST",
+    "body": {
+      "device": 1,
+      "language": "zh-CN",
+      "player_id": "test002",
+      "game_id": "111{gameid:06d}"
+    },
+    "token_path": "data.game_url",
+    "headers": {
+      "Content-Type": "application/json",
+      "authorization": "bearer <YOUR_INR_AGENT_JWT>"
+    }
+  },
+  "login_accounts": {
+    "inr": {
+      "token": "<YOUR_INR_AGENT_JWT>",
+      "player_id": "test002",
+      "currency": "INR"
+    }
+  }
+}

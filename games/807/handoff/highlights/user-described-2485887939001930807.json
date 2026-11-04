@@ -1,0 +1,617 @@
+{
+  "round_id": "2485887939001930807",
+  "source": "/Users/dyson/Downloads/jili_hack_tool/games/807/webcap/20261103-131653",
+  "idx": 429,
+  "user_description": "跑出很多選項，最後手上那格跑出100，然後中間Super Wild 2選二次",
+  "screenshot_observations": [
+    "x15 initial display",
+    "Super Wild 1/2 with x15",
+    "Super Wild 0/2 with x35",
+    "Super Wild 0/2 with x140 and counter05/05"
+  ],
+  "observations": {
+    "round_id": "2485887939001930807",
+    "bet": 1.0,
+    "win": 56.0,
+    "outer_win": 56.0,
+    "lines": [
+      {
+        "symbol": 1,
+        "cash": 56.0
+      }
+    ],
+    "win_type": 5,
+    "multiplier": 140,
+    "reel": [
+      14,
+      16,
+      14,
+      16,
+      14,
+      16,
+      15,
+      15,
+      18,
+      15
+    ],
+    "slots13": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "slots17": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "f9_present": true,
+    "f9_nonempty": false,
+    "f21": 0.97,
+    "special_fields": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "idx": 429,
+    "extra": {
+      "6": [
+        {
+          "1": 15
+        },
+        {
+          "1": 21,
+          "2": 5
+        }
+      ],
+      "7": [
+        {
+          "1": 19
+        },
+        {
+          "1": 21,
+          "2": 8
+        },
+        {
+          "1": 15
+        },
+        {
+          "1": 21,
+          "2": 5
+        },
+        {
+          "1": 16
+        },
+        {
+          "1": 20
+        }
+      ],
+      "8": [
+        [
+          5
+        ]
+      ],
+      "9": [
+        []
+      ],
+      "22": [
+        2
+      ]
+    }
+  },
+  "calculation": {
+    "board": [
+      [
+        1,
+        2,
+        2
+      ],
+      [
+        8,
+        7,
+        7
+      ],
+      [
+        1,
+        6,
+        6
+      ]
+    ],
+    "position_marks": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "f6_multiplier_sum": 20,
+    "original_center_symbol": 14,
+    "original_center_value": 15,
+    "selected_reel_sum": 120,
+    "sum": 140,
+    "stages": [
+      {
+        "steps": 5,
+        "added": 105,
+        "cumulative": 140
+      }
+    ]
+  },
+  "payload_hex": "0aa9010a050a030102020a050a030807070a050a0301060612050a0300000012050a0302000012050a0300000012070a0500000000001a0c0a0a0e100e100e100f0f120f3202080f3204081510053a0208133a04081510083a02080f3a04081510053a0208103a0208144201054a005a0f080110031801210000000000004c4060056a0500000000008a0105000000000090018c0199010000000000004c40a9010ad7a3703d0aef3fb001021200190000000000004c4031295c8fc21507c140a001b7a88d9d8ebde9bf22ba011109000000000000f03fca0100d201020801",
+  "field_tree": [
+    {
+      "field": 1,
+      "wire": 2,
+      "name": "data",
+      "raw_hex": "0a050a030102020a050a030807070a050a0301060612050a0300000012050a0302000012050a0300000012070a0500000000001a0c0a0a0e100e100e100f0f120f3202080f3204081510053a0208133a04081510083a02080f3a04081510053a0208103a0208144201054a005a0f080110031801210000000000004c4060056a0500000000008a0105000000000090018c0199010000000000004c40a9010ad7a3703d0aef3fb00102",
+      "children": [
+        {
+          "field": 1,
+          "wire": 2,
+          "name": "reels",
+          "raw_hex": "0a03010202",
+          "children": [
+            {
+              "field": 1,
+              "wire": 2,
+              "name": "values",
+              "raw_hex": "010202"
+            }
+          ]
+        },
+        {
+          "field": 1,
+          "wire": 2,
+          "name": "reels",
+          "raw_hex": "0a03080707",
+          "children": [
+            {
+              "field": 1,
+              "wire": 2,
+              "name": "values",
+              "raw_hex": "080707"
+            }
+          ]
+        },
+        {
+          "field": 1,
+          "wire": 2,
+          "name": "reels",
+          "raw_hex": "0a03010606",
+          "children": [
+            {
+              "field": 1,
+              "wire": 2,
+              "name": "values",
+              "raw_hex": "010606"
+            }
+          ]
+        },
+        {
+          "field": 2,
+          "wire": 2,
+          "name": "nudge_marks",
+          "raw_hex": "0a03000000",
+          "children": [
+            {
+              "field": 1,
+              "wire": 2,
+              "name": "values",
+              "raw_hex": "000000"
+            }
+          ]
+        },
+        {
+          "field": 2,
+          "wire": 2,
+          "name": "nudge_marks",
+          "raw_hex": "0a03020000",
+          "children": [
+            {
+              "field": 1,
+              "wire": 2,
+              "name": "values",
+              "raw_hex": "020000"
+            }
+          ]
+        },
+        {
+          "field": 2,
+          "wire": 2,
+          "name": "nudge_marks",
+          "raw_hex": "0a03000000",
+          "children": [
+            {
+              "field": 1,
+              "wire": 2,
+              "name": "values",
+              "raw_hex": "000000"
+            }
+          ]
+        },
+        {
+          "field": 2,
+          "wire": 2,
+          "name": "nudge_marks",
+          "raw_hex": "0a050000000000",
+          "children": [
+            {
+              "field": 1,
+              "wire": 2,
+              "name": "values",
+              "raw_hex": "0000000000"
+            }
+          ]
+        },
+        {
+          "field": 3,
+          "wire": 2,
+          "name": "multiplier_reel",
+          "raw_hex": "0a0a0e100e100e100f0f120f",
+          "children": [
+            {
+              "field": 1,
+              "wire": 2,
+              "name": "values",
+              "raw_hex": "0e100e100e100f0f120f"
+            }
+          ]
+        },
+        {
+          "field": 6,
+          "wire": 2,
+          "name": "effect_symbols_f6",
+          "raw_hex": "080f",
+          "children": [
+            {
+              "field": 1,
+              "wire": 0,
+              "name": "symbol_id",
+              "value": 15
+            }
+          ]
+        },
+        {
+          "field": 6,
+          "wire": 2,
+          "name": "effect_symbols_f6",
+          "raw_hex": "08151005",
+          "children": [
+            {
+              "field": 1,
+              "wire": 0,
+              "name": "symbol_id",
+              "value": 21
+            },
+            {
+              "field": 2,
+              "wire": 0,
+              "name": "count",
+              "value": 5
+            }
+          ]
+        },
+        {
+          "field": 7,
+          "wire": 2,
+          "name": "effect_symbols_f7",
+          "raw_hex": "0813",
+          "children": [
+            {
+              "field": 1,
+              "wire": 0,
+              "name": "symbol_id",
+              "value": 19
+            }
+          ]
+        },
+        {
+          "field": 7,
+          "wire": 2,
+          "name": "effect_symbols_f7",
+          "raw_hex": "08151008",
+          "children": [
+            {
+              "field": 1,
+              "wire": 0,
+              "name": "symbol_id",
+              "value": 21
+            },
+            {
+              "field": 2,
+              "wire": 0,
+              "name": "count",
+              "value": 8
+            }
+          ]
+        },
+        {
+          "field": 7,
+          "wire": 2,
+          "name": "effect_symbols_f7",
+          "raw_hex": "080f",
+          "children": [
+            {
+              "field": 1,
+              "wire": 0,
+              "name": "symbol_id",
+              "value": 15
+            }
+          ]
+        },
+        {
+          "field": 7,
+          "wire": 2,
+          "name": "effect_symbols_f7",
+          "raw_hex": "08151005",
+          "children": [
+            {
+              "field": 1,
+              "wire": 0,
+              "name": "symbol_id",
+              "value": 21
+            },
+            {
+              "field": 2,
+              "wire": 0,
+              "name": "count",
+              "value": 5
+            }
+          ]
+        },
+        {
+          "field": 7,
+          "wire": 2,
+          "name": "effect_symbols_f7",
+          "raw_hex": "0810",
+          "children": [
+            {
+              "field": 1,
+              "wire": 0,
+              "name": "symbol_id",
+              "value": 16
+            }
+          ]
+        },
+        {
+          "field": 7,
+          "wire": 2,
+          "name": "effect_symbols_f7",
+          "raw_hex": "0814",
+          "children": [
+            {
+              "field": 1,
+              "wire": 0,
+              "name": "symbol_id",
+              "value": 20
+            }
+          ]
+        },
+        {
+          "field": 8,
+          "wire": 2,
+          "name": "effect_indices_f8",
+          "raw_hex": "05"
+        },
+        {
+          "field": 9,
+          "wire": 2,
+          "name": "effect_context_f9",
+          "raw_hex": ""
+        },
+        {
+          "field": 11,
+          "wire": 2,
+          "name": "line_wins",
+          "raw_hex": "080110031801210000000000004c40",
+          "children": [
+            {
+              "field": 1,
+              "wire": 0,
+              "name": "symbol_id",
+              "value": 1
+            },
+            {
+              "field": 2,
+              "wire": 0,
+              "name": "match_count",
+              "value": 3
+            },
+            {
+              "field": 3,
+              "wire": 0,
+              "name": "payline_index",
+              "value": 1
+            },
+            {
+              "field": 4,
+              "wire": 1,
+              "name": "win_cash",
+              "raw_hex": "0000000000004c40",
+              "double": 56.0
+            }
+          ]
+        },
+        {
+          "field": 12,
+          "wire": 0,
+          "name": "win_type",
+          "value": 5
+        },
+        {
+          "field": 13,
+          "wire": 2,
+          "name": "effect_slots_f13",
+          "raw_hex": "0000000000"
+        },
+        {
+          "field": 17,
+          "wire": 2,
+          "name": "effect_slots_f17",
+          "raw_hex": "0000000000"
+        },
+        {
+          "field": 18,
+          "wire": 0,
+          "name": "multiplier",
+          "value": 140
+        },
+        {
+          "field": 19,
+          "wire": 1,
+          "name": "total_win",
+          "raw_hex": "0000000000004c40",
+          "double": 56.0
+        },
+        {
+          "field": 21,
+          "wire": 1,
+          "name": "config_value_f21",
+          "raw_hex": "0ad7a3703d0aef3f",
+          "double": 0.97
+        },
+        {
+          "field": 22,
+          "wire": 0,
+          "name": "unknown",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "field": 2,
+      "wire": 2,
+      "name": "service",
+      "raw_hex": ""
+    },
+    {
+      "field": 3,
+      "wire": 1,
+      "name": "total_win",
+      "raw_hex": "0000000000004c40",
+      "double": 56.0
+    },
+    {
+      "field": 6,
+      "wire": 1,
+      "name": "postMoney",
+      "raw_hex": "295c8fc21507c140",
+      "double": 8718.17
+    },
+    {
+      "field": 20,
+      "wire": 0,
+      "name": "round_id",
+      "value": 2485887939001930807
+    },
+    {
+      "field": 23,
+      "wire": 2,
+      "name": "bet",
+      "raw_hex": "09000000000000f03fca0100d201020801",
+      "children": [
+        {
+          "field": 1,
+          "wire": 1,
+          "name": "bet",
+          "raw_hex": "000000000000f03f",
+          "double": 1.0
+        },
+        {
+          "field": 25,
+          "wire": 2,
+          "name": "special",
+          "raw_hex": ""
+        },
+        {
+          "field": 26,
+          "wire": 2,
+          "name": "unknown",
+          "raw_hex": "0801"
+        }
+      ]
+    }
+  ],
+  "source_image_names": [
+    "codex-clipboard-670b7047-7e78-4d69-8b3b-f03990a743d1.png",
+    "codex-clipboard-04b77839-ff99-4606-8f88-05c58757bb76.png",
+    "codex-clipboard-bc12e9ff-4939-4d0f-bc54-d84dd58aa85a.png",
+    "codex-clipboard-6c8b29eb-c3b2-4ce2-b2cb-dd3ecd4b1142.png"
+  ],
+  "visual_packet_alignment": {
+    "mode": {
+      "base_bet": 1.0,
+      "ante_level": 2,
+      "paid_bet": 8.0,
+      "screenshot_bet": 8
+    },
+    "super_wild": {
+      "symbol_id": 8,
+      "position": [
+        1,
+        0
+      ],
+      "position_mark": 2,
+      "user_observed_selections": 2,
+      "f6_count": 2
+    },
+    "initial_multiplier": 15,
+    "selection_1": {
+      "f6_symbol_id": 15,
+      "value": 20,
+      "cumulative_multiplier": 35
+    },
+    "selection_2": {
+      "f6_symbol_id": 21,
+      "ex_nudge_count": 5,
+      "f8": [
+        5
+      ],
+      "f9_occurrences": 1,
+      "added_multiplier_values": [
+        25,
+        15,
+        25,
+        20,
+        20
+      ],
+      "added_sum": 105,
+      "final_multiplier": 140
+    },
+    "f7_unselected_remainder": [
+      "500x",
+      "Ex Nudge 8",
+      "20x",
+      "Ex Nudge 5",
+      "25x",
+      "1000x"
+    ],
+    "observed_full_pool_count": 8,
+    "f6_selected_count": 2,
+    "f7_remaining_count": 6,
+    "visible_100x_note": "User reported seeing 100x during the animation. The final selected list f6 contains 20x and Ex Nudge 5. In the final screenshot, 100x is below the selected center and is outside the summed reel slice; do not add it as an independent selection."
+  },
+  "semantic_status": "Sequential user screenshots and packet align: Super Wild selects two from eight; f6 is the selected list in application order, f7 is the unselected remainder. Initial15+selected20+five Ex-Nudge results105=140. This confirms this case; unseen combinations still require preservation.",
+  "preserved_images": "games/807/monitor/highlights/images/2485887939001930807"
+}

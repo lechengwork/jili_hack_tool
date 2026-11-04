@@ -1,0 +1,11 @@
+{
+  "original_win": 10.5,
+  "edited_win": 4.2,
+  "original_multiplier": 5,
+  "edited_multiplier": 2,
+  "encrypted_http_replay": "passed",
+  "balance_polling": "passed",
+  "invalid_totals_rejected": true,
+  "unverified_nonempty_f9_rejected": true,
+  "invalid_geometry_rejected": true
+}

@@ -1,0 +1,22 @@
+{
+  "paused_at": "2026-11-03T16:09:26.864418+08:00",
+  "capture_stopped": true,
+  "monitor_status": "stopped",
+  "session": "/Users/dyson/Downloads/jili_hack_tool/games/807/webcap/20261103-131653",
+  "verified_responses": 1432,
+  "successful_spins_this_session": 706,
+  "unsuccessful_spin_replies": 1,
+  "baseline_spins": 241,
+  "new_spins_all_sessions": 2158,
+  "total_successful_spins": 2399,
+  "special_rounds_new_sessions": 60,
+  "last_error": {
+    "type": 0,
+    "ret": 304,
+    "signature_verified": true,
+    "message": "single wallet process error"
+  },
+  "all_signatures_valid": true,
+  "diagnosis_scope": "The last signed game API reply is type0/ret304 with message single wallet process error. This identifies a backend wallet-processing error response; it does not prove session expiry, elapsed runtime as the cause, or local packet loss.",
+  "resume": "Fresh LoginGame URL, new capture session; resume the existing passive monitor state."
+}

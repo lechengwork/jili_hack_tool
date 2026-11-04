@@ -1,0 +1,107 @@
+{
+  "scope": "Observed win_type=5 samples; semantic names remain candidates",
+  "cases": [
+    {
+      "round_id": "2484728019000030807",
+      "f6_count": 2,
+      "f7_count": 6,
+      "total_eight": true,
+      "selected_nudge_counts": [],
+      "f8": [],
+      "f8_matches_selected_nudges": true,
+      "f9_occurrences": 0,
+      "f9_count_matches_nudges": true,
+      "reel_length_matches": true
+    },
+    {
+      "round_id": "2484734099000550807",
+      "f6_count": 3,
+      "f7_count": 5,
+      "total_eight": true,
+      "selected_nudge_counts": [
+        4
+      ],
+      "f8": [
+        4
+      ],
+      "f8_matches_selected_nudges": true,
+      "f9_occurrences": 1,
+      "f9_count_matches_nudges": true,
+      "reel_length_matches": true
+    },
+    {
+      "round_id": "2485672979000380807",
+      "f6_count": 2,
+      "f7_count": 6,
+      "total_eight": true,
+      "selected_nudge_counts": [],
+      "f8": [],
+      "f8_matches_selected_nudges": true,
+      "f9_occurrences": 0,
+      "f9_count_matches_nudges": true,
+      "reel_length_matches": true
+    },
+    {
+      "round_id": "2485684995000470807",
+      "f6_count": 4,
+      "f7_count": 4,
+      "total_eight": true,
+      "selected_nudge_counts": [
+        10
+      ],
+      "f8": [
+        10
+      ],
+      "f8_matches_selected_nudges": true,
+      "f9_occurrences": 1,
+      "f9_count_matches_nudges": true,
+      "reel_length_matches": true
+    },
+    {
+      "round_id": "2485715891000290807",
+      "f6_count": 2,
+      "f7_count": 6,
+      "total_eight": true,
+      "selected_nudge_counts": [
+        10
+      ],
+      "f8": [
+        10
+      ],
+      "f8_matches_selected_nudges": true,
+      "f9_occurrences": 1,
+      "f9_count_matches_nudges": true,
+      "reel_length_matches": true
+    },
+    {
+      "round_id": "2485726355000730807",
+      "f6_count": 2,
+      "f7_count": 6,
+      "total_eight": true,
+      "selected_nudge_counts": [
+        15,
+        10
+      ],
+      "f8": [
+        15,
+        10
+      ],
+      "f8_matches_selected_nudges": true,
+      "f9_occurrences": 2,
+      "f9_count_matches_nudges": true,
+      "reel_length_matches": true
+    },
+    {
+      "round_id": "2485741187001210807",
+      "f6_count": 2,
+      "f7_count": 6,
+      "total_eight": true,
+      "selected_nudge_counts": [],
+      "f8": [],
+      "f8_matches_selected_nudges": true,
+      "f9_occurrences": 0,
+      "f9_count_matches_nudges": true,
+      "reel_length_matches": true
+    }
+  ]
+}

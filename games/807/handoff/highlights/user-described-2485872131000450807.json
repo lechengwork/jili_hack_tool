@@ -1,0 +1,345 @@
+{
+  "round_id": "2485872131000450807",
+  "source": "/Users/dyson/Downloads/jili_hack_tool/games/807/webcap/20261103-131653",
+  "idx": 274,
+  "user_description": "手上有方塊在跑，最後跑在 Nudge 5",
+  "screenshot_observations": "Counter 05/05, final multiplier x11; a different visible reel position shows Ex Nudge 50. Do not equate that visible 50 with the selected 5.",
+  "image_source": "/var/folders/z5/r666s9jd7xqgvttw5vvfdf380000gn/T/codex-clipboard-9c5fa3f5-dc76-4eec-8943-5103c2e7d3a0.png",
+  "observations": {
+    "round_id": "2485872131000450807",
+    "bet": 1.0,
+    "win": 4.4,
+    "outer_win": 4.4,
+    "lines": [
+      {
+        "symbol": 1,
+        "cash": 4.4
+      }
+    ],
+    "win_type": 3,
+    "multiplier": 11,
+    "reel": [
+      10,
+      9,
+      21,
+      12,
+      21,
+      10,
+      10,
+      10,
+      21,
+      12
+    ],
+    "slots13": [
+      0,
+      9,
+      0,
+      0,
+      0
+    ],
+    "slots17": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "f9_present": false,
+    "f9_nonempty": false,
+    "f21": 0.97,
+    "special_fields": [
+      4,
+      5
+    ],
+    "idx": 274,
+    "extra": {
+      "4": [
+        3
+      ],
+      "5": [
+        [
+          2
+        ]
+      ]
+    }
+  },
+  "calculation": {
+    "selected_symbols": [
+      21,
+      12,
+      21,
+      10,
+      10,
+      10
+    ],
+    "sum": 11,
+    "reel_length": 10
+  },
+  "payload_hex": "0a7f0a050a030201010a050a030404010a050a0301010112050a0300000012050a0300000012050a0300000012070a0500000300021a0c0a0a0a09150c150a0a0a150c20032a01025a0f080110031802219a9999999999114060036a0500090000008a0105000000000090010b99019a99999999991140a9010ad7a3703d0aef3f1200199a9999999999114031295c8fc2952fc140a001f7fdccea84f1e5bf22ba010c09000000000000f03fca0100",
+  "field_tree": [
+    {
+      "field": 1,
+      "wire": 2,
+      "name": "data",
+      "raw_hex": "0a050a030201010a050a030404010a050a0301010112050a0300000012050a0300000012050a0300000012070a0500000300021a0c0a0a0a09150c150a0a0a150c20032a01025a0f080110031802219a9999999999114060036a0500090000008a0105000000000090010b99019a99999999991140a9010ad7a3703d0aef3f",
+      "children": [
+        {
+          "field": 1,
+          "wire": 2,
+          "name": "reels",
+          "raw_hex": "0a03020101",
+          "children": [
+            {
+              "field": 1,
+              "wire": 2,
+              "name": "values",
+              "raw_hex": "020101"
+            }
+          ]
+        },
+        {
+          "field": 1,
+          "wire": 2,
+          "name": "reels",
+          "raw_hex": "0a03040401",
+          "children": [
+            {
+              "field": 1,
+              "wire": 2,
+              "name": "values",
+              "raw_hex": "040401"
+            }
+          ]
+        },
+        {
+          "field": 1,
+          "wire": 2,
+          "name": "reels",
+          "raw_hex": "0a03010101",
+          "children": [
+            {
+              "field": 1,
+              "wire": 2,
+              "name": "values",
+              "raw_hex": "010101"
+            }
+          ]
+        },
+        {
+          "field": 2,
+          "wire": 2,
+          "name": "nudge_marks",
+          "raw_hex": "0a03000000",
+          "children": [
+            {
+              "field": 1,
+              "wire": 2,
+              "name": "values",
+              "raw_hex": "000000"
+            }
+          ]
+        },
+        {
+          "field": 2,
+          "wire": 2,
+          "name": "nudge_marks",
+          "raw_hex": "0a03000000",
+          "children": [
+            {
+              "field": 1,
+              "wire": 2,
+              "name": "values",
+              "raw_hex": "000000"
+            }
+          ]
+        },
+        {
+          "field": 2,
+          "wire": 2,
+          "name": "nudge_marks",
+          "raw_hex": "0a03000000",
+          "children": [
+            {
+              "field": 1,
+              "wire": 2,
+              "name": "values",
+              "raw_hex": "000000"
+            }
+          ]
+        },
+        {
+          "field": 2,
+          "wire": 2,
+          "name": "nudge_marks",
+          "raw_hex": "0a050000030002",
+          "children": [
+            {
+              "field": 1,
+              "wire": 2,
+              "name": "values",
+              "raw_hex": "0000030002"
+            }
+          ]
+        },
+        {
+          "field": 3,
+          "wire": 2,
+          "name": "multiplier_reel",
+          "raw_hex": "0a0a0a09150c150a0a0a150c",
+          "children": [
+            {
+              "field": 1,
+              "wire": 2,
+              "name": "values",
+              "raw_hex": "0a09150c150a0a0a150c"
+            }
+          ]
+        },
+        {
+          "field": 4,
+          "wire": 0,
+          "name": "extra_steps",
+          "value": 3
+        },
+        {
+          "field": 5,
+          "wire": 2,
+          "name": "extra_step_chain",
+          "raw_hex": "02"
+        },
+        {
+          "field": 11,
+          "wire": 2,
+          "name": "line_wins",
+          "raw_hex": "080110031802219a99999999991140",
+          "children": [
+            {
+              "field": 1,
+              "wire": 0,
+              "name": "symbol_id",
+              "value": 1
+            },
+            {
+              "field": 2,
+              "wire": 0,
+              "name": "match_count",
+              "value": 3
+            },
+            {
+              "field": 3,
+              "wire": 0,
+              "name": "payline_index",
+              "value": 2
+            },
+            {
+              "field": 4,
+              "wire": 1,
+              "name": "win_cash",
+              "raw_hex": "9a99999999991140",
+              "double": 4.4
+            }
+          ]
+        },
+        {
+          "field": 12,
+          "wire": 0,
+          "name": "win_type",
+          "value": 3
+        },
+        {
+          "field": 13,
+          "wire": 2,
+          "name": "effect_slots_f13",
+          "raw_hex": "0009000000"
+        },
+        {
+          "field": 17,
+          "wire": 2,
+          "name": "effect_slots_f17",
+          "raw_hex": "0000000000"
+        },
+        {
+          "field": 18,
+          "wire": 0,
+          "name": "multiplier",
+          "value": 11
+        },
+        {
+          "field": 19,
+          "wire": 1,
+          "name": "total_win",
+          "raw_hex": "9a99999999991140",
+          "double": 4.4
+        },
+        {
+          "field": 21,
+          "wire": 1,
+          "name": "config_value_f21",
+          "raw_hex": "0ad7a3703d0aef3f",
+          "double": 0.97
+        }
+      ]
+    },
+    {
+      "field": 2,
+      "wire": 2,
+      "name": "service",
+      "raw_hex": ""
+    },
+    {
+      "field": 3,
+      "wire": 1,
+      "name": "total_win",
+      "raw_hex": "9a99999999991140",
+      "double": 4.4
+    },
+    {
+      "field": 6,
+      "wire": 1,
+      "name": "postMoney",
+      "raw_hex": "295c8fc2952fc140",
+      "double": 8799.17
+    },
+    {
+      "field": 20,
+      "wire": 0,
+      "name": "round_id",
+      "value": 2485872131000450807
+    },
+    {
+      "field": 23,
+      "wire": 2,
+      "name": "bet",
+      "raw_hex": "09000000000000f03fca0100",
+      "children": [
+        {
+          "field": 1,
+          "wire": 1,
+          "name": "bet",
+          "raw_hex": "000000000000f03f",
+          "double": 1.0
+        },
+        {
+          "field": 25,
+          "wire": 2,
+          "name": "special",
+          "raw_hex": ""
+        }
+      ]
+    }
+  ],
+  "semantic_status": "Correlate hand-held selection animation with packet flags; retain distinction between selected Nudge count and surrounding reel symbols.",
+  "supported_correlations": {
+    "selection_animation": "User describes a cycling block in the character hand",
+    "f13_index1": 9,
+    "old_symbol_candidate": "9 = 1x, whereas initial selected result in the emitted reel is 21 (Ex Nudge)",
+    "initial_steps_f4": 3,
+    "chain_steps_f5": [
+      2
+    ],
+    "total_steps": 5,
+    "counter_matches_screenshot": true,
+    "multiplier_sum": 11,
+    "scope": "The final total of five is confirmed. Whether the hand selection itself displayed 5 or the final counter was 5 is not independently confirmed."
+  }
+}

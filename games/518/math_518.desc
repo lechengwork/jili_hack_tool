@@ -1,0 +1,50 @@
+
+¬
+math_518.protojili.math.v518"R
+SpinRequest
+bet (Rbet1
+special (2.jili.math.v518.SpecialRspecial"B
+Special7
+	context23 (2.jili.math.v518.Context23R	context23"S
+	Context23
+field1 (Rfield1
+field2 (Rfield2
+field3 (Rfield3"
+Column
+Col (RCol"w
+	AwardData
+Symbol (RSymbol
+Count (RCount
+LineNum (RLineNum
+Win (RWin
+Pos (RPos"Ÿ
+ComboStageInfoB
+ComboStageSymbol (2.jili.math.v518.ColumnRComboStageSymbol
+	ComboMult (R	ComboMult$
+ComboStageWin (RComboStageWin=
+AwardDataVec (2.jili.math.v518.AwardDataRAwardDataVec8
+FillSymbols (2.jili.math.v518.ColumnRFillSymbols$
+NeedEliminate (RNeedEliminate4
+	Eliminate (2.jili.math.v518.ColumnR	Eliminate
+IsMain (RIsMain
+MaxFlag	 (RMaxFlag"Ã
+	RoundInfoF
+ComboStageData (2.jili.math.v518.ComboStageInfoRComboStageData
+RoundWin (RRoundWin"
+ScatterCount (RScatterCount(
+FreeRemainRound (RFreeRemainRound&
+FreeTotalRound (RFreeTotalRound
+	AddRounds (R	AddRounds$
+AwardTypeFlag (RAwardTypeFlag
+MaxFlag (RMaxFlag"î
+SpinAck9
+
+RoundQueue (2.jili.math.v518.RoundInfoR
+RoundQueue"
+FreeTotalWin (RFreeTotalWin
+BuyType (RBuyType
+TotalWin (RTotalWin
+AckType (RAckType
+RTP (RRTP
+LID (RLID
+RID (RRIDB'Z%jili/games/518/mathproto;mathproto518bproto3

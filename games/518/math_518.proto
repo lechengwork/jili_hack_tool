@@ -1,0 +1,57 @@
+syntax = "proto3";
+package jili.math.v518;
+option go_package = "jili/games/518/mathproto;mathproto518";
+
+// 機率輸入：bet 是基礎下注。special.context23 是工程原樣傳遞的數值上下文，語意待確認。
+message SpinRequest { double bet = 1; Special special = 2; }
+message Special { Context23 context23 = 23; }
+message Context23 { int32 field1 = 1; int32 field2 = 2; double field3 = 3; }
+
+// 機率輸出：填 SpinAck，放在 JSON 外圈 data。餘額與單號由遊戲層處理。
+// 所有符號、flag、索引保留原始編碼；未驗證的 enum 不另猜名稱。
+// 規格與樣本限制見 math/INTERFACE.md；本檔無 bytes、無加密欄位。
+message Column {
+  repeated int32 Col = 1;
+}
+
+message AwardData {
+  int32 Symbol = 1;
+  int32 Count = 2;
+  int32 LineNum = 3;
+  double Win = 4;
+  repeated int32 Pos = 5;
+}
+
+message ComboStageInfo {
+  repeated Column ComboStageSymbol = 1;
+  double ComboMult = 2;
+  double ComboStageWin = 3;
+  repeated AwardData AwardDataVec = 4;
+  repeated Column FillSymbols = 5;
+  bool NeedEliminate = 6;
+  repeated Column Eliminate = 7;
+  bool IsMain = 8;
+  bool MaxFlag = 9;
+}
+
+message RoundInfo {
+  repeated ComboStageInfo ComboStageData = 1;
+  double RoundWin = 2;
+  int32 ScatterCount = 3;
+  int32 FreeRemainRound = 4;
+  int32 FreeTotalRound = 5;
+  int32 AddRounds = 6;
+  int32 AwardTypeFlag = 7;
+  bool MaxFlag = 8;
+}
+
+message SpinAck {
+  repeated RoundInfo RoundQueue = 1;
+  double FreeTotalWin = 2;
+  int32 BuyType = 3;
+  double TotalWin = 4;
+  int32 AckType = 5;
+  double RTP = 6;
+  int32 LID = 7;
+  int32 RID = 8;
+}

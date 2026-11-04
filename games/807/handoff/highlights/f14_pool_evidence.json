@@ -1,0 +1,102 @@
+{
+  "cases": [
+    {
+      "round_id": "2485678419000450807",
+      "f13": [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mode": 1,
+      "pool": [
+        14,
+        15,
+        18
+      ],
+      "reel": [
+        18,
+        15,
+        14,
+        18,
+        18
+      ],
+      "all_reel_symbols_in_pool": true
+    },
+    {
+      "round_id": "2485713683000520807",
+      "f13": [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mode": 1,
+      "pool": [
+        13,
+        17,
+        15
+      ],
+      "reel": [
+        15,
+        17,
+        13,
+        17,
+        17
+      ],
+      "all_reel_symbols_in_pool": true
+    },
+    {
+      "round_id": "2485725651000400807",
+      "f13": [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mode": 1,
+      "pool": [
+        13,
+        15,
+        16
+      ],
+      "reel": [
+        16,
+        15,
+        13,
+        16,
+        15
+      ],
+      "all_reel_symbols_in_pool": true
+    },
+    {
+      "round_id": "2485748067001030807",
+      "f13": [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mode": 0,
+      "pool": [
+        13,
+        18,
+        15
+      ],
+      "reel": [
+        18,
+        15,
+        13,
+        15,
+        18
+      ],
+      "all_reel_symbols_in_pool": true
+    }
+  ],
+  "confirmed_user_observed_round": "2485748067001030807",
+  "definition_scope": "Selected multiplier-symbol pool; does not guarantee selection of the maximum value"
+}

@@ -1,0 +1,57 @@
+
+‰
+wire_807.protojili.wire.v807"
+Empty"
+Ante
+level (Rlevel"|
+BetInfo
+bet (Rbet5
+
+reserved25 (2.jili.wire.v807.EmptyR
+reserved25(
+ante (2.jili.wire.v807.AnteRante" 
+Column
+values (Rvalues"@
+SymbolCount
+	symbol_id (RsymbolId
+count (Rcount"‡
+LineWin
+	symbol_id (RsymbolId
+match_count (R
+matchCount#
+payline_index (RpaylineIndex
+win_cash (RwinCash"»
+SpinAck,
+reels (2.jili.wire.v807.ColumnRreels7
+nudge_marks (2.jili.wire.v807.ColumnR
+nudgeMarks?
+multiplier_reel (2.jili.wire.v807.ColumnRmultiplierReel
+extra_steps (R
+extraSteps(
+extra_step_chain (RextraStepChainG
+effect_symbols_f6 (2.jili.wire.v807.SymbolCountReffectSymbolsF6G
+effect_symbols_f7 (2.jili.wire.v807.SymbolCountReffectSymbolsF7*
+effect_indices_f8 (ReffectIndicesF8I
+effect_context_f9	 (2.jili.wire.v807.EffectContextReffectContextF94
+	line_wins (2.jili.wire.v807.LineWinRlineWins
+win_type (RwinType(
+effect_slots_f13 (ReffectSlotsF13"
+gift_pool_f14 (RgiftPoolF14.
+upgrade_symbols_f15 (RupgradeSymbolsF157
+respin_previous_reel_f16 (RrespinPreviousReelF16(
+effect_slots_f17 (ReffectSlotsF17
+
+multiplier (R
+multiplier
+	total_win (RtotalWin(
+config_value_f21 (RconfigValueF21
+	ante_mode (RanteMode"
+EffectContext"ü
+
+SpinResult+
+data (2.jili.wire.v807.SpinAckRdata/
+service (2.jili.wire.v807.EmptyRservice
+	total_win (RtotalWin
+	postMoney (R	postMoney"
+roundIndexV2 (RroundIndexV21
+spinReq (2.jili.wire.v807.BetInfoRspinReqbproto3
