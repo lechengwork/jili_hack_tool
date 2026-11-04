@@ -1,0 +1,73 @@
+{
+  "candidate_rule": "win_type 5: sum(non-nudge f6 symbol multipliers) + sum(multiplier_reel[2:-2])",
+  "mapping_source": "Observed normal five-symbol spins; symbol 21 also had multiplier 0 in those samples.",
+  "cases": [
+    {
+      "round_id": "2484728019000030807",
+      "before_symbols": [
+        14,
+        16
+      ],
+      "before_multiplier_sum": 40,
+      "extended_reel_sum": 1,
+      "expected_total": 41,
+      "actual_total": 41,
+      "matches": true
+    },
+    {
+      "round_id": "2484734099000550807",
+      "before_symbols": [
+        21,
+        14,
+        14
+      ],
+      "before_multiplier_sum": 30,
+      "extended_reel_sum": 12,
+      "expected_total": 42,
+      "actual_total": 42,
+      "matches": true
+    },
+    {
+      "round_id": "2485672979000380807",
+      "before_symbols": [
+        14,
+        14
+      ],
+      "before_multiplier_sum": 30,
+      "extended_reel_sum": 3,
+      "expected_total": 33,
+      "actual_total": 33,
+      "matches": true
+    },
+    {
+      "round_id": "2485684995000470807",
+      "before_symbols": [
+        21,
+        13,
+        14,
+        15
+      ],
+      "before_multiplier_sum": 45,
+      "extended_reel_sum": 62,
+      "expected_total": 107,
+      "actual_total": 107,
+      "matches": true
+    },
+    {
+      "round_id": "2485715891000290807",
+      "before_symbols": [
+        21,
+        17
+      ],
+      "before_multiplier_sum": 50,
+      "extended_reel_sum": 93,
+      "expected_total": 143,
+      "actual_total": 143,
+      "matches": true
+    }
+  ],
+  "all_match": true,
+  "scope": "A sample-backed candidate; visual meaning of f6/f7/f8/f9 still requires confirmation.",
+  "tested_cases": 5,
+  "counterexamples": 0
+}

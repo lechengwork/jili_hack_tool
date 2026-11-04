@@ -1,0 +1,80 @@
+{
+  "samples": 2399,
+  "winning_rounds": 316,
+  "losing_rounds": 2083,
+  "bets": [
+    1.0,
+    3.0
+  ],
+  "ante_modes": {
+    "0": 1475,
+    "2": 501,
+    "1": 423
+  },
+  "win_types": {
+    "1": 284,
+    "0": 2083,
+    "3": 23,
+    "5": 9
+  },
+  "special_rounds": [
+    "2484725379000700807",
+    "2484728019000030807",
+    "2484730467000380807",
+    "2484734099000550807",
+    "2485655811000200807",
+    "2485658915000290807",
+    "2485667795000440807",
+    "2485672979000380807",
+    "2485674467000550807",
+    "2485679331000470807",
+    "2485684211000070807",
+    "2485684995000470807",
+    "2485692883000030807",
+    "2485697043000670807",
+    "2485700259000250807",
+    "2485709923000430807",
+    "2485714771000150807",
+    "2485715891000290807",
+    "2485717587000410807",
+    "2485723155000290807",
+    "2485726355000730807",
+    "2485733331000200807",
+    "2485741187001210807",
+    "2485744499000330807",
+    "2485753011001540807",
+    "2485862579002130807",
+    "2485872131000450807",
+    "2485887939001930807",
+    "2485932195002000807",
+    "2485936371001250807",
+    "2486007347000260807",
+    "2486016051001320807"
+  ],
+  "max_observed_win": 1050.0,
+  "wire_roundtrips": 2399,
+  "independent_compiled_protobuf_roundtrips": 2399,
+  "rtp_field_f21_values": [
+    0.97
+  ],
+  "line_payrate_observations": {
+    "0": 1,
+    "1": 2,
+    "2": 3.5,
+    "3": 5,
+    "4": 6,
+    "5": 7.5,
+    "6": 10
+  },
+  "uncertain_semantics": [
+    "effect_symbols_f6",
+    "effect_symbols_f7",
+    "effect_indices_f8",
+    "effect_context_f9",
+    "effect_slots_f13",
+    "effect_slots_f17",
+    "config_value_f21"
+  ],
+  "f9_coverage": "Repeated empty contexts: zero, one or two occurrences observed. Nonempty bodies rejected until defined.",
+  "limitations": "Two base bets and ordinary/1.5x/8x modes observed; this is sample coverage, not a probability distribution or a full rules specification."
+}

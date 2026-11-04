@@ -1,0 +1,351 @@
+{
+  "round_id": "2485862579002130807",
+  "source": "/Users/dyson/Downloads/jili_hack_tool/games/807/webcap/20261103-131653",
+  "idx": 77,
+  "user_observation": "Screenshot shows x14 and counter 08/08; user supplied no additional sequence description.",
+  "image_source": "/var/folders/z5/r666s9jd7xqgvttw5vvfdf380000gn/T/codex-clipboard-7f58f83d-9000-4d15-960e-745a2c0f80b6.png",
+  "observations": {
+    "round_id": "2485862579002130807",
+    "bet": 1.0,
+    "win": 9.8,
+    "outer_win": 9.8,
+    "lines": [
+      {
+        "symbol": 2,
+        "cash": 9.8
+      }
+    ],
+    "win_type": 3,
+    "multiplier": 14,
+    "reel": [
+      10,
+      13,
+      21,
+      11,
+      9,
+      11,
+      21,
+      10,
+      10,
+      9,
+      10,
+      15,
+      9
+    ],
+    "slots13": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "slots17": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "f9_present": false,
+    "f9_nonempty": false,
+    "f21": 0.97,
+    "special_fields": [
+      4,
+      5
+    ],
+    "idx": 77,
+    "extra": {
+      "4": [
+        4
+      ],
+      "5": [
+        [
+          4
+        ]
+      ]
+    }
+  },
+  "calculation": {
+    "reel_length": 13,
+    "selected_count": 9,
+    "selected_symbols": [
+      21,
+      11,
+      9,
+      11,
+      21,
+      10,
+      10,
+      9,
+      10
+    ],
+    "missing_lookup": [],
+    "selected_sum": 14
+  },
+  "payload_hex": "0a82010a050a030201010a050a030205050a050a0307070012050a0300000012050a0300000012050a0300000012070a0500000400001a0f0a0d0a0d150b090b150a0a090a0f0920042a01045a0f080210031801219a9999999999234060036a0500000000008a0105000000000090010e99019a99999999992340a9010ad7a3703d0aef3f1200199a9999999999234031295c8fc21554c140a001f782efee84dbe3bf22ba010c09000000000000f03fca0100",
+  "field_tree": [
+    {
+      "field": 1,
+      "wire": 2,
+      "name": "data",
+      "raw_hex": "0a050a030201010a050a030205050a050a0307070012050a0300000012050a0300000012050a0300000012070a0500000400001a0f0a0d0a0d150b090b150a0a090a0f0920042a01045a0f080210031801219a9999999999234060036a0500000000008a0105000000000090010e99019a99999999992340a9010ad7a3703d0aef3f",
+      "children": [
+        {
+          "field": 1,
+          "wire": 2,
+          "name": "reels",
+          "raw_hex": "0a03020101",
+          "children": [
+            {
+              "field": 1,
+              "wire": 2,
+              "name": "values",
+              "raw_hex": "020101"
+            }
+          ]
+        },
+        {
+          "field": 1,
+          "wire": 2,
+          "name": "reels",
+          "raw_hex": "0a03020505",
+          "children": [
+            {
+              "field": 1,
+              "wire": 2,
+              "name": "values",
+              "raw_hex": "020505"
+            }
+          ]
+        },
+        {
+          "field": 1,
+          "wire": 2,
+          "name": "reels",
+          "raw_hex": "0a03070700",
+          "children": [
+            {
+              "field": 1,
+              "wire": 2,
+              "name": "values",
+              "raw_hex": "070700"
+            }
+          ]
+        },
+        {
+          "field": 2,
+          "wire": 2,
+          "name": "nudge_marks",
+          "raw_hex": "0a03000000",
+          "children": [
+            {
+              "field": 1,
+              "wire": 2,
+              "name": "values",
+              "raw_hex": "000000"
+            }
+          ]
+        },
+        {
+          "field": 2,
+          "wire": 2,
+          "name": "nudge_marks",
+          "raw_hex": "0a03000000",
+          "children": [
+            {
+              "field": 1,
+              "wire": 2,
+              "name": "values",
+              "raw_hex": "000000"
+            }
+          ]
+        },
+        {
+          "field": 2,
+          "wire": 2,
+          "name": "nudge_marks",
+          "raw_hex": "0a03000000",
+          "children": [
+            {
+              "field": 1,
+              "wire": 2,
+              "name": "values",
+              "raw_hex": "000000"
+            }
+          ]
+        },
+        {
+          "field": 2,
+          "wire": 2,
+          "name": "nudge_marks",
+          "raw_hex": "0a050000040000",
+          "children": [
+            {
+              "field": 1,
+              "wire": 2,
+              "name": "values",
+              "raw_hex": "0000040000"
+            }
+          ]
+        },
+        {
+          "field": 3,
+          "wire": 2,
+          "name": "multiplier_reel",
+          "raw_hex": "0a0d0a0d150b090b150a0a090a0f09",
+          "children": [
+            {
+              "field": 1,
+              "wire": 2,
+              "name": "values",
+              "raw_hex": "0a0d150b090b150a0a090a0f09"
+            }
+          ]
+        },
+        {
+          "field": 4,
+          "wire": 0,
+          "name": "extra_steps",
+          "value": 4
+        },
+        {
+          "field": 5,
+          "wire": 2,
+          "name": "extra_step_chain",
+          "raw_hex": "04"
+        },
+        {
+          "field": 11,
+          "wire": 2,
+          "name": "line_wins",
+          "raw_hex": "080210031801219a99999999992340",
+          "children": [
+            {
+              "field": 1,
+              "wire": 0,
+              "name": "symbol_id",
+              "value": 2
+            },
+            {
+              "field": 2,
+              "wire": 0,
+              "name": "match_count",
+              "value": 3
+            },
+            {
+              "field": 3,
+              "wire": 0,
+              "name": "payline_index",
+              "value": 1
+            },
+            {
+              "field": 4,
+              "wire": 1,
+              "name": "win_cash",
+              "raw_hex": "9a99999999992340",
+              "double": 9.8
+            }
+          ]
+        },
+        {
+          "field": 12,
+          "wire": 0,
+          "name": "win_type",
+          "value": 3
+        },
+        {
+          "field": 13,
+          "wire": 2,
+          "name": "effect_slots_f13",
+          "raw_hex": "0000000000"
+        },
+        {
+          "field": 17,
+          "wire": 2,
+          "name": "effect_slots_f17",
+          "raw_hex": "0000000000"
+        },
+        {
+          "field": 18,
+          "wire": 0,
+          "name": "multiplier",
+          "value": 14
+        },
+        {
+          "field": 19,
+          "wire": 1,
+          "name": "total_win",
+          "raw_hex": "9a99999999992340",
+          "double": 9.8
+        },
+        {
+          "field": 21,
+          "wire": 1,
+          "name": "config_value_f21",
+          "raw_hex": "0ad7a3703d0aef3f",
+          "double": 0.97
+        }
+      ]
+    },
+    {
+      "field": 2,
+      "wire": 2,
+      "name": "service",
+      "raw_hex": ""
+    },
+    {
+      "field": 3,
+      "wire": 1,
+      "name": "total_win",
+      "raw_hex": "9a99999999992340",
+      "double": 9.8
+    },
+    {
+      "field": 6,
+      "wire": 1,
+      "name": "postMoney",
+      "raw_hex": "295c8fc21554c140",
+      "double": 8872.17
+    },
+    {
+      "field": 20,
+      "wire": 0,
+      "name": "round_id",
+      "value": 2485862579002130807
+    },
+    {
+      "field": 23,
+      "wire": 2,
+      "name": "bet",
+      "raw_hex": "09000000000000f03fca0100",
+      "children": [
+        {
+          "field": 1,
+          "wire": 1,
+          "name": "bet",
+          "raw_hex": "000000000000f03f",
+          "double": 1.0
+        },
+        {
+          "field": 25,
+          "wire": 2,
+          "name": "special",
+          "raw_hex": ""
+        }
+      ]
+    }
+  ],
+  "phase_decomposition": {
+    "f4_initial_steps": 4,
+    "f5_chain_steps": [
+      4
+    ],
+    "total_steps": 8,
+    "first_phase_multiplier": 7,
+    "chain_added_multiplier": 7,
+    "final_multiplier": 14,
+    "reel_length_relation": "13 = 5 + 4 + 4",
+    "payout_relation": "1.0 * 3.5 * 14 / 5 = 9.8",
+    "visual_confirmation_scope": "Screenshot confirms total counter 08/08 and final x14; the intermediate 7->14 sequence is inferred from packet slices, not separately observed."
+  }
+}

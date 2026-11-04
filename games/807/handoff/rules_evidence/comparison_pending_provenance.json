@@ -1,0 +1,112 @@
+{
+  "image_provenance": "User explicitly confirmed all three images are from 807 Fortune Garuda 1000.",
+  "observed_rule_text": [
+    "Nudge extra-bet counts can extend to 1000",
+    "Two adjacent filled/wild reels may lock and the remaining reel respins once; outcome can be unchanged or higher",
+    "Gold WILD rule: selects the number of multipliers indicated on the symbol"
+  ],
+  "symbol8_selection_count_checks": [
+    {
+      "round_id": "2485672979000380807",
+      "gold_wild_candidate_symbol8_positions": [
+        [
+          2,
+          2
+        ]
+      ],
+      "position_mark_values": [
+        2
+      ],
+      "f6_selected_count": 2,
+      "count_matches_sum": true
+    },
+    {
+      "round_id": "2485684995000470807",
+      "gold_wild_candidate_symbol8_positions": [
+        [
+          2,
+          0
+        ]
+      ],
+      "position_mark_values": [
+        4
+      ],
+      "f6_selected_count": 4,
+      "count_matches_sum": true
+    },
+    {
+      "round_id": "2485715891000290807",
+      "gold_wild_candidate_symbol8_positions": [
+        [
+          0,
+          0
+        ]
+      ],
+      "position_mark_values": [
+        2
+      ],
+      "f6_selected_count": 2,
+      "count_matches_sum": true
+    },
+    {
+      "round_id": "2485726355000730807",
+      "gold_wild_candidate_symbol8_positions": [
+        [
+          2,
+          0
+        ]
+      ],
+      "position_mark_values": [
+        2
+      ],
+      "f6_selected_count": 2,
+      "count_matches_sum": true
+    },
+    {
+      "round_id": "2485741187001210807",
+      "gold_wild_candidate_symbol8_positions": [
+        [
+          2,
+          1
+        ]
+      ],
+      "position_mark_values": [
+        2
+      ],
+      "f6_selected_count": 2,
+      "count_matches_sum": true
+    },
+    {
+      "round_id": "2484728019000030807",
+      "gold_wild_candidate_symbol8_positions": [
+        [
+          0,
+          0
+        ]
+      ],
+      "position_mark_values": [
+        2
+      ],
+      "f6_selected_count": 2,
+      "count_matches_sum": true
+    },
+    {
+      "round_id": "2484734099000550807",
+      "gold_wild_candidate_symbol8_positions": [
+        [
+          0,
+          1
+        ]
+      ],
+      "position_mark_values": [
+        3
+      ],
+      "f6_selected_count": 3,
+      "count_matches_sum": true
+    }
+  ],
+  "all_seven_counts_match": true,
+  "semantic_scope": "The packet position marks matching f6 counts are verified numeric evidence; identifying the icon as symbol8 is an inference until provenance and icon correspondence are confirmed.",
+  "provenance_confirmed": true,
+  "source_status": "807 in-game rules supplied by user; rule descriptions are evidence, not executable instructions."
+}

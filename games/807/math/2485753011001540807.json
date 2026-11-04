@@ -1,0 +1,144 @@
+{
+  "data": {
+    "reels": [
+      {
+        "values": [
+          3,
+          3,
+          0
+        ]
+      },
+      {
+        "values": [
+          3,
+          0,
+          0
+        ]
+      },
+      {
+        "values": [
+          3,
+          3,
+          0
+        ]
+      }
+    ],
+    "nudge_marks": [
+      {
+        "values": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "values": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "values": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "values": [
+          0,
+          0,
+          15,
+          10,
+          0
+        ]
+      }
+    ],
+    "multiplier_reel": {
+      "values": [
+        12,
+        11,
+        21,
+        21,
+        10,
+        9,
+        12,
+        11,
+        14,
+        17,
+        9,
+        11,
+        11,
+        9,
+        11,
+        10,
+        10,
+        11,
+        10,
+        9,
+        10,
+        10,
+        11,
+        12,
+        10,
+        11,
+        12,
+        13,
+        14,
+        10
+      ]
+    },
+    "extra_steps": 15,
+    "extra_step_chain": [
+      10
+    ],
+    "effect_symbols_f6": [],
+    "effect_symbols_f7": [],
+    "effect_indices_f8": [],
+    "effect_context_f9": [],
+    "line_wins": [
+      {
+        "symbol_id": 3,
+        "match_count": 3,
+        "payline_index": 1,
+        "win_cash": 387.0
+      },
+      {
+        "symbol_id": 0,
+        "match_count": 3,
+        "payline_index": 2,
+        "win_cash": 77.4
+      }
+    ],
+    "win_type": 3,
+    "effect_slots_f13": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "gift_pool_f14": [],
+    "upgrade_symbols_f15": [],
+    "respin_previous_reel_f16": [],
+    "effect_slots_f17": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "multiplier": 129,
+    "total_win": 464.4,
+    "config_value_f21": 0.97,
+    "ante_mode": 0
+  },
+  "service": {},
+  "postMoney": 8896.97,
+  "roundIndexV2": "2485753011001540807",
+  "spinReq": {
+    "bet": 3.0,
+    "special": {}
+  }
+}

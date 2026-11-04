@@ -1,0 +1,114 @@
+{
+  "data": {
+    "reels": [
+      {
+        "values": [
+          6,
+          6,
+          0
+        ]
+      },
+      {
+        "values": [
+          1,
+          1,
+          0
+        ]
+      },
+      {
+        "values": [
+          4,
+          0,
+          0
+        ]
+      }
+    ],
+    "nudge_marks": [
+      {
+        "values": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "values": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "values": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "values": [
+          0,
+          0,
+          3,
+          0,
+          0
+        ]
+      }
+    ],
+    "multiplier_reel": {
+      "values": [
+        10,
+        12,
+        21,
+        9,
+        10,
+        11,
+        14,
+        11
+      ]
+    },
+    "extra_steps": 3,
+    "extra_step_chain": [],
+    "effect_symbols_f6": [],
+    "effect_symbols_f7": [],
+    "effect_indices_f8": [],
+    "effect_context_f9": [],
+    "line_wins": [
+      {
+        "symbol_id": 0,
+        "match_count": 3,
+        "payline_index": 2,
+        "win_cash": 3.6
+      }
+    ],
+    "win_type": 3,
+    "effect_slots_f13": [
+      0,
+      10,
+      0,
+      0,
+      0
+    ],
+    "gift_pool_f14": [],
+    "upgrade_symbols_f15": [],
+    "respin_previous_reel_f16": [],
+    "effect_slots_f17": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "multiplier": 6,
+    "total_win": 3.6,
+    "config_value_f21": 0.97,
+    "ante_mode": 0
+  },
+  "service": {},
+  "postMoney": 9918.77,
+  "roundIndexV2": "2484730467000380807",
+  "spinReq": {
+    "bet": 3.0,
+    "special": {}
+  }
+}

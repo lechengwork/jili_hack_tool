@@ -1,0 +1,322 @@
+{
+  "round_id": "2485748067001030807",
+  "source": "/Users/dyson/Downloads/jili_hack_tool/games/807/webcap/20261103-094236",
+  "idx": 1595,
+  "user_description": "丟20、丟100，最後停在10",
+  "image_source": "/var/folders/z5/r666s9jd7xqgvttw5vvfdf380000gn/T/codex-clipboard-0c7118f6-9925-41bf-ad14-91c9079308b7.png",
+  "observations": {
+    "round_id": "2485748067001030807",
+    "bet": 3.0,
+    "win": 12.0,
+    "outer_win": 12.0,
+    "lines": [
+      {
+        "symbol": 1,
+        "cash": 12.0
+      }
+    ],
+    "win_type": 1,
+    "multiplier": 10,
+    "reel": [
+      18,
+      15,
+      13,
+      15,
+      18
+    ],
+    "slots13": [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "slots17": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "f9_present": false,
+    "f9_nonempty": false,
+    "f21": 0.97,
+    "special_fields": [],
+    "idx": 1595,
+    "extra": {
+      "12": [
+        1
+      ],
+      "14": [
+        [
+          13,
+          18,
+          15
+        ]
+      ]
+    }
+  },
+  "payload_hex": "0a7a0a050a030101010a050a030000070a050a0301010112050a0300000012050a0300000012050a0300000012070a0500000000001a070a05120f0d0f125a0f08011003180221000000000000284060016a05010000000072030d120f8a0105000000000090010a99010000000000002840a9010ad7a3703d0aef3f1200190000000000002840315c8fc2f5c8a9c040a00197b1d7b5a6d6c9bf22ba010c090000000000000840ca0100",
+  "field_tree": [
+    {
+      "field": 1,
+      "wire": 2,
+      "name": "data",
+      "raw_hex": "0a050a030101010a050a030000070a050a0301010112050a0300000012050a0300000012050a0300000012070a0500000000001a070a05120f0d0f125a0f08011003180221000000000000284060016a05010000000072030d120f8a0105000000000090010a99010000000000002840a9010ad7a3703d0aef3f",
+      "children": [
+        {
+          "field": 1,
+          "wire": 2,
+          "name": "reels",
+          "raw_hex": "0a03010101",
+          "children": [
+            {
+              "field": 1,
+              "wire": 2,
+              "name": "values",
+              "raw_hex": "010101"
+            }
+          ]
+        },
+        {
+          "field": 1,
+          "wire": 2,
+          "name": "reels",
+          "raw_hex": "0a03000007",
+          "children": [
+            {
+              "field": 1,
+              "wire": 2,
+              "name": "values",
+              "raw_hex": "000007"
+            }
+          ]
+        },
+        {
+          "field": 1,
+          "wire": 2,
+          "name": "reels",
+          "raw_hex": "0a03010101",
+          "children": [
+            {
+              "field": 1,
+              "wire": 2,
+              "name": "values",
+              "raw_hex": "010101"
+            }
+          ]
+        },
+        {
+          "field": 2,
+          "wire": 2,
+          "name": "nudge_marks",
+          "raw_hex": "0a03000000",
+          "children": [
+            {
+              "field": 1,
+              "wire": 2,
+              "name": "values",
+              "raw_hex": "000000"
+            }
+          ]
+        },
+        {
+          "field": 2,
+          "wire": 2,
+          "name": "nudge_marks",
+          "raw_hex": "0a03000000",
+          "children": [
+            {
+              "field": 1,
+              "wire": 2,
+              "name": "values",
+              "raw_hex": "000000"
+            }
+          ]
+        },
+        {
+          "field": 2,
+          "wire": 2,
+          "name": "nudge_marks",
+          "raw_hex": "0a03000000",
+          "children": [
+            {
+              "field": 1,
+              "wire": 2,
+              "name": "values",
+              "raw_hex": "000000"
+            }
+          ]
+        },
+        {
+          "field": 2,
+          "wire": 2,
+          "name": "nudge_marks",
+          "raw_hex": "0a050000000000",
+          "children": [
+            {
+              "field": 1,
+              "wire": 2,
+              "name": "values",
+              "raw_hex": "0000000000"
+            }
+          ]
+        },
+        {
+          "field": 3,
+          "wire": 2,
+          "name": "multiplier_reel",
+          "raw_hex": "0a05120f0d0f12",
+          "children": [
+            {
+              "field": 1,
+              "wire": 2,
+              "name": "values",
+              "raw_hex": "120f0d0f12"
+            }
+          ]
+        },
+        {
+          "field": 11,
+          "wire": 2,
+          "name": "line_wins",
+          "raw_hex": "080110031802210000000000002840",
+          "children": [
+            {
+              "field": 1,
+              "wire": 0,
+              "name": "symbol_id",
+              "value": 1
+            },
+            {
+              "field": 2,
+              "wire": 0,
+              "name": "match_count",
+              "value": 3
+            },
+            {
+              "field": 3,
+              "wire": 0,
+              "name": "payline_index",
+              "value": 2
+            },
+            {
+              "field": 4,
+              "wire": 1,
+              "name": "win_cash",
+              "raw_hex": "0000000000002840",
+              "double": 12.0
+            }
+          ]
+        },
+        {
+          "field": 12,
+          "wire": 0,
+          "name": "win_type",
+          "value": 1
+        },
+        {
+          "field": 13,
+          "wire": 2,
+          "name": "effect_slots_f13",
+          "raw_hex": "0100000000"
+        },
+        {
+          "field": 14,
+          "wire": 2,
+          "name": "unknown",
+          "raw_hex": "0d120f"
+        },
+        {
+          "field": 17,
+          "wire": 2,
+          "name": "effect_slots_f17",
+          "raw_hex": "0000000000"
+        },
+        {
+          "field": 18,
+          "wire": 0,
+          "name": "multiplier",
+          "value": 10
+        },
+        {
+          "field": 19,
+          "wire": 1,
+          "name": "total_win",
+          "raw_hex": "0000000000002840",
+          "double": 12.0
+        },
+        {
+          "field": 21,
+          "wire": 1,
+          "name": "config_value_f21",
+          "raw_hex": "0ad7a3703d0aef3f",
+          "double": 0.97
+        }
+      ]
+    },
+    {
+      "field": 2,
+      "wire": 2,
+      "name": "service",
+      "raw_hex": ""
+    },
+    {
+      "field": 3,
+      "wire": 1,
+      "name": "total_win",
+      "raw_hex": "0000000000002840",
+      "double": 12.0
+    },
+    {
+      "field": 6,
+      "wire": 1,
+      "name": "postMoney",
+      "raw_hex": "5c8fc2f5c8a9c040",
+      "double": 8531.57
+    },
+    {
+      "field": 20,
+      "wire": 0,
+      "name": "round_id",
+      "value": 2485748067001030807
+    },
+    {
+      "field": 23,
+      "wire": 2,
+      "name": "bet",
+      "raw_hex": "090000000000000840ca0100",
+      "children": [
+        {
+          "field": 1,
+          "wire": 1,
+          "name": "bet",
+          "raw_hex": "0000000000000840",
+          "double": 3.0
+        },
+        {
+          "field": 25,
+          "wire": 2,
+          "name": "special",
+          "raw_hex": ""
+        }
+      ]
+    }
+  ],
+  "semantic_status": "Strong observed mapping of f13[0] + f14 to multiplier-pool selection; normal-mode example. Animation does not establish upgrade failure.",
+  "correlated_definition": {
+    "f13_index0": "Activate the selected multiplier-symbol pool effect",
+    "f14": "Selected multiplier symbol IDs [13,18,15] = [10x,100x,20x]",
+    "reel_visible_values": [
+      100,
+      20,
+      10,
+      20,
+      100
+    ],
+    "final_center_value": 10,
+    "observed_pool_cases": 4,
+    "pool_membership_matches": 4,
+    "scope": "User-observed throws plus packet pool/reel membership support the pool effect. This is not evidence that the largest thrown multiplier must win or that f17 denotes failure."
+  }
+}

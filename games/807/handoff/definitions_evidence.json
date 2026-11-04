@@ -1,0 +1,108 @@
+{
+  "SpinAck.f17[3]": {
+    "definition": "Failed multiplier-exchange animation branch",
+    "confidence": "user-observed single-round correlation",
+    "round_ids": [
+      "2485869363000200807"
+    ],
+    "observed_value": 2,
+    "attempted_multiplier": 25,
+    "retained_multiplier": 10,
+    "position_parameter": "Candidate target-position encoding; this case matches index 1, full mapping still needs visual checks",
+    "do_not_generalize": "Other f17 slots are not confirmed from this example."
+  },
+  "SpinAck.f17[1]": {
+    "definition": "No-change/unsuccessful multiplier-replacement hand-token animation branch",
+    "confidence": "single user-observed round correlation",
+    "round_ids": [
+      "2485874643001050807"
+    ],
+    "observed_value": 14,
+    "symbol_value_mapping": 15,
+    "final_multiplier": 3,
+    "parameter_role": "Symbol ID interpretation is consistent; whether it always specifies the attempted replacement needs more visual examples."
+  },
+  "SpinAck.f6": {
+    "definition": "Super Wild selected multiplier/Ex Nudge list, in application order",
+    "confidence": "sequential screenshots plus packet correlation",
+    "round_ids": [
+      "2485887939001930807",
+      "2486007347000260807"
+    ],
+    "sample_scope": "Two selections; one multiplier and one Ex Nudge; total pool eight. Do not extrapolate unobserved f9 contents.",
+    "ordering_evidence": "User explicitly described 25x, ExNudge8,20x,ExNudge15 in this exact order, matching f6. Four ordered selections; fixed gains must not be reordered around Ex Nudge during animation."
+  },
+  "SpinAck.f7": {
+    "definition": "Unselected remainder of the displayed eight-option pool",
+    "confidence": "sequential screenshots plus packet correlation",
+    "round_ids": [
+      "2485887939001930807"
+    ],
+    "sample_scope": "Two selections; one multiplier and one Ex Nudge; total pool eight. Do not extrapolate unobserved f9 contents."
+  },
+  "SpinAck.f8": {
+    "definition": "Ex Nudge draw counts selected via the Super Wild list",
+    "confidence": "sequential screenshots plus packet correlation",
+    "round_ids": [
+      "2485887939001930807"
+    ],
+    "sample_scope": "Two selections; one multiplier and one Ex Nudge; total pool eight. Do not extrapolate unobserved f9 contents."
+  },
+  "SpinAck.f9": {
+    "definition": "Per-selected-Ex-Nudge occurrences; observed bodies empty, nonempty schema unresolved",
+    "confidence": "sequential screenshots plus packet correlation",
+    "round_ids": [
+      "2485887939001930807"
+    ],
+    "sample_scope": "Two selections; one multiplier and one Ex Nudge; total pool eight. Do not extrapolate unobserved f9 contents."
+  },
+  "SpinAck.f13[3]": {
+    "definition": "Successful multiplier-position exchange",
+    "confidence": "user-observed 25x -> 100x plus final reel swap positions",
+    "round_ids": [
+      "2485894259001550807"
+    ],
+    "observed_parameter": 3,
+    "verified_parameter_mapping": {
+      "3": "reel index3, first position below center"
+    },
+    "counterpart": "f17[3] marks a user-observed failed exchange; supported by round 2485869363000200807",
+    "remaining_scope": "Full parameter map has 696 support; other 807 values retain their individual evidence scope."
+  },
+  "SpinAck.f13[2]": {
+    "definition": "Successful multiplier upgrade",
+    "confidence": "user-observed throw animation 50x ->100x plus upgrade flag and f15",
+    "round_ids": [
+      "2485947667000270807"
+    ],
+    "observed_value": 1,
+    "companion": "SpinAck.f15",
+    "distinct_from": "Successful multiplier-position exchange uses f13[3]."
+  },
+  "SpinAck.f15": {
+    "definition": "Multiplier symbols used by the upgrade animation",
+    "confidence": "user-observed 50x ->100x matched symbol IDs17,18",
+    "round_ids": [
+      "2485947667000270807"
+    ],
+    "observed_ids": [
+      17,
+      18
+    ],
+    "observed_values": [
+      50,
+      100
+    ],
+    "scope": "Do not infer the animation ordering/role of every element in unseen longer lists from this case alone."
+  },
+  "SpinAck.f17[4]": {
+    "definition": "Main-reel respin without payout improvement in the observed case",
+    "confidence": "user directly observed third reel respin; packet f17[4]=3 and final win0",
+    "round_ids": [
+      "2485950835001790807"
+    ],
+    "parameter": "1-based reel index; value3 directly matched third reel",
+    "counterpart": "f13[4] with f16 is the existing changed/improved-result respin candidate",
+    "caution": "Do not call this no trigger or infer that every f17 means a purely decorative failed action; exact old/new reel equality remains unverified here."
+  }
+}

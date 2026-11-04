@@ -1,0 +1,158 @@
+{
+  "data": {
+    "reels": [
+      {
+        "values": [
+          1,
+          2,
+          2
+        ]
+      },
+      {
+        "values": [
+          8,
+          7,
+          7
+        ]
+      },
+      {
+        "values": [
+          1,
+          6,
+          6
+        ]
+      }
+    ],
+    "nudge_marks": [
+      {
+        "values": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "values": [
+          2,
+          0,
+          0
+        ]
+      },
+      {
+        "values": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "values": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "multiplier_reel": {
+      "values": [
+        14,
+        16,
+        14,
+        16,
+        14,
+        16,
+        15,
+        15,
+        18,
+        15
+      ]
+    },
+    "extra_steps": 0,
+    "extra_step_chain": [],
+    "effect_symbols_f6": [
+      {
+        "symbol_id": 15,
+        "count": 0
+      },
+      {
+        "symbol_id": 21,
+        "count": 5
+      }
+    ],
+    "effect_symbols_f7": [
+      {
+        "symbol_id": 19,
+        "count": 0
+      },
+      {
+        "symbol_id": 21,
+        "count": 8
+      },
+      {
+        "symbol_id": 15,
+        "count": 0
+      },
+      {
+        "symbol_id": 21,
+        "count": 5
+      },
+      {
+        "symbol_id": 16,
+        "count": 0
+      },
+      {
+        "symbol_id": 20,
+        "count": 0
+      }
+    ],
+    "effect_indices_f8": [
+      5
+    ],
+    "effect_context_f9": [
+      {}
+    ],
+    "line_wins": [
+      {
+        "symbol_id": 1,
+        "match_count": 3,
+        "payline_index": 1,
+        "win_cash": 56.0
+      }
+    ],
+    "win_type": 5,
+    "effect_slots_f13": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "gift_pool_f14": [],
+    "upgrade_symbols_f15": [],
+    "respin_previous_reel_f16": [],
+    "effect_slots_f17": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "multiplier": 140,
+    "total_win": 56.0,
+    "config_value_f21": 0.97,
+    "ante_mode": 2
+  },
+  "service": {},
+  "postMoney": 8718.17,
+  "roundIndexV2": "2485887939001930807",
+  "spinReq": {
+    "bet": 1.0,
+    "special": {
+      "ante": {
+        "level": 1
+      }
+    }
+  }
+}
