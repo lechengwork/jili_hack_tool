@@ -22,3 +22,25 @@ python routex/test_live_math.py
 ```
 
 math/all.jsonl、COVERAGE、descriptor及ZIP是發版快照，不會每轉一局就重建。即時消費請讀逐局JSON；需要重新發版時再跑各款build_math／打包器。抓包不會自動下注或切換模式，轉局仍由操作人員執行。
+
+## 即時 math → 本地 replay
+
+兩款一鍵啟動器預設改用math，並在每次SPIN前重新掃描數字單號JSON；修改過的檔案會重新驗證並編碼，新增檔案會加入相同下注／模式的回放池。可以同時開真站capture與本地replay，各用自己的專用視窗及不同port。
+
+```
+python replay_518.py
+python replay_807.py
+# 指定一局，修改後下一次同輸入SPIN就會重讀：
+python replay_807.py --rounds 2486007347000260807
+# 只讀某次session剛抓到的math，不需要finish：
+python replay_807.py --math-dir games/807/webcap/<session>/math
+# 保留原始封包回放／固定啟動快照：
+python replay_807.py --source wire
+python replay_807.py --no-watch-math
+```
+
+--math-dir、--rounds、--source、--no-watch-math兩款都支援，Windows的.cmd／.ps1會轉交相同參數。固定--rounds只播指定單號，不會把新單號加入。未指定時每個下注／特殊模式有獨立循環池；新增檔案會在循環中播到，不保證下一局一定選到最新單號。前端需選相同基本下注與模式。518普通0.1與帶context23的特殊0.1也會分池，不會混用。
+
+replay是本地模擬下注，無真站JWT或session key需求。518初始化預設使用已去憑證的webcap/samples，而不是正在抓的current_session；REPLAY_SESSION可明確覆寫wire來源。JSON不合法時回400並在終端說明，修正後下次SPIN可恢復。若要重現某局，建議先指定--rounds，避免誤以為仍播循環中的其他局。
+
+即時加密回放測試：`python routex/test_math_replay.py`（僅本機HTTPS，不碰真站下注）。

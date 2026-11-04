@@ -42,26 +42,17 @@ for row in ROWS:
 if not spins:
     raise ValueError('No successful 807 replay samples')
 source = os.environ.get('REPLAY_SOURCE', 'wire')
+math_replay = None
 if source == 'math':
     from math_adapter import math_to_wire
-    from math_adapter import wire_to_math
-    actions_by_input = {(wire_to_math(pool[0])['spinReq']['bet'], wire_to_math(pool[0])['data']['ante_mode']): action for action, pool in spins.items()}
-    spins.clear()
-    directory = Path(os.environ.get('MATH_DIR', str(HERE / 'math')))
-    for file in sorted(directory.glob('*.json')):
-        if not file.stem.isdigit():
-            continue
-        sample = json.loads(file.read_text())
-        action = actions_by_input.get((sample['spinReq']['bet'], sample['data']['ante_mode']))
-        if action is None:
-            raise ValueError('Math sample uses an uncaptured bet/action: ' + file.name)
-        spins[action].append(math_to_wire(sample))
-    if not spins:
-        raise ValueError('No math samples selected')
+    from math_replay import MathReplay, input_key
+    math_replay = MathReplay(os.environ.get('MATH_DIR', str(HERE / 'math')), math_to_wire,
+                             os.environ.get('REPLAY_ROUNDS', ''), os.environ.get('WATCH_MATH', '1') != '0')
+    spins = math_replay.pools
 elif source != 'wire':
     raise ValueError('REPLAY_SOURCE must be wire or math')
 selected = os.environ.get('REPLAY_ROUNDS', '')
-if selected:
+if selected and source == 'wire':
     lookup = {str(fg5.parse_fields(raw)[20]): (action, raw)
               for action, pool in spins.items() for raw in pool}
     wanted = selected.split(',')
@@ -118,12 +109,32 @@ def pick_response(req):
             'balance': None, 'last_rid': 0,
         })
         if typ == 0:
-            pool = spins.get(action)
+            replay_key = action
+            if math_replay is not None:
+                try:
+                    from math_adapter import fields
+                    parsed = fields(action)
+                    if set(parsed) - {1, 25, 26} or parsed[1][0] != 1:
+                        raise ValueError('Unsupported request fields')
+                    special = {}
+                    if 26 in parsed:
+                        if parsed[26][0] != 2:raise ValueError('Invalid ante wire type')
+                        ante = fields(parsed[26][1])
+                        if set(ante) - {1} or (1 in ante and ante[1][0] != 0):raise ValueError('Invalid ante')
+                        special['ante'] = {'level': ante.get(1, (0, 0))[1]}
+                    replay_key = input_key({'bet': struct.unpack('<d', parsed[1][1])[0], 'special': special})
+                    pools = math_replay.refresh()
+                except Exception as error:
+                    print('[807 math] ERROR: ' + str(error), flush=True)
+                    return 0, b'', 400, 'invalid-math-or-input'
+            else:
+                pools = spins
+            pool = pools.get(replay_key)
             if not pool:
                 return 0, b'', 400, 'unsupported-bet-or-mode'
-            index = state['indices'][action]
+            index = state['indices'][replay_key]
             raw = pool[index % len(pool)]
-            state['indices'][action] += 1
+            state['indices'][replay_key] += 1
             fields = fg5.parse_fields(raw)
             rid = fields[20]
             if rid <= state['last_rid']:

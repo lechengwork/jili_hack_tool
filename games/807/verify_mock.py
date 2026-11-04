@@ -44,6 +44,19 @@ signer = ed25519.Ed25519PublicKey.from_public_bytes(bytes.fromhex(keys['ed25519_
 server_pub = x25519.X25519PublicKey.from_public_bytes(bytes.fromhex(keys['x25519_pub']))
 rows = json.loads((HERE / 'replay_samples.json').read_text())
 spins = [r for r in rows if r['type'] == 0 and r['ret'] == 0]
+if args.source == 'math':
+    from math_adapter import math_to_wire
+    spins = []
+    directory = Path(os.environ.get('MATH_DIR', str(HERE / 'math')))
+    for file in sorted(directory.glob('*.json')):
+        if not file.stem.isdigit():continue
+        sample = json.loads(file.read_text())
+        raw = math_to_wire(sample)
+        info = fg5.parse_fields(fg5.parse_fields(raw)[23])
+        action = fg5.enc_tag(1, 1) + info[1] + fg5.field_bytes(25, b'\x08\0\x10\0\x20\0')
+        if 26 in info:action += fg5.field_bytes(26, info[26])
+        spins.append({'type':0, 'ret':0, 'raw_hex':raw.hex(), 'action_hex':action.hex()})
+
 
 
 class Client:

@@ -35,3 +35,7 @@ mock為樣本回放，餘額沿用樣本結算值，不是持續下注帳本或�
 f17索引2未出現非零案例；f9已見0／1／2筆空訊息，未見非空內文，不臆造其內容。其餘效果參數的證據程度見INTERFACE與handoff。數量與樣本頻率不能作為正式RTP或完整概率分布。
 
 接手真站擷取看 `games/807/HANDOFF.md`。ZIP僅供離線回放；真站擷取工具與監看在Git專案。不含真站JWT、SSO登入入口、擷取session key；本地mock金鑰僅用於本機測試。
+
+## 即時回放更新（2026-11-04）
+
+一鍵replay現在預設讀math，新增／修改的逐局JSON會在下一次SPIN前重讀，不必finish或重啟。支援 `--math-dir <目錄>`、`--rounds <單號>`，原始封包回放請明確用 `--source wire`。固定快照可用 `--no-watch-math`。操作細節見專案根目錄LIVE_MATH_CAPTURE.md。
