@@ -1,0 +1,129 @@
+{
+  "data": {
+    "RoundQueue": [
+      {
+        "ComboStageData": [
+          {
+            "ComboStageSymbol": [
+              {
+                "Col": [
+                  4,
+                  0,
+                  2
+                ]
+              },
+              {
+                "Col": [
+                  0,
+                  2,
+                  4,
+                  3
+                ]
+              },
+              {
+                "Col": [
+                  21,
+                  3,
+                  1,
+                  15,
+                  13
+                ]
+              },
+              {
+                "Col": [
+                  7,
+                  2,
+                  0,
+                  1,
+                  0
+                ]
+              },
+              {
+                "Col": [
+                  3,
+                  0,
+                  2,
+                  4
+                ]
+              },
+              {
+                "Col": [
+                  21,
+                  3,
+                  1
+                ]
+              }
+            ],
+            "ComboMult": 1.0,
+            "ComboStageWin": 0,
+            "AwardDataVec": [],
+            "FillSymbols": [
+              {
+                "Col": []
+              },
+              {
+                "Col": []
+              },
+              {
+                "Col": []
+              },
+              {
+                "Col": []
+              },
+              {
+                "Col": []
+              },
+              {
+                "Col": []
+              }
+            ],
+            "NeedEliminate": false,
+            "Eliminate": [
+              {
+                "Col": []
+              },
+              {
+                "Col": []
+              },
+              {
+                "Col": []
+              },
+              {
+                "Col": []
+              },
+              {
+                "Col": []
+              },
+              {
+                "Col": []
+              }
+            ],
+            "IsMain": true,
+            "MaxFlag": false
+          }
+        ],
+        "RoundWin": 0,
+        "ScatterCount": 2,
+        "FreeRemainRound": 0,
+        "FreeTotalRound": 0,
+        "AddRounds": 0,
+        "AwardTypeFlag": 8,
+        "MaxFlag": false
+      }
+    ],
+    "FreeTotalWin": 0,
+    "BuyType": 0,
+    "TotalWin": 0,
+    "AckType": 0,
+    "RTP": 0.972,
+    "LID": 0,
+    "RID": 0
+  },
+  "service": {},
+  "postMoney": 11247.795,
+  "roundIndexV2": "2484642981000220518",
+  "spinReq": {
+    "bet": 0.3,
+    "special": {}
+  }
+}

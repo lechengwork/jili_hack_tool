@@ -1,0 +1,35 @@
+{
+  "samples": 151,
+  "native_codec_byte_roundtrips": 151,
+  "full_envelope_byte_roundtrips": 151,
+  "bets": {
+    "0.3": 150,
+    "0.1": 1
+  },
+  "winning_responses": 31,
+  "cascade_responses": 31,
+  "free_feature_responses": 1,
+  "round_infos": 161,
+  "stages": 219,
+  "observed_multipliers": [
+    1.0,
+    2.0,
+    4.0,
+    8.0,
+    16.0
+  ],
+  "observed_flags": {
+    "9": 30,
+    "8": 120,
+    "3": 1,
+    "5": 2,
+    "4": 7,
+    "12": 1
+  },
+  "examples": {
+    "loss": "2484636245000120518",
+    "win_cascade": "2484635253000060518",
+    "free_feature": "2484645845000160518",
+    "five_stages": "2484636837000010518"
+  }
+}

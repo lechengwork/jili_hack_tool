@@ -51,5 +51,16 @@
     } }).compileStreaming;
     WebAssembly.compileStreaming = nameLen(wCs, oCs);
   }
+  // CfT 152 / 新 Chrome 常走 instantiateStreaming 載 wasm,compile-hook 抓不到 → 補這條(jade shim 已驗安全)。
+  if(WebAssembly.instantiateStreaming){
+    var oIs = WebAssembly.instantiateStreaming;
+    var wIs = ({ instantiateStreaming(source, imports){
+      return Promise.resolve(source).then(function(r){
+        if(!r || typeof r.arrayBuffer!=='function'){ rep('is noresp'); return oIs.call(WebAssembly, r, imports); }
+        return r.arrayBuffer().then(function(buf){ var cp=new Uint8Array(buf); var d=patchBytes(cp); rep('is d='+d); return WebAssembly.instantiate(cp, imports); });
+      });
+    } }).instantiateStreaming;
+    WebAssembly.instantiateStreaming = nameLen(wIs, oIs);
+  }
   rep('installed C2 compile-hook via polyfills');
 })();

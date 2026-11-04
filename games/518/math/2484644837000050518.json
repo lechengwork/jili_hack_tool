@@ -1,0 +1,275 @@
+{
+  "data": {
+    "RoundQueue": [
+      {
+        "ComboStageData": [
+          {
+            "ComboStageSymbol": [
+              {
+                "Col": [
+                  2,
+                  2,
+                  1
+                ]
+              },
+              {
+                "Col": [
+                  3,
+                  1,
+                  5,
+                  3
+                ]
+              },
+              {
+                "Col": [
+                  0,
+                  3,
+                  2,
+                  4,
+                  1
+                ]
+              },
+              {
+                "Col": [
+                  3,
+                  4,
+                  3,
+                  10,
+                  5
+                ]
+              },
+              {
+                "Col": [
+                  2,
+                  1,
+                  4,
+                  1
+                ]
+              },
+              {
+                "Col": [
+                  3,
+                  5,
+                  0
+                ]
+              }
+            ],
+            "ComboMult": 1.0,
+            "ComboStageWin": 0.015,
+            "AwardDataVec": [
+              {
+                "Symbol": 1,
+                "Count": 3,
+                "LineNum": 1,
+                "Win": 0.015,
+                "Pos": [
+                  2,
+                  4,
+                  11
+                ]
+              }
+            ],
+            "FillSymbols": [
+              {
+                "Col": [
+                  7
+                ]
+              },
+              {
+                "Col": [
+                  4
+                ]
+              },
+              {
+                "Col": [
+                  1
+                ]
+              },
+              {
+                "Col": []
+              },
+              {
+                "Col": []
+              },
+              {
+                "Col": []
+              }
+            ],
+            "NeedEliminate": true,
+            "Eliminate": [
+              {
+                "Col": [
+                  0,
+                  0,
+                  1
+                ]
+              },
+              {
+                "Col": [
+                  0,
+                  1,
+                  0,
+                  0
+                ]
+              },
+              {
+                "Col": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  1
+                ]
+              },
+              {
+                "Col": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "Col": [
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "Col": [
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ],
+            "IsMain": true,
+            "MaxFlag": false
+          },
+          {
+            "ComboStageSymbol": [
+              {
+                "Col": [
+                  2,
+                  2,
+                  7
+                ]
+              },
+              {
+                "Col": [
+                  3,
+                  5,
+                  3,
+                  4
+                ]
+              },
+              {
+                "Col": [
+                  0,
+                  3,
+                  2,
+                  4,
+                  1
+                ]
+              },
+              {
+                "Col": [
+                  3,
+                  4,
+                  3,
+                  10,
+                  5
+                ]
+              },
+              {
+                "Col": [
+                  2,
+                  1,
+                  4,
+                  1
+                ]
+              },
+              {
+                "Col": [
+                  3,
+                  5,
+                  0
+                ]
+              }
+            ],
+            "ComboMult": 2.0,
+            "ComboStageWin": 0,
+            "AwardDataVec": [],
+            "FillSymbols": [
+              {
+                "Col": []
+              },
+              {
+                "Col": []
+              },
+              {
+                "Col": []
+              },
+              {
+                "Col": []
+              },
+              {
+                "Col": []
+              },
+              {
+                "Col": []
+              }
+            ],
+            "NeedEliminate": false,
+            "Eliminate": [
+              {
+                "Col": []
+              },
+              {
+                "Col": []
+              },
+              {
+                "Col": []
+              },
+              {
+                "Col": []
+              },
+              {
+                "Col": []
+              },
+              {
+                "Col": []
+              }
+            ],
+            "IsMain": true,
+            "MaxFlag": false
+          }
+        ],
+        "RoundWin": 0.015,
+        "ScatterCount": 0,
+        "FreeRemainRound": 0,
+        "FreeTotalRound": 0,
+        "AddRounds": 0,
+        "AwardTypeFlag": 9,
+        "MaxFlag": false
+      }
+    ],
+    "FreeTotalWin": 0,
+    "BuyType": 0,
+    "TotalWin": 0.015,
+    "AckType": 0,
+    "RTP": 0.972,
+    "LID": 0,
+    "RID": 0
+  },
+  "service": {},
+  "postMoney": 11243.505,
+  "roundIndexV2": "2484644837000050518",
+  "spinReq": {
+    "bet": 0.3,
+    "special": {}
+  }
+}
