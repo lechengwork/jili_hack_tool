@@ -11,6 +11,9 @@ HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE.parent.parent / 'routex'))
 import decrypt_capture as dc
 import fg5
+from live_math import export_spin
+sys.path.insert(0, str(HERE))
+from math_adapter import wire_to_math, math_to_wire
 
 ap = argparse.ArgumentParser()
 ap.add_argument('session', nargs='?', help='Defaults to current_session.txt')
@@ -39,6 +42,12 @@ dest.mkdir(exist_ok=True)
     ''.join(json.dumps(row, ensure_ascii=False) + '\n' for row in rows))
 summary = {'exchanges': len(rows), 'types': dict(Counter(r['type'] for r in rows)),
            'spin_requests': sum(r['kind'] == 'spin' for r in rows), 'all_signatures_valid': True}
+(dest / 'summary.json').write_text(json.dumps(summary, indent=2))
+# Re-run the same writer to backfill replies missed before the key became known.
+math_reports = [export_spin(row, HERE, session, wire_to_math, math_to_wire) for row in rows]
+math_reports = [r for r in math_reports if r is not None]
+summary.update(math_written=sum(r['ok'] for r in math_reports),
+               math_errors=sum(not r['ok'] for r in math_reports))
 (dest / 'summary.json').write_text(json.dumps(summary, indent=2))
 print(json.dumps(summary))
 print('Export: ' + str(dest))
