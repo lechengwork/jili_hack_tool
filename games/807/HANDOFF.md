@@ -47,3 +47,9 @@ f17索引2仍未出現；f9雖有重複兩筆，但內容皆空。8×有升級�
 最後一筆失敗回覆type0/ret304、簽章有效，訊息single wallet process error。這是後端錢包處理錯誤，不足以斷言跑太久、session過期或本地網路問題。重新取得登入入口；若再出現應記錄單號／時間交平台查錢包處理。
 
 離線包重建：`python build_807_math_package.py`，會執行staged獨立測試與憑證掃描，產出jili_807_math_test_20261104.zip。
+
+## 2026-11-04 抓包 hook 修正
+
+早期v2提交 a0d6bbe2 的capture_server誤以離線mock公鑰替換shim覆蓋server已選好的被動capture_shim。此版本可能真站登入後999.2且沒有exchanges，不能僅據此斷言後端故障。修正版保留server的被動capture_shim，只改807端點；啟動與open_capture預檢均檢查getRandomValues抓包標記，server並拒絕帶patchBytes的mock shim。離線mock仍使用自己獨立的公鑰替換shim，不變更既有2399局與機率資料。
+
+需要額外診斷時可加 `--netlog games/807/runtime/netlog-local.json`；檔案可能含登入網址，僅留本機，勿上傳原始netlog。
