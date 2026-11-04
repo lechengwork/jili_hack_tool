@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Offline 518 replay using the established route-X transport and mock keys."""
 from collections import defaultdict
+import copy
 import json
 import os
 from pathlib import Path
@@ -12,7 +13,8 @@ from urllib.parse import urlsplit
 
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parent.parent
-SESSION = Path(os.environ.get('REPLAY_SESSION') or (HERE / 'current_session.txt').read_text().strip())
+# Baseline init is sanitized and independent of an unfinished live session.
+SESSION = Path(os.environ.get('REPLAY_SESSION') or 'webcap/samples')
 if not SESSION.is_absolute():
     SESSION = HERE / SESSION
 PORT = int(os.environ.get('MOCK_PORT', '8519'))
@@ -49,19 +51,17 @@ for row in ROWS:
 if not spins:
     raise ValueError('Capture has no successful spins')
 source = os.environ.get('REPLAY_SOURCE', 'wire')
+math_replay = None
 if source == 'math':
-    from math_adapter import math_to_wire
-    math_dir = Path(os.environ.get('MATH_DIR', str(HERE / 'math')))
-    spins.clear()
-    for file in sorted(math_dir.glob('*.json')):
-        if not file.stem.isdigit():
-            continue
-        env = json.loads(file.read_text())
-        spins[env['spinReq']['bet']].append(math_to_wire(env))
+    from math_adapter import math_to_wire, decode_message
+    from math_replay import MathReplay, input_key
+    math_replay = MathReplay(os.environ.get('MATH_DIR', str(HERE / 'math')), math_to_wire,
+                             os.environ.get('REPLAY_ROUNDS', ''), os.environ.get('WATCH_MATH', '1') != '0')
+    spins = math_replay.pools
 elif source != 'wire':
     raise ValueError('REPLAY_SOURCE must be wire or math')
 rounds = [x for x in os.environ.get('REPLAY_ROUNDS', '').split(',') if x]
-if rounds:
+if rounds and source == 'wire':
     all_spins = {str(fg5.parse_fields(raw)[20]): (bet, raw) for bet, pool in spins.items() for raw in pool}
     missing = set(rounds) - set(all_spins)
     if missing:
@@ -109,14 +109,25 @@ def pick_response(req):
             state.update(pub=req['client_pub'], indices=defaultdict(int), actions=defaultdict(int), balance=None)
             server._RID['last'] = 0
         if typ == 0:
-            fields = fg5.parse_fields(action)
-            bet = struct.unpack('<d', fields[1])[0]
-            if bet not in spins:
-                print('[518 mock] no captured samples for bet=%s' % bet, flush=True)
-                return 0, b'', 400, 'unsupported-bet'
-            index = state['indices'][bet]
-            raw = spins[bet][index % len(spins[bet])]
-            state['indices'][bet] += 1
+            try:
+                fields = fg5.parse_fields(action)
+                bet = struct.unpack('<d', fields[1])[0]
+                if math_replay is not None:
+                    if set(fields) - {1, 23, 25}:raise ValueError('Unsupported request fields')
+                    special = {'context23': decode_message(fields[23], 'Context23')} if 23 in fields else {}
+                    replay_key = input_key({'bet': bet, 'special': special})
+                    pools = math_replay.refresh()
+                else:
+                    replay_key, pools = bet, spins
+            except Exception as error:
+                print('[518 math] ERROR: ' + str(error), flush=True)
+                return 0, b'', 400, 'invalid-math-or-input'
+            pool = pools.get(replay_key)
+            if not pool:
+                return 0, b'', 400, 'unsupported-bet-or-mode'
+            index = state['indices'][replay_key]
+            raw = pool[index % len(pool)]
+            state['indices'][replay_key] += 1
             raw, rid = server._bump_rid(raw)
             state['balance'] = fg5.parse_fields(raw)[6]
             print('[518 mock] spin=%s bet=%s round=%s' % (index, bet, rid), flush=True)
@@ -140,7 +151,9 @@ def pick_response(req):
 
 server.pick_response = pick_response
 AUX = json.loads((HERE / 'auxiliary_responses.json').read_text())
-server.SSO_JSON = json.loads((HERE / 'mock_sso.json').read_text())
+server.SSO_JSON = copy.deepcopy(server.SSO_JSON)
+server.SSO_JSON['token'] = '0' * 40
+server.SSO_JSON['profile'].update(id='', aid=0, siteId=0, nickname='mock518', account='mock518', meta={'agentAccount': 'mock518'})
 
 
 class Handler(server.Handler):

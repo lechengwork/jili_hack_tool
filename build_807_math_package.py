@@ -13,16 +13,16 @@ if STAGE.exists():
 STAGE.mkdir();marker.write_text('build_807_math_package.py\n')
 def copy(source,dest=None):
  target=STAGE/(dest or source);target.parent.mkdir(parents=True,exist_ok=True);shutil.copyfile(ROOT/source,target)
-for name in ['replay_807.py','replay_807.cmd','replay_807.ps1','requirements_807.txt']:copy(name)
+for name in ['replay_807.py','replay_807.cmd','replay_807.ps1','requirements_807.txt','LIVE_MATH_CAPTURE.md']:copy(name)
 copy('README_ForMath_807.md','README.md')
 for name in ['mock_server.py','open_mock.py','runtime_support.py','math_adapter.py','math_schema.json','math_807.proto','math_807.desc','wire_807.proto','wire_807.desc','replay_samples.json','verify_mock.py','verify_math.py','capture_summary.json','wasm_patch_shim.js','RULES_807.md','696_807_FIELD_MAP.md','HANDOFF.md','WATCH_FIELDS.md','login_config.example.json']:
  copy('games/807/'+name)
 for folder in ['math','static','handoff']:
  shutil.copytree(GAME/folder,STAGE/'games/807'/folder,ignore=shutil.ignore_patterns('.DS_Store','__pycache__','*.download'))
-for name in ['server.py','fg5.py','mockkeys.json','wasm_patch_shim.js','err_probe_shim.js','wasm_pub_patches.json','crypto.patched.wasm']:
+for name in ['server.py','math_replay.py','fg5.py','mockkeys.json','wasm_patch_shim.js','err_probe_shim.js','wasm_pub_patches.json','crypto.patched.wasm']:
  copy('routex/'+name)
 # Exercise only staged code and data, so missing repo dependencies are detected.
-env=dict(os.environ)
+env=dict(os.environ, WATCH_MATH="0")
 for key in ['SCHEMA_PROBE','REPLAY_ROUNDS','REPLAY_SESSION','MATH_DIR','REPLAY_SOURCE']:env.pop(key,None)
 for command in [
  [sys.executable,'-B',str(STAGE/'games/807/math_adapter.py'),'--selftest'],

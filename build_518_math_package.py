@@ -11,7 +11,7 @@ import zipfile
 ROOT = Path(__file__).resolve().parent
 GAME = ROOT / 'games/518'
 STAGE = ROOT / 'dist518_math'
-ARCHIVE = ROOT / 'jili_518_math_test_20261102.zip'
+ARCHIVE = ROOT / 'jili_518_math_test_20261104.zip'
 subprocess.run([sys.executable, '-B', str(GAME / 'math_adapter.py'), '--selftest'], check=True)
 marker = STAGE / '.generated_518_package'
 if STAGE.exists():
@@ -27,7 +27,7 @@ def copy(source, destination=None):
     shutil.copyfile(ROOT / source, target)
 
 
-for name in ['replay_518.py', 'replay_518.cmd', 'replay_518.ps1', 'requirements_518.txt']:
+for name in ['replay_518.py', 'replay_518.cmd', 'replay_518.ps1', 'requirements_518.txt','LIVE_MATH_CAPTURE.md']:
     copy(name)
 copy('README_ForMath_518.md', 'README.md')
 for name in ['mock_server.py', 'open_mock.py', 'runtime_support.py', 'math_adapter.py',
@@ -36,7 +36,7 @@ for name in ['mock_server.py', 'open_mock.py', 'runtime_support.py', 'math_adapt
 for folder in ['math', 'static']:
     shutil.copytree(GAME / folder, STAGE / 'games/518' / folder,
                     ignore=shutil.ignore_patterns('.DS_Store', '__pycache__'))
-for name in ['server.py', 'fg5.py', 'mockkeys.json', 'wasm_patch_shim.js', 'err_probe_shim.js',
+for name in ['server.py', 'math_replay.py', 'fg5.py', 'mockkeys.json', 'wasm_patch_shim.js', 'err_probe_shim.js',
              'wasm_pub_patches.json', 'crypto.patched.wasm']:
     copy('routex/' + name)
 

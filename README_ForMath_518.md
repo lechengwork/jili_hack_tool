@@ -90,3 +90,7 @@ python replay_518.py --source math --rounds 2484635253000060518
 
 收工：關閉專用 Chrome；一鍵啟動器會停止自己開的 server。也可在啟動終端按 Ctrl+C。
 若找不到 Chrome，設定 `CHROME` 為執行檔完整路徑。
+
+## 即時回放更新（2026-11-04）
+
+一鍵replay現在預設讀math，新增／修改的逐局JSON會在下一次SPIN前重讀，不必finish或重啟。支援 `--math-dir <目錄>`、`--rounds <單號>`，原始封包回放請明確用 `--source wire`。固定快照可用 `--no-watch-math`。操作細節見專案根目錄LIVE_MATH_CAPTURE.md。
