@@ -1,0 +1,2233 @@
+{
+  "passed": false,
+  "required_webp": 124,
+  "valid_webp": 121,
+  "active_passed": false,
+  "active_required_webp": 124,
+  "active_valid_webp": 121,
+  "historical_asset_errors": [],
+  "local_http_origin": "http://127.0.0.1:53464",
+  "http_verified": 121,
+  "scope": "ASTC/WebP variants in available Cocos packs and captured ASTC; not a complete Windows visual test",
+  "unavailable_import_packs": [],
+  "binary_import_packs": [],
+  "assets": [
+    {
+      "path": "astarte2/3.6/web-mobile/assets/cn/native/13/13076e4cb.5c9bf.webp",
+      "width": 237,
+      "height": 1019,
+      "metadata": "astarte2/3.6/web-mobile/assets/cn/import/09/0929319d3.d5b15.json",
+      "config": "astarte2/3.6/web-mobile/assets/cn/config.d07b5.json",
+      "manifest_selected": true,
+      "active_bundle_version": "d07b5",
+      "status": "ok",
+      "size": 96314,
+      "sha256": "95475b6a4622b8fa6c41cb173faabcb992119149e76a8d36ab1ec5e5fce52221",
+      "dimensions": [
+        237,
+        1019
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/astarte2/3.6/web-mobile/assets/cn/native/13/13076e4cb.5c9bf.webp",
+      "http_verified": true
+    },
+    {
+      "path": "astarte2/3.6/web-mobile/assets/cn/native/13/1352bfd7b.82843.webp",
+      "width": 241,
+      "height": 1023,
+      "metadata": "astarte2/3.6/web-mobile/assets/cn/import/09/0929319d3.d5b15.json",
+      "config": "astarte2/3.6/web-mobile/assets/cn/config.d07b5.json",
+      "manifest_selected": true,
+      "active_bundle_version": "d07b5",
+      "status": "ok",
+      "size": 108840,
+      "sha256": "30ace0fcf9e9ec3d53cf7472e18373c12d1100faa877430a8470ccd7504e107f",
+      "dimensions": [
+        241,
+        1023
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/astarte2/3.6/web-mobile/assets/cn/native/13/1352bfd7b.82843.webp",
+      "http_verified": true
+    },
+    {
+      "path": "astarte2/3.6/web-mobile/assets/cn/native/13/135c3331e.56208.webp",
+      "width": 380,
+      "height": 904,
+      "metadata": "astarte2/3.6/web-mobile/assets/cn/import/09/0929319d3.d5b15.json",
+      "config": "astarte2/3.6/web-mobile/assets/cn/config.d07b5.json",
+      "manifest_selected": true,
+      "active_bundle_version": "d07b5",
+      "status": "ok",
+      "size": 36808,
+      "sha256": "ca7cee3c9fa0ce186af7d2bd11acd9c7fb6332f3c0f960b648ae73c0e16b42df",
+      "dimensions": [
+        380,
+        904
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/astarte2/3.6/web-mobile/assets/cn/native/13/135c3331e.56208.webp",
+      "http_verified": true
+    },
+    {
+      "path": "astarte2/3.6/web-mobile/assets/cn/native/13/13dd85c2a.218da.webp",
+      "width": 380,
+      "height": 904,
+      "metadata": "astarte2/3.6/web-mobile/assets/cn/import/09/0929319d3.d5b15.json",
+      "config": "astarte2/3.6/web-mobile/assets/cn/config.d07b5.json",
+      "manifest_selected": true,
+      "active_bundle_version": "d07b5",
+      "status": "ok",
+      "size": 42752,
+      "sha256": "8f01183b6c9dabce390e93c9d309722cceb494e8f400ad0d319773e8883ea56f",
+      "dimensions": [
+        380,
+        904
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/astarte2/3.6/web-mobile/assets/cn/native/13/13dd85c2a.218da.webp",
+      "http_verified": true
+    },
+    {
+      "path": "astarte2/3.6/web-mobile/assets/cn/native/13/13e76b688.51748.webp",
+      "width": 106,
+      "height": 1004,
+      "metadata": "astarte2/3.6/web-mobile/assets/cn/import/09/0929319d3.d5b15.json",
+      "config": "astarte2/3.6/web-mobile/assets/cn/config.d07b5.json",
+      "manifest_selected": true,
+      "active_bundle_version": "d07b5",
+      "status": "ok",
+      "size": 45726,
+      "sha256": "51b17e69bcc9789ecc91abd07af1dd0a7cc19ad538815b6ef1d9ee04df582bf9",
+      "dimensions": [
+        106,
+        1004
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/astarte2/3.6/web-mobile/assets/cn/native/13/13e76b688.51748.webp",
+      "http_verified": true
+    },
+    {
+      "path": "astarte2/3.6/web-mobile/assets/cn/native/16/16a1fe58b.67006.webp",
+      "width": 512,
+      "height": 683,
+      "metadata": "astarte2/3.6/web-mobile/assets/cn/import/09/0929319d3.d5b15.json",
+      "config": "astarte2/3.6/web-mobile/assets/cn/config.d07b5.json",
+      "manifest_selected": true,
+      "active_bundle_version": "d07b5",
+      "status": "error",
+      "error": "[Errno 2] No such file or directory: '/Users/dyson/Downloads/jili_hack_tool/game_site_backup/uat-wbgame.jlfafafa3.com/astarte2/3.6/web-mobile/assets/cn/native/16/16a1fe58b.67006.webp'"
+    },
+    {
+      "path": "astarte2/3.6/web-mobile/assets/cn/native/17/1763358b8.c800e.webp",
+      "width": 211,
+      "height": 505,
+      "metadata": "astarte2/3.6/web-mobile/assets/cn/import/09/0929319d3.d5b15.json",
+      "config": "astarte2/3.6/web-mobile/assets/cn/config.d07b5.json",
+      "manifest_selected": true,
+      "active_bundle_version": "d07b5",
+      "status": "ok",
+      "size": 30016,
+      "sha256": "98532e343386d57dd76f64f939d5eea76ee1b464ebfe9ac01c871a8fb02e68ae",
+      "dimensions": [
+        211,
+        505
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/astarte2/3.6/web-mobile/assets/cn/native/17/1763358b8.c800e.webp",
+      "http_verified": true
+    },
+    {
+      "path": "astarte2/3.6/web-mobile/assets/cn/native/17/176f6ef70.c800e.webp",
+      "width": 211,
+      "height": 505,
+      "metadata": "astarte2/3.6/web-mobile/assets/cn/import/09/0929319d3.d5b15.json",
+      "config": "astarte2/3.6/web-mobile/assets/cn/config.d07b5.json",
+      "manifest_selected": true,
+      "active_bundle_version": "d07b5",
+      "status": "ok",
+      "size": 30016,
+      "sha256": "98532e343386d57dd76f64f939d5eea76ee1b464ebfe9ac01c871a8fb02e68ae",
+      "dimensions": [
+        211,
+        505
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/astarte2/3.6/web-mobile/assets/cn/native/17/176f6ef70.c800e.webp",
+      "http_verified": true
+    },
+    {
+      "path": "astarte2/3.6/web-mobile/assets/cn/native/17/17d4d02df.7941a.webp",
+      "width": 140,
+      "height": 1016,
+      "metadata": "astarte2/3.6/web-mobile/assets/cn/import/09/0929319d3.d5b15.json",
+      "config": "astarte2/3.6/web-mobile/assets/cn/config.d07b5.json",
+      "manifest_selected": true,
+      "active_bundle_version": "d07b5",
+      "status": "error",
+      "error": "[Errno 2] No such file or directory: '/Users/dyson/Downloads/jili_hack_tool/game_site_backup/uat-wbgame.jlfafafa3.com/astarte2/3.6/web-mobile/assets/cn/native/17/17d4d02df.7941a.webp'"
+    },
+    {
+      "path": "astarte2/3.6/web-mobile/assets/cn/native/19/1981b39ec.03133.webp",
+      "width": 235,
+      "height": 1021,
+      "metadata": "astarte2/3.6/web-mobile/assets/cn/import/09/0929319d3.d5b15.json",
+      "config": "astarte2/3.6/web-mobile/assets/cn/config.d07b5.json",
+      "manifest_selected": true,
+      "active_bundle_version": "d07b5",
+      "status": "ok",
+      "size": 96738,
+      "sha256": "5512813a83ec66c57e780ab154c4eb4e8f3764f84caf2f4beec3068f9e7bd8bf",
+      "dimensions": [
+        235,
+        1021
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/astarte2/3.6/web-mobile/assets/cn/native/19/1981b39ec.03133.webp",
+      "http_verified": true
+    },
+    {
+      "path": "astarte2/3.6/web-mobile/assets/cn/native/1d/1d813a660.fe3d7.webp",
+      "width": 97,
+      "height": 1016,
+      "metadata": "astarte2/3.6/web-mobile/assets/cn/import/09/0929319d3.d5b15.json",
+      "config": "astarte2/3.6/web-mobile/assets/cn/config.d07b5.json",
+      "manifest_selected": true,
+      "active_bundle_version": "d07b5",
+      "status": "ok",
+      "size": 44570,
+      "sha256": "343db70f8341bb947113c09bfd634f18aef889ca4d08469a0835dab8a28c83fd",
+      "dimensions": [
+        97,
+        1016
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/astarte2/3.6/web-mobile/assets/cn/native/1d/1d813a660.fe3d7.webp",
+      "http_verified": true
+    },
+    {
+      "path": "astarte2/3.6/web-mobile/assets/jili/native/03/03f5000f-1601-4e41-9cd9-d268178f582d.41140.webp",
+      "width": 0,
+      "height": 0,
+      "metadata": "astarte2/3.6/web-mobile/assets/jili/import/01/01da8770c.dd66c.json",
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.2e30e.json",
+      "manifest_selected": true,
+      "active_bundle_version": "2e30e",
+      "status": "ok",
+      "size": 1902,
+      "sha256": "66014e14df163353b2c986e0887c21891437d7fafe5fedfb590151b8b95462bc",
+      "dimensions": [
+        60,
+        60
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/astarte2/3.6/web-mobile/assets/jili/native/03/03f5000f-1601-4e41-9cd9-d268178f582d.41140.webp",
+      "http_verified": true
+    },
+    {
+      "path": "astarte2/3.6/web-mobile/assets/jili/native/11/1164ad120.fcd64.webp",
+      "width": 482,
+      "height": 1024,
+      "metadata": "astarte2/3.6/web-mobile/assets/jili/import/01/01da8770c.dd66c.json",
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.2e30e.json",
+      "manifest_selected": true,
+      "active_bundle_version": "2e30e",
+      "status": "ok",
+      "size": 35320,
+      "sha256": "aa361a76944652357ac81f8ad7d097c55102c19c9dfe1a39261ea13f91bce4c0",
+      "dimensions": [
+        482,
+        1024
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/astarte2/3.6/web-mobile/assets/jili/native/11/1164ad120.fcd64.webp",
+      "http_verified": true
+    },
+    {
+      "path": "astarte2/3.6/web-mobile/assets/jili/native/11/118abe432.04142.webp",
+      "width": 128,
+      "height": 309,
+      "metadata": "astarte2/3.6/web-mobile/assets/jili/import/01/01da8770c.dd66c.json",
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.2e30e.json",
+      "manifest_selected": true,
+      "active_bundle_version": "2e30e",
+      "status": "ok",
+      "size": 7514,
+      "sha256": "93a748007d15c50824e556d697440246c2d38fba2491d331e5447677b5102b6f",
+      "dimensions": [
+        128,
+        309
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/astarte2/3.6/web-mobile/assets/jili/native/11/118abe432.04142.webp",
+      "http_verified": true
+    },
+    {
+      "path": "astarte2/3.6/web-mobile/assets/jili/native/12/1299bad2d.49a9e.webp",
+      "width": 1023,
+      "height": 463,
+      "metadata": "astarte2/3.6/web-mobile/assets/jili/import/01/01da8770c.dd66c.json",
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.2e30e.json",
+      "manifest_selected": true,
+      "active_bundle_version": "2e30e",
+      "status": "ok",
+      "size": 81654,
+      "sha256": "5f089b6e5c3093250ec8cd7ea9a458900e635376b47d9dfaaf1d68da3233fe13",
+      "dimensions": [
+        1023,
+        463
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/astarte2/3.6/web-mobile/assets/jili/native/12/1299bad2d.49a9e.webp",
+      "http_verified": true
+    },
+    {
+      "path": "astarte2/3.6/web-mobile/assets/jili/native/13/132c6d455.e6e74.webp",
+      "width": 902,
+      "height": 1023,
+      "metadata": "astarte2/3.6/web-mobile/assets/jili/import/01/01da8770c.dd66c.json",
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.2e30e.json",
+      "manifest_selected": true,
+      "active_bundle_version": "2e30e",
+      "status": "error",
+      "error": "[Errno 2] No such file or directory: '/Users/dyson/Downloads/jili_hack_tool/game_site_backup/uat-wbgame.jlfafafa3.com/astarte2/3.6/web-mobile/assets/jili/native/13/132c6d455.e6e74.webp'"
+    },
+    {
+      "path": "astarte2/3.6/web-mobile/assets/jili/native/13/132d2650d.48129.webp",
+      "width": 509,
+      "height": 1022,
+      "metadata": "astarte2/3.6/web-mobile/assets/jili/import/01/01da8770c.dd66c.json",
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.2e30e.json",
+      "manifest_selected": true,
+      "active_bundle_version": "2e30e",
+      "status": "ok",
+      "size": 120442,
+      "sha256": "37702025100a6e8ee8eddaa840cf5bc3bb087002d9ab431bb45e039976b84fc0",
+      "dimensions": [
+        509,
+        1022
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/astarte2/3.6/web-mobile/assets/jili/native/13/132d2650d.48129.webp",
+      "http_verified": true
+    },
+    {
+      "path": "astarte2/3.6/web-mobile/assets/jili/native/13/13dad6fb6.3e475.webp",
+      "width": 689,
+      "height": 1024,
+      "metadata": "astarte2/3.6/web-mobile/assets/jili/import/01/01da8770c.dd66c.json",
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.2e30e.json",
+      "manifest_selected": true,
+      "active_bundle_version": "2e30e",
+      "status": "ok",
+      "size": 83822,
+      "sha256": "c7d779b93b6273372f451094fe648fdace3bb32b8d7a221565b7d88ddeec7a57",
+      "dimensions": [
+        689,
+        1024
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/astarte2/3.6/web-mobile/assets/jili/native/13/13dad6fb6.3e475.webp",
+      "http_verified": true
+    },
+    {
+      "path": "astarte2/3.6/web-mobile/assets/jili/native/14/14d8a05d9.9a8a6.webp",
+      "width": 128,
+      "height": 808,
+      "metadata": "astarte2/3.6/web-mobile/assets/jili/import/01/01da8770c.dd66c.json",
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.2e30e.json",
+      "manifest_selected": true,
+      "active_bundle_version": "2e30e",
+      "status": "ok",
+      "size": 17782,
+      "sha256": "b84e3aab993a2a4abd939ea9ba721c4f8481850ee622b10df832c6358c512cc1",
+      "dimensions": [
+        128,
+        808
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/astarte2/3.6/web-mobile/assets/jili/native/14/14d8a05d9.9a8a6.webp",
+      "http_verified": true
+    },
+    {
+      "path": "astarte2/3.6/web-mobile/assets/jili/native/15/154f30a7-66d2-417c-aa11-83ac91ce0aaf.4d61b.webp",
+      "width": 0,
+      "height": 0,
+      "metadata": "astarte2/3.6/web-mobile/assets/jili/import/01/01da8770c.dd66c.json",
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.2e30e.json",
+      "manifest_selected": true,
+      "active_bundle_version": "2e30e",
+      "status": "ok",
+      "size": 119542,
+      "sha256": "f8d3fb8460b0300eb004620b14a76faff2f707552717ee2a09490fd2e6a3d99c",
+      "dimensions": [
+        988,
+        652
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/astarte2/3.6/web-mobile/assets/jili/native/15/154f30a7-66d2-417c-aa11-83ac91ce0aaf.4d61b.webp",
+      "http_verified": true
+    },
+    {
+      "path": "astarte2/3.6/web-mobile/assets/jili/native/15/15820c817.22998.webp",
+      "width": 290,
+      "height": 1021,
+      "metadata": "astarte2/3.6/web-mobile/assets/jili/import/01/01da8770c.dd66c.json",
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.2e30e.json",
+      "manifest_selected": true,
+      "active_bundle_version": "2e30e",
+      "status": "ok",
+      "size": 69320,
+      "sha256": "8ec13abfa75796561381fde72305b1fd77ac311a4df050637fe9405770b41382",
+      "dimensions": [
+        290,
+        1021
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/astarte2/3.6/web-mobile/assets/jili/native/15/15820c817.22998.webp",
+      "http_verified": true
+    },
+    {
+      "path": "astarte2/3.6/web-mobile/assets/jili/native/15/15860bf53.6810e.webp",
+      "width": 863,
+      "height": 865,
+      "metadata": "astarte2/3.6/web-mobile/assets/jili/import/01/01da8770c.dd66c.json",
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.2e30e.json",
+      "manifest_selected": true,
+      "active_bundle_version": "2e30e",
+      "status": "ok",
+      "size": 131050,
+      "sha256": "48c7d2daab04e29620f807607455f2f2d09ada2ee7d9bc1785087eaffc584ec8",
+      "dimensions": [
+        863,
+        865
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/astarte2/3.6/web-mobile/assets/jili/native/15/15860bf53.6810e.webp",
+      "http_verified": true
+    },
+    {
+      "path": "astarte2/3.6/web-mobile/assets/jili/native/15/15e1d2b32.c0c4b.webp",
+      "width": 503,
+      "height": 139,
+      "metadata": "astarte2/3.6/web-mobile/assets/jili/import/01/01da8770c.dd66c.json",
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.2e30e.json",
+      "manifest_selected": true,
+      "active_bundle_version": "2e30e",
+      "status": "ok",
+      "size": 27182,
+      "sha256": "653275b880062c3513fa82c42d397189957ddca6bf75bd120533e1cab4100fd6",
+      "dimensions": [
+        503,
+        139
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/astarte2/3.6/web-mobile/assets/jili/native/15/15e1d2b32.c0c4b.webp",
+      "http_verified": true
+    },
+    {
+      "path": "astarte2/3.6/web-mobile/assets/jili/native/16/166a618a4.69f94.webp",
+      "width": 377,
+      "height": 1023,
+      "metadata": "astarte2/3.6/web-mobile/assets/jili/import/01/01da8770c.dd66c.json",
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.2e30e.json",
+      "manifest_selected": true,
+      "active_bundle_version": "2e30e",
+      "status": "ok",
+      "size": 91270,
+      "sha256": "410370661eae9161821478987d3bf9bec57598982cdb94ea7ee1e7cc147ae2c8",
+      "dimensions": [
+        377,
+        1023
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/astarte2/3.6/web-mobile/assets/jili/native/16/166a618a4.69f94.webp",
+      "http_verified": true
+    },
+    {
+      "path": "astarte2/3.6/web-mobile/assets/jili/native/17/177658bb8.98eb0.webp",
+      "width": 470,
+      "height": 1020,
+      "metadata": "astarte2/3.6/web-mobile/assets/jili/import/01/01da8770c.dd66c.json",
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.2e30e.json",
+      "manifest_selected": true,
+      "active_bundle_version": "2e30e",
+      "status": "ok",
+      "size": 95620,
+      "sha256": "51030b088aeae441ed8188b60d084d5ac8dac819886c86557ad8dc302e98822c",
+      "dimensions": [
+        470,
+        1020
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/astarte2/3.6/web-mobile/assets/jili/native/17/177658bb8.98eb0.webp",
+      "http_verified": true
+    },
+    {
+      "path": "astarte2/3.6/web-mobile/assets/jili/native/17/17abd9622.b116f.webp",
+      "width": 484,
+      "height": 1023,
+      "metadata": "astarte2/3.6/web-mobile/assets/jili/import/01/01da8770c.dd66c.json",
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.2e30e.json",
+      "manifest_selected": true,
+      "active_bundle_version": "2e30e",
+      "status": "ok",
+      "size": 83490,
+      "sha256": "cec37b75468d3a71d29e09d338f0c34d88a67470090c68cff10e52d2c9f9d4b0",
+      "dimensions": [
+        484,
+        1023
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/astarte2/3.6/web-mobile/assets/jili/native/17/17abd9622.b116f.webp",
+      "http_verified": true
+    },
+    {
+      "path": "astarte2/3.6/web-mobile/assets/jili/native/18/18c30d4c0.e051f.webp",
+      "width": 128,
+      "height": 350,
+      "metadata": "astarte2/3.6/web-mobile/assets/jili/import/01/01da8770c.dd66c.json",
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.2e30e.json",
+      "manifest_selected": true,
+      "active_bundle_version": "2e30e",
+      "status": "ok",
+      "size": 8686,
+      "sha256": "17c8a07bccfb66752f8e375dfd7c5cc0c917d60faaa707095ba747768c1fcfcf",
+      "dimensions": [
+        128,
+        350
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/astarte2/3.6/web-mobile/assets/jili/native/18/18c30d4c0.e051f.webp",
+      "http_verified": true
+    },
+    {
+      "path": "astarte2/3.6/web-mobile/assets/jili/native/19/1962af651.24c9c.webp",
+      "width": 251,
+      "height": 716,
+      "metadata": "astarte2/3.6/web-mobile/assets/jili/import/01/01da8770c.dd66c.json",
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.2e30e.json",
+      "manifest_selected": true,
+      "active_bundle_version": "2e30e",
+      "status": "ok",
+      "size": 6810,
+      "sha256": "b7329a34bb864b38e8ed3ee9d0020b6325cacee01587342f86e39de287326105",
+      "dimensions": [
+        251,
+        716
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/astarte2/3.6/web-mobile/assets/jili/native/19/1962af651.24c9c.webp",
+      "http_verified": true
+    },
+    {
+      "path": "astarte2/3.6/web-mobile/assets/jili/native/1a/1a23e78f3.d9d58.webp",
+      "width": 1024,
+      "height": 1023,
+      "metadata": "astarte2/3.6/web-mobile/assets/jili/import/01/01da8770c.dd66c.json",
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.2e30e.json",
+      "manifest_selected": true,
+      "active_bundle_version": "2e30e",
+      "status": "ok",
+      "size": 199220,
+      "sha256": "b43c061879e856eb978ed973ea76a683e035c3b07921f94b3cf0ccac8ab628d4",
+      "dimensions": [
+        1024,
+        1023
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/astarte2/3.6/web-mobile/assets/jili/native/1a/1a23e78f3.d9d58.webp",
+      "http_verified": true
+    },
+    {
+      "path": "astarte2/3.6/web-mobile/assets/jili/native/1a/1a36a30ee.28f91.webp",
+      "width": 1024,
+      "height": 1023,
+      "metadata": "astarte2/3.6/web-mobile/assets/jili/import/01/01da8770c.dd66c.json",
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.2e30e.json",
+      "manifest_selected": true,
+      "active_bundle_version": "2e30e",
+      "status": "ok",
+      "size": 150336,
+      "sha256": "b091652f3f4158f39ebcb79f8d3642154030dbee2bfd3ae44e11eedad9237261",
+      "dimensions": [
+        1024,
+        1023
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/astarte2/3.6/web-mobile/assets/jili/native/1a/1a36a30ee.28f91.webp",
+      "http_verified": true
+    },
+    {
+      "path": "astarte2/3.6/web-mobile/assets/jili/native/1b/1b99130d0.bfbec.webp",
+      "width": 853,
+      "height": 853,
+      "metadata": "astarte2/3.6/web-mobile/assets/jili/import/01/01da8770c.dd66c.json",
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.2e30e.json",
+      "manifest_selected": true,
+      "active_bundle_version": "2e30e",
+      "status": "ok",
+      "size": 116790,
+      "sha256": "81cfed592e740f0c23ea5694a7b1ad826204303bc2b068bc1f0dce1b9c9ce625",
+      "dimensions": [
+        853,
+        853
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/astarte2/3.6/web-mobile/assets/jili/native/1b/1b99130d0.bfbec.webp",
+      "http_verified": true
+    },
+    {
+      "path": "astarte2/3.6/web-mobile/assets/jili/native/1b/1bfc2db47.4be55.webp",
+      "width": 403,
+      "height": 508,
+      "metadata": "astarte2/3.6/web-mobile/assets/jili/import/01/01da8770c.dd66c.json",
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.2e30e.json",
+      "manifest_selected": true,
+      "active_bundle_version": "2e30e",
+      "status": "ok",
+      "size": 47282,
+      "sha256": "290c20d1c3892e06391f841573a7a5b180713a5c924ace1f693ea565233bf983",
+      "dimensions": [
+        403,
+        508
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/astarte2/3.6/web-mobile/assets/jili/native/1b/1bfc2db47.4be55.webp",
+      "http_verified": true
+    },
+    {
+      "path": "astarte2/3.6/web-mobile/assets/jili/native/1c/1c8b28224.28c85.webp",
+      "width": 506,
+      "height": 920,
+      "metadata": "astarte2/3.6/web-mobile/assets/jili/import/01/01da8770c.dd66c.json",
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.2e30e.json",
+      "manifest_selected": true,
+      "active_bundle_version": "2e30e",
+      "status": "ok",
+      "size": 127300,
+      "sha256": "f8ca1783a68d2fed7c34ebdb5f074a6aa29ab20dc9c199122383fb238bfd9cd7",
+      "dimensions": [
+        506,
+        920
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/astarte2/3.6/web-mobile/assets/jili/native/1c/1c8b28224.28c85.webp",
+      "http_verified": true
+    },
+    {
+      "path": "astarte2/3.6/web-mobile/assets/jili/native/57/57ea9064-01ed-4bf3-95dd-6c21932fb739.b481c.webp",
+      "width": 0,
+      "height": 0,
+      "metadata": "astarte2/3.6/web-mobile/assets/jili/import/01/01da8770c.dd66c.json",
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.2e30e.json",
+      "manifest_selected": true,
+      "active_bundle_version": "2e30e",
+      "status": "ok",
+      "size": 1602,
+      "sha256": "93e3906e89080decdfbc57c98964970f0b990ab4dbf5f656d6cf0b587ab529a1",
+      "dimensions": [
+        65,
+        65
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/astarte2/3.6/web-mobile/assets/jili/native/57/57ea9064-01ed-4bf3-95dd-6c21932fb739.b481c.webp",
+      "http_verified": true
+    },
+    {
+      "path": "astarte2/3.6/web-mobile/assets/jili/native/a8/a8888029-763a-4a64-a7e2-b1a7fbaf2bf3.3f772.webp",
+      "width": 0,
+      "height": 0,
+      "metadata": "astarte2/3.6/web-mobile/assets/jili/import/01/01da8770c.dd66c.json",
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.2e30e.json",
+      "manifest_selected": true,
+      "active_bundle_version": "2e30e",
+      "status": "ok",
+      "size": 3000,
+      "sha256": "955e2f98f6298c4d61e600ca06721528dccaab8b6468dd60412b001da27f6438",
+      "dimensions": [
+        90,
+        90
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/astarte2/3.6/web-mobile/assets/jili/native/a8/a8888029-763a-4a64-a7e2-b1a7fbaf2bf3.3f772.webp",
+      "http_verified": true
+    },
+    {
+      "path": "astarte2/3.6/web-mobile/assets/jili/native/bd/bd5b1333-dafb-49f1-b275-9390b9054bc0.75b64.webp",
+      "width": 0,
+      "height": 0,
+      "metadata": "astarte2/3.6/web-mobile/assets/jili/import/01/01da8770c.dd66c.json",
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.2e30e.json",
+      "manifest_selected": true,
+      "active_bundle_version": "2e30e",
+      "status": "ok",
+      "size": 140,
+      "sha256": "94a11d82e933dc4c0a4c704478578f52a8479ced5e2d664fe3a455f67bccaf9a",
+      "dimensions": [
+        54,
+        54
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/astarte2/3.6/web-mobile/assets/jili/native/bd/bd5b1333-dafb-49f1-b275-9390b9054bc0.75b64.webp",
+      "http_verified": true
+    },
+    {
+      "path": "astarte2/3.6/web-mobile/assets/jili/native/c9/c9373368-bb29-423c-9c60-907a759ee348.3eb95.webp",
+      "width": 0,
+      "height": 0,
+      "metadata": "astarte2/3.6/web-mobile/assets/jili/import/01/01da8770c.dd66c.json",
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.2e30e.json",
+      "manifest_selected": true,
+      "active_bundle_version": "2e30e",
+      "status": "ok",
+      "size": 668,
+      "sha256": "a98eb1f80e00caa3303b99a3d16bd027cebc44833b201152995beb956492c128",
+      "dimensions": [
+        154,
+        154
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/astarte2/3.6/web-mobile/assets/jili/native/c9/c9373368-bb29-423c-9c60-907a759ee348.3eb95.webp",
+      "http_verified": true
+    },
+    {
+      "path": "astarte2/3.6/web-mobile/assets/jili/native/d3/d3a59595-fdc2-48a7-a1e9-315d4bdac20b.6c23e.webp",
+      "width": 0,
+      "height": 0,
+      "metadata": "astarte2/3.6/web-mobile/assets/jili/import/01/01da8770c.dd66c.json",
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.2e30e.json",
+      "manifest_selected": true,
+      "active_bundle_version": "2e30e",
+      "status": "ok",
+      "size": 3518,
+      "sha256": "4ed87aa60d87c249c54403528d79c077362a3e2554d8ef1c7dd6ba4095ae5f41",
+      "dimensions": [
+        100,
+        100
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/astarte2/3.6/web-mobile/assets/jili/native/d3/d3a59595-fdc2-48a7-a1e9-315d4bdac20b.6c23e.webp",
+      "http_verified": true
+    },
+    {
+      "path": "astarte2/3.6/web-mobile/assets/jili/native/e0/e03520a1-87b0-40d1-8dbd-6fd4c4ae9e9c.e4fba.webp",
+      "width": 0,
+      "height": 0,
+      "metadata": "astarte2/3.6/web-mobile/assets/jili/import/01/01da8770c.dd66c.json",
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.2e30e.json",
+      "manifest_selected": true,
+      "active_bundle_version": "2e30e",
+      "status": "ok",
+      "size": 56880,
+      "sha256": "abac3cabb06035862c378f31637e822ad13a0a31588c0f6e0e2f0ed822829553",
+      "dimensions": [
+        952,
+        400
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/astarte2/3.6/web-mobile/assets/jili/native/e0/e03520a1-87b0-40d1-8dbd-6fd4c4ae9e9c.e4fba.webp",
+      "http_verified": true
+    },
+    {
+      "path": "astarte2/3.6/web-mobile/assets/jili/native/f2/f282725e-8f8b-4b12-9899-d59575966623.000a8.webp",
+      "width": 0,
+      "height": 0,
+      "metadata": "astarte2/3.6/web-mobile/assets/jili/import/01/01da8770c.dd66c.json",
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.2e30e.json",
+      "manifest_selected": true,
+      "active_bundle_version": "2e30e",
+      "status": "ok",
+      "size": 3900,
+      "sha256": "741fd5d903a5c6e76f12119baa012917c3f800fdf524d0e05b6d851097ba0a21",
+      "dimensions": [
+        192,
+        64
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/astarte2/3.6/web-mobile/assets/jili/native/f2/f282725e-8f8b-4b12-9899-d59575966623.000a8.webp",
+      "http_verified": true
+    },
+    {
+      "path": "astarte2/3.6/web-mobile/assets/jili/native/fd/fd30e95d-c116-4d92-bb75-fc4fdd3051b8.77896.webp",
+      "width": 0,
+      "height": 0,
+      "metadata": "astarte2/3.6/web-mobile/assets/jili/import/01/01da8770c.dd66c.json",
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.2e30e.json",
+      "manifest_selected": true,
+      "active_bundle_version": "2e30e",
+      "status": "ok",
+      "size": 635552,
+      "sha256": "d87231dbaace33f2fad516faa3db186ad69efa6ec5db358c87ee6be7e1103306",
+      "dimensions": [
+        1508,
+        1508
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/astarte2/3.6/web-mobile/assets/jili/native/fd/fd30e95d-c116-4d92-bb75-fc4fdd3051b8.77896.webp",
+      "http_verified": true
+    },
+    {
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/native/11/11821491f.2337a.webp",
+      "width": 255,
+      "height": 262,
+      "metadata": "astarte2/3.6/web-mobile/assets/jiliMain/import/0f/0f6c3a09a.7d44e.json",
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.82268.json",
+      "manifest_selected": true,
+      "active_bundle_version": "82268",
+      "status": "ok",
+      "size": 12806,
+      "sha256": "1ad3c37f6140ceb65587e610686e79879c32e705f3144b92aec85cc43805ae31",
+      "dimensions": [
+        255,
+        262
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/astarte2/3.6/web-mobile/assets/jiliMain/native/11/11821491f.2337a.webp",
+      "http_verified": true
+    },
+    {
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/native/11/119c9384c.39d24.webp",
+      "width": 125,
+      "height": 208,
+      "metadata": "astarte2/3.6/web-mobile/assets/jiliMain/import/0f/0f6c3a09a.7d44e.json",
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.82268.json",
+      "manifest_selected": true,
+      "active_bundle_version": "82268",
+      "status": "ok",
+      "size": 5500,
+      "sha256": "9829fe103d93353b9fbe4d0a1831d8239ef4af29a564bfff4fdee8a6f6eb6b2e",
+      "dimensions": [
+        125,
+        208
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/astarte2/3.6/web-mobile/assets/jiliMain/native/11/119c9384c.39d24.webp",
+      "http_verified": true
+    },
+    {
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/native/12/12edfc410.d0ad3.webp",
+      "width": 124,
+      "height": 500,
+      "metadata": "astarte2/3.6/web-mobile/assets/jiliMain/import/0f/0f6c3a09a.7d44e.json",
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.82268.json",
+      "manifest_selected": true,
+      "active_bundle_version": "82268",
+      "status": "ok",
+      "size": 9906,
+      "sha256": "83451c5edc5f203170e1d0eb38af0cf8171a48f68efa2ea011eaf661dabb6957",
+      "dimensions": [
+        124,
+        500
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/astarte2/3.6/web-mobile/assets/jiliMain/native/12/12edfc410.d0ad3.webp",
+      "http_verified": true
+    },
+    {
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/native/16/168b05255.d75c6.webp",
+      "width": 59,
+      "height": 256,
+      "metadata": "astarte2/3.6/web-mobile/assets/jiliMain/import/0f/0f6c3a09a.7d44e.json",
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.82268.json",
+      "manifest_selected": true,
+      "active_bundle_version": "82268",
+      "status": "ok",
+      "size": 4876,
+      "sha256": "8f282f1e912c0cd5cd4a92099489322ce8bbe1a9eb95acec132b4ba837c79977",
+      "dimensions": [
+        59,
+        256
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/astarte2/3.6/web-mobile/assets/jiliMain/native/16/168b05255.d75c6.webp",
+      "http_verified": true
+    },
+    {
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/native/16/16edea480.cc1be.webp",
+      "width": 58,
+      "height": 49,
+      "metadata": "astarte2/3.6/web-mobile/assets/jiliMain/import/0f/0f6c3a09a.7d44e.json",
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.82268.json",
+      "manifest_selected": true,
+      "active_bundle_version": "82268",
+      "status": "ok",
+      "size": 1114,
+      "sha256": "e2f66c319e06cc1889bdfd65cd5251bae9cdc3934ba51c288c1e7763a31d2e15",
+      "dimensions": [
+        58,
+        49
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/astarte2/3.6/web-mobile/assets/jiliMain/native/16/16edea480.cc1be.webp",
+      "http_verified": true
+    },
+    {
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/native/18/186559350.1db69.webp",
+      "width": 512,
+      "height": 835,
+      "metadata": "astarte2/3.6/web-mobile/assets/jiliMain/import/0f/0f6c3a09a.7d44e.json",
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.82268.json",
+      "manifest_selected": true,
+      "active_bundle_version": "82268",
+      "status": "ok",
+      "size": 120922,
+      "sha256": "2a3259c7cd4468cefa430e2f4c210c0fab7c7b19e45c5edd488b2f3a97fb9f3d",
+      "dimensions": [
+        512,
+        835
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/astarte2/3.6/web-mobile/assets/jiliMain/native/18/186559350.1db69.webp",
+      "http_verified": true
+    },
+    {
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/native/19/195f5ebaf.9ea96.webp",
+      "width": 174,
+      "height": 508,
+      "metadata": "astarte2/3.6/web-mobile/assets/jiliMain/import/0f/0f6c3a09a.7d44e.json",
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.82268.json",
+      "manifest_selected": true,
+      "active_bundle_version": "82268",
+      "status": "ok",
+      "size": 20866,
+      "sha256": "1727ffa74a3b1741b9ed3da66a055eb5b80922a9f09722dd39e32831a8788e5c",
+      "dimensions": [
+        174,
+        508
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/astarte2/3.6/web-mobile/assets/jiliMain/native/19/195f5ebaf.9ea96.webp",
+      "http_verified": true
+    },
+    {
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/native/19/19feb5565.b8d4e.webp",
+      "width": 255,
+      "height": 340,
+      "metadata": "astarte2/3.6/web-mobile/assets/jiliMain/import/0f/0f6c3a09a.7d44e.json",
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.82268.json",
+      "manifest_selected": true,
+      "active_bundle_version": "82268",
+      "status": "ok",
+      "size": 27720,
+      "sha256": "deb029442ae6943071f3da7e8162374aff7f9644ced0479ccd37800e25fcd0a2",
+      "dimensions": [
+        255,
+        340
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/astarte2/3.6/web-mobile/assets/jiliMain/native/19/19feb5565.b8d4e.webp",
+      "http_verified": true
+    },
+    {
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/native/1a/1abf4b031.25c0e.webp",
+      "width": 161,
+      "height": 890,
+      "metadata": "astarte2/3.6/web-mobile/assets/jiliMain/import/0f/0f6c3a09a.7d44e.json",
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.82268.json",
+      "manifest_selected": true,
+      "active_bundle_version": "82268",
+      "status": "ok",
+      "size": 9906,
+      "sha256": "d738c87ed18418f3355bbcc61b88f9bf05e83f50b8f45e3ab3d88d8bfb563953",
+      "dimensions": [
+        161,
+        890
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/astarte2/3.6/web-mobile/assets/jiliMain/native/1a/1abf4b031.25c0e.webp",
+      "http_verified": true
+    },
+    {
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/native/1a/1ac3b17ed.a3373.webp",
+      "width": 512,
+      "height": 939,
+      "metadata": "astarte2/3.6/web-mobile/assets/jiliMain/import/0f/0f6c3a09a.7d44e.json",
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.82268.json",
+      "manifest_selected": true,
+      "active_bundle_version": "82268",
+      "status": "ok",
+      "size": 48064,
+      "sha256": "e5a2a39506df985fd561a8f87a3539893c4272f7b4b1854b9b1b594990f5b4cf",
+      "dimensions": [
+        512,
+        939
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/astarte2/3.6/web-mobile/assets/jiliMain/native/1a/1ac3b17ed.a3373.webp",
+      "http_verified": true
+    },
+    {
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/native/1b/1b621784c.e21b5.webp",
+      "width": 512,
+      "height": 512,
+      "metadata": "astarte2/3.6/web-mobile/assets/jiliMain/import/0f/0f6c3a09a.7d44e.json",
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.82268.json",
+      "manifest_selected": true,
+      "active_bundle_version": "82268",
+      "status": "ok",
+      "size": 42894,
+      "sha256": "2aca9b1e56ef481793db05cf2d9516fb559118bae8db8bdb8170087c886a1525",
+      "dimensions": [
+        512,
+        512
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/astarte2/3.6/web-mobile/assets/jiliMain/native/1b/1b621784c.e21b5.webp",
+      "http_verified": true
+    },
+    {
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/native/1c/1c2526437.2403e.webp",
+      "width": 580,
+      "height": 1024,
+      "metadata": "astarte2/3.6/web-mobile/assets/jiliMain/import/0f/0f6c3a09a.7d44e.json",
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.82268.json",
+      "manifest_selected": true,
+      "active_bundle_version": "82268",
+      "status": "ok",
+      "size": 84676,
+      "sha256": "5862532629caf4cc0635dd82820402f172d3d1574ab4c59242adf4753047b35f",
+      "dimensions": [
+        580,
+        1024
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/astarte2/3.6/web-mobile/assets/jiliMain/native/1c/1c2526437.2403e.webp",
+      "http_verified": true
+    },
+    {
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/native/1c/1c6e24425.1dad6.webp",
+      "width": 289,
+      "height": 1024,
+      "metadata": "astarte2/3.6/web-mobile/assets/jiliMain/import/0f/0f6c3a09a.7d44e.json",
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.82268.json",
+      "manifest_selected": true,
+      "active_bundle_version": "82268",
+      "status": "ok",
+      "size": 39162,
+      "sha256": "2c6508a1cf7e17ec6120e521070e0f12307d40acb075fb6b4d7068d54f4354d6",
+      "dimensions": [
+        289,
+        1024
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/astarte2/3.6/web-mobile/assets/jiliMain/native/1c/1c6e24425.1dad6.webp",
+      "http_verified": true
+    },
+    {
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/native/1c/1cf8af83e.51784.webp",
+      "width": 39,
+      "height": 242,
+      "metadata": "astarte2/3.6/web-mobile/assets/jiliMain/import/0f/0f6c3a09a.7d44e.json",
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.82268.json",
+      "manifest_selected": true,
+      "active_bundle_version": "82268",
+      "status": "ok",
+      "size": 4988,
+      "sha256": "6f6cbb8523746051b6241c3f8bebc19ed8ab702cbc1ba672e3d860c12d0bdedb",
+      "dimensions": [
+        39,
+        242
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/astarte2/3.6/web-mobile/assets/jiliMain/native/1c/1cf8af83e.51784.webp",
+      "http_verified": true
+    },
+    {
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/native/1d/1d073e540.49ffa.webp",
+      "width": 388,
+      "height": 997,
+      "metadata": "astarte2/3.6/web-mobile/assets/jiliMain/import/0f/0f6c3a09a.7d44e.json",
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.82268.json",
+      "manifest_selected": true,
+      "active_bundle_version": "82268",
+      "status": "ok",
+      "size": 57390,
+      "sha256": "34d55bd45b7e621a27ba3b22939071e16eb602fbb5ed066d7c7fee3ffac5758c",
+      "dimensions": [
+        388,
+        997
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/astarte2/3.6/web-mobile/assets/jiliMain/native/1d/1d073e540.49ffa.webp",
+      "http_verified": true
+    },
+    {
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/native/1d/1ddfca24a.d243b.webp",
+      "width": 124,
+      "height": 813,
+      "metadata": "astarte2/3.6/web-mobile/assets/jiliMain/import/0f/0f6c3a09a.7d44e.json",
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.82268.json",
+      "manifest_selected": true,
+      "active_bundle_version": "82268",
+      "status": "ok",
+      "size": 4580,
+      "sha256": "511d42230aeb2e4fdc2700749dd4308e7015a8610647265ae1f595cf5288ee35",
+      "dimensions": [
+        124,
+        813
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/astarte2/3.6/web-mobile/assets/jiliMain/native/1d/1ddfca24a.d243b.webp",
+      "http_verified": true
+    },
+    {
+      "path": "fg5/assets/game/native/07/0768ddc8-7900-4e9f-b766-81214111a879.a360c.webp",
+      "width": 0,
+      "height": 0,
+      "metadata": "fg5/assets/game/import/06/06e4f2633.a9fa8.json",
+      "config": "fg5/assets/game/config.af198.json",
+      "manifest_selected": null,
+      "active_bundle_version": null,
+      "status": "ok",
+      "size": 51444,
+      "sha256": "37284640c0689ce7bb8db536820e93648e45b75d2c34221b13042bbe9928ac8b",
+      "dimensions": [
+        640,
+        1000
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/fg5/assets/game/native/07/0768ddc8-7900-4e9f-b766-81214111a879.a360c.webp",
+      "http_verified": true
+    },
+    {
+      "path": "fg5/assets/game/native/11/118c99d37.e685f.webp",
+      "width": 1024,
+      "height": 1024,
+      "metadata": "fg5/assets/game/import/06/06e4f2633.a9fa8.json",
+      "config": "fg5/assets/game/config.af198.json",
+      "manifest_selected": null,
+      "active_bundle_version": null,
+      "status": "ok",
+      "size": 186798,
+      "sha256": "e431c7c0be78599002bb6225f9505b157563e1ee5a83be90c80b45756cf34269",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/fg5/assets/game/native/11/118c99d37.e685f.webp",
+      "http_verified": true
+    },
+    {
+      "path": "fg5/assets/game/native/12/1243f7843.48f83.webp",
+      "width": 1334,
+      "height": 1334,
+      "metadata": "fg5/assets/game/import/06/06e4f2633.a9fa8.json",
+      "config": "fg5/assets/game/config.af198.json",
+      "manifest_selected": null,
+      "active_bundle_version": null,
+      "status": "ok",
+      "size": 47596,
+      "sha256": "ce73d8d5cc4627a7c3f884dcebe6b48481722285dc03aff9fe5030e70156694a",
+      "dimensions": [
+        1334,
+        1334
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/fg5/assets/game/native/12/1243f7843.48f83.webp",
+      "http_verified": true
+    },
+    {
+      "path": "fg5/assets/game/native/12/125f7be02.39ae9.webp",
+      "width": 512,
+      "height": 1024,
+      "metadata": "fg5/assets/game/import/06/06e4f2633.a9fa8.json",
+      "config": "fg5/assets/game/config.af198.json",
+      "manifest_selected": null,
+      "active_bundle_version": null,
+      "status": "ok",
+      "size": 280302,
+      "sha256": "efb0098121b559d56c45c7ac114eb4b03137a7be3a4f7744bf6e1c427243a190",
+      "dimensions": [
+        512,
+        1024
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/fg5/assets/game/native/12/125f7be02.39ae9.webp",
+      "http_verified": true
+    },
+    {
+      "path": "fg5/assets/game/native/12/12cb05fc4.6eaa6.webp",
+      "width": 1606,
+      "height": 297,
+      "metadata": "fg5/assets/game/import/06/06e4f2633.a9fa8.json",
+      "config": "fg5/assets/game/config.af198.json",
+      "manifest_selected": null,
+      "active_bundle_version": null,
+      "status": "ok",
+      "size": 16458,
+      "sha256": "01110df6c7e1ea5c315df0635fab6dfbfb9e665e05eebbe41b4dc18ba082c6aa",
+      "dimensions": [
+        1606,
+        297
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/fg5/assets/game/native/12/12cb05fc4.6eaa6.webp",
+      "http_verified": true
+    },
+    {
+      "path": "fg5/assets/game/native/13/13a54139c.1f366.webp",
+      "width": 1024,
+      "height": 1024,
+      "metadata": "fg5/assets/game/import/06/06e4f2633.a9fa8.json",
+      "config": "fg5/assets/game/config.af198.json",
+      "manifest_selected": null,
+      "active_bundle_version": null,
+      "status": "ok",
+      "size": 194186,
+      "sha256": "9dc8d3a1c94a5372ad70246bd16b7d854c6919dcd1b7a37ba493c25fa213107a",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/fg5/assets/game/native/13/13a54139c.1f366.webp",
+      "http_verified": true
+    },
+    {
+      "path": "fg5/assets/game/native/13/13e1421ad.ab77e.webp",
+      "width": 1024,
+      "height": 512,
+      "metadata": "fg5/assets/game/import/06/06e4f2633.a9fa8.json",
+      "config": "fg5/assets/game/config.af198.json",
+      "manifest_selected": null,
+      "active_bundle_version": null,
+      "status": "ok",
+      "size": 159814,
+      "sha256": "2eadf9be668edda77febbfd55ae701a797b7490f0a4d8a15a523362bee174b76",
+      "dimensions": [
+        1024,
+        512
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/fg5/assets/game/native/13/13e1421ad.ab77e.webp",
+      "http_verified": true
+    },
+    {
+      "path": "fg5/assets/game/native/14/144a0a897.3e0d7.webp",
+      "width": 512,
+      "height": 1024,
+      "metadata": "fg5/assets/game/import/06/06e4f2633.a9fa8.json",
+      "config": "fg5/assets/game/config.af198.json",
+      "manifest_selected": null,
+      "active_bundle_version": null,
+      "status": "ok",
+      "size": 242104,
+      "sha256": "32afb3a67184fe0017373931ecd13f10969af865a53a954913602dc401922add",
+      "dimensions": [
+        512,
+        1024
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/fg5/assets/game/native/14/144a0a897.3e0d7.webp",
+      "http_verified": true
+    },
+    {
+      "path": "fg5/assets/game/native/14/14edf1c68.6f9d9.webp",
+      "width": 2048,
+      "height": 2048,
+      "metadata": "fg5/assets/game/import/06/06e4f2633.a9fa8.json",
+      "config": "fg5/assets/game/config.af198.json",
+      "manifest_selected": null,
+      "active_bundle_version": null,
+      "status": "ok",
+      "size": 661114,
+      "sha256": "b61aad573385d866b2ef98c9a35adbd9e37a84b334d11b2ab80c218ddaedc680",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/fg5/assets/game/native/14/14edf1c68.6f9d9.webp",
+      "http_verified": true
+    },
+    {
+      "path": "fg5/assets/game/native/15/1541dec00.38c85.webp",
+      "width": 512,
+      "height": 1024,
+      "metadata": "fg5/assets/game/import/06/06e4f2633.a9fa8.json",
+      "config": "fg5/assets/game/config.af198.json",
+      "manifest_selected": null,
+      "active_bundle_version": null,
+      "status": "ok",
+      "size": 164882,
+      "sha256": "9f8b75df50ee2984886da627b4add4828abbe1b9d1ff21edfb4e843bf775b6fe",
+      "dimensions": [
+        512,
+        1024
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/fg5/assets/game/native/15/1541dec00.38c85.webp",
+      "http_verified": true
+    },
+    {
+      "path": "fg5/assets/game/native/15/15bf9d3d0.4d043.webp",
+      "width": 1024,
+      "height": 512,
+      "metadata": "fg5/assets/game/import/06/06e4f2633.a9fa8.json",
+      "config": "fg5/assets/game/config.af198.json",
+      "manifest_selected": null,
+      "active_bundle_version": null,
+      "status": "ok",
+      "size": 132462,
+      "sha256": "71f8f08c4415ff437518ef4ccedf397672f51e62360ae1b5b90322c8965e4c3f",
+      "dimensions": [
+        1024,
+        512
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/fg5/assets/game/native/15/15bf9d3d0.4d043.webp",
+      "http_verified": true
+    },
+    {
+      "path": "fg5/assets/game/native/16/1611d60f0.20002.webp",
+      "width": 1024,
+      "height": 1024,
+      "metadata": "fg5/assets/game/import/06/06e4f2633.a9fa8.json",
+      "config": "fg5/assets/game/config.af198.json",
+      "manifest_selected": null,
+      "active_bundle_version": null,
+      "status": "ok",
+      "size": 200434,
+      "sha256": "b4535edce7cfd1b6c7936cb68c0a89f53b6cc4b9b43d4a777bbd26995c2c055c",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/fg5/assets/game/native/16/1611d60f0.20002.webp",
+      "http_verified": true
+    },
+    {
+      "path": "fg5/assets/game/native/16/161dda73c.6c616.webp",
+      "width": 58,
+      "height": 624,
+      "metadata": "fg5/assets/game/import/06/06e4f2633.a9fa8.json",
+      "config": "fg5/assets/game/config.af198.json",
+      "manifest_selected": null,
+      "active_bundle_version": null,
+      "status": "ok",
+      "size": 16682,
+      "sha256": "3be830a71a70d94bbec2f0f5c64f5b8f885a3a5ee25d8780c82f1038454fa1f6",
+      "dimensions": [
+        58,
+        624
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/fg5/assets/game/native/16/161dda73c.6c616.webp",
+      "http_verified": true
+    },
+    {
+      "path": "fg5/assets/game/native/16/169f856de.43812.webp",
+      "width": 509,
+      "height": 749,
+      "metadata": "fg5/assets/game/import/06/06e4f2633.a9fa8.json",
+      "config": "fg5/assets/game/config.af198.json",
+      "manifest_selected": null,
+      "active_bundle_version": null,
+      "status": "ok",
+      "size": 91306,
+      "sha256": "6d6c46a6f523966e03fef66d62dcbd6d7c72417c07a87db78a3c146dcebd8bc8",
+      "dimensions": [
+        509,
+        749
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/fg5/assets/game/native/16/169f856de.43812.webp",
+      "http_verified": true
+    },
+    {
+      "path": "fg5/assets/game/native/17/172c51172.acced.webp",
+      "width": 1024,
+      "height": 1024,
+      "metadata": "fg5/assets/game/import/06/06e4f2633.a9fa8.json",
+      "config": "fg5/assets/game/config.af198.json",
+      "manifest_selected": null,
+      "active_bundle_version": null,
+      "status": "ok",
+      "size": 202710,
+      "sha256": "503df583eab7a3b97afc114c849980c9fa2c16ad27e759294d9a543fd2fc8995",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/fg5/assets/game/native/17/172c51172.acced.webp",
+      "http_verified": true
+    },
+    {
+      "path": "fg5/assets/game/native/17/177402492.92a24.webp",
+      "width": 512,
+      "height": 1024,
+      "metadata": "fg5/assets/game/import/06/06e4f2633.a9fa8.json",
+      "config": "fg5/assets/game/config.af198.json",
+      "manifest_selected": null,
+      "active_bundle_version": null,
+      "status": "ok",
+      "size": 156378,
+      "sha256": "106b5b27797a53b2ddaaf3ce3120af3ac80611a772771ef52e3f1ad3b1f12d71",
+      "dimensions": [
+        512,
+        1024
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/fg5/assets/game/native/17/177402492.92a24.webp",
+      "http_verified": true
+    },
+    {
+      "path": "fg5/assets/game/native/17/177b29ea6.fb3ad.webp",
+      "width": 833,
+      "height": 841,
+      "metadata": "fg5/assets/game/import/06/06e4f2633.a9fa8.json",
+      "config": "fg5/assets/game/config.af198.json",
+      "manifest_selected": null,
+      "active_bundle_version": null,
+      "status": "ok",
+      "size": 185042,
+      "sha256": "115478b821029581f68e31ea6a99ab6a35d8036b9b70e0da450515544ff72cab",
+      "dimensions": [
+        833,
+        841
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/fg5/assets/game/native/17/177b29ea6.fb3ad.webp",
+      "http_verified": true
+    },
+    {
+      "path": "fg5/assets/game/native/18/1884353ce.427c7.webp",
+      "width": 512,
+      "height": 1024,
+      "metadata": "fg5/assets/game/import/06/06e4f2633.a9fa8.json",
+      "config": "fg5/assets/game/config.af198.json",
+      "manifest_selected": null,
+      "active_bundle_version": null,
+      "status": "ok",
+      "size": 151558,
+      "sha256": "8155905de13a8a875a4e6c70e92cf9a8639ce2107c4adbb998d8b6a92e9dca56",
+      "dimensions": [
+        512,
+        1024
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/fg5/assets/game/native/18/1884353ce.427c7.webp",
+      "http_verified": true
+    },
+    {
+      "path": "fg5/assets/game/native/18/18c7ae262.256a0.webp",
+      "width": 522,
+      "height": 1003,
+      "metadata": "fg5/assets/game/import/06/06e4f2633.a9fa8.json",
+      "config": "fg5/assets/game/config.af198.json",
+      "manifest_selected": null,
+      "active_bundle_version": null,
+      "status": "ok",
+      "size": 199582,
+      "sha256": "d677d6c141b55d3bcbc7b920d53113252b161943178d62b516c9bc42fc7f8fa3",
+      "dimensions": [
+        522,
+        1003
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/fg5/assets/game/native/18/18c7ae262.256a0.webp",
+      "http_verified": true
+    },
+    {
+      "path": "fg5/assets/game/native/19/1919d79d0.42c20.webp",
+      "width": 1024,
+      "height": 512,
+      "metadata": "fg5/assets/game/import/06/06e4f2633.a9fa8.json",
+      "config": "fg5/assets/game/config.af198.json",
+      "manifest_selected": null,
+      "active_bundle_version": null,
+      "status": "ok",
+      "size": 177972,
+      "sha256": "4301f50e5e7feddecffb3e9bd34ff4b6cd00732210090e111336c1ab1b92d9a2",
+      "dimensions": [
+        1024,
+        512
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/fg5/assets/game/native/19/1919d79d0.42c20.webp",
+      "http_verified": true
+    },
+    {
+      "path": "fg5/assets/game/native/19/194786477.e0c2c.webp",
+      "width": 1024,
+      "height": 512,
+      "metadata": "fg5/assets/game/import/06/06e4f2633.a9fa8.json",
+      "config": "fg5/assets/game/config.af198.json",
+      "manifest_selected": null,
+      "active_bundle_version": null,
+      "status": "ok",
+      "size": 156482,
+      "sha256": "2f8912d0f3d9d9818be64d2ac171d8e5ec81a21c07f2e2b01d247aeec74aa3fc",
+      "dimensions": [
+        1024,
+        512
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/fg5/assets/game/native/19/194786477.e0c2c.webp",
+      "http_verified": true
+    },
+    {
+      "path": "fg5/assets/game/native/19/19567dd46.bc303.webp",
+      "width": 1024,
+      "height": 512,
+      "metadata": "fg5/assets/game/import/06/06e4f2633.a9fa8.json",
+      "config": "fg5/assets/game/config.af198.json",
+      "manifest_selected": null,
+      "active_bundle_version": null,
+      "status": "ok",
+      "size": 155626,
+      "sha256": "e0fa4a148d43a331909d4b8789688f226b9205e52b64af03f2b38c2dff3f8c5a",
+      "dimensions": [
+        1024,
+        512
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/fg5/assets/game/native/19/19567dd46.bc303.webp",
+      "http_verified": true
+    },
+    {
+      "path": "fg5/assets/game/native/1a/1a10fca60.4dbcd.webp",
+      "width": 1024,
+      "height": 512,
+      "metadata": "fg5/assets/game/import/06/06e4f2633.a9fa8.json",
+      "config": "fg5/assets/game/config.af198.json",
+      "manifest_selected": null,
+      "active_bundle_version": null,
+      "status": "ok",
+      "size": 148616,
+      "sha256": "49859490de69066e2bacc60b0fdc3870ad12c6c2da1ee86712c9dc06bf3c804a",
+      "dimensions": [
+        1024,
+        512
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/fg5/assets/game/native/1a/1a10fca60.4dbcd.webp",
+      "http_verified": true
+    },
+    {
+      "path": "fg5/assets/game/native/1a/1a810ccb4.d7a74.webp",
+      "width": 32,
+      "height": 128,
+      "metadata": "fg5/assets/game/import/06/06e4f2633.a9fa8.json",
+      "config": "fg5/assets/game/config.af198.json",
+      "manifest_selected": null,
+      "active_bundle_version": null,
+      "status": "ok",
+      "size": 1398,
+      "sha256": "1baecde1deb39c377ae1269b6c1d809978abb1cc7160d4ff672258e398df6a42",
+      "dimensions": [
+        32,
+        128
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/fg5/assets/game/native/1a/1a810ccb4.d7a74.webp",
+      "http_verified": true
+    },
+    {
+      "path": "fg5/assets/game/native/1b/1ba4e2543.2d083.webp",
+      "width": 512,
+      "height": 1024,
+      "metadata": "fg5/assets/game/import/06/06e4f2633.a9fa8.json",
+      "config": "fg5/assets/game/config.af198.json",
+      "manifest_selected": null,
+      "active_bundle_version": null,
+      "status": "ok",
+      "size": 188168,
+      "sha256": "458823314a0748f123393f99c8e8186464fd94a99337157e9c787fac87ceb971",
+      "dimensions": [
+        512,
+        1024
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/fg5/assets/game/native/1b/1ba4e2543.2d083.webp",
+      "http_verified": true
+    },
+    {
+      "path": "fg5/assets/game/native/1b/1ba81dea3.7a4e9.webp",
+      "width": 1024,
+      "height": 1024,
+      "metadata": "fg5/assets/game/import/06/06e4f2633.a9fa8.json",
+      "config": "fg5/assets/game/config.af198.json",
+      "manifest_selected": null,
+      "active_bundle_version": null,
+      "status": "ok",
+      "size": 200576,
+      "sha256": "58486868b3a8e9ad1833729c8a4d9c9e0ac10377b45b441a9299523c32935657",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/fg5/assets/game/native/1b/1ba81dea3.7a4e9.webp",
+      "http_verified": true
+    },
+    {
+      "path": "fg5/assets/game/native/1c/1c0af0481.648f0.webp",
+      "width": 512,
+      "height": 1024,
+      "metadata": "fg5/assets/game/import/06/06e4f2633.a9fa8.json",
+      "config": "fg5/assets/game/config.af198.json",
+      "manifest_selected": null,
+      "active_bundle_version": null,
+      "status": "ok",
+      "size": 136184,
+      "sha256": "2075fda1d8252096d59fc2382b2da5e2a63b819f6f00e5438936b771655166b9",
+      "dimensions": [
+        512,
+        1024
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/fg5/assets/game/native/1c/1c0af0481.648f0.webp",
+      "http_verified": true
+    },
+    {
+      "path": "fg5/assets/game/native/1c/1cef78703.b3dc6.webp",
+      "width": 1024,
+      "height": 1024,
+      "metadata": "fg5/assets/game/import/06/06e4f2633.a9fa8.json",
+      "config": "fg5/assets/game/config.af198.json",
+      "manifest_selected": null,
+      "active_bundle_version": null,
+      "status": "ok",
+      "size": 189060,
+      "sha256": "afc48ddf6b5e9e63c89d589f6595399d42b06912c4645e0a7492ea5c5f8617a8",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/fg5/assets/game/native/1c/1cef78703.b3dc6.webp",
+      "http_verified": true
+    },
+    {
+      "path": "fg5/assets/game/native/1d/1d162f0b4.e2e0b.webp",
+      "width": 904,
+      "height": 910,
+      "metadata": "fg5/assets/game/import/06/06e4f2633.a9fa8.json",
+      "config": "fg5/assets/game/config.af198.json",
+      "manifest_selected": null,
+      "active_bundle_version": null,
+      "status": "ok",
+      "size": 98840,
+      "sha256": "fdf712eff4ef716eb90e02b3097c608bf2d66e0e1c26e22784e9c052ae279f93",
+      "dimensions": [
+        904,
+        910
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/fg5/assets/game/native/1d/1d162f0b4.e2e0b.webp",
+      "http_verified": true
+    },
+    {
+      "path": "fg5/assets/game/native/1d/1d76af67b.83ea5.webp",
+      "width": 512,
+      "height": 1024,
+      "metadata": "fg5/assets/game/import/06/06e4f2633.a9fa8.json",
+      "config": "fg5/assets/game/config.af198.json",
+      "manifest_selected": null,
+      "active_bundle_version": null,
+      "status": "ok",
+      "size": 197668,
+      "sha256": "093b11ac159cd702c88163b59843e592d57e5b13e21f066c5cfacad72160f067",
+      "dimensions": [
+        512,
+        1024
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/fg5/assets/game/native/1d/1d76af67b.83ea5.webp",
+      "http_verified": true
+    },
+    {
+      "path": "fg5/assets/game/native/1d/1de550fe4.713b5.webp",
+      "width": 908,
+      "height": 512,
+      "metadata": "fg5/assets/game/import/06/06e4f2633.a9fa8.json",
+      "config": "fg5/assets/game/config.af198.json",
+      "manifest_selected": null,
+      "active_bundle_version": null,
+      "status": "ok",
+      "size": 162024,
+      "sha256": "5e3bb80f8179fa5d78389aa4a8db3ce40ab3db2e25ca9c9f98eef250b5a39239",
+      "dimensions": [
+        908,
+        512
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/fg5/assets/game/native/1d/1de550fe4.713b5.webp",
+      "http_verified": true
+    },
+    {
+      "path": "fg5/assets/game/native/1d/1dfb3d82a.df27c.webp",
+      "width": 512,
+      "height": 1024,
+      "metadata": "fg5/assets/game/import/06/06e4f2633.a9fa8.json",
+      "config": "fg5/assets/game/config.af198.json",
+      "manifest_selected": null,
+      "active_bundle_version": null,
+      "status": "ok",
+      "size": 178816,
+      "sha256": "aa033c571b73d963cb977b1cf0cf041402056a61a0fbcf0066cfbb4d0ccc9019",
+      "dimensions": [
+        512,
+        1024
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/fg5/assets/game/native/1d/1dfb3d82a.df27c.webp",
+      "http_verified": true
+    },
+    {
+      "path": "fg5/assets/game/native/1e/1e9b814ee.98530.webp",
+      "width": 512,
+      "height": 1024,
+      "metadata": "fg5/assets/game/import/06/06e4f2633.a9fa8.json",
+      "config": "fg5/assets/game/config.af198.json",
+      "manifest_selected": null,
+      "active_bundle_version": null,
+      "status": "ok",
+      "size": 241350,
+      "sha256": "7f52044674cf638bf98722beb229a865752140cfcf4b82c724197f5eeba34cd7",
+      "dimensions": [
+        512,
+        1024
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/fg5/assets/game/native/1e/1e9b814ee.98530.webp",
+      "http_verified": true
+    },
+    {
+      "path": "fg5/assets/game/native/1e/1eccb0e1-4203-43b6-898d-24da2d957700.3842e.webp",
+      "width": 0,
+      "height": 0,
+      "metadata": "fg5/assets/game/import/06/06e4f2633.a9fa8.json",
+      "config": "fg5/assets/game/config.af198.json",
+      "manifest_selected": null,
+      "active_bundle_version": null,
+      "status": "ok",
+      "size": 180076,
+      "sha256": "06116ff4742363b1a62813f23fabd6758d9a6eca7241fc5c32ba43e2e6e9e7db",
+      "dimensions": [
+        970,
+        970
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/fg5/assets/game/native/1e/1eccb0e1-4203-43b6-898d-24da2d957700.3842e.webp",
+      "http_verified": true
+    },
+    {
+      "path": "fg5/assets/game/native/1e/1ee0deb9f.881b9.webp",
+      "width": 1024,
+      "height": 512,
+      "metadata": "fg5/assets/game/import/06/06e4f2633.a9fa8.json",
+      "config": "fg5/assets/game/config.af198.json",
+      "manifest_selected": null,
+      "active_bundle_version": null,
+      "status": "ok",
+      "size": 156816,
+      "sha256": "0a7d8b54177cfdba77d074835418aefc5bfca50964e1edc86f686d6065fc4b5c",
+      "dimensions": [
+        1024,
+        512
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/fg5/assets/game/native/1e/1ee0deb9f.881b9.webp",
+      "http_verified": true
+    },
+    {
+      "path": "fg5/assets/game/native/1f/1f3f8a164.09f5f.webp",
+      "width": 512,
+      "height": 512,
+      "metadata": "fg5/assets/game/import/06/06e4f2633.a9fa8.json",
+      "config": "fg5/assets/game/config.af198.json",
+      "manifest_selected": null,
+      "active_bundle_version": null,
+      "status": "ok",
+      "size": 93952,
+      "sha256": "72576cffa43e1825109921be9b43bf613d063749ee87c10e4339efbb21658b3c",
+      "dimensions": [
+        512,
+        512
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/fg5/assets/game/native/1f/1f3f8a164.09f5f.webp",
+      "http_verified": true
+    },
+    {
+      "path": "fg5/assets/game/native/1f/1ff110f43.f9c48.webp",
+      "width": 1024,
+      "height": 512,
+      "metadata": "fg5/assets/game/import/06/06e4f2633.a9fa8.json",
+      "config": "fg5/assets/game/config.af198.json",
+      "manifest_selected": null,
+      "active_bundle_version": null,
+      "status": "ok",
+      "size": 184588,
+      "sha256": "d9f42b02d6c0d9d331ab412b7f229251fa4c641797329cf01d167bd9026fd0ba",
+      "dimensions": [
+        1024,
+        512
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/fg5/assets/game/native/1f/1ff110f43.f9c48.webp",
+      "http_verified": true
+    },
+    {
+      "path": "fg5/assets/game/native/21/21113844-7697-4037-b87b-e85da794dc51.375e2.webp",
+      "width": 0,
+      "height": 0,
+      "metadata": "fg5/assets/game/import/06/06e4f2633.a9fa8.json",
+      "config": "fg5/assets/game/config.af198.json",
+      "manifest_selected": null,
+      "active_bundle_version": null,
+      "status": "ok",
+      "size": 269174,
+      "sha256": "0d8007b17cf100f27ff85979b4d7febbd49c242b4baec337d59e54c3c398c467",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/fg5/assets/game/native/21/21113844-7697-4037-b87b-e85da794dc51.375e2.webp",
+      "http_verified": true
+    },
+    {
+      "path": "fg5/assets/game/native/3f/3fd52e49-0563-4025-95e6-28e2b9edfd76.1d92b.webp",
+      "width": 0,
+      "height": 0,
+      "metadata": "fg5/assets/game/import/06/06e4f2633.a9fa8.json",
+      "config": "fg5/assets/game/config.af198.json",
+      "manifest_selected": null,
+      "active_bundle_version": null,
+      "status": "ok",
+      "size": 7310,
+      "sha256": "0a3a29677425a796d1097f8ff0e11a9f2deecb5ff8b5daa2fd4eecfe6ee05a23",
+      "dimensions": [
+        250,
+        110
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/fg5/assets/game/native/3f/3fd52e49-0563-4025-95e6-28e2b9edfd76.1d92b.webp",
+      "http_verified": true
+    },
+    {
+      "path": "fg5/assets/game/native/40/40f9f3e0-f8fe-4582-b08c-eb884f941923.f53af.webp",
+      "width": 0,
+      "height": 0,
+      "metadata": "fg5/assets/game/import/06/06e4f2633.a9fa8.json",
+      "config": "fg5/assets/game/config.af198.json",
+      "manifest_selected": null,
+      "active_bundle_version": null,
+      "status": "ok",
+      "size": 8252,
+      "sha256": "88ece53e00777b0aa11b027fdd9534745e663183783e986fedef7763ed4288d1",
+      "dimensions": [
+        140,
+        150
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/fg5/assets/game/native/40/40f9f3e0-f8fe-4582-b08c-eb884f941923.f53af.webp",
+      "http_verified": true
+    },
+    {
+      "path": "fg5/assets/game/native/4a/4a2a7960-96ab-49ae-8d3c-d98ee37e2c9f.02b12.webp",
+      "width": 0,
+      "height": 0,
+      "metadata": "fg5/assets/game/import/06/06e4f2633.a9fa8.json",
+      "config": "fg5/assets/game/config.af198.json",
+      "manifest_selected": null,
+      "active_bundle_version": null,
+      "status": "ok",
+      "size": 693568,
+      "sha256": "7a2da7bc8af70384483d3405e6af89e0138314564c37eb7144d3eeb40d1bff5f",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/fg5/assets/game/native/4a/4a2a7960-96ab-49ae-8d3c-d98ee37e2c9f.02b12.webp",
+      "http_verified": true
+    },
+    {
+      "path": "fg5/assets/game/native/55/55f24be5-819f-41bb-bd03-a81b572b8fca.9b08a.webp",
+      "width": 0,
+      "height": 0,
+      "metadata": "fg5/assets/game/import/06/06e4f2633.a9fa8.json",
+      "config": "fg5/assets/game/config.af198.json",
+      "manifest_selected": null,
+      "active_bundle_version": null,
+      "status": "ok",
+      "size": 176322,
+      "sha256": "1bb7a50ac74ff2fe5126f46c3338e345d27d774913a997247280e66a50638194",
+      "dimensions": [
+        769,
+        769
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/fg5/assets/game/native/55/55f24be5-819f-41bb-bd03-a81b572b8fca.9b08a.webp",
+      "http_verified": true
+    },
+    {
+      "path": "fg5/assets/game/native/56/5675bc46-637c-4c1a-bf25-0832522b797b.37cfe.webp",
+      "width": 0,
+      "height": 0,
+      "metadata": "fg5/assets/game/import/06/06e4f2633.a9fa8.json",
+      "config": "fg5/assets/game/config.af198.json",
+      "manifest_selected": null,
+      "active_bundle_version": null,
+      "status": "ok",
+      "size": 557468,
+      "sha256": "7e4b4e556c1889e696cc84275ea6129902013bc8065b2c179cb256142d1b9e10",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/fg5/assets/game/native/56/5675bc46-637c-4c1a-bf25-0832522b797b.37cfe.webp",
+      "http_verified": true
+    },
+    {
+      "path": "fg5/assets/game/native/57/576a467d-6c9e-4043-b88e-5ef347290f63.3f370.webp",
+      "width": 0,
+      "height": 0,
+      "metadata": "fg5/assets/game/import/06/06e4f2633.a9fa8.json",
+      "config": "fg5/assets/game/config.af198.json",
+      "manifest_selected": null,
+      "active_bundle_version": null,
+      "status": "ok",
+      "size": 262980,
+      "sha256": "a3a903c390f889612248bd44ff8a6b9c7f97866462e4bb9e77d2167aec84eeb2",
+      "dimensions": [
+        851,
+        851
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/fg5/assets/game/native/57/576a467d-6c9e-4043-b88e-5ef347290f63.3f370.webp",
+      "http_verified": true
+    },
+    {
+      "path": "fg5/assets/game/native/6a/6ae3ec00-08f1-4114-b75b-5198058bd3ff.be727.webp",
+      "width": 0,
+      "height": 0,
+      "metadata": "fg5/assets/game/import/06/06e4f2633.a9fa8.json",
+      "config": "fg5/assets/game/config.af198.json",
+      "manifest_selected": null,
+      "active_bundle_version": null,
+      "status": "ok",
+      "size": 197104,
+      "sha256": "3ee4dfc3ecdf78f904db71239bceb27a72591a2a4604bcb226224fc7f2ef584b",
+      "dimensions": [
+        776,
+        776
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/fg5/assets/game/native/6a/6ae3ec00-08f1-4114-b75b-5198058bd3ff.be727.webp",
+      "http_verified": true
+    },
+    {
+      "path": "fg5/assets/game/native/6d/6dd195d6-94d2-47fd-938e-caceace00197.dd417.webp",
+      "width": 0,
+      "height": 0,
+      "metadata": "fg5/assets/game/import/06/06e4f2633.a9fa8.json",
+      "config": "fg5/assets/game/config.af198.json",
+      "manifest_selected": null,
+      "active_bundle_version": null,
+      "status": "ok",
+      "size": 72410,
+      "sha256": "83a38d9163dca961db7d6c844f297ad9270c11dd2487eeb1b65d1b6aa3a77a93",
+      "dimensions": [
+        496,
+        496
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/fg5/assets/game/native/6d/6dd195d6-94d2-47fd-938e-caceace00197.dd417.webp",
+      "http_verified": true
+    },
+    {
+      "path": "fg5/assets/game/native/72/724bb271-6bcd-49f8-b3c1-3196b290199d.e2c7f.webp",
+      "width": 0,
+      "height": 0,
+      "metadata": "fg5/assets/game/import/06/06e4f2633.a9fa8.json",
+      "config": "fg5/assets/game/config.af198.json",
+      "manifest_selected": null,
+      "active_bundle_version": null,
+      "status": "ok",
+      "size": 2858,
+      "sha256": "2bbc09b054cbdb100780380a50a921a69c66b3a67c53726fc80696c9734030d2",
+      "dimensions": [
+        320,
+        471
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/fg5/assets/game/native/72/724bb271-6bcd-49f8-b3c1-3196b290199d.e2c7f.webp",
+      "http_verified": true
+    },
+    {
+      "path": "fg5/assets/game/native/75/75eeed27-20b1-40a8-afb6-41ae5a16fccb.76a82.webp",
+      "width": 0,
+      "height": 0,
+      "metadata": "fg5/assets/game/import/06/06e4f2633.a9fa8.json",
+      "config": "fg5/assets/game/config.af198.json",
+      "manifest_selected": null,
+      "active_bundle_version": null,
+      "status": "ok",
+      "size": 247270,
+      "sha256": "e895dd50ffff155dab526cdd41f3c3a2958eabf1384b758619615ecd6be32f46",
+      "dimensions": [
+        908,
+        908
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/fg5/assets/game/native/75/75eeed27-20b1-40a8-afb6-41ae5a16fccb.76a82.webp",
+      "http_verified": true
+    },
+    {
+      "path": "fg5/assets/game/native/84/843b5a4a-0278-4362-9d11-df5e803e3275.b4c38.webp",
+      "width": 0,
+      "height": 0,
+      "metadata": "fg5/assets/game/import/06/06e4f2633.a9fa8.json",
+      "config": "fg5/assets/game/config.af198.json",
+      "manifest_selected": null,
+      "active_bundle_version": null,
+      "status": "ok",
+      "size": 61560,
+      "sha256": "90c14572dca62b95d4f0c8c533ba42c65378caedb07235100f67515ccf64bc27",
+      "dimensions": [
+        456,
+        456
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/fg5/assets/game/native/84/843b5a4a-0278-4362-9d11-df5e803e3275.b4c38.webp",
+      "http_verified": true
+    },
+    {
+      "path": "fg5/assets/game/native/85/85bef6a8-0011-470b-9106-836c08f9a382.64868.webp",
+      "width": 0,
+      "height": 0,
+      "metadata": "fg5/assets/game/import/06/06e4f2633.a9fa8.json",
+      "config": "fg5/assets/game/config.af198.json",
+      "manifest_selected": null,
+      "active_bundle_version": null,
+      "status": "ok",
+      "size": 148816,
+      "sha256": "530a1f63508ddd21bb76acb5a2623e640bcaaa6ec6c0e3f0731cd0e6e6bc82f3",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/fg5/assets/game/native/85/85bef6a8-0011-470b-9106-836c08f9a382.64868.webp",
+      "http_verified": true
+    },
+    {
+      "path": "fg5/assets/game/native/86/86d26a53-5c3e-457e-b59d-14542c75554d.ecd67.webp",
+      "width": 0,
+      "height": 0,
+      "metadata": "fg5/assets/game/import/06/06e4f2633.a9fa8.json",
+      "config": "fg5/assets/game/config.af198.json",
+      "manifest_selected": null,
+      "active_bundle_version": null,
+      "status": "ok",
+      "size": 363236,
+      "sha256": "b4dd81fa6977298b884573460a8dff5196b7b64978dd879625b02076873c29dd",
+      "dimensions": [
+        1057,
+        1057
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/fg5/assets/game/native/86/86d26a53-5c3e-457e-b59d-14542c75554d.ecd67.webp",
+      "http_verified": true
+    },
+    {
+      "path": "fg5/assets/game/native/a0/a007d7f6-adcd-4511-8b2c-ae41c9151084.23d57.webp",
+      "width": 0,
+      "height": 0,
+      "metadata": "fg5/assets/game/import/06/06e4f2633.a9fa8.json",
+      "config": "fg5/assets/game/config.af198.json",
+      "manifest_selected": null,
+      "active_bundle_version": null,
+      "status": "ok",
+      "size": 522846,
+      "sha256": "4496e00030350b57425ff3cc9e2d0cb75b425d742e6c51015b09dd30c7dc2a05",
+      "dimensions": [
+        1992,
+        1668
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/fg5/assets/game/native/a0/a007d7f6-adcd-4511-8b2c-ae41c9151084.23d57.webp",
+      "http_verified": true
+    },
+    {
+      "path": "fg5/assets/game/native/a4/a4d54441-24bd-40d1-bd48-dd9b58fc9836.02229.webp",
+      "width": 0,
+      "height": 0,
+      "metadata": "fg5/assets/game/import/06/06e4f2633.a9fa8.json",
+      "config": "fg5/assets/game/config.af198.json",
+      "manifest_selected": null,
+      "active_bundle_version": null,
+      "status": "ok",
+      "size": 21068,
+      "sha256": "d2ae5919a960086e94055e521518d63403714f2ca4cc89fc52f9f9c446f59218",
+      "dimensions": [
+        477,
+        477
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/fg5/assets/game/native/a4/a4d54441-24bd-40d1-bd48-dd9b58fc9836.02229.webp",
+      "http_verified": true
+    },
+    {
+      "path": "fg5/assets/game/native/a8/a8dfa865-e4c6-499e-afc7-4c8b182e9a1f.ae69d.webp",
+      "width": 0,
+      "height": 0,
+      "metadata": "fg5/assets/game/import/06/06e4f2633.a9fa8.json",
+      "config": "fg5/assets/game/config.af198.json",
+      "manifest_selected": null,
+      "active_bundle_version": null,
+      "status": "ok",
+      "size": 24980,
+      "sha256": "6fee1eb3049e11c391afb89a57451e3915fe401471b2a0b9918c71e91720cdb6",
+      "dimensions": [
+        374,
+        220
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/fg5/assets/game/native/a8/a8dfa865-e4c6-499e-afc7-4c8b182e9a1f.ae69d.webp",
+      "http_verified": true
+    },
+    {
+      "path": "fg5/assets/game/native/b3/b3c4a858-6fe8-4b07-8e3c-75cf4f837e43.3c811.webp",
+      "width": 0,
+      "height": 0,
+      "metadata": "fg5/assets/game/import/06/06e4f2633.a9fa8.json",
+      "config": "fg5/assets/game/config.af198.json",
+      "manifest_selected": null,
+      "active_bundle_version": null,
+      "status": "ok",
+      "size": 564478,
+      "sha256": "57c43d41d2c2f64849a8c02749f39fd176f44784ba68c843bed25da59b87c4ac",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/fg5/assets/game/native/b3/b3c4a858-6fe8-4b07-8e3c-75cf4f837e43.3c811.webp",
+      "http_verified": true
+    },
+    {
+      "path": "fg5/assets/game/native/b8/b8969d78-2232-4623-9ae5-d3fc56032546.226ee.webp",
+      "width": 0,
+      "height": 0,
+      "metadata": "fg5/assets/game/import/06/06e4f2633.a9fa8.json",
+      "config": "fg5/assets/game/config.af198.json",
+      "manifest_selected": null,
+      "active_bundle_version": null,
+      "status": "ok",
+      "size": 24962,
+      "sha256": "773a992c5682291a35eb9fe01ddb7bec67aff3327194d4089671b035fc9c3599",
+      "dimensions": [
+        374,
+        220
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/fg5/assets/game/native/b8/b8969d78-2232-4623-9ae5-d3fc56032546.226ee.webp",
+      "http_verified": true
+    },
+    {
+      "path": "fg5/assets/game/native/bc/bc1f68db-2cde-4961-8d90-2c0e4fddf3a1.eec7b.webp",
+      "width": 0,
+      "height": 0,
+      "metadata": "fg5/assets/game/import/06/06e4f2633.a9fa8.json",
+      "config": "fg5/assets/game/config.af198.json",
+      "manifest_selected": null,
+      "active_bundle_version": null,
+      "status": "ok",
+      "size": 16060,
+      "sha256": "af54f98ad445152970c66ccf2616bfa4a3a397ce66e3a8354605bb44ae5461d7",
+      "dimensions": [
+        425,
+        200
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/fg5/assets/game/native/bc/bc1f68db-2cde-4961-8d90-2c0e4fddf3a1.eec7b.webp",
+      "http_verified": true
+    },
+    {
+      "path": "fg5/assets/game/native/c7/c7b49498-30db-4967-be35-6da77585ebb0.d4c87.webp",
+      "width": 0,
+      "height": 0,
+      "metadata": "fg5/assets/game/import/06/06e4f2633.a9fa8.json",
+      "config": "fg5/assets/game/config.af198.json",
+      "manifest_selected": null,
+      "active_bundle_version": null,
+      "status": "ok",
+      "size": 6048,
+      "sha256": "05bde43ad63b483ec93cd990dbbbd31d581646bff0071a0fc5f426e7d34c1b1c",
+      "dimensions": [
+        126,
+        80
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/fg5/assets/game/native/c7/c7b49498-30db-4967-be35-6da77585ebb0.d4c87.webp",
+      "http_verified": true
+    },
+    {
+      "path": "fg5/assets/game/native/dc/dc2c6682-5d5c-4878-88af-7ab72d05aebc.fd204.webp",
+      "width": 0,
+      "height": 0,
+      "metadata": "fg5/assets/game/import/06/06e4f2633.a9fa8.json",
+      "config": "fg5/assets/game/config.af198.json",
+      "manifest_selected": null,
+      "active_bundle_version": null,
+      "status": "ok",
+      "size": 3440,
+      "sha256": "d74810a0e898ee82dc10e4cb44d6f8dc9882eca8a965605d283d2f9e96d9fe2a",
+      "dimensions": [
+        128,
+        100
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/fg5/assets/game/native/dc/dc2c6682-5d5c-4878-88af-7ab72d05aebc.fd204.webp",
+      "http_verified": true
+    },
+    {
+      "path": "fg5/assets/game/native/e5/e579a38e-f1ec-47ea-9690-5d14df57e8b2.de819.webp",
+      "width": 0,
+      "height": 0,
+      "metadata": "fg5/assets/game/import/06/06e4f2633.a9fa8.json",
+      "config": "fg5/assets/game/config.af198.json",
+      "manifest_selected": null,
+      "active_bundle_version": null,
+      "status": "ok",
+      "size": 63306,
+      "sha256": "b2f9437c06225dbb4775798fa66433354f2bcad62ef3b51e3379c495eb0e5385",
+      "dimensions": [
+        1600,
+        1000
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/fg5/assets/game/native/e5/e579a38e-f1ec-47ea-9690-5d14df57e8b2.de819.webp",
+      "http_verified": true
+    },
+    {
+      "path": "fg5/assets/game/native/e9/e978ac2b-d0ad-4f5b-91d3-7188c0b0ea2d.0782b.webp",
+      "width": 0,
+      "height": 0,
+      "metadata": "fg5/assets/game/import/06/06e4f2633.a9fa8.json",
+      "config": "fg5/assets/game/config.af198.json",
+      "manifest_selected": null,
+      "active_bundle_version": null,
+      "status": "ok",
+      "size": 61684,
+      "sha256": "9de8268737a5047fb8e0b278e4457218bf2c4d23b9c982571e6c9276e5dd9ee8",
+      "dimensions": [
+        1000,
+        1600
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/fg5/assets/game/native/e9/e978ac2b-d0ad-4f5b-91d3-7188c0b0ea2d.0782b.webp",
+      "http_verified": true
+    },
+    {
+      "path": "fg5/assets/game/native/f5/f5d9df80-13da-46f0-937e-058a796d6146.0f559.webp",
+      "width": 0,
+      "height": 0,
+      "metadata": "fg5/assets/game/import/06/06e4f2633.a9fa8.json",
+      "config": "fg5/assets/game/config.af198.json",
+      "manifest_selected": null,
+      "active_bundle_version": null,
+      "status": "ok",
+      "size": 673132,
+      "sha256": "40c43678bee20a0099b142d1a317f82aa4c7031093258195217111a4687804de",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/fg5/assets/game/native/f5/f5d9df80-13da-46f0-937e-058a796d6146.0f559.webp",
+      "http_verified": true
+    },
+    {
+      "path": "fg5/assets/main/native/1c/1c835cb80.0d3d8.webp",
+      "width": 1018,
+      "height": 990,
+      "metadata": "fg5/assets/main/import/0b/0bb1b7847.ca548.json",
+      "config": "fg5/assets/main/config.22de5.json",
+      "manifest_selected": null,
+      "active_bundle_version": null,
+      "status": "ok",
+      "size": 183394,
+      "sha256": "491aac218737d882b26a7eed94f16562bb3adc9479e7166fed5a3113b03f3f6a",
+      "dimensions": [
+        1018,
+        990
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/fg5/assets/main/native/1c/1c835cb80.0d3d8.webp",
+      "http_verified": true
+    },
+    {
+      "path": "fg5/assets/main/native/1e/1e7f332f0.b0913.webp",
+      "width": 64,
+      "height": 1024,
+      "metadata": "fg5/assets/main/import/0b/0bb1b7847.ca548.json",
+      "config": "fg5/assets/main/config.22de5.json",
+      "manifest_selected": null,
+      "active_bundle_version": null,
+      "status": "ok",
+      "size": 15968,
+      "sha256": "8856dcd46b3276cb7c8fff8ae9f76befec2eda8338fa9b2b87bce7d12a334e3c",
+      "dimensions": [
+        64,
+        1024
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/fg5/assets/main/native/1e/1e7f332f0.b0913.webp",
+      "http_verified": true
+    },
+    {
+      "path": "fg5/assets/main/native/1e/1eb2ce076.3cc37.webp",
+      "width": 216,
+      "height": 716,
+      "metadata": "fg5/assets/main/import/0b/0bb1b7847.ca548.json",
+      "config": "fg5/assets/main/config.22de5.json",
+      "manifest_selected": null,
+      "active_bundle_version": null,
+      "status": "ok",
+      "size": 42786,
+      "sha256": "d68f54ada47db0d60cecf55599189c458b406ee6c9d106070e92f69e87d11f12",
+      "dimensions": [
+        216,
+        716
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/fg5/assets/main/native/1e/1eb2ce076.3cc37.webp",
+      "http_verified": true
+    },
+    {
+      "path": "fg5/assets/main/native/40/40dbd155-4603-477a-9b66-b96ede1578dd.d0108.webp",
+      "width": 0,
+      "height": 0,
+      "metadata": "fg5/assets/main/import/0b/0bb1b7847.ca548.json",
+      "config": "fg5/assets/main/config.22de5.json",
+      "manifest_selected": null,
+      "active_bundle_version": null,
+      "status": "ok",
+      "size": 12232,
+      "sha256": "14033720a7c93901f3f6d3dbc5fe015660f0fba1deefdd01e11dd2cd6d80031e",
+      "dimensions": [
+        320,
+        800
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/fg5/assets/main/native/40/40dbd155-4603-477a-9b66-b96ede1578dd.d0108.webp",
+      "http_verified": true
+    },
+    {
+      "path": "fg5/assets/main/native/dd/dd6306f2-ae81-40cb-8b2e-4017b585691f.9fbb4.webp",
+      "width": 0,
+      "height": 0,
+      "metadata": "fg5/assets/main/import/0b/0bb1b7847.ca548.json",
+      "config": "fg5/assets/main/config.22de5.json",
+      "manifest_selected": null,
+      "active_bundle_version": null,
+      "status": "ok",
+      "size": 19004,
+      "sha256": "413c6862c369735de45d8abc6253877c588e4c823b72c703375c22ebf7c31a82",
+      "dimensions": [
+        800,
+        320
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/fg5/assets/main/native/dd/dd6306f2-ae81-40cb-8b2e-4017b585691f.9fbb4.webp",
+      "http_verified": true
+    }
+  ],
+  "http_server_kind": "isolated game static root; not a browser or complete replay test",
+  "batch_actions": {
+    "added": 46,
+    "repaired-invalid": 1,
+    "quarantined-invalid-unrecoverable": 1
+  }
+}

@@ -1,0 +1,1561 @@
+{
+  "passed": true,
+  "required_webp": 90,
+  "valid_webp": 90,
+  "active_passed": true,
+  "active_required_webp": 90,
+  "active_valid_webp": 90,
+  "historical_asset_errors": [],
+  "local_http_origin": "http://127.0.0.1:52810",
+  "http_verified": 90,
+  "scope": "ASTC/WebP variants in available Cocos packs and captured ASTC; not a complete Windows visual test",
+  "unavailable_import_packs": [],
+  "binary_import_packs": [],
+  "assets": [
+    {
+      "path": "annin/3.8/web-mobile/assets/annin/native/0b/0bf484b6-4ccd-48ee-8f4f-a8591e0ccb3d.6b8f2.webp",
+      "width": 0,
+      "height": 0,
+      "metadata": "annin/3.8/web-mobile/assets/annin/import/01/01a490a67.680b6.json",
+      "config": "annin/3.8/web-mobile/assets/annin/config.c8dab.json",
+      "manifest_selected": true,
+      "active_bundle_version": "c8dab",
+      "status": "ok",
+      "size": 428,
+      "sha256": "bccfb0bcf446cc9b54af22ca002f6883cc6343e62c9105cd9e0fe4c1b309113a",
+      "dimensions": [
+        32,
+        32
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/annin/3.8/web-mobile/assets/annin/native/0b/0bf484b6-4ccd-48ee-8f4f-a8591e0ccb3d.6b8f2.webp",
+      "http_verified": true
+    },
+    {
+      "path": "annin/3.8/web-mobile/assets/annin/native/11/116fc30f6.a894b.webp",
+      "width": 380,
+      "height": 904,
+      "metadata": "annin/3.8/web-mobile/assets/annin/import/01/01a490a67.680b6.json",
+      "config": "annin/3.8/web-mobile/assets/annin/config.c8dab.json",
+      "manifest_selected": true,
+      "active_bundle_version": "c8dab",
+      "status": "ok",
+      "size": 38730,
+      "sha256": "cedc16c493eff16824c93381e550eb3d6d4b1a1b905a5de31c361865a20d2954",
+      "dimensions": [
+        380,
+        904
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/annin/3.8/web-mobile/assets/annin/native/11/116fc30f6.a894b.webp",
+      "http_verified": true
+    },
+    {
+      "path": "annin/3.8/web-mobile/assets/annin/native/11/11abfb58d.9d421.webp",
+      "width": 380,
+      "height": 904,
+      "metadata": "annin/3.8/web-mobile/assets/annin/import/01/01a490a67.680b6.json",
+      "config": "annin/3.8/web-mobile/assets/annin/config.c8dab.json",
+      "manifest_selected": true,
+      "active_bundle_version": "c8dab",
+      "status": "ok",
+      "size": 40278,
+      "sha256": "324709fcae1fbfd9a33cea43f5be241c2de7e4a86db575d38b133fec954cff84",
+      "dimensions": [
+        380,
+        904
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/annin/3.8/web-mobile/assets/annin/native/11/11abfb58d.9d421.webp",
+      "http_verified": true
+    },
+    {
+      "path": "annin/3.8/web-mobile/assets/annin/native/11/11ca72f7f.75419.webp",
+      "width": 380,
+      "height": 904,
+      "metadata": "annin/3.8/web-mobile/assets/annin/import/01/01a490a67.680b6.json",
+      "config": "annin/3.8/web-mobile/assets/annin/config.c8dab.json",
+      "manifest_selected": true,
+      "active_bundle_version": "c8dab",
+      "status": "ok",
+      "size": 42588,
+      "sha256": "0635f9afdbccc90a278c0a3803944dc05f9a99bae2f8d3ef2307e186be5f9213",
+      "dimensions": [
+        380,
+        904
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/annin/3.8/web-mobile/assets/annin/native/11/11ca72f7f.75419.webp",
+      "http_verified": true
+    },
+    {
+      "path": "annin/3.8/web-mobile/assets/annin/native/11/11f370e28.bb758.webp",
+      "width": 380,
+      "height": 904,
+      "metadata": "annin/3.8/web-mobile/assets/annin/import/01/01a490a67.680b6.json",
+      "config": "annin/3.8/web-mobile/assets/annin/config.c8dab.json",
+      "manifest_selected": true,
+      "active_bundle_version": "c8dab",
+      "status": "ok",
+      "size": 42970,
+      "sha256": "7266a994193d7d5b50b12539705d84d26a6391129b623cb3151ee9dc903c360c",
+      "dimensions": [
+        380,
+        904
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/annin/3.8/web-mobile/assets/annin/native/11/11f370e28.bb758.webp",
+      "http_verified": true
+    },
+    {
+      "path": "annin/3.8/web-mobile/assets/annin/native/12/12b66e59b.61ebd.webp",
+      "width": 380,
+      "height": 904,
+      "metadata": "annin/3.8/web-mobile/assets/annin/import/01/01a490a67.680b6.json",
+      "config": "annin/3.8/web-mobile/assets/annin/config.c8dab.json",
+      "manifest_selected": true,
+      "active_bundle_version": "c8dab",
+      "status": "ok",
+      "size": 39328,
+      "sha256": "3299e6ac38e9add6e79fc793d88d086e5d1c5bf6fa82eb882e0c530f0337e5fe",
+      "dimensions": [
+        380,
+        904
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/annin/3.8/web-mobile/assets/annin/native/12/12b66e59b.61ebd.webp",
+      "http_verified": true
+    },
+    {
+      "path": "annin/3.8/web-mobile/assets/annin/native/13/13144f7b6.7efed.webp",
+      "width": 380,
+      "height": 904,
+      "metadata": "annin/3.8/web-mobile/assets/annin/import/01/01a490a67.680b6.json",
+      "config": "annin/3.8/web-mobile/assets/annin/config.c8dab.json",
+      "manifest_selected": true,
+      "active_bundle_version": "c8dab",
+      "status": "ok",
+      "size": 38528,
+      "sha256": "3eb8102e0b5da868f4bc40905ef8ddaf7e2120e5d259eb7ea750f9368c95a077",
+      "dimensions": [
+        380,
+        904
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/annin/3.8/web-mobile/assets/annin/native/13/13144f7b6.7efed.webp",
+      "http_verified": true
+    },
+    {
+      "path": "annin/3.8/web-mobile/assets/annin/native/13/13481e78c.8b436.webp",
+      "width": 91,
+      "height": 200,
+      "metadata": "annin/3.8/web-mobile/assets/annin/import/01/01a490a67.680b6.json",
+      "config": "annin/3.8/web-mobile/assets/annin/config.c8dab.json",
+      "manifest_selected": true,
+      "active_bundle_version": "c8dab",
+      "status": "ok",
+      "size": 4128,
+      "sha256": "15f217da61fbceae1048eca8fedf82d75da82a609b574e89f99816baeb50c02a",
+      "dimensions": [
+        91,
+        200
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/annin/3.8/web-mobile/assets/annin/native/13/13481e78c.8b436.webp",
+      "http_verified": true
+    },
+    {
+      "path": "annin/3.8/web-mobile/assets/annin/native/13/135c3331e.0760a.webp",
+      "width": 380,
+      "height": 904,
+      "metadata": "annin/3.8/web-mobile/assets/annin/import/01/01a490a67.680b6.json",
+      "config": "annin/3.8/web-mobile/assets/annin/config.c8dab.json",
+      "manifest_selected": true,
+      "active_bundle_version": "c8dab",
+      "status": "ok",
+      "size": 36808,
+      "sha256": "ca7cee3c9fa0ce186af7d2bd11acd9c7fb6332f3c0f960b648ae73c0e16b42df",
+      "dimensions": [
+        380,
+        904
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/annin/3.8/web-mobile/assets/annin/native/13/135c3331e.0760a.webp",
+      "http_verified": true
+    },
+    {
+      "path": "annin/3.8/web-mobile/assets/annin/native/13/139fe5d16.74644.webp",
+      "width": 380,
+      "height": 904,
+      "metadata": "annin/3.8/web-mobile/assets/annin/import/01/01a490a67.680b6.json",
+      "config": "annin/3.8/web-mobile/assets/annin/config.c8dab.json",
+      "manifest_selected": true,
+      "active_bundle_version": "c8dab",
+      "status": "ok",
+      "size": 44970,
+      "sha256": "dc8d2793587d1f312a799c77e3a7585f9407c14ecf54dbb6b0dfc1dd872d631e",
+      "dimensions": [
+        380,
+        904
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/annin/3.8/web-mobile/assets/annin/native/13/139fe5d16.74644.webp",
+      "http_verified": true
+    },
+    {
+      "path": "annin/3.8/web-mobile/assets/annin/native/13/13ae56e7f.88a3e.webp",
+      "width": 380,
+      "height": 904,
+      "metadata": "annin/3.8/web-mobile/assets/annin/import/01/01a490a67.680b6.json",
+      "config": "annin/3.8/web-mobile/assets/annin/config.c8dab.json",
+      "manifest_selected": true,
+      "active_bundle_version": "c8dab",
+      "status": "ok",
+      "size": 42724,
+      "sha256": "a037a8d5d99b9602223dceb6cd97ea3f6eeba40bf2c64b0c73dfd2b23bef09a1",
+      "dimensions": [
+        380,
+        904
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/annin/3.8/web-mobile/assets/annin/native/13/13ae56e7f.88a3e.webp",
+      "http_verified": true
+    },
+    {
+      "path": "annin/3.8/web-mobile/assets/annin/native/13/13dd85c2a.fb7ae.webp",
+      "width": 380,
+      "height": 904,
+      "metadata": "annin/3.8/web-mobile/assets/annin/import/01/01a490a67.680b6.json",
+      "config": "annin/3.8/web-mobile/assets/annin/config.c8dab.json",
+      "manifest_selected": true,
+      "active_bundle_version": "c8dab",
+      "status": "ok",
+      "size": 42752,
+      "sha256": "8f01183b6c9dabce390e93c9d309722cceb494e8f400ad0d319773e8883ea56f",
+      "dimensions": [
+        380,
+        904
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/annin/3.8/web-mobile/assets/annin/native/13/13dd85c2a.fb7ae.webp",
+      "http_verified": true
+    },
+    {
+      "path": "annin/3.8/web-mobile/assets/annin/native/13/13ed4ce78.5e0cd.webp",
+      "width": 380,
+      "height": 904,
+      "metadata": "annin/3.8/web-mobile/assets/annin/import/01/01a490a67.680b6.json",
+      "config": "annin/3.8/web-mobile/assets/annin/config.c8dab.json",
+      "manifest_selected": true,
+      "active_bundle_version": "c8dab",
+      "status": "ok",
+      "size": 42640,
+      "sha256": "66c353b95cc81628e0a9cb45e1d8931042283d7af5b27fc4eaf38ea5366b216f",
+      "dimensions": [
+        380,
+        904
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/annin/3.8/web-mobile/assets/annin/native/13/13ed4ce78.5e0cd.webp",
+      "http_verified": true
+    },
+    {
+      "path": "annin/3.8/web-mobile/assets/annin/native/14/1403c1d0d.8a0e6.webp",
+      "width": 380,
+      "height": 904,
+      "metadata": "annin/3.8/web-mobile/assets/annin/import/01/01a490a67.680b6.json",
+      "config": "annin/3.8/web-mobile/assets/annin/config.c8dab.json",
+      "manifest_selected": true,
+      "active_bundle_version": "c8dab",
+      "status": "ok",
+      "size": 38496,
+      "sha256": "577e484975e22ae5362aca8b72d0a1cf25970ecebb396bd585b2861db218347d",
+      "dimensions": [
+        380,
+        904
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/annin/3.8/web-mobile/assets/annin/native/14/1403c1d0d.8a0e6.webp",
+      "http_verified": true
+    },
+    {
+      "path": "annin/3.8/web-mobile/assets/annin/native/14/1479dd4cd.8a0e6.webp",
+      "width": 380,
+      "height": 904,
+      "metadata": "annin/3.8/web-mobile/assets/annin/import/01/01a490a67.680b6.json",
+      "config": "annin/3.8/web-mobile/assets/annin/config.c8dab.json",
+      "manifest_selected": true,
+      "active_bundle_version": "c8dab",
+      "status": "ok",
+      "size": 38496,
+      "sha256": "577e484975e22ae5362aca8b72d0a1cf25970ecebb396bd585b2861db218347d",
+      "dimensions": [
+        380,
+        904
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/annin/3.8/web-mobile/assets/annin/native/14/1479dd4cd.8a0e6.webp",
+      "http_verified": true
+    },
+    {
+      "path": "annin/3.8/web-mobile/assets/annin/native/14/14e813738.82688.webp",
+      "width": 256,
+      "height": 701,
+      "metadata": "annin/3.8/web-mobile/assets/annin/import/01/01a490a67.680b6.json",
+      "config": "annin/3.8/web-mobile/assets/annin/config.c8dab.json",
+      "manifest_selected": true,
+      "active_bundle_version": "c8dab",
+      "status": "ok",
+      "size": 47740,
+      "sha256": "e728e9452617913115df532e327878b484e74501e9a85657574ab0c8eb3d8231",
+      "dimensions": [
+        256,
+        701
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/annin/3.8/web-mobile/assets/annin/native/14/14e813738.82688.webp",
+      "http_verified": true
+    },
+    {
+      "path": "annin/3.8/web-mobile/assets/annin/native/15/151dad8fc.d08d9.webp",
+      "width": 380,
+      "height": 904,
+      "metadata": "annin/3.8/web-mobile/assets/annin/import/01/01a490a67.680b6.json",
+      "config": "annin/3.8/web-mobile/assets/annin/config.c8dab.json",
+      "manifest_selected": true,
+      "active_bundle_version": "c8dab",
+      "status": "ok",
+      "size": 43616,
+      "sha256": "a4c0a3a8b0959d35b08ac4e32b301bca298cbd780ab455885d1c4944a7dc6a0b",
+      "dimensions": [
+        380,
+        904
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/annin/3.8/web-mobile/assets/annin/native/15/151dad8fc.d08d9.webp",
+      "http_verified": true
+    },
+    {
+      "path": "annin/3.8/web-mobile/assets/annin/native/15/15f168496.56de2.webp",
+      "width": 108,
+      "height": 1273,
+      "metadata": "annin/3.8/web-mobile/assets/annin/import/01/01a490a67.680b6.json",
+      "config": "annin/3.8/web-mobile/assets/annin/config.c8dab.json",
+      "manifest_selected": true,
+      "active_bundle_version": "c8dab",
+      "status": "ok",
+      "size": 10128,
+      "sha256": "29534782154da5405ccd0216e28eeb8399ecf86fe165739ac8fb270dbe28dd2d",
+      "dimensions": [
+        108,
+        1273
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/annin/3.8/web-mobile/assets/annin/native/15/15f168496.56de2.webp",
+      "http_verified": true
+    },
+    {
+      "path": "annin/3.8/web-mobile/assets/annin/native/16/161baab87.c4245.webp",
+      "width": 380,
+      "height": 904,
+      "metadata": "annin/3.8/web-mobile/assets/annin/import/01/01a490a67.680b6.json",
+      "config": "annin/3.8/web-mobile/assets/annin/config.c8dab.json",
+      "manifest_selected": true,
+      "active_bundle_version": "c8dab",
+      "status": "ok",
+      "size": 42856,
+      "sha256": "bcfc91d784789610d344d937c1a74f3bafd1a1bb64cd6467d7da951c8a384c30",
+      "dimensions": [
+        380,
+        904
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/annin/3.8/web-mobile/assets/annin/native/16/161baab87.c4245.webp",
+      "http_verified": true
+    },
+    {
+      "path": "annin/3.8/web-mobile/assets/annin/native/16/16222cf5a.1fe35.webp",
+      "width": 380,
+      "height": 904,
+      "metadata": "annin/3.8/web-mobile/assets/annin/import/01/01a490a67.680b6.json",
+      "config": "annin/3.8/web-mobile/assets/annin/config.c8dab.json",
+      "manifest_selected": true,
+      "active_bundle_version": "c8dab",
+      "status": "ok",
+      "size": 47054,
+      "sha256": "46e73f67cc96bd61c75b15eabbcbdf57087e84728d032f6800ee936e63233a6b",
+      "dimensions": [
+        380,
+        904
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/annin/3.8/web-mobile/assets/annin/native/16/16222cf5a.1fe35.webp",
+      "http_verified": true
+    },
+    {
+      "path": "annin/3.8/web-mobile/assets/annin/native/16/163b6bfdb.265f1.webp",
+      "width": 380,
+      "height": 904,
+      "metadata": "annin/3.8/web-mobile/assets/annin/import/01/01a490a67.680b6.json",
+      "config": "annin/3.8/web-mobile/assets/annin/config.c8dab.json",
+      "manifest_selected": true,
+      "active_bundle_version": "c8dab",
+      "status": "ok",
+      "size": 38380,
+      "sha256": "fd626039f54b8da2c1c79384dcbe4fffa028a5c93ade95d1c371243a76ec9661",
+      "dimensions": [
+        380,
+        904
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/annin/3.8/web-mobile/assets/annin/native/16/163b6bfdb.265f1.webp",
+      "http_verified": true
+    },
+    {
+      "path": "annin/3.8/web-mobile/assets/annin/native/16/164cc9164.7efed.webp",
+      "width": 380,
+      "height": 904,
+      "metadata": "annin/3.8/web-mobile/assets/annin/import/01/01a490a67.680b6.json",
+      "config": "annin/3.8/web-mobile/assets/annin/config.c8dab.json",
+      "manifest_selected": true,
+      "active_bundle_version": "c8dab",
+      "status": "ok",
+      "size": 38528,
+      "sha256": "3eb8102e0b5da868f4bc40905ef8ddaf7e2120e5d259eb7ea750f9368c95a077",
+      "dimensions": [
+        380,
+        904
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/annin/3.8/web-mobile/assets/annin/native/16/164cc9164.7efed.webp",
+      "http_verified": true
+    },
+    {
+      "path": "annin/3.8/web-mobile/assets/annin/native/16/166b1dd9f.00065.webp",
+      "width": 932,
+      "height": 2048,
+      "metadata": "annin/3.8/web-mobile/assets/annin/import/01/01a490a67.680b6.json",
+      "config": "annin/3.8/web-mobile/assets/annin/config.c8dab.json",
+      "manifest_selected": true,
+      "active_bundle_version": "c8dab",
+      "status": "ok",
+      "size": 479274,
+      "sha256": "2b5f88b2a099e5e2b069c88cf3c799d24793bc56979656af52644078e2581716",
+      "dimensions": [
+        932,
+        2048
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/annin/3.8/web-mobile/assets/annin/native/16/166b1dd9f.00065.webp",
+      "http_verified": true
+    },
+    {
+      "path": "annin/3.8/web-mobile/assets/annin/native/16/1686608c0.bb2f4.webp",
+      "width": 380,
+      "height": 904,
+      "metadata": "annin/3.8/web-mobile/assets/annin/import/01/01a490a67.680b6.json",
+      "config": "annin/3.8/web-mobile/assets/annin/config.c8dab.json",
+      "manifest_selected": true,
+      "active_bundle_version": "c8dab",
+      "status": "ok",
+      "size": 42730,
+      "sha256": "4272aa407463ec45dc40b170d65dd4796f1a9d6c973aa5fea815949c06ca98e7",
+      "dimensions": [
+        380,
+        904
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/annin/3.8/web-mobile/assets/annin/native/16/1686608c0.bb2f4.webp",
+      "http_verified": true
+    },
+    {
+      "path": "annin/3.8/web-mobile/assets/annin/native/17/1759a7bd4.c5dff.webp",
+      "width": 380,
+      "height": 904,
+      "metadata": "annin/3.8/web-mobile/assets/annin/import/01/01a490a67.680b6.json",
+      "config": "annin/3.8/web-mobile/assets/annin/config.c8dab.json",
+      "manifest_selected": true,
+      "active_bundle_version": "c8dab",
+      "status": "ok",
+      "size": 38686,
+      "sha256": "f030a04d4d21c2207becf4e5d86f782bf29c2765124631f666ed913e0fc7a95f",
+      "dimensions": [
+        380,
+        904
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/annin/3.8/web-mobile/assets/annin/native/17/1759a7bd4.c5dff.webp",
+      "http_verified": true
+    },
+    {
+      "path": "annin/3.8/web-mobile/assets/annin/native/17/17b1ba89c.ec9c8.webp",
+      "width": 380,
+      "height": 904,
+      "metadata": "annin/3.8/web-mobile/assets/annin/import/01/01a490a67.680b6.json",
+      "config": "annin/3.8/web-mobile/assets/annin/config.c8dab.json",
+      "manifest_selected": true,
+      "active_bundle_version": "c8dab",
+      "status": "ok",
+      "size": 42792,
+      "sha256": "b99d9815450b22384bfc17e4189dc07b726670d4a0dd8b4cc576cc6ab3d3ef61",
+      "dimensions": [
+        380,
+        904
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/annin/3.8/web-mobile/assets/annin/native/17/17b1ba89c.ec9c8.webp",
+      "http_verified": true
+    },
+    {
+      "path": "annin/3.8/web-mobile/assets/annin/native/18/181005a06.a1e56.webp",
+      "width": 380,
+      "height": 904,
+      "metadata": "annin/3.8/web-mobile/assets/annin/import/01/01a490a67.680b6.json",
+      "config": "annin/3.8/web-mobile/assets/annin/config.c8dab.json",
+      "manifest_selected": true,
+      "active_bundle_version": "c8dab",
+      "status": "ok",
+      "size": 38654,
+      "sha256": "6ca2bace25d110e71398c4c3d6af5234a18aa024ea8c51c16aa858a76bfc4868",
+      "dimensions": [
+        380,
+        904
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/annin/3.8/web-mobile/assets/annin/native/18/181005a06.a1e56.webp",
+      "http_verified": true
+    },
+    {
+      "path": "annin/3.8/web-mobile/assets/annin/native/18/182fbaae2.55a33.webp",
+      "width": 380,
+      "height": 904,
+      "metadata": "annin/3.8/web-mobile/assets/annin/import/01/01a490a67.680b6.json",
+      "config": "annin/3.8/web-mobile/assets/annin/config.c8dab.json",
+      "manifest_selected": true,
+      "active_bundle_version": "c8dab",
+      "status": "ok",
+      "size": 36662,
+      "sha256": "516ce26f5c942c97a2a4370a947c1c6212ae9e78c35204055940607b5c24cadc",
+      "dimensions": [
+        380,
+        904
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/annin/3.8/web-mobile/assets/annin/native/18/182fbaae2.55a33.webp",
+      "http_verified": true
+    },
+    {
+      "path": "annin/3.8/web-mobile/assets/annin/native/18/18a22be2c.2be28.webp",
+      "width": 380,
+      "height": 904,
+      "metadata": "annin/3.8/web-mobile/assets/annin/import/01/01a490a67.680b6.json",
+      "config": "annin/3.8/web-mobile/assets/annin/config.c8dab.json",
+      "manifest_selected": true,
+      "active_bundle_version": "c8dab",
+      "status": "ok",
+      "size": 44290,
+      "sha256": "6be2c55e3f9785888e7c73fc94f75bc2d689f29760dc38bfb21f6cc0dcd1ed50",
+      "dimensions": [
+        380,
+        904
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/annin/3.8/web-mobile/assets/annin/native/18/18a22be2c.2be28.webp",
+      "http_verified": true
+    },
+    {
+      "path": "annin/3.8/web-mobile/assets/annin/native/18/18dfe60be.22dff.webp",
+      "width": 380,
+      "height": 904,
+      "metadata": "annin/3.8/web-mobile/assets/annin/import/01/01a490a67.680b6.json",
+      "config": "annin/3.8/web-mobile/assets/annin/config.c8dab.json",
+      "manifest_selected": true,
+      "active_bundle_version": "c8dab",
+      "status": "ok",
+      "size": 38560,
+      "sha256": "bddc0d817a589fc9fb9ba90561607963d79f7cbdaa447e7508fefe9d0349aeae",
+      "dimensions": [
+        380,
+        904
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/annin/3.8/web-mobile/assets/annin/native/18/18dfe60be.22dff.webp",
+      "http_verified": true
+    },
+    {
+      "path": "annin/3.8/web-mobile/assets/annin/native/18/18f310836.eae15.webp",
+      "width": 380,
+      "height": 904,
+      "metadata": "annin/3.8/web-mobile/assets/annin/import/01/01a490a67.680b6.json",
+      "config": "annin/3.8/web-mobile/assets/annin/config.c8dab.json",
+      "manifest_selected": true,
+      "active_bundle_version": "c8dab",
+      "status": "ok",
+      "size": 40834,
+      "sha256": "fe3f5004d668b8e488d886595cf766e05464a510aa12790c526ba3e7d1cf4757",
+      "dimensions": [
+        380,
+        904
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/annin/3.8/web-mobile/assets/annin/native/18/18f310836.eae15.webp",
+      "http_verified": true
+    },
+    {
+      "path": "annin/3.8/web-mobile/assets/annin/native/19/19814d200.cbd25.webp",
+      "width": 380,
+      "height": 904,
+      "metadata": "annin/3.8/web-mobile/assets/annin/import/01/01a490a67.680b6.json",
+      "config": "annin/3.8/web-mobile/assets/annin/config.c8dab.json",
+      "manifest_selected": true,
+      "active_bundle_version": "c8dab",
+      "status": "ok",
+      "size": 38630,
+      "sha256": "c88e4a88a1ffe8df1784dcf5b32cb9948442ad9ef92b3eea499dc76920e51bde",
+      "dimensions": [
+        380,
+        904
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/annin/3.8/web-mobile/assets/annin/native/19/19814d200.cbd25.webp",
+      "http_verified": true
+    },
+    {
+      "path": "annin/3.8/web-mobile/assets/annin/native/19/1995d9d18.8a0e6.webp",
+      "width": 380,
+      "height": 904,
+      "metadata": "annin/3.8/web-mobile/assets/annin/import/01/01a490a67.680b6.json",
+      "config": "annin/3.8/web-mobile/assets/annin/config.c8dab.json",
+      "manifest_selected": true,
+      "active_bundle_version": "c8dab",
+      "status": "ok",
+      "size": 38496,
+      "sha256": "577e484975e22ae5362aca8b72d0a1cf25970ecebb396bd585b2861db218347d",
+      "dimensions": [
+        380,
+        904
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/annin/3.8/web-mobile/assets/annin/native/19/1995d9d18.8a0e6.webp",
+      "http_verified": true
+    },
+    {
+      "path": "annin/3.8/web-mobile/assets/annin/native/1a/1a106afb6.10bd9.webp",
+      "width": 380,
+      "height": 904,
+      "metadata": "annin/3.8/web-mobile/assets/annin/import/01/01a490a67.680b6.json",
+      "config": "annin/3.8/web-mobile/assets/annin/config.c8dab.json",
+      "manifest_selected": true,
+      "active_bundle_version": "c8dab",
+      "status": "ok",
+      "size": 44706,
+      "sha256": "909165fb2bd01338a0563a8ce1a4c431bca6c7fa1ea616ec68190c0df8c6d0ec",
+      "dimensions": [
+        380,
+        904
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/annin/3.8/web-mobile/assets/annin/native/1a/1a106afb6.10bd9.webp",
+      "http_verified": true
+    },
+    {
+      "path": "annin/3.8/web-mobile/assets/annin/native/1a/1a30fa74f.e24f4.webp",
+      "width": 569,
+      "height": 857,
+      "metadata": "annin/3.8/web-mobile/assets/annin/import/01/01a490a67.680b6.json",
+      "config": "annin/3.8/web-mobile/assets/annin/config.c8dab.json",
+      "manifest_selected": true,
+      "active_bundle_version": "c8dab",
+      "status": "ok",
+      "size": 96604,
+      "sha256": "3afa6ecf407045e9b3240dc8ac00c6c5cac8c499dc32003f2f3c34cd68bf50f0",
+      "dimensions": [
+        569,
+        857
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/annin/3.8/web-mobile/assets/annin/native/1a/1a30fa74f.e24f4.webp",
+      "http_verified": true
+    },
+    {
+      "path": "annin/3.8/web-mobile/assets/annin/native/1a/1a39c97d0.e16a2.webp",
+      "width": 380,
+      "height": 904,
+      "metadata": "annin/3.8/web-mobile/assets/annin/import/01/01a490a67.680b6.json",
+      "config": "annin/3.8/web-mobile/assets/annin/config.c8dab.json",
+      "manifest_selected": true,
+      "active_bundle_version": "c8dab",
+      "status": "ok",
+      "size": 43006,
+      "sha256": "16fa2de2dcd5ac34b677765da560203c84ecaf12b9d4b4b10c0a70d04652e813",
+      "dimensions": [
+        380,
+        904
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/annin/3.8/web-mobile/assets/annin/native/1a/1a39c97d0.e16a2.webp",
+      "http_verified": true
+    },
+    {
+      "path": "annin/3.8/web-mobile/assets/annin/native/1a/1a7a9de2e.e8c08.webp",
+      "width": 380,
+      "height": 904,
+      "metadata": "annin/3.8/web-mobile/assets/annin/import/01/01a490a67.680b6.json",
+      "config": "annin/3.8/web-mobile/assets/annin/config.c8dab.json",
+      "manifest_selected": true,
+      "active_bundle_version": "c8dab",
+      "status": "ok",
+      "size": 38568,
+      "sha256": "49a2e3f2762913323d954e12d6d2580f008b5bedf2f67956ff5dbf1718cb692f",
+      "dimensions": [
+        380,
+        904
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/annin/3.8/web-mobile/assets/annin/native/1a/1a7a9de2e.e8c08.webp",
+      "http_verified": true
+    },
+    {
+      "path": "annin/3.8/web-mobile/assets/annin/native/1a/1a9bc7b30.c0044.webp",
+      "width": 380,
+      "height": 904,
+      "metadata": "annin/3.8/web-mobile/assets/annin/import/01/01a490a67.680b6.json",
+      "config": "annin/3.8/web-mobile/assets/annin/config.c8dab.json",
+      "manifest_selected": true,
+      "active_bundle_version": "c8dab",
+      "status": "ok",
+      "size": 42690,
+      "sha256": "1cff72e1b61bb97ed7b807bf95d92049b4c82e066893d6d6df1b698f13caa07d",
+      "dimensions": [
+        380,
+        904
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/annin/3.8/web-mobile/assets/annin/native/1a/1a9bc7b30.c0044.webp",
+      "http_verified": true
+    },
+    {
+      "path": "annin/3.8/web-mobile/assets/annin/native/1a/1ad2344e7.a1e56.webp",
+      "width": 380,
+      "height": 904,
+      "metadata": "annin/3.8/web-mobile/assets/annin/import/01/01a490a67.680b6.json",
+      "config": "annin/3.8/web-mobile/assets/annin/config.c8dab.json",
+      "manifest_selected": true,
+      "active_bundle_version": "c8dab",
+      "status": "ok",
+      "size": 38654,
+      "sha256": "6ca2bace25d110e71398c4c3d6af5234a18aa024ea8c51c16aa858a76bfc4868",
+      "dimensions": [
+        380,
+        904
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/annin/3.8/web-mobile/assets/annin/native/1a/1ad2344e7.a1e56.webp",
+      "http_verified": true
+    },
+    {
+      "path": "annin/3.8/web-mobile/assets/annin/native/1b/1bdc96bb3.ec9c8.webp",
+      "width": 380,
+      "height": 904,
+      "metadata": "annin/3.8/web-mobile/assets/annin/import/01/01a490a67.680b6.json",
+      "config": "annin/3.8/web-mobile/assets/annin/config.c8dab.json",
+      "manifest_selected": true,
+      "active_bundle_version": "c8dab",
+      "status": "ok",
+      "size": 42792,
+      "sha256": "b99d9815450b22384bfc17e4189dc07b726670d4a0dd8b4cc576cc6ab3d3ef61",
+      "dimensions": [
+        380,
+        904
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/annin/3.8/web-mobile/assets/annin/native/1b/1bdc96bb3.ec9c8.webp",
+      "http_verified": true
+    },
+    {
+      "path": "annin/3.8/web-mobile/assets/annin/native/1b/1bdfdcb30.bb758.webp",
+      "width": 380,
+      "height": 904,
+      "metadata": "annin/3.8/web-mobile/assets/annin/import/01/01a490a67.680b6.json",
+      "config": "annin/3.8/web-mobile/assets/annin/config.c8dab.json",
+      "manifest_selected": true,
+      "active_bundle_version": "c8dab",
+      "status": "ok",
+      "size": 42970,
+      "sha256": "7266a994193d7d5b50b12539705d84d26a6391129b623cb3151ee9dc903c360c",
+      "dimensions": [
+        380,
+        904
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/annin/3.8/web-mobile/assets/annin/native/1b/1bdfdcb30.bb758.webp",
+      "http_verified": true
+    },
+    {
+      "path": "annin/3.8/web-mobile/assets/annin/native/1c/1c2c7e4ca.bb2f4.webp",
+      "width": 380,
+      "height": 904,
+      "metadata": "annin/3.8/web-mobile/assets/annin/import/01/01a490a67.680b6.json",
+      "config": "annin/3.8/web-mobile/assets/annin/config.c8dab.json",
+      "manifest_selected": true,
+      "active_bundle_version": "c8dab",
+      "status": "ok",
+      "size": 42730,
+      "sha256": "4272aa407463ec45dc40b170d65dd4796f1a9d6c973aa5fea815949c06ca98e7",
+      "dimensions": [
+        380,
+        904
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/annin/3.8/web-mobile/assets/annin/native/1c/1c2c7e4ca.bb2f4.webp",
+      "http_verified": true
+    },
+    {
+      "path": "annin/3.8/web-mobile/assets/annin/native/1c/1c4db7327.9dec8.webp",
+      "width": 380,
+      "height": 904,
+      "metadata": "annin/3.8/web-mobile/assets/annin/import/01/01a490a67.680b6.json",
+      "config": "annin/3.8/web-mobile/assets/annin/config.c8dab.json",
+      "manifest_selected": true,
+      "active_bundle_version": "c8dab",
+      "status": "ok",
+      "size": 42848,
+      "sha256": "8873667c7289ecfd0df450e6b0bade402a5918e986cd771af0bc810f3940fef1",
+      "dimensions": [
+        380,
+        904
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/annin/3.8/web-mobile/assets/annin/native/1c/1c4db7327.9dec8.webp",
+      "http_verified": true
+    },
+    {
+      "path": "annin/3.8/web-mobile/assets/annin/native/1d/1d1eee0da.fed0b.webp",
+      "width": 380,
+      "height": 904,
+      "metadata": "annin/3.8/web-mobile/assets/annin/import/01/01a490a67.680b6.json",
+      "config": "annin/3.8/web-mobile/assets/annin/config.c8dab.json",
+      "manifest_selected": true,
+      "active_bundle_version": "c8dab",
+      "status": "ok",
+      "size": 38366,
+      "sha256": "1b4bf8d2b64e1c135c20f6ce39081058a8004e972a1e64fffcbdbaea194a8054",
+      "dimensions": [
+        380,
+        904
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/annin/3.8/web-mobile/assets/annin/native/1d/1d1eee0da.fed0b.webp",
+      "http_verified": true
+    },
+    {
+      "path": "annin/3.8/web-mobile/assets/annin/native/1d/1d27e7d29.7fbbe.webp",
+      "width": 380,
+      "height": 904,
+      "metadata": "annin/3.8/web-mobile/assets/annin/import/01/01a490a67.680b6.json",
+      "config": "annin/3.8/web-mobile/assets/annin/config.c8dab.json",
+      "manifest_selected": true,
+      "active_bundle_version": "c8dab",
+      "status": "ok",
+      "size": 41044,
+      "sha256": "690ca87dae1c890f5d21b32b5e709b926dfaef2319cd8b5471a9c36f53feecdc",
+      "dimensions": [
+        380,
+        904
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/annin/3.8/web-mobile/assets/annin/native/1d/1d27e7d29.7fbbe.webp",
+      "http_verified": true
+    },
+    {
+      "path": "annin/3.8/web-mobile/assets/annin/native/1d/1d4a8de1e.5b551.webp",
+      "width": 380,
+      "height": 904,
+      "metadata": "annin/3.8/web-mobile/assets/annin/import/01/01a490a67.680b6.json",
+      "config": "annin/3.8/web-mobile/assets/annin/config.c8dab.json",
+      "manifest_selected": true,
+      "active_bundle_version": "c8dab",
+      "status": "ok",
+      "size": 38780,
+      "sha256": "e197506e78094ad50c33a3e84d752e074db1a624035ade1ea034bfc719397712",
+      "dimensions": [
+        380,
+        904
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/annin/3.8/web-mobile/assets/annin/native/1d/1d4a8de1e.5b551.webp",
+      "http_verified": true
+    },
+    {
+      "path": "annin/3.8/web-mobile/assets/annin/native/1d/1d56a028b.d4fd0.webp",
+      "width": 380,
+      "height": 904,
+      "metadata": "annin/3.8/web-mobile/assets/annin/import/01/01a490a67.680b6.json",
+      "config": "annin/3.8/web-mobile/assets/annin/config.c8dab.json",
+      "manifest_selected": true,
+      "active_bundle_version": "c8dab",
+      "status": "ok",
+      "size": 49920,
+      "sha256": "d0c7040b6ba3d3ad781d8c7b26347f4e4840d7f0ad497e77e3f321f995ebe06d",
+      "dimensions": [
+        380,
+        904
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/annin/3.8/web-mobile/assets/annin/native/1d/1d56a028b.d4fd0.webp",
+      "http_verified": true
+    },
+    {
+      "path": "annin/3.8/web-mobile/assets/annin/native/1d/1d87bf1dd.f6709.webp",
+      "width": 380,
+      "height": 904,
+      "metadata": "annin/3.8/web-mobile/assets/annin/import/01/01a490a67.680b6.json",
+      "config": "annin/3.8/web-mobile/assets/annin/config.c8dab.json",
+      "manifest_selected": true,
+      "active_bundle_version": "c8dab",
+      "status": "ok",
+      "size": 44380,
+      "sha256": "5d46855c5e1b77fd8f4f4b585db009e2b0e6c692aef5b841b68a16a55ef0d752",
+      "dimensions": [
+        380,
+        904
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/annin/3.8/web-mobile/assets/annin/native/1d/1d87bf1dd.f6709.webp",
+      "http_verified": true
+    },
+    {
+      "path": "annin/3.8/web-mobile/assets/annin/native/1d/1db450603.0617f.webp",
+      "width": 380,
+      "height": 904,
+      "metadata": "annin/3.8/web-mobile/assets/annin/import/01/01a490a67.680b6.json",
+      "config": "annin/3.8/web-mobile/assets/annin/config.c8dab.json",
+      "manifest_selected": true,
+      "active_bundle_version": "c8dab",
+      "status": "ok",
+      "size": 45912,
+      "sha256": "baa1cecf46365eee538f3ea31e1bf930a68263e058532f4b0b70d23f411abd30",
+      "dimensions": [
+        380,
+        904
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/annin/3.8/web-mobile/assets/annin/native/1d/1db450603.0617f.webp",
+      "http_verified": true
+    },
+    {
+      "path": "annin/3.8/web-mobile/assets/annin/native/1e/1e4dbf416.2bbfd.webp",
+      "width": 380,
+      "height": 904,
+      "metadata": "annin/3.8/web-mobile/assets/annin/import/01/01a490a67.680b6.json",
+      "config": "annin/3.8/web-mobile/assets/annin/config.c8dab.json",
+      "manifest_selected": true,
+      "active_bundle_version": "c8dab",
+      "status": "ok",
+      "size": 42118,
+      "sha256": "bbd6f5b352242ebcdfd8b4a710bd9cd5aec2e1f955f0ee04479bc147b0b82f03",
+      "dimensions": [
+        380,
+        904
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/annin/3.8/web-mobile/assets/annin/native/1e/1e4dbf416.2bbfd.webp",
+      "http_verified": true
+    },
+    {
+      "path": "annin/3.8/web-mobile/assets/annin/native/1e/1e4f9baf7.ea912.webp",
+      "width": 380,
+      "height": 904,
+      "metadata": "annin/3.8/web-mobile/assets/annin/import/01/01a490a67.680b6.json",
+      "config": "annin/3.8/web-mobile/assets/annin/config.c8dab.json",
+      "manifest_selected": true,
+      "active_bundle_version": "c8dab",
+      "status": "ok",
+      "size": 38612,
+      "sha256": "8c19ab994774a8d0bf8357c9b7957a219534b000a4d43f632d8e496f9d48e80f",
+      "dimensions": [
+        380,
+        904
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/annin/3.8/web-mobile/assets/annin/native/1e/1e4f9baf7.ea912.webp",
+      "http_verified": true
+    },
+    {
+      "path": "annin/3.8/web-mobile/assets/annin/native/1e/1e72d7b2b.6f78e.webp",
+      "width": 121,
+      "height": 451,
+      "metadata": "annin/3.8/web-mobile/assets/annin/import/01/01a490a67.680b6.json",
+      "config": "annin/3.8/web-mobile/assets/annin/config.c8dab.json",
+      "manifest_selected": true,
+      "active_bundle_version": "c8dab",
+      "status": "ok",
+      "size": 15650,
+      "sha256": "1abaa019ebea5652d184c5ba9304097cb1260ae90758b78fe18bbb4b51cdbcab",
+      "dimensions": [
+        121,
+        451
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/annin/3.8/web-mobile/assets/annin/native/1e/1e72d7b2b.6f78e.webp",
+      "http_verified": true
+    },
+    {
+      "path": "annin/3.8/web-mobile/assets/annin/native/1e/1e9fcb7b6.7efed.webp",
+      "width": 380,
+      "height": 904,
+      "metadata": "annin/3.8/web-mobile/assets/annin/import/01/01a490a67.680b6.json",
+      "config": "annin/3.8/web-mobile/assets/annin/config.c8dab.json",
+      "manifest_selected": true,
+      "active_bundle_version": "c8dab",
+      "status": "ok",
+      "size": 38528,
+      "sha256": "3eb8102e0b5da868f4bc40905ef8ddaf7e2120e5d259eb7ea750f9368c95a077",
+      "dimensions": [
+        380,
+        904
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/annin/3.8/web-mobile/assets/annin/native/1e/1e9fcb7b6.7efed.webp",
+      "http_verified": true
+    },
+    {
+      "path": "annin/3.8/web-mobile/assets/annin/native/1e/1ec0f02c0.c4245.webp",
+      "width": 380,
+      "height": 904,
+      "metadata": "annin/3.8/web-mobile/assets/annin/import/01/01a490a67.680b6.json",
+      "config": "annin/3.8/web-mobile/assets/annin/config.c8dab.json",
+      "manifest_selected": true,
+      "active_bundle_version": "c8dab",
+      "status": "ok",
+      "size": 42856,
+      "sha256": "bcfc91d784789610d344d937c1a74f3bafd1a1bb64cd6467d7da951c8a384c30",
+      "dimensions": [
+        380,
+        904
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/annin/3.8/web-mobile/assets/annin/native/1e/1ec0f02c0.c4245.webp",
+      "http_verified": true
+    },
+    {
+      "path": "annin/3.8/web-mobile/assets/annin/native/1e/1ee9d6661.e047b.webp",
+      "width": 380,
+      "height": 904,
+      "metadata": "annin/3.8/web-mobile/assets/annin/import/01/01a490a67.680b6.json",
+      "config": "annin/3.8/web-mobile/assets/annin/config.c8dab.json",
+      "manifest_selected": true,
+      "active_bundle_version": "c8dab",
+      "status": "ok",
+      "size": 43618,
+      "sha256": "ca59aad483dcb14833f81e0f6726f4f3db67c84da1f06d99e4121e158ad2f6c2",
+      "dimensions": [
+        380,
+        904
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/annin/3.8/web-mobile/assets/annin/native/1e/1ee9d6661.e047b.webp",
+      "http_verified": true
+    },
+    {
+      "path": "annin/3.8/web-mobile/assets/annin/native/1f/1f3130583.265f1.webp",
+      "width": 380,
+      "height": 904,
+      "metadata": "annin/3.8/web-mobile/assets/annin/import/01/01a490a67.680b6.json",
+      "config": "annin/3.8/web-mobile/assets/annin/config.c8dab.json",
+      "manifest_selected": true,
+      "active_bundle_version": "c8dab",
+      "status": "ok",
+      "size": 38380,
+      "sha256": "fd626039f54b8da2c1c79384dcbe4fffa028a5c93ade95d1c371243a76ec9661",
+      "dimensions": [
+        380,
+        904
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/annin/3.8/web-mobile/assets/annin/native/1f/1f3130583.265f1.webp",
+      "http_verified": true
+    },
+    {
+      "path": "annin/3.8/web-mobile/assets/annin/native/1f/1f47c20aa.b742d.webp",
+      "width": 380,
+      "height": 904,
+      "metadata": "annin/3.8/web-mobile/assets/annin/import/01/01a490a67.680b6.json",
+      "config": "annin/3.8/web-mobile/assets/annin/config.c8dab.json",
+      "manifest_selected": true,
+      "active_bundle_version": "c8dab",
+      "status": "ok",
+      "size": 45774,
+      "sha256": "0a669c5478446f23c85e3cf69e7ba220fa33d2cf527208c3b9b7d1ddb0738052",
+      "dimensions": [
+        380,
+        904
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/annin/3.8/web-mobile/assets/annin/native/1f/1f47c20aa.b742d.webp",
+      "http_verified": true
+    },
+    {
+      "path": "annin/3.8/web-mobile/assets/annin/native/bb/bbb380b5-97ea-436d-b8fe-f3f1cfa9b8b6.5d404.webp",
+      "width": 0,
+      "height": 0,
+      "metadata": "annin/3.8/web-mobile/assets/annin/import/01/01a490a67.680b6.json",
+      "config": "annin/3.8/web-mobile/assets/annin/config.c8dab.json",
+      "manifest_selected": true,
+      "active_bundle_version": "c8dab",
+      "status": "ok",
+      "size": 792,
+      "sha256": "99453469db52cb510e23b7809c0f9c5a392c63eb20020f364869cb6195eee9d9",
+      "dimensions": [
+        40,
+        40
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/annin/3.8/web-mobile/assets/annin/native/bb/bbb380b5-97ea-436d-b8fe-f3f1cfa9b8b6.5d404.webp",
+      "http_verified": true
+    },
+    {
+      "path": "annin/3.8/web-mobile/assets/annin/native/c0/c0ab0c8c-6489-41f5-9033-12e14cc2e6bd.4e810.webp",
+      "width": 0,
+      "height": 0,
+      "metadata": "annin/3.8/web-mobile/assets/annin/import/01/01a490a67.680b6.json",
+      "config": "annin/3.8/web-mobile/assets/annin/config.c8dab.json",
+      "manifest_selected": true,
+      "active_bundle_version": "c8dab",
+      "status": "ok",
+      "size": 6050,
+      "sha256": "a815455bf6a5475bf80750befaf4ceb81c9c1ae4c0eb6c6c9c9261c523e62964",
+      "dimensions": [
+        119,
+        119
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/annin/3.8/web-mobile/assets/annin/native/c0/c0ab0c8c-6489-41f5-9033-12e14cc2e6bd.4e810.webp",
+      "http_verified": true
+    },
+    {
+      "path": "annin/3.8/web-mobile/assets/annin/native/d8/d8582468-b60a-41d4-84e0-0ccd2127d93e.9b98f.webp",
+      "width": 0,
+      "height": 0,
+      "metadata": "annin/3.8/web-mobile/assets/annin/import/01/01a490a67.680b6.json",
+      "config": "annin/3.8/web-mobile/assets/annin/config.c8dab.json",
+      "manifest_selected": true,
+      "active_bundle_version": "c8dab",
+      "status": "ok",
+      "size": 348740,
+      "sha256": "685be12d71ec3d0c1de754588b4b2c5f273da8a871b0537be2fe6425fe3dfe61",
+      "dimensions": [
+        1428,
+        1428
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/annin/3.8/web-mobile/assets/annin/native/d8/d8582468-b60a-41d4-84e0-0ccd2127d93e.9b98f.webp",
+      "http_verified": true
+    },
+    {
+      "path": "annin/3.8/web-mobile/assets/annin/native/fe/fe06a511-6c52-49f5-b439-53bbc4712822.0ab8c.webp",
+      "width": 0,
+      "height": 0,
+      "metadata": "annin/3.8/web-mobile/assets/annin/import/01/01a490a67.680b6.json",
+      "config": "annin/3.8/web-mobile/assets/annin/config.c8dab.json",
+      "manifest_selected": true,
+      "active_bundle_version": "c8dab",
+      "status": "ok",
+      "size": 1808,
+      "sha256": "e17620b3486c33056712320826ad72714f62b43645660e377f15f96ee7ce7718",
+      "dimensions": [
+        264,
+        133
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/annin/3.8/web-mobile/assets/annin/native/fe/fe06a511-6c52-49f5-b439-53bbc4712822.0ab8c.webp",
+      "http_verified": true
+    },
+    {
+      "path": "annin/3.8/web-mobile/assets/annin_loading/native/12/1245bbbf7.f7fb4.webp",
+      "width": 336,
+      "height": 350,
+      "metadata": "annin/3.8/web-mobile/assets/annin_loading/import/07/0711700d6.7e333.json",
+      "config": "annin/3.8/web-mobile/assets/annin_loading/config.bf6f5.json",
+      "manifest_selected": true,
+      "active_bundle_version": "bf6f5",
+      "status": "ok",
+      "size": 17920,
+      "sha256": "b5ba46675600e83ee9ac3a8a7926ed92ebf0d1a94f332cfb97fb643890db91d1",
+      "dimensions": [
+        336,
+        350
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/annin/3.8/web-mobile/assets/annin_loading/native/12/1245bbbf7.f7fb4.webp",
+      "http_verified": true
+    },
+    {
+      "path": "annin/3.8/web-mobile/assets/annin_loading/native/15/15f168496.56de2.webp",
+      "width": 108,
+      "height": 1273,
+      "metadata": "annin/3.8/web-mobile/assets/annin_loading/import/07/0711700d6.7e333.json",
+      "config": "annin/3.8/web-mobile/assets/annin_loading/config.bf6f5.json",
+      "manifest_selected": true,
+      "active_bundle_version": "bf6f5",
+      "status": "ok",
+      "size": 10128,
+      "sha256": "29534782154da5405ccd0216e28eeb8399ecf86fe165739ac8fb270dbe28dd2d",
+      "dimensions": [
+        108,
+        1273
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/annin/3.8/web-mobile/assets/annin_loading/native/15/15f168496.56de2.webp",
+      "http_verified": true
+    },
+    {
+      "path": "rummy/assets/game/native/12/12d5fbefe.a0461.webp",
+      "width": null,
+      "height": null,
+      "metadata": "existing WebP; metadata not resolved",
+      "status": "ok",
+      "size": 2124,
+      "sha256": "673c2a10f9f5027aa5290893cca572eaba3581f7bd82fee2d7cc8bb5659c643a",
+      "dimensions": [
+        56,
+        523
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/rummy/assets/game/native/12/12d5fbefe.a0461.webp",
+      "http_verified": true
+    },
+    {
+      "path": "rummy/assets/game/native/13/13673e320.45f05.webp",
+      "width": null,
+      "height": null,
+      "metadata": "existing WebP; metadata not resolved",
+      "status": "ok",
+      "size": 4390,
+      "sha256": "9afa50ad2796d30ef8a78ece636ee289193bbc3265ce29fb3832b0cd29459ab8",
+      "dimensions": [
+        114,
+        177
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/rummy/assets/game/native/13/13673e320.45f05.webp",
+      "http_verified": true
+    },
+    {
+      "path": "rummy/assets/game/native/14/1415a5b5c.a94fa.webp",
+      "width": null,
+      "height": null,
+      "metadata": "existing WebP; metadata not resolved",
+      "status": "ok",
+      "size": 64186,
+      "sha256": "9b87acef5a6aa884c5304e6993154d69a5bab29130ad5de2067b3463c110e44e",
+      "dimensions": [
+        511,
+        970
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/rummy/assets/game/native/14/1415a5b5c.a94fa.webp",
+      "http_verified": true
+    },
+    {
+      "path": "rummy/assets/game/native/14/14a4adfe4.d800d.webp",
+      "width": null,
+      "height": null,
+      "metadata": "existing WebP; metadata not resolved",
+      "status": "ok",
+      "size": 5198,
+      "sha256": "8b904ebaac75d2eeaf81ba94d8f367595b7d75f1c920f0971230e3dfe85ec4da",
+      "dimensions": [
+        124,
+        148
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/rummy/assets/game/native/14/14a4adfe4.d800d.webp",
+      "http_verified": true
+    },
+    {
+      "path": "rummy/assets/game/native/14/14c31faed.69bdb.webp",
+      "width": null,
+      "height": null,
+      "metadata": "existing WebP; metadata not resolved",
+      "status": "ok",
+      "size": 32322,
+      "sha256": "7f3a3de16d7527e38e37c55576b4714d451e0e17d8907696160a14a4d361066f",
+      "dimensions": [
+        201,
+        587
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/rummy/assets/game/native/14/14c31faed.69bdb.webp",
+      "http_verified": true
+    },
+    {
+      "path": "rummy/assets/game/native/15/154d71d40.66ead.webp",
+      "width": null,
+      "height": null,
+      "metadata": "existing WebP; metadata not resolved",
+      "status": "ok",
+      "size": 1776,
+      "sha256": "b7b26974bdf90cc8bd8db126cffff3c7694eea031ee340581cfc1da213a1f7a8",
+      "dimensions": [
+        62,
+        66
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/rummy/assets/game/native/15/154d71d40.66ead.webp",
+      "http_verified": true
+    },
+    {
+      "path": "rummy/assets/game/native/15/1594b2cea.84093.webp",
+      "width": null,
+      "height": null,
+      "metadata": "existing WebP; metadata not resolved",
+      "status": "ok",
+      "size": 2096,
+      "sha256": "b19d9eb1016a59dc1029b084be903eb16a1e7c0ec81ccccb8cb93cc3557125d9",
+      "dimensions": [
+        90,
+        115
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/rummy/assets/game/native/15/1594b2cea.84093.webp",
+      "http_verified": true
+    },
+    {
+      "path": "rummy/assets/game/native/17/17920143f.0e947.webp",
+      "width": null,
+      "height": null,
+      "metadata": "existing WebP; metadata not resolved",
+      "status": "ok",
+      "size": 4494,
+      "sha256": "317221c06eac401e4d6aca035b3250fa4547bbbe46c039f5f7c784f3f2a99bd9",
+      "dimensions": [
+        50,
+        859
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/rummy/assets/game/native/17/17920143f.0e947.webp",
+      "http_verified": true
+    },
+    {
+      "path": "rummy/assets/game/native/18/1845f1b5c.746aa.webp",
+      "width": null,
+      "height": null,
+      "metadata": "existing WebP; metadata not resolved",
+      "status": "ok",
+      "size": 203608,
+      "sha256": "0a5048776e1b54242ab1fd5602e3195d4f4ff3f52472715a1f33d5985c24616d",
+      "dimensions": [
+        554,
+        1019
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/rummy/assets/game/native/18/1845f1b5c.746aa.webp",
+      "http_verified": true
+    },
+    {
+      "path": "rummy/assets/game/native/19/19dfdaf47.7c154.webp",
+      "width": null,
+      "height": null,
+      "metadata": "existing WebP; metadata not resolved",
+      "status": "ok",
+      "size": 63652,
+      "sha256": "8d6af2122efb3cba52502027721ef999da120af6a84a65af660f509036158122",
+      "dimensions": [
+        842,
+        840
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/rummy/assets/game/native/19/19dfdaf47.7c154.webp",
+      "http_verified": true
+    },
+    {
+      "path": "rummy/assets/game/native/1a/1a5059aaf.bc7f4.webp",
+      "width": null,
+      "height": null,
+      "metadata": "existing WebP; metadata not resolved",
+      "status": "ok",
+      "size": 10430,
+      "sha256": "1860e537b933254c659874a1dc875fdf054e49b27c54c71d4e53e20508d33f27",
+      "dimensions": [
+        75,
+        996
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/rummy/assets/game/native/1a/1a5059aaf.bc7f4.webp",
+      "http_verified": true
+    },
+    {
+      "path": "rummy/assets/game/native/1a/1a8d738b5.ef58d.webp",
+      "width": null,
+      "height": null,
+      "metadata": "existing WebP; metadata not resolved",
+      "status": "ok",
+      "size": 18298,
+      "sha256": "032871e03f970c4f1e9c13290464a52d0da91a4ba95a25bcd668ff0ad7295d06",
+      "dimensions": [
+        128,
+        475
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/rummy/assets/game/native/1a/1a8d738b5.ef58d.webp",
+      "http_verified": true
+    },
+    {
+      "path": "rummy/assets/game/native/1a/1ad0daca1.0fb9a.webp",
+      "width": null,
+      "height": null,
+      "metadata": "existing WebP; metadata not resolved",
+      "status": "ok",
+      "size": 5750,
+      "sha256": "a5c93ed32983661392dbd1da20c76cc0d32e6d546cf0f932b93ede9f0c0ecf68",
+      "dimensions": [
+        104,
+        243
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/rummy/assets/game/native/1a/1ad0daca1.0fb9a.webp",
+      "http_verified": true
+    },
+    {
+      "path": "rummy/assets/game/native/1b/1b2491923.e788b.webp",
+      "width": null,
+      "height": null,
+      "metadata": "existing WebP; metadata not resolved",
+      "status": "ok",
+      "size": 14370,
+      "sha256": "73355c34f1c16b4c677adebfd11bf88da2bd69e30f957609698979b3e0cbddfb",
+      "dimensions": [
+        162,
+        448
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/rummy/assets/game/native/1b/1b2491923.e788b.webp",
+      "http_verified": true
+    },
+    {
+      "path": "rummy/assets/game/native/1b/1bde5f13d.d44a7.webp",
+      "width": null,
+      "height": null,
+      "metadata": "existing WebP; metadata not resolved",
+      "status": "ok",
+      "size": 9018,
+      "sha256": "c01f386accc2a3a0af778e28eeed7f3fd87eb0e174be104b10bf008ab894212b",
+      "dimensions": [
+        92,
+        803
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/rummy/assets/game/native/1b/1bde5f13d.d44a7.webp",
+      "http_verified": true
+    },
+    {
+      "path": "rummy/assets/game/native/1c/1cd715d43.84b0a.webp",
+      "width": null,
+      "height": null,
+      "metadata": "existing WebP; metadata not resolved",
+      "status": "ok",
+      "size": 106912,
+      "sha256": "5fecaf9450dd286417b4c22b0c974d007953992a85aeaf7d8011ff19051a4913",
+      "dimensions": [
+        507,
+        957
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/rummy/assets/game/native/1c/1cd715d43.84b0a.webp",
+      "http_verified": true
+    },
+    {
+      "path": "rummy/assets/game/native/1e/1e13d0148.2beb3.webp",
+      "width": null,
+      "height": null,
+      "metadata": "existing WebP; metadata not resolved",
+      "status": "ok",
+      "size": 18806,
+      "sha256": "81f9154ea5056b14866af193156fac742b8158b920466c28048f51487a960dff",
+      "dimensions": [
+        253,
+        391
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/rummy/assets/game/native/1e/1e13d0148.2beb3.webp",
+      "http_verified": true
+    },
+    {
+      "path": "rummy/assets/game/native/1e/1e14e3b35.50549.webp",
+      "width": null,
+      "height": null,
+      "metadata": "existing WebP; metadata not resolved",
+      "status": "ok",
+      "size": 27820,
+      "sha256": "c0b44d6cbc1e81d19a46ab5de73063b15e479966a681141247615c8fe0ae4bb0",
+      "dimensions": [
+        255,
+        295
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/rummy/assets/game/native/1e/1e14e3b35.50549.webp",
+      "http_verified": true
+    },
+    {
+      "path": "rummy/assets/game/native/1f/1f3afb3fd.33268.webp",
+      "width": null,
+      "height": null,
+      "metadata": "existing WebP; metadata not resolved",
+      "status": "ok",
+      "size": 1604,
+      "sha256": "a3633879d70e08a2ade1160b1e28c10eda83f6c7fc65c7e70b5f3870f83ef3db",
+      "dimensions": [
+        72,
+        248
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/rummy/assets/game/native/1f/1f3afb3fd.33268.webp",
+      "http_verified": true
+    },
+    {
+      "path": "rummy/assets/game/native/1f/1fd87e813.a4e6d.webp",
+      "width": null,
+      "height": null,
+      "metadata": "existing WebP; metadata not resolved",
+      "status": "ok",
+      "size": 1702,
+      "sha256": "ff122110956197c60a41ec1cb4b0d61f4112f12bbf5dbb51c8c385b91a0625ba",
+      "dimensions": [
+        62,
+        258
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/rummy/assets/game/native/1f/1fd87e813.a4e6d.webp",
+      "http_verified": true
+    },
+    {
+      "path": "rummy/assets/game/native/1f/1ff291851.a8916.webp",
+      "width": null,
+      "height": null,
+      "metadata": "existing WebP; metadata not resolved",
+      "status": "ok",
+      "size": 13082,
+      "sha256": "67df76e99755ba56f9ba6e0d032e806fb703eb570baa7ccba37254c8ddbc1292",
+      "dimensions": [
+        224,
+        288
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/rummy/assets/game/native/1f/1ff291851.a8916.webp",
+      "http_verified": true
+    },
+    {
+      "path": "rummy/assets/game/native/41/417f5c00-c9e4-446b-8d3f-99a955be574e.4b86d.webp",
+      "width": null,
+      "height": null,
+      "metadata": "existing WebP; metadata not resolved",
+      "status": "ok",
+      "size": 153080,
+      "sha256": "e2f7eea428aaafbe0bc8f98b4e134115fff3b4e6726632775cd0833f137329af",
+      "dimensions": [
+        983,
+        554
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/rummy/assets/game/native/41/417f5c00-c9e4-446b-8d3f-99a955be574e.4b86d.webp",
+      "http_verified": true
+    },
+    {
+      "path": "rummy/assets/game/native/89/891eb4a2-3fdb-432a-8556-1ac2e86d2776.3dc15.webp",
+      "width": null,
+      "height": null,
+      "metadata": "existing WebP; metadata not resolved",
+      "status": "ok",
+      "size": 198770,
+      "sha256": "3a9ccce55aa84424e772bd10ada416ecf96e7a409290787e1d073d6c404c8328",
+      "dimensions": [
+        986,
+        598
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/rummy/assets/game/native/89/891eb4a2-3fdb-432a-8556-1ac2e86d2776.3dc15.webp",
+      "http_verified": true
+    },
+    {
+      "path": "rummy/assets/game/native/93/930bc032-a37e-4a68-90d7-ee8a3bde8415.7ffa6.webp",
+      "width": null,
+      "height": null,
+      "metadata": "existing WebP; metadata not resolved",
+      "status": "ok",
+      "size": 121132,
+      "sha256": "54587470422c1726261420ea27bfa1b46369fcb48fa436de4a072bd549e17357",
+      "dimensions": [
+        1018,
+        562
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/rummy/assets/game/native/93/930bc032-a37e-4a68-90d7-ee8a3bde8415.7ffa6.webp",
+      "http_verified": true
+    },
+    {
+      "path": "rummy/assets/game/native/db/dbcdfdc9-9f35-491a-babc-9e9143127911.3ea34.webp",
+      "width": null,
+      "height": null,
+      "metadata": "existing WebP; metadata not resolved",
+      "status": "ok",
+      "size": 28096,
+      "sha256": "a12203b8509ca1c679fc045d48f4cc5a0129a8726faacfc972275b1ff0b6af03",
+      "dimensions": [
+        381,
+        467
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/rummy/assets/game/native/db/dbcdfdc9-9f35-491a-babc-9e9143127911.3ea34.webp",
+      "http_verified": true
+    },
+    {
+      "path": "rummy/assets/main/native/5c/5cf08960-e4a1-4d2b-9732-c97bd26838c7.9b082.webp",
+      "width": null,
+      "height": null,
+      "metadata": "existing WebP; metadata not resolved",
+      "status": "ok",
+      "size": 6570,
+      "sha256": "477ec9ede67d5d7b35097c107bc31845d4f0652b4aed199aaaa80e99bfda30c9",
+      "dimensions": [
+        204,
+        63
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/rummy/assets/main/native/5c/5cf08960-e4a1-4d2b-9732-c97bd26838c7.9b082.webp",
+      "http_verified": true
+    },
+    {
+      "path": "rummy/assets/main/native/96/9664d8ab-73c2-47fd-91b2-958d0338c4f4.36c12.webp",
+      "width": null,
+      "height": null,
+      "metadata": "existing WebP; metadata not resolved",
+      "status": "ok",
+      "size": 33826,
+      "sha256": "aded84df5e2285cd80101c81ff14b0bcbe21f6c106de1e1c6537a4f62ce56668",
+      "dimensions": [
+        1500,
+        640
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/rummy/assets/main/native/96/9664d8ab-73c2-47fd-91b2-958d0338c4f4.36c12.webp",
+      "http_verified": true
+    }
+  ],
+  "http_server_kind": "isolated game static root; not a browser or complete replay test",
+  "batch_actions": {
+    "added": 0,
+    "repaired-invalid": 0,
+    "quarantined-invalid-unrecoverable": 0
+  }
+}

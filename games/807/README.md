@@ -10,3 +10,7 @@
 - 實際演出與畫面證據：`handoff/`
 
 807 API game_id為111000807、入口/fg1000/，不能直接套用696 adapter。f17索引2與f9非空內文尚無案例，不宣稱完整覆蓋。
+
+## WebP 全專案批次驗證（2026-11-09）
+
+現行版本已辨識的 WebP 126/126 檔通過格式、尺寸及 loopback HTTP 驗證。含保留歷史版本的完整目標為 127/130。詳見本款 texture_validation.json 與根目錄 artifacts/texture_webp_batch_20261109.json。 歷史 config 引用的 3 個舊檔已無原站來源，保留為明確缺口；不影響本款現行 versions.json 的驗證結果。 未覆蓋的 import packs／binary packs 分別為 2/0，仍列在報告；尚未做 Windows 實機完整畫面驗收。

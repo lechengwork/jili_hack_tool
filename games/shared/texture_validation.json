@@ -1,0 +1,1030 @@
+{
+  "passed": false,
+  "required_webp": 57,
+  "valid_webp": 54,
+  "active_passed": false,
+  "active_required_webp": 57,
+  "active_valid_webp": 54,
+  "historical_asset_errors": [],
+  "local_http_origin": "http://127.0.0.1:53463",
+  "http_verified": 54,
+  "scope": "ASTC/WebP variants in available Cocos packs and captured ASTC; not a complete Windows visual test",
+  "unavailable_import_packs": [
+    "astarte2/3.6/web-mobile/assets/en/import/06541e2c8",
+    "astarte2/3.6/web-mobile/assets/other/import/0213ae240"
+  ],
+  "binary_import_packs": [],
+  "assets": [
+    {
+      "path": "astarte2/3.6/web-mobile/assets/cn/native/13/13076e4cb.5c9bf.webp",
+      "width": 237,
+      "height": 1019,
+      "metadata": "astarte2/3.6/web-mobile/assets/cn/import/09/0929319d3.d5b15.json",
+      "config": "astarte2/3.6/web-mobile/assets/cn/config.d07b5.json",
+      "manifest_selected": true,
+      "active_bundle_version": "d07b5",
+      "status": "ok",
+      "size": 96314,
+      "sha256": "95475b6a4622b8fa6c41cb173faabcb992119149e76a8d36ab1ec5e5fce52221",
+      "dimensions": [
+        237,
+        1019
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/astarte2/3.6/web-mobile/assets/cn/native/13/13076e4cb.5c9bf.webp",
+      "http_verified": true
+    },
+    {
+      "path": "astarte2/3.6/web-mobile/assets/cn/native/13/1352bfd7b.82843.webp",
+      "width": 241,
+      "height": 1023,
+      "metadata": "astarte2/3.6/web-mobile/assets/cn/import/09/0929319d3.d5b15.json",
+      "config": "astarte2/3.6/web-mobile/assets/cn/config.d07b5.json",
+      "manifest_selected": true,
+      "active_bundle_version": "d07b5",
+      "status": "ok",
+      "size": 108840,
+      "sha256": "30ace0fcf9e9ec3d53cf7472e18373c12d1100faa877430a8470ccd7504e107f",
+      "dimensions": [
+        241,
+        1023
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/astarte2/3.6/web-mobile/assets/cn/native/13/1352bfd7b.82843.webp",
+      "http_verified": true
+    },
+    {
+      "path": "astarte2/3.6/web-mobile/assets/cn/native/13/135c3331e.56208.webp",
+      "width": 380,
+      "height": 904,
+      "metadata": "astarte2/3.6/web-mobile/assets/cn/import/09/0929319d3.d5b15.json",
+      "config": "astarte2/3.6/web-mobile/assets/cn/config.d07b5.json",
+      "manifest_selected": true,
+      "active_bundle_version": "d07b5",
+      "status": "ok",
+      "size": 36808,
+      "sha256": "ca7cee3c9fa0ce186af7d2bd11acd9c7fb6332f3c0f960b648ae73c0e16b42df",
+      "dimensions": [
+        380,
+        904
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/astarte2/3.6/web-mobile/assets/cn/native/13/135c3331e.56208.webp",
+      "http_verified": true
+    },
+    {
+      "path": "astarte2/3.6/web-mobile/assets/cn/native/13/13dd85c2a.218da.webp",
+      "width": 380,
+      "height": 904,
+      "metadata": "astarte2/3.6/web-mobile/assets/cn/import/09/0929319d3.d5b15.json",
+      "config": "astarte2/3.6/web-mobile/assets/cn/config.d07b5.json",
+      "manifest_selected": true,
+      "active_bundle_version": "d07b5",
+      "status": "ok",
+      "size": 42752,
+      "sha256": "8f01183b6c9dabce390e93c9d309722cceb494e8f400ad0d319773e8883ea56f",
+      "dimensions": [
+        380,
+        904
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/astarte2/3.6/web-mobile/assets/cn/native/13/13dd85c2a.218da.webp",
+      "http_verified": true
+    },
+    {
+      "path": "astarte2/3.6/web-mobile/assets/cn/native/13/13e76b688.51748.webp",
+      "width": 106,
+      "height": 1004,
+      "metadata": "astarte2/3.6/web-mobile/assets/cn/import/09/0929319d3.d5b15.json",
+      "config": "astarte2/3.6/web-mobile/assets/cn/config.d07b5.json",
+      "manifest_selected": true,
+      "active_bundle_version": "d07b5",
+      "status": "ok",
+      "size": 45726,
+      "sha256": "51b17e69bcc9789ecc91abd07af1dd0a7cc19ad538815b6ef1d9ee04df582bf9",
+      "dimensions": [
+        106,
+        1004
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/astarte2/3.6/web-mobile/assets/cn/native/13/13e76b688.51748.webp",
+      "http_verified": true
+    },
+    {
+      "path": "astarte2/3.6/web-mobile/assets/cn/native/16/16a1fe58b.67006.webp",
+      "width": 512,
+      "height": 683,
+      "metadata": "astarte2/3.6/web-mobile/assets/cn/import/09/0929319d3.d5b15.json",
+      "config": "astarte2/3.6/web-mobile/assets/cn/config.d07b5.json",
+      "manifest_selected": true,
+      "active_bundle_version": "d07b5",
+      "status": "error",
+      "error": "[Errno 2] No such file or directory: '/Users/dyson/Downloads/jili_hack_tool/games/shared/astarte2/3.6/web-mobile/assets/cn/native/16/16a1fe58b.67006.webp'"
+    },
+    {
+      "path": "astarte2/3.6/web-mobile/assets/cn/native/17/1763358b8.c800e.webp",
+      "width": 211,
+      "height": 505,
+      "metadata": "astarte2/3.6/web-mobile/assets/cn/import/09/0929319d3.d5b15.json",
+      "config": "astarte2/3.6/web-mobile/assets/cn/config.d07b5.json",
+      "manifest_selected": true,
+      "active_bundle_version": "d07b5",
+      "status": "ok",
+      "size": 30016,
+      "sha256": "98532e343386d57dd76f64f939d5eea76ee1b464ebfe9ac01c871a8fb02e68ae",
+      "dimensions": [
+        211,
+        505
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/astarte2/3.6/web-mobile/assets/cn/native/17/1763358b8.c800e.webp",
+      "http_verified": true
+    },
+    {
+      "path": "astarte2/3.6/web-mobile/assets/cn/native/17/176f6ef70.c800e.webp",
+      "width": 211,
+      "height": 505,
+      "metadata": "astarte2/3.6/web-mobile/assets/cn/import/09/0929319d3.d5b15.json",
+      "config": "astarte2/3.6/web-mobile/assets/cn/config.d07b5.json",
+      "manifest_selected": true,
+      "active_bundle_version": "d07b5",
+      "status": "ok",
+      "size": 30016,
+      "sha256": "98532e343386d57dd76f64f939d5eea76ee1b464ebfe9ac01c871a8fb02e68ae",
+      "dimensions": [
+        211,
+        505
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/astarte2/3.6/web-mobile/assets/cn/native/17/176f6ef70.c800e.webp",
+      "http_verified": true
+    },
+    {
+      "path": "astarte2/3.6/web-mobile/assets/cn/native/17/17d4d02df.7941a.webp",
+      "width": 140,
+      "height": 1016,
+      "metadata": "astarte2/3.6/web-mobile/assets/cn/import/09/0929319d3.d5b15.json",
+      "config": "astarte2/3.6/web-mobile/assets/cn/config.d07b5.json",
+      "manifest_selected": true,
+      "active_bundle_version": "d07b5",
+      "status": "error",
+      "error": "[Errno 2] No such file or directory: '/Users/dyson/Downloads/jili_hack_tool/games/shared/astarte2/3.6/web-mobile/assets/cn/native/17/17d4d02df.7941a.webp'"
+    },
+    {
+      "path": "astarte2/3.6/web-mobile/assets/cn/native/19/1981b39ec.03133.webp",
+      "width": 235,
+      "height": 1021,
+      "metadata": "astarte2/3.6/web-mobile/assets/cn/import/09/0929319d3.d5b15.json",
+      "config": "astarte2/3.6/web-mobile/assets/cn/config.d07b5.json",
+      "manifest_selected": true,
+      "active_bundle_version": "d07b5",
+      "status": "ok",
+      "size": 96738,
+      "sha256": "5512813a83ec66c57e780ab154c4eb4e8f3764f84caf2f4beec3068f9e7bd8bf",
+      "dimensions": [
+        235,
+        1021
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/astarte2/3.6/web-mobile/assets/cn/native/19/1981b39ec.03133.webp",
+      "http_verified": true
+    },
+    {
+      "path": "astarte2/3.6/web-mobile/assets/cn/native/1d/1d813a660.fe3d7.webp",
+      "width": 97,
+      "height": 1016,
+      "metadata": "astarte2/3.6/web-mobile/assets/cn/import/09/0929319d3.d5b15.json",
+      "config": "astarte2/3.6/web-mobile/assets/cn/config.d07b5.json",
+      "manifest_selected": true,
+      "active_bundle_version": "d07b5",
+      "status": "ok",
+      "size": 44570,
+      "sha256": "343db70f8341bb947113c09bfd634f18aef889ca4d08469a0835dab8a28c83fd",
+      "dimensions": [
+        97,
+        1016
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/astarte2/3.6/web-mobile/assets/cn/native/1d/1d813a660.fe3d7.webp",
+      "http_verified": true
+    },
+    {
+      "path": "astarte2/3.6/web-mobile/assets/jili/native/03/03f5000f-1601-4e41-9cd9-d268178f582d.41140.webp",
+      "width": 0,
+      "height": 0,
+      "metadata": "astarte2/3.6/web-mobile/assets/jili/import/01/01da8770c.dd66c.json",
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.2e30e.json",
+      "manifest_selected": true,
+      "active_bundle_version": "2e30e",
+      "status": "ok",
+      "size": 1902,
+      "sha256": "66014e14df163353b2c986e0887c21891437d7fafe5fedfb590151b8b95462bc",
+      "dimensions": [
+        60,
+        60
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/astarte2/3.6/web-mobile/assets/jili/native/03/03f5000f-1601-4e41-9cd9-d268178f582d.41140.webp",
+      "http_verified": true
+    },
+    {
+      "path": "astarte2/3.6/web-mobile/assets/jili/native/11/1164ad120.fcd64.webp",
+      "width": 482,
+      "height": 1024,
+      "metadata": "astarte2/3.6/web-mobile/assets/jili/import/01/01da8770c.dd66c.json",
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.2e30e.json",
+      "manifest_selected": true,
+      "active_bundle_version": "2e30e",
+      "status": "ok",
+      "size": 35320,
+      "sha256": "aa361a76944652357ac81f8ad7d097c55102c19c9dfe1a39261ea13f91bce4c0",
+      "dimensions": [
+        482,
+        1024
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/astarte2/3.6/web-mobile/assets/jili/native/11/1164ad120.fcd64.webp",
+      "http_verified": true
+    },
+    {
+      "path": "astarte2/3.6/web-mobile/assets/jili/native/11/118abe432.04142.webp",
+      "width": 128,
+      "height": 309,
+      "metadata": "astarte2/3.6/web-mobile/assets/jili/import/01/01da8770c.dd66c.json",
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.2e30e.json",
+      "manifest_selected": true,
+      "active_bundle_version": "2e30e",
+      "status": "ok",
+      "size": 7514,
+      "sha256": "93a748007d15c50824e556d697440246c2d38fba2491d331e5447677b5102b6f",
+      "dimensions": [
+        128,
+        309
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/astarte2/3.6/web-mobile/assets/jili/native/11/118abe432.04142.webp",
+      "http_verified": true
+    },
+    {
+      "path": "astarte2/3.6/web-mobile/assets/jili/native/12/1299bad2d.49a9e.webp",
+      "width": 1023,
+      "height": 463,
+      "metadata": "astarte2/3.6/web-mobile/assets/jili/import/01/01da8770c.dd66c.json",
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.2e30e.json",
+      "manifest_selected": true,
+      "active_bundle_version": "2e30e",
+      "status": "ok",
+      "size": 81654,
+      "sha256": "5f089b6e5c3093250ec8cd7ea9a458900e635376b47d9dfaaf1d68da3233fe13",
+      "dimensions": [
+        1023,
+        463
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/astarte2/3.6/web-mobile/assets/jili/native/12/1299bad2d.49a9e.webp",
+      "http_verified": true
+    },
+    {
+      "path": "astarte2/3.6/web-mobile/assets/jili/native/13/132c6d455.e6e74.webp",
+      "width": 902,
+      "height": 1023,
+      "metadata": "astarte2/3.6/web-mobile/assets/jili/import/01/01da8770c.dd66c.json",
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.2e30e.json",
+      "manifest_selected": true,
+      "active_bundle_version": "2e30e",
+      "status": "error",
+      "error": "[Errno 2] No such file or directory: '/Users/dyson/Downloads/jili_hack_tool/games/shared/astarte2/3.6/web-mobile/assets/jili/native/13/132c6d455.e6e74.webp'"
+    },
+    {
+      "path": "astarte2/3.6/web-mobile/assets/jili/native/13/132d2650d.48129.webp",
+      "width": 509,
+      "height": 1022,
+      "metadata": "astarte2/3.6/web-mobile/assets/jili/import/01/01da8770c.dd66c.json",
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.2e30e.json",
+      "manifest_selected": true,
+      "active_bundle_version": "2e30e",
+      "status": "ok",
+      "size": 120442,
+      "sha256": "37702025100a6e8ee8eddaa840cf5bc3bb087002d9ab431bb45e039976b84fc0",
+      "dimensions": [
+        509,
+        1022
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/astarte2/3.6/web-mobile/assets/jili/native/13/132d2650d.48129.webp",
+      "http_verified": true
+    },
+    {
+      "path": "astarte2/3.6/web-mobile/assets/jili/native/13/13dad6fb6.3e475.webp",
+      "width": 689,
+      "height": 1024,
+      "metadata": "astarte2/3.6/web-mobile/assets/jili/import/01/01da8770c.dd66c.json",
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.2e30e.json",
+      "manifest_selected": true,
+      "active_bundle_version": "2e30e",
+      "status": "ok",
+      "size": 83822,
+      "sha256": "c7d779b93b6273372f451094fe648fdace3bb32b8d7a221565b7d88ddeec7a57",
+      "dimensions": [
+        689,
+        1024
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/astarte2/3.6/web-mobile/assets/jili/native/13/13dad6fb6.3e475.webp",
+      "http_verified": true
+    },
+    {
+      "path": "astarte2/3.6/web-mobile/assets/jili/native/14/14d8a05d9.9a8a6.webp",
+      "width": 128,
+      "height": 808,
+      "metadata": "astarte2/3.6/web-mobile/assets/jili/import/01/01da8770c.dd66c.json",
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.2e30e.json",
+      "manifest_selected": true,
+      "active_bundle_version": "2e30e",
+      "status": "ok",
+      "size": 17782,
+      "sha256": "b84e3aab993a2a4abd939ea9ba721c4f8481850ee622b10df832c6358c512cc1",
+      "dimensions": [
+        128,
+        808
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/astarte2/3.6/web-mobile/assets/jili/native/14/14d8a05d9.9a8a6.webp",
+      "http_verified": true
+    },
+    {
+      "path": "astarte2/3.6/web-mobile/assets/jili/native/15/154f30a7-66d2-417c-aa11-83ac91ce0aaf.4d61b.webp",
+      "width": 0,
+      "height": 0,
+      "metadata": "astarte2/3.6/web-mobile/assets/jili/import/01/01da8770c.dd66c.json",
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.2e30e.json",
+      "manifest_selected": true,
+      "active_bundle_version": "2e30e",
+      "status": "ok",
+      "size": 119542,
+      "sha256": "f8d3fb8460b0300eb004620b14a76faff2f707552717ee2a09490fd2e6a3d99c",
+      "dimensions": [
+        988,
+        652
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/astarte2/3.6/web-mobile/assets/jili/native/15/154f30a7-66d2-417c-aa11-83ac91ce0aaf.4d61b.webp",
+      "http_verified": true
+    },
+    {
+      "path": "astarte2/3.6/web-mobile/assets/jili/native/15/15820c817.22998.webp",
+      "width": 290,
+      "height": 1021,
+      "metadata": "astarte2/3.6/web-mobile/assets/jili/import/01/01da8770c.dd66c.json",
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.2e30e.json",
+      "manifest_selected": true,
+      "active_bundle_version": "2e30e",
+      "status": "ok",
+      "size": 69320,
+      "sha256": "8ec13abfa75796561381fde72305b1fd77ac311a4df050637fe9405770b41382",
+      "dimensions": [
+        290,
+        1021
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/astarte2/3.6/web-mobile/assets/jili/native/15/15820c817.22998.webp",
+      "http_verified": true
+    },
+    {
+      "path": "astarte2/3.6/web-mobile/assets/jili/native/15/15860bf53.6810e.webp",
+      "width": 863,
+      "height": 865,
+      "metadata": "astarte2/3.6/web-mobile/assets/jili/import/01/01da8770c.dd66c.json",
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.2e30e.json",
+      "manifest_selected": true,
+      "active_bundle_version": "2e30e",
+      "status": "ok",
+      "size": 131050,
+      "sha256": "48c7d2daab04e29620f807607455f2f2d09ada2ee7d9bc1785087eaffc584ec8",
+      "dimensions": [
+        863,
+        865
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/astarte2/3.6/web-mobile/assets/jili/native/15/15860bf53.6810e.webp",
+      "http_verified": true
+    },
+    {
+      "path": "astarte2/3.6/web-mobile/assets/jili/native/15/15e1d2b32.c0c4b.webp",
+      "width": 503,
+      "height": 139,
+      "metadata": "astarte2/3.6/web-mobile/assets/jili/import/01/01da8770c.dd66c.json",
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.2e30e.json",
+      "manifest_selected": true,
+      "active_bundle_version": "2e30e",
+      "status": "ok",
+      "size": 27182,
+      "sha256": "653275b880062c3513fa82c42d397189957ddca6bf75bd120533e1cab4100fd6",
+      "dimensions": [
+        503,
+        139
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/astarte2/3.6/web-mobile/assets/jili/native/15/15e1d2b32.c0c4b.webp",
+      "http_verified": true
+    },
+    {
+      "path": "astarte2/3.6/web-mobile/assets/jili/native/16/166a618a4.69f94.webp",
+      "width": 377,
+      "height": 1023,
+      "metadata": "astarte2/3.6/web-mobile/assets/jili/import/01/01da8770c.dd66c.json",
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.2e30e.json",
+      "manifest_selected": true,
+      "active_bundle_version": "2e30e",
+      "status": "ok",
+      "size": 91270,
+      "sha256": "410370661eae9161821478987d3bf9bec57598982cdb94ea7ee1e7cc147ae2c8",
+      "dimensions": [
+        377,
+        1023
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/astarte2/3.6/web-mobile/assets/jili/native/16/166a618a4.69f94.webp",
+      "http_verified": true
+    },
+    {
+      "path": "astarte2/3.6/web-mobile/assets/jili/native/17/177658bb8.98eb0.webp",
+      "width": 470,
+      "height": 1020,
+      "metadata": "astarte2/3.6/web-mobile/assets/jili/import/01/01da8770c.dd66c.json",
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.2e30e.json",
+      "manifest_selected": true,
+      "active_bundle_version": "2e30e",
+      "status": "ok",
+      "size": 95620,
+      "sha256": "51030b088aeae441ed8188b60d084d5ac8dac819886c86557ad8dc302e98822c",
+      "dimensions": [
+        470,
+        1020
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/astarte2/3.6/web-mobile/assets/jili/native/17/177658bb8.98eb0.webp",
+      "http_verified": true
+    },
+    {
+      "path": "astarte2/3.6/web-mobile/assets/jili/native/17/17abd9622.b116f.webp",
+      "width": 484,
+      "height": 1023,
+      "metadata": "astarte2/3.6/web-mobile/assets/jili/import/01/01da8770c.dd66c.json",
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.2e30e.json",
+      "manifest_selected": true,
+      "active_bundle_version": "2e30e",
+      "status": "ok",
+      "size": 83490,
+      "sha256": "cec37b75468d3a71d29e09d338f0c34d88a67470090c68cff10e52d2c9f9d4b0",
+      "dimensions": [
+        484,
+        1023
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/astarte2/3.6/web-mobile/assets/jili/native/17/17abd9622.b116f.webp",
+      "http_verified": true
+    },
+    {
+      "path": "astarte2/3.6/web-mobile/assets/jili/native/18/18c30d4c0.e051f.webp",
+      "width": 128,
+      "height": 350,
+      "metadata": "astarte2/3.6/web-mobile/assets/jili/import/01/01da8770c.dd66c.json",
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.2e30e.json",
+      "manifest_selected": true,
+      "active_bundle_version": "2e30e",
+      "status": "ok",
+      "size": 8686,
+      "sha256": "17c8a07bccfb66752f8e375dfd7c5cc0c917d60faaa707095ba747768c1fcfcf",
+      "dimensions": [
+        128,
+        350
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/astarte2/3.6/web-mobile/assets/jili/native/18/18c30d4c0.e051f.webp",
+      "http_verified": true
+    },
+    {
+      "path": "astarte2/3.6/web-mobile/assets/jili/native/19/1962af651.24c9c.webp",
+      "width": 251,
+      "height": 716,
+      "metadata": "astarte2/3.6/web-mobile/assets/jili/import/01/01da8770c.dd66c.json",
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.2e30e.json",
+      "manifest_selected": true,
+      "active_bundle_version": "2e30e",
+      "status": "ok",
+      "size": 6810,
+      "sha256": "b7329a34bb864b38e8ed3ee9d0020b6325cacee01587342f86e39de287326105",
+      "dimensions": [
+        251,
+        716
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/astarte2/3.6/web-mobile/assets/jili/native/19/1962af651.24c9c.webp",
+      "http_verified": true
+    },
+    {
+      "path": "astarte2/3.6/web-mobile/assets/jili/native/1a/1a23e78f3.d9d58.webp",
+      "width": 1024,
+      "height": 1023,
+      "metadata": "astarte2/3.6/web-mobile/assets/jili/import/01/01da8770c.dd66c.json",
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.2e30e.json",
+      "manifest_selected": true,
+      "active_bundle_version": "2e30e",
+      "status": "ok",
+      "size": 199220,
+      "sha256": "b43c061879e856eb978ed973ea76a683e035c3b07921f94b3cf0ccac8ab628d4",
+      "dimensions": [
+        1024,
+        1023
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/astarte2/3.6/web-mobile/assets/jili/native/1a/1a23e78f3.d9d58.webp",
+      "http_verified": true
+    },
+    {
+      "path": "astarte2/3.6/web-mobile/assets/jili/native/1a/1a36a30ee.28f91.webp",
+      "width": 1024,
+      "height": 1023,
+      "metadata": "astarte2/3.6/web-mobile/assets/jili/import/01/01da8770c.dd66c.json",
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.2e30e.json",
+      "manifest_selected": true,
+      "active_bundle_version": "2e30e",
+      "status": "ok",
+      "size": 150336,
+      "sha256": "b091652f3f4158f39ebcb79f8d3642154030dbee2bfd3ae44e11eedad9237261",
+      "dimensions": [
+        1024,
+        1023
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/astarte2/3.6/web-mobile/assets/jili/native/1a/1a36a30ee.28f91.webp",
+      "http_verified": true
+    },
+    {
+      "path": "astarte2/3.6/web-mobile/assets/jili/native/1b/1b99130d0.bfbec.webp",
+      "width": 853,
+      "height": 853,
+      "metadata": "astarte2/3.6/web-mobile/assets/jili/import/01/01da8770c.dd66c.json",
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.2e30e.json",
+      "manifest_selected": true,
+      "active_bundle_version": "2e30e",
+      "status": "ok",
+      "size": 116790,
+      "sha256": "81cfed592e740f0c23ea5694a7b1ad826204303bc2b068bc1f0dce1b9c9ce625",
+      "dimensions": [
+        853,
+        853
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/astarte2/3.6/web-mobile/assets/jili/native/1b/1b99130d0.bfbec.webp",
+      "http_verified": true
+    },
+    {
+      "path": "astarte2/3.6/web-mobile/assets/jili/native/1b/1bfc2db47.4be55.webp",
+      "width": 403,
+      "height": 508,
+      "metadata": "astarte2/3.6/web-mobile/assets/jili/import/01/01da8770c.dd66c.json",
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.2e30e.json",
+      "manifest_selected": true,
+      "active_bundle_version": "2e30e",
+      "status": "ok",
+      "size": 47282,
+      "sha256": "290c20d1c3892e06391f841573a7a5b180713a5c924ace1f693ea565233bf983",
+      "dimensions": [
+        403,
+        508
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/astarte2/3.6/web-mobile/assets/jili/native/1b/1bfc2db47.4be55.webp",
+      "http_verified": true
+    },
+    {
+      "path": "astarte2/3.6/web-mobile/assets/jili/native/1c/1c8b28224.28c85.webp",
+      "width": 506,
+      "height": 920,
+      "metadata": "astarte2/3.6/web-mobile/assets/jili/import/01/01da8770c.dd66c.json",
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.2e30e.json",
+      "manifest_selected": true,
+      "active_bundle_version": "2e30e",
+      "status": "ok",
+      "size": 127300,
+      "sha256": "f8ca1783a68d2fed7c34ebdb5f074a6aa29ab20dc9c199122383fb238bfd9cd7",
+      "dimensions": [
+        506,
+        920
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/astarte2/3.6/web-mobile/assets/jili/native/1c/1c8b28224.28c85.webp",
+      "http_verified": true
+    },
+    {
+      "path": "astarte2/3.6/web-mobile/assets/jili/native/57/57ea9064-01ed-4bf3-95dd-6c21932fb739.b481c.webp",
+      "width": 0,
+      "height": 0,
+      "metadata": "astarte2/3.6/web-mobile/assets/jili/import/01/01da8770c.dd66c.json",
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.2e30e.json",
+      "manifest_selected": true,
+      "active_bundle_version": "2e30e",
+      "status": "ok",
+      "size": 1602,
+      "sha256": "93e3906e89080decdfbc57c98964970f0b990ab4dbf5f656d6cf0b587ab529a1",
+      "dimensions": [
+        65,
+        65
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/astarte2/3.6/web-mobile/assets/jili/native/57/57ea9064-01ed-4bf3-95dd-6c21932fb739.b481c.webp",
+      "http_verified": true
+    },
+    {
+      "path": "astarte2/3.6/web-mobile/assets/jili/native/a8/a8888029-763a-4a64-a7e2-b1a7fbaf2bf3.3f772.webp",
+      "width": 0,
+      "height": 0,
+      "metadata": "astarte2/3.6/web-mobile/assets/jili/import/01/01da8770c.dd66c.json",
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.2e30e.json",
+      "manifest_selected": true,
+      "active_bundle_version": "2e30e",
+      "status": "ok",
+      "size": 3000,
+      "sha256": "955e2f98f6298c4d61e600ca06721528dccaab8b6468dd60412b001da27f6438",
+      "dimensions": [
+        90,
+        90
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/astarte2/3.6/web-mobile/assets/jili/native/a8/a8888029-763a-4a64-a7e2-b1a7fbaf2bf3.3f772.webp",
+      "http_verified": true
+    },
+    {
+      "path": "astarte2/3.6/web-mobile/assets/jili/native/bd/bd5b1333-dafb-49f1-b275-9390b9054bc0.75b64.webp",
+      "width": 0,
+      "height": 0,
+      "metadata": "astarte2/3.6/web-mobile/assets/jili/import/01/01da8770c.dd66c.json",
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.2e30e.json",
+      "manifest_selected": true,
+      "active_bundle_version": "2e30e",
+      "status": "ok",
+      "size": 140,
+      "sha256": "94a11d82e933dc4c0a4c704478578f52a8479ced5e2d664fe3a455f67bccaf9a",
+      "dimensions": [
+        54,
+        54
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/astarte2/3.6/web-mobile/assets/jili/native/bd/bd5b1333-dafb-49f1-b275-9390b9054bc0.75b64.webp",
+      "http_verified": true
+    },
+    {
+      "path": "astarte2/3.6/web-mobile/assets/jili/native/c9/c9373368-bb29-423c-9c60-907a759ee348.3eb95.webp",
+      "width": 0,
+      "height": 0,
+      "metadata": "astarte2/3.6/web-mobile/assets/jili/import/01/01da8770c.dd66c.json",
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.2e30e.json",
+      "manifest_selected": true,
+      "active_bundle_version": "2e30e",
+      "status": "ok",
+      "size": 668,
+      "sha256": "a98eb1f80e00caa3303b99a3d16bd027cebc44833b201152995beb956492c128",
+      "dimensions": [
+        154,
+        154
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/astarte2/3.6/web-mobile/assets/jili/native/c9/c9373368-bb29-423c-9c60-907a759ee348.3eb95.webp",
+      "http_verified": true
+    },
+    {
+      "path": "astarte2/3.6/web-mobile/assets/jili/native/d3/d3a59595-fdc2-48a7-a1e9-315d4bdac20b.6c23e.webp",
+      "width": 0,
+      "height": 0,
+      "metadata": "astarte2/3.6/web-mobile/assets/jili/import/01/01da8770c.dd66c.json",
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.2e30e.json",
+      "manifest_selected": true,
+      "active_bundle_version": "2e30e",
+      "status": "ok",
+      "size": 3518,
+      "sha256": "4ed87aa60d87c249c54403528d79c077362a3e2554d8ef1c7dd6ba4095ae5f41",
+      "dimensions": [
+        100,
+        100
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/astarte2/3.6/web-mobile/assets/jili/native/d3/d3a59595-fdc2-48a7-a1e9-315d4bdac20b.6c23e.webp",
+      "http_verified": true
+    },
+    {
+      "path": "astarte2/3.6/web-mobile/assets/jili/native/e0/e03520a1-87b0-40d1-8dbd-6fd4c4ae9e9c.e4fba.webp",
+      "width": 0,
+      "height": 0,
+      "metadata": "astarte2/3.6/web-mobile/assets/jili/import/01/01da8770c.dd66c.json",
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.2e30e.json",
+      "manifest_selected": true,
+      "active_bundle_version": "2e30e",
+      "status": "ok",
+      "size": 56880,
+      "sha256": "abac3cabb06035862c378f31637e822ad13a0a31588c0f6e0e2f0ed822829553",
+      "dimensions": [
+        952,
+        400
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/astarte2/3.6/web-mobile/assets/jili/native/e0/e03520a1-87b0-40d1-8dbd-6fd4c4ae9e9c.e4fba.webp",
+      "http_verified": true
+    },
+    {
+      "path": "astarte2/3.6/web-mobile/assets/jili/native/f2/f282725e-8f8b-4b12-9899-d59575966623.000a8.webp",
+      "width": 0,
+      "height": 0,
+      "metadata": "astarte2/3.6/web-mobile/assets/jili/import/01/01da8770c.dd66c.json",
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.2e30e.json",
+      "manifest_selected": true,
+      "active_bundle_version": "2e30e",
+      "status": "ok",
+      "size": 3900,
+      "sha256": "741fd5d903a5c6e76f12119baa012917c3f800fdf524d0e05b6d851097ba0a21",
+      "dimensions": [
+        192,
+        64
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/astarte2/3.6/web-mobile/assets/jili/native/f2/f282725e-8f8b-4b12-9899-d59575966623.000a8.webp",
+      "http_verified": true
+    },
+    {
+      "path": "astarte2/3.6/web-mobile/assets/jili/native/fd/fd30e95d-c116-4d92-bb75-fc4fdd3051b8.77896.webp",
+      "width": 0,
+      "height": 0,
+      "metadata": "astarte2/3.6/web-mobile/assets/jili/import/01/01da8770c.dd66c.json",
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.2e30e.json",
+      "manifest_selected": true,
+      "active_bundle_version": "2e30e",
+      "status": "ok",
+      "size": 635552,
+      "sha256": "d87231dbaace33f2fad516faa3db186ad69efa6ec5db358c87ee6be7e1103306",
+      "dimensions": [
+        1508,
+        1508
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/astarte2/3.6/web-mobile/assets/jili/native/fd/fd30e95d-c116-4d92-bb75-fc4fdd3051b8.77896.webp",
+      "http_verified": true
+    },
+    {
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/native/11/11821491f.2337a.webp",
+      "width": 255,
+      "height": 262,
+      "metadata": "astarte2/3.6/web-mobile/assets/jiliMain/import/0f/0f6c3a09a.7d44e.json",
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.82268.json",
+      "manifest_selected": true,
+      "active_bundle_version": "82268",
+      "status": "ok",
+      "size": 12806,
+      "sha256": "1ad3c37f6140ceb65587e610686e79879c32e705f3144b92aec85cc43805ae31",
+      "dimensions": [
+        255,
+        262
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/astarte2/3.6/web-mobile/assets/jiliMain/native/11/11821491f.2337a.webp",
+      "http_verified": true
+    },
+    {
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/native/11/119c9384c.39d24.webp",
+      "width": 125,
+      "height": 208,
+      "metadata": "astarte2/3.6/web-mobile/assets/jiliMain/import/0f/0f6c3a09a.7d44e.json",
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.82268.json",
+      "manifest_selected": true,
+      "active_bundle_version": "82268",
+      "status": "ok",
+      "size": 5500,
+      "sha256": "9829fe103d93353b9fbe4d0a1831d8239ef4af29a564bfff4fdee8a6f6eb6b2e",
+      "dimensions": [
+        125,
+        208
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/astarte2/3.6/web-mobile/assets/jiliMain/native/11/119c9384c.39d24.webp",
+      "http_verified": true
+    },
+    {
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/native/12/12edfc410.d0ad3.webp",
+      "width": 124,
+      "height": 500,
+      "metadata": "astarte2/3.6/web-mobile/assets/jiliMain/import/0f/0f6c3a09a.7d44e.json",
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.82268.json",
+      "manifest_selected": true,
+      "active_bundle_version": "82268",
+      "status": "ok",
+      "size": 9906,
+      "sha256": "83451c5edc5f203170e1d0eb38af0cf8171a48f68efa2ea011eaf661dabb6957",
+      "dimensions": [
+        124,
+        500
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/astarte2/3.6/web-mobile/assets/jiliMain/native/12/12edfc410.d0ad3.webp",
+      "http_verified": true
+    },
+    {
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/native/16/168b05255.d75c6.webp",
+      "width": 59,
+      "height": 256,
+      "metadata": "astarte2/3.6/web-mobile/assets/jiliMain/import/0f/0f6c3a09a.7d44e.json",
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.82268.json",
+      "manifest_selected": true,
+      "active_bundle_version": "82268",
+      "status": "ok",
+      "size": 4876,
+      "sha256": "8f282f1e912c0cd5cd4a92099489322ce8bbe1a9eb95acec132b4ba837c79977",
+      "dimensions": [
+        59,
+        256
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/astarte2/3.6/web-mobile/assets/jiliMain/native/16/168b05255.d75c6.webp",
+      "http_verified": true
+    },
+    {
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/native/16/16edea480.cc1be.webp",
+      "width": 58,
+      "height": 49,
+      "metadata": "astarte2/3.6/web-mobile/assets/jiliMain/import/0f/0f6c3a09a.7d44e.json",
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.82268.json",
+      "manifest_selected": true,
+      "active_bundle_version": "82268",
+      "status": "ok",
+      "size": 1114,
+      "sha256": "e2f66c319e06cc1889bdfd65cd5251bae9cdc3934ba51c288c1e7763a31d2e15",
+      "dimensions": [
+        58,
+        49
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/astarte2/3.6/web-mobile/assets/jiliMain/native/16/16edea480.cc1be.webp",
+      "http_verified": true
+    },
+    {
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/native/18/186559350.1db69.webp",
+      "width": 512,
+      "height": 835,
+      "metadata": "astarte2/3.6/web-mobile/assets/jiliMain/import/0f/0f6c3a09a.7d44e.json",
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.82268.json",
+      "manifest_selected": true,
+      "active_bundle_version": "82268",
+      "status": "ok",
+      "size": 120922,
+      "sha256": "2a3259c7cd4468cefa430e2f4c210c0fab7c7b19e45c5edd488b2f3a97fb9f3d",
+      "dimensions": [
+        512,
+        835
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/astarte2/3.6/web-mobile/assets/jiliMain/native/18/186559350.1db69.webp",
+      "http_verified": true
+    },
+    {
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/native/19/195f5ebaf.9ea96.webp",
+      "width": 174,
+      "height": 508,
+      "metadata": "astarte2/3.6/web-mobile/assets/jiliMain/import/0f/0f6c3a09a.7d44e.json",
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.82268.json",
+      "manifest_selected": true,
+      "active_bundle_version": "82268",
+      "status": "ok",
+      "size": 20866,
+      "sha256": "1727ffa74a3b1741b9ed3da66a055eb5b80922a9f09722dd39e32831a8788e5c",
+      "dimensions": [
+        174,
+        508
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/astarte2/3.6/web-mobile/assets/jiliMain/native/19/195f5ebaf.9ea96.webp",
+      "http_verified": true
+    },
+    {
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/native/19/19feb5565.b8d4e.webp",
+      "width": 255,
+      "height": 340,
+      "metadata": "astarte2/3.6/web-mobile/assets/jiliMain/import/0f/0f6c3a09a.7d44e.json",
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.82268.json",
+      "manifest_selected": true,
+      "active_bundle_version": "82268",
+      "status": "ok",
+      "size": 27720,
+      "sha256": "deb029442ae6943071f3da7e8162374aff7f9644ced0479ccd37800e25fcd0a2",
+      "dimensions": [
+        255,
+        340
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/astarte2/3.6/web-mobile/assets/jiliMain/native/19/19feb5565.b8d4e.webp",
+      "http_verified": true
+    },
+    {
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/native/1a/1abf4b031.25c0e.webp",
+      "width": 161,
+      "height": 890,
+      "metadata": "astarte2/3.6/web-mobile/assets/jiliMain/import/0f/0f6c3a09a.7d44e.json",
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.82268.json",
+      "manifest_selected": true,
+      "active_bundle_version": "82268",
+      "status": "ok",
+      "size": 9906,
+      "sha256": "d738c87ed18418f3355bbcc61b88f9bf05e83f50b8f45e3ab3d88d8bfb563953",
+      "dimensions": [
+        161,
+        890
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/astarte2/3.6/web-mobile/assets/jiliMain/native/1a/1abf4b031.25c0e.webp",
+      "http_verified": true
+    },
+    {
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/native/1a/1ac3b17ed.a3373.webp",
+      "width": 512,
+      "height": 939,
+      "metadata": "astarte2/3.6/web-mobile/assets/jiliMain/import/0f/0f6c3a09a.7d44e.json",
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.82268.json",
+      "manifest_selected": true,
+      "active_bundle_version": "82268",
+      "status": "ok",
+      "size": 48064,
+      "sha256": "e5a2a39506df985fd561a8f87a3539893c4272f7b4b1854b9b1b594990f5b4cf",
+      "dimensions": [
+        512,
+        939
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/astarte2/3.6/web-mobile/assets/jiliMain/native/1a/1ac3b17ed.a3373.webp",
+      "http_verified": true
+    },
+    {
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/native/1b/1b621784c.e21b5.webp",
+      "width": 512,
+      "height": 512,
+      "metadata": "astarte2/3.6/web-mobile/assets/jiliMain/import/0f/0f6c3a09a.7d44e.json",
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.82268.json",
+      "manifest_selected": true,
+      "active_bundle_version": "82268",
+      "status": "ok",
+      "size": 42894,
+      "sha256": "2aca9b1e56ef481793db05cf2d9516fb559118bae8db8bdb8170087c886a1525",
+      "dimensions": [
+        512,
+        512
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/astarte2/3.6/web-mobile/assets/jiliMain/native/1b/1b621784c.e21b5.webp",
+      "http_verified": true
+    },
+    {
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/native/1c/1c2526437.2403e.webp",
+      "width": 580,
+      "height": 1024,
+      "metadata": "astarte2/3.6/web-mobile/assets/jiliMain/import/0f/0f6c3a09a.7d44e.json",
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.82268.json",
+      "manifest_selected": true,
+      "active_bundle_version": "82268",
+      "status": "ok",
+      "size": 84676,
+      "sha256": "5862532629caf4cc0635dd82820402f172d3d1574ab4c59242adf4753047b35f",
+      "dimensions": [
+        580,
+        1024
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/astarte2/3.6/web-mobile/assets/jiliMain/native/1c/1c2526437.2403e.webp",
+      "http_verified": true
+    },
+    {
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/native/1c/1c6e24425.1dad6.webp",
+      "width": 289,
+      "height": 1024,
+      "metadata": "astarte2/3.6/web-mobile/assets/jiliMain/import/0f/0f6c3a09a.7d44e.json",
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.82268.json",
+      "manifest_selected": true,
+      "active_bundle_version": "82268",
+      "status": "ok",
+      "size": 39162,
+      "sha256": "2c6508a1cf7e17ec6120e521070e0f12307d40acb075fb6b4d7068d54f4354d6",
+      "dimensions": [
+        289,
+        1024
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/astarte2/3.6/web-mobile/assets/jiliMain/native/1c/1c6e24425.1dad6.webp",
+      "http_verified": true
+    },
+    {
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/native/1c/1cf8af83e.51784.webp",
+      "width": 39,
+      "height": 242,
+      "metadata": "astarte2/3.6/web-mobile/assets/jiliMain/import/0f/0f6c3a09a.7d44e.json",
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.82268.json",
+      "manifest_selected": true,
+      "active_bundle_version": "82268",
+      "status": "ok",
+      "size": 4988,
+      "sha256": "6f6cbb8523746051b6241c3f8bebc19ed8ab702cbc1ba672e3d860c12d0bdedb",
+      "dimensions": [
+        39,
+        242
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/astarte2/3.6/web-mobile/assets/jiliMain/native/1c/1cf8af83e.51784.webp",
+      "http_verified": true
+    },
+    {
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/native/1d/1d073e540.49ffa.webp",
+      "width": 388,
+      "height": 997,
+      "metadata": "astarte2/3.6/web-mobile/assets/jiliMain/import/0f/0f6c3a09a.7d44e.json",
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.82268.json",
+      "manifest_selected": true,
+      "active_bundle_version": "82268",
+      "status": "ok",
+      "size": 57390,
+      "sha256": "34d55bd45b7e621a27ba3b22939071e16eb602fbb5ed066d7c7fee3ffac5758c",
+      "dimensions": [
+        388,
+        997
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/astarte2/3.6/web-mobile/assets/jiliMain/native/1d/1d073e540.49ffa.webp",
+      "http_verified": true
+    },
+    {
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/native/1d/1ddfca24a.d243b.webp",
+      "width": 124,
+      "height": 813,
+      "metadata": "astarte2/3.6/web-mobile/assets/jiliMain/import/0f/0f6c3a09a.7d44e.json",
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.82268.json",
+      "manifest_selected": true,
+      "active_bundle_version": "82268",
+      "status": "ok",
+      "size": 4580,
+      "sha256": "511d42230aeb2e4fdc2700749dd4308e7015a8610647265ae1f595cf5288ee35",
+      "dimensions": [
+        124,
+        813
+      ],
+      "original_url": "https://uat-wbgame.jlfafafa3.com/astarte2/3.6/web-mobile/assets/jiliMain/native/1d/1ddfca24a.d243b.webp",
+      "http_verified": true
+    }
+  ],
+  "http_server_kind": "isolated game static root; not a browser or complete replay test",
+  "batch_actions": {
+    "added": 54,
+    "repaired-invalid": 0,
+    "quarantined-invalid-unrecoverable": 0
+  }
+}

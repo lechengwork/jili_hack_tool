@@ -1,16 +1,5 @@
 # 518 — 馬戲團小丑 4096 / Circus Joker 4096
 
-## Git 交接（2026-11-04）
-
-本分支提供完整 518 原始碼、擷取／匯出工具、proto、151 筆機率樣本、素材及獨立 ZIP。
-拉下來後安裝 `requirements_518.txt`，可直接 `python replay_518.py --selftest`，再 `python replay_518.py` 開專用 Chrome。
-Git 附的 `webcap/samples/` 是交付包的去識別回放快照，已移除請求登入 token 和用戶端換鑰公鑰；不含真實工作階段解密材料。
-`mock_sso.json` 的 token 為本地假值；`current_session.txt` 是相對路徑。重新擷取時 server 會改寫本機指標，新的原始工作階段維持忽略，不需上傳。
-
-若機率團隊要接手**重新擷取**，請依本文件最後「本次擷取」段落操作：先於台灣出口登入、再連巴西 VPN、起 `capture_server.py`、開 `open_capture.py`，手動轉局後執行 `finish_capture.py`。
-擷取啟動器目前使用 macOS Chrome 路徑；Windows 可使用交付包做離線機率回放，真站擷取的 Windows 啟動器尚未驗證。匯出原始前端 codec 需要 Node.js。
-登入設定使用團隊自己的本機 `config.json`；本次提交未包含本機新增或修改的帳密設定。
-
 ## 機率團隊交付包
 
 專案根目錄的 `jili_518_math_test_20261102.zip` 是獨立交付包，解壓內容同 `dist518_math/`。
@@ -134,3 +123,7 @@ chmod 600 /tmp/jili518_login.json
 不用 sudo 或修改系統 hosts。僅專用 Chrome 的 document host 導向本機 8518，其餘 API 走真測試站。每次 server 啟動建立獨立 session 目錄；不要把不同登入的工作階段混入同一個 server session。
 使用獨立 Chrome profile，僅被動錄製。轉局由操作人員自行操作；不要開 DevTools。關閉專用 Chrome 後，以 Ctrl+C 停止本次擷取 server。
 `parse_netlog.py` 的判定文字是為 696 `/fg5/req` 寫的，不能用其「fg5 次數為 0」判定 518 失敗。
+
+## WebP 全專案批次驗證（2026-11-09）
+
+現行版本已辨識的 WebP 137/137 檔通過格式、尺寸及 loopback HTTP 驗證。含保留歷史版本的完整目標為 138/141。詳見本款 texture_validation.json 與根目錄 artifacts/texture_webp_batch_20261109.json。 歷史 config 引用的 3 個舊檔已無原站來源，保留為明確缺口；不影響本款現行 versions.json 的驗證結果。 未覆蓋的 import packs／binary packs 分別為 2/0，仍列在報告；尚未做 Windows 實機完整畫面驗收。
