@@ -1,0 +1,13 @@
+{
+  "source_session": "20261109-100032",
+  "rank_snapshots": 5,
+  "original_codec_full_frame_byte_roundtrip": true,
+  "ws_request_response_exact_capture_bytes": true,
+  "snapshot_sequence_verified": true,
+  "last_snapshot_retained_after_end": true,
+  "connection_cursors_independent": true,
+  "daily_200000_to_328000_at_1_64_verified": true,
+  "monthly_rank_rows_per_category": 11,
+  "captured_trajectories": 12,
+  "live_loopback_websocket_seven_rank_queries_verified": true
+}

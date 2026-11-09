@@ -1,0 +1,8 @@
+{
+  "temporary_copy_only": true,
+  "math_edits_reload_before_next_spin": true,
+  "known_named_fields_affect_wire": true,
+  "edited_payload_decoded_by_original_codec": true,
+  "invalid_math_rejected": true,
+  "valid_math_recovers": true
+}

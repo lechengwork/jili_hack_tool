@@ -1,0 +1,28 @@
+{
+  "entry_screen": "user confirmed entered game and can spin",
+  "confirmed_at": "2026-11-09",
+  "local_only": true,
+  "browser_automation_limitation": "Independent Chrome window unavailable to CUA; main Chrome only",
+  "served_spins": 2,
+  "recent_spins": [
+    {
+      "source_round": "2489876195000020573",
+      "served_round": "2489876195000020573",
+      "Extra": 0,
+      "GetBonus": false,
+      "TotalWin": 0,
+      "stage_count": 1
+    },
+    {
+      "source_round": "2489876227000000573",
+      "served_round": "2489876227000000573",
+      "Extra": 0,
+      "GetBonus": false,
+      "TotalWin": 0,
+      "stage_count": 1
+    }
+  ],
+  "visual_bonus_completion": "operator confirmed extra bet Bonus animation and final settlement normal",
+  "original_asset_repairs": 16,
+  "purchase_visual_completion": "not separately confirmed; both complete payloads passed encrypted replay tests"
+}

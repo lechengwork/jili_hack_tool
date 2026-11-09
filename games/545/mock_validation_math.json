@@ -1,0 +1,13 @@
+{
+  "https_crypto_verified": true,
+  "captured_spins": 126,
+  "action_pools_tested": 4,
+  "consecutive_replays_tested": 134,
+  "replay_wraparound_verified": true,
+  "balance_polling_verified": true,
+  "client_isolation_verified": true,
+  "unsupported_actions_rejected": true,
+  "synthetic_sso_verified": true,
+  "utf8_headers_verified": true,
+  "browser_visual_verification": "pending"
+}

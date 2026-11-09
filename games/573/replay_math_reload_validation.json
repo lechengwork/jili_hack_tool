@@ -1,0 +1,10 @@
+{
+  "encrypted_hot_reload": true,
+  "edited_board_win_and_balance_applied": true,
+  "duplicate_total_win_synchronized": true,
+  "invalid_json_fails_closed": true,
+  "recovery_without_restart": true,
+  "edited_bet_rekeys_pool": true,
+  "unknown_mode_and_fields_rejected": true,
+  "shared_math_modified": false
+}

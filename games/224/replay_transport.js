@@ -1,0 +1,10 @@
+// Local replay transport: route API/WS traffic to this local HTTP origin.
+// This changes only the replay-served page; browser TLS verification stays enabled.
+(()=>{const base=location.origin;const route=(value,ws=false)=>{try{const u=new URL(String(value),location.href);if(!['http:','https:','ws:','wss:'].includes(u.protocol))return value;return(ws?base.replace(/^http/,'ws'):base)+u.pathname+u.search}catch{return value}};
+for(const [Type,key]of [[HTMLScriptElement,'src'],[HTMLLinkElement,'href'],[HTMLImageElement,'src'],[HTMLIFrameElement,'src']]){const d=Object.getOwnPropertyDescriptor(Type.prototype,key);if(d?.set)Object.defineProperty(Type.prototype,key,{...d,set(value){d.set.call(this,route(value))}})}
+const setAttribute=Element.prototype.setAttribute;Element.prototype.setAttribute=function(name,value){if((name==='src'&&['SCRIPT','IMG','IFRAME'].includes(this.tagName))||(name==='href'&&this.tagName==='LINK'))value=route(value);return setAttribute.call(this,name,value)};
+const oldFetch=window.fetch;window.fetch=function(input,init){return oldFetch.call(this,input instanceof Request?new Request(route(input.url),input):route(input),init)};
+const open=XMLHttpRequest.prototype.open;XMLHttpRequest.prototype.open=function(method,url,...args){return open.call(this,method,route(url),...args)};
+const NativeWS=window.WebSocket;window.WebSocket=new Proxy(NativeWS,{construct(Target,args){args[0]=route(args[0],true);return Reflect.construct(Target,args)}});
+window.addEventListener('error',e=>oldFetch.call(window,base+'/__replay_diagnostic',{method:'POST',body:JSON.stringify({error:String(e.message),file:String(e.filename).split('?')[0],line:e.lineno,stack:String(e.error?.stack||'').slice(0,2500)})}).catch(()=>{}));window.addEventListener('unhandledrejection',e=>oldFetch.call(window,base+'/__replay_diagnostic',{method:'POST',body:JSON.stringify({rejection:String(e.reason)})}).catch(()=>{}));
+console.info('[224 replay] Local transport installed; captured crash trajectories, simulated local wallet');})();

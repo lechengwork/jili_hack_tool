@@ -1,0 +1,25 @@
+{
+  "source": "wire",
+  "mode_counts": {
+    "normal": 109,
+    "extra": 76,
+    "purchase50": 1,
+    "purchase100": 1
+  },
+  "verified_spins": 187,
+  "action_pools": 4,
+  "encrypted_spin_responses_tested": 191,
+  "all_payloads_preserved_except_monotonic_round_id": true,
+  "signature_and_aes_gcm_verified": true,
+  "wraparound_verified": true,
+  "balance_poll_verified": true,
+  "client_isolation_verified": true,
+  "unsupported_bet_mode_rejected": true,
+  "synthetic_sso": true,
+  "bonus_extra_values_verified": [
+    0,
+    1
+  ],
+  "browser_visual_verification": "recorded separately in replay_browser_validation.json",
+  "published_math_full_byte_equal_to_capture": 187
+}

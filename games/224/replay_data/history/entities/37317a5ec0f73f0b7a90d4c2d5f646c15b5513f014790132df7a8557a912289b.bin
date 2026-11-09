@@ -1,0 +1,116 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[141,139,140,180,181,183,1222,1223],{
+/***/1860:
+/***/function(e,t,a){"use strict";
+// ESM COMPAT FLAG
+a.r(t);
+// CONCATENATED MODULE: ./node_modules/.pnpm/babel-loader@8.3.0_@babel+core@7.25.2_webpack@4.47.0/node_modules/babel-loader/lib??ref--2-0!./node_modules/.pnpm/vue-loader@15.11.1_babel-core@6.26.3_cache-loader@4.1.0_webpack@4.47.0__css-loader@5.2.7_webp_7a7hvw2t2ee2w5pfkpsqnacmqm/node_modules/vue-loader/lib/loaders/templateLoader.js??ref--6!./node_modules/.pnpm/@nuxt+components@2.2.1_consola@3.2.3/node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/.pnpm/vue-loader@15.11.1_babel-core@6.26.3_cache-loader@4.1.0_webpack@4.47.0__css-loader@5.2.7_webp_7a7hvw2t2ee2w5pfkpsqnacmqm/node_modules/vue-loader/lib??vue-loader-options!./node_modules/.pnpm/windicss-webpack-plugin@1.8.0/node_modules/windicss-webpack-plugin/dist/loaders/windicss-template.cjs!./components/Fairness/Id/aviator.vue?vue&type=template&id=0db89db4
+a(63),a(7);var s=a(1202),i=a(36),n={name:"FairnessIdAviator",props:{gameId:{type:String,default:""},finalResultList:{type:[String,Array,Number],default:function(){return""}},multiEdgedData:{type:Object,default:function(){return null}},hexsData:{type:Object,default:function(){return null}},sha512Data:{type:Object,default:function(){return null}}},data:function(){return{group:"space-y-2",gameRequiredParams:{ServerSeed:"",ClientSeed1:"",ClientSeed2:"",ClientSeed3:""}}},mounted:function(){var e;this.gameId===Object(i.a)(null===(e=this.$route.params.gameId)||void 0===e?void 0:e.toUpperCase())&&this.assignRouterParams(),this.emitApi()},methods:{onInput:Object(s.a)((function(){this.emitApi()}),200),emitApi:function(){this.$emit("fetchApi",this.gameRequiredParams)},assignRouterParams:function(){var e=this,t=this.$utils.klona(this.gameRequiredParams);Object.keys(t).forEach((function(a){t[a]=e.$route.query[a]})),this.gameRequiredParams=t}}},r=a(11),l=Object(r.a)(n,(function(){var e=this,t=e._self._c;return t("div",[e.finalResultList?t("game-record-detail-log-table",{attrs:{title:e.$t("i18_Result"),content:e.finalResultList+"x","title-class":"bg-[#823B7F]","content-class":"text-2xl !py-2","border-class":"border-[#823B7F]","bg-class":"bg-[#00957e]"}}):e._e(),e._v(" "),t("fairness-search-panel",e._g({class:e.group,attrs:{"game-id":e.gameId}},e.$listeners),[t("p",[e._v("\n      "+e._s(e.$t("i18_ServerSeed"))+"：\n      "),t("input",{directives:[{name:"model",rawName:"v-model",value:e.gameRequiredParams.ServerSeed,expression:"gameRequiredParams.ServerSeed"}],staticClass:"rounded text-black w-full",attrs:{type:"text",name:"ServerSeed"},domProps:{value:e.gameRequiredParams.ServerSeed},on:{input:[function(t){t.target.composing||e.$set(e.gameRequiredParams,"ServerSeed",t.target.value)},e.onInput]}})]),e._v(" "),t("p",[e._v("\n      "+e._s(e.$t("i18_ClientSeed"))+"1：\n      "),t("input",{directives:[{name:"model",rawName:"v-model",value:e.gameRequiredParams.ClientSeed1,expression:"gameRequiredParams.ClientSeed1"}],staticClass:"rounded text-black w-full",attrs:{type:"text",name:"ClientSeed"},domProps:{value:e.gameRequiredParams.ClientSeed1},on:{input:[function(t){t.target.composing||e.$set(e.gameRequiredParams,"ClientSeed1",t.target.value)},e.onInput]}})]),e._v(" "),t("p",[e._v("\n      "+e._s(e.$t("i18_ClientSeed"))+"2：\n      "),t("input",{directives:[{name:"model",rawName:"v-model",value:e.gameRequiredParams.ClientSeed2,expression:"gameRequiredParams.ClientSeed2"}],staticClass:"rounded text-black w-full",attrs:{type:"text",name:"ClientSeed"},domProps:{value:e.gameRequiredParams.ClientSeed2},on:{input:[function(t){t.target.composing||e.$set(e.gameRequiredParams,"ClientSeed2",t.target.value)},e.onInput]}})]),e._v(" "),t("p",[e._v("\n      "+e._s(e.$t("i18_ClientSeed"))+"3：\n      "),t("input",{directives:[{name:"model",rawName:"v-model",value:e.gameRequiredParams.ClientSeed3,expression:"gameRequiredParams.ClientSeed3"}],staticClass:"rounded text-black w-full",attrs:{type:"text",name:"ClientSeed"},domProps:{value:e.gameRequiredParams.ClientSeed3},on:{input:[function(t){t.target.composing||e.$set(e.gameRequiredParams,"ClientSeed3",t.target.value)},e.onInput]}})]),e._v(" "),e.sha512Data?t("p",[e._v("\n      "+e._s(e.$t("i18_Sha512"))+"：\n      "),t("input",{staticClass:"rounded text-black w-full",attrs:{type:"text",readonly:!0},domProps:{value:e.sha512Data.Sha512}})]):e._e()]),e._v(" "),t("FairnessFinalResult",{class:e.group,attrs:{records:e.finalResultList}}),e._v(" "),t("FairnessShaPick",{class:e.group,attrs:{record:e.sha512Data}}),e._v(" "),t("FairnessHexadecimalsToDecimal",{class:e.group,attrs:{record:e.hexsData}}),e._v(" "),t("FairnessRawToEdged",{class:e.group,attrs:{record:e.multiEdgedData}})],1)}),[],!1,null,null,null)
+/* harmony default export */;t.default=l.exports;
+/* nuxt-component-imports */
+installComponents(l,{GameRecordDetailLogTable:a(775).default,FairnessSearchPanel:a(808).default,FairnessFinalResult:a(815).default,FairnessShaPick:a(841).default,FairnessHexadecimalsToDecimal:a(839).default,FairnessRawToEdged:a(840).default})
+/***/},
+/***/722:
+/***/function(e,t,a){"use strict";
+// ESM COMPAT FLAG
+a.r(t);
+// CONCATENATED MODULE: ./node_modules/.pnpm/babel-loader@8.3.0_@babel+core@7.25.2_webpack@4.47.0/node_modules/babel-loader/lib??ref--2-0!./node_modules/.pnpm/vue-loader@15.11.1_babel-core@6.26.3_cache-loader@4.1.0_webpack@4.47.0__css-loader@5.2.7_webp_7a7hvw2t2ee2w5pfkpsqnacmqm/node_modules/vue-loader/lib/loaders/templateLoader.js??ref--6!./node_modules/.pnpm/@nuxt+components@2.2.1_consola@3.2.3/node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/.pnpm/vue-loader@15.11.1_babel-core@6.26.3_cache-loader@4.1.0_webpack@4.47.0__css-loader@5.2.7_webp_7a7hvw2t2ee2w5pfkpsqnacmqm/node_modules/vue-loader/lib??vue-loader-options!./node_modules/.pnpm/windicss-webpack-plugin@1.8.0/node_modules/windicss-webpack-plugin/dist/loaders/windicss-template.cjs!./components/Game/RecordDetail/LogTitle.vue?vue&type=template&id=496f4fb2
+a(7),a(10),a(8),a(14),a(16);var s=a(5),i=a(12);
+// CONCATENATED MODULE: ./node_modules/.pnpm/babel-loader@8.3.0_@babel+core@7.25.2_webpack@4.47.0/node_modules/babel-loader/lib??ref--2-0!./node_modules/.pnpm/@nuxt+components@2.2.1_consola@3.2.3/node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/.pnpm/vue-loader@15.11.1_babel-core@6.26.3_cache-loader@4.1.0_webpack@4.47.0__css-loader@5.2.7_webp_7a7hvw2t2ee2w5pfkpsqnacmqm/node_modules/vue-loader/lib??vue-loader-options!./node_modules/.pnpm/windicss-webpack-plugin@1.8.0/node_modules/windicss-webpack-plugin/dist/loaders/windicss-template.cjs!./components/Game/RecordDetail/LogTitle.vue?vue&type=script&lang=js
+function n(e,t){var a=Object.keys(e);if(Object.getOwnPropertySymbols){var s=Object.getOwnPropertySymbols(e);t&&(s=s.filter((function(t){return Object.getOwnPropertyDescriptor(e,t).enumerable}))),a.push.apply(a,s)}return a}function r(e){for(var t=1;t<arguments.length;t++){var a=null!=arguments[t]?arguments[t]:{};t%2?n(Object(a),!0).forEach((function(t){Object(s.a)(e,t,a[t])})):Object.getOwnPropertyDescriptors?Object.defineProperties(e,Object.getOwnPropertyDescriptors(a)):n(Object(a)).forEach((function(t){Object.defineProperty(e,t,Object.getOwnPropertyDescriptor(a,t))}))}return e}
+/* harmony default export */var l={name:"GameRecordDetailLogTitle",props:{dataList:{type:Array,default:function(){return[]}},data:{type:String,default:""}},computed:r(r(r({},Object(i.e)(["webId"])),Object(i.c)("gamehistory",["isJackpotLegendType"])),{},{isJackpotLegend:function(){return this.isJackpotLegendType}})},o=a(11),c=Object(o.a)(l,(function(){var e=this,t=e._self._c;return t("div",{staticClass:"py-2 text-xs text-[var(--site-text-color-2)] ui-log-title"},[e.isJackpotLegend?[t("p",{staticClass:"px-1",attrs:{"data-test":"log-item-title"}},[e._v("\n      "+e._s("TADA"===e.webId?"TaDa Jackpot":"Jackpot Legend")+"\n    ")])]:[e._l(e.dataList,(function(a,s){return t("p",{key:s,staticClass:"px-1",attrs:{"data-test":"log-item-title"}},[e._v("\n      "+e._s(a)+"\n    ")])})),e._v(" "),e.data?t("p",{staticClass:"px-1",attrs:{"data-test":"log-item-title"}},[e._v("\n      "+e._s(e.data)+"\n    ")]):e._e()]],2)}),[],!1,null,null,null)
+/* harmony default export */;
+// CONCATENATED MODULE: ./components/Game/RecordDetail/LogTitle.vue?vue&type=script&lang=js
+/* harmony default export */t.default=c.exports},
+/***/775:
+/***/function(e,t,a){"use strict";
+// ESM COMPAT FLAG
+a.r(t);
+// CONCATENATED MODULE: ./node_modules/.pnpm/babel-loader@8.3.0_@babel+core@7.25.2_webpack@4.47.0/node_modules/babel-loader/lib??ref--2-0!./node_modules/.pnpm/vue-loader@15.11.1_babel-core@6.26.3_cache-loader@4.1.0_webpack@4.47.0__css-loader@5.2.7_webp_7a7hvw2t2ee2w5pfkpsqnacmqm/node_modules/vue-loader/lib/loaders/templateLoader.js??ref--6!./node_modules/.pnpm/@nuxt+components@2.2.1_consola@3.2.3/node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/.pnpm/vue-loader@15.11.1_babel-core@6.26.3_cache-loader@4.1.0_webpack@4.47.0__css-loader@5.2.7_webp_7a7hvw2t2ee2w5pfkpsqnacmqm/node_modules/vue-loader/lib??vue-loader-options!./node_modules/.pnpm/windicss-webpack-plugin@1.8.0/node_modules/windicss-webpack-plugin/dist/loaders/windicss-template.cjs!./components/Game/RecordDetail/LogTable.vue?vue&type=template&id=65748634
+var s={name:"GameRecordDetailLogTable",props:{title:{type:String,default:null},content:{type:String,default:""},contentClass:{type:String,default:""},titleClass:{type:String,default:"bg-[#3B449E] text-[#867CDE]"},borderClass:{type:String,default:"border-primary-300"},bgClass:{type:String,default:"bg-[var(--site-bg-color)]"}},data:function(){return{}},computed:{},methods:{isShow:function(e){return null!=e&&e.length>0}}},i=a(11),n=Object(i.a)(s,(function(){var e=this,t=e._self._c;return e.isShow(e.title)||e.isShow(e.content)?t("div",{staticClass:"grid grid-flow-row gap-2 grid-cols-1 ui-log-table"},[t("div",{staticClass:"rounded flex flex-col space-y-1 ui-log-table-wrap overflow-hidden",class:[e.borderClass,e.bgClass]},[e._t("title",(function(){return[e.isShow(e.title)?t("game-record-detail-log-title",{staticClass:"text-center",class:e.titleClass,attrs:{data:e.title}}):e._e()]}),{content:e.title}),e._v(" "),e.isShow(e.content)?t("div",{staticClass:"mx-auto text-center p-1 ui-log-desc",class:e.contentClass},[e._t("default",(function(){return[e._v("\n        "+e._s(e.content)+"\n      ")]}),{content:e.content})],2):e._e(),e._v(" "),t("div",{staticClass:"p-2 flex justify-end"},[e._t("footer")],2)],2)]):e._e()}),[],!1,null,null,null)
+/* harmony default export */;t.default=n.exports;
+/* nuxt-component-imports */
+installComponents(n,{GameRecordDetailLogTitle:a(722).default})
+/***/},
+/***/806:
+/***/function(e,t,a){
+// style-loader: Adds some css to the DOM by adding a <style> tag
+// load the styles
+var s=a(814);s.__esModule&&(s=s.default),"string"==typeof s&&(s=[[e.i,s,""]]),s.locals&&(e.exports=s.locals);
+// add the styles to the DOM
+(0,a(42).default)("34f2e798",s,!0,{sourceMap:!1})},
+/***/808:
+/***/function(e,t,a){"use strict";
+// ESM COMPAT FLAG
+a.r(t);
+// CONCATENATED MODULE: ./node_modules/.pnpm/babel-loader@8.3.0_@babel+core@7.25.2_webpack@4.47.0/node_modules/babel-loader/lib??ref--2-0!./node_modules/.pnpm/vue-loader@15.11.1_babel-core@6.26.3_cache-loader@4.1.0_webpack@4.47.0__css-loader@5.2.7_webp_7a7hvw2t2ee2w5pfkpsqnacmqm/node_modules/vue-loader/lib/loaders/templateLoader.js??ref--6!./node_modules/.pnpm/@nuxt+components@2.2.1_consola@3.2.3/node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/.pnpm/vue-loader@15.11.1_babel-core@6.26.3_cache-loader@4.1.0_webpack@4.47.0__css-loader@5.2.7_webp_7a7hvw2t2ee2w5pfkpsqnacmqm/node_modules/vue-loader/lib??vue-loader-options!./node_modules/.pnpm/windicss-webpack-plugin@1.8.0/node_modules/windicss-webpack-plugin/dist/loaders/windicss-template.cjs!./components/Fairness/SearchPanel.vue?vue&type=template&id=af5d70b2
+a(25),a(34),a(8),a(92);var s={name:"FairnessSearchPanel",props:{gameId:{type:String,default:""}},data:function(){return{selectorGameList:[{gameId:"minesgrand",i18nKey:"i18_GameMINESGRAND"},{gameId:"minesweeper",i18nKey:"i18_GameMINESWEEPER"},{gameId:"goldmines",i18nKey:"i18_GameGOLDMINES"},{gameId:"aviator",i18nKey:"i18_GameAVIATOR"},{gameId:"tower",i18nKey:"i18_GameTOWER"},{gameId:"hilo",i18nKey:"i18_GameHILO"},{gameId:"sss-hilo",i18nKey:"i18_GameSSS_HILO"},{gameId:"sss-gc-hilo",i18nKey:"i18_GameSSS_GC_HILO"},{gameId:"limbo",i18nKey:"i18_GameLIMBO"},{gameId:"crashbonus",i18nKey:"i18_GameCRASHBONUS"},{gameId:"wheel",i18nKey:"i18_GameWHEEL"},{gameId:"keno",i18nKey:"i18_GameKENO"},{gameId:"sss-keno",i18nKey:"i18_GameSSS_KENO"},{gameId:"pko",i18nKey:"i18_GamePKO"},{gameId:"pkodice",i18nKey:"i18_GamePKO_DICE"},{gameId:"sss-vplinko",i18nKey:"i18_GameSSS_VPLINKO"},{gameId:"sss-gc-vplinko",i18nKey:"i18_GameSSS_GC_VPLINKO"},{gameId:"colorpred",i18nKey:"i18_GameCOLORPRED"},{gameId:"sss-crash",i18nKey:"i18_GameSSS_CRASH"},{gameId:"sss-gc-crash",i18nKey:"i18_GameSSS_GC_CRASH"},{gameId:"sss-aviator",i18nKey:"i18_GameSSS_AVIATOR"},{gameId:"sss-gc-aviator",i18nKey:"i18_GameSSS_GC_AVIATOR"},{gameId:"sss-minesweeper",i18nKey:"i18_GameSSS_MINESWEEPER"},{gameId:"sss-gc-minesweeper",i18nKey:"i18_GameSSS_GC_MINESWEEPER"},{gameId:"crashgoal",i18nKey:"i18_GameCRASHGOAL"},{gameId:"crashcricket",i18nKey:"i18_GameCRASHCRICKET"},{gameId:"crashtouchdown",i18nKey:"i18_GameCRASHTOUCHDOWN"},{gameId:"mines-skin",i18nKey:"i18_GameMINES_SKIN"},{gameId:"sss-crashtouchdown",i18nKey:"i18_GameSSS_CRASHTOUCHDOWN"},{gameId:"crashaviatorexclusive",i18nKey:"i18_GameCRASHAVIATOREXCLUSIVE"},{gameId:"crashdice",i18nKey:"i18_GameCRASHDICE"},{gameId:"crashpuck",i18nKey:"i18_GameCRASHPUCK"},{gameId:"minesdice",i18nKey:"i18_GameMINESDICE"},{gameId:"crashcricketlegend",i18nKey:"i18_GameCRASHCRICKETLEGEND"},{gameId:"crashfireworks",i18nKey:"i18_GameCRASHFIREWORKS"},{gameId:"crashaviatorm",i18nKey:"i18_GameCRASHAVIATORM"},{gameId:"sss-plinkodice",i18nKey:"i18_GameSSS_PLINKODICE"}]}},methods:{changeGameId:function(e){this.$emit("changeGameId",e.target.value)},
+// 過濾遊戲列表
+filterSelectorGameList:function(){
+// 取得遊戲id關鍵字
+var e=this.gameId.slice(0,this.gameId.lastIndexOf("-")),t=this.gameId.split("-").length,a=this.selectorGameList;
+// 取得遊戲id類型
+// 利用遊戲id類型過濾遊戲列表
+// 當遊戲id類型大於1時，利用關鍵字過濾遊戲列表
+return t>1&&(a=a.filter((function(t){return t.gameId.startsWith(e)}))),a.filter((function(e){return e.gameId.split("-").length===t}))}}},i=a(11),n=Object(i.a)(s,(function(){var e=this,t=e._self._c;return t("div",{staticClass:"action-search"},[t("p",[e._v("\n    "+e._s(e.$t("i18_Game"))+"：\n    "),t("select",{staticClass:"rounded text-black w-full",attrs:{name:"gameId"},domProps:{value:e.gameId},on:{change:e.changeGameId}},e._l(e.filterSelectorGameList(),(function(a){return t("option",{key:a.gameId,staticClass:"text-lg",domProps:{value:a.gameId}},[e._v("\n        "+e._s(e.$t(a.i18nKey))+"\n      ")])})),0)]),e._v(" "),e._t("default")],2)}),[],!1,null,null,null)
+/* harmony default export */;t.default=n.exports},
+/***/813:
+/***/function(e,t,a){"use strict";
+/* harmony import */a(806);
+/* harmony import */},
+/***/814:
+/***/function(e,t,a){
+// Imports
+var s=a(41)((function(e){return e[1]}));
+// Module
+s.push([e.i,'.value-list :not(:first-child):before{content:", "}',""]),
+// Exports
+s.locals={},e.exports=s},
+/***/815:
+/***/function(e,t,a){"use strict";
+// ESM COMPAT FLAG
+a.r(t);
+// CONCATENATED MODULE: ./node_modules/.pnpm/babel-loader@8.3.0_@babel+core@7.25.2_webpack@4.47.0/node_modules/babel-loader/lib??ref--2-0!./node_modules/.pnpm/vue-loader@15.11.1_babel-core@6.26.3_cache-loader@4.1.0_webpack@4.47.0__css-loader@5.2.7_webp_7a7hvw2t2ee2w5pfkpsqnacmqm/node_modules/vue-loader/lib/loaders/templateLoader.js??ref--6!./node_modules/.pnpm/@nuxt+components@2.2.1_consola@3.2.3/node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/.pnpm/vue-loader@15.11.1_babel-core@6.26.3_cache-loader@4.1.0_webpack@4.47.0__css-loader@5.2.7_webp_7a7hvw2t2ee2w5pfkpsqnacmqm/node_modules/vue-loader/lib??vue-loader-options!./node_modules/.pnpm/windicss-webpack-plugin@1.8.0/node_modules/windicss-webpack-plugin/dist/loaders/windicss-template.cjs!./components/Fairness/FinalResult.vue?vue&type=template&id=48a8bfb4
+a(63);var s=a(114),i={name:"FairnessFinalResult",props:{records:{type:[Array,Object,String,Number],default:function(){return null}},useFixed:{type:Boolean,default:!0}},methods:{Big:a.n(s).a}},n=(a(813),a(11)),r=Object(n.a)(i,(function(){var e=this,t=e._self._c;return Array.isArray(e.records)?t("div",[e.records.length>0?[t("h4",[e._v(e._s(e.$t("i18_FinalResult"))+"：")]),e._v(" "),t("div",{staticClass:"value-list"},[e._v("\n      Values：\n      "),e._l(e.records,(function(a,s){return t("span",{key:"finalResult_".concat(s)},[e._v(e._s(a))])}))],2)]:e._e()],2):null!=e.records?t("div",[t("h4",[e._v(e._s(e.$t("i18_FinalResult"))+"：")]),e._v(" "),e.useFixed?t("div",[e._v("\n    "+e._s(e.Big(e.records).toFixed(2,0))+"\n  ")]):t("div",[e._v("\n    "+e._s(e.records)+"\n  ")])]):e._e()}),[],!1,null,null,null)
+/* harmony default export */;t.default=r.exports},
+/***/816:
+/***/function(e,t,a){
+// style-loader: Adds some css to the DOM by adding a <style> tag
+// load the styles
+var s=a(838);s.__esModule&&(s=s.default),"string"==typeof s&&(s=[[e.i,s,""]]),s.locals&&(e.exports=s.locals);
+// add the styles to the DOM
+(0,a(42).default)("95517c1e",s,!0,{sourceMap:!1})},
+/***/837:
+/***/function(e,t,a){"use strict";
+/* harmony import */a(816);
+/* harmony import */},
+/***/838:
+/***/function(e,t,a){
+// Imports
+var s=a(41)((function(e){return e[1]}));
+// Module
+s.push([e.i,".before-text{position:relative}.before-text:before{content:attr(data-txt);left:0;position:absolute}",""]),
+// Exports
+s.locals={},e.exports=s},
+/***/839:
+/***/function(e,t,a){"use strict";
+// ESM COMPAT FLAG
+a.r(t);
+// EXTERNAL MODULE: ./node_modules/.pnpm/core-js@2.6.12/node_modules/core-js/modules/es6.array.map.js
+a(20);
+// CONCATENATED MODULE: ./node_modules/.pnpm/babel-loader@8.3.0_@babel+core@7.25.2_webpack@4.47.0/node_modules/babel-loader/lib??ref--2-0!./node_modules/.pnpm/vue-loader@15.11.1_babel-core@6.26.3_cache-loader@4.1.0_webpack@4.47.0__css-loader@5.2.7_webp_7a7hvw2t2ee2w5pfkpsqnacmqm/node_modules/vue-loader/lib/loaders/templateLoader.js??ref--6!./node_modules/.pnpm/@nuxt+components@2.2.1_consola@3.2.3/node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/.pnpm/vue-loader@15.11.1_babel-core@6.26.3_cache-loader@4.1.0_webpack@4.47.0__css-loader@5.2.7_webp_7a7hvw2t2ee2w5pfkpsqnacmqm/node_modules/vue-loader/lib??vue-loader-options!./node_modules/.pnpm/windicss-webpack-plugin@1.8.0/node_modules/windicss-webpack-plugin/dist/loaders/windicss-template.cjs!./components/Fairness/HexadecimalsToDecimal.vue?vue&type=template&id=7884cdd0
+var s={name:"FairnessHexadecimalsToDecimal",props:{record:{type:Object,default:function(){return null}}}},i=(a(837),a(11)),n=Object(i.a)(s,(function(){var e=this,t=e._self._c;return e.record?t("div",[t("h4",[e._v(e._s(e.$t("i18_HexadecimalsToDecimal"))+"：")]),e._v(" "),t("div",{staticClass:"grid grid-flow-col pb-1 gap-2 overflow-y-auto"},[t("div",{staticClass:"whitespace-nowrap"},[t("div",{staticClass:"rounded flex flex-col space-y-1 bg-[var(--site-bg-color)]"},[t("div",{staticClass:"bg-[#343542] text-center py-1 overflow-y-auto log-title"},[t("p",{staticClass:"px-1"},[e._v("\n            "+e._s("(".concat(e.record.Hexes.map((function(e){return e.Hex})),") = ").concat(e.record.Result))+"\n          ")])]),e._v(" "),t("div",{staticClass:"mx-2 text-center text-xs py-1 log-desc"},[t("div",{staticClass:"text-right grid grid-flow-col px-1 gap-2 grid-rows-9 overflow-y-auto"},[e._l(e.record.Hexes,(function(a,s){return t("p",{key:"hexToDecimal_Hexes_before_".concat(s),staticClass:"before-text",attrs:{"data-txt":0===s?"":"+"}},[e._v("\n              "+e._s(a.Result)+"\n            ")])})),e._v(" "),t("p",{staticClass:"before-text",attrs:{"data-txt":"="}},[e._v("\n              "+e._s(e.record.Result)+"\n            ")]),e._v(" "),e._l(e.record.Hexes,(function(a,s){return t("p",{key:"hexToDecimal_Hexes_after_".concat(s),staticClass:"text-gray-500"},[e._v("\n              "+e._s("( ".concat(a.Hex," * (16 ^ ").concat(e.record.Hexes.length-s-1," ))"))+"\n            ")])}))],2)])])])])]):e._e()}),[],!1,null,null,null)
+/* harmony default export */;t.default=n.exports},
+/***/840:
+/***/function(e,t,a){"use strict";
+// ESM COMPAT FLAG
+a.r(t);
+// CONCATENATED MODULE: ./node_modules/.pnpm/babel-loader@8.3.0_@babel+core@7.25.2_webpack@4.47.0/node_modules/babel-loader/lib??ref--2-0!./node_modules/.pnpm/vue-loader@15.11.1_babel-core@6.26.3_cache-loader@4.1.0_webpack@4.47.0__css-loader@5.2.7_webp_7a7hvw2t2ee2w5pfkpsqnacmqm/node_modules/vue-loader/lib/loaders/templateLoader.js??ref--6!./node_modules/.pnpm/@nuxt+components@2.2.1_consola@3.2.3/node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/.pnpm/vue-loader@15.11.1_babel-core@6.26.3_cache-loader@4.1.0_webpack@4.47.0__css-loader@5.2.7_webp_7a7hvw2t2ee2w5pfkpsqnacmqm/node_modules/vue-loader/lib??vue-loader-options!./node_modules/.pnpm/windicss-webpack-plugin@1.8.0/node_modules/windicss-webpack-plugin/dist/loaders/windicss-template.cjs!./components/Fairness/RawToEdged.vue?vue&type=template&id=1560f63e
+var s={name:"FairnessRawToEdged",props:{record:{type:Object,default:function(){return null}}}},i=a(11),n=Object(i.a)(s,(function(){var e=this,t=e._self._c;return e.record?t("div",[t("h4",[e._v(e._s(e.$t("i18_RawToEdged"))+"：")]),e._v(" "),t("div",[t("span",{staticClass:"text-gray-500"},[e._v(e._s(e.record.Multiplier)+" / (")]),e._v("\n    "+e._s(e.record.int)+"\n    "),t("span",{staticClass:"text-gray-500"},[e._v(" + 1) * (1 - "+e._s(e.record.Edge)+") = ")]),e._v("\n    "+e._s(e.record.FinalResult)+"\n  ")])]):e._e()}),[],!1,null,null,null)
+/* harmony default export */;t.default=n.exports},
+/***/841:
+/***/function(e,t,a){"use strict";
+// ESM COMPAT FLAG
+a.r(t);
+// CONCATENATED MODULE: ./node_modules/.pnpm/babel-loader@8.3.0_@babel+core@7.25.2_webpack@4.47.0/node_modules/babel-loader/lib??ref--2-0!./node_modules/.pnpm/vue-loader@15.11.1_babel-core@6.26.3_cache-loader@4.1.0_webpack@4.47.0__css-loader@5.2.7_webp_7a7hvw2t2ee2w5pfkpsqnacmqm/node_modules/vue-loader/lib/loaders/templateLoader.js??ref--6!./node_modules/.pnpm/@nuxt+components@2.2.1_consola@3.2.3/node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/.pnpm/vue-loader@15.11.1_babel-core@6.26.3_cache-loader@4.1.0_webpack@4.47.0__css-loader@5.2.7_webp_7a7hvw2t2ee2w5pfkpsqnacmqm/node_modules/vue-loader/lib??vue-loader-options!./node_modules/.pnpm/windicss-webpack-plugin@1.8.0/node_modules/windicss-webpack-plugin/dist/loaders/windicss-template.cjs!./components/Fairness/ShaPick.vue?vue&type=template&id=32fb45a7
+var s={name:"FairnessShaPick",props:{record:{type:Object,default:function(){return null}}}},i=a(11),n=Object(i.a)(s,(function(){var e=this,t=e._self._c;return e.record?t("div",[t("h4",[e._v(e._s(e.$t("i18_Hexadecimals"))+"：")]),e._v(" "),t("div",[e._v(e._s(e.record.PickResult))])]):e._e()}),[],!1,null,null,null)
+/* harmony default export */;t.default=n.exports}}]);

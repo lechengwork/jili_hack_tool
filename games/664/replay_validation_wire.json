@@ -1,0 +1,19 @@
+{
+  "source": "wire",
+  "verified_spins": 438,
+  "action_pools": 4,
+  "encrypted_spin_responses_tested": 442,
+  "all_payloads_preserved_except_monotonic_round_id": true,
+  "signature_and_aes_gcm_verified": true,
+  "wraparound_verified": true,
+  "balance_poll_verified": true,
+  "client_isolation_verified": true,
+  "unsupported_bet_mode_rejected": true,
+  "synthetic_sso": true,
+  "bonus_extra_values_verified": [
+    0,
+    1,
+    2
+  ],
+  "browser_visual_verification": "Backend verified; browser test used math source"
+}

@@ -1,0 +1,1013 @@
+{
+  "source": "previously captured original common 9926e payload",
+  "payload_sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82",
+  "payload_size": 746,
+  "method": "manifest UUID/version + literal filename/extension arrays in original codec bundle",
+  "assets": [
+    {
+      "path": "/pappu/assets/game/native/ed/ed764691-fe3b-4ad4-9348-1db36ac209c3.9926e.eghiwcdhj4c",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/pappu/assets/game/native/65/65b883fc-d407-4f81-b5ec-94ccfd3178d6.9926e.zyen5io4l2",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/pappu/assets/game/native/22/22e1e52d-d525-4ea1-8506-676212d65fe3.9926e.ijqq6tv0bn",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/pappu/assets/game/native/e3/e3c12a54-eee3-4c66-bb2a-cad2e9f4f334.9926e.3yyv4kzpvj8",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/pappu/assets/game/native/69/692884b9-7e52-4e4d-866a-c07a5bf1515a.9926e.82i61780az7",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/pappu/assets/game/native/df/df2bbe71-232d-4d62-9553-0bc2021ce7e0.9926e.a5kron4a60s",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/pappu/assets/game/native/fa/fa017d15-b21b-4aeb-ba4a-630892e48c54.9926e.e6ms6buzffn",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/pappu/assets/game/native/67/6765c626-b723-4844-ab99-1bade9a36e71.9926e.39kph2hd7wp",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/pappu/assets/game/native/fc/fcd2f1db-8cec-46dd-9c07-23936eb788e9.9926e.f283qt2w3k",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/pappu/assets/game/native/e9/e911049a-8911-4e9c-9813-9cfd5af5aa30.9926e.1eas74eilau",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/pappu/assets/game/native/23/2354e776-5869-4010-9afb-59c33f49b9a1.9926e.672ybuh94qs",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/pappu/assets/game/native/51/51ded7e5-28a5-45c2-ac08-bbb4b9264c09.9926e.pu8lcxg7p5",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/pappu/assets/game/native/f4/f423fecc-00a8-4ede-a6b3-079904f3970f.9926e.54bjxfubgqf",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/pappu/assets/game/native/00/001fd164-071d-4575-8fb1-97e6af92083b.9926e.9otq0h8yq4g",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/pappu/assets/game/native/2f/2fc6f2b6-5029-4ae2-8044-03fb0a2830ec.9926e.jvh6a9xl73a",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/pappu/assets/game/native/19/19f73c07-1b5f-405f-b1e7-0c9a0efd68fa.9926e.pq3fyz8gmlj",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/pappu/assets/game/native/a6/a6dff95f-fef8-4db5-b1f6-96287500e10d.9926e.x5f4pejfys9",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/pappu/assets/game/native/cd/cd9b7add-0161-4c6b-8f43-feb90a59d13b.9926e.rj2uumlssuo",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/pappu/assets/game/native/1f/1f45bfce-2c8e-4095-aa68-1f070888ceb0.9926e.1a1cs06usj",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/pappu/assets/game/native/30/3003b287-9ba7-41ab-b809-e0bb98dc79bd.9926e.n0bl65hyt3q",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/pappu/assets/game/native/82/82825776-5a91-4f9d-baa9-b659c2ff3c34.9926e.6l9i2lg3dg",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/pappu/assets/game/native/be/bec3b685-6d77-4623-aca7-62eaa6e23974.9926e.0gthp6ua1tz8",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/pappu/assets/game/native/28/285a172c-0b86-4580-9c27-7c236b469c5c.9926e.26111fwa6du",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/pappu/assets/game/native/d9/d9d8e98e-45e9-4ad4-9831-8ff069307f49.9926e.ylld73s453h",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/pappu/assets/game/native/37/3786f3d9-76f9-469d-a443-f78a23681ae7.9926e.fxt7bs3yop",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/pappu/assets/game/native/99/9960b1ed-ed92-4541-9f1e-5410d0318995.9926e.sbxbynctpeh",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/pappu/assets/game/native/78/78ecc7bd-a8cc-4d17-a1f5-711f4165745f.9926e.lamyn4a676",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/pappu/assets/game/native/97/97174e88-3dbd-4a8b-8727-8cf14b08f622.9926e.cuakg3wanl5",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/pappu/assets/game/native/19/19bce85d-2bf7-45c4-9858-9ce9cf7aa24e.9926e.jthuupbiqz",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/pappu/assets/game/native/51/51ea7606-2b90-4bc3-af65-c5d5a8e5e46b.9926e.vqm7hfwae4i",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/pappu/assets/game/native/f7/f707ad8b-1bb6-4e0c-86db-12ef8719c786.9926e.mwp4rz1g3q",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/pappu/assets/game/native/88/888087e3-ac7c-4139-93d4-364021a2e426.9926e.tq8is139vnd",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/pappu/assets/game/native/02/0213133c-4dca-4702-85b9-1a99f430a2a8.9926e.ouvw6hk328b",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/pappu/assets/game/native/c2/c22f8048-71b8-4e13-88f7-a077fa2ec6dd.9926e.kyul3gutz2",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/pappu/assets/game/native/51/51d6847f-8192-4f7a-ba14-00a6c452f9e8.9926e.luidjeffpcc",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/pappu/assets/game/native/09/09be8679-ffbe-4db5-9d09-47bf3be9a617.9926e.fkrplvgza",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/pappu/assets/game/native/da/da897b03-5dfc-4d9f-a140-2ec1fe0dfb2f.9926e.i29cw9c1kj",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/pappu/assets/game/native/e2/e2d72f74-eb47-4b5a-8c51-e33ec4bccc86.9926e.tlrp5fdj02f",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/pappu/assets/game/native/84/84bd3535-5871-4a27-a18f-93a16410fe4a.9926e.bhkeaxez23d",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/pappu/assets/game/native/d5/d53e9211-af3a-40ec-8cac-2e59e1c65c96.9926e.uwnqo839mlr",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/pappu/assets/game/native/99/999ea4fb-5956-45c4-b596-e9650fa20fdc.9926e.qpw00vhmlj8",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/pappu/assets/game/native/09/094d9691-b04a-42d1-a295-748bd0b2881e.9926e.xm7y2kf2qed",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/pappu/assets/game/native/cf/cf0d9481-966f-4433-81de-0457747fcdcf.9926e.ap6g44eorvj",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/pappu/assets/game/native/96/96c8117c-06ce-43ea-b797-35e462934b37.9926e.zq2877rqh7b",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/pappu/assets/game/native/db/dbf9304e-b817-4671-b226-16b5fa6f8755.9926e.72zv9zthqki",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/pappu/assets/game/native/06/06348b55-7f2d-46ad-a839-2edea38bb14c.9926e.l4lezg53j5",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/pappu/assets/game/native/67/67658c4a-6279-4597-8820-14f6b32b49dc.9926e.6us74s990f5",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/pappu/assets/game/native/20/20873bd5-bf21-4805-a4ef-54f4c9987bfe.9926e.45vh72xl9vl",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/pappu/assets/game/native/80/80e1db9e-2de5-4756-871e-810261028c91.9926e.7bwrtk8mpre",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/pappu/assets/game/native/f6/f6a6a5a3-882f-4c7a-879e-785a9b92cd1f.9926e.45n519m4zs",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/6f/6fe669bc-d948-4de2-abc8-bde071e4a277.9926e.g850x0fdlr",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/e1/e12495c0-2a22-4f26-91dc-4ed243822e44.9926e.rxzghyzf3mf",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/4b/4bd7ced5-1788-44f8-8219-6781c18cfedd.9926e.08b7vi40v3tw",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/bf/bf566e51-fae5-4f95-b375-be3992efa377.9926e.sgynzpce0bl",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/03/0312a28b-50ab-40af-8120-47ac7456b4de.9926e.k52kwxh0p2i",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/fb/fb138f01-3a41-4acd-970a-9afd1dcf4460.9926e.opkgk0kfz3",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/1e/1ede1d5c-ab4e-41a5-9499-572e82f9aa11.9926e.n082yglglh",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/f4/f44f3f85-4fd5-42fc-8b77-a367c6e26bfa.9926e.x40x495igr7",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/54/54a8b7df-606b-4356-bd6a-2602ad432fbb.9926e.2inzvnd6if",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/76/7679a2ae-79f3-4c67-afde-fd0f0465301c.9926e.fk69xz49gh9",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/65/65f7a867-c5ec-4233-b486-bf5fd41c6a11.9926e.sxzlhorblkq",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/39/39b5eee9-07e7-4a6b-96ae-587275b93fb9.9926e.5cvqf6st0f",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/aa/aaeee583-e078-4146-ad84-5e88e571509c.9926e.jodxsrwnwys",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/d6/d6533c13-c144-4e59-866f-3521f49a9b35.9926e.i4mbvkzdgam",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/a3/a33543dd-4332-4d30-9d8e-0367152564bf.9926e.u6fu9or06df",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/6a/6a085e38-3add-4ed1-9a08-25b636299afc.9926e.yp24y5bqk1b",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/2c/2c70a491-7f4f-40d8-8011-63e501b2dd3b.9926e.x5dx6xt629",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/48/4814d148-faa9-4cc0-b842-8a8b9dd6183a.9926e.um6l9ryk1a",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/5b/5b16e700-2a08-4ff5-8bfc-c46a8baf633f.9926e.gzkn5xhre8u",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/09/09fb9584-2492-4e0b-9cb4-0eda49ebeb47.9926e.1vg4t2x3o89",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/cb/cbbed04a-9f3e-4e10-ba05-e2af08ee5e45.9926e.tfcbykm1vad",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/e0/e085a423-e3c3-485b-aef8-a7bb35857f3c.9926e.ftbb1frxlmj",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/01/01a5ee36-6eab-4dc3-9d7c-d4ae6c813940.9926e.d2h66hajvw9",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/1a/1ac9c824-edf8-4d34-bd3d-64dfb53fd820.9926e.w5m4y4d2rvh",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/49/494b021b-78e8-4da8-af4e-d391f5f422b3.9926e.vcyugsku5ka",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/bd/bdd160ef-a29a-4356-b717-8ccf1ddaf527.9926e.muk1b3h7zh",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/36/366bb4a7-9340-4bc9-ab84-dfbfd93642d2.9926e.5mj3egyux2",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/c7/c719605e-e72f-4374-bf50-5bf82930a213.9926e.nda0gx1o2jk",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/8b/8b239a2b-83cb-4222-a345-164c9723960d.9926e.acgyrb537wh",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/5d/5d97fd04-1bd6-4a34-bd66-911b6b7af86c.9926e.g6exkutqq3k",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/86/866538cd-1457-417f-9184-ed9418507c9a.9926e.ji8ip3lkbm",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/35/3514e014-f09c-4c09-884d-3900965818a7.9926e.xb1q88whhr",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/af/afe71e11-02fc-493d-ba5c-ecaf860a23d5.9926e.gayjkdv0rd",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/c0/c079cfa6-622c-4cab-b6eb-2bf746f8f116.9926e.fbjacu57hhr",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/f2/f26ec1cd-7302-4795-b1b6-47878c432634.9926e.zqcg9hqzicr",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/da/dab09f7d-c0a7-47d9-b748-08e46a9834f7.9926e.zf1nfu8cg99",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/33/33d1daec-1879-4a4e-bc94-c3f0bccfb27f.9926e.zu3qcct7cf",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/de/de3911c9-a120-4af1-b3a8-27ba284bfd02.9926e.8cnprvwjhs3",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/e4/e4096b2b-06e6-4da2-805e-008a0a04d7bd.9926e.d666c42f758",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/6a/6af19c9e-42ca-46a4-b803-91c74670dc29.9926e.dads3q4v4ga",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/a0/a0d35785-6af4-4819-957d-264e2508f89f.9926e.509tot3a127",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/33/33251daa-43d0-4362-b0a2-e9a7908be47d.9926e.0qbo31b7vtni",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/4b/4b5cc399-9e20-42c1-b4d1-5354d736cb38.9926e.skt9jomlsb",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/b2/b2ac766a-cccd-478f-928a-767b0474a69e.9926e.itrkklir64",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/7a/7a98a8ce-99f2-4cb5-ac92-3ceeb76f4400.9926e.ehi8whvta3",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/01/01316338-e4ec-4490-89bc-40970b63a049.9926e.6la1ugvrr2c",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/92/927864c9-9663-4255-b9ca-e38fb718653f.9926e.8p18i3oafol",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/41/41b16b9e-a784-4657-b2ad-7cd101f444d2.9926e.c1k208avt7c",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/57/57c62eef-aadc-415d-89d3-fbb3d0dcc29c.9926e.9e89zts0aa",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/c5/c5e4d88d-84f7-4cd3-89a7-27eefea422a7.9926e.1fe55j64e2b",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/95/95ccdf13-a510-4e74-a017-9cb3d94ff081.9926e.a84vppnei2a",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/75/75730f71-9c6d-4ba9-9336-be406b213699.9926e.ed1uj1hlc4b",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/84/84f7f7fd-be4f-4c6d-8b96-f8094b6bd65f.9926e.okczq17axxg",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/52/522facb5-2e8b-40db-8a20-9eeb097b88cb.9926e.gtgl0xvdypa",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/f9/f9988bc7-02e0-4f68-b437-d487b753e9c2.9926e.lwl5hguurvd",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/20/2067d56c-d521-4083-91c6-e0171d65bd04.9926e.wre0bbfjyi",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/15/156a011a-ec0e-4ded-8129-5468649be876.9926e.8qz75yiuy0l",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/80/8070ce9a-9f20-425c-8b94-6f02fd18d7b3.9926e.7udknx623c",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/52/52341b44-0b61-4ba1-9dcd-51d9c5a4c35d.9926e.9llsiogl35p",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/98/987d882c-e598-4a28-af9c-53f773c20769.9926e.hmxb1ohfq06",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/cf/cfac4eef-8273-498b-bf87-ae9518ae5308.9926e.hhvi0mhsj0d",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/0f/0f354550-9bda-43d6-a4de-f0cd19dfaafb.9926e.xujmgpexu1",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/9a/9ab60d6a-1751-4aa2-bd3b-80fd25a6eea4.9926e.d92y73ksw6m",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/ec/ecc0dfc3-c59a-4e27-bb1f-3643771e40ce.9926e.k75cwsiwt1",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/b4/b4a84bad-8dd4-48e2-ad51-09a43896e107.9926e.xmj8cz39s6n",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/0c/0ca91a2d-08c7-4f12-b787-ea18e5650bcc.9926e.k4lghyppw5h",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/04/0459ff19-e18c-47f5-8196-705214f2aa9f.9926e.186f3xjnkcc",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/6d/6deb8491-2b50-40d8-a594-9445a658d11f.9926e.6dpwl3pdo1i",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/aa/aa625c85-6a2a-472d-b0a5-e56b685b2197.9926e.6op530fzf",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/81/81461bf2-81c9-451e-b734-3255a33fe608.9926e.q6of9a39m6",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/06/0672535a-237c-42cd-b251-0f9e0fc6f126.9926e.22jt0zsa9x1",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/93/93d7bfbe-cf6a-4299-aa33-5ccd93f70405.9926e.wjke2ok52is",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/64/6413f94d-d3e9-49a7-a8ee-6ba82cfa7ff1.9926e.kkr9vcoehhb",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/c5/c56db9d7-519d-4284-bfd0-35a3d70268f4.9926e.wmyr4i1uw3j",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/cf/cfcf25e3-33a5-44a6-bc16-33368e769bdc.9926e.j1w5r5d3l9",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/ac/acc50908-9059-452f-ba4e-86bf2f2794dc.9926e.89q88o8u8i3",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/00/00231fda-5f1d-482b-a4b2-4191ea7fa1ef.9926e.6bjsgi4w7bg",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/8e/8ebaa25c-5e28-4483-879e-c40c3c3cbc1f.9926e.sksi2fq5v8n",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/4f/4f6c9512-a588-4d8e-b594-7641d54f3e23.9926e.u8e1rxy6nqr",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/0d/0d416bdf-bf48-4978-b651-6e6a81d0811f.9926e.2ldcla76ggg",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/67/67c0b777-08a5-4970-9157-f8dbe778bfbc.9926e.v28jxjzgl4",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/df/dfea7138-83d4-42ac-a93b-b2361e982bef.9926e.b154kr2syv",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/65/65038e8b-d009-45b7-9a11-22eeb4bed374.9926e.tfovctqop1",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/93/934ad7da-3fba-46d0-b296-58001d5f1cf2.9926e.fj3pmqf1d6q",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/33/335e710f-5331-4eab-b3eb-ed232f3a128f.9926e.uhzr53emgbo",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/09/091f6515-55df-4bcb-abaf-39d85477c180.9926e.e3nc5vzh98d",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/25/2588b43d-c8ab-403d-9732-d995ab883756.9926e.r1zm8r179w",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/bf/bf6cb0d3-ab46-4b21-af03-402da02625f0.9926e.5rcays6npm3",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/04/048aab5c-3b0d-4d1b-870c-2a66f44571ef.9926e.1p5i4lac6ao",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/99/99685b02-ef7e-473e-95a6-73bb9f089d82.9926e.7g5pwbmax6m",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/51/5173a42d-b178-4a99-935a-011e73974684.9926e.xl4jczvb04",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/59/59671c01-9448-487a-bc8e-171507461678.9926e.c1jz7f9cor9",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/3e/3ed80ec8-af39-4a98-82a9-90adfe30444a.9926e.6mltajei8bt",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/44/44e6f915-26a2-402f-931c-51486dbdb5ea.9926e.pqjayq6jel",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/1d/1db50fe6-ce1f-459d-a376-250e8ef6150b.9926e.ld5z1co9pkp",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/2d/2dfe083b-8364-4462-bac3-c3e2cdafba56.9926e.c9slt03b8lt",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/91/917453fc-9b1b-4ff8-a6b1-aa168d64c63b.9926e.rblapxw4wn",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/1e/1e0c3af1-064c-404e-900d-2f908cb7ed75.9926e.o5fk7orcem",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/03/03a3b900-278b-4351-9b71-fd5c1c8b479a.9926e.f9sunjw9dm",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/23/235fc905-8f49-435a-b87d-0539b422a26d.9926e.9j4y74lenho",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/7c/7cb6c971-70b1-4d36-9ec3-f558726767fb.9926e.qu5l3qet5i",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/3a/3aec936e-5244-4efd-b688-f6cbb893a4ab.9926e.69ak5441vho",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/25/2516a4f8-b2d8-4801-9871-a958652a7f53.9926e.xq63gggnzwh",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/34/34c400ae-2d1f-43bb-ac19-d4655c6f9eac.9926e.j501dqeiock",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/48/4886d530-915b-4c82-bd57-98e5b08eecb2.9926e.h50cqhyk2e4",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/1b/1b805b75-cba9-486f-85d1-59fb9f1e8be4.9926e.elgrpwekdp",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/a8/a8a82c43-e409-42c2-8b8c-e69ef246f1ab.9926e.mys0cic2oj",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/36/3606cefc-c2b7-4daf-8430-725993c82733.9926e.4nl2uvrbtuq",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/fe/fe52f2a1-c714-4c79-9a43-2a1b86569256.9926e.fyjtcbna2t8",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/b9/b90c2140-cd43-4d15-98a6-a7adeb4f10f0.9926e.xnaxvhe82ti",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/26/2668f613-5d94-4275-9c4d-263cb58b3d8f.9926e.j3p7wrjjkk",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/95/951cc432-7f00-4f04-95a0-ad404737458a.9926e.pvdb3tlbr5o",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/30/3018ee28-f7c4-4921-af64-610a1af3be67.9926e.oz1b0uv9ve",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/50/5049b771-7c06-4aca-b58e-3036aba191a2.9926e.o83lwbyrax",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/44/44ca6b1c-d4ff-4400-8d94-5c32cfef21de.9926e.uy56ldx4pui",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/45/45425c98-18d9-4cc6-a71b-4152bc8204f1.9926e.qojumtx61e9",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/55/5539a1fc-b971-47b4-bc7e-7a00bdf7f1f5.9926e.lq5ytd6ly3p",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/bc/bc67168c-1b20-4595-8c05-8927647f3fc9.9926e.mrdihrz73zl",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/27/27712512-1791-4822-9d18-deac70f2c9bf.9926e.mldfrow26pf",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/a6/a6740027-d8c5-44bb-a11f-e224860d0885.9926e.lr80sty0dim",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/92/9285c086-5eca-43a0-8a38-b782bc4e76d1.9926e.e62ajgli0lw",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/7f/7f81af96-7203-4dba-ad96-08c5c6247263.9926e.ai4ncdcjvmr",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/56/565f2ddc-287a-407e-b643-35f268e73b1b.9926e.9s1ucs6wc7l",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/c4/c4d8c197-015a-44dc-825c-61bc704e1630.9926e.nlfkmgwa8y",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/ea/eaeedab3-ab2c-4285-849a-ec86fb91882e.9926e.slujke0owo",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/2d/2dfa9f33-d5c2-4637-bf13-d5abf279ab50.9926e.50tbbxzt09c",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/0f/0f91a311-2036-470c-8a16-748ca38ab4cb.9926e.dzgwsvm1dql",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/ca/ca9b7827-f9bc-4965-ba31-9cc99ef3d346.9926e.f1w8nbtpza",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/53/536d0e2c-b902-441a-8824-78b0493d7ccd.9926e.bbx1qs9g1x6",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/2c/2c770a1b-618f-4316-aef0-dcfe366f84ea.9926e.wakm6fhyph",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/35/356448cc-467c-4062-bc28-a044257c7e32.9926e.6r5rylbwjvf",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/12/129031fc-aeb6-4f3e-ad26-c767a41ce61a.9926e.xl95od29k9",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/81/819f21ca-1fc0-4027-bb01-17022ac86d0d.9926e.6jyyvlzdkv5",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/d7/d7abe22e-0460-4630-bb4d-f25d26e0f270.9926e.ukx1n3qw2q",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/80/80d97a90-a452-4818-8008-0b2064b509b9.9926e.xu36cdyyzmg",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/d4/d4b023e5-0851-43b6-80ec-008c109e98ce.9926e.3i3fmwlxo3k",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/97/97b84c33-3408-46a7-897e-e792c9bea864.9926e.143d73s5vbm",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/83/835f7c01-6c1d-461f-9b52-e3917322df7f.9926e.ibw4c2z32n8",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/ad/adc74b19-7df3-408f-b694-0e66dbe98d73.9926e.15aufr52q4o",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/f9/f9efd82b-35eb-4f12-b419-fe5a1d74689e.9926e.fwvt3uavlk",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/3d/3df827e1-7b33-4391-8e79-7c6acfdaec8f.9926e.ssrbmifsu3",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/ca/ca168ea0-cf8c-45d0-ac57-b65a6cbb1582.9926e.sc2h1hkc3d9",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/d7/d74cad08-d327-4b9a-a5b5-5f192b19986f.9926e.jx85ayper7",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/01/01310eae-66c5-4b1c-8cc4-5ba8bd6334c6.9926e.7211r9kxmv7",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/8f/8f3e7597-47ac-4ec0-aee9-21bf61bfb656.9926e.s25d9onyrcg",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/3e/3e9e3010-ad08-48cb-94bb-112bf3addfad.9926e.1vndcy4miyu",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/7d/7d67327e-c27a-487d-a830-d542dccf39eb.9926e.5povq9i516r",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/f5/f591eb99-6afd-4fa6-ae4c-490bd412380d.9926e.4g9alxbqjrn",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/85/859574d2-f012-48ec-a989-156b33a87921.9926e.dvyg8ta2tjr",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/3a/3a9715e8-e965-4c2e-bc90-068d5a0ee4bc.9926e.c3ttl4lp71k",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/56/567cb6ab-0203-464f-b2d0-88c63c620f82.9926e.ijuq2aacps",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/2d/2dbe879a-82d7-4621-a93d-5f3c9fb536df.9926e.coaiiihnsp",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/cc/cc79e2b6-ff5c-453b-bcf1-36ab10febae1.9926e.f7595rdcot",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/7b/7beb277e-d851-410c-a627-842bc8b279a3.9926e.fsv0d8bv9uw",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/48/48370e28-b573-4b92-aa60-63821f9f4f71.9926e.756tt651juu",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/13/13e80ef4-bd0d-4b5c-8bdc-6f262174d85a.9926e.yxnxl6qph1r",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/4d/4d3ca2b3-3317-4c75-be7f-f4b63794886c.9926e.7d2q5wajqb2",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/f7/f7f19076-2a9e-42e5-ab52-add291d609ec.9926e.a169aus5fyg",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/bb/bbfa7ad1-42bc-4ff0-8666-2e9c4ac1609c.9926e.ogkgapk1ktp",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/1c/1c73b27e-7b20-4675-bd09-b31d119fb502.9926e.fyv2xkuv3pf",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/e2/e2c2852d-a4cb-4241-ae5b-080950980ed8.9926e.2r1rgnhkzjk",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/2e/2e714917-81b9-466f-8a60-5745355160a2.9926e.qyb7277brnd",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/60/60108283-405e-4c99-8b22-127ca23282f4.9926e.dhwbz42g0es",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/bf/bfaf0771-7004-40c0-976c-9f4ca79d2a2e.9926e.ufmz8d7un2c",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/20/20abb442-85da-47ee-9e26-c2d26121cc8a.9926e.hq9t4wd1oe",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/c5/c54c0e2c-1120-4334-9441-6740620a7921.9926e.dwsqvhubqqe",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/fd/fd5039d5-2c43-4c09-a795-fe88c88cbb47.9926e.qnt8j65nlfn",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/d5/d532be82-44ec-41a8-a740-558a7d276a93.9926e.z063w7es4pc",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/bd/bdef8dcb-b2d8-4182-a839-71b4adaf0659.9926e.3tuullu26pi",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/9f/9fb1f38a-014b-40c7-ae28-1db37aeabf04.9926e.2th7l5dtjy5",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/9f/9faca181-cebd-4d6f-9ef3-ef6152dfb736.9926e.jyqzhawrpan",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/44/447c9daf-2929-47dc-b0b9-02483aa44ecb.9926e.yv1j1rs9sjr",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/95/9508a80c-95f9-4ec0-989e-a8bf3e3c79e8.9926e.nd5vdcbuvli",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/fc/fc6fd2fd-ba95-4e72-ac91-24111ef1f543.9926e.v07s9p1sk9",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/c1/c158befb-e7dd-464c-9d67-c99709398485.9926e.yhx79u63fu",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/76/76646a2c-ed65-4d5a-89b1-722b4788027d.9926e.mzolw32232f",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/3a/3ac46e9a-b0e8-42e8-aca6-047d952da236.9926e.mngvz0r79l",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/a3/a353d46d-6541-4d05-9671-b61e48b922e5.9926e.3z8f4zovwei",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/d1/d16c5420-aadc-4027-9487-e162ae496a62.9926e.0lc60w6pe78d",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/71/7185668e-892c-4e15-bde6-b18bcdcadd9b.9926e.z7mtvhvlecr",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/eb/eb927ffa-4242-4642-afc9-749bd01caeb8.9926e.bilciuf3rqa",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/bb/bb06ed44-cb9a-4aa6-97f1-36d5c45a59e0.9926e.4gecl67k124",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/b1/b1ce5609-41ad-47bc-9e1e-9a90ecd72441.9926e.jauzlr0tq",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/00/00a00862-ce6a-496b-bb9f-5d2a7c06e50f.9926e.yvoqhknd25a",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/71/710b2c44-f48f-4ea8-9ea3-0dc7dc41c7d0.9926e.5c3d8wfu1ta",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/cf/cf244fac-db83-42a6-9814-9936b3c985e4.9926e.0ll5ynzsybfq",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/a5/a56b2b56-7d73-40fb-8d48-b0879f87cdaf.9926e.59pxtla1ro3",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/7b/7b80bb4b-7a63-4cef-9220-4ed5c4030227.9926e.6tt0e9x9f53",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/5d/5d27f8d2-a147-4bba-a349-9dc0cd145a47.9926e.qvflyo31cd",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/88/888a7a51-afc6-424e-b741-443fc5114ae0.9926e.08z78h8vplu4",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/68/6826fcf2-32b0-4ea7-a418-796b7b1a81b5.9926e.lq5odzgfxpr",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/ca/ca4209ee-a2ec-41c4-b5d3-67a8bd8e5757.9926e.4bi1a3o1j2m",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/d4/d4633b71-899d-47ca-9cdb-35d052ef3317.9926e.f14e63csig",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/a2/a219aeb4-319a-4208-bd3f-18a590260dfd.9926e.62wnkciyujw",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/4e/4eac8f07-591a-4c60-b2cf-327ffeebe3ca.9926e.kf676chqr6",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/26/267b067d-2833-4806-80f8-6c8ff2189858.9926e.tovcxct3pu9",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    },
+    {
+      "path": "/aeon/3.8/web-mobile/assets/aeon-script/native/a4/a4078f06-4386-4477-a6de-e5cdee1be656.9926e.kgh4z8srsyb",
+      "sha256": "6a7340a324579cd3735145aa5c72d0cce9902ce87332edb99ba04c46037e5c82"
+    }
+  ],
+  "unreferenced_manifest_names": [
+    {
+      "bundle": "aeon/3.8/web-mobile/assets/aeon-script",
+      "name": "ckjr9tb10a",
+      "note": "No literal native check in captured script; not fabricated"
+    },
+    {
+      "bundle": "aeon/3.8/web-mobile/assets/aeon-script",
+      "name": "sp0i1on1br",
+      "note": "No literal native check in captured script; not fabricated"
+    },
+    {
+      "bundle": "aeon/3.8/web-mobile/assets/aeon-script",
+      "name": "unnf8e6thuc",
+      "note": "No literal native check in captured script; not fabricated"
+    }
+  ]
+}

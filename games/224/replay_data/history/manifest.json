@@ -1,0 +1,422 @@
+[
+  {
+    "url": "/zh-CN/ingame/",
+    "body": "entities/1c5566ab72f040003dc4711cc148778c58afaca38460bd2ec173cfb49f91720b.bin",
+    "sha256": "1c5566ab72f040003dc4711cc148778c58afaca38460bd2ec173cfb49f91720b",
+    "is_history_api": false
+  },
+  {
+    "url": "/_nuxt/c424600.js",
+    "body": "entities/674da86afaf8874eb602a441e6df965fce074c8b7a30173e2a9c5674556a3dd2.bin",
+    "sha256": "674da86afaf8874eb602a441e6df965fce074c8b7a30173e2a9c5674556a3dd2",
+    "is_history_api": false
+  },
+  {
+    "url": "/_nuxt/7edc3931cd00590dc927.js",
+    "body": "entities/92c71a872f0ec936f8307c72f5a880de226bbb4c5bb639acf46a690f925e0077.bin",
+    "sha256": "92c71a872f0ec936f8307c72f5a880de226bbb4c5bb639acf46a690f925e0077",
+    "is_history_api": false
+  },
+  {
+    "url": "/_nuxt/da90d1fd2448666939d6.js",
+    "body": "entities/7d83d941f3c14e0aaf8b7916ef451bc731642b2dfe7a966c910566e74f10fb8f.bin",
+    "sha256": "7d83d941f3c14e0aaf8b7916ef451bc731642b2dfe7a966c910566e74f10fb8f",
+    "is_history_api": false
+  },
+  {
+    "url": "/_nuxt/a00b4968fae383022b99.js",
+    "body": "entities/0d4d45f6be5107d353ec46f577830e9e48103c92b02ccc21067e7b61f96e6dfa.bin",
+    "sha256": "0d4d45f6be5107d353ec46f577830e9e48103c92b02ccc21067e7b61f96e6dfa",
+    "is_history_api": false
+  },
+  {
+    "url": "/_nuxt/54cc797a2ab1e924a716.js",
+    "body": "entities/d78539dbe8a2385e7a64119af7f8229ffc23aeb01d855c8f0c018f7cfdb332ed.bin",
+    "sha256": "d78539dbe8a2385e7a64119af7f8229ffc23aeb01d855c8f0c018f7cfdb332ed",
+    "is_history_api": false
+  },
+  {
+    "url": "/_nuxt/b12beb378593488c0570.js",
+    "body": "entities/71a4407312eac6572dc1b63ae54f2b4446980e27705ac3385033a5e38be8a4e3.bin",
+    "sha256": "71a4407312eac6572dc1b63ae54f2b4446980e27705ac3385033a5e38be8a4e3",
+    "is_history_api": false
+  },
+  {
+    "url": "/_nuxt/b80114a7b169dc7cd23a.js",
+    "body": "entities/1ae60d74af0e0d59175dd67cb8f2b4bce37ffb1d055ed7797369e1d485013c09.bin",
+    "sha256": "1ae60d74af0e0d59175dd67cb8f2b4bce37ffb1d055ed7797369e1d485013c09",
+    "is_history_api": false
+  },
+  {
+    "url": "/_nuxt/325ad1d520ca6c45a20b.js",
+    "body": "entities/04daf6577f69159277d2add383e55c06a5a4faa0a54135cafc175baec1a1ad5e.bin",
+    "sha256": "04daf6577f69159277d2add383e55c06a5a4faa0a54135cafc175baec1a1ad5e",
+    "is_history_api": false
+  },
+  {
+    "url": "/_nuxt/2f05931c9549889297c5.js",
+    "body": "entities/67b9c132acc5f5aeea8e6664727ffb0a844a28272ae9b069faef7f9a5c07babe.bin",
+    "sha256": "67b9c132acc5f5aeea8e6664727ffb0a844a28272ae9b069faef7f9a5c07babe",
+    "is_history_api": false
+  },
+  {
+    "url": "/_nuxt/e776468d7f2ac231b2bc.js",
+    "body": "entities/e4dd3f8edab22e539a3962fa46b4c82d20e67382ab826c82570facd8564a1de3.bin",
+    "sha256": "e4dd3f8edab22e539a3962fa46b4c82d20e67382ab826c82570facd8564a1de3",
+    "is_history_api": false
+  },
+  {
+    "url": "/_nuxt/db53a36b66551e256de5.js",
+    "body": "entities/25ce522d58578f778571b7d52948e213bad726a1ee58cf503f979e135fc296da.bin",
+    "sha256": "25ce522d58578f778571b7d52948e213bad726a1ee58cf503f979e135fc296da",
+    "is_history_api": false
+  },
+  {
+    "url": "/_nuxt/db2d7be78be274de1556.js",
+    "body": "entities/7c57c475397665652df27a64e7bf713900ed0720aef97641085974380fa78a77.bin",
+    "sha256": "7c57c475397665652df27a64e7bf713900ed0720aef97641085974380fa78a77",
+    "is_history_api": false
+  },
+  {
+    "url": "/_nuxt/601dd63dfa62a3a5dea2.js",
+    "body": "entities/1573f9b8effccaa99684f092ad05a9c5718cbbaf75871b0b91e8396e41f19178.bin",
+    "sha256": "1573f9b8effccaa99684f092ad05a9c5718cbbaf75871b0b91e8396e41f19178",
+    "is_history_api": false
+  },
+  {
+    "url": "/_nuxt/45d2ee2411dbf56894bf.js",
+    "body": "entities/120acef54c1dede396770d3558df48300afc8da90abf1ff20cf538108be5cad2.bin",
+    "sha256": "120acef54c1dede396770d3558df48300afc8da90abf1ff20cf538108be5cad2",
+    "is_history_api": false
+  },
+  {
+    "url": "/_nuxt/5c47fe09f4220de90d52.js",
+    "body": "entities/a7cdac5589b015d07383feda68aa547d9a32ff1e940e39c96e13e3899619475b.bin",
+    "sha256": "a7cdac5589b015d07383feda68aa547d9a32ff1e940e39c96e13e3899619475b",
+    "is_history_api": false
+  },
+  {
+    "url": "/_nuxt/17ad4806709150aaea0d.js",
+    "body": "entities/b0981b2e00def6f048cc74d32a3d150f19e2e3d4a53085d08bb01498c50e9f88.bin",
+    "sha256": "b0981b2e00def6f048cc74d32a3d150f19e2e3d4a53085d08bb01498c50e9f88",
+    "is_history_api": false
+  },
+  {
+    "url": "/_nuxt/5e44624994fca13b9a5d.js",
+    "body": "entities/60e2292f49ffbea5a401ccc09f28a766809d8d35aa085779b4be8240a43005b8.bin",
+    "sha256": "60e2292f49ffbea5a401ccc09f28a766809d8d35aa085779b4be8240a43005b8",
+    "is_history_api": false
+  },
+  {
+    "url": "/_nuxt/71e08cf682484a0557c7.js",
+    "body": "entities/032a5b895edbb9c8449ece02c5ace5a95077e72cbc0ca9a47fb6e6d76c0a908d.bin",
+    "sha256": "032a5b895edbb9c8449ece02c5ace5a95077e72cbc0ca9a47fb6e6d76c0a908d",
+    "is_history_api": false
+  },
+  {
+    "url": "/v2/game-setting/game-info-list",
+    "body": "entities/35db10dfbeba82029c2c73bce38d7d0331c0adff20ea4478507155062d631d09.bin",
+    "sha256": "35db10dfbeba82029c2c73bce38d7d0331c0adff20ea4478507155062d631d09",
+    "is_history_api": true
+  },
+  {
+    "url": "/language/zh-CN",
+    "body": "entities/82a6637961d6ff821d0d7ab0e4b880f559c43dfa7203a7ef094cd179f7abc834.bin",
+    "sha256": "82a6637961d6ff821d0d7ab0e4b880f559c43dfa7203a7ef094cd179f7abc834",
+    "is_history_api": false
+  },
+  {
+    "url": "/v2/currency-display",
+    "body": "entities/cc8971d690d6a5da99c14d51380987dc71a00af9764b3b18c1c1d5d71c599ab5.bin",
+    "sha256": "cc8971d690d6a5da99c14d51380987dc71a00af9764b3b18c1c1d5d71c599ab5",
+    "is_history_api": true
+  },
+  {
+    "url": "/_nuxt/598b6917fb7e73dc53f2.js",
+    "body": "entities/9731fb7eb62458f9cad464f0e947b3f01c1a818cba997fc828105cf9f22f75ad.bin",
+    "sha256": "9731fb7eb62458f9cad464f0e947b3f01c1a818cba997fc828105cf9f22f75ad",
+    "is_history_api": false
+  },
+  {
+    "url": "/v2/marquee/1778/zh-CN",
+    "body": "entities/42892ad0aaa8cd13d7fc743657531508690cb0854028a5d845c573153fe14f7e.bin",
+    "sha256": "42892ad0aaa8cd13d7fc743657531508690cb0854028a5d845c573153fe14f7e",
+    "is_history_api": true
+  },
+  {
+    "url": "/v2/game-setting/switch-off-status/1778",
+    "body": "entities/5f8a5fc66556bc452425279a89aad05deb247ca0b6c5cfc2a5601965f53f87a6.bin",
+    "sha256": "5f8a5fc66556bc452425279a89aad05deb247ca0b6c5cfc2a5601965f53f87a6",
+    "is_history_api": true
+  },
+  {
+    "url": "/_nuxt/fonts/Poppins-normal-400-latin.9212f6f.woff2",
+    "body": "entities/7d93459d86585bfcdbb7e0376056226adb25821ee54b96236fe2123e9560929f.bin",
+    "sha256": "7d93459d86585bfcdbb7e0376056226adb25821ee54b96236fe2123e9560929f",
+    "is_history_api": false
+  },
+  {
+    "url": "/static/images/banner/place-holder.webp",
+    "body": "entities/12cd164db978f0e6a7aee3cfa259d620a819a244d6927d91360ae9943e5d210c.bin",
+    "sha256": "12cd164db978f0e6a7aee3cfa259d620a819a244d6927d91360ae9943e5d210c",
+    "is_history_api": false
+  },
+  {
+    "url": "/v2/game-entrance/1778/7/2/0",
+    "body": "entities/389a32257195763ce8c0b8a6e908481724b4eb6d36a1582a173e2ea6c5ca10a6.bin",
+    "sha256": "389a32257195763ce8c0b8a6e908481724b4eb6d36a1582a173e2ea6c5ca10a6",
+    "is_history_api": true
+  },
+  {
+    "url": "/v2/banner/1778/HOMEPAGE/lang/zh-CN",
+    "body": "entities/2f1d187230c05b8f47e616398d8e0e3ba09fde0ebaf6e5aecfb702aad93d3f39.bin",
+    "sha256": "2f1d187230c05b8f47e616398d8e0e3ba09fde0ebaf6e5aecfb702aad93d3f39",
+    "is_history_api": true
+  },
+  {
+    "url": "/v2/game-setting/is-enable/NickNameEnable",
+    "body": "entities/372e91d9e43f1d78683d9af5451df02544738c1e26ff29a20f2eb1b625d99b51.bin",
+    "sha256": "372e91d9e43f1d78683d9af5451df02544738c1e26ff29a20f2eb1b625d99b51",
+    "is_history_api": true
+  },
+  {
+    "url": "/v2/member/nickname",
+    "body": "entities/65cd5077d138495acc9a47f42ce2305658be79d2c11d46ad6953ce16182a7d1e.bin",
+    "sha256": "65cd5077d138495acc9a47f42ce2305658be79d2c11d46ad6953ce16182a7d1e",
+    "is_history_api": true
+  },
+  {
+    "url": "/th-cms/fc/5cb110b7fc4ad096a8c4ce45f1a02a.jpg",
+    "body": "entities/1924f50e820760ef2e1f6187af305ecb49d0eb8c62768f59db462b759f9dfe38.bin",
+    "sha256": "1924f50e820760ef2e1f6187af305ecb49d0eb8c62768f59db462b759f9dfe38",
+    "is_history_api": false
+  },
+  {
+    "url": "/static/images/repair/logo_jili.webp",
+    "body": "entities/7eb2673749be6eb0ad0be653fb6dc937717475c92b0d3f917220e6f83aa0f5ff.bin",
+    "sha256": "7eb2673749be6eb0ad0be653fb6dc937717475c92b0d3f917220e6f83aa0f5ff",
+    "is_history_api": false
+  },
+  {
+    "url": "/static/images/gamehistory/icon/brand/jili.webp",
+    "body": "entities/85d5e1190cbbe314740d2f6e4bcc7524cd7fef8f44be7b70de7fc20d3a897444.bin",
+    "sha256": "85d5e1190cbbe314740d2f6e4bcc7524cd7fef8f44be7b70de7fc20d3a897444",
+    "is_history_api": false
+  },
+  {
+    "url": "/th-cms/78/5cfed119a04c62b224f541085bd3e6.jpg",
+    "body": "entities/8febbfd53911ea650cb29367b4aef4d0da8f5ac01ef2eeb0cae2f97e13b6c4fb.bin",
+    "sha256": "8febbfd53911ea650cb29367b4aef4d0da8f5ac01ef2eeb0cae2f97e13b6c4fb",
+    "is_history_api": false
+  },
+  {
+    "url": "/_nuxt/img/ad_ctr.e162f65.png",
+    "body": "entities/62237850a45de3d9ecb8d4df507b5f86cc1c95f7f355310207a43b3424041401.bin",
+    "sha256": "62237850a45de3d9ecb8d4df507b5f86cc1c95f7f355310207a43b3424041401",
+    "is_history_api": false
+  },
+  {
+    "url": "/th-cms/c6/1d48bd274d4ad0a62b3b62fa7b930c.jpg",
+    "body": "entities/4f109db837084b09d1537f5fd23ae90c42a527c5e28db71de1b7021be0eb9dca.bin",
+    "sha256": "4f109db837084b09d1537f5fd23ae90c42a527c5e28db71de1b7021be0eb9dca",
+    "is_history_api": false
+  },
+  {
+    "url": "/static/images/gamehistory/crashcricketlegend/icon3/icon_zh-CN.webp",
+    "body": "entities/c2fa1ac759d0b1d0fcd5e9278013daae013288036d2b9c151d51ff714489fb94.bin",
+    "sha256": "c2fa1ac759d0b1d0fcd5e9278013daae013288036d2b9c151d51ff714489fb94",
+    "is_history_api": false
+  },
+  {
+    "url": "/static/images/gamehistory/chickendash10000/icon3/icon_zh-CN.webp",
+    "body": "entities/c2fa1ac759d0b1d0fcd5e9278013daae013288036d2b9c151d51ff714489fb94.bin",
+    "sha256": "c2fa1ac759d0b1d0fcd5e9278013daae013288036d2b9c151d51ff714489fb94",
+    "is_history_api": false
+  },
+  {
+    "url": "/static/images/gamehistory/dfbc/icon3/icon_zh-CN.webp",
+    "body": "entities/6dbbcd83f4e7679ad7ea04a516e6c7ce55e4750db5eb01acd25cfdff326042ec.bin",
+    "sha256": "6dbbcd83f4e7679ad7ea04a516e6c7ce55e4750db5eb01acd25cfdff326042ec",
+    "is_history_api": false
+  },
+  {
+    "url": "/static/images/gamehistory/ftl/icon3/icon_zh-CN.webp",
+    "body": "entities/3146c779f4ca15552fc976f1238c8aa8a6721c4eb8a4b712baa3875582ae1d0f.bin",
+    "sha256": "3146c779f4ca15552fc976f1238c8aa8a6721c4eb8a4b712baa3875582ae1d0f",
+    "is_history_api": false
+  },
+  {
+    "url": "/static/images/gamehistory/footballgoldencup/icon3/icon_zh-CN.webp",
+    "body": "entities/c2fa1ac759d0b1d0fcd5e9278013daae013288036d2b9c151d51ff714489fb94.bin",
+    "sha256": "c2fa1ac759d0b1d0fcd5e9278013daae013288036d2b9c151d51ff714489fb94",
+    "is_history_api": false
+  },
+  {
+    "url": "/static/images/gamehistory/jackpotfootball/icon3/icon_zh-CN.webp",
+    "body": "entities/c2fa1ac759d0b1d0fcd5e9278013daae013288036d2b9c151d51ff714489fb94.bin",
+    "sha256": "c2fa1ac759d0b1d0fcd5e9278013daae013288036d2b9c151d51ff714489fb94",
+    "is_history_api": false
+  },
+  {
+    "url": "/static/images/gamehistory/chickendash3/icon3/icon_zh-CN.webp",
+    "body": "entities/c2fa1ac759d0b1d0fcd5e9278013daae013288036d2b9c151d51ff714489fb94.bin",
+    "sha256": "c2fa1ac759d0b1d0fcd5e9278013daae013288036d2b9c151d51ff714489fb94",
+    "is_history_api": false
+  },
+  {
+    "url": "/static/images/gamehistory/fg5jp/icon3/icon_zh-CN.webp",
+    "body": "entities/fab4c3b27458310747a0a405ee3d1720f3089e35c7c8ddd21e5f1123a36b7b2e.bin",
+    "sha256": "fab4c3b27458310747a0a405ee3d1720f3089e35c7c8ddd21e5f1123a36b7b2e",
+    "is_history_api": false
+  },
+  {
+    "url": "/static/images/gamehistory/fg1000/icon3/icon_zh-CN.webp",
+    "body": "entities/7f2ca9c7e38793efe003894ee0aa66b37feebd07f1a278f07b8d6f32488634e2.bin",
+    "sha256": "7f2ca9c7e38793efe003894ee0aa66b37feebd07f1a278f07b8d6f32488634e2",
+    "is_history_api": false
+  },
+  {
+    "url": "/static/images/gamehistory/aviator/icon3/icon_zh-CN.webp",
+    "body": "entities/b5788c328644fac2f7d5c3545c178e7da483c7d96b680f7f3396617468625d8b.bin",
+    "sha256": "b5788c328644fac2f7d5c3545c178e7da483c7d96b680f7f3396617468625d8b",
+    "is_history_api": false
+  },
+  {
+    "url": "/v2/history/aviator/get-history-record",
+    "body": "entities/f800e24e58a60c82f74a9bf9462d02aa121eec012c9727ecf598dec0771026c4.bin",
+    "sha256": "f800e24e58a60c82f74a9bf9462d02aa121eec012c9727ecf598dec0771026c4",
+    "is_history_api": true
+  },
+  {
+    "url": "/static/images/gamehistory/chickendash3/icon3/icon_en-US.webp",
+    "body": "entities/da0111df2d2029575d647cd596f98b9fd0350a702504a6a3fd4592dc86739472.bin",
+    "sha256": "da0111df2d2029575d647cd596f98b9fd0350a702504a6a3fd4592dc86739472",
+    "is_history_api": false
+  },
+  {
+    "url": "/static/images/gamehistory/crashcricketlegend/icon3/icon_en-US.webp",
+    "body": "entities/eafd9986195eaaadcbe6c4412b0dec26928881032007f45ee54b138858ae9853.bin",
+    "sha256": "eafd9986195eaaadcbe6c4412b0dec26928881032007f45ee54b138858ae9853",
+    "is_history_api": false
+  },
+  {
+    "url": "/static/images/gamehistory/jackpotfootball/icon3/icon_en-US.webp",
+    "body": "entities/e6fcbc130d737eebca60c2f0145a3ad212f6f34c9eff5311ec3ede24e06ee8b3.bin",
+    "sha256": "e6fcbc130d737eebca60c2f0145a3ad212f6f34c9eff5311ec3ede24e06ee8b3",
+    "is_history_api": false
+  },
+  {
+    "url": "/_nuxt/f760bd411946f2244741.js",
+    "body": "entities/5de38491900b8169c9fdb6f4c7d29f54a5458ffad025cb5c6825da850efb7345.bin",
+    "sha256": "5de38491900b8169c9fdb6f4c7d29f54a5458ffad025cb5c6825da850efb7345",
+    "is_history_api": false
+  },
+  {
+    "url": "/_nuxt/d38de4ddf0096110d943.js",
+    "body": "entities/7748c9ae64f0f27f72f3caeaa59bcec527bef3fc1ea14afd8c006db98c2e1e0c.bin",
+    "sha256": "7748c9ae64f0f27f72f3caeaa59bcec527bef3fc1ea14afd8c006db98c2e1e0c",
+    "is_history_api": false
+  },
+  {
+    "url": "/_nuxt/1ba2c2b3bef08d3aca07.js",
+    "body": "entities/829889600e4a8cd4cc071255780ff03dde3e56406a564763dc81e4165f9069d0.bin",
+    "sha256": "829889600e4a8cd4cc071255780ff03dde3e56406a564763dc81e4165f9069d0",
+    "is_history_api": false
+  },
+  {
+    "url": "/static/images/gamehistory/fish23/icon3/icon_zh-CN.webp",
+    "body": "entities/c2fa1ac759d0b1d0fcd5e9278013daae013288036d2b9c151d51ff714489fb94.bin",
+    "sha256": "c2fa1ac759d0b1d0fcd5e9278013daae013288036d2b9c151d51ff714489fb94",
+    "is_history_api": false
+  },
+  {
+    "url": "/static/images/gamehistory/plinkofootball/icon3/icon_zh-CN.webp",
+    "body": "entities/c2fa1ac759d0b1d0fcd5e9278013daae013288036d2b9c151d51ff714489fb94.bin",
+    "sha256": "c2fa1ac759d0b1d0fcd5e9278013daae013288036d2b9c151d51ff714489fb94",
+    "is_history_api": false
+  },
+  {
+    "url": "/_nuxt/cb317bdea749a82e3881.js",
+    "body": "entities/20d2a2cc7208fbd302b0bc3ba794de10096c12828abf94ea5e15650cfe0521ed.bin",
+    "sha256": "20d2a2cc7208fbd302b0bc3ba794de10096c12828abf94ea5e15650cfe0521ed",
+    "is_history_api": false
+  },
+  {
+    "url": "/static/images/gamehistory/footballgoldencup/icon3/icon_en-US.webp",
+    "body": "entities/e70685f1d401502de7b25e8e87e77b913dfeb36d8a0f7d53983f547fac360e30.bin",
+    "sha256": "e70685f1d401502de7b25e8e87e77b913dfeb36d8a0f7d53983f547fac360e30",
+    "is_history_api": false
+  },
+  {
+    "url": "/static/images/gamehistory/chickendash10000/icon3/icon_en-US.webp",
+    "body": "entities/0ac95024f2f3f9442fe43f5c2dce4f37fcd6b8196d4682a1b35d86095e2b3bce.bin",
+    "sha256": "0ac95024f2f3f9442fe43f5c2dce4f37fcd6b8196d4682a1b35d86095e2b3bce",
+    "is_history_api": false
+  },
+  {
+    "url": "/_nuxt/9f5d9411f7b349060a63.js",
+    "body": "entities/d06868cbe6c471e6b6bf3b5c8bf6cb0f377b526eb1d7b88266c2610caa34811e.bin",
+    "sha256": "d06868cbe6c471e6b6bf3b5c8bf6cb0f377b526eb1d7b88266c2610caa34811e",
+    "is_history_api": false
+  },
+  {
+    "url": "/v2/history/aviator/get-detail-record/645352571313115360",
+    "body": "entities/bfcfddd911e2b870b4c6e01e810fa3d0d53719465a7bf526c9874afc88c26ae1.bin",
+    "sha256": "bfcfddd911e2b870b4c6e01e810fa3d0d53719465a7bf526c9874afc88c26ae1",
+    "is_history_api": true
+  },
+  {
+    "url": "/v2/history/aviator/get-detail-record/645352646659592416",
+    "body": "entities/b50be4e6ef2f2a4face33db787234ff77e6e7ec25d97954094fa894e6bff2c2a.bin",
+    "sha256": "b50be4e6ef2f2a4face33db787234ff77e6e7ec25d97954094fa894e6bff2c2a",
+    "is_history_api": true
+  },
+  {
+    "url": "/v2/history/aviator/get-detail-record/645358493569700064",
+    "body": "entities/2a3c48452e18909c569212ce6a0e2122573a7fa3399d8f66b19911bef2e3f976.bin",
+    "sha256": "2a3c48452e18909c569212ce6a0e2122573a7fa3399d8f66b19911bef2e3f976",
+    "is_history_api": true
+  },
+  {
+    "url": "/_nuxt/077e540ffb036917ad93.js",
+    "body": "entities/84b6b2319ff53bf013e9ab81e47e9c91ef59a35f1a80b8200feabd1ee7a2cb27.bin",
+    "sha256": "84b6b2319ff53bf013e9ab81e47e9c91ef59a35f1a80b8200feabd1ee7a2cb27",
+    "is_history_api": false
+  },
+  {
+    "url": "/_nuxt/6b5368e605b7c9dc9957.js",
+    "body": "entities/6a8e1a5977dbac87407cb4a7e06c82b597c7bd62ae9a200c70ce19296268b470.bin",
+    "sha256": "6a8e1a5977dbac87407cb4a7e06c82b597c7bd62ae9a200c70ce19296268b470",
+    "is_history_api": false
+  },
+  {
+    "url": "/_nuxt/49834a5b1eb73555e244.js",
+    "body": "entities/dec052e052d58a18d007a1db632381ff85a879ac3b2de75c276a10d6b035cf15.bin",
+    "sha256": "dec052e052d58a18d007a1db632381ff85a879ac3b2de75c276a10d6b035cf15",
+    "is_history_api": false
+  },
+  {
+    "url": "/_nuxt/78d46892abc61574b59d.js",
+    "body": "entities/37317a5ec0f73f0b7a90d4c2d5f646c15b5513f014790132df7a8557a912289b.bin",
+    "sha256": "37317a5ec0f73f0b7a90d4c2d5f646c15b5513f014790132df7a8557a912289b",
+    "is_history_api": false
+  },
+  {
+    "url": "/v2/fairness/steps?ClientSeed1=RG2hCvyIi0Z8zTFci0YEO4QuGnnglLHv&ClientSeed2=23b388bce6c1191f235035b6c4d4edba&ClientSeed3=54062b71e62c359f97320c78d193b482&GameId=224&ServerSeed=e2bdd77dcb84af59e9a5cff7a9379aec14cdcd31fc551622",
+    "body": "entities/b1c0eff47ecf63a8be9083a93fad9a1f7a99d9da259b66cb08401c9f9810b8ce.bin",
+    "sha256": "b1c0eff47ecf63a8be9083a93fad9a1f7a99d9da259b66cb08401c9f9810b8ce",
+    "is_history_api": true
+  },
+  {
+    "url": "/v2/fairness/steps?ClientSeed1=kCiVmPGhY4oOJmOWAREcw1BHqeloQUxY&ClientSeed2=5e4501a88644a19c302831b38b75549&ClientSeed3=dee55e514b78ca81768495285ca732b&GameId=224&ServerSeed=0f85595a6819c162ac5d9cf28f32537ab1165e42fe2943dc",
+    "body": "entities/e3164e115b7f3fd6908ae35dbe3b4cdffc4932e3d56e4d8eb5a8920ca74b5586.bin",
+    "sha256": "e3164e115b7f3fd6908ae35dbe3b4cdffc4932e3d56e4d8eb5a8920ca74b5586",
+    "is_history_api": true
+  },
+  {
+    "url": "/v2/fairness/steps?ClientSeed1=kCiVmPGhY4oOJmOWAREcw1BHqeloQUxY&ClientSeed2=781e913f4ee98df1f78990c1a243c72c&ClientSeed3=29fe7ec633ece733581cd2b28a1de4c&GameId=224&ServerSeed=d48f2310116b63ec34ba235322edd5f12b0f28511853220c",
+    "body": "entities/3942a183aa0c59d2907dc99955c69e442fe56e946da22ee7c7da1b4955bc14d4.bin",
+    "sha256": "3942a183aa0c59d2907dc99955c69e442fe56e946da22ee7c7da1b4955bc14d4",
+    "is_history_api": true
+  }
+]

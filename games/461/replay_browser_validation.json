@@ -1,0 +1,38 @@
+{
+  "date": "2026-11-09",
+  "user_confirmation": "已正常進入並播完免費局",
+  "verified_visual_mode": "normal spin triggering natural 10-free-game sequence",
+  "status": {
+    "source": "math",
+    "network": "local-only; no upstream fallback",
+    "spins": 1,
+    "unsupported": 0,
+    "missing": [
+      "/zh-CN/landingpage"
+    ],
+    "frontend_errors": [],
+    "recent_spins": [
+      {
+        "source_round": "2490024636000020461",
+        "served_round": "2490024636000020461",
+        "purchase": false,
+        "TotalWin": 134400.0,
+        "FreeTotalWin": 125400.0,
+        "round_queue_length": 11,
+        "free_total": 10,
+        "last_free_remaining": 0
+      }
+    ],
+    "pool_count": 2,
+    "sample_count": 2
+  },
+  "purchase_browser_visual_verification": "not separately confirmed; encrypted protocol and complete payload preservation verified",
+  "known_offline_auxiliary_resource": "/zh-CN/landingpage is unavailable; game/free-game playback confirmed unaffected",
+  "texture_variants": {
+    "report": "texture_validation.json",
+    "valid_webp": 140,
+    "http_verified_webp": 140,
+    "uncovered_import_packs": 58,
+    "windows_visual_verification": "not performed"
+  }
+}

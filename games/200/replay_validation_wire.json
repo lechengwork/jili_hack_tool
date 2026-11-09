@@ -1,0 +1,15 @@
+{
+  "source": "wire",
+  "passed": true,
+  "tests": 9,
+  "cases": [
+    "six samples twice/cycle",
+    "synthetic identity/framework init",
+    "add/undo/clear/duplicate",
+    "locking/empty rounds",
+    "per-settlement hot reload/invalid JSON rejection",
+    "real HTTP+masked WebSocket init/join/sync/bet/end/next round"
+  ],
+  "browser_visual_validation": "separate; not implied by backend tests",
+  "network": "loopback only; no upstream fallback"
+}

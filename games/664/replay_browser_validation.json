@@ -1,0 +1,35 @@
+{
+  "date": "2026-11-09",
+  "user_confirmation": "Successfully entered and completed normal spin",
+  "status": {
+    "source": "math",
+    "network": "local-only; no upstream fallback",
+    "spins": 1,
+    "unsupported": 0,
+    "missing": [
+      "/zh-CN/landingpage"
+    ],
+    "frontend_errors": [
+      {
+        "kind": "error",
+        "msg": "error",
+        "extra": "",
+        "t": 1794202408573
+      }
+    ],
+    "recent_spins": [
+      {
+        "source_round": "2490172819000050664",
+        "served_round": "2490172819000050664",
+        "Extra": 0,
+        "GetBonus": 2,
+        "TotalWin": 45000.0,
+        "stage_count": 6
+      }
+    ],
+    "pool_count": 4,
+    "sample_count": 4
+  },
+  "known_nonblocking_resource_error": "gtag analytics script is unavailable in local-only replay",
+  "transport_fix": "Rebuild Request body/options for the local HTTP origin rather than carrying original HTTPS Request policy."
+}

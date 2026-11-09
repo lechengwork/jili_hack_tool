@@ -1,0 +1,18 @@
+{
+  "source": "math",
+  "verified_spins": 385,
+  "action_pools": 2,
+  "encrypted_spin_responses_tested": 387,
+  "all_payloads_preserved_except_monotonic_round_id": true,
+  "signature_and_aes_gcm_verified": true,
+  "wraparound_verified": true,
+  "balance_poll_verified": true,
+  "client_isolation_verified": true,
+  "unsupported_bet_mode_rejected": true,
+  "synthetic_sso": true,
+  "free_game_modes_verified": [
+    "natural",
+    "purchase"
+  ],
+  "browser_visual_verification": "pending"
+}

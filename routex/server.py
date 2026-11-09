@@ -16,7 +16,7 @@ Run:
   3. ../.venv/bin/python3 server.py                # PORT / HOST / TLS via env
 Then open the URL it prints (accept the self-signed cert warning).
 """
-import os, sys, json, ssl, datetime, mimetypes, hashlib, base64, time, threading
+import os, sys, json, ssl, datetime, mimetypes, hashlib, base64, time, threading, tempfile
 import re
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from urllib.parse import urlparse
@@ -80,7 +80,10 @@ _BACKUP = os.path.abspath(os.path.join(HERE, '..', 'game_site_backup', 'uat-wbga
 _MINI = os.path.abspath(os.path.join(HERE, '..', 'games', '696', 'static'))
 STATIC_ROOT = os.path.abspath(os.environ.get('STATIC') or (_BACKUP if os.path.isdir(_BACKUP) else _MINI))
 SHARED_ROOT = os.path.abspath(os.path.join(HERE, '..', 'games', 'shared'))
-RESPONSES = os.path.join(HERE, '..', 'games', '696', 'responses.jsonl')
+# ZIPs are rebuilt locally from tracked original members; no ZIP is required in Git.
+from asset_archives import materialize as _materialize_archives
+_materialize_archives(STATIC_ROOT)
+RESPONSES = os.environ.get('RESPONSES') or os.path.join(HERE, '..', 'games', '696', 'responses.jsonl')
 VERBOSE = os.environ.get('VERBOSE', '0') != '0'   # log every request (use on first run)
 
 PORT = int(os.environ.get('PORT', '8443'))
@@ -229,7 +232,7 @@ print(f'[replay] {len(SPIN_SAMPLES)} spin board(s); balance pre={len(BAL_PRE)}B 
 # request (e.g. an empty keepalive) gets a DIFFERENT typed response depending on its
 # position, so we replay by order — the Nth non-spin request of a session gets the Nth
 # entry here — rather than by request shape. Each entry = {type, ret, raw}.
-INIT_SEQ_PATH = os.path.join(HERE, '..', 'games', '696', 'init_sequence.jsonl')
+INIT_SEQ_PATH = os.environ.get('INIT_SEQ') or os.path.join(HERE, '..', 'games', '696', 'init_sequence.jsonl')
 INIT_SEQ = []
 if os.path.exists(INIT_SEQ_PATH):
     for line in open(INIT_SEQ_PATH):
@@ -257,6 +260,8 @@ print(f'[initseq] {len(INIT_SEQ)} ordered init responses '
 # Frida (patchwasm.py), which never touches JS. Set INJECT_SHIM=1 only to experiment.
 WASM_SHIM_PATH = os.path.join(HERE, 'wasm_patch_shim.js')
 WASM_SHIM = ''
+WEBPAGE_REPORT_PATH = os.path.join(tempfile.gettempdir(), f'jili-replay-webpages-{os.getpid()}.jsonl')
+WEBPAGE_REPORT_LOCK = threading.Lock()
 # INJECT_BUNDLE=1: prepend the shim INTO an existing JS bundle (default polyfills.bundle) instead of
 # adding a new <script> to the HTML. HTML stays byte-identical, DOM/script structure unchanged —
 # tests whether "modify existing carrier" evades the injection/HTML-integrity check that kills a new <script>.
@@ -269,6 +274,7 @@ if (os.environ.get('INJECT_SHIM') == '1' or INJECT_BUNDLE) and os.path.exists(WA
     WASM_SHIM = open(WASM_SHIM_PATH).read()
     if INJECT_BUNDLE:
         print(f'[shim] shim loaded ({len(WASM_SHIM)}B) — BUNDLE-prepend into "{BUNDLE_TARGET}" (HTML unchanged, no new <script>)')
+        print(f'[webpage] activity diagnostics will be saved to {WEBPAGE_REPORT_PATH}')
     else:
         print(f'[shim] wasm-keypatch shim INJECTION ENABLED ({len(WASM_SHIM)}B) — HTML <head> inject — may break Jscrambler')
 else:
@@ -643,6 +649,36 @@ def _replay_spin_print(idx, board, rid):
     print(head + '\n' + body + '\n  └' + '─' * 44, flush=True)
 
 
+# ── 本地測幣別:MOCK_CURID/MOCK_CURCODE/MOCK_SYMBOL 覆蓋 handshake config 的
+#    ConfigCore.cur_id(f1)/cur_code(f2)/cur_symbol(f3);f4..(餘額/bets/factor)原封保留。
+#    用來本地驗「某個幣別/符號會不會讓前端 SettingBottomBar crash」,不用改 jade、不用佈。
+_MC_ID   = os.environ.get('MOCK_CURID')
+_MC_CODE = os.environ.get('MOCK_CURCODE')
+_MC_SYM  = os.environ.get('MOCK_SYMBOL')
+def _mock_cur(raw):
+    if not (_MC_ID or _MC_CODE or _MC_SYM) or not raw:
+        return raw
+    try:
+        _, i = fg5.dec_varint(raw, 0)            # top f1 tag
+        ln, i = fg5.dec_varint(raw, i)
+        core, rest = raw[i:i+ln], raw[i+ln:]
+        _, k = fg5.dec_varint(core, 0)           # ConfigCore f1 tag
+        cid, k = fg5.dec_varint(core, k)         # f1 cur_id
+        _, k = fg5.dec_varint(core, k)           # f2 tag
+        cl, k = fg5.dec_varint(core, k); code = core[k:k+cl]; k += cl
+        _, k = fg5.dec_varint(core, k)           # f3 tag
+        sl, k = fg5.dec_varint(core, k); sym = core[k:k+sl]; k += sl
+        tail = core[k:]
+        nid  = int(_MC_ID) if _MC_ID else cid
+        ncode= _MC_CODE.encode() if _MC_CODE else code
+        nsym = _MC_SYM.encode() if _MC_SYM else sym
+        out = fg5.field_bytes(1, fg5.field_varint(1, nid) + fg5.field_bytes(2, ncode) + fg5.field_bytes(3, nsym) + tail) + rest
+        print(f'[mock-cur] handshake config -> cur_id={nid} code={ncode!r} sym={nsym!r} ({len(raw)}->{len(out)}B)')
+        return out
+    except Exception as e:
+        print('[mock-cur] rewrite failed:', repr(e)); return raw
+
+
 def pick_response(req):
     """Choose (type, data, ret, label).
 
@@ -663,7 +699,7 @@ def pick_response(req):
             t, ret, raw = INIT_SEQ[0]           # ex0 = the real 223B config
         else:
             t, ret, raw = 1, 0, SAMPLES.get(1, b'')
-        return t, raw, ret, 'handshake'
+        return t, _mock_cur(raw), ret, 'handshake'
     if kind == 'spin':
         with _SEQ_LOCK:
             if SPIN_SAMPLES:
@@ -898,6 +934,13 @@ class Handler(BaseHTTPRequestHandler):
             from urllib.parse import unquote
             msg = unquote(path[len('/__wasmpatch__/'):])
             print(f'  ★★★ [shim-report] {msg}')
+            if msg.startswith('WEBPAGE '):
+                try:
+                    with WEBPAGE_REPORT_LOCK:
+                        with open(WEBPAGE_REPORT_PATH, 'a', encoding='utf-8') as report_file:
+                            report_file.write(json.dumps({'message': msg}, ensure_ascii=False) + '\n')
+                except OSError as error:
+                    print(f'[webpage] could not save diagnostics: {error}')
             m = re.search(r'capture seq=(\d+)', msg)
             if m:
                 _seq_reported[0] = max(_seq_reported[0], int(m.group(1)))

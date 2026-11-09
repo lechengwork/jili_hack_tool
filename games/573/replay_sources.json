@@ -1,0 +1,20 @@
+{
+  "verified_spins": 187,
+  "responses": 307,
+  "sessions": [
+    {
+      "session": "20261106-105706",
+      "capture_sha256": "0f70df6a24006e1e27ce413e177aa8d88b35181ce770174e82ef8feb18746b4f",
+      "successful_spins": 104,
+      "all_signatures_valid": true
+    },
+    {
+      "session": "20261106-110729",
+      "capture_sha256": "efc65a2a9675f7abda70d53a4d8ed58157faae13a69b6e44473f19a415b109c2",
+      "successful_spins": 83,
+      "all_signatures_valid": true
+    }
+  ],
+  "full_request_response_byte_roundtrip": true,
+  "transport_credentials_exported": false
+}

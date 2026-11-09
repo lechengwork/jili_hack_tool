@@ -8,3 +8,5 @@ games/*/analysis/*.decode.js -text -whitespace
 *.webp binary
 *.astc binary
 *.cconb binary
+games/*/history/static/** -text -whitespace
+games/*/replay_data/** -text -whitespace
