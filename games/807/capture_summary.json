@@ -1,14 +1,16 @@
 {
   "as_of": "2026-11-04",
-  "successful_spins": 2399,
+  "successful_spins": 2401,
   "sessions": {
     "20261102-173154": 241,
     "20261103-094236": 1452,
-    "20261103-131653": 706
+    "20261103-131653": 706,
+    "20261104-144655": 2
   },
   "all_source_signatures_valid": true,
   "sample_file": "replay_samples.json",
   "raw_credentials_included": false,
-  "roundtrips": 2399,
-  "independent_protobuf_roundtrips": 2399
+  "roundtrips": 2401,
+  "independent_protobuf_roundtrips": 2399,
+  "supplement_validation": "math_supplement_validation.json"
 }

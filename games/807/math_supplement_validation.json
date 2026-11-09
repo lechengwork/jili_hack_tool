@@ -1,0 +1,20 @@
+{
+  "source_session": "20261104-144655",
+  "rounds": [
+    {
+      "round_id": "2487330419001090807",
+      "signature_reverified": true,
+      "math_matches_original_payload": true,
+      "full_payload_byte_roundtrip": true,
+      "payload_sha256": "5e9dc8ac40ecb72e4ac922451ef211591096bae3ed5e78cd61e4404876669757"
+    },
+    {
+      "round_id": "2487331203000270807",
+      "signature_reverified": true,
+      "math_matches_original_payload": true,
+      "full_payload_byte_roundtrip": true,
+      "payload_sha256": "f72fe56e486e98824c3249001389b61a219c307173eb75147a305c8c5e377de4"
+    }
+  ],
+  "transport_credentials_exported": false
+}
