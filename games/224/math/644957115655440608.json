@@ -1,0 +1,43 @@
+{
+  "round_id": "644957115655440608",
+  "currency": "IDR",
+  "spinReq": {
+    "betData": [
+      {
+        "bet": 100000,
+        "autoRate": 3
+      },
+      {
+        "bet": 0,
+        "autoRate": 3
+      }
+    ],
+    "seed": "jhkcRGVr1glnUvGexa8haOPXtKmfntae",
+    "useFree": false
+  },
+  "data": {
+    "betResponse": {
+      "roundIndex": "644957115655440608"
+    },
+    "cashOutReqs": [
+      {
+        "betType": 0
+      }
+    ],
+    "cashOuts": [
+      {
+        "myRate": 2.22,
+        "win": 222000.00000000003,
+        "now": {
+          "seconds": "1793954007",
+          "nanos": 818550642
+        }
+      }
+    ],
+    "flyEnd": {
+      "endRate": 3.223861569678428,
+      "totalWin": 222000,
+      "coin": 2940380
+    }
+  }
+}

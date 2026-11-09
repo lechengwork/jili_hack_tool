@@ -1,0 +1,1 @@
+function(t,e){t instanceof u||(t=u.create(t));for(var n=void 0===e?t.len:t.pos+e,r=new h.protocol.Wallet;t.pos<n;){var o=t.uint32();switch(o>>>3){case 1:r.currency=t.uint32();break;case 2:r.coin=t.double();break;case 3:r.ratio=t.double();break;case 4:r.rate=t.double();break;case 5:r.symbol=t.string();break;default:t.skipType(7&o)}}return r}

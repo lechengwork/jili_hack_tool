@@ -1,0 +1,13 @@
+{
+  "platform_id": 1837,
+  "requested_name": "幸運金幣2",
+  "jili_game_id": 573,
+  "cms_game_id": "111000573",
+  "verified_at": "2026-11-06",
+  "evidence": [
+    "Joyfun CMS /tools/dev exact name search 幸运金币2 returned only 111000573",
+    "Existing original JILI zh-cn language table GAMEID_573 = 幸运金币2"
+  ],
+  "launch_validation": "LoginGame success, /rc2/?gameID=573; account tryplayer003idr; IDR capture configuration",
+  "platform_id_source": "User supplied platform label; CMS provider ID verified separately"
+}

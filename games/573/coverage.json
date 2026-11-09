@@ -1,0 +1,103 @@
+{
+  "total_successful_rounds": 187,
+  "normal_rounds": 109,
+  "extra_bet_rounds": 76,
+  "currency": "IDR",
+  "balance_reconciliation": {
+    "formula": "previous postMoney + current data.TotalWin - current postMoney",
+    "normal": {
+      "observations": 103,
+      "paid_over_base_bet": 1.0
+    },
+    "extra": {
+      "observations": 74,
+      "paid_over_base_bet": 1.5
+    },
+    "limitations": "First round in each session excluded; consecutive successful samples only"
+  },
+  "bonus_samples": [
+    {
+      "round_id": "2489885651000010573",
+      "queue_length": 5,
+      "BonusTotalWin": 15000.0,
+      "first": {
+        "GetBonus": true,
+        "BonusRemainRound": 3,
+        "BonusTotalRound": 0
+      },
+      "last": {
+        "GetBonus": false,
+        "BonusRemainRound": 0,
+        "BonusTotalRound": 4
+      }
+    }
+  ],
+  "capture_scope": "normal, extra bet, natural Bonus, 50x and 100x purchases, complete recorded Bonus endings",
+  "remaining_limits": [
+    "Full theoretical probabilities/RTP not derived",
+    "Rare award flags and all bonus variants not exhaustively covered"
+  ],
+  "purchase_rounds": 2,
+  "purchases": [
+    {
+      "round_id": "2489894627000010573",
+      "selector": 0,
+      "base_bet": 3000.0,
+      "purchase_cost": 150000.0,
+      "cost_over_base_bet": 50.0,
+      "total_win": 198000.0,
+      "queue_length": 19,
+      "last_bonus_remaining": 0,
+      "last_bonus_total_rounds": 18,
+      "currency": "IDR"
+    },
+    {
+      "round_id": "2489896611000040573",
+      "selector": 1,
+      "base_bet": 3000.0,
+      "purchase_cost": 300000.0,
+      "cost_over_base_bet": 100.0,
+      "total_win": 252000.0,
+      "queue_length": 5,
+      "last_bonus_remaining": 0,
+      "last_bonus_total_rounds": 4,
+      "currency": "IDR"
+    }
+  ],
+  "purchase_parameter_evidence": {
+    "request_payload_field": 23,
+    "response_echo_path": "payload.f23.spinReq.f23",
+    "observed_f1": 1,
+    "selector_mapping": {
+      "0": "50x: one or two coin piles per supplied rules",
+      "1": "100x: two coin piles per supplied rules"
+    },
+    "amount_field": 3,
+    "original_representation_preserved": true
+  },
+  "replay": {
+    "implemented": true,
+    "wire_and_math_encrypted_verified_spins": 187,
+    "action_pools": 4,
+    "hot_reload_verified": true,
+    "browser_entry_and_spin": "operator confirmed",
+    "extra_bet_bonus_animation_and_settlement": "operator confirmed",
+    "purchase_visual_completion": "not separately confirmed"
+  },
+  "textures": {
+    "all_declared_variants": 2444,
+    "counts": {
+      ".png": 1768,
+      ".jpg": 26,
+      ".jpeg": 0,
+      ".bmp": 0,
+      ".webp": 325,
+      ".pvr": 0,
+      ".pkm": 0,
+      ".astc": 325
+    },
+    "local_http_hash_mime_verified": true,
+    "no_astc_webp_preference_verified": true,
+    "physical_windows_visual_verification": "not performed"
+  }
+}

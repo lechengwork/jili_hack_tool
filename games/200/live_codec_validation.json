@@ -1,0 +1,28 @@
+{
+  "source_session": "20261106-100839",
+  "known_messages_roundtrip_counts": {
+    "RECV:LoginDataAck": 1,
+    "SEND:JoinThemeReq": 1,
+    "RECV:JoinThemeAck": 1,
+    "SEND:JoinRoomReq": 1,
+    "RECV:JoinRoomAck": 1,
+    "RECV:RoomEnd": 5,
+    "RECV:RoomStart": 4
+  },
+  "unconfirmed_frames_retained": {
+    "Unexpected wire type for uint32": 1,
+    "Unconfirmed command 50": 40,
+    "Unconfirmed command 105": 2,
+    "Unconfirmed command 143": 1,
+    "Unconfirmed command 140": 1,
+    "Unconfirmed command 100": 2,
+    "Unconfirmed command 95": 2,
+    "Unconfirmed command 92": 1,
+    "Unconfirmed command 200": 2,
+    "Unconfirmed command 111": 2,
+    "Unconfirmed command 128": 2,
+    "Unconfirmed command 112": 2
+  },
+  "shared_math_published": false,
+  "status": "Known commands round-trip verified. Ancillary sockets, signature policy and successful wager correlation still require validation."
+}

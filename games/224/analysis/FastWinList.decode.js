@@ -1,0 +1,1 @@
+function(e,t){e instanceof d||(e=d.create(e));for(var i=void 0===t?e.len:e.pos+t,r=new f.fastProto.FastWinList;e.pos<i;){var o=e.uint32();switch(o>>>3){case 1:r.list&&r.list.length||(r.list=[]),r.list.push(f.fastProto.FastWinHistory.decode(e,e.uint32()));break;default:e.skipType(7&o)}}return r}

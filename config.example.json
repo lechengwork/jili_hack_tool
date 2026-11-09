@@ -1,0 +1,44 @@
+{
+  "_comment": "Copy this template to ignored config.json and fill credentials locally.",
+  "site": {
+    "game_host": "uat-wbgame.jlfafafa3.com",
+    "gs_host": "uat-wbslot-fd.jlfafafa1.com",
+    "platform_host": "uat-wbslot-platform.jlfafafa3.com",
+    "be_host": "uat-wbwebapi.jlfafafa2.com",
+    "game_path": "/fg5/",
+    "api_id": "1778",
+    "lang": "zh-CN",
+    "skin": "0"
+  },
+  "login": {
+    "_comment": "呼叫 LoginGame 換取單次有效的 game_url。body 內的值可用 {gameid} 與 {gameid:06d} 佔位。",
+    "enabled": true,
+    "url": "https://<api-host>/api/LoginGame",
+    "method": "POST",
+    "headers": {
+      "authorization": "bearer <JWT>",
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "device": 1,
+      "language": "zh-CN",
+      "player_id": "<PLAYER_ID>",
+      "game_id": "111{gameid:06d}"
+    },
+    "token_path": "data.game_url"
+  },
+  "manual_url": {
+    "_comment": "login.enabled=false 時使用。從瀏覽器複製含 ssoKey 的完整遊戲 URL 貼在這裡，或用面版的輸入框傳入。",
+    "url": ""
+  },
+  "capture": {
+    "spins": 60,
+    "spin_delay": 1.2,
+    "load_wait": 25,
+    "headless": false,
+    "idle_timeout": 20
+  },
+  "login_accounts": {
+    "_comment": "Configure private login accounts locally; never commit tokens."
+  }
+}

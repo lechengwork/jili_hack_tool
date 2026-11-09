@@ -1,0 +1,1 @@
+function(t,e){t instanceof u||(t=u.create(t));for(var n=void 0===e?t.len:t.pos+e,r=new h.protocol.Table;t.pos<n;){var o=t.uint32();switch(o>>>3){case 1:r.area&&r.area.length||(r.area=[]),r.area.push(h.protocol.BetArea.decode(t,t.uint32()));break;default:t.skipType(7&o)}}return r}

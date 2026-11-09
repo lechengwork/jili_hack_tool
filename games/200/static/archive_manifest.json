@@ -1,0 +1,59 @@
+{
+  "description": "Original Cocos archive members; ZIPs are local generated runtime files, not versioned",
+  "archives": [
+    {
+      "path": "pappu/assets/game/game.6f303.zip",
+      "original_sha256": "a13cf14f5b4c94abe3b2e7a6de11c2dc89d349ac78b7310ffd65fa5e4ffdd480",
+      "members": [
+        {
+          "name": "import/0c/0c54c28c0.1d53c.bin",
+          "path": "pappu/assets/game/import/0c/0c54c28c0.1d53c.bin",
+          "sha256": "b84f3cccc543c6a46b005d4c34fa589af811aec494e5363780327a14362dda75",
+          "compression": 8
+        },
+        {
+          "name": "import/6f/6faeff16-c379-4988-9c48-8e8d63e4bf81.82196.bin",
+          "path": "pappu/assets/game/import/6f/6faeff16-c379-4988-9c48-8e8d63e4bf81.82196.bin",
+          "sha256": "1b779996fb0f210bf90f5e69a78dff0fcbd4aa96355738041e7bde84102dba71",
+          "compression": 8
+        },
+        {
+          "name": "native/17/173e19d9-9bcd-470d-9340-46d56d73d6a8.11359.bin",
+          "path": "pappu/assets/game/native/17/173e19d9-9bcd-470d-9340-46d56d73d6a8.11359.bin",
+          "sha256": "d2fd91b1f9d909f4a9abd4e900a8d6b2eedf9ace66cbfabe505f582e1f5722b2",
+          "compression": 8
+        },
+        {
+          "name": "native/b0/b0a2e47b-4767-45ce-ad80-45121b0c3b9f.9b3b6.bin",
+          "path": "pappu/assets/game/native/b0/b0a2e47b-4767-45ce-ad80-45121b0c3b9f.9b3b6.bin",
+          "sha256": "e294011f07dca58768117e430702709aaa644aaf9ffb8060eb4078fa0b72ad57",
+          "compression": 8
+        },
+        {
+          "name": "native/c2/c2f929ab-7c20-4af8-bc0b-a0b42c763090.db695.bin",
+          "path": "pappu/assets/game/native/c2/c2f929ab-7c20-4af8-bc0b-a0b42c763090.db695.bin",
+          "sha256": "8f14f7fabbc1616ac0ff70f81113ffa1e4a4cf9cd473a99106a8af617852b20d",
+          "compression": 8
+        },
+        {
+          "name": "native/ca/caee8173-d452-4646-a90e-f0a1585ac588.274c3.bin",
+          "path": "pappu/assets/game/native/ca/caee8173-d452-4646-a90e-f0a1585ac588.274c3.bin",
+          "sha256": "5efbe8eb24129b67f3fea7488139a39ba516440aab6cd9b7667f1bd5c2020fd0",
+          "compression": 8
+        },
+        {
+          "name": "native/d8/d8d4eff9-a988-4455-bf11-1b937bc3f5ae.b5c84.bin",
+          "path": "pappu/assets/game/native/d8/d8d4eff9-a988-4455-bf11-1b937bc3f5ae.b5c84.bin",
+          "sha256": "53da667cfbc34da2112a5c8df176db12cde6d8b3cad4259474ae8f833c9a160e",
+          "compression": 8
+        },
+        {
+          "name": "native/fa/fa16a32b-829c-4c9c-adf3-a4d483496328.68c59.bin",
+          "path": "pappu/assets/game/native/fa/fa16a32b-829c-4c9c-adf3-a4d483496328.68c59.bin",
+          "sha256": "23b8f03474b6cf26999581bf3c94a996aacfd09b020c6e39038caf45272acbfa",
+          "compression": 8
+        }
+      ]
+    }
+  ]
+}

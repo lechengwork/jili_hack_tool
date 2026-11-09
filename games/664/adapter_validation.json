@@ -1,0 +1,6 @@
+{
+  "known_field_edit_changes_encoding": true,
+  "unknown_envelope_field_roundtrip": true,
+  "atomic_publish_rejects_modified_existing": true,
+  "all_live_samples": "127 verified separately in final_capture_summary.json"
+}

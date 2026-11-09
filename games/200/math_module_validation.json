@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-06",
+  "module": "pappumath",
+  "platform_id": 4103,
+  "jili_game_id": 200,
+  "go_named_tests": 11,
+  "go_test_race": "passed",
+  "go_vet": "passed",
+  "python_tests": 7,
+  "python_tests_status": "passed",
+  "original_frontend_codec_edited_response_checks": 12,
+  "real_own_wager_rounds_verified": 6,
+  "full_original_response_roundtrip": "passed",
+  "human_edit_overwrite_protection": "passed",
+  "math_proto": "clean scalar/enum contract, no bytes or RPC service",
+  "production_weights": "intentionally empty, ErrSettingsNotReady until probability team fills approved weights and RTP target",
+  "special_bonus_mode": "not enabled; rejected until specified"
+}

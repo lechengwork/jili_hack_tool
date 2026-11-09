@@ -1,0 +1,37 @@
+{
+  "verified_rounds": 2,
+  "original_codec": true,
+  "full_request_response_frame_byte_roundtrip": true,
+  "clean_proto_int64_precision": true,
+  "edited_reverse_adapter": true,
+  "atomic_conflict_protection": true,
+  "signature": "No independent application signature in observed plaintext protobuf/TLS frames",
+  "currency": "IDR",
+  "published_math": 2,
+  "observer_settlements": 0,
+  "zero_bet_settlements": 6,
+  "failed_bets": 0,
+  "errors": 0,
+  "conflicts": 0,
+  "verified_application_frames": 36,
+  "raw_frames": 809,
+  "raw_sha256": "f6ebc045f14283bf760bdd11f2547c0864d580ea98a6b7f10eed3298f5123917",
+  "incomplete_tail": false,
+  "pending_bet": false,
+  "active_round": false,
+  "coverage": {
+    "two_bet_areas": 2,
+    "no_cashout_loss": 1,
+    "with_cashout": 1
+  },
+  "session": "20261109-105609",
+  "closed": true,
+  "known_gaps": [
+    "Exact crash distribution, RTP and complete seed-to-combined-hash-to-multiplier verification not established; see the separate rank/fairness audit for the verified one-round commitment",
+    "Free-bet and unobserved special/cashout variants remain fail-closed"
+  ],
+  "development_diagnostics": [
+    "Initial wrapper parser cursor bug fixed; all original frames reprocessed",
+    "Zero-bet settlements classified separately; excluded from successful math"
+  ]
+}

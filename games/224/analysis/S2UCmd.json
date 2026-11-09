@@ -1,0 +1,9 @@
+{
+  "S2U_Empty": 0,
+  "S2U_Bet": 10,
+  "S2U_CashOut": 11,
+  "S2U_SyncRate": 12,
+  "S2U_End": 13,
+  "S2U_Rank": 14,
+  "S2U_Info": 16
+}

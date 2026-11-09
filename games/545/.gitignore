@@ -1,0 +1,7 @@
+login_session.local.json
+current_session.txt
+webcap/
+runtime/*
+!runtime/package.json
+!runtime/package-lock.json
+*.log

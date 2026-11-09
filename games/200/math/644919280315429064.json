@@ -1,0 +1,41 @@
+{
+  "round_id": "644919280315429064",
+  "room_id": 4,
+  "currency": "IDR",
+  "currency_code": 7,
+  "bets": [
+    0,
+    200000,
+    100000,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "winner": 11,
+  "pic": 11,
+  "return_odds": [
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    10,
+    20,
+    10,
+    10,
+    10
+  ],
+  "is_bonus": false,
+  "balance_after": 1907080,
+  "bet_total": 300000,
+  "total_win": 0,
+  "net_win": -300000
+}

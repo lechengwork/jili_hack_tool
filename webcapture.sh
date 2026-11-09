@@ -17,6 +17,10 @@ ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"; cd "$ROOT"
 PY="$ROOT/.venv/bin/python3"
 UUID="${VPN_UUID:-E2416E2B-51EA-4569-B4D9-49A7665E5BC2}"   # Surfshark WireGuard profile(override: VPN_UUID=...)
 GID="${1:-696}"
+if [ "$GID" = 545 ]; then
+  echo '545 使用獨立session流程：games/545/README.md（先關VPN取URL，再開Brazil）'
+  exec "$ROOT/games/545/capture.sh"
+fi
 # ── 分派:124/94 等【明文 WebSocket】遊戲走 wscapture.sh(與 696 route-X 兩套不同協定) ──
 case " 124 94 736 " in *" $GID "*) exec "$ROOT/wscapture.sh" "$GID";; esac
 CHROME="${CHROME:-/Applications/Google Chrome.app/Contents/MacOS/Google Chrome}"

@@ -1,0 +1,50 @@
+syntax = "proto3";
+package lj500_664;
+// Fields derived from this game original lj500Proto. No enum meanings inferred.
+
+message Column {
+  repeated int32 Row = 1;
+}
+
+message Single {
+  repeated Column Col = 1;
+}
+
+message AwardData {
+  int32 Symbol = 1;
+  int32 Line = 2;
+  double Win = 3;
+  double Mult = 4;
+}
+
+message SpinAck {
+  repeated Single PlateSymbol = 1;
+  repeated GameAwardData AwardDataVec = 2;
+  repeated GameWildOdd WildOdd = 3;
+  repeated GameWildOdd WildOddDone = 4;
+  repeated GameWildOdd SuperMult = 5;
+  repeated double WildWin = 6;
+  repeated double BigMult = 7;
+  repeated double GameWin = 8;
+  int32 GetBonus = 9;
+  int32 BonusSymbol = 10;
+  int32 Extra = 11;
+  int32 AwardTypeFlag = 12;
+  double TotalWin = 13;
+  double RTP = 14;
+  int32 LID = 15;
+  int32 RID = 16;
+  bool MaxFlag = 17;
+}
+
+message GemInfo {
+  int32 data = 1;
+}
+
+message GameAwardData {
+  repeated AwardData ADV = 1;
+}
+
+message GameWildOdd {
+  repeated double WO = 1;
+}

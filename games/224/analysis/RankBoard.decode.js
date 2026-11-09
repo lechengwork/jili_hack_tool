@@ -1,0 +1,1 @@
+function(e,t){e instanceof d||(e=d.create(e));for(var i=void 0===t?e.len:e.pos+t,r=new f.aviatorProto.RankBoard;e.pos<i;){var o=e.uint32();switch(o>>>3){case 1:r.Daily=f.aviatorProto.RankList.decode(e,e.uint32());break;case 2:r.Monthly=f.aviatorProto.RankList.decode(e,e.uint32());break;default:e.skipType(7&o)}}return r}

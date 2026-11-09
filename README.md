@@ -63,3 +63,18 @@
 - **別開 DevTools**（觸發 Jscrambler 自我防禦）。
 
 整套是**非永久**的：關掉 patchwasm/mock 就失效，需重跑 `./run.sh`。
+
+## Source checkout setup (new game captures and replay)
+
+Private config, capture sessions, local profiles/logs, dependency install folders and ZIP files are excluded from new commits. Keep credentials in ignored config.json; copy config.example.json and fill it locally. For the reserved capture account, keep its per-game capture_config.local.json local as documented by the game README. Never add raw authenticated capture files to Git.
+
+```sh
+python3 -m venv .venv
+.venv/bin/python -m pip install cryptography requests
+npm ci
+npm ci --prefix games/545/runtime
+```
+
+Node.js is required for original codec verification. The pinned protobufjs install is shared by the new games; its package.json and lockfile are tracked, node_modules is not.
+
+Original Cocos ZIP members are tracked as ordinary static files with an archive_manifest.json. New replay servers rebuild ignored ZIP load bundles locally from those hash-checked members, so a checkout needs no ZIP or private capture session. Go Rush defaults to its sanitized replay_data fixtures; its historical login request is replaced with a payload-free initialization marker. Explicit capture-analysis commands still require local private sessions; offline history verification is `games/224/analysis/verify_history.py --offline`.

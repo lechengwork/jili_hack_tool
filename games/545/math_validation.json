@@ -1,0 +1,7 @@
+{
+  "real_payload_roundtrips": 126,
+  "unknown_envelope_retained": true,
+  "unknown_nested_retained_after_edit": true,
+  "named_edit_applied": true,
+  "malformed_wire_rejected": true
+}

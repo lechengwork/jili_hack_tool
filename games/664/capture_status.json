@@ -1,0 +1,26 @@
+{
+  "state": "closed",
+  "sessions": [
+    "20261106-153325",
+    "20261106-155357"
+  ],
+  "successful_spins": 438,
+  "math_published": 438,
+  "currency": "IDR",
+  "normal_bonus_rounds": [
+    "2490172819000050664",
+    "2490173571000020664",
+    "2490174499000020664"
+  ],
+  "background_check": "deleted after normal Bonus verified",
+  "texture_batch_validation": {
+    "date": "2026-11-09",
+    "report": "texture_validation.json",
+    "current_manifest_passed": true,
+    "current_valid_webp": 271,
+    "current_required_webp": 271,
+    "all_valid_http_webp": 271,
+    "archived_missing_webp": 0,
+    "windows_visual_verification": "not performed"
+  }
+}

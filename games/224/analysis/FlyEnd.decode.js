@@ -1,0 +1,1 @@
+function(e,t){e instanceof d||(e=d.create(e));for(var i=void 0===t?e.len:e.pos+t,r=new f.aviatorProto.FlyEnd;e.pos<i;){var o=e.uint32();switch(o>>>3){case 1:r.endRate=e.double();break;case 2:r.isMax=e.bool();break;case 3:r.totalWin=e.double();break;case 4:r.coin=e.double();break;case 5:r.now=f.google.protobuf.Timestamp.decode(e,e.uint32());break;default:e.skipType(7&o)}}return r}

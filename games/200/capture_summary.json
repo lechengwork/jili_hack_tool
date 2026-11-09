@@ -1,0 +1,82 @@
+{
+  "session": "20261106-101548",
+  "capture_stopped": true,
+  "source_currency": "IDR",
+  "source_agent": "ys3",
+  "source_player": "tryplayer003idr",
+  "known_frames_roundtrip_verified": 70,
+  "known_message_counts": {
+    "RECV:LoginDataAck": 1,
+    "SEND:JoinThemeReq": 1,
+    "RECV:JoinThemeAck": 1,
+    "SEND:JoinRoomReq": 1,
+    "RECV:JoinRoomAck": 2,
+    "RECV:RoomEnd": 17,
+    "RECV:RoomStart": 17,
+    "SEND:SpinReq": 12,
+    "RECV:SpinReq": 12,
+    "RECV:RoomHistory": 6
+  },
+  "unconfirmed_frame_counts": {
+    "Unexpected wire type for uint32": 1,
+    "Unconfirmed command 115": 1,
+    "Unconfirmed command 26": 1,
+    "Unconfirmed command 105": 2,
+    "Unconfirmed command 143": 1,
+    "Unconfirmed command 95": 2,
+    "Unconfirmed command 100": 2,
+    "Unconfirmed command 200": 2,
+    "Unconfirmed command 140": 1,
+    "Unconfirmed command 92": 1,
+    "Unconfirmed command 50": 146,
+    "Unconfirmed command 111": 5,
+    "Unconfirmed command 128": 7,
+    "Unconfirmed command 112": 5
+  },
+  "own_wager_candidate_rounds": [
+    {
+      "roundId": "644919241425842376",
+      "acknowledgedRequests": 1,
+      "win": 0,
+      "fullFrameRoundTrip": true
+    },
+    {
+      "roundId": "644919280315429064",
+      "acknowledgedRequests": 3,
+      "win": 0,
+      "fullFrameRoundTrip": true
+    },
+    {
+      "roundId": "644919319188238536",
+      "acknowledgedRequests": 2,
+      "win": 2000000.0,
+      "fullFrameRoundTrip": true
+    },
+    {
+      "roundId": "644919358044270792",
+      "acknowledgedRequests": 2,
+      "win": 0,
+      "fullFrameRoundTrip": true
+    },
+    {
+      "roundId": "644919462348222664",
+      "acknowledgedRequests": 2,
+      "win": 0,
+      "fullFrameRoundTrip": true
+    },
+    {
+      "roundId": "644919709258510536",
+      "acknowledgedRequests": 2,
+      "win": 0,
+      "fullFrameRoundTrip": true
+    }
+  ],
+  "candidate_round_count": 6,
+  "shared_math_published": true,
+  "remaining_validation": [
+    "Probability team production weights, approved target RTP and tolerance",
+    "Positive special-mode samples/rules before enabling isBonus=true or multiple rewards"
+  ],
+  "coverage_note": "Small sample capture per user request; does not establish every result or bonus mode.",
+  "published_math_round_count": 6
+}

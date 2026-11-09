@@ -1,0 +1,53 @@
+{
+  "session": "20261106-131323",
+  "provider_game_id": 461,
+  "currency": "IDR",
+  "initialization_signature_verified": true,
+  "first_spin_pending": false,
+  "mode_coverage_pending": [],
+  "shared_asset_cache_disabled": true,
+  "successful_spins_verified": 385,
+  "math_errors": 0,
+  "purchase_free_verified": true,
+  "extra_bet": "not applicable: absent from current UI, user confirmed",
+  "capture_state": "closed; final verification complete",
+  "natural_free_verified": true,
+  "natural_free_round_id": "2490024636000020461",
+  "natural_free_complete_ending": true,
+  "natural_free_math_published": true,
+  "successful_spins_at_natural_check": 264,
+  "recheck_automation_deleted": "10-2",
+  "collector_stopped": true,
+  "final_validation": {
+    "responses": 457,
+    "verified_success_spins": 385,
+    "published": 385,
+    "errors": 0,
+    "offset": 363155
+  },
+  "replay": {
+    "implemented": true,
+    "entry": "replay_461.py",
+    "default_port": 8462,
+    "math_and_wire_verified_spins_each": 385,
+    "math_hot_reload_verified": true,
+    "natural_free_browser_confirmed": true,
+    "purchase_browser_separately_confirmed": false,
+    "texture_variants": {
+      "webp": 140,
+      "local_http_verified": 140,
+      "windows_visual_verification": "not performed",
+      "uncovered_import_packs": 58
+    }
+  },
+  "texture_batch_validation": {
+    "date": "2026-11-09",
+    "report": "texture_validation.json",
+    "current_manifest_passed": true,
+    "current_valid_webp": 140,
+    "current_required_webp": 140,
+    "all_valid_http_webp": 140,
+    "archived_missing_webp": 0,
+    "windows_visual_verification": "not performed"
+  }
+}

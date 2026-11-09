@@ -1,0 +1,24 @@
+{
+  "session": "20261106-131323",
+  "complete_capture_lines": true,
+  "verified_request_roundtrips": 385,
+  "shared_math_matching_session": 385,
+  "shared_math_different_or_missing": [],
+  "collector_stopped": true,
+  "raw_capture_sha256": "66b77b5ff9f6662e833d2971852bfbaede9c96e43e6b15dca7a18b4a4866c6d9",
+  "final_validation": {
+    "responses": 457,
+    "verified_success_spins": 385,
+    "published": 385,
+    "errors": 0,
+    "offset": 363155
+  },
+  "mode_coverage": {
+    "normal": "verified",
+    "purchase": "verified",
+    "natural_free": "verified",
+    "extra_bet": "not applicable; current UI has no control per user"
+  },
+  "natural_free_round_id": "2490024636000020461",
+  "purchase_round_id": "2490007724000000461"
+}

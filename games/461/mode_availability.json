@@ -1,0 +1,15 @@
+{
+  "extra_bet": {
+    "status": "not exposed in current UI; not applicable to current capture",
+    "user_confirmed_at": "2026-11-06",
+    "evidence": "User explicitly confirmed this game has no extra-bet control.",
+    "initial_game_info": {
+      "ShowExtra": true,
+      "Mul": [
+        1,
+        1.5
+      ]
+    },
+    "interpretation": "Shared initialization flag alone does not establish an exposed or usable extra-bet mode."
+  }
+}

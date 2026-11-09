@@ -1,0 +1,1 @@
+function(e,t){e instanceof d||(e=d.create(e));for(var i=void 0===t?e.len:e.pos+t,r=new f.fastProto.FastWinHistory;e.pos<i;){var o=e.uint32();switch(o>>>3){case 1:r.nickname=e.string();break;case 2:r.gameID=e.int32();break;case 3:r.odds=e.double();break;case 4:r.win=e.double();break;default:e.skipType(7&o)}}return r}

@@ -1,0 +1,70 @@
+{
+  "observed_at": "2026-11-06",
+  "currency": "IDR",
+  "evidence": "User screenshot and confirmation: 有額外下注，我跑一跑",
+  "normal": {
+    "available": true
+  },
+  "extra_bet": {
+    "available": true,
+    "base_bet_ui": 3000,
+    "options": [
+      {
+        "ui_multiplier": 1.5,
+        "ui_cost": 4500
+      },
+      {
+        "ui_multiplier": 8,
+        "ui_cost": 24000
+      }
+    ],
+    "wire_selector_and_actual_debit": "Verified: request f26.f1 0 -> 1.5x, 1 -> 8x; response Extra 1/2; all 49 extra debits match UI."
+  },
+  "feature_game_entry": {
+    "visible": true,
+    "modes_and_prices": "Observed purchase base1000, amount45000; request f23.f1=0,f2=0,f3=45000; debit verified."
+  },
+  "natural_bonus": {
+    "extra_1_5": true,
+    "extra_8": true,
+    "normal": true,
+    "internal_stage_semantics": "not inferred from packet array lengths"
+  },
+  "capture_closed": true,
+  "verified_coverage": {
+    "normal": {
+      "spins": 388,
+      "bonus_spins": [
+        "2490172819000050664",
+        "2490173571000020664",
+        "2490174499000020664"
+      ],
+      "debit_verified": 388,
+      "debit_mismatches": []
+    },
+    "extra_1_5": {
+      "spins": 27,
+      "bonus_spins": [
+        "2490143619000010664"
+      ],
+      "debit_verified": 27,
+      "debit_mismatches": []
+    },
+    "extra_8": {
+      "spins": 22,
+      "bonus_spins": [
+        "2490146579000000664"
+      ],
+      "debit_verified": 22,
+      "debit_mismatches": []
+    },
+    "purchase": {
+      "spins": 1,
+      "bonus_spins": [
+        "2490147875000000664"
+      ],
+      "debit_verified": 1,
+      "debit_mismatches": []
+    }
+  }
+}

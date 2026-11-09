@@ -1,0 +1,1 @@
+function(e,t){e instanceof d||(e=d.create(e));for(var i=void 0===t?e.len:e.pos+t,r=new f.aviatorProto.Info;e.pos<i;){var o=e.uint32();switch(o>>>3){case 1:r.serverHash=e.string();break;default:e.skipType(7&o)}}return r}

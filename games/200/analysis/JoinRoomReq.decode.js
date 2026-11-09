@@ -1,0 +1,1 @@
+function(t,e){t instanceof u||(t=u.create(t));for(var n=void 0===e?t.len:t.pos+e,r=new h.protocol.JoinRoomReq;t.pos<n;){var o=t.uint32();switch(o>>>3){case 1:r.roomId=t.uint32();break;default:t.skipType(7&o)}}return r}

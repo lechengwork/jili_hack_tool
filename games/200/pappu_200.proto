@@ -1,0 +1,142 @@
+syntax = "proto3";
+package pappu_200;
+// From original Pappu frontend codec; reward map represented as repeated entries.
+
+message Command {
+  uint32 type = 1;
+  bytes data = 2;
+}
+
+message LoginDataReq {
+  string os = 1;
+  string language = 2;
+  uint32 browser = 3;
+  string version = 4;
+  string model = 5;
+}
+
+message LoginDataAck {
+  int32 result = 2;
+  PlayerInfo player = 3;
+  bool novice = 6;
+}
+
+message PlayerInfo {
+  uint32 uid = 1;
+  string name = 2;
+  Wallet wallet = 4;
+}
+
+message Wallet {
+  uint32 currency = 1;
+  double coin = 2;
+  double ratio = 3;
+  double rate = 4;
+  string symbol = 5;
+}
+
+message LogoutAck {
+  int32 type = 1;
+  uint32 code = 2;
+  string message = 3;
+}
+
+message JoinThemeReq {
+  uint32 themeId = 1;
+  bool vip = 2;
+}
+
+message JoinThemeAck {
+  uint32 id = 1;
+  repeated RoomSample rooms = 2;
+  ThemeConfig config = 3;
+}
+
+message RoomSample {
+  RoomHistory history = 1;
+  uint32 player = 2;
+  bool isClosed = 3;
+}
+
+message RoomHistory {
+  repeated HistoryData list = 1;
+  uint32 roomID = 2;
+}
+
+message HistoryData {
+  repeated int32 reward = 1;
+  double bonus = 2;
+}
+
+message ThemeConfig {
+  double minBet = 1;
+  double maxBet = 2;
+  uint32 roomMaxPlayer = 3;
+}
+
+message RoomAliveReq {
+  repeated int32 roomID = 1;
+}
+
+message JoinRoomReq {
+  uint32 roomId = 1;
+}
+
+message JoinRoomAck {
+  uint32 themeId = 1;
+  uint32 roomId = 2;
+  uint32 status = 3;
+  uint32 countDown = 4;
+  uint64 wagers = 5;
+  RoomConfig config = 6;
+  Table table = 7;
+  RoomHistory history = 8;
+  double coin = 9;
+}
+
+message RoomConfig {
+  double minBet = 1;
+  bool single = 2;
+  double maxBet = 3;
+}
+
+message Table {
+  repeated BetArea area = 1;
+}
+
+message BetArea {
+  int32 type = 1;
+  int32 player = 2;
+  double coin = 3;
+}
+
+message RoomStart {
+  uint64 wagers = 1;
+}
+
+message SpinReq {
+  repeated Bet detail = 1;
+  uint64 accountID = 2;
+  int32 cheat = 3;
+  bool vipEnd = 4;
+  int32 clientCheckNum = 5;
+}
+
+message Bet {
+  int32 type = 1;
+  double bet = 2;
+}
+
+message RoomEnd {
+  double win = 1;
+  repeated RewardEntry reward = 2;
+  double postCoin = 3;
+  int32 pic = 10;
+  repeated double bonus = 11;
+  bool isBonus = 12;
+}
+
+message RewardEntry {
+  int32 key = 1;
+  bool value = 2;
+}

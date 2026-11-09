@@ -1,0 +1,1 @@
+function(t,e){t instanceof u||(t=u.create(t));for(var n=void 0===e?t.len:t.pos+e,r=new h.protocol.HistoryData;t.pos<n;){var o=t.uint32();switch(o>>>3){case 1:if(r.reward&&r.reward.length||(r.reward=[]),2==(7&o))for(var i=t.uint32()+t.pos;t.pos<i;)r.reward.push(t.int32());else r.reward.push(t.int32());break;case 2:r.bonus=t.double();break;default:t.skipType(7&o)}}return r}

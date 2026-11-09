@@ -1,0 +1,49 @@
+syntax = "proto3";
+package pappu_math_200;
+
+// Clean local math contract. No RPC/service, auth, transport envelope or byte sidecars.
+// Area values are original types; array index = type-1, in screen row-major order.
+enum Area {
+  AREA_UNSPECIFIED = 0;
+  UMBRELLA = 1;
+  SOCCER = 2;
+  SUN = 3;
+  DIYA = 4;
+  BULL = 5;
+  BUCKET = 6;
+  KITE = 7;
+  WHIPPING_TOP = 8;
+  ROSE = 9;
+  BUTTERFLY = 10;
+  PIGEON = 11;
+  RABBIT = 12;
+}
+
+// uint64 round_id is a decimal STRING in JSON (avoids JavaScript precision loss).
+message Round {
+  uint64 round_id = 1;
+  uint32 room_id = 2;
+  string currency = 3;
+  uint32 currency_code = 4; // observed numeric code, not a universal currency mapping
+  repeated int64 bets = 5; // exactly 12 frozen final own accepted amounts
+  Area winner = 6;
+  int32 pic = 7;
+  repeated int64 return_odds = 8; // exactly 12 GROSS final returns; 0 means base 10
+  bool is_bonus = 9; // true currently unsupported; never inferred from odds>10
+  int64 bet_total = 10;
+  int64 total_win = 11; // winning bet * normalized return_odds; no +1
+  sint64 net_win = 12; // total_win - bet_total
+  int64 balance_after = 13; // source wallet snapshot; wallet is owned by server
+}
+
+message PappuInput {
+  string version = 1;
+  repeated int64 bets = 2;
+}
+
+message Outcome {
+  Area winner = 1;
+  repeated int64 return_odds = 2;
+  int32 pic = 3;
+  bool is_bonus = 4;
+}

@@ -1,0 +1,77 @@
+syntax = "proto3";
+package gorush_224;
+// Fields extracted from the original Go Rush aviatorProto frontend codec.
+
+message Info {
+  string serverHash = 1;
+}
+
+message SyncRate {
+  double rate = 1;
+  Timestamp now = 2;
+}
+
+message BetReq {
+  repeated BetData betData = 1;
+  string seed = 3;
+  bool useFree = 4;
+  repeated string clientName = 5;
+}
+
+message BetData {
+  double bet = 1;
+  double autoRate = 2;
+}
+
+message BetResp {
+  int64 roundIndex = 1;
+  bool useFree = 2;
+  bool betFailed = 3;
+}
+
+message FlyEnd {
+  double endRate = 1;
+  bool isMax = 2;
+  double totalWin = 3;
+  double coin = 4;
+  Timestamp now = 5;
+}
+
+message CashOutReq {
+  int32 betType = 1;
+}
+
+message CashOut {
+  double myRate = 1;
+  double win = 2;
+  int32 betType = 3;
+  double coin = 4;
+  Timestamp now = 7;
+}
+
+message RankDetail {
+  double bet = 1;
+  double win = 2;
+  double rate = 3;
+  Timestamp create = 4;
+  uint32 apiID = 7;
+  uint32 accountID = 8;
+  int32 rankType = 9;
+  string rankName = 10;
+  uint64 accountIDV2 = 11;
+}
+
+message RankBoard {
+  RankList Daily = 1;
+  RankList Monthly = 2;
+}
+
+message RankList {
+  repeated RankDetail BetRank = 1;
+  repeated RankDetail WinRank = 2;
+}
+
+message Timestamp {
+  int64 seconds = 1;
+  int32 nanos = 2;
+}

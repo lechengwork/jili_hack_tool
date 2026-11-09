@@ -1,0 +1,26 @@
+syntax = "proto3";
+package input_664;
+// Observed 664 requests; neutral fields have no inferred enum meanings.
+message Purchase664 {
+  int32 f1 = 1;
+  int32 f2 = 2;
+  double amount = 3;
+  repeated uint32 _wire = 500000000;
+}
+message Context664 {
+  int32 f1 = 1;
+  int32 f2 = 2;
+  int32 f4 = 4;
+  repeated uint32 _wire = 500000000;
+}
+message Extra664 {
+  int32 f1 = 1;
+  repeated uint32 _wire = 500000000;
+}
+message SpinRequest664 {
+  double bet = 1;
+  Purchase664 purchase = 23;
+  Context664 context = 25;
+  Extra664 extra = 26;
+  repeated uint32 _wire = 500000000;
+}

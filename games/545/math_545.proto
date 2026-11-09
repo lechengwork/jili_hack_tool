@@ -1,0 +1,112 @@
+syntax = "proto3";
+package math_545;
+// Extracted from the original frontend codec. No enum meanings inferred.
+
+message Column {
+  repeated int32 Col = 1;
+  // Optional engineering sidecar: preserve on captured samples.
+  repeated uint32 _wire = 1000;
+}
+
+message ColumnM {
+  repeated double Col = 1;
+  // Optional engineering sidecar: preserve on captured samples.
+  repeated uint32 _wire = 1000;
+}
+
+message AwardData {
+  int32 Index = 1;
+  int32 Pos = 2;
+  repeated int32 Symbol = 3;
+  repeated double Mul = 4;
+  double AllMul = 5;
+  double Win = 6;
+  // Optional engineering sidecar: preserve on captured samples.
+  repeated uint32 _wire = 1000;
+}
+
+message PotSymbol {
+  int32 Pos = 1;
+  int32 Symbol = 2;
+  double Mul = 3;
+  // Optional engineering sidecar: preserve on captured samples.
+  repeated uint32 _wire = 1000;
+}
+
+message Mystery {
+  bool IsJP = 1;
+  int32 Pos = 2;
+  int32 Symbol = 3;
+  double Mul = 4;
+  // Optional engineering sidecar: preserve on captured samples.
+  repeated uint32 _wire = 1000;
+}
+
+message Collect {
+  int32 Pos = 1;
+  repeated int32 CPos = 2;
+  double Mul = 3;
+  double Extra = 4;
+  // Optional engineering sidecar: preserve on captured samples.
+  repeated uint32 _wire = 1000;
+}
+
+message ComboStageInfo {
+  repeated Column Symbol = 1;
+  repeated ColumnM Mul = 2;
+  repeated Column FinalSymbol = 3;
+  repeated ColumnM FinalMul = 4;
+  repeated Collect CollectList = 5;
+  repeated Mystery MysteryList = 6;
+  repeated AwardData AwardDataVec = 7;
+  double ComboStageWin = 8;
+  int32 PotType = 9;
+  repeated PotSymbol PotList = 10;
+  int32 ReSpinRemainRound = 11;
+  int32 ReSpinTotalRound = 12;
+  bool GetReSpin = 13;
+  // Optional engineering sidecar: preserve on captured samples.
+  repeated uint32 _wire = 1000;
+}
+
+message SpinAck {
+  repeated ComboStageInfo RoundInfo = 1;
+  int32 GameType = 2;
+  int32 ReelType = 3;
+  double TotalWin = 4;
+  string ShowIndex = 5;
+  double NowMoney = 6;
+  int32 AckType = 7;
+  double RTP = 8;
+  int32 Extra = 9;
+  int32 LID = 10;
+  int32 RID = 11;
+  // Optional engineering sidecar: preserve on captured samples.
+  repeated uint32 _wire = 1000;
+}
+
+message GameInfoData {
+  repeated double Mul = 1;
+  // Optional engineering sidecar: preserve on captured samples.
+  repeated uint32 _wire = 1000;
+}
+
+message FeatureOption {
+  int32 selector = 1;
+  repeated uint32 _wire = 1000;
+}
+message Bet {
+  double bet = 1;
+  repeated uint32 context = 25;
+  FeatureOption featureOption = 26;
+  // Other unverified request fields remain in _wire.
+  repeated uint32 _wire = 1000;
+}
+message MathResponse {
+  SpinAck data = 1;
+  repeated uint32 service = 2;
+  double postMoney = 6;
+  string roundIndexV2 = 20;
+  Bet spinReq = 23;
+  repeated uint32 _wire = 1000;
+}

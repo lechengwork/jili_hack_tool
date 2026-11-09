@@ -1,0 +1,260 @@
+{
+  "schema_version": 1,
+  "observed_at": "2026-11-06",
+  "source": {
+    "spreadsheet_url": "https://docs.google.com/spreadsheets/d/1-I-ywq-O9S8NI8-jGxqaFnEKXcX3eSKv0wApKgpa-bo/edit",
+    "sheet": "JF",
+    "range": "A1:H35",
+    "cms_url": "https://gamejar.cc/tools/dev",
+    "refresh": "Use Google Drive get_spreadsheet_metadata then bounded range reads; no need to ask user to open Sheet."
+  },
+  "security": "No passwords, bearer tokens, session keys or one-time URLs are stored in this registry. Credential source remains the original Sheet and existing local config.json.",
+  "agent_accounts": [
+    {
+      "currency_label": "JFS-BDT",
+      "account": "jfsbdtaa",
+      "note": "",
+      "availability": "unknown"
+    },
+    {
+      "currency_label": "JFS-BRL",
+      "account": "jfsbrlaa",
+      "note": "",
+      "availability": "unknown"
+    },
+    {
+      "currency_label": "JFS-CNY",
+      "account": "jfscnyaa",
+      "note": "",
+      "availability": "unknown"
+    },
+    {
+      "currency_label": "JFS-IDR",
+      "account": "jfsidraa",
+      "note": "PG不能進 ( 直接 IDRK *1000) ",
+      "availability": "unknown"
+    },
+    {
+      "currency_label": "JFS-IDRK",
+      "account": null,
+      "note": "",
+      "availability": "unknown"
+    },
+    {
+      "currency_label": "JFS-INR",
+      "account": "jfsinraa",
+      "note": "JILI工具預設使用了, 避免互踢, 再請換別組試試",
+      "availability": "unknown"
+    },
+    {
+      "currency_label": "JFS-PHP",
+      "account": "jfsphpaa",
+      "note": "",
+      "availability": "unknown"
+    },
+    {
+      "currency_label": "JFS-PKR",
+      "account": "jfspkraa",
+      "note": "",
+      "availability": "unknown"
+    },
+    {
+      "currency_label": "JFS-THB",
+      "account": "jfsthbaa",
+      "note": "PG不能進OMG可以進",
+      "availability": "unknown"
+    },
+    {
+      "currency_label": "JFS-USD",
+      "account": "jfsusdaa",
+      "note": "JILI Stephen抓封包用",
+      "availability": "unknown"
+    },
+    {
+      "currency_label": "JFS-VND",
+      "account": "jfsvndaa",
+      "note": "PG不能進 ( 直接 VNDK *1000) ",
+      "availability": "unknown"
+    },
+    {
+      "currency_label": "JFS-VNDK",
+      "account": null,
+      "note": "",
+      "availability": "unknown"
+    },
+    {
+      "currency_label": "JFS-AUD",
+      "account": null,
+      "note": "",
+      "availability": "unknown"
+    },
+    {
+      "currency_label": "JFS-MMK",
+      "account": "jfsmmkaa",
+      "note": "",
+      "availability": "unknown"
+    },
+    {
+      "currency_label": "JFS-MMKK",
+      "account": "jfsmmkkaa",
+      "note": "",
+      "availability": "unknown"
+    },
+    {
+      "currency_label": "JF-MXN",
+      "account": null,
+      "note": "轉帳體系",
+      "availability": "unknown"
+    }
+  ],
+  "cms_snapshot": {
+    "parent_agent": "JFS-USD代理",
+    "currency": "USD",
+    "sub_agents": [
+      {
+        "id": "euc",
+        "players": [
+          "streamerusd011"
+        ]
+      },
+      {
+        "id": "evo",
+        "players": [
+          "evotest001",
+          "evotest002"
+        ]
+      },
+      {
+        "id": "ix6",
+        "players": [
+          "i36693probea",
+          "teststreamer002",
+          "ix6user001",
+          "ix6user002",
+          "ix6user003",
+          "ix6user004",
+          "ix6user005"
+        ]
+      },
+      {
+        "id": "try",
+        "players": [
+          "tryplayer001usd",
+          "tryplayer002usd",
+          "greta",
+          "greta"
+        ],
+        "note": "greta appears twice in visible dropdown; internal IDs not established."
+      }
+    ],
+    "scope": "Visible dropdown items for the four USD sub-agents only; other currencies not enumerated.",
+    "availability": "Presence in dropdown does not establish idle status, balance or JILI access."
+  },
+  "local_config_snapshot": {
+    "path": "config.json",
+    "active_player_id": "tryplayer002usd",
+    "currency": "USD",
+    "configured_alternatives": [
+      "evotest001",
+      "testplayer001thb",
+      "test002"
+    ],
+    "note": "Shared active configuration restored; Pappu capture uses its ignored per-game private configuration.",
+    "previous_active_player_id": "tryplayer002usd"
+  },
+  "game_mappings": [
+    {
+      "platform_id": 4103,
+      "jili_game_id": 200,
+      "name": "Pappu",
+      "capture_module_status": "closed; six validated own-wager math rounds; original command frame roundtrip; special-mode positive samples remain absent"
+    },
+    {
+      "platform_id": 1836,
+      "jili_game_id": 545,
+      "name": "幸運草金幣 3x3",
+      "capture_module_status": "126 real math payloads roundtrip verified; three observed mode inputs and respin sample; see coverage limits"
+    },
+    {
+      "platform_id": 1837,
+      "jili_game_id": 573,
+      "name": "幸運金幣2",
+      "capture_module_status": "closed capture data; 187 signed SPINs, request/response full byte roundtrip, live math exported; normal109,extra76,purchase50x1,purchase100x1",
+      "mapping_evidence": "CMS 111000573 and fresh /rc2/?gameID=573",
+      "replay_module_status": "implemented; 187 math/wire encrypted payloads verified in 4 input pools; hot reload verified; entry/spin and extra bet Bonus animation/settlement operator-confirmed 2026-11-09; purchase visual completion not separately confirmed"
+    },
+    {
+      "platform_id": 1838,
+      "jili_game_id": 461,
+      "name": "海盜女王2",
+      "mapping_evidence": "Fresh LoginGame 111000461 -> /pirate2/index.html?gameID=461; original pirate2Proto / 0461-Pirate2",
+      "capture_module_status": "capture closed; 385 signed successful SPINs, original codec/full-payload byte roundtrip verified, live math published; normal, purchase and natural free covered; extra bet absent in current UI",
+      "replay_module_status": "implemented; 385 math/wire payloads encrypted replay verified; hot reload verified; natural free-game browser playback confirmed 2026-11-09"
+    },
+    {
+      "platform_id": 1839,
+      "jili_game_id": 664,
+      "name": "幸運捷豹500",
+      "mapping_evidence": "CMS 111000664 and fresh /lj500/?gameID=664",
+      "capture_module_status": "closed; 2 independent IDR sessions, 438 signed SPINs/math, original codec and full request/response roundtrip verified; normal388 with3 Bonuses, extra1.5x27, extra8x22, purchase1; 0 errors/conflicts"
+    },
+    {
+      "platform_id": 4104,
+      "jili_game_id": 224,
+      "name": "Go Rush",
+      "mapping_evidence": "Fresh LoginGame 111000224 -> /aviator/index.html?gameID=224; original HTML GameID=224; official PlusIntro/224",
+      "capture_module_status": "closed; 3 independent IDR sessions, 16 successful math; original codec/full-frame roundtrip; three history/four-seed fairness chains verified; full distribution/RTP unproven"
+    },
+    {
+      "platform_id": 1834,
+      "jili_game_id": 807,
+      "name": "迦罗战神1000",
+      "platform_id_source": "user supplied batch list",
+      "mapping_evidence": "Existing per-game math interface and original codec/capture validation",
+      "capture_module_status": "existing captured/math dataset; see game validation files"
+    },
+    {
+      "platform_id": 1835,
+      "jili_game_id": 518,
+      "name": "馬戲團小丑4096",
+      "platform_id_source": "user supplied batch list",
+      "mapping_evidence": "Existing per-game math interface and original codec/capture validation",
+      "capture_module_status": "existing captured/math dataset; see game validation files"
+    }
+  ],
+  "capture_policy": {
+    "new_login": "new independent session; never mix keys",
+    "currency": "Record actual response currency; do not combine currencies for money/RTP calculations",
+    "account_choice": "Avoid INR default tool account and USD Stephen account noted in Sheet; actual probability-team account and idle account remain unconfirmed."
+  },
+  "capture_reservation": {
+    "player_id": "tryplayer003idr",
+    "currency": "IDR",
+    "parent_agent": "JFS-IDR代理",
+    "sub_agent": "try",
+    "purpose": "Pappu / platform 4103 / JILI 200 capture",
+    "selection_basis": "Different agent from existing USD/THB/INR configurations; matching IDR token claims ys3/SGJ22IDR verified.",
+    "reserved_at": "2026-11-06",
+    "login_validation": "LoginGame success, /pappu/index.html, gameID=200",
+    "rule": "Reserved for capture; do not include in future probability-team shared account selections.",
+    "rejected_candidate": {
+      "player_id": "ix6user005",
+      "reason": "LoginGame HTTP400 code101 player not exist"
+    },
+    "agent": "ys3",
+    "token_type": "SGJ22IDR",
+    "private_config": "games/200/capture_config.local.json",
+    "rejected_candidates": [
+      {
+        "player_id": "ix6user005",
+        "reason": "player not exist"
+      },
+      {
+        "player_id": "tryplayer004brl",
+        "reason": "200 returns TADA guide gameID=3, not Pappu"
+      }
+    ],
+    "current_game_id": 224,
+    "current_purpose": "Go Rush / platform4104 / JILI224 capture"
+  }
+}

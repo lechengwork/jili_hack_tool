@@ -1,0 +1,235 @@
+{
+  "session": "20261109-100032",
+  "closed": true,
+  "currency": "IDR",
+  "rank": {
+    "verified_responses": 5,
+    "original_codec_full_frame_byte_roundtrip": true,
+    "all_observed_rows_are_current_account": true,
+    "row_occurrences": 116,
+    "foreign_account_rows": 0,
+    "snapshots": [
+      {
+        "seq": 28,
+        "sections": {
+          "Monthly.BetRank": {
+            "rows": 11,
+            "own_account_rows": 11,
+            "sort_metric_observed": "rate",
+            "descending": true,
+            "matched_previous_capture_rows": 11,
+            "matched_current_capture_rows": 0
+          },
+          "Monthly.WinRank": {
+            "rows": 11,
+            "own_account_rows": 11,
+            "sort_metric_observed": "win",
+            "descending": true,
+            "matched_previous_capture_rows": 11,
+            "matched_current_capture_rows": 0
+          }
+        }
+      },
+      {
+        "seq": 95,
+        "sections": {
+          "Monthly.BetRank": {
+            "rows": 11,
+            "own_account_rows": 11,
+            "sort_metric_observed": "rate",
+            "descending": true,
+            "matched_previous_capture_rows": 11,
+            "matched_current_capture_rows": 0
+          },
+          "Monthly.WinRank": {
+            "rows": 11,
+            "own_account_rows": 11,
+            "sort_metric_observed": "win",
+            "descending": true,
+            "matched_previous_capture_rows": 11,
+            "matched_current_capture_rows": 0
+          }
+        }
+      },
+      {
+        "seq": 658,
+        "sections": {
+          "Daily.BetRank": {
+            "rows": 1,
+            "own_account_rows": 1,
+            "sort_metric_observed": "rate",
+            "descending": true,
+            "matched_previous_capture_rows": 0,
+            "matched_current_capture_rows": 1
+          },
+          "Daily.WinRank": {
+            "rows": 1,
+            "own_account_rows": 1,
+            "sort_metric_observed": "win",
+            "descending": true,
+            "matched_previous_capture_rows": 0,
+            "matched_current_capture_rows": 1
+          },
+          "Monthly.BetRank": {
+            "rows": 11,
+            "own_account_rows": 11,
+            "sort_metric_observed": "rate",
+            "descending": true,
+            "matched_previous_capture_rows": 11,
+            "matched_current_capture_rows": 0
+          },
+          "Monthly.WinRank": {
+            "rows": 11,
+            "own_account_rows": 11,
+            "sort_metric_observed": "win",
+            "descending": true,
+            "matched_previous_capture_rows": 11,
+            "matched_current_capture_rows": 0
+          }
+        }
+      },
+      {
+        "seq": 703,
+        "sections": {
+          "Daily.BetRank": {
+            "rows": 1,
+            "own_account_rows": 1,
+            "sort_metric_observed": "rate",
+            "descending": true,
+            "matched_previous_capture_rows": 0,
+            "matched_current_capture_rows": 1
+          },
+          "Daily.WinRank": {
+            "rows": 1,
+            "own_account_rows": 1,
+            "sort_metric_observed": "win",
+            "descending": true,
+            "matched_previous_capture_rows": 0,
+            "matched_current_capture_rows": 1
+          },
+          "Monthly.BetRank": {
+            "rows": 11,
+            "own_account_rows": 11,
+            "sort_metric_observed": "rate",
+            "descending": true,
+            "matched_previous_capture_rows": 11,
+            "matched_current_capture_rows": 0
+          },
+          "Monthly.WinRank": {
+            "rows": 11,
+            "own_account_rows": 11,
+            "sort_metric_observed": "win",
+            "descending": true,
+            "matched_previous_capture_rows": 11,
+            "matched_current_capture_rows": 0
+          }
+        }
+      },
+      {
+        "seq": 714,
+        "sections": {
+          "Daily.BetRank": {
+            "rows": 1,
+            "own_account_rows": 1,
+            "sort_metric_observed": "rate",
+            "descending": true,
+            "matched_previous_capture_rows": 0,
+            "matched_current_capture_rows": 1
+          },
+          "Daily.WinRank": {
+            "rows": 1,
+            "own_account_rows": 1,
+            "sort_metric_observed": "win",
+            "descending": true,
+            "matched_previous_capture_rows": 0,
+            "matched_current_capture_rows": 1
+          },
+          "Monthly.BetRank": {
+            "rows": 11,
+            "own_account_rows": 11,
+            "sort_metric_observed": "rate",
+            "descending": true,
+            "matched_previous_capture_rows": 11,
+            "matched_current_capture_rows": 0
+          },
+          "Monthly.WinRank": {
+            "rows": 11,
+            "own_account_rows": 11,
+            "sort_metric_observed": "win",
+            "descending": true,
+            "matched_previous_capture_rows": 11,
+            "matched_current_capture_rows": 0
+          }
+        }
+      }
+    ],
+    "daily_new_round_matches_own_settlement": {
+      "bet": 200000,
+      "gross_return": 328000,
+      "rank_rate": 1.64,
+      "cashout_rates": [
+        1.6,
+        1.68
+      ]
+    },
+    "monthly_11_rows_match_11_prior_winning_rounds": true,
+    "monthly_not_updated_with_current_win_in_observed_snapshots": true,
+    "auxiliary_promotional_ranking": [
+      {
+        "status": 200,
+        "Data_is_null": true,
+        "error": "ranking not exist or begin"
+      },
+      {
+        "status": 200,
+        "Data_is_null": true,
+        "error": "ranking not exist or begin"
+      },
+      {
+        "status": 200,
+        "Data_is_null": true,
+        "error": "ranking not exist or begin"
+      }
+    ],
+    "limits": [
+      "Cannot determine global / agent / personal leaderboard scope from one account",
+      "Monthly refresh / retention policy is unconfirmed",
+      "Cannot infer humans or shared rounds from these rank rows"
+    ]
+  },
+  "fairness": {
+    "round_id": "645352646659592416",
+    "revealed_seed_source": "User screenshot; copied into ignored session evidence/",
+    "server_seed_sha256_matches_prebet_commitment": true,
+    "commitment_received_before_bet": true,
+    "commitment_seq": 209,
+    "bet_seq": 212,
+    "screenshot_bet2_cashout_matches_capture": true,
+    "screenshot_hex_to_decimal_verified": true,
+    "screenshot_hex": "19b6efa7",
+    "screenshot_integer": 431419303,
+    "observed_end_rate": 9.656772975902811,
+    "one_sample_formula_inference": {
+      "formula": "0.97 * (2^32 - 1) / (N + 1)",
+      "computed": 9.656772975902813,
+      "absolute_error": 1.7763568394002505e-15,
+      "status": "Single-sample numerical match; formula, range clamps, rounding and RTP NOT established as the general original algorithm"
+    },
+    "simple_one_client_hash_candidates_matching_prefix": [],
+    "complete_seed_to_combined_hash_to_multiplier_verification": false,
+    "missing": [
+      "Raw full fairness/history response with every participating client seed in order",
+      "Full combined hash and original combination/hash algorithm or complete calculation page",
+      "At least another disclosed round, including a low/crash-near-1x case, to cross-check the algorithm",
+      "Cross-account simultaneous evidence remains required for shared-outcome multiplayer claims"
+    ]
+  },
+  "current_successful_math": 2,
+  "previous_successful_math": 12,
+  "combined_successful_math": 14,
+  "next_capture_priority": [
+    "Targeted fairness/history page network capture, including child iframe/new-window traffic; no extra wagering needed merely to inspect an existing round",
+    "Second authorized account with simultaneous comparison to establish whether outcomes are shared",
+    "If leaderboard scope matters, second-account comparison and a later monthly refresh snapshot"
+  ]
+}

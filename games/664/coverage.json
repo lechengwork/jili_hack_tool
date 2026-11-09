@@ -1,0 +1,36 @@
+{
+  "normal": {
+    "spins": 388,
+    "bonus_spins": [
+      "2490172819000050664",
+      "2490173571000020664",
+      "2490174499000020664"
+    ],
+    "debit_verified": 388,
+    "debit_mismatches": []
+  },
+  "extra_1_5": {
+    "spins": 27,
+    "bonus_spins": [
+      "2490143619000010664"
+    ],
+    "debit_verified": 27,
+    "debit_mismatches": []
+  },
+  "extra_8": {
+    "spins": 22,
+    "bonus_spins": [
+      "2490146579000000664"
+    ],
+    "debit_verified": 22,
+    "debit_mismatches": []
+  },
+  "purchase": {
+    "spins": 1,
+    "bonus_spins": [
+      "2490147875000000664"
+    ],
+    "debit_verified": 1,
+    "debit_mismatches": []
+  }
+}

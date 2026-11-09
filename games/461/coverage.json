@@ -1,0 +1,138 @@
+{
+  "active_session": "20261106-131323",
+  "currency_observed": "IDR",
+  "initialization_signature_verified": true,
+  "successful_live_spins": 385,
+  "validation_errors": 0,
+  "modes": {
+    "normal": {
+      "status": "observed",
+      "samples": 384
+    },
+    "extra_bet": {
+      "status": "not exposed in current UI; not applicable to current capture",
+      "candidate_samples": 0,
+      "initial_game_info": {
+        "ShowExtra": true,
+        "Mul": [
+          1,
+          1.5
+        ]
+      },
+      "user_confirmed_at": "2026-11-06",
+      "evidence": "User explicitly confirmed this game has no extra-bet control.",
+      "interpretation": "Shared initialization flag alone does not establish an exposed or usable extra-bet mode."
+    },
+    "natural_bonus_free": {
+      "status": "observed",
+      "round_ids": [
+        "2490024636000020461"
+      ]
+    },
+    "purchase": {
+      "status": "observed",
+      "samples": 1,
+      "results": [
+        {
+          "round_id": "2490007724000000461",
+          "seq": 47,
+          "request": {
+            "f1": 1000.0,
+            "f23": {
+              "hex": "0800100019000000008049e340",
+              "fields": {
+                "f1": 0,
+                "f2": 0,
+                "f3": 39500.0
+              }
+            },
+            "f25": {
+              "hex": "080010002000",
+              "fields": {
+                "f1": 0,
+                "f2": 0,
+                "f4": 0
+              }
+            }
+          },
+          "total_win": 93300.0,
+          "post_money_f6": 2841980.0,
+          "free_total_win": 90300.0,
+          "free_rounds": [
+            {
+              "remaining": 10,
+              "now": 0,
+              "total": 10
+            },
+            {
+              "remaining": 9,
+              "now": 1,
+              "total": 10
+            },
+            {
+              "remaining": 8,
+              "now": 2,
+              "total": 10
+            },
+            {
+              "remaining": 7,
+              "now": 3,
+              "total": 10
+            },
+            {
+              "remaining": 6,
+              "now": 4,
+              "total": 10
+            },
+            {
+              "remaining": 5,
+              "now": 5,
+              "total": 10
+            },
+            {
+              "remaining": 4,
+              "now": 6,
+              "total": 10
+            },
+            {
+              "remaining": 3,
+              "now": 7,
+              "total": 10
+            },
+            {
+              "remaining": 2,
+              "now": 8,
+              "total": 10
+            },
+            {
+              "remaining": 1,
+              "now": 9,
+              "total": 10
+            },
+            {
+              "remaining": 0,
+              "now": 10,
+              "total": 10
+            }
+          ],
+          "full_payload_byte_roundtrip": true,
+          "original_codec_check": true,
+          "base_bet": 1000.0,
+          "purchase_fields": {
+            "f1": 0,
+            "f2": 0,
+            "f3": 39500.0
+          },
+          "paid_cost": 39500.0,
+          "paid_over_base_bet": 39.5,
+          "complete_free_ending": true
+        }
+      ]
+    }
+  },
+  "scope_limits": [
+    "Purchase-triggered free games do not prove natural trigger coverage.",
+    "Current UI has no extra-bet control per user; shared ShowExtra flag is not mode-availability proof.",
+    "Current math spinReq preserves response echo bytes; original input/context is retained in live_validation.json."
+  ]
+}

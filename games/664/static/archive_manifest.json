@@ -1,0 +1,23 @@
+{
+  "description": "Original Cocos archive members; ZIPs are local generated runtime files, not versioned",
+  "archives": [
+    {
+      "path": "lj500/assets/game/game.fd75e.zip",
+      "original_sha256": "fba9f55e7f874fdd15ab1d2bf568e13bfdcab608594804026262f6fd0c1488d0",
+      "members": [
+        {
+          "name": "native/86/86f25d5c-9de5-454f-a5f9-ee16603e6701.06fad.plist",
+          "path": "lj500/assets/game/native/86/86f25d5c-9de5-454f-a5f9-ee16603e6701.06fad.plist",
+          "sha256": "d635a8702895dbffedfd9ee5558f5c4b9f51d7ad7d488657e5f3d50f8dc0e6d4",
+          "compression": 8
+        },
+        {
+          "name": "native/99/998487a4-ac4d-4181-84b5-25eb1bd32567.ef434.plist",
+          "path": "lj500/assets/game/native/99/998487a4-ac4d-4181-84b5-25eb1bd32567.ef434.plist",
+          "sha256": "415814ea730e46759e2217d6412c59ec6c16beec87eda4c5f8ac6b88170c3dc6",
+          "compression": 8
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "session": "replay_data",
+  "http_entities_sha256_verified": 70,
+  "history_rows": 3,
+  "detail_responses": 3,
+  "fairness_responses": 3,
+  "verified": [
+    {
+      "round_id": "645358493569700064",
+      "history_math_amounts_match": true,
+      "detail_cashouts_match": true,
+      "server_sha256_prebet_commitment": true,
+      "ordered_four_seed_utf8_sha512_match": true,
+      "first_8_hex_to_integer": true,
+      "multiplier_matches_fly_end": true,
+      "display_floor_2_decimals": true,
+      "end_rate": 11.062128957294581,
+      "formula_absolute_error": 0.0
+    },
+    {
+      "round_id": "645352646659592416",
+      "history_math_amounts_match": true,
+      "detail_cashouts_match": true,
+      "server_sha256_prebet_commitment": true,
+      "ordered_four_seed_utf8_sha512_match": true,
+      "first_8_hex_to_integer": true,
+      "multiplier_matches_fly_end": true,
+      "display_floor_2_decimals": true,
+      "end_rate": 9.656772975902811,
+      "formula_absolute_error": 0.0
+    },
+    {
+      "round_id": "645352571313115360",
+      "history_math_amounts_match": true,
+      "detail_cashouts_match": true,
+      "server_sha256_prebet_commitment": true,
+      "ordered_four_seed_utf8_sha512_match": true,
+      "first_8_hex_to_integer": true,
+      "multiplier_matches_fly_end": true,
+      "display_floor_2_decimals": true,
+      "end_rate": 2.23881239513311,
+      "formula_absolute_error": 0.0
+    }
+  ],
+  "formula": "SHA512(UTF8(ServerSeed + ClientSeed1 + ClientSeed2 + ClientSeed3)); N=int(first 8 hex,16); (2^32-1)/(N+1)*(1-0.03)",
+  "scope": "Three captured rounds verified; boundary clamps, minimum/maximum rates and full distribution/RTP not established. Client2/3 authenticity and shared multiplayer outcomes not established.",
+  "replay": "Original Nuxt UI; captured list/details/fairness; local mock auth only. Captured list is a historical snapshot, local replay wagers do not add real history."
+}

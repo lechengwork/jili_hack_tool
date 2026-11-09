@@ -1,0 +1,15 @@
+{
+  "platform_id": 1839,
+  "platform_id_source": "user supplied",
+  "requested_name": "幸運捷豹500",
+  "jili_game_id": 664,
+  "cms_game_id": "111000664",
+  "evidence": [
+    "CMS exact name 幸运捷豹500 = 111000664",
+    "fresh LoginGame returned /lj500/?gameID=664",
+    "original HTML title Lucky Jaguar 500 and GameID=664"
+  ],
+  "verified_at": "2026-11-06",
+  "original_codec": "lj500Proto",
+  "original_main_sha256": "af2dff84a9820621e241ac99f4201cc8b603a9b5b0c69fd396a0c9add5447816"
+}

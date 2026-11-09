@@ -1,0 +1,19 @@
+{
+  "session": "20261106-131323",
+  "round_id": "2490024636000020461",
+  "seq": 228,
+  "natural_free": true,
+  "successful_math": 264,
+  "purchase_parameter_absent_in_request": true,
+  "signature_verified": true,
+  "original_codec_verified": true,
+  "complete_payload_byte_roundtrip": true,
+  "free_total_win": 125400.0,
+  "total_win": 134400.0,
+  "queue_length": 11,
+  "last_free_remaining": 0,
+  "last_free_now": 10,
+  "last_free_total": 10,
+  "complete_free_ending": true,
+  "math_file": "/Users/dyson/Downloads/jili_hack_tool/games/461/webcap/20261106-131323/math/2490024636000020461.json"
+}

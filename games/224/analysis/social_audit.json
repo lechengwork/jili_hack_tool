@@ -1,0 +1,87 @@
+{
+  "scope": "Existing 2026-11-06 IDR capture and its original frontend; no new login or wager",
+  "source": "static/aviator/assets/Game224/index.95fb8.js",
+  "source_sha256": "69fa1d79e01f2773a0eba1f74db2946e4a4abf2d69e73f1966ed8f44730b73c2",
+  "raw_frames": 1954,
+  "main_rank_requests": 0,
+  "main_rank_responses": 0,
+  "best_history_responses": [
+    {
+      "seq": 26,
+      "payload_bytes": 0,
+      "entries": 0,
+      "original_codec_byte_roundtrip": true
+    }
+  ],
+  "findings": {
+    "simulated_player_objects": 220,
+    "initial_locally_generated_history_values": 24,
+    "main_rank_origin": "Server response, not the KageBody player generator; no response in this capture",
+    "main_rank_human_accounts": "Not established",
+    "shared_multiplayer_crash_outcome": "Not established; a second simultaneous session would be needed to compare outcomes",
+    "own_wager_settlement": "Server supplied; already verified by the game-specific adapter",
+    "single_player_with_social_simulation": "Consistent with observed client-controlled round lifecycle and local social simulation; not a proof about all other sessions"
+  },
+  "evidence": [
+    {
+      "claim": "local_simulated_players",
+      "source_byte_offset": 462267,
+      "excerpt": "i.create=function(e){for(var t=0;t<220;++t){var i=new KageBody;i.init(t,\"\",!1,this.onlinePercent),this.member.push(i)}},i.updateBetList=function(){this.member.forEach((function(e){e.setBetList()}))},i.addSpeed=function(e){for(var t=Math.floor(e),i=0;i<t;++i)this.member.forEach((function(e){e.syncToBet(1)})),t"
+    },
+    {
+      "claim": "local_random_names",
+      "source_byte_offset": 457964,
+      "excerpt": "t.init=function(e,t,i,r){if(this.aid=e+1,\"\"!=t)this.name=t;else{var o,n=rStr(3);this.name=n,null==(o=Game.kageBodyMgr)||o.sourceList.push(n)}this.setBetList(),this.mustBet=i,this.onlinePercent=r,this.cd=6*Math.random(),this.checkAlive(),this.setBaseBet(),this.areaCoin=[0,0],this.betItemData=null},t.setBetList=function(){this.betList=[],this.betList=Game.bet.betList},t.setCD=function(){this.cd=3*Math.random()+2},t.checkAlive=function(){this.mustBe"
+    },
+    {
+      "claim": "local_cashout",
+      "source_byte_offset": 459353,
+      "excerpt": "t.checkRate=function(e,t){e>=this.cashoutValue&&this.betItemData&&(Game.uiCtrl.betTableUI.cashout(this.betItemData,!1,this.cashoutValue,this.winValue),Game.gameCtrl.bPageOut||t||Game.rocketControl.playCashout(!1,this.name),this.betItemData=null)},t.setBaseBet=function(){var e=1,t=1,i=1.01,r=Math.random()<.8?0:1,o=Math.random(),n=Math.random(),s=Mat"
+    },
+    {
+      "claim": "local_bet_amounts",
+      "source_byte_offset": 459600,
+      "excerpt": "t.setBaseBet=function(){var e=1,t=1,i=1.01,r=Math.random()<.8?0:1,o=Math.random(),n=Math.random(),s=Math.random();0==r?(o<.04?(this.betList[0],e=this.betList[0]):e=o<.08?this.betList[1]?this.betList[1]:this.betList[0]:o<.16?this.betList[2]?this.betList[2]:this.betList[0]:o<.32?this.betList[3]?this.betList[3]:this.betList[0]:o<.53?this.betList[4]?th"
+    },
+    {
+      "claim": "online_probability_by_local_hour",
+      "source_byte_offset": 463183,
+      "excerpt": "i.calcAlive=function(){var e=(new Date).getHours();this.onlinePercent=e>2&&e<=4?.5:e>4&&e<=12?.43:e>12&&e<=16?.5:e>16&&e<=20?.65:.86},t}(Component))||_class$Z,_dec$Y,_dec2$S,_dec3$G,_class$_,_class2$U,_descriptor$T,_descriptor2$I;cclegacy._RF.pop(),c"
+    },
+    {
+      "claim": "displayed_player_count_is_row_count",
+      "source_byte_offset": 269199,
+      "excerpt": "i.updateTotalPlayer=function(){this.totalPlayerLabel.string=this.allBetList.length.toString()},i.setFreeData=function(){var e,t=this,i=node$7.getFreeSpinData();"
+    },
+    {
+      "claim": "displayed_total_bet_is_local_sum",
+      "source_byte_offset": 269033,
+      "excerpt": "i.updateTotalBet=function(e){this.totalBet+=e,this.totalBet<0&&(this.totalBet=0),this.totalBetLabel.string=node$2.coinTypeStr+node$2.FormatCoinNum(this.totalBet,!0)},i.updateTotalPlayer=function(){this.totalPlayerLabel.string=this"
+    },
+    {
+      "claim": "initial_24_history_values_are_local_random",
+      "source_byte_offset": 455443,
+      "excerpt": "i.getRoomInfo=function(){for(var e=0;e<24;++e)Game.uiCtrl.addHistory(t());function t(){for(var e=Max_Muit(),t=[2,30],i=[5,.15,.003],r=0,o=1;o<=e;o++){for(var n=i[i.length-1],s=0;s<t.length;s++)if(o<=t[s]){n=i[s];break}r+=(e-o+1)*n}for(var a=Math.random()*r,c=0,l=1;l<=e;l++){for(var u=i[i.length-1],d=0;d<t.length;d++)if(l<=t[d]){u=i[d];break}if(a<(c+=(e-l+1)*u))return l+rInt(1,99)/100}}},i.selfStartGame=function(){this.setStatus(FsmStatus.Run),this.roundTime=1,Game.rocketControl.setLoading(!0),Game.rocketControl.playRocketLoading(4.5),Game.uiCtrl.lockBetArea(),CrashCommEntry.instance.uiCtrl.betAreaUI.forEach((function(e,t){e.lockBetArea(!0,!0)})),Game.uiCtrl.betAreaUI.forEach((function(e){nod"
+    },
+    {
+      "claim": "later_history_uses_server_settlement",
+      "source_byte_offset": 451675,
+      "excerpt": "Game.uiCtrl.addHistory(e.endRate),this.syncRate(e.endRate),this.setStatus(FsmStatus.GameEnd)}},i.roomStart=function(){this.statusCtrl&&(Game.uiCtrl.lockBetArea(),Game.roc"
+    },
+    {
+      "claim": "main_rank_request_goes_to_server",
+      "source_byte_offset": 448731,
+      "excerpt": "i.rankReq=function(){node$1.send(_cjsExports$3.aviatorProto.U2SCmd.U2S_Rank,null)},i.sendSeedReq=function(e){},i.syncAck=function(){},i.getCurrentBet=function(){return this.current"
+    },
+    {
+      "claim": "main_rank_response_goes_to_ui",
+      "source_byte_offset": 447407,
+      "excerpt": "case r.S2U_Rank:var l=_cjsExports$3.aviatorProto.RankBoard.decode(t);Game.uiCtrl.betTableUI.setRankboard(l)}},i.gameDataInit=function(){Game.gameCtrl.gameSetup(),node$4.state.isGameReady=!0},i.GetGameInfo=function(e){nod"
+    },
+    {
+      "claim": "main_rank_ui_uses_monthly_server_records",
+      "source_byte_offset": 261972,
+      "excerpt": "i.setRankboard=function(e){this.HugeWinList.forEach((function(e){var t;null==(t=e.localNode)||t.destroy(),e.localNode=null})),this.HugeWinList=[],e.Monthly&&(this.addHuge(e.Monthly.BetRank),this.addBest(e.Monthly.WinRank))},i.addHuge=function(e){for(var t=0;t<e.length;++t){var i=new Node;i.addComponent(UITransform).setContentSize(this.HugeWinItemSize),i.parent=this.hugeWinScrollview.cont"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "rounds": {
+    "644919241425842376": {
+      "session": "20261106-101548",
+      "currency": "IDR",
+      "currency_code": 7,
+      "full_frame_roundtrip": true
+    },
+    "644919280315429064": {
+      "session": "20261106-101548",
+      "currency": "IDR",
+      "currency_code": 7,
+      "full_frame_roundtrip": true
+    },
+    "644919319188238536": {
+      "session": "20261106-101548",
+      "currency": "IDR",
+      "currency_code": 7,
+      "full_frame_roundtrip": true
+    },
+    "644919358044270792": {
+      "session": "20261106-101548",
+      "currency": "IDR",
+      "currency_code": 7,
+      "full_frame_roundtrip": true
+    },
+    "644919462348222664": {
+      "session": "20261106-101548",
+      "currency": "IDR",
+      "currency_code": 7,
+      "full_frame_roundtrip": true
+    },
+    "644919709258510536": {
+      "session": "20261106-101548",
+      "currency": "IDR",
+      "currency_code": 7,
+      "full_frame_roundtrip": true
+    }
+  }
+}

@@ -1,0 +1,254 @@
+{
+  "Info": [
+    {
+      "number": 1,
+      "name": "serverHash",
+      "type": "string",
+      "repeated": false
+    }
+  ],
+  "SyncRate": [
+    {
+      "number": 1,
+      "name": "rate",
+      "type": "double",
+      "repeated": false
+    },
+    {
+      "number": 2,
+      "name": "now",
+      "type": "Timestamp",
+      "repeated": false
+    }
+  ],
+  "BetReq": [
+    {
+      "number": 1,
+      "name": "betData",
+      "type": "BetData",
+      "repeated": true
+    },
+    {
+      "number": 3,
+      "name": "seed",
+      "type": "string",
+      "repeated": false
+    },
+    {
+      "number": 4,
+      "name": "useFree",
+      "type": "bool",
+      "repeated": false
+    },
+    {
+      "number": 5,
+      "name": "clientName",
+      "type": "string",
+      "repeated": true
+    }
+  ],
+  "BetData": [
+    {
+      "number": 1,
+      "name": "bet",
+      "type": "double",
+      "repeated": false
+    },
+    {
+      "number": 2,
+      "name": "autoRate",
+      "type": "double",
+      "repeated": false
+    }
+  ],
+  "BetResp": [
+    {
+      "number": 1,
+      "name": "roundIndex",
+      "type": "int64",
+      "repeated": false
+    },
+    {
+      "number": 2,
+      "name": "useFree",
+      "type": "bool",
+      "repeated": false
+    },
+    {
+      "number": 3,
+      "name": "betFailed",
+      "type": "bool",
+      "repeated": false
+    }
+  ],
+  "FlyEnd": [
+    {
+      "number": 1,
+      "name": "endRate",
+      "type": "double",
+      "repeated": false
+    },
+    {
+      "number": 2,
+      "name": "isMax",
+      "type": "bool",
+      "repeated": false
+    },
+    {
+      "number": 3,
+      "name": "totalWin",
+      "type": "double",
+      "repeated": false
+    },
+    {
+      "number": 4,
+      "name": "coin",
+      "type": "double",
+      "repeated": false
+    },
+    {
+      "number": 5,
+      "name": "now",
+      "type": "Timestamp",
+      "repeated": false
+    }
+  ],
+  "CashOutReq": [
+    {
+      "number": 1,
+      "name": "betType",
+      "type": "int32",
+      "repeated": false
+    }
+  ],
+  "CashOut": [
+    {
+      "number": 1,
+      "name": "myRate",
+      "type": "double",
+      "repeated": false
+    },
+    {
+      "number": 2,
+      "name": "win",
+      "type": "double",
+      "repeated": false
+    },
+    {
+      "number": 3,
+      "name": "betType",
+      "type": "int32",
+      "repeated": false
+    },
+    {
+      "number": 4,
+      "name": "coin",
+      "type": "double",
+      "repeated": false
+    },
+    {
+      "number": 7,
+      "name": "now",
+      "type": "Timestamp",
+      "repeated": false
+    }
+  ],
+  "RankDetail": [
+    {
+      "number": 1,
+      "name": "bet",
+      "type": "double",
+      "repeated": false
+    },
+    {
+      "number": 2,
+      "name": "win",
+      "type": "double",
+      "repeated": false
+    },
+    {
+      "number": 3,
+      "name": "rate",
+      "type": "double",
+      "repeated": false
+    },
+    {
+      "number": 4,
+      "name": "create",
+      "type": "Timestamp",
+      "repeated": false
+    },
+    {
+      "number": 7,
+      "name": "apiID",
+      "type": "uint32",
+      "repeated": false
+    },
+    {
+      "number": 8,
+      "name": "accountID",
+      "type": "uint32",
+      "repeated": false
+    },
+    {
+      "number": 9,
+      "name": "rankType",
+      "type": "int32",
+      "repeated": false
+    },
+    {
+      "number": 10,
+      "name": "rankName",
+      "type": "string",
+      "repeated": false
+    },
+    {
+      "number": 11,
+      "name": "accountIDV2",
+      "type": "uint64",
+      "repeated": false
+    }
+  ],
+  "RankBoard": [
+    {
+      "number": 1,
+      "name": "Daily",
+      "type": "RankList",
+      "repeated": false
+    },
+    {
+      "number": 2,
+      "name": "Monthly",
+      "type": "RankList",
+      "repeated": false
+    }
+  ],
+  "RankList": [
+    {
+      "number": 1,
+      "name": "BetRank",
+      "type": "RankDetail",
+      "repeated": true
+    },
+    {
+      "number": 2,
+      "name": "WinRank",
+      "type": "RankDetail",
+      "repeated": true
+    }
+  ],
+  "Timestamp": [
+    {
+      "number": 1,
+      "name": "seconds",
+      "type": "int64",
+      "repeated": false
+    },
+    {
+      "number": 2,
+      "name": "nanos",
+      "type": "int32",
+      "repeated": false
+    }
+  ]
+}

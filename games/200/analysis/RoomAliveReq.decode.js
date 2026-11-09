@@ -1,0 +1,1 @@
+function(t,e){t instanceof u||(t=u.create(t));for(var n=void 0===e?t.len:t.pos+e,r=new h.protocol.RoomAliveReq;t.pos<n;){var o=t.uint32();switch(o>>>3){case 1:if(r.roomID&&r.roomID.length||(r.roomID=[]),2==(7&o))for(var i=t.uint32()+t.pos;t.pos<i;)r.roomID.push(t.int32());else r.roomID.push(t.int32());break;default:t.skipType(7&o)}}return r}

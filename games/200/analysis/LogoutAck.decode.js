@@ -1,0 +1,1 @@
+function(t,e){t instanceof u||(t=u.create(t));for(var n=void 0===e?t.len:t.pos+e,r=new h.protocol.LogoutAck;t.pos<n;){var o=t.uint32();switch(o>>>3){case 1:r.type=t.int32();break;case 2:r.code=t.uint32();break;case 3:r.message=t.string();break;default:t.skipType(7&o)}}return r}

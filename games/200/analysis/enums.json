@@ -1,0 +1,80 @@
+{
+  "UserToServer": {
+    "U2S_LOGIN_REQ": 0,
+    "U2S_JOIN_THEME_REQ": 10,
+    "U2S_JOIN_ROOM_REQ": 11,
+    "U2S_LEAVE_ROOM_REQ": 12,
+    "U2S_ROOM_ALIVE_REQ": 13,
+    "U2S_THEME_INFO_REQ": 14,
+    "U2S_SPIN_REQ": 22,
+    "U2S_FORCE_END_REQ": 25,
+    "U2S_SYNC_REQ": 26
+  },
+  "ServerToUser": {
+    "S2U_LOGIN_ACK": 0,
+    "S2U_LOGOUT_ACK": 1,
+    "S2U_JOIN_THEME_ACK": 10,
+    "S2U_JOIN_ROOM_ACK": 11,
+    "S2U_LEAVE_ROOM_ACK": 12,
+    "S2U_THEME_UPDATE_HISTORY": 13,
+    "S2U_THEME_UPDATE_PLAYERS": 14,
+    "S2U_ROOM_PLAYER_JOIN": 15,
+    "S2U_ROOM_PLAYER_LEAVE": 16,
+    "S2U_ROOM_START": 17,
+    "S2U_ROOM_END": 18,
+    "S2U_SPIN_ACK": 22,
+    "S2U_SYNC_ACK": 24
+  },
+  "LoginResult": {
+    "LR_SUCCESS": 0,
+    "LR_DUPLICATE": 1,
+    "LR_INVALID_ACCOUNT": 2,
+    "LR_FULL": 3,
+    "LR_RELOGIN": 4,
+    "LR_RELOGIN_FAIL": 5,
+    "LR_MAINTAIN": 6,
+    "LR_UNKNOWN": 255
+  },
+  "LogoutType": {
+    "LT_NONE": 0,
+    "LT_DUPLICATE": 1,
+    "LT_INVALID_PLATFORM": 2,
+    "LT_INVALID_GAME": 3,
+    "LT_OVERDRAFT": 4,
+    "LT_IDEL": 5,
+    "LT_TRANSFER": 6,
+    "LT_MAINTAIN": 7,
+    "LT_UNKNOWN": 255
+  },
+  "AreaType": {
+    "None": 0,
+    "Umbrella": 1,
+    "Soccer": 2,
+    "Sun": 3,
+    "Candle": 4,
+    "Bull": 5,
+    "Bucket": 6,
+    "Kite": 7,
+    "WhippingTop": 8,
+    "Rose": 9,
+    "Butterfly": 10,
+    "Pigeon": 11,
+    "Rabbit": 12
+  },
+  "CheatCode": {
+    "CC_NONE": 0,
+    "CC_UMBRELLA": 1,
+    "CC_SOCCER": 2,
+    "CC_SUN": 3,
+    "CC_CANDLE": 4,
+    "CC_BULL": 5,
+    "CC_BUCKET": 6,
+    "CC_KITE": 7,
+    "CC_WHIPPINGTOP": 8,
+    "CC_ROSE": 9,
+    "CC_BUTTERFLY": 10,
+    "CC_PIGEON": 11,
+    "CC_RABBIT": 12,
+    "CC_HIGHPRIZE": 13
+  }
+}

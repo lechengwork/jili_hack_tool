@@ -1,0 +1,1 @@
+function(e,t){e instanceof d||(e=d.create(e));for(var i=void 0===t?e.len:e.pos+t,r=new f.fastProto.BonusResp;e.pos<i;){var o=e.uint32();switch(o>>>3){case 1:r.bonusBar=e.double();break;case 2:r.bonusMaxRate=e.double();break;case 3:r.bonusAdd=e.double();break;case 4:r.bonusRound=e.double();break;default:e.skipType(7&o)}}return r}

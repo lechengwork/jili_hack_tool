@@ -1,0 +1,10 @@
+
+# Preserve versioned original asset bytes on every platform.
+games/*/static/** -text -whitespace
+game_site_backup/** -text -whitespace
+games/*/analysis/*.decoded.js -text -whitespace
+games/*/analysis/*.factory.js -text -whitespace
+games/*/analysis/*.decode.js -text -whitespace
+*.webp binary
+*.astc binary
+*.cconb binary

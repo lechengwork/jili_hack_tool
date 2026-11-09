@@ -1,0 +1,60 @@
+{
+  "synthetic_integration": "passed",
+  "original_frontend_codec": "rcProto2",
+  "complete_payload_roundtrip": true,
+  "conflict_protection": true,
+  "real_spin_validation": {
+    "responses": 54,
+    "verified_success_spins": 34,
+    "published": 34,
+    "errors": 0
+  },
+  "source_session": "20261106-105706",
+  "currency": {
+    "value": "IDR",
+    "evidence": "decrypted signed initialization response type=1, payload f1 contains IDR"
+  },
+  "latest_session_validation": {
+    "session": "20261106-110729",
+    "responses": 171,
+    "verified_success_spins": 83,
+    "published": 83,
+    "errors": 0,
+    "offset": 134075
+  },
+  "coverage": {
+    "total_successful_rounds": 187,
+    "normal_rounds": 109,
+    "extra_bet_rounds": 76,
+    "purchase_rounds": 2
+  },
+  "purchase_schema_validation": {
+    "schema_enrichment_full_byte_roundtrip": true,
+    "buys": [
+      {
+        "round_id": "2489894627000010573",
+        "purchase": {
+          "f1": 1,
+          "selector": 0,
+          "amount": 150000.0
+        },
+        "shared_updated": true,
+        "queue_length": 19,
+        "bonus_remaining_last": 0,
+        "total_win": 198000.0
+      },
+      {
+        "round_id": "2489896611000040573",
+        "purchase": {
+          "f1": 1,
+          "selector": 1,
+          "amount": 300000.0
+        },
+        "shared_updated": true,
+        "queue_length": 5,
+        "bonus_remaining_last": 0,
+        "total_win": 252000.0
+      }
+    ]
+  }
+}

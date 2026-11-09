@@ -1,0 +1,172 @@
+{
+  "description": "Original Cocos archive members; ZIPs are local generated runtime files, not versioned",
+  "archives": [
+    {
+      "path": "astarte2/3.8/web-mobile/assets/jili/jili.397a0.zip",
+      "original_sha256": "70abac8995c6c89b532bf717c8569bc0de1623da16a48497bc025237d986bf81",
+      "members": [
+        {
+          "name": "native/03/03cb1986-6193-42e5-9592-49238819fe57.a97b3.plist",
+          "path": "astarte2/3.8/web-mobile/assets/jili/native/03/03cb1986-6193-42e5-9592-49238819fe57.a97b3.plist",
+          "sha256": "94e1d65cb5d9174da55a1c5a84f0b7578a8a1674dee8155df3c69b66f6aa6f92",
+          "compression": 8
+        },
+        {
+          "name": "native/08/081e7332-9153-4bc1-abcf-be3797ec2cd6.ec1fa.plist",
+          "path": "astarte2/3.8/web-mobile/assets/jili/native/08/081e7332-9153-4bc1-abcf-be3797ec2cd6.ec1fa.plist",
+          "sha256": "59ba0437691571b66fed2d039e3c10c6c5fef3c24c995a8344423ef6db9c4b4e",
+          "compression": 8
+        },
+        {
+          "name": "native/0a/0ae7bf4f-0049-4fa1-b1bc-75376a1fa68d.63bdf.plist",
+          "path": "astarte2/3.8/web-mobile/assets/jili/native/0a/0ae7bf4f-0049-4fa1-b1bc-75376a1fa68d.63bdf.plist",
+          "sha256": "84865a31f356cc5fe7e70ec9d70aae5d540aa3b6b4926cceb767bd6c9cd02958",
+          "compression": 8
+        },
+        {
+          "name": "native/0c/0cad5216-13b1-46ed-8891-5d1b5beb4d30.b4521.plist",
+          "path": "astarte2/3.8/web-mobile/assets/jili/native/0c/0cad5216-13b1-46ed-8891-5d1b5beb4d30.b4521.plist",
+          "sha256": "3e2dd9df60a70491f4d979664b3a02d300fadd5d7bea5fbaf1d61133b1daaeec",
+          "compression": 8
+        },
+        {
+          "name": "native/14/14f6f6b1-1f0d-4da2-8191-7e38391bab81.dc025.plist",
+          "path": "astarte2/3.8/web-mobile/assets/jili/native/14/14f6f6b1-1f0d-4da2-8191-7e38391bab81.dc025.plist",
+          "sha256": "46c485e667d5a5beef9bc7697eaa7d7266b47cc3286d195d6cbf69ef82ae2dbc",
+          "compression": 8
+        },
+        {
+          "name": "native/14/14fc0450-bd65-4905-99a0-0486753375e2.80fb8.plist",
+          "path": "astarte2/3.8/web-mobile/assets/jili/native/14/14fc0450-bd65-4905-99a0-0486753375e2.80fb8.plist",
+          "sha256": "a2c865f4b2106a67aaad65831d137174b54af3609810a1ade38dbf9fc41e8c56",
+          "compression": 8
+        },
+        {
+          "name": "native/16/1692053a-d56f-4bcc-9500-e0c0ae7b24e9.56c08.plist",
+          "path": "astarte2/3.8/web-mobile/assets/jili/native/16/1692053a-d56f-4bcc-9500-e0c0ae7b24e9.56c08.plist",
+          "sha256": "2594dcc0c59a2640950f433233360c86888ca09dc995d3a224a51c8386428685",
+          "compression": 8
+        },
+        {
+          "name": "native/1b/1b18d032-039f-40e3-ae18-42aafc029906.69f98.plist",
+          "path": "astarte2/3.8/web-mobile/assets/jili/native/1b/1b18d032-039f-40e3-ae18-42aafc029906.69f98.plist",
+          "sha256": "b540a4a14e7b4fd4634eaad6ba5cd04626ddf65fb5b76bede355f06f448b0358",
+          "compression": 8
+        },
+        {
+          "name": "native/1e/1e26ab0d-0da2-418a-acc6-d922425bf346.bf346.plist",
+          "path": "astarte2/3.8/web-mobile/assets/jili/native/1e/1e26ab0d-0da2-418a-acc6-d922425bf346.bf346.plist",
+          "sha256": "ceedb74ceb4985f487caadc6f8bf09b2f1d9fa7404a1835db2cd6366a899e469",
+          "compression": 8
+        },
+        {
+          "name": "native/21/21165251-a8b1-4520-92e3-f7af4ec1b646.e520d.plist",
+          "path": "astarte2/3.8/web-mobile/assets/jili/native/21/21165251-a8b1-4520-92e3-f7af4ec1b646.e520d.plist",
+          "sha256": "07c142437f0166f4e7298f1a9a92e3b5f0a4eabdb74755f8f230fce68afe3195",
+          "compression": 8
+        },
+        {
+          "name": "native/25/25636546-b515-40c7-82b6-94ca35d7c839.50624.plist",
+          "path": "astarte2/3.8/web-mobile/assets/jili/native/25/25636546-b515-40c7-82b6-94ca35d7c839.50624.plist",
+          "sha256": "99fa38c74d018b5a0483f4dc04d2c387676bb88f188edb9324397cd12be0d1f2",
+          "compression": 8
+        },
+        {
+          "name": "native/29/2940f9e8-b260-4388-8dbb-a6ebfadca4da.8f452.plist",
+          "path": "astarte2/3.8/web-mobile/assets/jili/native/29/2940f9e8-b260-4388-8dbb-a6ebfadca4da.8f452.plist",
+          "sha256": "cacae73020add47351884603c1835e59b78e72c6a13bff42d476bc50f3d78444",
+          "compression": 8
+        },
+        {
+          "name": "native/33/33c04421-5a3d-47a2-a71c-17a20dd7f277.ff31e.plist",
+          "path": "astarte2/3.8/web-mobile/assets/jili/native/33/33c04421-5a3d-47a2-a71c-17a20dd7f277.ff31e.plist",
+          "sha256": "5667e2c7f6936f6a3f167d08600a32dbd1199ff6633d18adef5e82ecf683853b",
+          "compression": 8
+        },
+        {
+          "name": "native/3f/3f1e3984-4149-4df8-87df-60abfec80971.78d84.plist",
+          "path": "astarte2/3.8/web-mobile/assets/jili/native/3f/3f1e3984-4149-4df8-87df-60abfec80971.78d84.plist",
+          "sha256": "e9b41c8002841da12b263abf748a9d5379d8dbfcfec7c0a5ce4af76e8e14cff3",
+          "compression": 8
+        },
+        {
+          "name": "native/4a/4a207594-1cb9-4597-b293-89d80783346d.8e99d.plist",
+          "path": "astarte2/3.8/web-mobile/assets/jili/native/4a/4a207594-1cb9-4597-b293-89d80783346d.8e99d.plist",
+          "sha256": "c131018fae453488a03337c38bea9c2bf47c5bab0588d14b9206867befd8596e",
+          "compression": 8
+        },
+        {
+          "name": "native/4b/4bc1f081-39ed-4444-91eb-e64d82646201.701be.plist",
+          "path": "astarte2/3.8/web-mobile/assets/jili/native/4b/4bc1f081-39ed-4444-91eb-e64d82646201.701be.plist",
+          "sha256": "3e4ab7b352c426ecc9bba57753c7d253856e9f4b7379ba2395fd06607a45763f",
+          "compression": 8
+        },
+        {
+          "name": "native/9a/9ac2396b-26a5-4181-b1f9-1f637ec8491e.22fb6.plist",
+          "path": "astarte2/3.8/web-mobile/assets/jili/native/9a/9ac2396b-26a5-4181-b1f9-1f637ec8491e.22fb6.plist",
+          "sha256": "a93ff34875cbd47717d37bc4883641dd13e83f302072e7910bd4d7c4eea1b342",
+          "compression": 8
+        },
+        {
+          "name": "native/cc/cc8ff31e-f06c-4334-81e6-f509392a1a32.a6b6f.plist",
+          "path": "astarte2/3.8/web-mobile/assets/jili/native/cc/cc8ff31e-f06c-4334-81e6-f509392a1a32.a6b6f.plist",
+          "sha256": "2f65d7f0f85d0d67652e13e6b3a50b9d1d14cdbc9498ed0bb711f2358fba3db3",
+          "compression": 8
+        },
+        {
+          "name": "native/ea/eaa6edf7-5131-4364-b939-97e262d902e0.c52f9.plist",
+          "path": "astarte2/3.8/web-mobile/assets/jili/native/ea/eaa6edf7-5131-4364-b939-97e262d902e0.c52f9.plist",
+          "sha256": "3ec59260f63af25f72026af112e4098ffa0612bcec54e82b02d75059fcde7776",
+          "compression": 8
+        },
+        {
+          "name": "native/ef/ef21c8b1-ed57-4021-a142-afbaa95619f0.bce53.plist",
+          "path": "astarte2/3.8/web-mobile/assets/jili/native/ef/ef21c8b1-ed57-4021-a142-afbaa95619f0.bce53.plist",
+          "sha256": "5c04234d2dde1ea750f0994170943030489273e4de3573108e9af90a05ff508a",
+          "compression": 8
+        },
+        {
+          "name": "native/f6/f626e42a-35a3-46ec-9bfa-0147d19719a3.cac58.plist",
+          "path": "astarte2/3.8/web-mobile/assets/jili/native/f6/f626e42a-35a3-46ec-9bfa-0147d19719a3.cac58.plist",
+          "sha256": "309543195d065020cd589bffab72d9f70fc0b6538091240e9205a0be876953fe",
+          "compression": 8
+        },
+        {
+          "name": "native/ff/ff8bcc41-d573-4174-aece-90d3af60c6d3.b345e.plist",
+          "path": "astarte2/3.8/web-mobile/assets/jili/native/ff/ff8bcc41-d573-4174-aece-90d3af60c6d3.b345e.plist",
+          "sha256": "87baa40977cc1ab8dbe4b4c201db3f56f35db19a9ef962308c7e983ab61fdb6f",
+          "compression": 8
+        },
+        {
+          "name": "native/ff/fffc8e85-6698-4f35-893f-d5a18b7de242.fce97.plist",
+          "path": "astarte2/3.8/web-mobile/assets/jili/native/ff/fffc8e85-6698-4f35-893f-d5a18b7de242.fce97.plist",
+          "sha256": "d4a5d2fb991984f101f033bac41ed5d0fc4412977026426e19eab04ea8061ccb",
+          "compression": 8
+        }
+      ]
+    },
+    {
+      "path": "astarte2/3.8/web-mobile/assets/jiliMain/jiliMain.0c080.zip",
+      "original_sha256": "b3beb17f6389e5a10aad9473806f5509eef3257529bff8b646754991a1f9d1f2",
+      "members": [
+        {
+          "name": "native/bb/bb6488a5-997f-4ab5-99b9-2d61395fe0c1.f111a.plist",
+          "path": "astarte2/3.8/web-mobile/assets/jiliMain/native/bb/bb6488a5-997f-4ab5-99b9-2d61395fe0c1.f111a.plist",
+          "sha256": "262df4af7d5ddff46eabd48d447322be940b77277084e4d594ab01bd0d5e7b41",
+          "compression": 8
+        },
+        {
+          "name": "native/fd/fd45cdf4-0150-4718-9b10-fbeed3c91fc0.f111a.plist",
+          "path": "astarte2/3.8/web-mobile/assets/jiliMain/native/fd/fd45cdf4-0150-4718-9b10-fbeed3c91fc0.f111a.plist",
+          "sha256": "262df4af7d5ddff46eabd48d447322be940b77277084e4d594ab01bd0d5e7b41",
+          "compression": 8
+        }
+      ]
+    },
+    {
+      "path": "rc2/assets/game/game.1e9fa.zip",
+      "original_sha256": "8739c76e681f900923b900c9df0ef75cf421d39cabb54650c4b9ad19b6a76d85",
+      "members": []
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+function(t,e){t instanceof u||(t=u.create(t));for(var n=void 0===e?t.len:t.pos+e,r=new h.protocol.Command;t.pos<n;){var o=t.uint32();switch(o>>>3){case 1:r.type=t.uint32();break;case 2:r.data=t.bytes();break;default:t.skipType(7&o)}}return r}

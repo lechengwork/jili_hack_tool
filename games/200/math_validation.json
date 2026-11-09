@@ -1,0 +1,35 @@
+{
+  "session": "20261106-101548",
+  "source_currency": "IDR",
+  "stats": {
+    "verified_game_frames": 70,
+    "framework_login_requests": 1,
+    "unclassified_game_frames": 176,
+    "spectator_results": 11,
+    "validated_own_rounds": 6,
+    "published_rounds": 6
+  },
+  "round_ids": [
+    "644919241425842376",
+    "644919280315429064",
+    "644919319188238536",
+    "644919358044270792",
+    "644919462348222664",
+    "644919709258510536"
+  ],
+  "protocol": "Plaintext Pappu Command protobuf over TLS; no independent application signature field in original codec or verified known frames",
+  "checks": [
+    "complete request/ack/result frame byte round-trip",
+    "own uid and unique clientCheckNum match",
+    "original room/wagers context",
+    "single ordinary reward and picture",
+    "gross-return payout",
+    "wallet delta",
+    "exclusive atomic publication"
+  ],
+  "limitations": [
+    "RTP/weights are not inferred",
+    "special isBonus mode has no positive sample",
+    "ordinary nonwinning area return-odds values preserved; full distribution unknown"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "platform_id": 1838,
+  "platform_id_source": "user supplied; CMS does not expose this platform label",
+  "requested_name": "海盜女王2",
+  "jili_game_id": 461,
+  "cms_game_id": "111000461",
+  "verified_at": "2026-11-06",
+  "evidence": [
+    "Original JILI language table GAMEID_461 = Pirate Queen 2 / 海盗女王 2",
+    "Fresh LoginGame 111000461 returned /pirate2/index.html?gameID=461",
+    "Original bundle source identifies 0461-Pirate2 and exports pirate2Proto"
+  ],
+  "rejected_candidates": [
+    {
+      "id": "111000574",
+      "result": "HTTP400 code905 data not exsit"
+    },
+    {
+      "id": "1330010461",
+      "result": "CMS exact name match but reserved account HTTP400 code207 game hall not available; not used"
+    }
+  ],
+  "bundle_sha256": "8486bb58bb85ab968cdfa553cb3b0c471cb589cb7a8e43a18ec8efdfbe5794ca"
+}

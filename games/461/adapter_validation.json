@@ -1,0 +1,12 @@
+{
+  "fixture_only": true,
+  "live_success_spins": 0,
+  "original_codec": "pirate2Proto",
+  "full_payload_byte_roundtrip": true,
+  "edited_named_field_reencoded": true,
+  "unknown_field_preserved": true,
+  "atomic_publish_and_conflict_preservation": true,
+  "nonspin_failed_unverified_filtered": true,
+  "decode_failure_raw_retained": true,
+  "envelope_semantics": "neutral pending live evidence"
+}

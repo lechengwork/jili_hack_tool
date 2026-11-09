@@ -1,0 +1,24 @@
+{
+  "session": "20261106-155357",
+  "signed_successful_spins": 291,
+  "published_math": 291,
+  "normal_spins": 291,
+  "normal_bonus": true,
+  "errors": [],
+  "round_id": "2490172819000050664",
+  "idx": 377,
+  "signature_verified": true,
+  "original_codec_verified": true,
+  "complete_payload_roundtrip": true,
+  "request_roundtrip": true,
+  "extra_and_purchase_absent_in_original_request": true,
+  "GetBonus": 2,
+  "PlateSymbol_count": 6,
+  "final_session_spins": 311,
+  "final_session_state": "closed",
+  "verified_normal_bonus_rounds": [
+    "2490172819000050664",
+    "2490173571000020664",
+    "2490174499000020664"
+  ]
+}

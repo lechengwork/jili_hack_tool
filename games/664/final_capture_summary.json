@@ -1,0 +1,79 @@
+{
+  "game_id": 664,
+  "platform_id": 1839,
+  "state": "closed",
+  "currencies": [
+    "IDR"
+  ],
+  "sessions": [
+    {
+      "session": "20261106-153325",
+      "currency": "IDR",
+      "responses": 215,
+      "successful_spins": 127,
+      "full_payload_roundtrip_verified": 127,
+      "request_roundtrip_verified": 127,
+      "errors": [],
+      "conflicts": 0
+    },
+    {
+      "session": "20261106-155357",
+      "currency": "IDR",
+      "responses": 412,
+      "successful_spins": 311,
+      "full_payload_roundtrip_verified": 311,
+      "request_roundtrip_verified": 311,
+      "errors": [],
+      "conflicts": 0
+    }
+  ],
+  "responses": 627,
+  "signature_verified_responses": 627,
+  "successful_spins": 438,
+  "shared_math_files": 438,
+  "full_payload_roundtrip_verified": 438,
+  "request_roundtrip_verified": 438,
+  "errors": [],
+  "conflicts": 0,
+  "partial_raw_tail": false,
+  "coverage": {
+    "normal": {
+      "spins": 388,
+      "bonus_spins": [
+        "2490172819000050664",
+        "2490173571000020664",
+        "2490174499000020664"
+      ],
+      "debit_verified": 388,
+      "debit_mismatches": []
+    },
+    "extra_1_5": {
+      "spins": 27,
+      "bonus_spins": [
+        "2490143619000010664"
+      ],
+      "debit_verified": 27,
+      "debit_mismatches": []
+    },
+    "extra_8": {
+      "spins": 22,
+      "bonus_spins": [
+        "2490146579000000664"
+      ],
+      "debit_verified": 22,
+      "debit_mismatches": []
+    },
+    "purchase": {
+      "spins": 1,
+      "bonus_spins": [
+        "2490147875000000664"
+      ],
+      "debit_verified": 1,
+      "debit_mismatches": []
+    }
+  },
+  "limitations": [
+    "Bonus internal stage semantics, retriggers and rare flags are not claimed exhaustive.",
+    "Sessions and cryptographic keys remain separate; counts are combined after independent validation."
+  ]
+}

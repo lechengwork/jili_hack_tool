@@ -1,0 +1,8 @@
+{
+  "platform_id": 4103,
+  "jili_game_id": 200,
+  "name": "Pappu",
+  "observed_entry": "/pappu/index.html",
+  "evidence": "LoginGame via IDR/ys3/tryplayer003idr returned gameID=200 on 2026-11-06",
+  "transport_status": "Plaintext WebSocket: six own-wager rounds fully validated and published; Go local math module scaffold/tested, production probability settings intentionally empty"
+}

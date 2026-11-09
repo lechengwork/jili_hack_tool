@@ -1,0 +1,16 @@
+{
+  "request_label": 1836,
+  "selected_by": "game_name (user confirmed)",
+  "game_name": "幸运草金币 3x3",
+  "jili_gameID": 545,
+  "api_game_id": "111000545",
+  "entry_path": "/cc3x3/",
+  "catalog_candidates": [
+    545,
+    650
+  ],
+  "live_545": "LoginGame returned /cc3x3/?gameID=545; successful signed SPIN round IDs end 545",
+  "live_650": "LoginGame HTTP 400 code905 data not exsit",
+  "platform_1836_conflict": "sibling README_GameCodeNote.md maps 1836 to chilli/5; do not change platform mapping from this task",
+  "catalog_source": "game_site_backup/uat-wbgame.jlfafafa3.com/smallicon/lang/zh-CN/strings.json"
+}

@@ -1,0 +1,1 @@
+function(t,e){t instanceof u||(t=u.create(t));for(var n=void 0===e?t.len:t.pos+e,r=new h.protocol.RoomSample;t.pos<n;){var o=t.uint32();switch(o>>>3){case 1:r.history=h.protocol.RoomHistory.decode(t,t.uint32());break;case 2:r.player=t.uint32();break;case 3:r.isClosed=t.bool();break;default:t.skipType(7&o)}}return r}

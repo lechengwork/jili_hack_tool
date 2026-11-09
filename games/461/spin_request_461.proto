@@ -1,0 +1,21 @@
+syntax = "proto3";
+package math_input_461;
+// Inferred only from this game's verified requests. Neutral fields are not enums.
+message Purchase461 {
+  int32 f1 = 1;
+  int32 f2 = 2;
+  double amount = 3;
+  repeated uint32 _wire = 500000000;
+}
+message Context461 {
+  int32 f1 = 1;
+  int32 f2 = 2;
+  int32 f4 = 4;
+  repeated uint32 _wire = 500000000;
+}
+message SpinRequest461 {
+  double bet = 1;
+  Purchase461 purchase = 23;
+  Context461 context = 25;
+  repeated uint32 _wire = 500000000;
+}

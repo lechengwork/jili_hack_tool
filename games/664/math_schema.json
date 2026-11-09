@@ -1,0 +1,172 @@
+{
+  "Column": [
+    {
+      "number": 1,
+      "name": "Row",
+      "type": "int32",
+      "repeated": true
+    }
+  ],
+  "Single": [
+    {
+      "number": 1,
+      "name": "Col",
+      "type": "Column",
+      "repeated": true
+    }
+  ],
+  "AwardData": [
+    {
+      "number": 1,
+      "name": "Symbol",
+      "type": "int32",
+      "repeated": false
+    },
+    {
+      "number": 2,
+      "name": "Line",
+      "type": "int32",
+      "repeated": false
+    },
+    {
+      "number": 3,
+      "name": "Win",
+      "type": "double",
+      "repeated": false
+    },
+    {
+      "number": 4,
+      "name": "Mult",
+      "type": "double",
+      "repeated": false
+    }
+  ],
+  "SpinAck": [
+    {
+      "number": 1,
+      "name": "PlateSymbol",
+      "type": "Single",
+      "repeated": true
+    },
+    {
+      "number": 2,
+      "name": "AwardDataVec",
+      "type": "GameAwardData",
+      "repeated": true
+    },
+    {
+      "number": 3,
+      "name": "WildOdd",
+      "type": "GameWildOdd",
+      "repeated": true
+    },
+    {
+      "number": 4,
+      "name": "WildOddDone",
+      "type": "GameWildOdd",
+      "repeated": true
+    },
+    {
+      "number": 5,
+      "name": "SuperMult",
+      "type": "GameWildOdd",
+      "repeated": true
+    },
+    {
+      "number": 6,
+      "name": "WildWin",
+      "type": "double",
+      "repeated": true
+    },
+    {
+      "number": 7,
+      "name": "BigMult",
+      "type": "double",
+      "repeated": true
+    },
+    {
+      "number": 8,
+      "name": "GameWin",
+      "type": "double",
+      "repeated": true
+    },
+    {
+      "number": 9,
+      "name": "GetBonus",
+      "type": "int32",
+      "repeated": false
+    },
+    {
+      "number": 10,
+      "name": "BonusSymbol",
+      "type": "int32",
+      "repeated": false
+    },
+    {
+      "number": 11,
+      "name": "Extra",
+      "type": "int32",
+      "repeated": false
+    },
+    {
+      "number": 12,
+      "name": "AwardTypeFlag",
+      "type": "int32",
+      "repeated": false
+    },
+    {
+      "number": 13,
+      "name": "TotalWin",
+      "type": "double",
+      "repeated": false
+    },
+    {
+      "number": 14,
+      "name": "RTP",
+      "type": "double",
+      "repeated": false
+    },
+    {
+      "number": 15,
+      "name": "LID",
+      "type": "int32",
+      "repeated": false
+    },
+    {
+      "number": 16,
+      "name": "RID",
+      "type": "int32",
+      "repeated": false
+    },
+    {
+      "number": 17,
+      "name": "MaxFlag",
+      "type": "bool",
+      "repeated": false
+    }
+  ],
+  "GemInfo": [
+    {
+      "number": 1,
+      "name": "data",
+      "type": "int32",
+      "repeated": false
+    }
+  ],
+  "GameAwardData": [
+    {
+      "number": 1,
+      "name": "ADV",
+      "type": "AwardData",
+      "repeated": true
+    }
+  ],
+  "GameWildOdd": [
+    {
+      "number": 1,
+      "name": "WO",
+      "type": "double",
+      "repeated": true
+    }
+  ]
+}

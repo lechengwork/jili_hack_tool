@@ -1,0 +1,37 @@
+{
+  "sessions": [
+    {
+      "session": "20261106-162808",
+      "currency": "IDR",
+      "successful_math": 12,
+      "errors": 0,
+      "conflicts": 0,
+      "closed": true
+    },
+    {
+      "session": "20261109-100032",
+      "currency": "IDR",
+      "successful_math": 2,
+      "errors": 0,
+      "conflicts": 0,
+      "closed": true
+    },
+    {
+      "session": "20261109-105609",
+      "currency": "IDR",
+      "successful_math": 2,
+      "errors": 0,
+      "conflicts": 0,
+      "closed": true
+    }
+  ],
+  "total_successful_math": 16,
+  "shared_math_files": 16,
+  "total_raw_frames": 3964,
+  "rank_responses_verified": 5,
+  "fairness_commitment_verified_rounds": 1,
+  "full_fairness_algorithm_verified": false,
+  "rank_fairness_audit": "analysis/rank_fairness_validation.json",
+  "fairness_seed_chain_verified_rounds": 3,
+  "latest_history_fairness_audit": "analysis/history_validation.json"
+}

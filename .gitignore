@@ -7,6 +7,17 @@ games/696/netlog_live.json
 game_site_backup/safebrowsing.googleapis.com/
 
 # --- Local build/run artifacts (never upload) ---
+games/573/*.local.json
+games/573/webcap/
+games/573/current_session.txt
+games/573/*.log
+games/573/replay/
+games/200/login_session.local.json
+games/200/capture_config.local.json
+games/200/webcap/
+games/200/current_session.txt
+games/200/*.log
+games/200/replay/
 # Python bytecode cache — regenerated on every run.
 __pycache__/
 *.pyc
@@ -23,3 +34,68 @@ games/124/webcap_ws.jsonl
 games/736/webcap_ws.jsonl
 games/736/raw_sessions/
 games/736/math/shots.jsonl
+
+# Pirate Queen 2 private capture sessions
+games/461/*.local.json
+games/461/webcap/
+games/461/current_session.txt
+games/461/*.log
+
+# Lucky Jaguar 500 private capture sessions
+games/664/*.local.json
+games/664/webcap/
+games/664/current_session.txt
+games/664/*.log
+
+# Go Rush private capture sessions
+games/224/*.local.json
+games/224/webcap/
+games/224/current_session.txt
+games/224/*.log
+
+# Local Go Rush replay runtime
+games/224/replay/
+
+# Offline 664 replay runtime (profile, pids, logs)
+games/664/replay/
+
+# Offline Pirate Queen 2 replay runtime
+games/461/replay/
+
+# Preserved invalid texture originals (not served or shipped)
+games/*/texture_repairs/
+
+# Private credentials, raw capture and local execution artifacts
+/config.json
+.venv/
+.DS_Store
+*.zip
+*.local.json
+*.log
+*.pid
+**/node_modules/
+games/*/current_session.txt
+games/*/webcap/
+games/*/raw_sessions/
+games/*/webcap_ws.jsonl
+games/*/traffic_raw.json
+games/*/netlog*.json
+games/*/runtime/*.key
+games/*/runtime/*.crt
+games/*/runtime/*.hex
+# Development packaging and investigation copies
+/dist518_math/
+/dist807_math/
+/dist94/
+/artifacts/696-rules-only-20261104/
+/artifacts/696-composable-20261104/
+/deobf/*24017*
+
+games/*/analysis/*.log
+games/*/analysis/*.jpg
+games/*/analysis/*.png
+games/*/analysis/browser_probe.html
+games/*/analysis/browser_strings.html
+games/*/analysis/original_guards.html
+/artifacts/texture_webp_batch_first_pass.json
+/artifacts/texture_webp_batch_second_pass.json

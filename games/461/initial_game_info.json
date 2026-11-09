@@ -1,0 +1,11 @@
+{
+  "source": "signature-verified init payload f5; exact original pirate2Proto.GameInfoData byte round-trip",
+  "data": {
+    "Mul": [
+      1,
+      1.5
+    ],
+    "ShowExtra": true
+  },
+  "meaning_limit": "ShowExtra / Mul are original names; paid multiplier still requires extra-bet sample"
+}

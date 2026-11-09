@@ -78,5 +78,15 @@
     "gameid": "696",
     "gamename": "Fortune Garuda 500",
     "note": ""
+  },
+  {
+    "gameid": "807",
+    "gamename": "Fortune Garuda 1000",
+    "note": "INR：jili_login.py 807 --account inr；API game_id=111000807"
+  },
+  {
+    "gameid": "545",
+    "gamename": "幸运草金币 3x3",
+    "note": "資料夾 games/545；機率介面 games/545/math/INTERFACE.md；API game_id=111000545；入口 /cc3x3/"
   }
 ]

@@ -1,0 +1,16 @@
+{
+  "platform_id": 4104,
+  "platform_id_source": "user supplied",
+  "name": "Go Rush",
+  "jili_game_id": 224,
+  "cms_game_id": "111000224",
+  "observed_entry": "/aviator/index.html",
+  "evidence": [
+    "Fresh IDR LoginGame returned gameID=224",
+    "Original aviator HTML GameID=224",
+    "https://jiligames.com/PlusIntro/224?showGame=false"
+  ],
+  "verified_at": "2026-11-06",
+  "original_codec": "aviatorProto",
+  "original_main_sha256": "69fa1d79e01f2773a0eba1f74db2946e4a4abf2d69e73f1966ed8f44730b73c2"
+}
