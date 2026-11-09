@@ -1,0 +1,135 @@
+{
+  "samples": 241,
+  "winning_rounds": 28,
+  "fields": {
+    "1": {
+      "occurrences": 723,
+      "wire_2": 723,
+      "length_5": 723
+    },
+    "2": {
+      "occurrences": 964,
+      "wire_2": 964,
+      "length_5": 723,
+      "length_7": 241
+    },
+    "3": {
+      "occurrences": 241,
+      "wire_2": 241,
+      "length_7": 238,
+      "length_20": 1,
+      "length_10": 1,
+      "length_11": 1
+    },
+    "11": {
+      "occurrences": 42,
+      "wire_2": 42,
+      "length_15": 32,
+      "length_11": 1,
+      "length_13": 9
+    },
+    "12": {
+      "occurrences": 28,
+      "wire_0": 28,
+      "value_1": 24,
+      "value_3": 2,
+      "value_5": 2
+    },
+    "13": {
+      "occurrences": 241,
+      "wire_2": 241,
+      "length_5": 241
+    },
+    "17": {
+      "occurrences": 241,
+      "wire_2": 241,
+      "length_5": 241
+    },
+    "18": {
+      "occurrences": 237,
+      "wire_0": 237,
+      "value_5": 39,
+      "value_3": 65,
+      "value_1": 61,
+      "value_2": 58,
+      "value_50": 2,
+      "value_35": 1,
+      "value_15": 2,
+      "value_41": 1,
+      "value_6": 1,
+      "value_10": 4,
+      "value_20": 1,
+      "value_25": 1,
+      "value_42": 1
+    },
+    "19": {
+      "occurrences": 28,
+      "wire_1": 28,
+      "value_10.5": 1,
+      "value_0.6": 1,
+      "value_30.0": 1,
+      "value_4.5": 2,
+      "value_6.0": 2,
+      "value_18.0": 2,
+      "value_8.4": 1,
+      "value_9.0": 1,
+      "value_126.0": 1,
+      "value_32.4": 1,
+      "value_49.2": 1,
+      "value_12.0": 1,
+      "value_3.6": 7,
+      "value_1.8": 1,
+      "value_12.6": 1,
+      "value_2.4": 1,
+      "value_10.8": 1,
+      "value_176.4": 1,
+      "value_19.2": 1
+    },
+    "21": {
+      "occurrences": 241,
+      "wire_1": 241,
+      "value_0.97": 241
+    },
+    "4": {
+      "occurrences": 2,
+      "wire_0": 2,
+      "value_8": 1,
+      "value_3": 1
+    },
+    "5": {
+      "occurrences": 1,
+      "wire_2": 1,
+      "length_1": 1
+    },
+    "6": {
+      "occurrences": 5,
+      "wire_2": 5,
+      "length_2": 4,
+      "length_4": 1
+    },
+    "7": {
+      "occurrences": 11,
+      "wire_2": 11,
+      "length_2": 8,
+      "length_4": 3
+    },
+    "8": {
+      "occurrences": 1,
+      "wire_2": 1,
+      "length_1": 1
+    },
+    "9": {
+      "occurrences": 1,
+      "wire_2": 1,
+      "length_0": 1
+    }
+  },
+  "special_examples": {
+    "4": "2484725379000700807",
+    "5": "2484725379000700807",
+    "6": "2484728019000030807",
+    "7": "2484728019000030807",
+    "8": "2484734099000550807",
+    "9": "2484734099000550807"
+  }
+}

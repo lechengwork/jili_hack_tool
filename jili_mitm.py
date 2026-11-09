@@ -40,7 +40,7 @@ SKIP_HOST = re.compile(
     r"facebook|sentry|cloudflareinsights|mozilla|apple|digicert|gvt1|gvt2)", re.I)
 
 # 後端 host：這些 host 的所有流量都要錄（含 POST）
-BACKEND = re.compile(r"(wbslot-fd|wbslot-platform|wbwebapi|/webservice/)", re.I)
+BACKEND = re.compile(r"(wbslot-fd|wbslot-platform|wbwebapi|/webservice/|/fg5/req|/sso-login|/vipservice|/subagentservice|/lifeservice|webapi\.jadefafa|game2test)", re.I)
 
 _lock = threading.Lock()
 _stats = {"static": 0, "api": 0, "ws": 0, "skipped": 0}

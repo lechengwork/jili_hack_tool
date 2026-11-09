@@ -61,7 +61,7 @@
 
 - 本地 server 使用 `127.0.0.1:8519`，僅專用 Chrome 的所有主機映射至此；不用 VPN、sudo 或修改系統 hosts。
 - 來源為 `current_session.txt` 指向那輪的 `export/exchanges_ordered.jsonl` 和 `exchanges.jsonl`；可用 `REPLAY_SESSION=<資料夾>` 指定其他完整擷取輪次。
-- `mock_sso.json` 為擷取的 SSO 設定（登入 token 已換成本地假 token）；`auxiliary_responses.json` 保存 VIP 等周邊 API 的擷取回應。兩檔是本機輸入資料，已排除版本控制；搬移工具時須一併帶走。
+- `mock_sso.json` 為擷取的 SSO 設定（登入 token 已換成本地假 token）。`auxiliary_responses.json` 是已追蹤的周邊 API replay fixture，僅保留信箱、收藏、VIP、排行榜的回應內容與 Content-Type；不含瀏覽器更新流量及原始傳輸 headers。這些檔案供本機 replay 使用，不代表真站登入資訊。
 - 使用原有 compile hook，實際前端回報 `compile d=8`，並成功完成本地 SSO、握手及初始化。僅沿用 crypto hook，不注入 696 專用側欄 UI 改動。
 - 已確認請求 f1 就是要求的 message type，並非流水號。518 adapter 依 type 和 action 對應擷取回應，避免併發初始化時拿錯回應。
 - 轉局依下注金額回放：0.3 有 150 筆、0.1 有 1 筆；其他下注尚無樣本。循環回放時只調整單號使其遞增，SpinAck 內容保持原樣；餘額輪詢回傳剛播出樣本的 postMoney。

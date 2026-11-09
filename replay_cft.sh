@@ -37,33 +37,103 @@ ROUNDS="${1:-${REPLAY_ROUNDS:-}}"
 export DYLD_INSERT_LIBRARIES="$LFT" DYLD_FORCE_FLAT_NAMESPACE=1 FAKETIME="$OFFSET"
 
 echo "① 停舊 mock / CfT"
-lsof -nP -iTCP:$PORT -sTCP:LISTEN -t 2>/dev/null | xargs kill 2>/dev/null || true
+OLD_SERVER_PIDS="$(lsof -nP -iTCP:$PORT -sTCP:LISTEN -t 2>/dev/null || true)"
+if [ -n "$OLD_SERVER_PIDS" ]; then
+  kill $OLD_SERVER_PIDS 2>/dev/null || true
+fi
 pkill -f 'cft-replay-profile' 2>/dev/null || true
-sleep 1
+sleep 0.25
+for OLD_PROFILE in "${TMPDIR:-/tmp}"/cft-replay-profile.*; do
+  [ -d "$OLD_PROFILE" ] || continue
+  OLD_PROFILE_PIDS="$(lsof +D "$OLD_PROFILE" -t 2>/dev/null | sort -u || true)"
+  if [ -n "$OLD_PROFILE_PIDS" ]; then
+    kill $OLD_PROFILE_PIDS 2>/dev/null || true
+    sleep 0.25
+    OLD_PROFILE_PIDS="$(lsof +D "$OLD_PROFILE" -t 2>/dev/null | sort -u || true)"
+    if [ -n "$OLD_PROFILE_PIDS" ]; then kill -9 $OLD_PROFILE_PIDS 2>/dev/null || true; fi
+  fi
+  rm -rf -- "$OLD_PROFILE"
+done
+PORT_FREE=0
+for _ in $(seq 1 40); do
+  if ! lsof -nP -iTCP:$PORT -sTCP:LISTEN -t 2>/dev/null | grep -q .; then
+    PORT_FREE=1
+    break
+  fi
+  sleep 0.25
+done
+if [ "$PORT_FREE" -ne 1 ]; then
+  OLD_SERVER_PIDS="$(lsof -nP -iTCP:$PORT -sTCP:LISTEN -t 2>/dev/null || true)"
+  if [ -n "$OLD_SERVER_PIDS" ]; then kill -9 $OLD_SERVER_PIDS 2>/dev/null || true; fi
+  sleep 0.25
+fi
+if lsof -nP -iTCP:$PORT -sTCP:LISTEN -t >/dev/null 2>&1; then
+  echo "✗ port $PORT is still occupied; refusing to start Chrome against a stale server"
+  exit 1
+fi
 echo "   faketime offset=$OFFSET → device≈$("$PY" -c 'import time,datetime;print(datetime.datetime.utcfromtimestamp(time.time()).isoformat())') UTC"
 
-# ② CfT:等 server listen 後自動開(本視窗留給 server log)
-URL="https://uat-wbgame.jlfafafa3.com/fg5/?ssoKey=local-mock-token&lang=zh-CN&apiId=1778&be=moc.2afafaflj.ipabewbw-tau&domain_gs=1afafaflj&domain_platform=moc.3afafaflj.mroftalp-tolsbw-tau&gameID=696&gs=moc.1afafaflj.df-tolsbw-tau&iu=true&legalLang=true&skin=0"
-(
-  for _ in $(seq 1 60); do
-    curl -sk -o /dev/null --max-time 1 "https://127.0.0.1:$PORT/" 2>/dev/null && break
-    sleep 0.5
-  done
-  echo "③ 開 Chrome for Testing(偏移同步)"
-  "$CFT" --user-data-dir="/tmp/cft-replay-profile-$(date +%s)" \
-    --no-sandbox --host-resolver-rules="MAP * 127.0.0.1:$PORT" \
-    --ignore-certificate-errors --disable-quic --no-first-run --no-default-browser-check \
-    "$URL" >/dev/null 2>&1 &
-) &
+# ② CfT 與 server 共用這個 shell，讓 Ctrl+C 能清理兩邊。
+REPLAY_HOST="${REPLAY_HOST:-uat-wbgame.jlfafafa3.com}"
+URL="https://${REPLAY_HOST}:8443/fg5/?ssoKey=local-mock-token&lang=zh-CN&apiId=1778&be=moc.2afafaflj.ipabewbw-tau&domain_gs=1afafaflj&domain_platform=moc.3afafaflj.mroftalp-tolsbw-tau&gameID=696&gs=moc.1afafaflj.df-tolsbw-tau&iu=true&legalLang=true&skin=0"
+SERVER_PID=""
+CHROME_PID=""
+PROFILE_DIR=""
+cleanup() {
+  trap - INT TERM EXIT
+  if [ -n "$CHROME_PID" ]; then
+    kill "$CHROME_PID" 2>/dev/null || true
+    if [ -n "$PROFILE_DIR" ]; then
+      pkill -TERM -f "user-data-dir=$PROFILE_DIR" 2>/dev/null || true
+    fi
+    wait "$CHROME_PID" 2>/dev/null || true
+  fi
+  if [ -n "$SERVER_PID" ]; then
+    kill "$SERVER_PID" 2>/dev/null || true
+    wait "$SERVER_PID" 2>/dev/null || true
+  fi
+  if [ -n "$PROFILE_DIR" ]; then rm -rf -- "$PROFILE_DIR"; fi
+}
+trap cleanup EXIT
+trap 'exit 130' INT
+trap 'exit 143' TERM
 
-# ③ server(前景=log;偏移 + retime)
+# ③ server(log;偏移 + retime)
 # ★關鍵★:一定要「行內賦值」直接跑 python,【不能用 /usr/bin/env】——env 是 SIP 保護的系統
-# 二進位,dyld 經過它會把 DYLD_INSERT_LIBRARIES 剝掉 → server 沒被 libfaketime 撥時鐘 →
-# 回應時戳(信封 f1)是真實時間 → 遊戲比對 device(假) vs f1(真) → MSG 8。所以這裡用 export + exec。
+# 二進位,dyld 經過它會把 DYLD_INSERT_LIBRARIES 剝掉。直接啟動 python 保留注入時鐘。
 if [ -n "$ROUNDS" ]; then echo "② server:只播 $ROUNDS"; else echo "② server:播全部(循環)"; fi
 echo "   (看到 handshake / kind=init / spin[..] 就是通了;★別開 DevTools★;Ctrl+C 收工)"
 echo "────────────────────────────────────────────"
 export PORT="$PORT" TLS=1 VERBOSE=1 INJECT_BUNDLE=1 REPLAY_RETIME=1 RETIME_REF="$RETIME_REF"
 export REPLAY="$REPLAY" REPLAY_SPINS="$REPLAY_SPINS"
 [ -n "$ROUNDS" ] && export REPLAY_ROUNDS="$ROUNDS"
-exec "$PY" routex/server.py            # DYLD_INSERT_LIBRARIES / FAKETIME 已在最上面 export
+"$PY" routex/server.py &
+SERVER_PID=$!
+
+READY=0
+for _ in $(seq 1 60); do
+  if curl -sk -o /dev/null --max-time 1 "https://127.0.0.1:$PORT/" 2>/dev/null; then
+    READY=1
+    break
+  fi
+  if ! kill -0 "$SERVER_PID" 2>/dev/null; then
+    echo "✗ replay server exited before becoming ready"
+    exit 1
+  fi
+  sleep 0.25
+done
+if [ "$READY" -ne 1 ]; then
+  echo "✗ replay server did not become ready on port $PORT"
+  exit 1
+fi
+
+echo "③ 開 Chrome for Testing(偏移同步)"
+PROFILE_DIR="$(mktemp -d "${TMPDIR:-/tmp}/cft-replay-profile.XXXXXX")"
+"$CFT" --user-data-dir="$PROFILE_DIR" \
+  --no-sandbox --host-resolver-rules="MAP * 127.0.0.1:$PORT" \
+  --ignore-certificate-errors --disable-quic --disable-features=DnsOverHttps \
+  --no-first-run --no-default-browser-check \
+  "$URL" >/dev/null 2>&1 &
+CHROME_PID=$!
+
+wait "$SERVER_PID"

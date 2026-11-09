@@ -79,6 +79,8 @@ games/*/webcap/
 games/*/raw_sessions/
 games/*/webcap_ws.jsonl
 games/*/traffic_raw.json
+games/*/traffic_raw_*.json
+/routex/mock_shared.hex
 games/*/netlog*.json
 games/*/runtime/*.key
 games/*/runtime/*.crt
