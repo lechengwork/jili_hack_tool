@@ -18,7 +18,7 @@ class MonitorTests(unittest.TestCase):
         self.tmp=tempfile.TemporaryDirectory();self.addCleanup(self.tmp.cleanup)
         self.root=Path(self.tmp.name);self.baseline=HERE/'replay_samples.json'
         self.monitor=Monitor(self.root/'out',self.baseline)
-        rows=json.loads(self.baseline.read_text());self.row=next(r for r in rows if r['type']==0 and r['ret']==0)
+        rows=json.loads(self.baseline.read_text(encoding='utf-8'));self.row=next(r for r in rows if r['type']==0 and r['ret']==0)
         self.raw=bytes.fromhex(self.row['raw_hex']);self.action=bytes.fromhex(self.row['action_hex'])
         self.raw=replace(self.raw,20,0,9999999999990000807)
         self.board=next(v for n,w,v in wire_fields(self.raw) if n==1)
@@ -29,7 +29,7 @@ class MonitorTests(unittest.TestCase):
 
     def events(self):
         p=self.root/'out/events.jsonl'
-        return [json.loads(x) for x in p.read_text().splitlines()] if p.exists() else []
+        return [json.loads(x) for x in p.read_text(encoding='utf-8').splitlines()] if p.exists() else []
 
     def test_duplicate_monitor_is_rejected(self):
         handle=acquire_lock(self.root/'locked');self.addCleanup(handle.close)
@@ -44,7 +44,7 @@ class MonitorTests(unittest.TestCase):
     def test_unknown_nested_field_is_preserved_when_adapter_rejects(self):
         raw=replace(self.raw,1,2,replace(self.board,10,0,77));self.process(raw)
         events=self.events();self.assertIn('new_field',[x['kind'] for x in events])
-        evidence=json.loads(Path(events[0]['evidence']).read_text())
+        evidence=json.loads(Path(events[0]['evidence']).read_text(encoding='utf-8'))
         self.assertEqual(evidence['payload_hex'],raw.hex())
         self.assertTrue(any(x['kind']=='adapter_rejected' for x in events))
         self.assertNotIn('token',evidence)
@@ -68,9 +68,9 @@ class MonitorTests(unittest.TestCase):
     def test_partial_line_and_resume_do_not_lose_or_duplicate_round(self):
         session=self.root/'session';session.mkdir();p=session/'exchanges_ordered.jsonl'
         line=json.dumps({'raw':list(self.raw),'type':0,'ret':0,'_sig_ok':True,'idx':1})+'\n'
-        p.write_text(line[:len(line)//2]);self.monitor.scan(session)
+        p.write_text(line[:len(line)//2], encoding='utf-8');self.monitor.scan(session)
         self.assertEqual(self.monitor.state['new_rounds'],0)
-        with p.open('a') as out:out.write(line[len(line)//2:])
+        with p.open('a', encoding='utf-8') as out:out.write(line[len(line)//2:])
         self.monitor.scan(session);self.assertEqual(self.monitor.state['new_rounds'],1)
         restored=Monitor(self.root/'out',self.baseline);restored.scan(session)
         self.assertEqual(restored.state['new_rounds'],1)

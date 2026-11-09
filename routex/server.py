@@ -126,7 +126,7 @@ def load_keys():
     p = os.path.join(HERE, 'mockkeys.json')
     if not os.path.exists(p):
         sys.exit('[FATAL] mockkeys.json missing — run gen_and_patch.py first')
-    return json.load(open(p))
+    return json.load(open(p, encoding='utf-8'))
 
 KEYS = load_keys()
 CRYPTO = fg5.Fg5Crypto(KEYS['x25519_priv'], KEYS['ed25519_priv'])
@@ -142,13 +142,13 @@ REPLAY_ROUNDS = os.environ.get('REPLAY_ROUNDS')
 EXCH_PATH = os.environ.get('REPLAY') or os.path.join(HERE, '..', 'games', '696', 'exchanges_ordered.jsonl')
 _EXCH_ROWS = []
 if os.path.exists(EXCH_PATH):
-    _EXCH_ROWS = [json.loads(l) for l in open(EXCH_PATH) if l.strip()]
+    _EXCH_ROWS = [json.loads(l) for l in open(EXCH_PATH, encoding='utf-8') if l.strip()]
 
 # Captured decrypted plaintexts, keyed by type. Value = the f4 game payload bytes.
 # 優先 responses.jsonl;沒有就從 exchanges_ordered.jsonl 推導(每 type 第一筆 raw)。
 SAMPLES = {}
 if os.path.exists(RESPONSES):
-    for line in open(RESPONSES):
+    for line in open(RESPONSES, encoding='utf-8'):
         line = line.strip()
         if not line:
             continue
@@ -235,7 +235,7 @@ print(f'[replay] {len(SPIN_SAMPLES)} spin board(s); balance pre={len(BAL_PRE)}B 
 INIT_SEQ_PATH = os.environ.get('INIT_SEQ') or os.path.join(HERE, '..', 'games', '696', 'init_sequence.jsonl')
 INIT_SEQ = []
 if os.path.exists(INIT_SEQ_PATH):
-    for line in open(INIT_SEQ_PATH):
+    for line in open(INIT_SEQ_PATH, encoding='utf-8'):
         line = line.strip()
         if not line:
             continue
@@ -271,7 +271,7 @@ BUNDLE_TARGET = os.environ.get('BUNDLE_TARGET', 'polyfills.bundle')
 # 用來測「改某個 bundle(尤其是 Jscrambler 保護的 index.22de5.js)的內容會不會觸發自毀」。空=關。
 CANARY_TARGET = os.environ.get('CANARY_TARGET', '')
 if (os.environ.get('INJECT_SHIM') == '1' or INJECT_BUNDLE) and os.path.exists(WASM_SHIM_PATH):
-    WASM_SHIM = open(WASM_SHIM_PATH).read()
+    WASM_SHIM = open(WASM_SHIM_PATH, encoding='utf-8').read()
     if INJECT_BUNDLE:
         print(f'[shim] shim loaded ({len(WASM_SHIM)}B) — BUNDLE-prepend into "{BUNDLE_TARGET}" (HTML unchanged, no new <script>)')
         print(f'[webpage] activity diagnostics will be saved to {WEBPAGE_REPORT_PATH}')
@@ -458,11 +458,11 @@ if CAPTURE:
         CAPTURE = False
     else:
         try:
-            _orig0 = list(bytes.fromhex(json.load(open(os.path.join(HERE, 'wasm_pub_patches.json')))[0]['orig']))
+            _orig0 = list(bytes.fromhex(json.load(open(os.path.join(HERE, 'wasm_pub_patches.json'), encoding='utf-8'))[0]['orig']))
         except Exception as _e:
             _orig0 = []
             print(f'[capture] ⚠ could not load ORIG0 anchor from wasm_pub_patches.json ({_e!r}) — key grab will not fire')
-        WASM_SHIM = open(CAPTURE_SHIM_PATH).read().replace('__ORIG0__', json.dumps(_orig0))
+        WASM_SHIM = open(CAPTURE_SHIM_PATH, encoding='utf-8').read().replace('__ORIG0__', json.dumps(_orig0))
         try:
             os.remove(CAP_EXCH_PATH)            # fresh file per capture run
         except OSError:
@@ -495,7 +495,7 @@ if DLPROBE:
     elif not os.path.exists(DL_PROBE_SHIM_PATH):
         print(f'[dlprobe] ⚠ 找不到 {DL_PROBE_SHIM_PATH} — 已略過')
     else:
-        _probe = open(DL_PROBE_SHIM_PATH).read()
+        _probe = open(DL_PROBE_SHIM_PATH, encoding='utf-8').read()
         WASM_SHIM = _probe + '\n;\n' + WASM_SHIM     # 偽裝先跑,再跑 pubkey patch
         print(f'[dlprobe] ★ domain-lock 探路 shim 已 prepend 到 patch shim 前 ({len(_probe)}B)。看 [shim-report] DLPROBE OK/FAIL。')
 
@@ -505,7 +505,7 @@ if ERRPROBE:
     elif not os.path.exists(ERR_PROBE_SHIM_PATH):
         print(f'[errprobe] ⚠ 找不到 {ERR_PROBE_SHIM_PATH} — 已略過')
     else:
-        _ep = open(ERR_PROBE_SHIM_PATH).read()
+        _ep = open(ERR_PROBE_SHIM_PATH, encoding='utf-8').read()
         WASM_SHIM = _ep + '\n;\n' + (WASM_SHIM or '')
         print(f'[errprobe] ★ JS 錯誤回報 shim 已注入 ({len(_ep)}B)。前端爆掉會印 [jserr]。')
 
@@ -519,7 +519,7 @@ if _extra:
     elif not os.path.exists(_ep):
         print(f'[extra] ⚠ 找不到 EXTRA_SHIM {_ep} — 已略過')
     else:
-        _es = open(_ep).read()
+        _es = open(_ep, encoding='utf-8').read()
         WASM_SHIM = _es + '\n;\n' + WASM_SHIM
         print(f'[extra] ★ EXTRA_SHIM 已 prepend 到最前 ({os.path.basename(_ep)}, {len(_es)}B)')
 
@@ -1060,7 +1060,7 @@ class Handler(BaseHTTPRequestHandler):
                 k = rec.get('key')
                 if k:
                     try:
-                        json.dump({'key': k, 'f4': rec.get('f4', '')}, open(GRAB_PATH, 'w'))
+                        json.dump({'key': k, 'f4': rec.get('f4', '')}, open(GRAB_PATH, 'w', encoding='utf-8'))
                         _chown_back(GRAB_PATH)
                         _set_cap_key(k)          # ★不要等某筆同時帶 key+resp 才啟用即時解碼
                     except Exception as e:
@@ -1071,14 +1071,14 @@ class Handler(BaseHTTPRequestHandler):
                     try: _cap_grv.append(bytes.fromhex(g)[:32])
                     except Exception: pass
                     with _cap_lock:
-                        with open(GRV_PATH, 'a') as f:
+                        with open(GRV_PATH, 'a', encoding='utf-8') as f:
                             f.write(json.dumps({'out': g}) + '\n')
                     _chown_back(GRV_PATH)
                     print(f'  ★ [capture] getRandomValues candidate #{len(_grv_seen)} {g[:16]}…')
                 rh = rec.get('resp_body_hex') or ''
                 if rh:
                     with _cap_lock:
-                        with open(CAP_EXCH_PATH, 'a') as f:
+                        with open(CAP_EXCH_PATH, 'a', encoding='utf-8') as f:
                             f.write(json.dumps({'req_body_hex': rec.get('req_body_hex', ''),
                                                 'resp_body_hex': rh,
                                                 'req_body_len': len(rec.get('req_body_hex', '')) // 2,
@@ -1129,7 +1129,7 @@ class Handler(BaseHTTPRequestHandler):
                     # Publish the correct shared for patchwasm's FIX_SHARED overwrite. Done BEFORE any
                     # stall so the patcher can fix @1108480 during the response-stall window.
                     try:
-                        with open(SHARED_HEX_PATH, 'w') as _f:
+                        with open(SHARED_HEX_PATH, 'w', encoding='utf-8') as _f:
                             _f.write(CRYPTO.shared_key(req['client_pub']).hex())
                     except Exception:
                         pass

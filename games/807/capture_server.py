@@ -15,7 +15,7 @@ ROOT = HERE.parent.parent
 SESSION = HERE / 'webcap' / datetime.now().strftime('%Y%m%d-%H%M%S')
 SESSION.mkdir(parents=True, exist_ok=False)
 resume = os.environ.get('RESUME_SESSION')
-resume_key = json.loads((Path(resume) / 'key.json').read_text()) if resume else None
+resume_key = json.loads((Path(resume) / 'key.json').read_text(encoding='utf-8')) if resume else None
 os.environ.update({
     'STATIC': str(HERE / 'static'), 'HOST': '127.0.0.1',
     'PORT': '8807', 'TLS': '1', 'GAME_PATH': '/fg1000/',
@@ -43,8 +43,8 @@ if 'getRandomValues hooked' not in server.WASM_SHIM or 'patchBytes' in server.WA
 lock = threading.Lock()
 if resume_key:
     server._cap_key = bytes.fromhex(resume_key['key'])
-    (SESSION / 'key.json').write_text(json.dumps(resume_key))
-    (SESSION / 'resumed_from.txt').write_text(resume + '\n')
+    (SESSION / 'key.json').write_text(json.dumps(resume_key), encoding='utf-8')
+    (SESSION / 'resumed_from.txt').write_text(resume + '\n', encoding='utf-8')
 
 
 def asset_fallback(path):
@@ -107,7 +107,7 @@ def live_decode(rec):
         # Raw capture is durable before game-specific math export; never use the 696 codec.
         d['idx'] = rec.get('seq')
         d['kind'] = dc.kind_of(fg5.parse_fields(req.get(2, b'')))
-        with (SESSION / 'exchanges_ordered.jsonl').open('a') as f:
+        with (SESSION / 'exchanges_ordered.jsonl').open('a', encoding='utf-8') as f:
             f.write(json.dumps(d, ensure_ascii=False) + '\n')
         math_status = format_status(export_spin(d, HERE, SESSION, wire_to_math, math_to_wire))
         return '[807 decode] seq=%s type=%s ret=%s payload=%sB signature=OK' % (
@@ -123,6 +123,6 @@ if __name__ == '__main__':
     ctx = ssl.SSLContext(ssl.PROTOCOL_TLS_SERVER)
     ctx.load_cert_chain(str(ROOT / 'dist124/cert.pem'), str(ROOT / 'dist124/key.pem'))
     httpd.socket = ctx.wrap_socket(httpd.socket, server_side=True)
-    (HERE / 'current_session.txt').write_text(str(SESSION) + '\n')
+    (HERE / 'current_session.txt').write_text(str(SESSION) + '\n', encoding='utf-8')
     print('[807 capture] session=%s; listen=https://127.0.0.1:8807' % SESSION, flush=True)
     httpd.serve_forever()
