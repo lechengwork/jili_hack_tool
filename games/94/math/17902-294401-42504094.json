@@ -1,0 +1,249 @@
+{
+  "round_id": "17902-294401-42504094",
+  "you": "ix6tryplayer002usd898e00",
+  "start_balance": 98253.987,
+  "seats": [
+    {
+      "seat": 0,
+      "account": "ix6tryplayer002usd898e00",
+      "amount": 98253.987
+    },
+    {
+      "seat": 1,
+      "account": "****122",
+      "amount": 16.0
+    },
+    {
+      "seat": 2,
+      "account": "****624",
+      "amount": 16.0
+    },
+    {
+      "seat": 3,
+      "account": "****244",
+      "amount": 16.0
+    }
+  ],
+  "wild_joker": {
+    "suit": 1,
+    "rank": 12,
+    "joker": true,
+    "label": "♦Q*"
+  },
+  "open_top": {
+    "suit": 3,
+    "rank": 7,
+    "joker": false,
+    "label": "♠7"
+  },
+  "stock_start": 52,
+  "your_hand": [
+    {
+      "suit": 3,
+      "rank": 1,
+      "joker": false,
+      "label": "♠A"
+    },
+    {
+      "suit": 3,
+      "rank": 10,
+      "joker": false,
+      "label": "♠10"
+    },
+    {
+      "suit": 3,
+      "rank": 2,
+      "joker": false,
+      "label": "♠2"
+    },
+    {
+      "suit": 2,
+      "rank": 9,
+      "joker": false,
+      "label": "♥9"
+    },
+    {
+      "suit": 2,
+      "rank": 8,
+      "joker": false,
+      "label": "♥8"
+    },
+    {
+      "suit": 1,
+      "rank": 2,
+      "joker": false,
+      "label": "♦2"
+    },
+    {
+      "suit": 1,
+      "rank": 2,
+      "joker": false,
+      "label": "♦2"
+    },
+    {
+      "suit": 0,
+      "rank": 7,
+      "joker": false,
+      "label": "♣7"
+    },
+    {
+      "suit": 0,
+      "rank": 5,
+      "joker": false,
+      "label": "♣5"
+    },
+    {
+      "suit": 0,
+      "rank": 5,
+      "joker": false,
+      "label": "♣5"
+    },
+    {
+      "suit": 0,
+      "rank": 4,
+      "joker": false,
+      "label": "♣4"
+    },
+    {
+      "suit": 0,
+      "rank": 3,
+      "joker": false,
+      "label": "♣3"
+    },
+    {
+      "suit": 0,
+      "rank": 2,
+      "joker": false,
+      "label": "♣2"
+    }
+  ],
+  "your_hand_count": 13,
+  "your_melds_init": [
+    [
+      {
+        "suit": 0,
+        "rank": 2,
+        "joker": false,
+        "label": "♣2"
+      },
+      {
+        "suit": 0,
+        "rank": 3,
+        "joker": false,
+        "label": "♣3"
+      },
+      {
+        "suit": 0,
+        "rank": 4,
+        "joker": false,
+        "label": "♣4"
+      },
+      {
+        "suit": 0,
+        "rank": 5,
+        "joker": false,
+        "label": "♣5"
+      }
+    ],
+    [
+      {
+        "suit": 3,
+        "rank": 1,
+        "joker": false,
+        "label": "♠A"
+      },
+      {
+        "suit": 3,
+        "rank": 10,
+        "joker": false,
+        "label": "♠10"
+      },
+      {
+        "suit": 3,
+        "rank": 2,
+        "joker": false,
+        "label": "♠2"
+      },
+      {
+        "suit": 2,
+        "rank": 9,
+        "joker": false,
+        "label": "♥9"
+      },
+      {
+        "suit": 2,
+        "rank": 8,
+        "joker": false,
+        "label": "♥8"
+      },
+      {
+        "suit": 1,
+        "rank": 2,
+        "joker": false,
+        "label": "♦2"
+      },
+      {
+        "suit": 1,
+        "rank": 2,
+        "joker": false,
+        "label": "♦2"
+      },
+      {
+        "suit": 0,
+        "rank": 7,
+        "joker": false,
+        "label": "♣7"
+      },
+      {
+        "suit": 0,
+        "rank": 5,
+        "joker": false,
+        "label": "♣5"
+      }
+    ]
+  ],
+  "actions": [
+    {
+      "cmd": 13,
+      "dir": "RECV",
+      "type": "draw_closed",
+      "seat": 3,
+      "card": {
+        "suit": 3,
+        "rank": 7,
+        "joker": false,
+        "label": "♠7"
+      },
+      "stock": 51,
+      "i": 27
+    },
+    {
+      "cmd": 14,
+      "dir": "RECV",
+      "type": "discard",
+      "seat": null,
+      "card": {
+        "suit": 3,
+        "rank": 13,
+        "joker": false,
+        "label": "♠K"
+      },
+      "stock": 51,
+      "i": 29
+    },
+    {
+      "cmd": 15,
+      "dir": "RECV",
+      "type": "draw_open",
+      "picked": null,
+      "stock": 51,
+      "i": 33
+    }
+  ],
+  "action_count": 3,
+  "settlement": null,
+  "end_balance": 98249.987,
+  "balance_delta": -4.0,
+  "outcome": "first_drop",
+  "your_points": 20
+}

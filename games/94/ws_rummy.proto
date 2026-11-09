@@ -1,0 +1,155 @@
+syntax = "proto3";
+// JILI Rummy (遊戲號 94 / 平台 111000094) — WebSocket 協定草稿
+// 2026-09-30 由 games/94/traffic.jsonl(258 frames,真實 2 局:發牌→摸/棄→宣告→結算) 逆向。
+// ★明文 protobuf,無加密★(與 124 的 WS 同框架;與 696 的 Ed25519/X25519/AES-GCM 完全不同)。
+// 傳輸: wss://uat-wbslot-fd.jlfafafa1.com/rummy/ws/<40hex>?r=0  (host=gs/wbslot-fd,path=/rummy/ws)
+//   ── 注意:與 124 的 uat-fish/sudm 不同 host/path,但外層 Envelope 同構。
+// 遊戲: 13 張印度拉米(Indian Rummy)+ 錦標賽(cmd200 大廳=Asian Games 2026,各國當桌名,報名費 16)。多人牌桌。
+// 心跳: cmd50 SEND/RECV(2B),非本檔範圍。
+//
+// ★可信度★: cmd12(發牌)/cmd17(結算) 已交叉驗證,可信;cmd13/14/15/16 動作語意由「棄牌→被撿」等序列反推,
+//   標「待確認」處為單一樣本或未做單注實驗。牌的 suit 數字↔實際花色、score 正負號 尚待對照。
+
+// ── 通用外層 ────────────────────────────────────────────────────────
+// 每個 WS binary frame = 一個 Envelope。cmd 決定 body 型別。
+// ★cmd 可省略(proto3 預設 0)★:handshake(idx5)與首個 RECV(idx0)就是 body-only(cmd=0)。
+message Envelope {
+  uint32 cmd  = 1;   // 指令碼;見下方各 message 標註的 cmd。省略=0(handshake)
+  bytes  body = 2;   // 依 cmd 解成下列 message
+}
+
+// ── 牌 ──────────────────────────────────────────────────────────────
+// 反覆出現在 手牌/棄牌/組合/鬼牌 各處的最小單位。
+message Card {
+  uint32 suit  = 1;  // ★0..3 = 四個真花色(對 ♣♦♥♠ 的順序【待確認】);4 = 印牌鬼牌(PJ)佔位(實測 suit=4 恆為 joker)
+  uint32 rank  = 2;  // 1..13 (1=A … 11=J 12=Q 13=K);PJ(suit=4)時 rank 無意義
+  // f3 未觀察
+  uint32 joker = 4;  // =1 表示此牌【當作鬼牌用】:印牌鬼牌(suit=4) 或 本局百搭點數(wild rank,如本局 9/7)
+  // 註:分組結構尾端偶見只有 f1、無 rank 的 {f1=N} = 分組計數 trailer,非牌。
+}
+
+// ════════════════════════════════════════════════════════════════════
+//  牌局生命週期 (每局各一次: cmd12 開 → … 動作 … → cmd17 結算 → cmd19 收)
+// ════════════════════════════════════════════════════════════════════
+
+// ── cmd 12 — 發牌 / 開局 (RECV, 300~330B) ★核心★ ──────────────────────
+// SEND cmd12 = 請求進局(7B: f1=1003)。RECV = 這局的完整初始狀態。
+message Deal {
+  string      round_id  = 1;  // 局號字串,如 "17902-294392-87704094"(尾段含 gameID 94)
+  repeated Seat seats   = 3;  // [0]=自己(f2=帳號 ix6…,f4=餘額 double);[1..]=其他玩家(f1=座位,f2="****960",f4=報名費/注 16)
+  uint32      f5        = 5;  // =1 (待確認:狀態旗標)
+  uint32      turn      = 7;  // 當前輪到座位?(hand1=2, hand2=4) 待確認
+  Card        wild_joker= 8;  // ★本局鬼牌(切出的百搭)★:hand1=C9(joker=1), hand2=?7
+  Card        open_top  = 9;  // 開牌堆頂(首張棄牌);hand1=C13, hand2=D2  待確認
+  uint32      f10       = 10; // =1
+  uint32      stock_left= 11; // 閉牌堆(摸牌堆)剩餘張數;hand1=52, hand2=65
+  repeated Card hand    = 12; // ★你的手牌★(13~14 張): repeated Card
+  repeated Group melds  = 13; // 你的組合分組(初始多為未分組:4 空 + 1 全含);見 Group
+  Group       f15       = 15; // {f1=4} 待確認
+  bytes       f20       = 20; // 觀察為空
+}
+message Seat {
+  uint32 seat    = 1;  // 座位序(自己該筆常省略=0)
+  string account = 2;  // 自己=完整帳號(ix6tryplayer002usd898e00);他人=遮罩尾碼 "****960"
+  double amount  = 4;  // 自己=餘額(98403.8…);他人筆=報名費/當前注(16)
+}
+// 一個「組合分組」= 你把手牌排成的一疊(順子/刻子/未組)。repeated 出現代表多疊。
+message Group {
+  repeated Card cards = 1;  // 該疊的牌
+}
+
+// ── cmd 13 — 摸【閉牌堆】(從摸牌堆抽一張) ─────────────────────────────
+// SEND cmd13(2B,空)=我要摸閉牌堆。RECV=誰摸了 + 牌堆遞減。也廣播其他座位的摸牌。
+message DrawClosed {
+  uint32 seat       = 1;  // 摸牌座位(=18446744073709551615 即 -1 → 局末/宣告相關,待確認)
+  uint32 f2         = 2;  // 偶見=1 (待確認)
+  Card   card       = 3;  // 摸到的牌(可見時才有;他人摸閉牌堆通常不公開內容)
+  uint32 f5         = 5;  // 階段(=3 常見) 待確認
+  Card   f6         = 6;  // 局末樣本帶一張牌(待確認:棄牌/宣告牌)
+  uint32 stock_left = 9;  // 閉牌堆剩餘(52→51→50… 單調遞減) ★可信★
+}
+
+// ── cmd 14 — 棄牌【到開牌堆】 ─────────────────────────────────────────
+// 某座位棄一張到開牌堆(廣播)。緊接著常有人 cmd15 撿走(已交叉驗證)。
+message Discard {
+  uint32 seat       = 1;  // 棄牌座位
+  Card   card       = 2;  // ★棄出的牌★(進開牌堆頂)
+  uint32 f4         = 4;  // =2/4 交替(待確認:輪次/來源旗標)
+  uint32 f7         = 7;  // 偶見=1
+  uint32 stock_left = 8;  // 閉牌堆剩餘 ★可信★
+}
+
+// ── cmd 15 — 撿【開牌堆】(拿走頂張棄牌) (RECV 大, ~195B) ──────────────
+// SEND cmd15(f1=1)=我要撿開牌堆頂。RECV=撿到的牌 + 你更新後的完整手牌/組合。
+message DrawOpen {
+  repeated Card hand  = 3;  // (f3, ~82B) 你撿牌後的完整手牌 待確認欄位序
+  Card   picked       = 4;  // ★撿到的牌★(= 上一個 Discard.card,已驗證)
+  uint32 f5           = 5;  // =1
+  repeated Group melds= 6;  // 你的組合分組(多筆,含空)
+  uint32 f9           = 9;  // =5 (待確認)
+  uint32 stock_left   = 10; // 閉牌堆剩餘 ★可信★
+}
+
+// ── cmd 16 — 你【棄牌】並整理 (SEND 指定牌;RECV ~179B 更新手牌) ───────
+// SEND cmd16 {f1=suit,f2=rank}=我棄這張。RECV=你棄牌後的手牌+組合。
+message MyDiscard {
+  // SEND 形狀:{ uint32 suit=1; uint32 rank=2; }  (要棄的牌;無 joker 欄)
+  repeated Card hand   = 2;  // (RECV f2,~80B) 棄牌後完整手牌
+  repeated Group melds = 3;  // 組合分組(含空槽)
+  uint32 f5            = 5;  // =1/2
+  uint32 f6            = 6;  // =2
+  uint32 stock_left    = 7;  // 閉牌堆剩餘
+}
+
+// ── cmd 17 — 結算 / 亮牌 (RECV 200~270B) ★機率核心★ ───────────────────
+// SEND cmd17(2B)=我宣告/要求結算。RECV=各家亮牌組合 + 分數 + 最終餘額。
+message Settlement {
+  repeated PlayerResult results = 1;  // 每位玩家一筆(實測 2~3 筆)
+  uint32 f2                     = 2;  // =1 (待確認:贏家座位/狀態)
+  double balance                = 3;  // ★你的最終餘額★(98400→98384… 與 cmd19 一致)
+}
+message PlayerResult {
+  uint32       seat   = 1;  // 座位
+  uint32       score  = 2;  // ★該家分數/罰分(印度拉米:未成組牌點數和,贏家=0,越大越輸)★ 正負號待確認
+  uint32       f3     = 3;  // 待確認
+  repeated Group melds= 4;  // ★該家亮出的各組(順子/刻子)★:repeated Group(每組 repeated Card)
+}
+
+// ── cmd 19 — 收局 (RECV 13B) ─────────────────────────────────────────
+message RoundEnd {
+  double balance = 3;  // 收局後餘額(= Settlement.balance)
+}
+
+// ── cmd 11 — 牌桌名單 / 座位刷新 (RECV 166B) ─────────────────────────
+// 開局前與收局後各出現一次;7 個座位(f1 repeated,各 ~21B)。
+message TableRoster {
+  repeated SeatInfo seats = 1;  // 7 筆座位資訊(帳號/狀態,欄位待細解)
+}
+message SeatInfo {
+  // ~21B/筆:含 座位/帳號遮罩/狀態,尚未逐欄拆解
+  bytes raw = 15;
+}
+
+// ════════════════════════════════════════════════════════════════════
+//  Session / 大廳 (每連線一次,非每局)
+// ════════════════════════════════════════════════════════════════════
+// cmd 0   handshake(body-only): {f1="OS X", f2="zh-CN", f3=裝置塊, f5="Macintosh"}(SEND idx5)
+// cmd 95  SEND/RECV 空 = ping/session ack
+// cmd 100 RECV {f1=1};  cmd 105 {f1=2};  cmd 111/115 {f1="zh-CN"}(語系)
+// cmd 112 RECV {f2=空}
+// cmd 200 RECV 969B = ★錦標賽大廳★:repeated 桌{f1=tourneyId 1039, f2=序, f3/f4=時間, f9=獎池double,
+//                     f10=?, f11=玩家數塊, f5=repeated 國家{序,國名 str,代碼 str}, f6="Asian Games 2026"}
+// cmd 201 SEND {f1=1526343, f2=1039} = 進入某錦標賽(f2=tourneyId);RECV 空 ack
+// cmd 140/143/144 SEND(3B) = 大廳雜項控制(訂閱/心跳),待確認
+// cmd 2   SEND(2B) = 離開/關閉
+
+// ── win/金流(★已實證 1001,6 局完整:2勝4負★) ────────────────────────
+// 2 副牌 Points Rummy。設你分數 S0、其他家分數和 Σothers:
+//   · 每分幣值 = 0.2
+//   · 你輸(S0>0): Δ = − S0 × 0.2            (4/4 精準:69→-13.8,80→-16,71→-14.2,68→-13.6)
+//   · 你贏(S0=0): Δ = Σothers × 0.2 × 0.95   (rake=5%;40×0.2=8→+7.6, 71×0.2=14.2→+13.49)
+//   · 贏家實收 = 彩金×0.95;莊家抽水 rake = 彩金×5%(彩金=各輸家付出和)。
+// score: 0=贏家;輸家=deadwood 點數,上限 80(full count);常見 20 疑為 drop 罰分(待多局確認)。
+// 報名費/注 = Seat.amount(他人筆)=16。印度拉米=技術牌局,無單一 spinresult。
+// 伺服器權威 RNG(牌堆順序);客戶端只收廣播,無法預測。
+// 機率關注點:①發牌隨機性/牌分佈 ②鬼牌(joker)出現率 ③rake(已釘 5%) ④score/drop 分佈。

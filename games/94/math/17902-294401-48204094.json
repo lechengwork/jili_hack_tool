@@ -1,0 +1,324 @@
+{
+  "round_id": "17902-294401-48204094",
+  "you": "ix6tryplayer002usd898e00",
+  "start_balance": 98201.787,
+  "seats": [
+    {
+      "seat": 0,
+      "account": "ix6tryplayer002usd898e00",
+      "amount": 98201.787
+    },
+    {
+      "seat": 2,
+      "account": "****601",
+      "amount": 16.0
+    },
+    {
+      "seat": 3,
+      "account": "****858",
+      "amount": 16.0
+    }
+  ],
+  "wild_joker": {
+    "suit": 0,
+    "rank": 13,
+    "joker": true,
+    "label": "♣K*"
+  },
+  "open_top": {
+    "suit": 2,
+    "rank": 12,
+    "joker": false,
+    "label": "♥Q"
+  },
+  "stock_start": 65,
+  "your_hand": [
+    {
+      "suit": 4,
+      "rank": 1,
+      "joker": true,
+      "label": "PJ*"
+    },
+    {
+      "suit": 3,
+      "rank": 12,
+      "joker": false,
+      "label": "♠Q"
+    },
+    {
+      "suit": 3,
+      "rank": 11,
+      "joker": false,
+      "label": "♠J"
+    },
+    {
+      "suit": 3,
+      "rank": 4,
+      "joker": false,
+      "label": "♠4"
+    },
+    {
+      "suit": 2,
+      "rank": 11,
+      "joker": false,
+      "label": "♥J"
+    },
+    {
+      "suit": 2,
+      "rank": 10,
+      "joker": false,
+      "label": "♥10"
+    },
+    {
+      "suit": 1,
+      "rank": 9,
+      "joker": false,
+      "label": "♦9"
+    },
+    {
+      "suit": 1,
+      "rank": 7,
+      "joker": false,
+      "label": "♦7"
+    },
+    {
+      "suit": 1,
+      "rank": 6,
+      "joker": false,
+      "label": "♦6"
+    },
+    {
+      "suit": 1,
+      "rank": 3,
+      "joker": false,
+      "label": "♦3"
+    },
+    {
+      "suit": 0,
+      "rank": 6,
+      "joker": false,
+      "label": "♣6"
+    },
+    {
+      "suit": 0,
+      "rank": 3,
+      "joker": false,
+      "label": "♣3"
+    },
+    {
+      "suit": 0,
+      "rank": 3,
+      "joker": false,
+      "label": "♣3"
+    }
+  ],
+  "your_hand_count": 13,
+  "your_melds_init": [
+    [
+      {
+        "suit": 4,
+        "rank": 1,
+        "joker": true,
+        "label": "PJ*"
+      },
+      {
+        "suit": 3,
+        "rank": 12,
+        "joker": false,
+        "label": "♠Q"
+      },
+      {
+        "suit": 3,
+        "rank": 11,
+        "joker": false,
+        "label": "♠J"
+      },
+      {
+        "suit": 3,
+        "rank": 4,
+        "joker": false,
+        "label": "♠4"
+      },
+      {
+        "suit": 2,
+        "rank": 11,
+        "joker": false,
+        "label": "♥J"
+      },
+      {
+        "suit": 2,
+        "rank": 10,
+        "joker": false,
+        "label": "♥10"
+      },
+      {
+        "suit": 1,
+        "rank": 9,
+        "joker": false,
+        "label": "♦9"
+      },
+      {
+        "suit": 1,
+        "rank": 7,
+        "joker": false,
+        "label": "♦7"
+      },
+      {
+        "suit": 1,
+        "rank": 6,
+        "joker": false,
+        "label": "♦6"
+      },
+      {
+        "suit": 1,
+        "rank": 3,
+        "joker": false,
+        "label": "♦3"
+      },
+      {
+        "suit": 0,
+        "rank": 6,
+        "joker": false,
+        "label": "♣6"
+      },
+      {
+        "suit": 0,
+        "rank": 3,
+        "joker": false,
+        "label": "♣3"
+      },
+      {
+        "suit": 0,
+        "rank": 3,
+        "joker": false,
+        "label": "♣3"
+      }
+    ]
+  ],
+  "actions": [
+    {
+      "cmd": 13,
+      "dir": "RECV",
+      "type": "draw_closed",
+      "seat": 3,
+      "card": null,
+      "stock": 65,
+      "i": 332
+    },
+    {
+      "cmd": 13,
+      "dir": "RECV",
+      "type": "draw_closed",
+      "seat": 18446744073709551615,
+      "card": null,
+      "stock": 65,
+      "i": 336
+    }
+  ],
+  "action_count": 2,
+  "settlement": {
+    "results": [
+      {
+        "seat": 0,
+        "score": 0,
+        "melds": [
+          [
+            {
+              "suit": 4,
+              "rank": 1,
+              "joker": true,
+              "label": "PJ*"
+            },
+            {
+              "suit": 3,
+              "rank": 12,
+              "joker": false,
+              "label": "♠Q"
+            },
+            {
+              "suit": 3,
+              "rank": 11,
+              "joker": false,
+              "label": "♠J"
+            },
+            {
+              "suit": 3,
+              "rank": 4,
+              "joker": false,
+              "label": "♠4"
+            },
+            {
+              "suit": 2,
+              "rank": 11,
+              "joker": false,
+              "label": "♥J"
+            },
+            {
+              "suit": 2,
+              "rank": 10,
+              "joker": false,
+              "label": "♥10"
+            },
+            {
+              "suit": 1,
+              "rank": 9,
+              "joker": false,
+              "label": "♦9"
+            },
+            {
+              "suit": 1,
+              "rank": 7,
+              "joker": false,
+              "label": "♦7"
+            },
+            {
+              "suit": 1,
+              "rank": 6,
+              "joker": false,
+              "label": "♦6"
+            },
+            {
+              "suit": 1,
+              "rank": 3,
+              "joker": false,
+              "label": "♦3"
+            },
+            {
+              "suit": 0,
+              "rank": 6,
+              "joker": false,
+              "label": "♣6"
+            },
+            {
+              "suit": 0,
+              "rank": 3,
+              "joker": false,
+              "label": "♣3"
+            },
+            {
+              "suit": 0,
+              "rank": 3,
+              "joker": false,
+              "label": "♣3"
+            }
+          ]
+        ]
+      },
+      {
+        "seat": 2,
+        "score": 20,
+        "melds": []
+      },
+      {
+        "seat": 3,
+        "score": 20,
+        "melds": []
+      }
+    ],
+    "balance": 98209.387
+  },
+  "end_balance": 98209.387,
+  "balance_delta": 7.6,
+  "outcome": "win",
+  "your_points": 0
+}
