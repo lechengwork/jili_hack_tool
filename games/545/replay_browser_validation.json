@@ -1,0 +1,46 @@
+{
+  "date": "2026-11-24",
+  "gameID": 545,
+  "source": "math",
+  "launch": "python -B replay_545.py",
+  "operator_confirmation": "使用者回覆「可以」；本機log同步確認兩次SPIN成功",
+  "handshake_verified": true,
+  "browser_spin_responses": [
+    {
+      "index": 1,
+      "round": "2487510708000000545",
+      "balance": 997488.872
+    },
+    {
+      "index": 2,
+      "round": "2487510740000060545",
+      "balance": 997485.872
+    }
+  ],
+  "successful_browser_spins": 2,
+  "fixes": [
+    "離線API與動態資源改路由到document同源，保留本款crypto hook",
+    "補齊smallicon語系及15個現有原版圖示",
+    "合成SSO補齊id/newNickname/platform等欄位",
+    "新增/__replay_status及前端完整錯誤／請求診斷"
+  ],
+  "backend_tests": {
+    "wire_samples": 124,
+    "wire_consecutive_replays": 130,
+    "math_samples": 126,
+    "math_pools": 4,
+    "math_consecutive_replays": 134,
+    "hot_reload": true
+  },
+  "textures": {
+    "webp_valid": 162,
+    "http_verified": 162,
+    "windows_visual_test": false
+  },
+  "limitations": [
+    "本輪Mac普通Chrome由操作人員進場轉局；未在Windows實機驗證",
+    "未宣稱本輪已走完所有重轉／獎池演出",
+    "仍可能有Google telemetry等非遊戲端點404；不偽造外部回應"
+  ],
+  "logs": "runtime/replay_check_20261124_v3.log"
+}

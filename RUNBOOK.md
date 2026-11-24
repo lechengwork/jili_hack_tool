@@ -182,3 +182,8 @@ REPLAY=games/696/webcap/exchanges_ordered.jsonl ./web_own.sh <你的base域名>
 沿用本專案一遊戲一資料夾的結構，正式資料放在`games/545/`，給機率團隊的入口是`games/545/math/INTERFACE.md`及`games/545/math_545.proto`，逐局資料為`games/545/math/<單號>.json`。共用傳輸層仍在`routex/`，545封包以其自身codec與實包驗證，不套用696盤面schema。
 
 本地啟動：`.venv/bin/python replay_545.py`。擷取、收尾及驗證命令見`games/545/README.md`。不需要獨立交付包或另一份專案。
+
+
+### 545 replay 2026-11-24 修正
+
+545舊版可能登入成功後卡住，原始126局亦可重現。已補本地同源transport、完整合成SSO欄位與本款smallicon語系／圖示。同步`games/545/mock_server.py`、`replay_transport.js`及`static/smallicon/`後，重啟`python -B replay_545.py`；操作人員確認Mac可進場轉局，log有兩筆成功SPIN。後端wire／math及熱更新回歸通過，WebP162/162經mock HTTP驗證；Windows實機尚未驗收。證據見`games/545/replay_browser_validation.json`。

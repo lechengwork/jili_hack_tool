@@ -103,10 +103,14 @@ try:
         raise RuntimeError('Mock did not become ready')
     with urllib.request.urlopen(url + '/cc3x3/src/polyfills.bundle.5adbf.js', context=ctx) as r:
         assert b'installed C2 compile-hook' in r.read()
+    with urllib.request.urlopen(url + '/smallicon/lang/zh-CN/strings.json', context=ctx) as r:
+        assert json.load(r)['GAMEID_545'] == '幸运草金币 3x3'
     with urllib.request.urlopen(urllib.request.Request(url + '/sso-login.api', data=b'{}'), context=ctx) as r:
         sso = json.load(r)
         assert sso['token'] == '0' * 40
         assert sso['profile']['account'] == 'mock545'
+        assert sso['profile']['id'] and sso['profile']['newNickname']
+        assert sso['profile']['platform'] == 'web'
     a, b = Client(), Client()
     # Interleaved init messages must resolve by type/action, not a global cursor.
     for client in (a, b):

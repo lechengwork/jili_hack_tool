@@ -29,7 +29,7 @@ import fg5
 from replay_pool import action_key
 
 server.WASM_SHIM = (HERE / 'wasm_patch_shim.js').read_text()
-server.WASM_SHIM = (ROOT / 'routex/err_probe_shim.js').read_text() + '\n' + server.WASM_SHIM
+server.WASM_SHIM = (HERE / 'replay_transport.js').read_text() + '\n' + (ROOT / 'routex/err_probe_shim.js').read_text() + '\n' + server.WASM_SHIM
 server.SHARED_ROOT = str(HERE / 'static')
 server.SAMPLES = {}
 by_action = defaultdict(list)
@@ -136,6 +136,7 @@ def pick_response(req):
             state['balance'] = fields[6]
             print('[545 mock] spin=%s round=%s balance=%s' %
                   (index + 1, rid, struct.unpack('<d', fields[6])[0]), flush=True)
+            DIAGNOSTICS['spins'] += 1
             return 0, raw, 0, 'spin[%s]' % index
         if typ == 2 and state['balance'] is not None:
             template = server.SAMPLES[2]
@@ -157,12 +158,18 @@ server.pick_response = pick_response
 # Synthetic local login profile. No live SSO, JWT or real account is required.
 server.SSO_JSON = copy.deepcopy(server.SSO_JSON)
 server.SSO_JSON['token'] = '0' * 40
-server.SSO_JSON['profile'].update(id='', aid=0, siteId=0, coin=1, nickname='mock545',
+server.SSO_JSON.update(country='Thailand', subDivision='', homeUrl='', clientApiParam={})
+server.SSO_JSON['profile'].update(id='545', aid=545, siteId=0, coin=1, nickname='mock545', newNickname='mock545', platform='web', liveId='', liveSourceUrls={},
                                 account='mock545', meta={'agentAccount': 'mock545'})
 
 
+DIAGNOSTICS = {'frontend_errors': [], 'requests': [], 'missing': [], 'spins': 0}
+
 class Handler(server.Handler):
     def _send(self, code, body=b'', ctype='application/octet-stream', extra=None):
+        if code == 404:
+            missing = urlsplit(self.path).path
+            if missing not in DIAGNOSTICS['missing']:DIAGNOSTICS['missing'].append(missing)
         if body == b'{"code":0,"data":{},"message":""}':
             print('[545 unhandled] ' + urlsplit(self.path).path, flush=True)
         if (ctype.startswith('text/') or 'javascript' in ctype or 'json' in ctype) and 'charset=' not in ctype:
@@ -179,6 +186,9 @@ class Handler(server.Handler):
         return False
 
     def do_GET(self):
+        if urlsplit(self.path).path == '/__replay_status':
+            self._send(200, json.dumps(DIAGNOSTICS).encode(), 'application/json')
+            return
         if self.auxiliary():
             return
         if urlsplit(self.path).path == '/cc3x3/' and self.headers.get('Host', '').split(':')[0] == server.GS_HOST:
@@ -188,6 +198,16 @@ class Handler(server.Handler):
 
     def do_POST(self):
         path = urlsplit(self.path).path
+        if path in ('/__err__', '/__replay_diagnostic'):
+            try:
+                diagnostic = json.loads(self._read_body())
+                if diagnostic.get('kind') != 'alive':
+                    bucket = 'frontend_errors' if diagnostic.get('kind') in ('error', 'reject', 'console-error', 'xhr-error') else 'requests'
+                    DIAGNOSTICS[bucket] = (DIAGNOSTICS[bucket] + [diagnostic])[-200:]
+                    print('[545 diagnostic] ' + json.dumps(diagnostic), flush=True)
+            except (ValueError, TypeError):
+                self._send(400, b'{}', 'application/json'); return
+            self._send(200, b'{}', 'application/json'); return
         if path.startswith(('/vipservice/', '/favoriteservice/', '/rankingservice/',
                             '/subagentservice/', '/promotionservice/', '/longhu/', '/smartnotice/')):
             self._read_body()

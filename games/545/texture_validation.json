@@ -6,7 +6,7 @@
   "active_required_webp": 162,
   "active_valid_webp": 162,
   "historical_asset_errors": [],
-  "local_http_origin": "http://127.0.0.1:51697",
+  "local_http_origin": "https://localhost:8546",
   "http_verified": 162,
   "scope": "ASTC/WebP variants in available Cocos packs and captured ASTC; not a complete Windows visual test",
   "unavailable_import_packs": [],
@@ -2944,11 +2944,5 @@
       "original_url": "https://uat-wbgame.jlfafafa3.com/cc3x3/assets/main/native/86/8612dbdf-229b-44a8-905e-c00aedaa5eb9.cb2eb.webp",
       "http_verified": true
     }
-  ],
-  "http_server_kind": "isolated game static root; not a browser or complete replay test",
-  "batch_actions": {
-    "added": 0,
-    "repaired-invalid": 0,
-    "quarantined-invalid-unrecoverable": 0
-  }
+  ]
 }

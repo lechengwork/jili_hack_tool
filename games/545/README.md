@@ -74,7 +74,7 @@ python3 games/545/verify_hot_reload.py
 
 Python math codec無額外相依。獨立前端codec驗證需要Node與protobufjs：
 `npm install --prefix games/545/runtime --ignore-scripts --no-audit --no-fund protobufjs@7.5.4`。
-驗證相依安裝於本遊戲的`runtime/`，不另複製專案。`math_validation.json`、`mock_validation_wire.json`、`mock_validation_math.json`、`hot_reload_validation.json`保存驗證結果。瀏覽器畫面／長時間演出仍待離線實測，不以HTTP通過冒充畫面驗收。
+驗證相依安裝於本遊戲的`runtime/`，不另複製專案。`math_validation.json`、`mock_validation_wire.json`、`mock_validation_math.json`、`hot_reload_validation.json`保存驗證結果。2026-11-24已由操作人員確認Mac普通Chrome可進場轉局，本機log確認兩局成功；Windows實機及長時間／全部特殊演出仍待驗收，詳見`replay_browser_validation.json`。
 
 樣本與缺口見`coverage.json`、`math/INTERFACE.md`；來源幣別見`math_sources.json`。原USD帳號被踢前的2局與後續THB樣本分屬不同session，不能混合計算金額／RTP。
 
@@ -85,3 +85,14 @@ Python math codec無額外相依。獨立前端codec驗證需要Node與protobufj
 ## Git checkout / local-only files
 
 Login config, authenticated captures, current_session pointers, profiles, logs and ZIPs are local-only. Original archive members and archive_manifest.json are tracked; replay reconstructs its ZIP load bundles locally. Install root npm dependencies and `npm ci --prefix games/545/runtime` before original-codec checks. See the root README for setup.
+
+
+## 2026-11-24 登入／50%卡住修正
+
+同事以原始126局及新轉入資料都卡在登入／載入後，表示不能只憑加密HTTP測試通過就判定瀏覽器可用。已改用本地同源transport並保留545 crypto hook；補入本款缺少的`smallicon/lang/zh-CN/strings.json`與15個原版圖示，合成SSO補齊id／newNickname／platform等初始化欄位。修正後實際送出握手、初始化與兩筆成功SPIN，操作人員確認可以轉局。
+
+同事須同步`games/545/mock_server.py`、新增的`games/545/replay_transport.js`及`games/545/static/smallicon/`，然後關掉舊545 replay程序再重新執行`python -B replay_545.py`。保留原有math資料與其他資料匯入工具；不用重抓真站、換帳號或VPN。
+
+診斷入口為本機`https://127.0.0.1:8546/__replay_status`（服務自簽測試憑證）；包含轉局數、最近錯誤／請求及缺資源路徑。只記錄本地測試資訊，不記錄真站token。用一般Chrome測試，勿開DevTools；除錯連線本身可能觸發Jscrambler防護，不能把該防護回報當作普通瀏覽器的根因。
+
+本輪回歸：wire124局／130次回放，math126局／四池／134次回放，熱更新及錯誤JSON恢復通過；WebP162/162通過檔頭、尺寸與實際mock HTTPS的MIME／完整bytes檢查，三個binary import packs仍列於texture報告，非Windows實機完整驗證。
