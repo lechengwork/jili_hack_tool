@@ -1,0 +1,678 @@
+
+Symbol.png
+size: 1286,1286
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+01_FX_glow
+  rotate: false
+  xy: 193, 490
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+Coin_01
+  rotate: false
+  xy: 932, 709
+  size: 16, 120
+  orig: 160, 160
+  offset: 73, 19
+  index: -1
+Coin_02
+  rotate: false
+  xy: 943, 62
+  size: 80, 120
+  orig: 160, 160
+  offset: 41, 19
+  index: -1
+Coin_03
+  rotate: false
+  xy: 806, 183
+  size: 104, 120
+  orig: 160, 160
+  offset: 29, 19
+  index: -1
+Coin_04
+  rotate: true
+  xy: 1111, 217
+  size: 104, 120
+  orig: 160, 160
+  offset: 29, 19
+  index: -1
+Coin_05
+  rotate: false
+  xy: 670, 631
+  size: 50, 120
+  orig: 160, 160
+  offset: 56, 19
+  index: -1
+FX/Add_Particles0
+  rotate: false
+  xy: 1, 447
+  size: 190, 183
+  orig: 220, 220
+  offset: 11, 21
+  index: -1
+FX/Add_Particles11
+  rotate: false
+  xy: 952, 901
+  size: 220, 218
+  orig: 220, 220
+  offset: 0, 2
+  index: -1
+FX/Add_Particles2
+  rotate: false
+  xy: 1, 632
+  size: 192, 175
+  orig: 192, 178
+  offset: 0, 3
+  index: -1
+FX/Add_ParticlesB
+  rotate: false
+  xy: 728, 831
+  size: 220, 218
+  orig: 220, 220
+  offset: 0, 2
+  index: -1
+FX/BG_stage_light2
+  rotate: true
+  xy: 1233, 263
+  size: 58, 49
+  orig: 59, 49
+  offset: 1, 0
+  index: -1
+FX/CircleLight8_2
+  rotate: false
+  xy: 900, 316
+  size: 149, 150
+  orig: 150, 150
+  offset: 1, 0
+  index: -1
+FX/Color_O
+  rotate: false
+  xy: 1051, 413
+  size: 60, 60
+  orig: 60, 60
+  offset: 0, 0
+  index: -1
+FX/Eye_Flash
+  rotate: false
+  xy: 670, 579
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+FX/FrameGlow_White
+  rotate: false
+  xy: 1164, 131
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+FX/Frame_Fill_W
+  rotate: false
+  xy: 293, 173
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+FX/Frame_Glow_B
+  rotate: false
+  xy: 1025, 49
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+FX/Frame_Glow_G
+  rotate: false
+  xy: 1107, 49
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+FX/Frame_Glow_P
+  rotate: false
+  xy: 1189, 49
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+FX/Frame_Glow_W
+  rotate: false
+  xy: 1082, 135
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+FX/Point
+  rotate: false
+  xy: 1158, 760
+  size: 12, 12
+  orig: 20, 20
+  offset: 4, 4
+  index: -1
+FX/RingGlowHuge03
+  rotate: false
+  xy: 792, 28
+  size: 149, 150
+  orig: 186, 194
+  offset: 19, 21
+  index: -1
+FX/RingGlowHuge03_
+  rotate: false
+  xy: 1, 6
+  size: 164, 164
+  orig: 170, 170
+  offset: 3, 3
+  index: -1
+FX/Star_1522
+  rotate: true
+  xy: 1186, 1101
+  size: 65, 91
+  orig: 65, 98
+  offset: 0, 0
+  index: -1
+FX/Star_20
+  rotate: false
+  xy: 193, 576
+  size: 46, 45
+  orig: 70, 70
+  offset: 12, 13
+  index: -1
+FX/SunLight
+  rotate: false
+  xy: 459, 624
+  size: 209, 209
+  orig: 227, 227
+  offset: 9, 9
+  index: -1
+FX/newin
+  rotate: true
+  xy: 683, 982
+  size: 63, 40
+  orig: 65, 40
+  offset: 1, 0
+  index: -1
+Gold
+  rotate: false
+  xy: 193, 546
+  size: 46, 28
+  orig: 46, 28
+  offset: 0, 0
+  index: -1
+JP_Bar/JP_Grand_BG
+  rotate: false
+  xy: 720, 487
+  size: 172, 48
+  orig: 172, 48
+  offset: 0, 0
+  index: -1
+JP_Bar/JP_Grand_title
+  rotate: false
+  xy: 1157, 520
+  size: 104, 25
+  orig: 104, 25
+  offset: 0, 0
+  index: -1
+JP_Bar/JP_Major_BG
+  rotate: false
+  xy: 720, 437
+  size: 172, 48
+  orig: 172, 48
+  offset: 0, 0
+  index: -1
+JP_Bar/JP_Major_title
+  rotate: true
+  xy: 193, 388
+  size: 100, 25
+  orig: 100, 25
+  offset: 0, 0
+  index: -1
+JP_Bar/JP_Mini_BG
+  rotate: false
+  xy: 1132, 468
+  size: 152, 48
+  orig: 152, 48
+  offset: 0, 0
+  index: -1
+JP_Bar/JP_Mini_title
+  rotate: true
+  xy: 1132, 518
+  size: 64, 23
+  orig: 64, 23
+  offset: 0, 0
+  index: -1
+JP_Bar/JP_Minor_BG
+  rotate: true
+  xy: 742, 26
+  size: 152, 48
+  orig: 152, 48
+  offset: 0, 0
+  index: -1
+JP_Bar/JP_Minor_title
+  rotate: true
+  xy: 1132, 584
+  size: 91, 23
+  orig: 91, 23
+  offset: 0, 0
+  index: -1
+Mystery/CloverFxs
+  rotate: false
+  xy: 241, 641
+  size: 216, 193
+  orig: 266, 248
+  offset: 25, 21
+  index: -1
+Mystery/Coin01
+  rotate: false
+  xy: 1233, 213
+  size: 48, 48
+  orig: 50, 50
+  offset: 1, 1
+  index: -1
+Mystery/Coin02
+  rotate: true
+  xy: 1032, 177
+  size: 47, 48
+  orig: 50, 50
+  offset: 2, 1
+  index: -1
+Mystery/Coin03
+  rotate: false
+  xy: 683, 932
+  size: 40, 48
+  orig: 50, 50
+  offset: 6, 1
+  index: -1
+Mystery/Coin04
+  rotate: false
+  xy: 427, 591
+  size: 28, 48
+  orig: 50, 50
+  offset: 12, 1
+  index: -1
+Mystery/Coin05
+  rotate: false
+  xy: 1158, 774
+  size: 13, 48
+  orig: 50, 50
+  offset: 19, 1
+  index: -1
+Mystery/Frame_FX_01_W
+  rotate: false
+  xy: 930, 475
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+Mystery/Frame_FX_02_W
+  rotate: false
+  xy: 1, 1049
+  size: 245, 236
+  orig: 300, 300
+  offset: 26, 25
+  index: -1
+Mystery/LockerGlow
+  rotate: false
+  xy: 167, 6
+  size: 146, 164
+  orig: 300, 268
+  offset: 73, 75
+  index: -1
+Mystery/Star_15
+  rotate: true
+  xy: 463, 835
+  size: 210, 218
+  orig: 218, 228
+  offset: 4, 5
+  index: -1
+Mystery/Symbol_07-3
+  rotate: false
+  xy: 728, 1121
+  size: 227, 164
+  orig: 227, 212
+  offset: 0, 26
+  index: -1
+Mystery/Symbol_07-3_green
+  rotate: false
+  xy: 957, 1121
+  size: 227, 164
+  orig: 227, 212
+  offset: 0, 26
+  index: -1
+Mystery/Symbol_07-6
+  rotate: false
+  xy: 1, 331
+  size: 183, 114
+  orig: 227, 212
+  offset: 23, 46
+  index: -1
+Mystery/Symbol_07-6_green
+  rotate: false
+  xy: 457, 508
+  size: 183, 114
+  orig: 227, 212
+  offset: 23, 46
+  index: -1
+Mystery/Symbol_07-8
+  rotate: false
+  xy: 912, 184
+  size: 58, 130
+  orig: 227, 212
+  offset: 3, 39
+  index: -1
+Mystery/Symbol_07-8_Black
+  rotate: false
+  xy: 1051, 281
+  size: 58, 130
+  orig: 227, 212
+  offset: 3, 39
+  index: -1
+Mystery/Symbol_07-8_Light
+  rotate: false
+  xy: 972, 184
+  size: 58, 130
+  orig: 227, 212
+  offset: 3, 39
+  index: -1
+Mystery/Symbol_07_Door_L
+  rotate: false
+  xy: 625, 19
+  size: 115, 156
+  orig: 300, 268
+  offset: 38, 55
+  index: -1
+Mystery/Symbol_07_Door_R
+  rotate: false
+  xy: 385, 10
+  size: 121, 160
+  orig: 300, 268
+  offset: 137, 55
+  index: -1
+Mystery/Symbol_07_Locker01
+  rotate: true
+  xy: 193, 524
+  size: 20, 38
+  orig: 300, 268
+  offset: 136, 167
+  index: -1
+Mystery/Symbol_07_Locker02
+  rotate: true
+  xy: 1186, 1168
+  size: 76, 94
+  orig: 300, 268
+  offset: 108, 110
+  index: -1
+Mystery/Symbol_07_Locker03
+  rotate: false
+  xy: 642, 465
+  size: 76, 112
+  orig: 300, 268
+  offset: 108, 110
+  index: -1
+Mystery/Symbol_07_Txt
+  rotate: false
+  xy: 241, 904
+  size: 218, 73
+  orig: 300, 268
+  offset: 41, 50
+  index: -1
+Mystery/Symbol_07_Txt_Add
+  rotate: false
+  xy: 950, 824
+  size: 220, 75
+  orig: 300, 268
+  offset: 40, 49
+  index: -1
+Mystery/Symbol_08-5
+  rotate: false
+  xy: 720, 305
+  size: 58, 130
+  orig: 227, 212
+  offset: 3, 39
+  index: -1
+Mystery/Symbol_08-5_Black
+  rotate: false
+  xy: 780, 305
+  size: 58, 130
+  orig: 227, 212
+  offset: 3, 39
+  index: -1
+Mystery/Symbol_08-5_Light
+  rotate: false
+  xy: 840, 305
+  size: 58, 130
+  orig: 227, 212
+  offset: 3, 39
+  index: -1
+Mystery/Symbol_08_Door_L
+  rotate: false
+  xy: 508, 14
+  size: 115, 156
+  orig: 300, 268
+  offset: 38, 55
+  index: -1
+Mystery/Symbol_08_Door_R
+  rotate: false
+  xy: 597, 303
+  size: 121, 160
+  orig: 300, 268
+  offset: 137, 55
+  index: -1
+Mystery/Symbol_08_Txt01
+  rotate: false
+  xy: 241, 836
+  size: 218, 66
+  orig: 300, 268
+  offset: 39, 48
+  index: -1
+Mystery/Symbol_08_Txt02
+  rotate: false
+  xy: 241, 979
+  size: 220, 66
+  orig: 300, 268
+  offset: 39, 78
+  index: -1
+Mystery/Symbol_08_Txt02_Add
+  rotate: false
+  xy: 728, 1051
+  size: 222, 68
+  orig: 300, 268
+  offset: 38, 77
+  index: -1
+Symbol/CoinRef_06
+  rotate: false
+  xy: 1174, 908
+  size: 107, 106
+  orig: 300, 300
+  offset: 83, 114
+  index: -1
+Symbol/CoinRef_09
+  rotate: false
+  xy: 560, 177
+  size: 124, 124
+  orig: 300, 300
+  offset: 84, 94
+  index: -1
+Symbol/CoinRef_12
+  rotate: false
+  xy: 1157, 547
+  size: 128, 126
+  orig: 300, 300
+  offset: 89, 88
+  index: -1
+Symbol/CoinRef_15
+  rotate: true
+  xy: 686, 180
+  size: 121, 118
+  orig: 300, 300
+  offset: 96, 87
+  index: -1
+Symbol/CoinRef_18
+  rotate: false
+  xy: 1174, 1016
+  size: 109, 83
+  orig: 300, 300
+  offset: 107, 88
+  index: -1
+Symbol/Coin_Thickness
+  rotate: true
+  xy: 241, 485
+  size: 154, 184
+  orig: 200, 200
+  offset: 26, 8
+  index: -1
+Symbol/Coin_Thickness0
+  rotate: false
+  xy: 195, 623
+  size: 44, 184
+  orig: 200, 200
+  offset: 79, 8
+  index: -1
+Symbol/Coin_Thickness2
+  rotate: false
+  xy: 1174, 722
+  size: 104, 184
+  orig: 200, 200
+  offset: 51, 7
+  index: -1
+Symbol/FG_PanelSweep01_01
+  rotate: false
+  xy: 670, 753
+  size: 51, 54
+  orig: 80, 80
+  offset: 3, 19
+  index: -1
+Symbol/FG_PanelSweep01_02
+  rotate: true
+  xy: 315, 41
+  size: 63, 64
+  orig: 80, 80
+  offset: 2, 11
+  index: -1
+Symbol/FG_PanelSweep01_03
+  rotate: false
+  xy: 315, 245
+  size: 72, 70
+  orig: 80, 80
+  offset: 3, 3
+  index: -1
+Symbol/FG_PanelSweep01_05
+  rotate: false
+  xy: 315, 106
+  size: 68, 65
+  orig: 80, 80
+  offset: 10, 1
+  index: -1
+Symbol/FG_PanelSweep01_06
+  rotate: false
+  xy: 1032, 226
+  size: 54, 53
+  orig: 80, 80
+  offset: 23, 2
+  index: -1
+Symbol/Major_Bg
+  rotate: false
+  xy: 724, 684
+  size: 206, 145
+  orig: 300, 268
+  offset: 47, 62
+  index: -1
+Symbol/Major_Coin
+  rotate: true
+  xy: 427, 340
+  size: 166, 168
+  orig: 300, 268
+  offset: 67, 50
+  index: -1
+Symbol/Major_Light
+  rotate: false
+  xy: 248, 1047
+  size: 238, 238
+  orig: 300, 268
+  offset: 31, 13
+  index: -1
+Symbol/Major_Txt
+  rotate: false
+  xy: 1158, 675
+  size: 127, 45
+  orig: 300, 268
+  offset: 87, 110
+  index: -1
+Symbol/Mini_Bg
+  rotate: false
+  xy: 950, 677
+  size: 206, 145
+  orig: 300, 268
+  offset: 47, 62
+  index: -1
+Symbol/Mini_Coin
+  rotate: true
+  xy: 220, 317
+  size: 166, 168
+  orig: 300, 268
+  offset: 67, 50
+  index: -1
+Symbol/Mini_Light
+  rotate: false
+  xy: 1, 809
+  size: 238, 238
+  orig: 300, 268
+  offset: 31, 13
+  index: -1
+Symbol/Mini_Txt
+  rotate: false
+  xy: 1186, 1246
+  size: 95, 39
+  orig: 300, 268
+  offset: 104, 116
+  index: -1
+Symbol/Minor_Bg
+  rotate: false
+  xy: 722, 537
+  size: 206, 145
+  orig: 300, 268
+  offset: 47, 62
+  index: -1
+Symbol/Minor_Coin
+  rotate: true
+  xy: 390, 172
+  size: 166, 168
+  orig: 300, 268
+  offset: 67, 50
+  index: -1
+Symbol/Minor_Light
+  rotate: false
+  xy: 488, 1047
+  size: 238, 238
+  orig: 300, 268
+  offset: 31, 13
+  index: -1
+Symbol/Minor_Txt
+  rotate: true
+  xy: 683, 809
+  size: 121, 39
+  orig: 300, 268
+  offset: 90, 116
+  index: -1
+Symbol/Symbol_01
+  rotate: true
+  xy: 147, 172
+  size: 143, 144
+  orig: 300, 268
+  offset: 79, 62
+  index: -1
+Symbol/Symbol_02
+  rotate: true
+  xy: 1113, 323
+  size: 143, 144
+  orig: 300, 268
+  offset: 79, 62
+  index: -1
+Symbol/Symbol_03
+  rotate: true
+  xy: 1, 172
+  size: 143, 144
+  orig: 300, 268
+  offset: 79, 62
+  index: -1

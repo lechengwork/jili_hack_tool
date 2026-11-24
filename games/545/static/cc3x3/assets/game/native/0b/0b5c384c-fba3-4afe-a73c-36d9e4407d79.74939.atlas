@@ -1,0 +1,188 @@
+
+Symbol_09.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+FX/FX_Clover_3
+  rotate: false
+  xy: 437, 454
+  size: 58, 75
+  orig: 100, 100
+  offset: 21, 13
+  index: -1
+FX/FX_Rainbow1
+  rotate: true
+  xy: 196, 316
+  size: 132, 271
+  orig: 200, 326
+  offset: 36, 34
+  index: -1
+FX/FX_Star2
+  rotate: true
+  xy: 589, 369
+  size: 96, 89
+  orig: 100, 100
+  offset: 3, 3
+  index: -1
+FX/Glow_1
+  rotate: false
+  xy: 446, 99
+  size: 215, 215
+  orig: 240, 240
+  offset: 13, 12
+  index: -1
+FX/Shine_4-2
+  rotate: false
+  xy: 196, 450
+  size: 239, 254
+  orig: 300, 300
+  offset: 30, 33
+  index: -1
+FX/Shine_4_alpha
+  rotate: true
+  xy: 437, 531
+  size: 177, 123
+  orig: 200, 200
+  offset: 10, 65
+  index: -1
+FX/Wind_MotionBlur_3
+  rotate: false
+  xy: 2, 234
+  size: 192, 470
+  orig: 220, 500
+  offset: 12, 13
+  index: -1
+FX/light_white
+  rotate: false
+  xy: 2, 706
+  size: 311, 312
+  orig: 400, 400
+  offset: 44, 44
+  index: -1
+FX/shiny
+  rotate: false
+  xy: 469, 322
+  size: 118, 130
+  orig: 180, 180
+  offset: 21, 30
+  index: -1
+JumpingCoin_Shadow2
+  rotate: true
+  xy: 409, 188
+  size: 52, 27
+  orig: 60, 32
+  offset: 4, 3
+  index: -1
+Pot_Coin_1
+  rotate: true
+  xy: 409, 138
+  size: 48, 26
+  orig: 48, 26
+  offset: 0, 0
+  index: -1
+Pot_Coin_2
+  rotate: false
+  xy: 2, 2
+  size: 49, 17
+  orig: 49, 17
+  offset: 0, 0
+  index: -1
+Pot_Coin_3
+  rotate: true
+  xy: 409, 89
+  size: 47, 22
+  orig: 47, 22
+  offset: 0, 0
+  index: -1
+Pot_Lv3_Coin
+  rotate: false
+  xy: 315, 710
+  size: 193, 97
+  orig: 300, 300
+  offset: 50, 117
+  index: -1
+Pot_Lv4_Coin
+  rotate: true
+  xy: 466, 825
+  size: 193, 117
+  orig: 300, 300
+  offset: 50, 117
+  index: -1
+Symbol_09/Symbol_09_Bg
+  rotate: true
+  xy: 315, 809
+  size: 209, 149
+  orig: 300, 268
+  offset: 43, 57
+  index: -1
+Symbol_09/Symbol_09_Frame
+  rotate: true
+  xy: 252, 14
+  size: 226, 155
+  orig: 300, 268
+  offset: 37, 56
+  index: -1
+Symbol_09/Symbol_09_Pot_Money
+  rotate: false
+  xy: 510, 739
+  size: 211, 84
+  orig: 300, 268
+  offset: 52, 166
+  index: -1
+Symbol_09/Symbol_09_Pot_Poinsettia_01
+  rotate: true
+  xy: 497, 454
+  size: 75, 49
+  orig: 300, 268
+  offset: 98, 168
+  index: -1
+pot_01
+  rotate: false
+  xy: 2, 21
+  size: 248, 211
+  orig: 248, 211
+  offset: 0, 0
+  index: -1
+pot_01_Back_handrail_L
+  rotate: true
+  xy: 649, 323
+  size: 44, 58
+  orig: 44, 58
+  offset: 0, 0
+  index: -1
+pot_01_Back_handrail_L_S
+  rotate: false
+  xy: 663, 265
+  size: 45, 56
+  orig: 46, 60
+  offset: 0, 0
+  index: -1
+pot_01_Back_handrail_R
+  rotate: true
+  xy: 589, 322
+  size: 45, 58
+  orig: 45, 58
+  offset: 0, 0
+  index: -1
+pot_01_Back_handrail_R_S
+  rotate: false
+  xy: 548, 467
+  size: 45, 62
+  orig: 46, 66
+  offset: 1, 1
+  index: -1
+pot_01_Front
+  rotate: false
+  xy: 196, 242
+  size: 248, 72
+  orig: 248, 192
+  offset: 0, 120
+  index: -1
+shadow
+  rotate: false
+  xy: 409, 5
+  size: 295, 82
+  orig: 304, 94
+  offset: 5, 2
+  index: -1

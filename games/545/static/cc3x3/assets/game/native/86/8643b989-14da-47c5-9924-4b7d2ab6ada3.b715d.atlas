@@ -1,0 +1,342 @@
+
+GameIntro.png
+size: 1162,1162
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Begin/Begin_1_BG
+  rotate: false
+  xy: 1007, 585
+  size: 135, 135
+  orig: 135, 135
+  offset: 0, 0
+  index: -1
+Begin/Begin_4_Platform
+  rotate: false
+  xy: 1, 907
+  size: 635, 254
+  orig: 635, 578
+  offset: 0, 324
+  index: -1
+Begin/Begin_5_Red_Light
+  rotate: false
+  xy: 1, 385
+  size: 249, 520
+  orig: 249, 520
+  offset: 0, 0
+  index: -1
+Begin/Shadow_Circle
+  rotate: false
+  xy: 821, 69
+  size: 135, 135
+  orig: 135, 135
+  offset: 0, 0
+  index: -1
+Character_01_light
+  rotate: true
+  xy: 776, 369
+  size: 185, 168
+  orig: 288, 179
+  offset: 51, 11
+  index: -1
+Coin/coin_00
+  rotate: false
+  xy: 994, 1
+  size: 62, 23
+  orig: 62, 23
+  offset: 0, 0
+  index: -1
+Coin/coin_00_S
+  rotate: true
+  xy: 252, 405
+  size: 68, 30
+  orig: 68, 30
+  offset: 0, 0
+  index: -1
+Coin/coin_01
+  rotate: true
+  xy: 1115, 523
+  size: 60, 41
+  orig: 60, 41
+  offset: 0, 0
+  index: -1
+Coin/coin_01_S
+  rotate: true
+  xy: 994, 26
+  size: 64, 47
+  orig: 64, 47
+  offset: 0, 0
+  index: -1
+Coin/coin_02
+  rotate: true
+  xy: 1132, 950
+  size: 61, 23
+  orig: 61, 23
+  offset: 0, 0
+  index: -1
+Coin/coin_03
+  rotate: true
+  xy: 1132, 1013
+  size: 63, 24
+  orig: 63, 24
+  offset: 0, 0
+  index: -1
+Coin/coin_04
+  rotate: false
+  xy: 1, 1
+  size: 55, 20
+  orig: 55, 20
+  offset: 0, 0
+  index: -1
+Coin/coin_05
+  rotate: false
+  xy: 58, 1
+  size: 54, 20
+  orig: 54, 20
+  offset: 0, 0
+  index: -1
+FX/Add_Particles
+  rotate: false
+  xy: 285, 203
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1
+FX/FX_Clover_3
+  rotate: true
+  xy: 958, 92
+  size: 56, 90
+  orig: 90, 90
+  offset: 17, 0
+  index: -1
+FX/FX_Light_5
+  rotate: false
+  xy: 946, 420
+  size: 57, 174
+  orig: 80, 174
+  offset: 8, 0
+  index: -1
+FX/FX_Star2
+  rotate: false
+  xy: 958, 150
+  size: 89, 90
+  orig: 90, 90
+  offset: 1, 0
+  index: -1
+FX/Glow_1
+  rotate: true
+  xy: 510, 6
+  size: 195, 216
+  orig: 216, 216
+  offset: 11, 0
+  index: -1
+FX/Light34
+  rotate: true
+  xy: 252, 475
+  size: 71, 461
+  orig: 71, 461
+  offset: 0, 0
+  index: -1
+FX/Nightingale01_RinbowLight01_00000
+  rotate: true
+  xy: 1049, 187
+  size: 73, 50
+  orig: 86, 50
+  offset: 6, 0
+  index: -1
+FX/RinbowFlare01_00
+  rotate: false
+  xy: 1004, 907
+  size: 126, 254
+  orig: 254, 254
+  offset: 63, 0
+  index: -1
+FX/Shine_4-2
+  rotate: false
+  xy: 557, 203
+  size: 217, 270
+  orig: 270, 270
+  offset: 26, 0
+  index: -1
+FX/Shine_4_alpha
+  rotate: true
+  xy: 776, 206
+  size: 161, 180
+  orig: 180, 180
+  offset: 8, 0
+  index: -1
+FX/light_white
+  rotate: false
+  xy: 1, 23
+  size: 282, 360
+  orig: 360, 360
+  offset: 39, 0
+  index: -1
+FX/shiny
+  rotate: false
+  xy: 1005, 421
+  size: 108, 162
+  orig: 162, 162
+  offset: 18, 0
+  index: -1
+FX/yun_w2
+  rotate: true
+  xy: 1023, 262
+  size: 157, 78
+  orig: 170, 84
+  offset: 13, 0
+  index: -1
+JumpingCoin_Shadow2
+  rotate: true
+  xy: 1132, 1111
+  size: 50, 29
+  orig: 54, 29
+  offset: 2, 0
+  index: -1
+Pot_1
+  rotate: false
+  xy: 285, 11
+  size: 223, 190
+  orig: 223, 190
+  offset: 0, 0
+  index: -1
+Pot_Coin_1
+  rotate: false
+  xy: 715, 488
+  size: 43, 23
+  orig: 43, 23
+  offset: 0, 0
+  index: -1
+Pot_Coin_2
+  rotate: true
+  xy: 1146, 278
+  size: 44, 15
+  orig: 44, 15
+  offset: 0, 0
+  index: -1
+Pot_Coin_3
+  rotate: false
+  xy: 114, 1
+  size: 42, 20
+  orig: 42, 20
+  offset: 0, 0
+  index: -1
+Pot_Lv2_Coin
+  rotate: false
+  xy: 821, 3
+  size: 171, 64
+  orig: 270, 270
+  offset: 48, 103
+  index: -1
+Pot_Lv3_Coin
+  rotate: true
+  xy: 728, 24
+  size: 177, 91
+  orig: 270, 270
+  offset: 43, 103
+  index: -1
+Pot_Lv4_Coin
+  rotate: true
+  xy: 1007, 722
+  size: 183, 114
+  orig: 270, 270
+  offset: 40, 102
+  index: -1
+pot_01_Back_handrail_L
+  rotate: true
+  xy: 561, 865
+  size: 40, 52
+  orig: 40, 52
+  offset: 0, 0
+  index: -1
+pot_01_Back_handrail_L_S
+  rotate: false
+  xy: 1115, 467
+  size: 41, 54
+  orig: 41, 54
+  offset: 0, 0
+  index: -1
+pot_01_Back_handrail_R
+  rotate: false
+  xy: 1115, 413
+  size: 41, 52
+  orig: 41, 52
+  offset: 0, 0
+  index: -1
+pot_01_Back_handrail_R_S
+  rotate: true
+  xy: 715, 513
+  size: 41, 59
+  orig: 41, 59
+  offset: 0, 0
+  index: -1
+pot_02_coin_back
+  rotate: true
+  xy: 958, 242
+  size: 176, 63
+  orig: 176, 63
+  offset: 0, 0
+  index: -1
+pot_03_coin_back
+  rotate: true
+  xy: 638, 865
+  size: 296, 364
+  orig: 490, 364
+  offset: 73, 0
+  index: -1
+pot_04_coin_back_L
+  rotate: false
+  xy: 252, 548
+  size: 307, 357
+  orig: 576, 357
+  offset: 12, 0
+  index: -1
+pot_04_coin_back_R
+  rotate: true
+  xy: 561, 556
+  size: 307, 357
+  orig: 576, 357
+  offset: 248, 0
+  index: -1
+pot_04_green_jewrly_01
+  rotate: false
+  xy: 1103, 324
+  size: 47, 41
+  orig: 47, 41
+  offset: 0, 0
+  index: -1
+pot_04_green_jewrly_02
+  rotate: false
+  xy: 1103, 367
+  size: 47, 44
+  orig: 47, 44
+  offset: 0, 0
+  index: -1
+pot_04_green_jewrly_03
+  rotate: false
+  xy: 1049, 159
+  size: 25, 26
+  orig: 25, 26
+  offset: 0, 0
+  index: -1
+pot_04_green_jewrly_04
+  rotate: false
+  xy: 1103, 283
+  size: 41, 39
+  orig: 41, 39
+  offset: 0, 0
+  index: -1
+pot_04_green_jewrly_05
+  rotate: false
+  xy: 1132, 1078
+  size: 29, 31
+  orig: 29, 31
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 920, 596
+  size: 267, 85
+  orig: 274, 85
+  offset: 4, 0
+  index: -1

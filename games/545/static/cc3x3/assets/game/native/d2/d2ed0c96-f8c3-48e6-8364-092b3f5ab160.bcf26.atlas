@@ -1,0 +1,244 @@
+
+MainFx.png
+size: 1095,1095
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+FX/001
+  rotate: false
+  xy: 896, 2
+  size: 67, 68
+  orig: 69, 71
+  offset: 1, 2
+  index: -1
+FX/Add_Particles1
+  rotate: false
+  xy: 965, 28
+  size: 51, 42
+  orig: 70, 70
+  offset: 8, 17
+  index: -1
+FX/FrameFX/FrameFX1_00
+  rotate: true
+  xy: 2, 380
+  size: 391, 114
+  orig: 1000, 800
+  offset: 117, 71
+  index: -1
+FX/FrameFX/FrameFX1_01
+  rotate: false
+  xy: 324, 979
+  size: 391, 114
+  orig: 1000, 800
+  offset: 117, 71
+  index: -1
+FX/FrameFX/FrameFX1_02
+  rotate: true
+  xy: 118, 380
+  size: 391, 114
+  orig: 1000, 800
+  offset: 117, 70
+  index: -1
+FX/FrameFX/FrameFX1_03
+  rotate: false
+  xy: 234, 521
+  size: 388, 112
+  orig: 1000, 800
+  offset: 120, 72
+  index: -1
+FX/FrameFX/FrameFX1_04
+  rotate: false
+  xy: 229, 187
+  size: 385, 110
+  orig: 1000, 800
+  offset: 122, 74
+  index: -1
+FX/FrameFX/FrameFX1_05
+  rotate: false
+  xy: 234, 299
+  size: 388, 108
+  orig: 1000, 800
+  offset: 119, 76
+  index: -1
+FX/FrameFX/FrameFX1_06
+  rotate: false
+  xy: 234, 409
+  size: 390, 110
+  orig: 1000, 800
+  offset: 117, 75
+  index: -1
+FX/FrameFX/FrameFX1_07
+  rotate: false
+  xy: 234, 635
+  size: 391, 112
+  orig: 1000, 800
+  offset: 116, 73
+  index: -1
+FX/FrameFX/FrameFX1_08
+  rotate: false
+  xy: 324, 864
+  size: 392, 113
+  orig: 1000, 800
+  offset: 115, 72
+  index: -1
+FX/FrameFX/FrameFX1_09
+  rotate: false
+  xy: 324, 749
+  size: 392, 113
+  orig: 1000, 800
+  offset: 116, 72
+  index: -1
+FX/FrameFX/FrameFX2_00
+  rotate: true
+  xy: 718, 657
+  size: 144, 289
+  orig: 1000, 800
+  offset: 43, 119
+  index: -1
+FX/FrameFX/FrameFX2_01
+  rotate: false
+  xy: 921, 366
+  size: 147, 289
+  orig: 1000, 800
+  offset: 40, 119
+  index: -1
+FX/FrameFX/FrameFX2_02
+  rotate: true
+  xy: 523, 37
+  size: 148, 289
+  orig: 1000, 800
+  offset: 39, 119
+  index: -1
+FX/FrameFX/FrameFX2_03
+  rotate: false
+  xy: 870, 804
+  size: 149, 289
+  orig: 1000, 800
+  offset: 38, 119
+  index: -1
+FX/FrameFX/FrameFX2_04
+  rotate: false
+  xy: 718, 803
+  size: 150, 290
+  orig: 1000, 800
+  offset: 37, 118
+  index: -1
+FX/FrameFX/FrameFX2_05
+  rotate: true
+  xy: 624, 214
+  size: 148, 290
+  orig: 1000, 800
+  offset: 39, 118
+  index: -1
+FX/FrameFX/FrameFX2_06
+  rotate: true
+  xy: 229, 37
+  size: 148, 292
+  orig: 1000, 800
+  offset: 39, 116
+  index: -1
+FX/FrameFX/FrameFX2_07
+  rotate: true
+  xy: 627, 511
+  size: 144, 292
+  orig: 1000, 800
+  offset: 43, 116
+  index: -1
+FX/FrameFX/FrameFX2_08
+  rotate: true
+  xy: 626, 364
+  size: 145, 291
+  orig: 1000, 800
+  offset: 42, 116
+  index: -1
+FX/FrameFX/FrameFX2_09
+  rotate: false
+  xy: 916, 72
+  size: 144, 290
+  orig: 1000, 800
+  offset: 43, 118
+  index: -1
+FX/Frame_FX
+  rotate: false
+  xy: 2, 147
+  size: 225, 231
+  orig: 225, 231
+  offset: 0, 0
+  index: -1
+FX/Frame_Glow_2
+  rotate: false
+  xy: 627, 667
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+FX/Frame_Glow_3_Resize
+  rotate: false
+  xy: 2, 773
+  size: 320, 320
+  orig: 320, 320
+  offset: 0, 0
+  index: -1
+FX/Frame_Glow_4
+  rotate: false
+  xy: 814, 16
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+FX/Line
+  rotate: true
+  xy: 171, 35
+  size: 110, 34
+  orig: 120, 40
+  offset: 5, 3
+  index: -1
+FX/nearwin_01
+  rotate: false
+  xy: 814, 98
+  size: 83, 114
+  orig: 120, 147
+  offset: 18, 14
+  index: -1
+FX/nearwin_06
+  rotate: false
+  xy: 814, 98
+  size: 83, 114
+  orig: 120, 147
+  offset: 18, 14
+  index: -1
+FX/nearwin_02
+  rotate: false
+  xy: 2, 24
+  size: 82, 121
+  orig: 120, 147
+  offset: 19, 14
+  index: -1
+FX/nearwin_03
+  rotate: false
+  xy: 1021, 974
+  size: 71, 119
+  orig: 120, 147
+  offset: 21, 14
+  index: -1
+FX/nearwin_04
+  rotate: false
+  xy: 1021, 854
+  size: 70, 118
+  orig: 120, 147
+  offset: 21, 10
+  index: -1
+FX/nearwin_05
+  rotate: false
+  xy: 86, 25
+  size: 83, 120
+  orig: 120, 147
+  offset: 18, 8
+  index: -1
+FX/newin
+  rotate: false
+  xy: 1021, 816
+  size: 61, 36
+  orig: 65, 40
+  offset: 2, 2
+  index: -1

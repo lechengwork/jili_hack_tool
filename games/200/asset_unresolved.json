@@ -1,0 +1,667 @@
+{
+  "game_id": "200",
+  "date": "2026-11-24",
+  "scope": "All captured manifests, including optional/historical bundles; not every gap is proven reachable in the current game mode.",
+  "remaining_manifest_missing": 25,
+  "missing_or_invalid_declarations": [
+    {
+      "config": "aeon/3.8/web-mobile/assets/aeon/config.fefd5.json",
+      "bundle": "aeon/3.8/web-mobile/assets/aeon",
+      "selection": "selected",
+      "kind": "native",
+      "uuid": "c3fef90c-4bac-4609-ab75-1389c2a0a345",
+      "version": "08675",
+      "type": "cc.TTFFont",
+      "name": "font/TTF_BasicFont_Normal",
+      "expected_prefix": "aeon/3.8/web-mobile/assets/aeon/native/c3/c3fef90c-4bac-4609-ab75-1389c2a0a345.08675",
+      "files": [],
+      "status": "missing"
+    },
+    {
+      "config": "aeon/3.8/web-mobile/assets/aeon-backpack/config.21e7b.json",
+      "bundle": "aeon/3.8/web-mobile/assets/aeon-backpack",
+      "selection": "selected",
+      "kind": "import",
+      "uuid": "0bf623f2-4053-43ee-8617-d9adb5631d59",
+      "version": "43e92",
+      "expected_prefix": "aeon/3.8/web-mobile/assets/aeon-backpack/import/0b/0bf623f2-4053-43ee-8617-d9adb5631d59.43e92",
+      "status": "missing",
+      "files": []
+    },
+    {
+      "config": "aeon/3.8/web-mobile/assets/aeon-backpack/config.21e7b.json",
+      "bundle": "aeon/3.8/web-mobile/assets/aeon-backpack",
+      "selection": "selected",
+      "kind": "import",
+      "uuid": "262c303b-8756-4649-a7db-1aabae05c42c",
+      "version": "43e92",
+      "expected_prefix": "aeon/3.8/web-mobile/assets/aeon-backpack/import/26/262c303b-8756-4649-a7db-1aabae05c42c.43e92",
+      "status": "missing",
+      "files": []
+    },
+    {
+      "config": "aeon/3.8/web-mobile/assets/aeon-bell/config.40407.json",
+      "bundle": "aeon/3.8/web-mobile/assets/aeon-bell",
+      "selection": "selected",
+      "kind": "import",
+      "uuid": "007bfa14-24c3-463c-a9da-7374952ca496",
+      "version": "d440a",
+      "expected_prefix": "aeon/3.8/web-mobile/assets/aeon-bell/import/00/007bfa14-24c3-463c-a9da-7374952ca496.d440a",
+      "status": "missing",
+      "files": []
+    },
+    {
+      "config": "aeon/3.8/web-mobile/assets/aeon-bell/config.40407.json",
+      "bundle": "aeon/3.8/web-mobile/assets/aeon-bell",
+      "selection": "selected",
+      "kind": "import",
+      "uuid": "aa3a9206-5462-409b-8a64-21347213fb7d",
+      "version": "56326",
+      "expected_prefix": "aeon/3.8/web-mobile/assets/aeon-bell/import/aa/aa3a9206-5462-409b-8a64-21347213fb7d.56326",
+      "status": "missing",
+      "files": []
+    },
+    {
+      "config": "aeon/3.8/web-mobile/assets/aeon-bell/config.40407.json",
+      "bundle": "aeon/3.8/web-mobile/assets/aeon-bell",
+      "selection": "selected",
+      "kind": "import",
+      "uuid": "ce9087cc-dc6c-4a23-a20b-eef0438e2c1a",
+      "version": "56cbd",
+      "expected_prefix": "aeon/3.8/web-mobile/assets/aeon-bell/import/ce/ce9087cc-dc6c-4a23-a20b-eef0438e2c1a.56cbd",
+      "status": "missing",
+      "files": []
+    },
+    {
+      "config": "aeon/3.8/web-mobile/assets/aeon-bell/config.40407.json",
+      "bundle": "aeon/3.8/web-mobile/assets/aeon-bell",
+      "selection": "selected",
+      "kind": "import",
+      "uuid": "fe585e63-a24a-4854-ac9a-de3e32fc56a7",
+      "version": "15020",
+      "expected_prefix": "aeon/3.8/web-mobile/assets/aeon-bell/import/fe/fe585e63-a24a-4854-ac9a-de3e32fc56a7.15020",
+      "status": "missing",
+      "files": []
+    },
+    {
+      "config": "aeon/3.8/web-mobile/assets/aeon-script/config.617bb.json",
+      "bundle": "aeon/3.8/web-mobile/assets/aeon-script",
+      "selection": "selected",
+      "kind": "native",
+      "uuid": "772e59a0-42b4-4925-b28b-ea36178b7c1e",
+      "version": "9926e",
+      "type": "cc.AudioClip",
+      "name": "ckjr9tb10a",
+      "expected_prefix": "aeon/3.8/web-mobile/assets/aeon-script/native/77/772e59a0-42b4-4925-b28b-ea36178b7c1e.9926e",
+      "files": [],
+      "status": "missing"
+    },
+    {
+      "config": "aeon/3.8/web-mobile/assets/aeon-script/config.617bb.json",
+      "bundle": "aeon/3.8/web-mobile/assets/aeon-script",
+      "selection": "selected",
+      "kind": "native",
+      "uuid": "8afb9789-fbe0-40dc-bb7b-4ec3db0aa3d6",
+      "version": "9926e",
+      "type": "cc.AudioClip",
+      "name": "sp0i1on1br",
+      "expected_prefix": "aeon/3.8/web-mobile/assets/aeon-script/native/8a/8afb9789-fbe0-40dc-bb7b-4ec3db0aa3d6.9926e",
+      "files": [],
+      "status": "missing"
+    },
+    {
+      "config": "aeon/3.8/web-mobile/assets/aeon-script/config.617bb.json",
+      "bundle": "aeon/3.8/web-mobile/assets/aeon-script",
+      "selection": "selected",
+      "kind": "native",
+      "uuid": "97247930-ffc7-4577-b5a4-8d8c6474e116",
+      "version": "9926e",
+      "type": "cc.AudioClip",
+      "name": "unnf8e6thuc",
+      "expected_prefix": "aeon/3.8/web-mobile/assets/aeon-script/native/97/97247930-ffc7-4577-b5a4-8d8c6474e116.9926e",
+      "files": [],
+      "status": "missing"
+    },
+    {
+      "config": "aeon/3.8/web-mobile/assets/aeon-script/config.617bb.json",
+      "bundle": "aeon/3.8/web-mobile/assets/aeon-script",
+      "selection": "selected",
+      "kind": "import_pack",
+      "pack": "093942505",
+      "version": "54ed5",
+      "status": "missing",
+      "files": []
+    },
+    {
+      "config": "aeon/3.8/web-mobile/assets/aeon-winmore/config.0bc1c.json",
+      "bundle": "aeon/3.8/web-mobile/assets/aeon-winmore",
+      "selection": "selected",
+      "kind": "import",
+      "uuid": "02bca651-fee0-4d81-bb0a-70f81067ad72",
+      "version": "fe221",
+      "expected_prefix": "aeon/3.8/web-mobile/assets/aeon-winmore/import/02/02bca651-fee0-4d81-bb0a-70f81067ad72.fe221",
+      "status": "missing",
+      "files": []
+    },
+    {
+      "config": "aeon/3.8/web-mobile/assets/aeon-winmore/config.0bc1c.json",
+      "bundle": "aeon/3.8/web-mobile/assets/aeon-winmore",
+      "selection": "selected",
+      "kind": "import",
+      "uuid": "263112b5-a715-4b52-afe2-0b4e352d4cfc",
+      "version": "997e5",
+      "expected_prefix": "aeon/3.8/web-mobile/assets/aeon-winmore/import/26/263112b5-a715-4b52-afe2-0b4e352d4cfc.997e5",
+      "status": "missing",
+      "files": []
+    },
+    {
+      "config": "aeon/3.8/web-mobile/assets/aeon-winmore/config.0bc1c.json",
+      "bundle": "aeon/3.8/web-mobile/assets/aeon-winmore",
+      "selection": "selected",
+      "kind": "import",
+      "uuid": "3e7bd263-4816-471f-ba0f-0e8967e8d1ee",
+      "version": "fe221",
+      "expected_prefix": "aeon/3.8/web-mobile/assets/aeon-winmore/import/3e/3e7bd263-4816-471f-ba0f-0e8967e8d1ee.fe221",
+      "status": "missing",
+      "files": []
+    },
+    {
+      "config": "aeon/3.8/web-mobile/assets/aeon-winmore/config.0bc1c.json",
+      "bundle": "aeon/3.8/web-mobile/assets/aeon-winmore",
+      "selection": "selected",
+      "kind": "import",
+      "uuid": "4a7abfae-47a9-476b-9498-fb18702120c6",
+      "version": "a28d7",
+      "expected_prefix": "aeon/3.8/web-mobile/assets/aeon-winmore/import/4a/4a7abfae-47a9-476b-9498-fb18702120c6.a28d7",
+      "status": "missing",
+      "files": []
+    },
+    {
+      "config": "aeon/3.8/web-mobile/assets/aeon-winmore/config.0bc1c.json",
+      "bundle": "aeon/3.8/web-mobile/assets/aeon-winmore",
+      "selection": "selected",
+      "kind": "import",
+      "uuid": "578a52a9-4342-4d7a-b187-f677881fd387",
+      "version": "b2771",
+      "expected_prefix": "aeon/3.8/web-mobile/assets/aeon-winmore/import/57/578a52a9-4342-4d7a-b187-f677881fd387.b2771",
+      "status": "missing",
+      "files": []
+    },
+    {
+      "config": "aeon/3.8/web-mobile/assets/aeon-winmore/config.0bc1c.json",
+      "bundle": "aeon/3.8/web-mobile/assets/aeon-winmore",
+      "selection": "selected",
+      "kind": "import",
+      "uuid": "6520be4e-4466-4910-95e8-282d71ef4690",
+      "version": "a3494",
+      "expected_prefix": "aeon/3.8/web-mobile/assets/aeon-winmore/import/65/6520be4e-4466-4910-95e8-282d71ef4690.a3494",
+      "status": "missing",
+      "files": []
+    },
+    {
+      "config": "aeon/3.8/web-mobile/assets/aeon-winmore/config.0bc1c.json",
+      "bundle": "aeon/3.8/web-mobile/assets/aeon-winmore",
+      "selection": "selected",
+      "kind": "import",
+      "uuid": "6bf9cb5e-9ebe-4cb7-998e-f007c78f7799",
+      "version": "243ae",
+      "expected_prefix": "aeon/3.8/web-mobile/assets/aeon-winmore/import/6b/6bf9cb5e-9ebe-4cb7-998e-f007c78f7799.243ae",
+      "status": "missing",
+      "files": []
+    },
+    {
+      "config": "aeon/3.8/web-mobile/assets/aeon-winmore/config.0bc1c.json",
+      "bundle": "aeon/3.8/web-mobile/assets/aeon-winmore",
+      "selection": "selected",
+      "kind": "import",
+      "uuid": "6c3fb30e-a859-4d5e-98b7-f4be450f5088",
+      "version": "92457",
+      "expected_prefix": "aeon/3.8/web-mobile/assets/aeon-winmore/import/6c/6c3fb30e-a859-4d5e-98b7-f4be450f5088.92457",
+      "status": "missing",
+      "files": []
+    },
+    {
+      "config": "aeon/3.8/web-mobile/assets/aeon-winmore/config.0bc1c.json",
+      "bundle": "aeon/3.8/web-mobile/assets/aeon-winmore",
+      "selection": "selected",
+      "kind": "import",
+      "uuid": "6f63781c-9e52-43e5-a77d-e437d7a52804",
+      "version": "6bb7e",
+      "expected_prefix": "aeon/3.8/web-mobile/assets/aeon-winmore/import/6f/6f63781c-9e52-43e5-a77d-e437d7a52804.6bb7e",
+      "status": "missing",
+      "files": []
+    },
+    {
+      "config": "aeon/3.8/web-mobile/assets/aeon-winmore/config.0bc1c.json",
+      "bundle": "aeon/3.8/web-mobile/assets/aeon-winmore",
+      "selection": "selected",
+      "kind": "import",
+      "uuid": "9ef460a1-8f76-4b2b-b4d5-cef23a189a74",
+      "version": "a3494",
+      "expected_prefix": "aeon/3.8/web-mobile/assets/aeon-winmore/import/9e/9ef460a1-8f76-4b2b-b4d5-cef23a189a74.a3494",
+      "status": "missing",
+      "files": []
+    },
+    {
+      "config": "aeon/3.8/web-mobile/assets/aeon-winmore/config.0bc1c.json",
+      "bundle": "aeon/3.8/web-mobile/assets/aeon-winmore",
+      "selection": "selected",
+      "kind": "import",
+      "uuid": "b17cdd69-5ce2-4deb-8c76-43509fb7759e",
+      "version": "5c77e",
+      "expected_prefix": "aeon/3.8/web-mobile/assets/aeon-winmore/import/b1/b17cdd69-5ce2-4deb-8c76-43509fb7759e.5c77e",
+      "status": "missing",
+      "files": []
+    },
+    {
+      "config": "aeon/3.8/web-mobile/assets/aeon-winmore/config.0bc1c.json",
+      "bundle": "aeon/3.8/web-mobile/assets/aeon-winmore",
+      "selection": "selected",
+      "kind": "import",
+      "uuid": "d22dfe6c-6f80-44f8-a496-4e76f3c4a0d7",
+      "version": "a6968",
+      "expected_prefix": "aeon/3.8/web-mobile/assets/aeon-winmore/import/d2/d22dfe6c-6f80-44f8-a496-4e76f3c4a0d7.a6968",
+      "status": "missing",
+      "files": []
+    },
+    {
+      "config": "aeon/3.8/web-mobile/assets/aeon-winmore/config.0bc1c.json",
+      "bundle": "aeon/3.8/web-mobile/assets/aeon-winmore",
+      "selection": "selected",
+      "kind": "import",
+      "uuid": "e72b9132-76ed-4d2e-861b-ceaede35e045",
+      "version": "243ae",
+      "expected_prefix": "aeon/3.8/web-mobile/assets/aeon-winmore/import/e7/e72b9132-76ed-4d2e-861b-ceaede35e045.243ae",
+      "status": "missing",
+      "files": []
+    },
+    {
+      "config": "aeon/3.8/web-mobile/assets/aeon-winmore/config.0bc1c.json",
+      "bundle": "aeon/3.8/web-mobile/assets/aeon-winmore",
+      "selection": "selected",
+      "kind": "import",
+      "uuid": "fed34a15-2abb-450e-9db9-43e54b02cbb1",
+      "version": "9d9ff",
+      "expected_prefix": "aeon/3.8/web-mobile/assets/aeon-winmore/import/fe/fed34a15-2abb-450e-9db9-43e54b02cbb1.9d9ff",
+      "status": "missing",
+      "files": []
+    }
+  ],
+  "unavailable_or_rejected_originals": [
+    {
+      "kind": "native",
+      "config": "aeon/3.8/web-mobile/assets/aeon/config.fefd5.json",
+      "uuid": "c3fef90c-4bac-4609-ab75-1389c2a0a345",
+      "version": "08675",
+      "target": "aeon/3.8/web-mobile/assets/aeon/native/c3/c3fef90c-4bac-4609-ab75-1389c2a0a345.08675/TTF_BasicFont_Normal.ttf",
+      "method": "exact CDN native path from UUID/revision and original native filename metadata",
+      "native_name": "TTF_BasicFont_Normal.ttf",
+      "metadata": "aeon/3.8/web-mobile/assets/aeon/import/02/026269a42.ec642.json",
+      "status": "unresolved",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "kind": "import",
+      "config": "aeon/3.8/web-mobile/assets/aeon-backpack/config.21e7b.json",
+      "uuid": "0bf623f2-4053-43ee-8617-d9adb5631d59",
+      "version": "43e92",
+      "target": "aeon/3.8/web-mobile/assets/aeon-backpack/import/0b/0bf623f2-4053-43ee-8617-d9adb5631d59.43e92.json",
+      "method": "exact original Cocos import UUID/revision and extensionMap/default JSON",
+      "status": "unresolved",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "kind": "import",
+      "config": "aeon/3.8/web-mobile/assets/aeon-backpack/config.21e7b.json",
+      "uuid": "262c303b-8756-4649-a7db-1aabae05c42c",
+      "version": "43e92",
+      "target": "aeon/3.8/web-mobile/assets/aeon-backpack/import/26/262c303b-8756-4649-a7db-1aabae05c42c.43e92.json",
+      "method": "exact original Cocos import UUID/revision and extensionMap/default JSON",
+      "status": "unresolved",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "kind": "import",
+      "config": "aeon/3.8/web-mobile/assets/aeon-bell/config.40407.json",
+      "uuid": "007bfa14-24c3-463c-a9da-7374952ca496",
+      "version": "d440a",
+      "target": "aeon/3.8/web-mobile/assets/aeon-bell/import/00/007bfa14-24c3-463c-a9da-7374952ca496.d440a.json",
+      "method": "exact original Cocos import UUID/revision and extensionMap/default JSON",
+      "status": "unresolved",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "kind": "import",
+      "config": "aeon/3.8/web-mobile/assets/aeon-bell/config.40407.json",
+      "uuid": "aa3a9206-5462-409b-8a64-21347213fb7d",
+      "version": "56326",
+      "target": "aeon/3.8/web-mobile/assets/aeon-bell/import/aa/aa3a9206-5462-409b-8a64-21347213fb7d.56326.json",
+      "method": "exact original Cocos import UUID/revision and extensionMap/default JSON",
+      "status": "unresolved",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "kind": "import",
+      "config": "aeon/3.8/web-mobile/assets/aeon-bell/config.40407.json",
+      "uuid": "ce9087cc-dc6c-4a23-a20b-eef0438e2c1a",
+      "version": "56cbd",
+      "target": "aeon/3.8/web-mobile/assets/aeon-bell/import/ce/ce9087cc-dc6c-4a23-a20b-eef0438e2c1a.56cbd.json",
+      "method": "exact original Cocos import UUID/revision and extensionMap/default JSON",
+      "status": "unresolved",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "kind": "import",
+      "config": "aeon/3.8/web-mobile/assets/aeon-bell/config.40407.json",
+      "uuid": "fe585e63-a24a-4854-ac9a-de3e32fc56a7",
+      "version": "15020",
+      "target": "aeon/3.8/web-mobile/assets/aeon-bell/import/fe/fe585e63-a24a-4854-ac9a-de3e32fc56a7.15020.json",
+      "method": "exact original Cocos import UUID/revision and extensionMap/default JSON",
+      "status": "unresolved",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "kind": "import_pack",
+      "config": "aeon/3.8/web-mobile/assets/aeon-script/config.617bb.json",
+      "uuid": null,
+      "version": "54ed5",
+      "target": "aeon/3.8/web-mobile/assets/aeon-script/import/09/093942505.54ed5.json",
+      "method": "exact original Cocos import UUID/revision and extensionMap/default JSON",
+      "status": "unresolved",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "kind": "import",
+      "config": "aeon/3.8/web-mobile/assets/aeon-winmore/config.0bc1c.json",
+      "uuid": "02bca651-fee0-4d81-bb0a-70f81067ad72",
+      "version": "fe221",
+      "target": "aeon/3.8/web-mobile/assets/aeon-winmore/import/02/02bca651-fee0-4d81-bb0a-70f81067ad72.fe221.json",
+      "method": "exact original Cocos import UUID/revision and extensionMap/default JSON",
+      "status": "unresolved",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "kind": "import",
+      "config": "aeon/3.8/web-mobile/assets/aeon-winmore/config.0bc1c.json",
+      "uuid": "263112b5-a715-4b52-afe2-0b4e352d4cfc",
+      "version": "997e5",
+      "target": "aeon/3.8/web-mobile/assets/aeon-winmore/import/26/263112b5-a715-4b52-afe2-0b4e352d4cfc.997e5.json",
+      "method": "exact original Cocos import UUID/revision and extensionMap/default JSON",
+      "status": "unresolved",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "kind": "import",
+      "config": "aeon/3.8/web-mobile/assets/aeon-winmore/config.0bc1c.json",
+      "uuid": "3e7bd263-4816-471f-ba0f-0e8967e8d1ee",
+      "version": "fe221",
+      "target": "aeon/3.8/web-mobile/assets/aeon-winmore/import/3e/3e7bd263-4816-471f-ba0f-0e8967e8d1ee.fe221.json",
+      "method": "exact original Cocos import UUID/revision and extensionMap/default JSON",
+      "status": "unresolved",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "kind": "import",
+      "config": "aeon/3.8/web-mobile/assets/aeon-winmore/config.0bc1c.json",
+      "uuid": "4a7abfae-47a9-476b-9498-fb18702120c6",
+      "version": "a28d7",
+      "target": "aeon/3.8/web-mobile/assets/aeon-winmore/import/4a/4a7abfae-47a9-476b-9498-fb18702120c6.a28d7.json",
+      "method": "exact original Cocos import UUID/revision and extensionMap/default JSON",
+      "status": "unresolved",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "kind": "import",
+      "config": "aeon/3.8/web-mobile/assets/aeon-winmore/config.0bc1c.json",
+      "uuid": "578a52a9-4342-4d7a-b187-f677881fd387",
+      "version": "b2771",
+      "target": "aeon/3.8/web-mobile/assets/aeon-winmore/import/57/578a52a9-4342-4d7a-b187-f677881fd387.b2771.json",
+      "method": "exact original Cocos import UUID/revision and extensionMap/default JSON",
+      "status": "unresolved",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "kind": "import",
+      "config": "aeon/3.8/web-mobile/assets/aeon-winmore/config.0bc1c.json",
+      "uuid": "6520be4e-4466-4910-95e8-282d71ef4690",
+      "version": "a3494",
+      "target": "aeon/3.8/web-mobile/assets/aeon-winmore/import/65/6520be4e-4466-4910-95e8-282d71ef4690.a3494.json",
+      "method": "exact original Cocos import UUID/revision and extensionMap/default JSON",
+      "status": "unresolved",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "kind": "import",
+      "config": "aeon/3.8/web-mobile/assets/aeon-winmore/config.0bc1c.json",
+      "uuid": "6bf9cb5e-9ebe-4cb7-998e-f007c78f7799",
+      "version": "243ae",
+      "target": "aeon/3.8/web-mobile/assets/aeon-winmore/import/6b/6bf9cb5e-9ebe-4cb7-998e-f007c78f7799.243ae.json",
+      "method": "exact original Cocos import UUID/revision and extensionMap/default JSON",
+      "status": "unresolved",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "kind": "import",
+      "config": "aeon/3.8/web-mobile/assets/aeon-winmore/config.0bc1c.json",
+      "uuid": "6c3fb30e-a859-4d5e-98b7-f4be450f5088",
+      "version": "92457",
+      "target": "aeon/3.8/web-mobile/assets/aeon-winmore/import/6c/6c3fb30e-a859-4d5e-98b7-f4be450f5088.92457.json",
+      "method": "exact original Cocos import UUID/revision and extensionMap/default JSON",
+      "status": "unresolved",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "kind": "import",
+      "config": "aeon/3.8/web-mobile/assets/aeon-winmore/config.0bc1c.json",
+      "uuid": "6f63781c-9e52-43e5-a77d-e437d7a52804",
+      "version": "6bb7e",
+      "target": "aeon/3.8/web-mobile/assets/aeon-winmore/import/6f/6f63781c-9e52-43e5-a77d-e437d7a52804.6bb7e.json",
+      "method": "exact original Cocos import UUID/revision and extensionMap/default JSON",
+      "status": "unresolved",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "kind": "import",
+      "config": "aeon/3.8/web-mobile/assets/aeon-winmore/config.0bc1c.json",
+      "uuid": "9ef460a1-8f76-4b2b-b4d5-cef23a189a74",
+      "version": "a3494",
+      "target": "aeon/3.8/web-mobile/assets/aeon-winmore/import/9e/9ef460a1-8f76-4b2b-b4d5-cef23a189a74.a3494.json",
+      "method": "exact original Cocos import UUID/revision and extensionMap/default JSON",
+      "status": "unresolved",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "kind": "import",
+      "config": "aeon/3.8/web-mobile/assets/aeon-winmore/config.0bc1c.json",
+      "uuid": "b17cdd69-5ce2-4deb-8c76-43509fb7759e",
+      "version": "5c77e",
+      "target": "aeon/3.8/web-mobile/assets/aeon-winmore/import/b1/b17cdd69-5ce2-4deb-8c76-43509fb7759e.5c77e.json",
+      "method": "exact original Cocos import UUID/revision and extensionMap/default JSON",
+      "status": "unresolved",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "kind": "import",
+      "config": "aeon/3.8/web-mobile/assets/aeon-winmore/config.0bc1c.json",
+      "uuid": "d22dfe6c-6f80-44f8-a496-4e76f3c4a0d7",
+      "version": "a6968",
+      "target": "aeon/3.8/web-mobile/assets/aeon-winmore/import/d2/d22dfe6c-6f80-44f8-a496-4e76f3c4a0d7.a6968.json",
+      "method": "exact original Cocos import UUID/revision and extensionMap/default JSON",
+      "status": "unresolved",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "kind": "import",
+      "config": "aeon/3.8/web-mobile/assets/aeon-winmore/config.0bc1c.json",
+      "uuid": "e72b9132-76ed-4d2e-861b-ceaede35e045",
+      "version": "243ae",
+      "target": "aeon/3.8/web-mobile/assets/aeon-winmore/import/e7/e72b9132-76ed-4d2e-861b-ceaede35e045.243ae.json",
+      "method": "exact original Cocos import UUID/revision and extensionMap/default JSON",
+      "status": "unresolved",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "kind": "import",
+      "config": "aeon/3.8/web-mobile/assets/aeon-winmore/config.0bc1c.json",
+      "uuid": "fed34a15-2abb-450e-9db9-43e54b02cbb1",
+      "version": "9d9ff",
+      "target": "aeon/3.8/web-mobile/assets/aeon-winmore/import/fe/fed34a15-2abb-450e-9db9-43e54b02cbb1.9d9ff.json",
+      "method": "exact original Cocos import UUID/revision and extensionMap/default JSON",
+      "status": "unresolved",
+      "error": "HTTP Error 404: Not Found"
+    }
+  ],
+  "unconfirmed_sources": [
+    {
+      "kind": "native",
+      "config": "aeon/3.8/web-mobile/assets/aeon-script/config.617bb.json",
+      "uuid": "772e59a0-42b4-4925-b28b-ea36178b7c1e",
+      "version": "9926e",
+      "expected_prefix": "aeon/3.8/web-mobile/assets/aeon-script/native/77/772e59a0-42b4-4925-b28b-ea36178b7c1e.9926e",
+      "reason": "no tracked same-version original or resolved native extension"
+    },
+    {
+      "kind": "native",
+      "config": "aeon/3.8/web-mobile/assets/aeon-script/config.617bb.json",
+      "uuid": "8afb9789-fbe0-40dc-bb7b-4ec3db0aa3d6",
+      "version": "9926e",
+      "expected_prefix": "aeon/3.8/web-mobile/assets/aeon-script/native/8a/8afb9789-fbe0-40dc-bb7b-4ec3db0aa3d6.9926e",
+      "reason": "no tracked same-version original or resolved native extension"
+    },
+    {
+      "kind": "native",
+      "config": "aeon/3.8/web-mobile/assets/aeon-script/config.617bb.json",
+      "uuid": "97247930-ffc7-4577-b5a4-8d8c6474e116",
+      "version": "9926e",
+      "expected_prefix": "aeon/3.8/web-mobile/assets/aeon-script/native/97/97247930-ffc7-4577-b5a4-8d8c6474e116.9926e",
+      "reason": "no tracked same-version original or resolved native extension"
+    }
+  ],
+  "uncovered_metadata": [
+    {
+      "config": "aeon/3.8/web-mobile/assets/aeon/config.fefd5.json",
+      "uuid": "c3fef90c-4bac-4609-ab75-1389c2a0a345",
+      "reason": "native extension unresolved",
+      "candidate_extensions": []
+    },
+    {
+      "config": "aeon/3.8/web-mobile/assets/aeon/config.fefd5.json",
+      "path": "aeon/3.8/web-mobile/assets/aeon/import/02/02c6ac14c.5f6a2.bin",
+      "reason": "binary import pack not decoded"
+    },
+    {
+      "config": "aeon/3.8/web-mobile/assets/aeon-backpack/config.21e7b.json",
+      "path": "aeon/3.8/web-mobile/assets/aeon-backpack/import/0e/0e20bbabc.ebcc8.bin",
+      "reason": "binary import pack not decoded"
+    },
+    {
+      "config": "aeon/3.8/web-mobile/assets/aeon-backpack/config.21e7b.json",
+      "path": "aeon/3.8/web-mobile/assets/aeon-backpack/import/33/3374c8cc-9559-4ca2-bcc5-454514eb7b7a.43e92.bin",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "aeon/3.8/web-mobile/assets/aeon-bell/config.40407.json",
+      "path": "aeon/3.8/web-mobile/assets/aeon-bell/import/03/039e44200.15ab6.bin",
+      "reason": "binary import pack not decoded"
+    },
+    {
+      "config": "aeon/3.8/web-mobile/assets/aeon-loading/config.a4407.json",
+      "path": "aeon/3.8/web-mobile/assets/aeon-loading/import/04/04ee47af0.5b5da.bin",
+      "reason": "binary import pack not decoded"
+    },
+    {
+      "config": "aeon/3.8/web-mobile/assets/aeon-loading/config.a4407.json",
+      "path": "aeon/3.8/web-mobile/assets/aeon-loading/import/4c/4c40eb18-8829-422a-a3f5-ea10f5bc7f14.2a0ef.bin",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "aeon/3.8/web-mobile/assets/aeon-loading/config.a4407.json",
+      "path": "aeon/3.8/web-mobile/assets/aeon-loading/import/5c/5c23e42d-a64c-4a58-8547-1b929a261f6a.53430.bin",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "aeon/3.8/web-mobile/assets/aeon-loading/config.a4407.json",
+      "path": "aeon/3.8/web-mobile/assets/aeon-loading/import/93/93c3326b-d299-4d2a-a1bb-ad63553b78d3.3df04.bin",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "aeon/3.8/web-mobile/assets/aeon-loading/config.a4407.json",
+      "path": "aeon/3.8/web-mobile/assets/aeon-loading/import/a5/a5003730-1ed9-4404-8d86-ecc54af157df.60d08.bin",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "aeon/3.8/web-mobile/assets/aeon-loading/config.a4407.json",
+      "path": "aeon/3.8/web-mobile/assets/aeon-loading/import/f3/f3c74f6d-ff31-483a-bfa2-f564be1e7fe1.afb22.bin",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "aeon/3.8/web-mobile/assets/aeon-notification/config.e37fa.json",
+      "path": "aeon/3.8/web-mobile/assets/aeon-notification/import/0c/0c1e743c2.a5588.bin",
+      "reason": "binary import pack not decoded"
+    },
+    {
+      "config": "aeon/3.8/web-mobile/assets/aeon-script/config.617bb.json",
+      "uuid": "772e59a0-42b4-4925-b28b-ea36178b7c1e",
+      "reason": "native extension unresolved",
+      "candidate_extensions": []
+    },
+    {
+      "config": "aeon/3.8/web-mobile/assets/aeon-script/config.617bb.json",
+      "uuid": "8afb9789-fbe0-40dc-bb7b-4ec3db0aa3d6",
+      "reason": "native extension unresolved",
+      "candidate_extensions": []
+    },
+    {
+      "config": "aeon/3.8/web-mobile/assets/aeon-script/config.617bb.json",
+      "uuid": "97247930-ffc7-4577-b5a4-8d8c6474e116",
+      "reason": "native extension unresolved",
+      "candidate_extensions": []
+    },
+    {
+      "config": "aeon/3.8/web-mobile/assets/aeon-winmore/config.0bc1c.json",
+      "path": "aeon/3.8/web-mobile/assets/aeon-winmore/import/09/0935621a0.42aab.bin",
+      "reason": "binary import pack not decoded"
+    },
+    {
+      "config": "aeon/3.8/web-mobile/assets/aeon-winmore/config.0bc1c.json",
+      "path": "aeon/3.8/web-mobile/assets/aeon-winmore/import/04/042fee29-de44-43c2-9bc1-b8df0df46811.a6968.bin",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "aeon/3.8/web-mobile/assets/aeon-winmore/config.0bc1c.json",
+      "path": "aeon/3.8/web-mobile/assets/aeon-winmore/import/4e/4ea7bb23-9258-42fb-9202-48060943d51e.a3494.bin",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "aeon/3.8/web-mobile/assets/aeon-winmore/config.0bc1c.json",
+      "path": "aeon/3.8/web-mobile/assets/aeon-winmore/import/a8/a85a4329-db0c-41c4-8b90-f8db018388a9.fe221.bin",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "aeon/3.8/web-mobile/assets/aeon-winmore/config.0bc1c.json",
+      "path": "aeon/3.8/web-mobile/assets/aeon-winmore/import/bd/bd98bfcd-a27b-4b10-9ddc-bc5293b430a8.044ec.bin",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "aeon/3.8/web-mobile/assets/aeon-winmore/config.0bc1c.json",
+      "path": "aeon/3.8/web-mobile/assets/aeon-winmore/import/c9/c95dd1bf-2dfc-472b-98e7-d138ed48b015.4d645.bin",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "aeon/3.8/web-mobile/assets/aeon-winmore/config.0bc1c.json",
+      "path": "aeon/3.8/web-mobile/assets/aeon-winmore/import/ec/ecab6fd5-d322-4028-8229-e99078e16f99.243ae.bin",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "pappu/assets/game/config.6f303.json",
+      "path": "pappu/assets/game/import/0c/0c54c28c0.1d53c.bin",
+      "reason": "binary import pack not decoded"
+    },
+    {
+      "config": "pappu/assets/game/config.6f303.json",
+      "path": "pappu/assets/game/import/6f/6faeff16-c379-4988-9c48-8e8d63e4bf81.82196.bin",
+      "reason": "binary import metadata not decoded"
+    }
+  ],
+  "complete_acceptance_passed": false
+}

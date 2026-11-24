@@ -1,0 +1,384 @@
+
+DeclareCompliment.png
+size: 2017,1342
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Coin/BG_Coin1
+  rotate: false
+  xy: 531, 387
+  size: 632, 131
+  orig: 632, 131
+  offset: 0, 0
+  index: -1
+Coin/BG_Coin2
+  rotate: false
+  xy: 1129, 559
+  size: 420, 175
+  orig: 420, 175
+  offset: 0, 0
+  index: -1
+Coin/BG_Coin3
+  rotate: false
+  xy: 1529, 738
+  size: 397, 137
+  orig: 397, 137
+  offset: 0, 0
+  index: -1
+Coin/BG_Coin4
+  rotate: false
+  xy: 1493, 877
+  size: 386, 161
+  orig: 386, 161
+  offset: 0, 0
+  index: -1
+Coin/BG_Coin5
+  rotate: true
+  xy: 1809, 215
+  size: 337, 161
+  orig: 337, 161
+  offset: 0, 0
+  index: -1
+Coin/Coin_01
+  rotate: true
+  xy: 979, 720
+  size: 14, 118
+  orig: 160, 160
+  offset: 74, 20
+  index: -1
+Coin/Coin_02
+  rotate: true
+  xy: 579, 4
+  size: 78, 118
+  orig: 160, 160
+  offset: 42, 20
+  index: -1
+Coin/Coin_03
+  rotate: true
+  xy: 1423, 357
+  size: 102, 118
+  orig: 160, 160
+  offset: 30, 20
+  index: -1
+Coin/Coin_04
+  rotate: true
+  xy: 1423, 253
+  size: 102, 118
+  orig: 160, 160
+  offset: 30, 20
+  index: -1
+Coin/Coin_05
+  rotate: true
+  xy: 1881, 893
+  size: 48, 118
+  orig: 160, 160
+  offset: 57, 20
+  index: -1
+Coin/FG_Coin1
+  rotate: true
+  xy: 1809, 554
+  size: 182, 78
+  orig: 182, 90
+  offset: 0, 1
+  index: -1
+Coin/FG_Coin2
+  rotate: true
+  xy: 1928, 699
+  size: 192, 82
+  orig: 192, 90
+  offset: 0, 1
+  index: -1
+Coin/FG_Coin3
+  rotate: false
+  xy: 531, 343
+  size: 98, 42
+  orig: 98, 50
+  offset: 0, 1
+  index: -1
+Compliment/BG_Black_Color
+  rotate: false
+  xy: 1050, 73
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+Compliment/BG_Red_Color
+  rotate: false
+  xy: 816, 51
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+Compliment/BG_Red_Color_L
+  rotate: true
+  xy: 531, 712
+  size: 628, 446
+  orig: 628, 446
+  offset: 0, 0
+  index: -1
+Compliment/Coin01
+  rotate: false
+  xy: 918, 7
+  size: 56, 47
+  orig: 71, 61
+  offset: 8, 7
+  index: -1
+Compliment/Coin02
+  rotate: false
+  xy: 1867, 40
+  size: 71, 80
+  orig: 84, 90
+  offset: 7, 5
+  index: -1
+Compliment/Coin04
+  rotate: false
+  xy: 699, 11
+  size: 103, 71
+  orig: 107, 90
+  offset: 2, 9
+  index: -1
+Compliment/Coin05
+  rotate: true
+  xy: 918, 56
+  size: 95, 103
+  orig: 113, 125
+  offset: 9, 11
+  index: -1
+Compliment/Coin06
+  rotate: false
+  xy: 1714, 4
+  size: 56, 56
+  orig: 62, 70
+  offset: 3, 7
+  index: -1
+Compliment/Coin08
+  rotate: true
+  xy: 1972, 506
+  size: 75, 43
+  orig: 85, 56
+  offset: 5, 6
+  index: -1
+Compliment/Coin09
+  rotate: false
+  xy: 1115, 11
+  size: 94, 60
+  orig: 97, 61
+  offset: 2, 0
+  index: -1
+Compliment/Coin10
+  rotate: false
+  xy: 1635, 12
+  size: 77, 48
+  orig: 82, 51
+  offset: 3, 1
+  index: -1
+Compliment/Declare_Light_Glow
+  rotate: false
+  xy: 1158, 73
+  size: 226, 226
+  orig: 257, 253
+  offset: 13, 14
+  index: -1
+Declare/Declare_Light_Glow
+  rotate: false
+  xy: 1158, 73
+  size: 226, 226
+  orig: 257, 253
+  offset: 13, 14
+  index: -1
+Compliment/Diamond_1
+  rotate: false
+  xy: 1050, 284
+  size: 106, 101
+  orig: 220, 209
+  offset: 57, 54
+  index: -1
+Compliment/Diamond_2
+  rotate: true
+  xy: 1050, 175
+  size: 107, 96
+  orig: 220, 209
+  offset: 57, 56
+  index: -1
+Compliment/Diamond_3
+  rotate: false
+  xy: 1889, 583
+  size: 115, 114
+  orig: 220, 209
+  offset: 52, 47
+  index: -1
+Compliment/Diamond_4
+  rotate: false
+  xy: 1881, 943
+  size: 126, 138
+  orig: 220, 209
+  offset: 47, 36
+  index: -1
+Compliment/FG_Compliment_JP_Grand
+  rotate: false
+  xy: 1247, 750
+  size: 280, 76
+  orig: 280, 76
+  offset: 0, 0
+  index: -1
+Compliment/Glow02
+  rotate: false
+  xy: 1768, 117
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: -1
+Compliment/Glow05_Resize_00
+  rotate: true
+  xy: 1386, 15
+  size: 236, 158
+  orig: 256, 256
+  offset: 10, 49
+  index: -1
+Compliment/Glow06
+  rotate: false
+  xy: 816, 153
+  size: 232, 232
+  orig: 232, 232
+  offset: 0, 0
+  index: -1
+Compliment/Glow07
+  rotate: false
+  xy: 1551, 480
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+Compliment/Light
+  rotate: true
+  xy: 579, 84
+  size: 257, 235
+  orig: 289, 262
+  offset: 12, 11
+  index: -1
+Compliment/Light01
+  rotate: true
+  xy: 1300, 7
+  size: 64, 70
+  orig: 87, 80
+  offset: 14, 8
+  index: -1
+Compliment/LightLine_W
+  rotate: false
+  xy: 531, 520
+  size: 596, 190
+  orig: 613, 191
+  offset: 10, 0
+  index: -1
+Compliment/Light_C6b
+  rotate: false
+  xy: 1165, 301
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+Compliment/Light_C6b_Resize_00
+  rotate: false
+  xy: 979, 828
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
+Compliment/Light_Y
+  rotate: true
+  xy: 1780, 1083
+  size: 257, 235
+  orig: 289, 262
+  offset: 12, 11
+  index: -1
+Compliment/Line01
+  rotate: false
+  xy: 979, 736
+  size: 266, 90
+  orig: 300, 150
+  offset: 17, 30
+  index: -1
+Compliment/Particle01
+  rotate: false
+  xy: 2, 11
+  size: 575, 329
+  orig: 575, 329
+  offset: 0, 0
+  index: -1
+Compliment/Shadow1
+  rotate: true
+  xy: 1211, 7
+  size: 64, 87
+  orig: 64, 109
+  offset: 0, 13
+  index: -1
+Compliment/Shadow2
+  rotate: false
+  xy: 1546, 13
+  size: 87, 47
+  orig: 92, 50
+  offset: 3, 0
+  index: -1
+Compliment/Stab01
+  rotate: false
+  xy: 1551, 222
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+Compliment/Star02
+  rotate: false
+  xy: 804, 2
+  size: 47, 47
+  orig: 52, 53
+  offset: 2, 4
+  index: -1
+Compliment/pot_02_coin_gift_01
+  rotate: false
+  xy: 1866, 122
+  size: 88, 91
+  orig: 88, 91
+  offset: 0, 0
+  index: -1
+Compliment/pot_03_coin_cane_01
+  rotate: true
+  xy: 1023, 2
+  size: 69, 90
+  orig: 69, 90
+  offset: 0, 0
+  index: -1
+Compliment/pot_04_coin_gift_02
+  rotate: true
+  xy: 1423, 461
+  size: 96, 126
+  orig: 96, 126
+  offset: 0, 0
+  index: -1
+Declare/Declare_Light_12_Y
+  rotate: true
+  xy: 2, 342
+  size: 998, 527
+  orig: 1174, 543
+  offset: 78, 5
+  index: -1
+Declare/FX_Ray_05
+  rotate: false
+  xy: 1546, 62
+  size: 220, 158
+  orig: 256, 256
+  offset: 18, 49
+  index: -1
+Declare/Zoom
+  rotate: true
+  xy: 1493, 1040
+  size: 300, 285
+  orig: 300, 300
+  offset: 0, 15
+  index: -1
+FX/Start_00
+  rotate: true
+  xy: 1772, 21
+  size: 94, 93
+  orig: 112, 112
+  offset: 9, 11
+  index: -1

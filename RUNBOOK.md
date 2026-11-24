@@ -49,7 +49,7 @@ Pappu／JILI 200／平台 4103：機率團隊入口見 `README_ForMath_200.md`�
 python3 -B routex/asset_batch_audit.py                  # 本批六款；真正replay HTTP
 python3 -B routex/asset_batch_audit.py 545 573          # 指定本批遊戲
 python3 -B routex/asset_audit.py 545 --http              # 僅隔離靜態根目錄HTTP，非replay handler
-python3 -B routex/test_asset_audit.py                  # 7項回歸
+python3 -B routex/test_asset_audit.py                  # 8項回歸
 ```
 
 工具寫入各款`asset_validation.json`及被忽略的本地runtime紀錄；server正常啟動可能按既有manifest重建本機Cocos ZIP容器，不是建立交付包或補缺少的native。工具不下載或補native素材、不開瀏覽器、不連真站。批次會自行啟動／停止專用的本機server，不停止使用者原本開的replay。exit 1表示仍有缺檔、無效檔、HTTP問題或未覆蓋項目，必須看報告，不是應略過的成功結果。原始config/native/import盤點包含鏡像內的可選或歷史bundles，不代表每個缺項都已證實會在當前模式觸發。binary packs、未解析副檔名及任意計算的動態URL仍有明列限制；不能宣稱完整動態依賴圖或所有演出已驗收。長期規則同步於根目錄`AGENTS.md`。
@@ -223,3 +223,29 @@ REPLAY=games/696/webcap/exchanges_ordered.jsonl ./web_own.sh <你的base域名>
 ### 545 replay 2026-11-24 修正
 
 545舊版可能登入成功後卡住，原始126局亦可重現。已補本地同源transport、完整合成SSO欄位與本款smallicon語系／圖示。同步`games/545/mock_server.py`、`replay_transport.js`及`static/smallicon/`後，重啟`python -B replay_545.py`；操作人員確認Mac可進場轉局，log有兩筆成功SPIN。後端wire／math及熱更新回歸通過，WebP162/162經mock HTTP驗證；Windows實機尚未驗收。證據見`games/545/replay_browser_validation.json`。
+
+
+### 2026-11-24 六款來源確認補檔與重驗
+
+累計補回 6,980 個有可核對原始來源的檔案，來源與 SHA256 保存於各款 `asset_repairs.json`；未覆寫既有素材。包含遠端已補的 545 隨機音效，發佈時保留同事的修正。相同 UUID／版本及原始副檔名才能使用已驗證原檔；其餘僅下載 metadata 指定的原站同版本 URL，不猜副檔名、不使用佔位檔。缺少原始檔名的字型目錄誤判亦已修正。
+
+| 原始 gameID | 已補檔 | 清單仍缺 | replay HTTP 有效/總數 | WebP 有效/應有 | 未覆蓋記錄 |
+|---|---:|---:|---:|---:|---:|
+| 545 | 1658 | 26 | 2056/2056 | 162/162 | 29 |
+| 573 | 1156 | 257 | 4512/4512 | 325/325 | 220 |
+| 200 | 593 | 25 | 1139/1139 | 180/180 | 24 |
+| 224 | 532 | 0 | 860/860 | 86/86 | 158 |
+| 461 | 744 | 35 | 1667/1667 | 140/140 | 510 |
+| 664 | 2297 | 940 | 2886/2886 | 271/271 | 779 |
+
+未解決的完整清單在 `games/<gameID>/asset_unresolved.json`：分列原始 URL 404／內容雜湊不符、無法確認副檔名及未解析 binary packs，保留來源 config、UUID、版本與失敗原因。清單包含可選／歷史 bundle，缺檔並不表示每項都已證實會被當前模式請求。224 雖無已知清單缺檔，仍有未解析 packs，不算完整素材驗收。200、664 分別還有 3、2 個 9926e 宣告未確認副檔名，未用任意 silent 音效冒充。
+
+共用 server 修復 URL 編碼空白／非 ASCII 字型檔名造成的 404，並限制解析後路徑仍在靜態根目錄。8 項盤點、7 項來源補檔、5 項靜態路徑回歸皆通過；545 wire／math mock 126 局、4 pools、134 requests 通過。六款實際 replay HTTP 共 13,120 項、0 錯誤；WebP 共 1,164 項通過。這些結果不代表瀏覽器所有隨機／特殊演出或 Windows 實機驗收；本輪未重跑這兩項。
+
+```bash
+python3 -B routex/repair_asset_gaps.py --fetch    # 有來源證據才補；既有檔不覆寫，輸出來源 journal
+python3 -B routex/asset_batch_audit.py           # 補完再驗，未覆蓋項目仍會 exit 1
+python3 -B routex/test_asset_audit.py
+python3 -B routex/test_repair_asset_gaps.py
+python3 -B routex/test_static_paths.py
+```

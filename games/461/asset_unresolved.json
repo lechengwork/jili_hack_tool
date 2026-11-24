@@ -1,0 +1,3326 @@
+{
+  "game_id": "461",
+  "date": "2026-11-24",
+  "scope": "All captured manifests, including optional/historical bundles; not every gap is proven reachable in the current game mode.",
+  "remaining_manifest_missing": 35,
+  "missing_or_invalid_declarations": [
+    {
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "bundle": "pirate2/assets/game",
+      "selection": "unknown",
+      "kind": "native",
+      "uuid": "0333c33d-de4d-429f-829b-9d7c27ee7072",
+      "version": "0bca5",
+      "type": "cc.Asset",
+      "name": "Spine/Character/Character",
+      "expected_prefix": "pirate2/assets/game/native/03/0333c33d-de4d-429f-829b-9d7c27ee7072.0bca5",
+      "files": [],
+      "status": "missing"
+    },
+    {
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "bundle": "pirate2/assets/game",
+      "selection": "unknown",
+      "kind": "native",
+      "uuid": "0f050564-7abd-44b8-8897-d69d55adb50a",
+      "version": "0bca5",
+      "type": "cc.Asset",
+      "name": "Spine/Character/GameIntro",
+      "expected_prefix": "pirate2/assets/game/native/0f/0f050564-7abd-44b8-8897-d69d55adb50a.0bca5",
+      "files": [],
+      "status": "missing"
+    },
+    {
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "bundle": "pirate2/assets/game",
+      "selection": "unknown",
+      "kind": "native",
+      "uuid": "194a948c-e70d-4a01-8253-faad344d51f7",
+      "version": "09808",
+      "type": "cc.Asset",
+      "name": "Spine/Symbol/Symbol_07",
+      "expected_prefix": "pirate2/assets/game/native/19/194a948c-e70d-4a01-8253-faad344d51f7.09808",
+      "files": [],
+      "status": "missing"
+    },
+    {
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "bundle": "pirate2/assets/game",
+      "selection": "unknown",
+      "kind": "native",
+      "uuid": "19eafe88-659e-4ab0-8f1f-2d6b41de96f0",
+      "version": "09808",
+      "type": "cc.Asset",
+      "name": "Spine/Symbol/Symbol_05",
+      "expected_prefix": "pirate2/assets/game/native/19/19eafe88-659e-4ab0-8f1f-2d6b41de96f0.09808",
+      "files": [],
+      "status": "missing"
+    },
+    {
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "bundle": "pirate2/assets/game",
+      "selection": "unknown",
+      "kind": "native",
+      "uuid": "27d44bd3-cd4c-44af-9c23-4588f96c43b6",
+      "version": "09808",
+      "type": "cc.Asset",
+      "name": "Spine/Symbol/Aim",
+      "expected_prefix": "pirate2/assets/game/native/27/27d44bd3-cd4c-44af-9c23-4588f96c43b6.09808",
+      "files": [],
+      "status": "missing"
+    },
+    {
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "bundle": "pirate2/assets/game",
+      "selection": "unknown",
+      "kind": "native",
+      "uuid": "2895c3d3-f297-42f7-87e3-e986f68f38cc",
+      "version": "56ce7",
+      "type": "cc.Asset",
+      "name": "Script/Proto/README",
+      "expected_prefix": "pirate2/assets/game/native/28/2895c3d3-f297-42f7-87e3-e986f68f38cc.56ce7",
+      "files": [],
+      "status": "missing"
+    },
+    {
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "bundle": "pirate2/assets/game",
+      "selection": "unknown",
+      "kind": "native",
+      "uuid": "28f127a4-7f69-4904-addd-808c96879ce5",
+      "version": "a30e7",
+      "type": "cc.Asset",
+      "name": "Spine/BigWin/Bigwin",
+      "expected_prefix": "pirate2/assets/game/native/28/28f127a4-7f69-4904-addd-808c96879ce5.a30e7",
+      "files": [],
+      "status": "missing"
+    },
+    {
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "bundle": "pirate2/assets/game",
+      "selection": "unknown",
+      "kind": "native",
+      "uuid": "2c0aa802-4560-4372-a63c-1e8916db6791",
+      "version": "09808",
+      "type": "cc.Asset",
+      "name": "Spine/Symbol/Symbol_03",
+      "expected_prefix": "pirate2/assets/game/native/2c/2c0aa802-4560-4372-a63c-1e8916db6791.09808",
+      "files": [],
+      "status": "missing"
+    },
+    {
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "bundle": "pirate2/assets/game",
+      "selection": "unknown",
+      "kind": "native",
+      "uuid": "308a91e7-ce8e-4225-8227-0bdcf1bcd2b6",
+      "version": "09808",
+      "type": "cc.Asset",
+      "name": "Spine/Symbol/Symbol_02",
+      "expected_prefix": "pirate2/assets/game/native/30/308a91e7-ce8e-4225-8227-0bdcf1bcd2b6.09808",
+      "files": [],
+      "status": "missing"
+    },
+    {
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "bundle": "pirate2/assets/game",
+      "selection": "unknown",
+      "kind": "native",
+      "uuid": "37ed2a17-dd3c-4764-8802-a0fb819bf28e",
+      "version": "09808",
+      "type": "cc.Asset",
+      "name": "Spine/Symbol/FG_MoreSpins",
+      "expected_prefix": "pirate2/assets/game/native/37/37ed2a17-dd3c-4764-8802-a0fb819bf28e.09808",
+      "files": [],
+      "status": "missing"
+    },
+    {
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "bundle": "pirate2/assets/game",
+      "selection": "unknown",
+      "kind": "native",
+      "uuid": "46500de6-ed3e-45f1-bbc8-dbcfff20bd7b",
+      "version": "09808",
+      "type": "cc.Asset",
+      "name": "Spine/Symbol/Symbol_01",
+      "expected_prefix": "pirate2/assets/game/native/46/46500de6-ed3e-45f1-bbc8-dbcfff20bd7b.09808",
+      "files": [],
+      "status": "missing"
+    },
+    {
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "bundle": "pirate2/assets/game",
+      "selection": "unknown",
+      "kind": "native",
+      "uuid": "649ae246-04c6-46fc-9ef3-1852dfc4da91",
+      "version": "a6676",
+      "type": "cc.Asset",
+      "name": "Spine/Cannon/Cannon",
+      "expected_prefix": "pirate2/assets/game/native/64/649ae246-04c6-46fc-9ef3-1852dfc4da91.a6676",
+      "files": [],
+      "status": "missing"
+    },
+    {
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "bundle": "pirate2/assets/game",
+      "selection": "unknown",
+      "kind": "native",
+      "uuid": "6547230e-f209-4c85-af5a-4481a292b7d5",
+      "version": "09808",
+      "type": "cc.Asset",
+      "name": "Spine/Symbol/Symbol_04",
+      "expected_prefix": "pirate2/assets/game/native/65/6547230e-f209-4c85-af5a-4481a292b7d5.09808",
+      "files": [],
+      "status": "missing"
+    },
+    {
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "bundle": "pirate2/assets/game",
+      "selection": "unknown",
+      "kind": "native",
+      "uuid": "686afe5b-49e0-41d8-a466-ec532caa25a9",
+      "version": "34246",
+      "type": "cc.Asset",
+      "name": "Spine/NearWin/FX_NearWin",
+      "expected_prefix": "pirate2/assets/game/native/68/686afe5b-49e0-41d8-a466-ec532caa25a9.34246",
+      "files": [],
+      "status": "missing"
+    },
+    {
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "bundle": "pirate2/assets/game",
+      "selection": "unknown",
+      "kind": "native",
+      "uuid": "73645058-c282-42e9-9fb6-0445562ec4d2",
+      "version": "09808",
+      "type": "cc.Asset",
+      "name": "Spine/Symbol/Symbol_11",
+      "expected_prefix": "pirate2/assets/game/native/73/73645058-c282-42e9-9fb6-0445562ec4d2.09808",
+      "files": [],
+      "status": "missing"
+    },
+    {
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "bundle": "pirate2/assets/game",
+      "selection": "unknown",
+      "kind": "native",
+      "uuid": "7988b09e-4307-445f-b06d-9a463bca332b",
+      "version": "d1fc3",
+      "type": "cc.Asset",
+      "name": "Spine/Symbol/Symbol",
+      "expected_prefix": "pirate2/assets/game/native/79/7988b09e-4307-445f-b06d-9a463bca332b.d1fc3",
+      "files": [],
+      "status": "missing"
+    },
+    {
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "bundle": "pirate2/assets/game",
+      "selection": "unknown",
+      "kind": "native",
+      "uuid": "9cfe4ac6-12a0-4e6b-933e-f6d90dd18f08",
+      "version": "c5db2",
+      "type": "cc.Asset",
+      "name": "Spine/Declare/FG_Compliment",
+      "expected_prefix": "pirate2/assets/game/native/9c/9cfe4ac6-12a0-4e6b-933e-f6d90dd18f08.c5db2",
+      "files": [],
+      "status": "missing"
+    },
+    {
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "bundle": "pirate2/assets/game",
+      "selection": "unknown",
+      "kind": "native",
+      "uuid": "9d7a4f7c-42fb-4a6d-8282-4b45306df959",
+      "version": "c5db2",
+      "type": "cc.Asset",
+      "name": "Spine/Declare/FG_Declare",
+      "expected_prefix": "pirate2/assets/game/native/9d/9d7a4f7c-42fb-4a6d-8282-4b45306df959.c5db2",
+      "files": [],
+      "status": "missing"
+    },
+    {
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "bundle": "pirate2/assets/game",
+      "selection": "unknown",
+      "kind": "native",
+      "uuid": "a491d2ee-5ac4-4821-8f23-d34781bf4d13",
+      "version": "0bca5",
+      "type": "cc.Asset",
+      "name": "Spine/Character/Symbol_08",
+      "expected_prefix": "pirate2/assets/game/native/a4/a491d2ee-5ac4-4821-8f23-d34781bf4d13.0bca5",
+      "files": [],
+      "status": "missing"
+    },
+    {
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "bundle": "pirate2/assets/game",
+      "selection": "unknown",
+      "kind": "native",
+      "uuid": "c124b796-2203-4c95-bc15-2e81d2e967e5",
+      "version": "09808",
+      "type": "cc.Asset",
+      "name": "Spine/Symbol/Symbol_09",
+      "expected_prefix": "pirate2/assets/game/native/c1/c124b796-2203-4c95-bc15-2e81d2e967e5.09808",
+      "files": [],
+      "status": "missing"
+    },
+    {
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "bundle": "pirate2/assets/game",
+      "selection": "unknown",
+      "kind": "native",
+      "uuid": "c2988295-dcda-4df7-bff4-0824aef58b8a",
+      "version": "09808",
+      "type": "cc.Asset",
+      "name": "Spine/Symbol/Symbol_00",
+      "expected_prefix": "pirate2/assets/game/native/c2/c2988295-dcda-4df7-bff4-0824aef58b8a.09808",
+      "files": [],
+      "status": "missing"
+    },
+    {
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "bundle": "pirate2/assets/game",
+      "selection": "unknown",
+      "kind": "native",
+      "uuid": "c31ce9d4-e649-444a-b26d-1112c180cc79",
+      "version": "c5167",
+      "type": "cc.Asset",
+      "name": "Spine/Popup/FG_Popup",
+      "expected_prefix": "pirate2/assets/game/native/c3/c31ce9d4-e649-444a-b26d-1112c180cc79.c5167",
+      "files": [],
+      "status": "missing"
+    },
+    {
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "bundle": "pirate2/assets/game",
+      "selection": "unknown",
+      "kind": "native",
+      "uuid": "d5b30c14-fc88-4391-ac64-a79aee20cae9",
+      "version": "09808",
+      "type": "cc.Asset",
+      "name": "Spine/Symbol/Symbol_10",
+      "expected_prefix": "pirate2/assets/game/native/d5/d5b30c14-fc88-4391-ac64-a79aee20cae9.09808",
+      "files": [],
+      "status": "missing"
+    },
+    {
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "bundle": "pirate2/assets/game",
+      "selection": "unknown",
+      "kind": "native",
+      "uuid": "da24f196-6e7b-4e45-a049-4ea914fff043",
+      "version": "09808",
+      "type": "cc.Asset",
+      "name": "Spine/Symbol/OilLamp",
+      "expected_prefix": "pirate2/assets/game/native/da/da24f196-6e7b-4e45-a049-4ea914fff043.09808",
+      "files": [],
+      "status": "missing"
+    },
+    {
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "bundle": "pirate2/assets/game",
+      "selection": "unknown",
+      "kind": "native",
+      "uuid": "e0509d0f-238d-4bd5-b6cf-802a8f77fd79",
+      "version": "09808",
+      "type": "cc.Asset",
+      "name": "Spine/Symbol/Symbol_06",
+      "expected_prefix": "pirate2/assets/game/native/e0/e0509d0f-238d-4bd5-b6cf-802a8f77fd79.09808",
+      "files": [],
+      "status": "missing"
+    },
+    {
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "bundle": "pirate2/assets/game",
+      "selection": "unknown",
+      "kind": "native",
+      "uuid": "f3198fcd-9807-4bce-99fa-1a69f671ec91",
+      "version": "09808",
+      "type": "cc.Asset",
+      "name": "Spine/Symbol/Symbol_Remove",
+      "expected_prefix": "pirate2/assets/game/native/f3/f3198fcd-9807-4bce-99fa-1a69f671ec91.09808",
+      "files": [],
+      "status": "missing"
+    },
+    {
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "bundle": "pirate2/assets/game",
+      "selection": "unknown",
+      "kind": "import",
+      "uuid": "05cP4rDP5EXKb4TrmN1KQS@f9941",
+      "version": "81fce",
+      "expected_prefix": "pirate2/assets/game/import/05/05cP4rDP5EXKb4TrmN1KQS@f9941.81fce",
+      "status": "missing",
+      "files": []
+    },
+    {
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "bundle": "pirate2/assets/game",
+      "selection": "unknown",
+      "kind": "import",
+      "uuid": "23ncUcecRHkrAiU8R1z/Ga@f9941",
+      "version": "392df",
+      "expected_prefix": "pirate2/assets/game/import/23/23ncUcecRHkrAiU8R1z/Ga@f9941.392df",
+      "status": "missing",
+      "files": []
+    },
+    {
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "bundle": "pirate2/assets/game",
+      "selection": "unknown",
+      "kind": "import",
+      "uuid": "2fLGmvtapAvKmvKJV8XrIC@f9941",
+      "version": "102e1",
+      "expected_prefix": "pirate2/assets/game/import/2f/2fLGmvtapAvKmvKJV8XrIC@f9941.102e1",
+      "status": "missing",
+      "files": []
+    },
+    {
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "bundle": "pirate2/assets/game",
+      "selection": "unknown",
+      "kind": "import",
+      "uuid": "99Wp6EMzZIm7H/Rvrs51On@f9941",
+      "version": "4cdb9",
+      "expected_prefix": "pirate2/assets/game/import/99/99Wp6EMzZIm7H/Rvrs51On@f9941.4cdb9",
+      "status": "missing",
+      "files": []
+    },
+    {
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "bundle": "pirate2/assets/game",
+      "selection": "unknown",
+      "kind": "import",
+      "uuid": "afB7flGq5OjpkGzwixDNKs@f9941",
+      "version": "8818e",
+      "expected_prefix": "pirate2/assets/game/import/af/afB7flGq5OjpkGzwixDNKs@f9941.8818e",
+      "status": "missing",
+      "files": []
+    },
+    {
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "bundle": "pirate2/assets/game",
+      "selection": "unknown",
+      "kind": "import",
+      "uuid": "b4FQfi3bBGWq586lXDmxSz@f9941",
+      "version": "4c529",
+      "expected_prefix": "pirate2/assets/game/import/b4/b4FQfi3bBGWq586lXDmxSz@f9941.4c529",
+      "status": "missing",
+      "files": []
+    },
+    {
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "bundle": "pirate2/assets/game",
+      "selection": "unknown",
+      "kind": "import",
+      "uuid": "d0Prm1CnFGRbx+sLqxpThq@f9941",
+      "version": "e8db7",
+      "expected_prefix": "pirate2/assets/game/import/d0/d0Prm1CnFGRbx+sLqxpThq@f9941.e8db7",
+      "status": "missing",
+      "files": []
+    },
+    {
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "bundle": "pirate2/assets/game",
+      "selection": "unknown",
+      "kind": "import",
+      "uuid": "f0wo2G6bRDWoZtVpwraYHn@f9941",
+      "version": "d93b6",
+      "expected_prefix": "pirate2/assets/game/import/f0/f0wo2G6bRDWoZtVpwraYHn@f9941.d93b6",
+      "status": "missing",
+      "files": []
+    },
+    {
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "bundle": "pirate2/assets/game",
+      "selection": "unknown",
+      "kind": "import",
+      "uuid": "ffKbEpY3NPu5xPRoaUaivK@f9941",
+      "version": "5a567",
+      "expected_prefix": "pirate2/assets/game/import/ff/ffKbEpY3NPu5xPRoaUaivK@f9941.5a567",
+      "status": "missing",
+      "files": []
+    }
+  ],
+  "unavailable_or_rejected_originals": [
+    {
+      "kind": "import",
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "uuid": "05cP4rDP5EXKb4TrmN1KQS@f9941",
+      "version": "81fce",
+      "target": "pirate2/assets/game/import/05/05cP4rDP5EXKb4TrmN1KQS@f9941.81fce.json",
+      "method": "exact original Cocos import UUID/revision and extensionMap/default JSON",
+      "status": "unresolved",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "kind": "import",
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "uuid": "23ncUcecRHkrAiU8R1z/Ga@f9941",
+      "version": "392df",
+      "target": "pirate2/assets/game/import/23/23ncUcecRHkrAiU8R1z/Ga@f9941.392df.json",
+      "method": "exact original Cocos import UUID/revision and extensionMap/default JSON",
+      "status": "unresolved",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "kind": "import",
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "uuid": "2fLGmvtapAvKmvKJV8XrIC@f9941",
+      "version": "102e1",
+      "target": "pirate2/assets/game/import/2f/2fLGmvtapAvKmvKJV8XrIC@f9941.102e1.json",
+      "method": "exact original Cocos import UUID/revision and extensionMap/default JSON",
+      "status": "unresolved",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "kind": "import",
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "uuid": "99Wp6EMzZIm7H/Rvrs51On@f9941",
+      "version": "4cdb9",
+      "target": "pirate2/assets/game/import/99/99Wp6EMzZIm7H/Rvrs51On@f9941.4cdb9.json",
+      "method": "exact original Cocos import UUID/revision and extensionMap/default JSON",
+      "status": "unresolved",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "kind": "import",
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "uuid": "afB7flGq5OjpkGzwixDNKs@f9941",
+      "version": "8818e",
+      "target": "pirate2/assets/game/import/af/afB7flGq5OjpkGzwixDNKs@f9941.8818e.json",
+      "method": "exact original Cocos import UUID/revision and extensionMap/default JSON",
+      "status": "unresolved",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "kind": "import",
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "uuid": "b4FQfi3bBGWq586lXDmxSz@f9941",
+      "version": "4c529",
+      "target": "pirate2/assets/game/import/b4/b4FQfi3bBGWq586lXDmxSz@f9941.4c529.json",
+      "method": "exact original Cocos import UUID/revision and extensionMap/default JSON",
+      "status": "unresolved",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "kind": "import",
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "uuid": "d0Prm1CnFGRbx+sLqxpThq@f9941",
+      "version": "e8db7",
+      "target": "pirate2/assets/game/import/d0/d0Prm1CnFGRbx+sLqxpThq@f9941.e8db7.json",
+      "method": "exact original Cocos import UUID/revision and extensionMap/default JSON",
+      "status": "unresolved",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "kind": "import",
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "uuid": "f0wo2G6bRDWoZtVpwraYHn@f9941",
+      "version": "d93b6",
+      "target": "pirate2/assets/game/import/f0/f0wo2G6bRDWoZtVpwraYHn@f9941.d93b6.json",
+      "method": "exact original Cocos import UUID/revision and extensionMap/default JSON",
+      "status": "unresolved",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "kind": "import",
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "uuid": "ffKbEpY3NPu5xPRoaUaivK@f9941",
+      "version": "5a567",
+      "target": "pirate2/assets/game/import/ff/ffKbEpY3NPu5xPRoaUaivK@f9941.5a567.json",
+      "method": "exact original Cocos import UUID/revision and extensionMap/default JSON",
+      "status": "unresolved",
+      "error": "HTTP Error 404: Not Found"
+    }
+  ],
+  "unconfirmed_sources": [
+    {
+      "kind": "native",
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "uuid": "0333c33d-de4d-429f-829b-9d7c27ee7072",
+      "version": "0bca5",
+      "expected_prefix": "pirate2/assets/game/native/03/0333c33d-de4d-429f-829b-9d7c27ee7072.0bca5",
+      "reason": "no tracked same-version original or resolved native extension"
+    },
+    {
+      "kind": "native",
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "uuid": "0f050564-7abd-44b8-8897-d69d55adb50a",
+      "version": "0bca5",
+      "expected_prefix": "pirate2/assets/game/native/0f/0f050564-7abd-44b8-8897-d69d55adb50a.0bca5",
+      "reason": "no tracked same-version original or resolved native extension"
+    },
+    {
+      "kind": "native",
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "uuid": "194a948c-e70d-4a01-8253-faad344d51f7",
+      "version": "09808",
+      "expected_prefix": "pirate2/assets/game/native/19/194a948c-e70d-4a01-8253-faad344d51f7.09808",
+      "reason": "no tracked same-version original or resolved native extension"
+    },
+    {
+      "kind": "native",
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "uuid": "19eafe88-659e-4ab0-8f1f-2d6b41de96f0",
+      "version": "09808",
+      "expected_prefix": "pirate2/assets/game/native/19/19eafe88-659e-4ab0-8f1f-2d6b41de96f0.09808",
+      "reason": "no tracked same-version original or resolved native extension"
+    },
+    {
+      "kind": "native",
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "uuid": "27d44bd3-cd4c-44af-9c23-4588f96c43b6",
+      "version": "09808",
+      "expected_prefix": "pirate2/assets/game/native/27/27d44bd3-cd4c-44af-9c23-4588f96c43b6.09808",
+      "reason": "no tracked same-version original or resolved native extension"
+    },
+    {
+      "kind": "native",
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "uuid": "2895c3d3-f297-42f7-87e3-e986f68f38cc",
+      "version": "56ce7",
+      "expected_prefix": "pirate2/assets/game/native/28/2895c3d3-f297-42f7-87e3-e986f68f38cc.56ce7",
+      "reason": "no tracked same-version original or resolved native extension"
+    },
+    {
+      "kind": "native",
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "uuid": "28f127a4-7f69-4904-addd-808c96879ce5",
+      "version": "a30e7",
+      "expected_prefix": "pirate2/assets/game/native/28/28f127a4-7f69-4904-addd-808c96879ce5.a30e7",
+      "reason": "no tracked same-version original or resolved native extension"
+    },
+    {
+      "kind": "native",
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "uuid": "2c0aa802-4560-4372-a63c-1e8916db6791",
+      "version": "09808",
+      "expected_prefix": "pirate2/assets/game/native/2c/2c0aa802-4560-4372-a63c-1e8916db6791.09808",
+      "reason": "no tracked same-version original or resolved native extension"
+    },
+    {
+      "kind": "native",
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "uuid": "308a91e7-ce8e-4225-8227-0bdcf1bcd2b6",
+      "version": "09808",
+      "expected_prefix": "pirate2/assets/game/native/30/308a91e7-ce8e-4225-8227-0bdcf1bcd2b6.09808",
+      "reason": "no tracked same-version original or resolved native extension"
+    },
+    {
+      "kind": "native",
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "uuid": "37ed2a17-dd3c-4764-8802-a0fb819bf28e",
+      "version": "09808",
+      "expected_prefix": "pirate2/assets/game/native/37/37ed2a17-dd3c-4764-8802-a0fb819bf28e.09808",
+      "reason": "no tracked same-version original or resolved native extension"
+    },
+    {
+      "kind": "native",
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "uuid": "46500de6-ed3e-45f1-bbc8-dbcfff20bd7b",
+      "version": "09808",
+      "expected_prefix": "pirate2/assets/game/native/46/46500de6-ed3e-45f1-bbc8-dbcfff20bd7b.09808",
+      "reason": "no tracked same-version original or resolved native extension"
+    },
+    {
+      "kind": "native",
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "uuid": "649ae246-04c6-46fc-9ef3-1852dfc4da91",
+      "version": "a6676",
+      "expected_prefix": "pirate2/assets/game/native/64/649ae246-04c6-46fc-9ef3-1852dfc4da91.a6676",
+      "reason": "no tracked same-version original or resolved native extension"
+    },
+    {
+      "kind": "native",
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "uuid": "6547230e-f209-4c85-af5a-4481a292b7d5",
+      "version": "09808",
+      "expected_prefix": "pirate2/assets/game/native/65/6547230e-f209-4c85-af5a-4481a292b7d5.09808",
+      "reason": "no tracked same-version original or resolved native extension"
+    },
+    {
+      "kind": "native",
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "uuid": "686afe5b-49e0-41d8-a466-ec532caa25a9",
+      "version": "34246",
+      "expected_prefix": "pirate2/assets/game/native/68/686afe5b-49e0-41d8-a466-ec532caa25a9.34246",
+      "reason": "no tracked same-version original or resolved native extension"
+    },
+    {
+      "kind": "native",
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "uuid": "73645058-c282-42e9-9fb6-0445562ec4d2",
+      "version": "09808",
+      "expected_prefix": "pirate2/assets/game/native/73/73645058-c282-42e9-9fb6-0445562ec4d2.09808",
+      "reason": "no tracked same-version original or resolved native extension"
+    },
+    {
+      "kind": "native",
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "uuid": "7988b09e-4307-445f-b06d-9a463bca332b",
+      "version": "d1fc3",
+      "expected_prefix": "pirate2/assets/game/native/79/7988b09e-4307-445f-b06d-9a463bca332b.d1fc3",
+      "reason": "no tracked same-version original or resolved native extension"
+    },
+    {
+      "kind": "native",
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "uuid": "9cfe4ac6-12a0-4e6b-933e-f6d90dd18f08",
+      "version": "c5db2",
+      "expected_prefix": "pirate2/assets/game/native/9c/9cfe4ac6-12a0-4e6b-933e-f6d90dd18f08.c5db2",
+      "reason": "no tracked same-version original or resolved native extension"
+    },
+    {
+      "kind": "native",
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "uuid": "9d7a4f7c-42fb-4a6d-8282-4b45306df959",
+      "version": "c5db2",
+      "expected_prefix": "pirate2/assets/game/native/9d/9d7a4f7c-42fb-4a6d-8282-4b45306df959.c5db2",
+      "reason": "no tracked same-version original or resolved native extension"
+    },
+    {
+      "kind": "native",
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "uuid": "a491d2ee-5ac4-4821-8f23-d34781bf4d13",
+      "version": "0bca5",
+      "expected_prefix": "pirate2/assets/game/native/a4/a491d2ee-5ac4-4821-8f23-d34781bf4d13.0bca5",
+      "reason": "no tracked same-version original or resolved native extension"
+    },
+    {
+      "kind": "native",
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "uuid": "c124b796-2203-4c95-bc15-2e81d2e967e5",
+      "version": "09808",
+      "expected_prefix": "pirate2/assets/game/native/c1/c124b796-2203-4c95-bc15-2e81d2e967e5.09808",
+      "reason": "no tracked same-version original or resolved native extension"
+    },
+    {
+      "kind": "native",
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "uuid": "c2988295-dcda-4df7-bff4-0824aef58b8a",
+      "version": "09808",
+      "expected_prefix": "pirate2/assets/game/native/c2/c2988295-dcda-4df7-bff4-0824aef58b8a.09808",
+      "reason": "no tracked same-version original or resolved native extension"
+    },
+    {
+      "kind": "native",
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "uuid": "c31ce9d4-e649-444a-b26d-1112c180cc79",
+      "version": "c5167",
+      "expected_prefix": "pirate2/assets/game/native/c3/c31ce9d4-e649-444a-b26d-1112c180cc79.c5167",
+      "reason": "no tracked same-version original or resolved native extension"
+    },
+    {
+      "kind": "native",
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "uuid": "d5b30c14-fc88-4391-ac64-a79aee20cae9",
+      "version": "09808",
+      "expected_prefix": "pirate2/assets/game/native/d5/d5b30c14-fc88-4391-ac64-a79aee20cae9.09808",
+      "reason": "no tracked same-version original or resolved native extension"
+    },
+    {
+      "kind": "native",
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "uuid": "da24f196-6e7b-4e45-a049-4ea914fff043",
+      "version": "09808",
+      "expected_prefix": "pirate2/assets/game/native/da/da24f196-6e7b-4e45-a049-4ea914fff043.09808",
+      "reason": "no tracked same-version original or resolved native extension"
+    },
+    {
+      "kind": "native",
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "uuid": "e0509d0f-238d-4bd5-b6cf-802a8f77fd79",
+      "version": "09808",
+      "expected_prefix": "pirate2/assets/game/native/e0/e0509d0f-238d-4bd5-b6cf-802a8f77fd79.09808",
+      "reason": "no tracked same-version original or resolved native extension"
+    },
+    {
+      "kind": "native",
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "uuid": "f3198fcd-9807-4bce-99fa-1a69f671ec91",
+      "version": "09808",
+      "expected_prefix": "pirate2/assets/game/native/f3/f3198fcd-9807-4bce-99fa-1a69f671ec91.09808",
+      "reason": "no tracked same-version original or resolved native extension"
+    }
+  ],
+  "uncovered_metadata": [
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/00/00c1c4f0-6a65-4d3c-a3d6-0bf21d373f0c.3736f.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/00/00c6201f-cbed-4ef9-967a-d95c03c9cc37.22b99.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/00/00d76a76-7249-41a3-bf54-080eb3905355.a158c.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/02/028c97fd-f198-44ab-b799-afa9a7fb778e.76a6b.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/03/03176049-db4a-4875-806c-b1d2daf0aa24.67775.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/04/040db303-7d9f-413d-b132-dedc24c0f35b.5a1b9.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/04/042fee29-de44-43c2-9bc1-b8df0df46811.cf15e.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/06/0674c6c5-a7db-4c70-abd8-6f6e789fe823.d0e15.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/08/08811275-ee88-49ee-bcaf-f33254a9dd80.3dfd7.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/0a/0a01af7b-dbd3-41d9-8abc-66a5db002ff6.ed0fd.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/0f/0fb4c7cf-4143-4ff1-9679-02721dead9e1.58823.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/0f/0fd153ca-93a2-4f00-8c01-a6ea1c9fbbae.2a5ee.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/0f/0fefb2ea-6cca-491b-9c83-2b2a66ed9134.bac08.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/10/104ff50b-9cc0-44db-81f0-c3f19eab95f2.dabf7.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/12/125ba3bb-4272-43c1-a1c5-c0de4a868c79.4df69.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/13/135150f1-1ec8-4860-93ff-24f2242bff79.af0a3.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/17/172fd3c2-8bf3-4bc5-88c6-517bff396b75.550f9.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/17/17d78284-1358-449c-985a-262dd3513296.2cde5.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/18/1839593d-8352-4389-b431-221c1495671b.406c7.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/1c/1c4ef835-74a4-4788-ae9a-557b8eecbb5d.60863.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/1c/1c981b7f-41f2-4d40-8491-bb43f053c16c.75483.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/1d/1db55887-0fda-4f02-9fff-3b8161bd9b99.aabc3.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/1d/1defd71e-9911-4cf4-8cfc-2c7c00f811a1.3d0c7.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/20/20a4fd60-83f8-4c1c-b49c-e6b81a274dff.2ebe3.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/21/216a2e0d-91cf-432a-8d6e-d68c8013e953.de433.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/21/21f8c505-43c6-4b59-8d0b-bf198bee2d29.b51c3.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/24/2409ac2b-70f4-43b0-adfd-1db93895f3ca.c6a5a.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/24/245ccec6-c4b7-4963-a610-2763de068ad9.e0c0d.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/24/24a69777-93aa-4a24-a582-89af54571540.3c025.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/26/2692e053-d296-4533-a0d1-4b6c5b369e7d.7fa43.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/27/278c2653-30b0-43a2-a1aa-59fa1c1eb7b7.a685d.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/2a/2a592379-8915-4cfb-b576-162f3bd4ac3b.b8a9a.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/2b/2b3d7813-2b47-4433-8a2d-8c0f00b860e1.e636b.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/2b/2b402829-ba6f-40de-852e-6417833e10b9.13183.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/2c/2cc177ba-7cdc-4249-9e4a-f13835ccd35e.9aa99.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/2d/2d2ef771-8615-4a87-89bb-d764a134d76f.d53dd.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/2d/2da47487-18ab-4d0c-b542-e35e3c109319.60863.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/2d/2dbd8315-2468-4b25-a413-172dc63989d2.ae870.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/30/300dc062-f97c-4d4b-846e-ee6bfa0c4cb3.dc0c9.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/30/30f7ede2-eee3-4e93-a60e-4af89ea8c508.c9c58.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/31/31f49ade-cfaa-4414-bd44-9f1c03ca3d5e.d2c2f.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/32/3297b05f-c184-43a1-b594-fe23db8d580c.bd9df.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/34/34af9119-f8d5-4cc6-bd4b-f1c6009b02a1.fecf9.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/35/3513b4ed-3525-4de9-93ce-2c2775e6d9cd.efd27.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/36/36895d6b-1258-4ecd-968a-abadc8792e7e.4895c.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/37/37a58b34-19a8-47f1-be1e-70965fac978e.fcfd5.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/38/388ccf25-112a-443a-99bd-8162b91f2ae0.074a8.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/38/38cee690-acca-4127-ba65-1932a75c1624.19508.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/38/38fee0eb-333d-48d2-9e77-ce512e0a3881.de209.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/39/39317683-d45c-4eef-967d-46b71d0f4928.1db7a.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/39/3988639e-e184-45c4-96a8-0276ae8e8efc.443e1.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/39/39d31dcc-0180-4514-bd4b-869aa81c2898.6d071.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/3a/3ab5d9bc-1b6b-49de-9e2b-4730851ad25e.28029.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/3a/3ac6c1d7-99be-4bf7-b653-00758f044a6c.cea32.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/3b/3b41f688-e951-497b-af43-b95593ac175f.dc817.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/3b/3bbfce27-e66f-48ac-9164-ecc7ef05564d.6811a.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/3c/3c38d95f-c767-4bf8-839d-4ee8fb66658b.c2b90.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/3e/3e96dfb1-8a31-4c1c-892a-1548567c0abe.347df.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/3e/3ed95398-d435-4fe8-9e06-275c629b4848.ab7af.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/40/4081e2c8-d2c0-4ece-b75e-ebfee9210db5.bf6ea.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/42/4295e336-2963-4a45-bcf1-5cd6c43a397a.757fd.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/44/44ba6b9f-4314-472d-8191-235dbff70672.79641.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/45/451e18b4-415e-4c71-b231-84fde534abdf.0df54.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/4b/4b08e03a-1932-4263-b4f9-44a766be5923.11d9d.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/4b/4bccc420-17e2-4098-92e4-1f1e54cd0afd.f42c6.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/4e/4e103289-7eb8-442e-83cd-f1065c329eba.0e95e.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/4e/4e36f1a3-bf95-4176-a8f1-e86cce531865.37570.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/4e/4ea7bb23-9258-42fb-9202-48060943d51e.ac9ac.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/4f/4f84bde3-d8a7-4503-b9dd-01020599df85.13b80.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/50/50420565-6fe8-46f1-a597-100e471e0779.ce1ca.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/51/51f8e18b-d906-48a5-8aed-ae1ed5181948.676fa.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/52/520a18bf-c776-44da-82b4-c46d56be6ff1.003cb.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/52/52707494-23be-491d-ac45-4cba15f55813.03e47.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/52/5297e6db-8a8b-4564-8a62-213edca400e4.96ecc.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/53/5347ab75-c1fb-4adb-9635-662750d09d01.60478.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/56/562c8b3f-6414-4c55-95e8-e9716b8e918c.58dae.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/56/56dcf426-7c02-4194-a05f-b6977902dae8.86d59.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/57/57a4840d-b94e-461d-b957-2a38a1110592.c141f.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/57/57c10310-68c1-439a-b618-f5cfc6520528.bb7e0.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/58/585696af-a847-4986-b656-6b4f0eb02c38.b2eb5.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/5a/5ac33d2e-eb88-4d62-a1a9-30073966856b.0ed98.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/5b/5bc54303-1844-453f-8aa5-7813461aaac0.1c575.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/5d/5d2384bc-c632-4a27-90d6-2775baee15b9.0d1d8.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/5d/5d2d0749-7bf5-4b9c-8a56-eaf11ff94546.21ea1.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/5d/5d58b810-48d2-4611-aacd-76880d3eef40.d1f6e.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/5d/5dd165c7-4b1e-4520-af3b-426788fedcd3.6c9a5.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/5e/5e0a0572-e838-4962-a928-17379d7e2876.45f97.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/5f/5f6a20a1-5f4d-46d0-aa67-ebcb2dc56b25.adc9d.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/63/63b221da-70cd-4a8a-a7f5-b2db8f5bc837.3955b.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/64/640a1d59-7662-49c8-b5ec-43c9d47d21d7.d5dac.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/64/64d0825b-1250-465b-9ac8-5f7f65d7b04a.7fcd4.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/65/6505b198-2874-47b3-9149-33c7dceb48bc.1d619.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/65/65942045-490f-4a85-a920-6137ff33b743.797ba.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/66/6609a9f8-87cf-4015-ba30-4df03792fb47.417a4.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/69/691d242d-3a5f-432b-9504-477394f310f4.62aac.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/69/692ee86e-65f4-45af-ba91-d6666c0443a7.d0a46.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/69/69e68a6b-b816-481b-a669-a2e86ef743cb.d745d.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/6b/6b75b117-8408-4197-be60-bf956bc9a991.5d773.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/6d/6da12320-8397-419e-b5e9-3e3d420e217e.f1977.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/6f/6f0df4e7-dc2c-4517-b440-e0d322062565.6c9a5.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/6f/6f84af64-503a-469e-930d-9f00abb438df.275a8.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/6f/6f91081a-2b49-48e2-9da0-0a4771014ec7.e503f.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/70/705419fc-2dfd-4ec1-afce-343e00abf08c.5d575.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/70/705d4d38-f5df-44fd-a09c-07c5225c611e.23f2e.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/70/70ce7527-205b-4415-8e77-636bb53e63be.1135f.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/71/715eaccf-631f-4418-be46-2be79dfabd70.f546c.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/73/733f2b22-daa5-4da8-ac30-b9ba822d664b.9f57c.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/73/73438474-68eb-472d-b188-281fc565ca22.93ac2.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/73/73865c70-6d93-4b87-a6c7-48431f47f7b7.b93fe.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/75/750e795d-1dec-4a64-94e8-d68959650429.9de20.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/75/75cd3138-d3f9-4139-96d4-95adb6eac197.4abde.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/76/76168b7d-a5a1-4295-be41-8b0face40924.fd692.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/76/76fafd48-3dbb-4965-a808-5ee823c1dbc8.0e21f.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/77/77abdc9f-57e4-477a-bdd7-20a499a0c39a.8945b.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/79/79928bda-92af-410b-9c8a-eb48b87193f8.ad696.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/7a/7adea946-978a-4131-b0a8-af2db06ea772.62522.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/7b/7b278f40-5ee6-4416-9ce4-89fea30cf103.4651c.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/7b/7bc11cf1-f05f-4c0a-987f-a6d72e52fcfc.95065.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/7b/7bdb6a3b-b11d-4955-8da7-19b0b9495a44.65cf0.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/7d/7de6851f-dcb9-4a6b-8f55-fd9197ff4d84.66540.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/7e/7ea32884-fce4-436e-8f87-2ceb9f0bd2f5.bb6d5.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/7f/7f860dd9-887f-4dae-bb9c-320b9eae6fab.b6981.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/80/80cde129-bdc3-4407-b700-52e9bcc18aca.fd8de.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/81/81599144-d2bb-48a4-be73-8478d9a369e3.36ad8.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/81/818f8f8d-34d9-48b9-9285-a3d06340e115.d3b69.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/83/830178bc-f526-486c-9850-a9aa204c76d8.29195.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/85/85d4cd27-43ab-4162-8a80-b551576c7360.91242.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/86/86091416-f695-45a5-9d3b-edfd2c70c561.42202.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/86/86a853d9-48e8-4b83-b082-68ac5a1057a0.ec9a5.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/87/87e93d86-f6da-4a34-97a1-b705fa0ca184.272fc.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/88/885b9201-daf1-45a0-9210-d2f933c1fe06.4187e.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/88/88a93408-d808-4b5c-87b6-9af48dea9949.30c97.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/89/89ab1b5c-8c99-4c1c-8524-5fc7352d3dd2.7d3fa.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/89/89db8790-d0e3-484a-90fa-8c9267efa6f1.85aa8.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/89/89e0499e-e9c0-4fe3-b4a5-ccc7a1c7787d.36e8a.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/89/89ff1c27-0615-465e-905d-76a0ddfcaa88.35b15.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/8a/8a27b9e8-e688-4f96-b2fc-5111d01a9418.000be.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/8a/8a8ad627-f525-45dd-86fd-bc95f3da4851.79d04.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/8a/8a9496dc-e8f0-4978-b8ed-fc159a35a958.77d16.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/8b/8b339377-1eb9-4d55-8d55-17ba87e2d396.0d5fd.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/8b/8b5151ae-375b-41cf-92ac-781ccbf2256b.b516c.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/8b/8bd2c1d4-1349-447c-8dc6-5a9a738daa82.10f8a.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/8c/8c139a89-520c-4426-b062-f60ff6c01029.87f48.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/8c/8c6851f2-f3b7-4c60-85e0-cd409941391c.84a74.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/8c/8c85f2b9-e8fa-4195-b377-a83a7b5e7d1a.01481.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/8c/8cfad724-bf9a-48d4-b221-fca380b0a033.d3dac.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/91/913438cc-a775-4b7b-8a9d-a1f4ec4f2cc1.73058.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/92/92bfccd5-e27f-4363-b618-a21941143875.fdd96.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/94/94145a4d-622d-41c9-b79c-1eed2ed89d3e.05039.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/94/942278c4-26f1-45cf-83b2-6a92322487b4.5bde7.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/94/943b0817-39b8-4043-a50a-e5745ff69a20.c60f2.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/94/946cc746-331e-4c9f-97ed-1672933ad27d.14283.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/95/9513188c-8ce0-4c56-97b6-aa13c3a176b6.64363.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/97/9794f642-2aa4-403a-a405-669a46ebb261.1fc65.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/98/98a09e3e-2e7a-4d72-9f16-c7b3e3f5eb16.99ab7.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/9a/9a1bad00-42f0-46ba-b2d5-23a2dedf635c.d3995.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/9a/9a338ba6-c85a-4763-b88d-ada83baf6270.a2efa.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/9a/9a75d29d-596f-4f23-be79-7072c2716031.2cb1d.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/9c/9c69acaa-c87f-45b0-b637-b4f8d527e050.5a272.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/9c/9c8e6812-bd2a-48ff-a8af-8aa8904ec859.66a1c.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/9e/9e4e2edb-1d03-4289-abac-7c0c4d0f260e.d9155.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/9e/9eed9168-7e17-4197-acc4-03f27ae40f59.35a66.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/9f/9f573d61-b314-46ae-8cef-de50ea15fbbb.f3d55.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/9f/9fcc53ea-29ac-43bc-8da4-5445c1e0005d.e9e1f.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/a0/a001cffe-fb78-4bfe-99cd-28143ea6b1d9.0884c.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/a1/a157acdf-52e7-4fa1-9c05-442e3c1cc84b.b183b.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/a2/a26d8e46-41f6-4728-9c48-cb10db97a000.0b2d0.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/a3/a3cf2e0a-8102-498f-b39e-9533d9be90bc.7cde8.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/a3/a3e460fb-8753-419a-9341-42d5f9e7f0ac.c9c49.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/a5/a5999e46-978b-4bb8-aec6-47cb327a153c.3088c.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/a5/a5a37a1c-6040-4caa-af4e-6f6960c42b44.384fb.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/a6/a6c85683-4256-4c8f-87f8-1d63cf499df5.23387.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/a6/a6e7ec27-7418-4f3e-8ec5-b2adbdac92d6.60858.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/a8/a82db9c9-1ad8-427d-a4e0-844e9a207c8c.fa3c5.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/a8/a85a4329-db0c-41c4-8b90-f8db018388a9.59c6c.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/a8/a88b7e65-93e3-495c-a91e-3a563744a05f.c339f.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/a9/a918117c-54b4-4cbf-8abc-e85484041a88.1faeb.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/aa/aa0c4ed0-05cb-448f-bb6b-6723cad21583.b78b4.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/ad/ad8f1d93-1baf-46fc-a976-d1fc6c783c73.d6ade.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/ad/adac128b-086b-4832-a216-185dd77170ce.e058f.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/ae/ae04874a-3dc7-4648-9932-7ed84a885190.7bd14.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/ae/ae5736cc-3f6b-456b-8d07-7f17b82cce68.60858.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/af/af692670-7eb1-40f9-86c5-f0f7c028f717.d0acd.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/af/afed0472-229e-477f-8d70-8a857e3ef42a.67205.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/b0/b0041982-1451-44d6-bf2e-ac83ba5b6622.8f55c.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/b1/b1861759-0137-47c2-8fbd-b97b91134635.a59e0.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/b2/b24f2fff-9fc3-423c-8f38-1d61edc8e07a.57163.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/b2/b2a14371-9fc3-485d-9673-f674f99ab720.f046d.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/b2/b2a306fd-2be7-4b86-9724-2d8e3ded9a46.b9b2b.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/b3/b39001f5-5804-4406-9966-79d3e1a93856.71856.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/b4/b4502d08-fd12-42a3-a899-a585fd6ed9c9.f9362.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/b6/b66068ad-55b0-4204-8813-76987f02be5f.26e9d.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/b6/b66c8f54-6d53-45d5-b4ee-a7cafffbd769.97fbd.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/b9/b947c103-c586-49d2-82de-2f28dac9b034.f5a0f.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/ba/ba23246e-9232-4966-b71e-4616b6db7f88.384e8.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/ba/ba9f0f5b-04c1-4d35-9de1-94049f33b080.c9155.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/bb/bb039cff-4f99-48a5-87e0-558301c114e4.fa41a.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/bc/bce3bd0f-ef83-49d4-9392-4fb885b520cd.0ed16.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/bd/bd02b101-2e55-4376-b72b-cdcb28d89ed7.6030a.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/bd/bd50c8ef-6398-4b41-8470-19d2e8f280da.b7dfb.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/bd/bd98bfcd-a27b-4b10-9ddc-bc5293b430a8.8c11d.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/be/be7da30d-c6a2-4d25-9500-74565b7c7fee.59a6d.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/be/bed5d0d7-7436-46ab-9ae3-a8d19b8291bb.8acdf.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/bf/bfbc4deb-077c-4f1f-ac0d-c4278f1c4b9f.120e4.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/c0/c092408c-3587-4280-974e-0f71546e646b.583a4.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/c1/c158a875-e4bc-4c45-9ac5-b2784bdb2b5d.d9b52.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/c2/c20ae042-9a09-4a89-88e1-a46a8ea0364c.22ee3.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/c5/c5bfa7c8-d25f-4e56-855b-d548d8b29c0c.537af.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/c5/c5db4d57-290b-4483-a91a-8274fb44d5d4.43c61.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/c5/c5f2152d-e38b-4a61-b0b7-dff0795404b8.d20f2.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/c6/c6befcd7-d1e8-49a2-afa6-30f70156f514.70051.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/c6/c6f0de9d-daed-442f-bfc9-7288ad9d5bee.43119.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/c7/c7fedbb6-da68-40a3-9a9e-8769160b88d8.2e107.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/c8/c81c4b98-a625-4b0f-90a7-4d43f2a95e7f.aa14d.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/c9/c95dd1bf-2dfc-472b-98e7-d138ed48b015.fb728.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/ca/cab54de7-b3ce-4177-b8f0-f5192ddf2fe8.cec99.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/ca/cadbd7b3-f4c6-426f-9545-22267906e8e6.019f9.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/cb/cb918295-11dc-4a34-807c-f9d903c84b94.be0b4.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/cc/cce26d58-3f84-4f7d-9b0b-b86f0f751709.391d3.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/cd/cd3fd336-0c57-4ea7-8267-c1bab670b510.2a23f.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/cd/cd4dd795-f5a0-4fe7-8352-c3e5b09aee3c.7c317.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/ce/ced0e9da-b11b-4f6a-bd41-75e561028015.46441.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/cf/cff2e2b0-9383-4d3d-b707-b60578600b20.b9e21.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/d0/d0ecf1e0-3157-4ca4-ad3a-dbb8fb5d77ac.cfd48.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/d1/d1a1b249-2af6-4f9b-8acb-dd79dccefe84.30c01.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/d1/d1b52631-4f67-4cfd-91eb-97a88882c8ca.e6c85.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/d1/d1e0ac6a-f535-4508-859c-283dd8e5449f.1305c.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/d3/d300059f-2df2-4219-8da6-e284fca40747.42176.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/d4/d467836c-f8e4-4ca6-a687-83615e800df1.95f41.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/d4/d4d37f7e-20ad-48b7-94df-67ee1f1b4b49.3c018.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/d5/d5182b41-c180-455a-a72e-5f2b9b6dbd80.8d15b.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/d5/d58a0e64-6f2a-4b33-a099-df319d4d4306.63519.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/d6/d6c3a28c-aafc-461f-a4b1-1a9ee4af89ed.413c9.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/d7/d7eb7c6c-5b65-4635-afd4-4fa8a47cfc3c.3f775.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/d8/d85cc705-83f0-4fba-a5bf-4f7b5f4d7c79.a39d9.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/d9/d9699c95-08ee-4f42-b71b-f75796dd8b0c.58393.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/d9/d988e6e9-f569-4de4-b119-ba7f0b611de8.6ee36.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/da/da17fc7b-3e08-4eb4-8018-e5febf049eed.301e6.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/db/db5fa568-c4ab-4ea4-b7b9-5e6d875c2c8f.ac926.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/db/db9dc8ac-b70c-4441-bc30-16ca891eaf5d.8366d.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/db/dbe4296e-abf6-4c18-8916-1db7112cb42a.38fd0.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/dc/dc36dc3a-75e6-4998-a89b-3171ce106bea.1f745.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/dc/dcaeda79-791a-4585-b604-777bfb05bd46.074ce.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/dd/dd466773-d981-445b-8833-d5a1e649cad1.66b3c.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/de/de2def3f-ba6b-4df2-9a11-f16e08dc7c41.23c22.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/e1/e152fb18-d3e6-4c59-a59e-f6485c64d9d4.78764.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/e2/e2b4e66e-4d69-4bdc-854a-8ffe043f1f69.188f7.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/e3/e333a3c8-f0ec-4cd2-afa2-832ea8ae39c5.c59ab.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/e3/e3aca3f3-c6c5-4236-83ea-c4c719dd298a.fd721.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/e4/e431bdfb-f655-44a9-aaab-a6abd79c181b.584c7.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/e4/e4bca070-7525-4fef-b9e7-1bf7aac63a25.87176.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/e5/e5319505-9331-44b2-90e9-c45ad7dd699e.67f0f.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/e5/e53b14d6-0a81-45c2-bcb7-7e706bfe8ce9.5fba1.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/e8/e86e29d6-3666-4061-b97f-466ccc23b8cb.c32dd.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/e8/e8d30f4d-ad69-445a-9d4f-0bcc3af8b22f.b41ec.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/e9/e91ec7f8-e9df-4ef9-9737-fbd928d362c3.1042c.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/e9/e967820a-f6e7-47ba-afd8-a6cbf20d5cb7.767be.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/e9/e9eecfc4-899b-48b9-a853-a39c3aeb8828.82cc1.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/ea/eae67e35-9e56-4f61-9a06-e158af04ae1a.05f3c.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/eb/eb82fb76-b210-4512-84b6-394aa34b8b76.75204.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/ec/ec1de9a1-c227-4ee3-89c7-7a659556210b.12bb7.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/ec/ecab6fd5-d322-4028-8229-e99078e16f99.5bafd.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/ec/ece8147d-4bbc-448a-b363-2287cb204639.6c9a5.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/ed/edbbceec-a693-48e1-95d2-3bf9fc73965b.f9db5.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/ef/ef100afc-21a5-43fe-b3e3-8a19b07cc3a7.a0317.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/ef/ef60eb6e-11da-4638-b143-a28d76592971.02e47.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/ef/ef825fb4-3eda-4d1d-bd63-6607a6bdfcd0.44a36.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/f0/f0bd402f-b445-49e9-b1cd-4bb4c73d6722.cfecf.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/f1/f1173060-bc77-46c8-82fa-7568e8029d51.f0e77.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/f1/f132112d-4ed3-4c59-a50b-5cf2324c0ed6.d4d5b.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/f1/f17c3c00-7256-4444-8fa4-308c6590c1e8.2fe84.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/f2/f2856eac-91d4-4f74-8c18-2a2072e02916.2dc76.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/f3/f312d55d-5c58-410b-bdd0-7edd80f8dad0.a60ff.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/f3/f36d0d54-7101-401c-bc4e-d0596ee59bdc.b150f.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/f4/f4c2117f-64f3-4a05-b4d9-890a378cc725.c8f29.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/f6/f67bb255-4180-4bd7-a272-3dab87eb78c7.652e5.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/f7/f71f090e-5eaf-4ebe-9c3b-5a638262d571.4d4cb.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/f8/f80aba16-057c-4c1e-bcc0-eaf2c7137595.2bd05.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/f8/f86420c2-d578-45bb-94c1-f0120e546c71.d956e.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/fa/fa815d39-67bc-4f10-9121-d6d02543f723.56f4f.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/fa/faa79af6-9216-4d0c-acd7-00b87d793737.bbd2d.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/fa/faadefd4-c400-449d-a755-6fc65600f7de.d7fd9.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/fc/fc2be216-d118-4398-8d46-727caa1fb241.15d1f.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/fd/fdc404e1-6153-4515-9c39-50620d9d8143.44128.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/fe/feb21cf8-c6e5-4502-9757-05cc493a46c2.e7c25.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jili/config.44424.json",
+      "path": "astarte2/3.6/web-mobile/assets/jili/import/ff/ff6e65e6-02ab-4a37-ab2f-897de6e12b80.64215.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/01/010ccae1-c54f-452f-86e5-c51406f30299.e749e.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/01/01af42ef-4750-4416-bc11-6e1e9b9d1132.5f9e6.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/04/045341ba-0197-4e3d-8d52-f0d6dc288a59.812f6.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/04/046db84c-055e-4339-a74e-005737308d7c.bd499.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/05/050e5545-d093-45a7-8567-23152561e1e7.e30a4.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/09/09ad250d-6aa9-46cd-9619-c1e0454267ff.506f3.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/0a/0a426436-5dea-4564-af1d-20293288fe23.529cc.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/0d/0dd9db5f-6a8f-463e-b6b8-bdcb068d9674.68166.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/0f/0f8f62cd-9eea-411e-bd2e-462e085d2664.05c80.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/10/10dd9c43-16d2-45bd-9447-5b25e1baab45.b3de0.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/17/17b4148c-984b-4061-9001-21d6988d270a.4b66d.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/18/184917d8-da0f-44d1-8840-93952cf3569e.f6a44.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/1a/1ad83f85-f101-4e99-873e-426321807c33.60863.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/1b/1b61350b-1d93-4677-be0e-e4b6a9b58fc4.26b6f.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/1b/1b7fbac6-36c1-4cfd-9c7f-6bb82719d4a2.5eed2.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/1b/1bf02003-9598-446f-a64e-686a868d3392.3a0d2.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/1d/1daca2ef-cb5e-4022-bc8f-5bdaf5bb6064.03fd7.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/1e/1e02dce3-5368-49b9-aed2-f2c95e49af53.ef7ba.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/21/21156c6e-1b9c-498b-8134-a7c1fa0012f2.60858.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/22/2275414a-01a6-4239-a703-91d23b167e55.393b7.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/22/22f98ca6-13d1-4281-8ff7-58bad3a706fa.008d9.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/26/26145a1b-b8e9-4f45-b2fc-2fea3e19d4db.8a91d.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/26/26bcccf0-c373-44de-995d-44eeb00589dd.d4a7c.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/27/277365ff-bcc3-464a-ab5b-9220e7fe1a58.529cc.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/2a/2a02520a-d6e7-4797-9f39-af51f0a4891a.4f9d8.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/2b/2bdeda92-a6cb-4a94-a60a-67c376ab8bfb.09391.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/2c/2cd3e5fd-36d5-4a8e-a84c-611f1cb4faec.6682a.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/2c/2cec65e7-24be-4c75-90d0-fcb1f8a52188.7a532.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/2d/2d8748fa-58bb-4af3-a367-d8685b8c50c4.812f6.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/2e/2e19372e-cba2-4dc9-8227-2b145c358590.13207.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/30/301630d7-f016-4d8e-8f7a-1524613c08c2.d6f36.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/31/312bc1cb-a326-4dc4-ac41-ded3c29a3d92.cb405.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/35/350e32a3-7fc3-4640-94cd-f46338f950c4.c8ead.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/36/368b4e98-7c95-47c7-896b-28af83ca0325.e8bc8.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/38/38653866-ae4c-419f-bc5b-f681b180ad61.fc088.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/39/39a88337-7cb4-4120-be07-463524494c6e.7704a.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/39/39ab1406-7269-4d9c-a3c9-aca50d6f1cb1.fee9e.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/3b/3b986959-450f-401f-a544-cc79b57f1d72.37510.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/3d/3da7144a-94dc-4017-8492-2d7b11db63f2.25037.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/44/44511b4b-8bac-4f42-aca7-a6604ea12591.f065d.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/45/45432dfa-78a6-4783-ad39-40c5b4b52a60.76b0f.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/46/462898db-e20a-4772-9bb6-69b73b4fb262.10513.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/46/463cfefc-9e39-4d9b-afcc-e63a0d04fae8.d6e94.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/4b/4b272972-37b1-48f0-98f3-888dcf26ef66.e21dd.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/4c/4c40eb18-8829-422a-a3f5-ea10f5bc7f14.915ec.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/4d/4d10ae6d-185a-4a25-86b2-d11cdefd0df0.7de8c.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/4d/4d12fc54-1476-41e2-92b5-c9d20aa53ad6.43f86.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/4f/4f797aad-2d52-44c8-b024-44f340565480.11dbf.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/50/502c1250-4aa6-4f08-a3c1-061a4685297e.cf9b2.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/51/515223f4-5595-4217-89d3-889a17abba45.b4373.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/52/52480e08-eb8e-4e97-b9db-7cb45e3be737.247b9.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/52/52df5ebc-dc6b-4cde-8fbe-28d58e76e645.61999.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/55/557e38f4-bf62-4624-9d28-ab6e209e491a.520ca.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/57/578dc65f-ccbb-4a4b-ae96-14ecbe138c9d.7eaf8.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/57/57d80efb-ac08-4a56-8493-1f079ea922c1.71453.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/5a/5a6d170c-df12-4f97-87df-5e06e6de0aee.ecbe9.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/5b/5b383be7-7b72-469f-9a9c-151d2dbc4500.e1668.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/5c/5c23e42d-a64c-4a58-8547-1b929a261f6a.35945.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/5c/5c3dba9d-22a8-4094-8a5f-6402383b8683.6abf3.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/5c/5c6250a5-fc76-454a-8cd7-1005f77578c7.81de3.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/5c/5cb8d215-2abf-46d1-a986-d80ed602e45a.26d9d.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/5d/5d42e981-a17e-495b-9b9b-34e2d039f717.643e1.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/5f/5f9f242e-0236-4453-bb87-b72637cdb813.f3406.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/60/6029c8ec-b3c0-46c8-9430-439065d04257.6c9a5.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/60/60eef7cb-b5fe-4f5b-b979-1fd3f989e0ee.2d07a.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/60/60f91b5a-336f-4f3b-85af-c5928e369bf0.93b9c.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/62/62798117-309e-437b-8bec-36e79b6eacd6.259db.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/65/650b8161-5431-4fd9-8296-912108016768.25037.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/65/654d9430-1654-4634-94be-609bda7c41f9.3ae39.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/6d/6dc099fe-9b5f-4fe0-9dab-271aaadeccd2.865d8.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/6e/6e3f4ffe-d187-449e-b894-794dadca7b4a.43f86.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/70/70c21008-ea04-4d25-bd83-3590fa198294.2d07a.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/71/71717b6d-7660-40e2-9131-28b6931de0ab.0b647.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/75/75bc814d-1339-4a4a-8a62-977a3371a62f.0f6f1.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/76/760dc334-2a6d-43e9-a0c0-fa9d17e98194.1c517.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/76/76fa1052-2692-48db-a557-1627de19b637.21ccc.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/77/7703c8e2-592c-41a2-b58d-1c8fc7584237.b2164.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/79/79ac09e4-aaec-4072-baf5-fb8d363cf583.5bfbc.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/79/79f8b329-c5ac-4764-99e9-31add5b0a30f.e75d8.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/7c/7c079494-c37d-4c55-be10-3ef305a362d6.490f8.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/7e/7e5626be-bae1-4dff-bd15-418a65b76c39.e1aaa.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/7f/7f833dc0-abd1-4c27-b2d5-180fb5acf5b2.596bf.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/80/80179d76-2848-4b58-be84-6d5946626d46.31612.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/81/81b605a1-300a-49ad-a3b6-8cbca5d1146f.f065d.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/82/8263e3e7-3db7-4928-b9a4-fa8fcd8abdbf.c9c06.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/86/86d25670-9c16-4ac8-bde5-5267fb936b83.56177.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/87/8739c24a-177f-4269-9340-daee4e9e808c.8c804.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/87/87ce9ec6-f4ce-436b-89ac-40699e5ff386.3c8f5.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/89/89509466-776b-450f-a0e6-1fac12df6485.94b75.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/8c/8c59fc31-8519-42e9-8338-75bb86dbf04c.28cb0.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/8c/8ce52465-e9e0-46e6-be67-49669c8d8580.e50af.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/8d/8dbdc450-ac64-4cb1-881a-28454234eb14.dc784.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/8d/8de6ce81-242d-479c-884c-da388ef0cb82.1e8cd.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/8e/8e799881-2ac3-460a-9bf6-0a37cea9a251.1063e.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/8e/8eb152bc-2d5c-4bf4-a77a-7d081395df6d.a2ec4.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/8e/8ee64bb4-14d2-4024-86c4-6e87df8281da.ef7ba.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/90/902a1c55-97c4-4467-8ae3-665261732017.dfd13.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/92/92fdb034-cc43-4ead-8111-5341fa2f7fe1.fc139.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/94/940a38e4-cc2a-4c71-9f18-fb11eff650ac.59a1d.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/94/94df9227-e559-4a61-b0bc-d82d7760d370.13ffc.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/96/96728ab7-579a-410c-9e19-79f239f6945f.2c8bc.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/97/9790a05b-ce9e-418b-aa96-822dd970e184.09da3.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/9b/9bb9e381-0112-4202-8fd3-51c6017797a7.e4c8b.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/9f/9f4290a5-57b2-4c96-8fbc-a2c1aa073f0f.6dad3.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/9f/9f4acb5f-8676-4b6b-a5fe-21e38a52e442.9d132.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/9f/9fad2ee3-86df-4580-be1d-0cb29e7f1a27.fed3f.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/a0/a0222be0-4d58-4950-9782-9a9df976b06a.55b0a.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/a0/a0fb5786-2118-4deb-a729-1b81f6ceaf36.2508b.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/a1/a1ab7bfe-57c1-4d85-be0f-03c601857622.90f19.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/a1/a1ffbeb0-ad4f-4021-83d3-cc18eab85fca.03fd7.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/a6/a68d4a67-d7b3-497a-8ed5-9e7a9edb9145.c7df6.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/aa/aae60114-ee89-4cb2-93b2-f1e64f0c6b15.8248f.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/ab/abe48291-6264-41af-93e8-9c296f18b74d.ba28c.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/ac/acdf9f60-cf90-4fd2-a564-47ea25c334c0.11d7a.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/ac/acef46b9-c47c-4696-8474-6bf8c9d09ebe.00e07.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/ad/ad1091e1-d97e-4794-83a4-baec711a4b2d.040f2.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/ae/ae9a19f0-d315-4ce1-9382-5c9b715e7c3d.0a6b3.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/b1/b142f1d6-0ed6-4658-83eb-246daa93575f.fa8e1.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/b2/b215c874-15c0-493e-b9f3-b01874b25d53.643e1.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/b3/b34a67f6-7282-4278-8939-c602b9cbe73b.07162.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/b3/b3d89e3b-687b-4aee-a285-e10564abf292.95c46.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/b5/b56faceb-cc0e-406b-bd22-5e5c076cf8a9.e1aaa.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/b7/b7cfa50e-0bed-4888-9918-83d788d734fd.c445e.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/b9/b901dd28-fb0f-49be-adc1-4917aadbc949.31c9d.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/b9/b954587b-3681-4af8-9cc6-90016bde095d.75213.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/bc/bc8fa059-f231-4835-a5dd-7b1986fb1fe7.794ba.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/bd/bde4dedf-cb0b-4440-b1e0-04bf63439cec.61999.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/c1/c184c6de-d82e-4f4b-83fe-62860ed98235.92447.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/c3/c3385fa2-b7d0-458c-a132-edd557b045b0.794ba.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/c4/c44d022b-fa7f-4ecc-8e38-e8d447b5ef45.d70fe.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/c5/c55882f5-7a3f-432d-93c1-575484063d7e.ce5e8.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/c5/c5952f03-2bc9-41ab-aebf-fbecb3ff94f3.a6696.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/c7/c74c1063-8b93-4c35-ab75-3f55315e0d80.75418.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/c7/c7f639cc-9a72-4e19-bd4d-dcd4f38b70df.8a980.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/c8/c8bdb860-2fb7-46a3-be59-145bfde882ce.6c9a5.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/ca/ca515fb0-461b-4929-896c-504813ee1a57.e4c8b.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/cb/cb03d410-0aee-4c09-ab96-796beafe7ff7.99b4a.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/cd/cdeafcf7-1f23-4152-81d9-785cd4ab77b5.1367c.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/ce/cea7b4ee-605b-4001-96b4-2e1072a2018b.d02d4.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/cf/cfdb638f-664a-4be0-b5e3-a0f83e4cf8d8.78669.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/d2/d2fd79fa-d0f4-4dd4-a965-6fdb72c2fb83.990a8.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/d4/d410c8d0-1a1a-42c0-964d-c859762c9ade.dae31.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/d8/d8ad053e-3648-4eb8-b842-6512e455046e.259db.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/d8/d8d24d49-6b60-4d3f-b091-d15ae5620e19.0a6b3.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/dc/dc5b1ef6-59f6-43a2-9e53-2db28ac2b512.3f1ed.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/e1/e10a4468-71a2-49b3-a48d-ad886a01499e.1e8cd.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/e2/e2d9753b-2774-45e5-921e-66b46f627990.520ca.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/e3/e3845a02-b442-4a87-bb4f-05027b805652.941a3.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/e7/e7e2b3e7-f0db-443e-bd41-4cdb05b86c22.dae31.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/e8/e8131191-cd00-47d3-8b24-83f705bde7ad.f4522.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/e8/e8975524-3432-4551-a1fb-ce408b0b7b63.8a082.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/ea/ea099e3d-e1c9-4703-9e60-78d8f4e5e9b8.dd94a.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/ef/efb39356-cff0-441c-8a39-8b3f20193a94.db454.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/f3/f3c74f6d-ff31-483a-bfa2-f564be1e7fe1.901e9.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/f4/f49527fb-e02f-4fb9-b763-9c4b981565fc.a6e19.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/f4/f4bf34f0-38f7-4ddb-ba10-52a37bfcccb5.1367c.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/f4/f4d184c2-c889-403f-99f4-7654ab6d4ded.a15b0.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/f6/f6755874-9395-4532-a229-db03bb75cb93.c5ad1.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/f8/f8fa43f8-8a31-4324-a117-fb76529d2eed.b2b84.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/fa/faeb7b8a-fa91-44c5-9f64-6fa06fa6bba0.646ba.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/fb/fb315057-d735-4ce0-b093-4f43ea15cd27.a8918.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/fb/fb3205fc-f0bf-453c-94c3-c389e7568e68.9d240.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/fb/fbd0a1a9-5588-4ed5-93e8-911c556e9702.c5ad1.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/fc/fcdc05c7-71ff-424c-a53b-a1fc8755be09.81de3.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/fd/fd22e821-667a-44e8-8d9b-8a45df267a92.09da3.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/fd/fd35d7f4-4841-413c-9e35-963088250331.9132a.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/fe/fe76f6a6-d9bd-45e6-a210-287f4af688cf.8c57a.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "astarte2/3.6/web-mobile/assets/jiliMain/config.6ec17.json",
+      "path": "astarte2/3.6/web-mobile/assets/jiliMain/import/ff/ffbe9aed-b52b-4b13-8219-b48e4b6b9868.c8ead.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "uuid": "0333c33d-de4d-429f-829b-9d7c27ee7072",
+      "reason": "native extension unresolved",
+      "candidate_extensions": []
+    },
+    {
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "uuid": "0f050564-7abd-44b8-8897-d69d55adb50a",
+      "reason": "native extension unresolved",
+      "candidate_extensions": []
+    },
+    {
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "uuid": "194a948c-e70d-4a01-8253-faad344d51f7",
+      "reason": "native extension unresolved",
+      "candidate_extensions": []
+    },
+    {
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "uuid": "19eafe88-659e-4ab0-8f1f-2d6b41de96f0",
+      "reason": "native extension unresolved",
+      "candidate_extensions": []
+    },
+    {
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "uuid": "27d44bd3-cd4c-44af-9c23-4588f96c43b6",
+      "reason": "native extension unresolved",
+      "candidate_extensions": []
+    },
+    {
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "uuid": "2895c3d3-f297-42f7-87e3-e986f68f38cc",
+      "reason": "native extension unresolved",
+      "candidate_extensions": []
+    },
+    {
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "uuid": "28f127a4-7f69-4904-addd-808c96879ce5",
+      "reason": "native extension unresolved",
+      "candidate_extensions": []
+    },
+    {
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "uuid": "2c0aa802-4560-4372-a63c-1e8916db6791",
+      "reason": "native extension unresolved",
+      "candidate_extensions": []
+    },
+    {
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "uuid": "308a91e7-ce8e-4225-8227-0bdcf1bcd2b6",
+      "reason": "native extension unresolved",
+      "candidate_extensions": []
+    },
+    {
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "uuid": "37ed2a17-dd3c-4764-8802-a0fb819bf28e",
+      "reason": "native extension unresolved",
+      "candidate_extensions": []
+    },
+    {
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "uuid": "46500de6-ed3e-45f1-bbc8-dbcfff20bd7b",
+      "reason": "native extension unresolved",
+      "candidate_extensions": []
+    },
+    {
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "uuid": "649ae246-04c6-46fc-9ef3-1852dfc4da91",
+      "reason": "native extension unresolved",
+      "candidate_extensions": []
+    },
+    {
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "uuid": "6547230e-f209-4c85-af5a-4481a292b7d5",
+      "reason": "native extension unresolved",
+      "candidate_extensions": []
+    },
+    {
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "uuid": "686afe5b-49e0-41d8-a466-ec532caa25a9",
+      "reason": "native extension unresolved",
+      "candidate_extensions": []
+    },
+    {
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "uuid": "73645058-c282-42e9-9fb6-0445562ec4d2",
+      "reason": "native extension unresolved",
+      "candidate_extensions": []
+    },
+    {
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "uuid": "7988b09e-4307-445f-b06d-9a463bca332b",
+      "reason": "native extension unresolved",
+      "candidate_extensions": []
+    },
+    {
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "uuid": "9cfe4ac6-12a0-4e6b-933e-f6d90dd18f08",
+      "reason": "native extension unresolved",
+      "candidate_extensions": []
+    },
+    {
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "uuid": "9d7a4f7c-42fb-4a6d-8282-4b45306df959",
+      "reason": "native extension unresolved",
+      "candidate_extensions": []
+    },
+    {
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "uuid": "a491d2ee-5ac4-4821-8f23-d34781bf4d13",
+      "reason": "native extension unresolved",
+      "candidate_extensions": []
+    },
+    {
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "uuid": "c124b796-2203-4c95-bc15-2e81d2e967e5",
+      "reason": "native extension unresolved",
+      "candidate_extensions": []
+    },
+    {
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "uuid": "c2988295-dcda-4df7-bff4-0824aef58b8a",
+      "reason": "native extension unresolved",
+      "candidate_extensions": []
+    },
+    {
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "uuid": "c31ce9d4-e649-444a-b26d-1112c180cc79",
+      "reason": "native extension unresolved",
+      "candidate_extensions": []
+    },
+    {
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "uuid": "d5b30c14-fc88-4391-ac64-a79aee20cae9",
+      "reason": "native extension unresolved",
+      "candidate_extensions": []
+    },
+    {
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "uuid": "da24f196-6e7b-4e45-a049-4ea914fff043",
+      "reason": "native extension unresolved",
+      "candidate_extensions": []
+    },
+    {
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "uuid": "e0509d0f-238d-4bd5-b6cf-802a8f77fd79",
+      "reason": "native extension unresolved",
+      "candidate_extensions": []
+    },
+    {
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "uuid": "f3198fcd-9807-4bce-99fa-1a69f671ec91",
+      "reason": "native extension unresolved",
+      "candidate_extensions": []
+    },
+    {
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "path": "pirate2/assets/game/import/11/11e0f8f2-2c3d-4dbc-94e1-009ccef6f428.56a68.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "path": "pirate2/assets/game/import/12/1213351a-47a0-42a9-b10d-33859da8aa50.1f779.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "path": "pirate2/assets/game/import/18/1871d824-1642-468b-a6ba-991075609d59.9655f.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "path": "pirate2/assets/game/import/20/208b8afc-b5ff-468d-8991-07b06d045804.5a495.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "path": "pirate2/assets/game/import/2b/2be1a2e0-ae06-476f-8c48-790677492b40.a2a08.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "path": "pirate2/assets/game/import/3b/3b09247d-46d9-49ad-a090-b8ef02f3b729.654ee.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "path": "pirate2/assets/game/import/3f/3f18a305-902c-421d-a698-3b91207ed0ea.7dcc2.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "path": "pirate2/assets/game/import/4f/4f1d2522-9b5a-45d0-a585-4b7491b80237.212a9.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "path": "pirate2/assets/game/import/53/53d42f3e-2f29-4d89-8e12-eb77bf07d425.eb054.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "path": "pirate2/assets/game/import/54/5475dabf-a460-4d9c-8f54-4d8d712da557.2ba93.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "path": "pirate2/assets/game/import/5f/5f555dbb-6c3d-489e-8aaa-39f6cfa094d9.06465.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "path": "pirate2/assets/game/import/6b/6b5ab733-1006-4196-8c81-b3bbd801a38e.3f12c.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "path": "pirate2/assets/game/import/6d/6dc694a3-b180-42a3-88bc-4b4b9cd5bc49.5c924.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "path": "pirate2/assets/game/import/78/78239b34-a90e-44de-b16a-1f9fc63bfe14.2749d.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "path": "pirate2/assets/game/import/78/7837ffe2-8529-4f36-a5da-8d2c70a9ad8b.42dc3.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "path": "pirate2/assets/game/import/7f/7f693ab4-33ed-44c8-b979-9094ad4cc932.793ca.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "path": "pirate2/assets/game/import/85/85f4629d-50b3-421e-95d0-d25a4c9b8061.519f0.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "path": "pirate2/assets/game/import/8d/8dce454f-a8ec-42cd-8e11-735968fd91f5.ade9f.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "path": "pirate2/assets/game/import/9b/9bbc5ec5-7ec8-4791-87b4-8e898ed98453.a1f9f.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "path": "pirate2/assets/game/import/a0/a075e7a3-1c75-46db-be9f-26515e081637.74fe8.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "path": "pirate2/assets/game/import/ba/ba2a6b7b-0ee8-459f-ad93-af978c30f4c9.e9bd8.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "path": "pirate2/assets/game/import/c0/c0bd943b-dae3-4b5d-8a3f-cebdb28fc0eb.3a4d5.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "path": "pirate2/assets/game/import/c3/c357f7b0-d611-49e3-82c1-9aa715fe0609.60763.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "path": "pirate2/assets/game/import/cc/cc83da39-113b-4241-a93f-ed6d1e85afc3.288c5.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "path": "pirate2/assets/game/import/cf/cf3feca5-7193-4202-8f4e-23926c70b13e.aa224.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "path": "pirate2/assets/game/import/de/de0e1059-f4bb-4596-91a6-d9685be4c15e.c562d.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "path": "pirate2/assets/game/import/df/df7ff115-2101-406a-a487-bcd4af185648.8374f.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "path": "pirate2/assets/game/import/e0/e0c3ad1d-e0ca-4642-a8b8-1ac42be8ea03.ec4a9.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "path": "pirate2/assets/game/import/f0/f0ef3169-92be-4653-a59e-0a3cb20aef44.8206a.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "pirate2/assets/game/config.fca3c.json",
+      "path": "pirate2/assets/game/import/fa/fac8d692-4b6b-47c0-89f5-337524a9599a.c97f6.cconb",
+      "reason": "binary import metadata not decoded"
+    }
+  ],
+  "complete_acceptance_passed": false
+}

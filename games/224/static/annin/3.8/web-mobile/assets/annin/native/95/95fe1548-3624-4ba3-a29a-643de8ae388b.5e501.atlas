@@ -1,0 +1,27 @@
+
+FX_Collect.png
+size: 119,119
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+NumberCountFX01/BG_Y_Light01_00
+  rotate: false
+  xy: 2, 2
+  size: 80, 57
+  orig: 84, 84
+  offset: 2, 14
+  index: -1
+NumberCountFX01/Ringlight01_00
+  rotate: false
+  xy: 25, 61
+  size: 56, 56
+  orig: 56, 56
+  offset: 0, 0
+  index: -1
+Star_07
+  rotate: false
+  xy: 2, 97
+  size: 21, 20
+  orig: 35, 34
+  offset: 7, 7
+  index: -1

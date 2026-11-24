@@ -1,0 +1,286 @@
+
+Character.png
+size: 1005,1005
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Character_01_light
+  rotate: false
+  xy: 2, 192
+  size: 339, 339
+  orig: 640, 397
+  offset: 150, 48
+  index: -1
+Coin/coin_00
+  rotate: true
+  xy: 938, 226
+  size: 69, 26
+  orig: 69, 26
+  offset: 0, 0
+  index: -1
+Coin/coin_00_S
+  rotate: true
+  xy: 935, 713
+  size: 73, 33
+  orig: 75, 33
+  offset: 1, 0
+  index: -1
+Coin/coin_01
+  rotate: true
+  xy: 937, 154
+  size: 67, 45
+  orig: 67, 45
+  offset: 0, 0
+  index: -1
+Coin/coin_01_S
+  rotate: false
+  xy: 394, 555
+  size: 71, 51
+  orig: 71, 52
+  offset: 0, 1
+  index: -1
+Coin/coin_02
+  rotate: false
+  xy: 924, 355
+  size: 68, 25
+  orig: 68, 25
+  offset: 0, 0
+  index: -1
+Coin/coin_03
+  rotate: true
+  xy: 924, 382
+  size: 70, 27
+  orig: 70, 27
+  offset: 0, 0
+  index: -1
+Coin/coin_04
+  rotate: true
+  xy: 467, 545
+  size: 61, 22
+  orig: 61, 22
+  offset: 0, 0
+  index: -1
+Coin/coin_05
+  rotate: false
+  xy: 766, 764
+  size: 60, 22
+  orig: 60, 22
+  offset: 0, 0
+  index: -1
+FX/FX_Clover_3
+  rotate: true
+  xy: 703, 704
+  size: 58, 75
+  orig: 100, 100
+  offset: 21, 13
+  index: -1
+FX/FX_Rainbow1
+  rotate: false
+  xy: 343, 263
+  size: 132, 271
+  orig: 200, 326
+  offset: 36, 34
+  index: -1
+FX/FX_Star2
+  rotate: false
+  xy: 468, 47
+  size: 96, 89
+  orig: 100, 100
+  offset: 3, 3
+  index: -1
+FX/Glow_1
+  rotate: false
+  xy: 766, 788
+  size: 215, 215
+  orig: 240, 240
+  offset: 13, 12
+  index: -1
+FX/Shine_4-2
+  rotate: true
+  xy: 510, 764
+  size: 239, 254
+  orig: 300, 300
+  offset: 30, 33
+  index: -1
+FX/Shine_4_alpha
+  rotate: true
+  xy: 343, 84
+  size: 177, 123
+  orig: 200, 200
+  offset: 10, 65
+  index: -1
+FX/Wind_MotionBlur_3
+  rotate: false
+  xy: 2, 533
+  size: 192, 470
+  orig: 220, 500
+  offset: 12, 13
+  index: -1
+FX/light_white
+  rotate: true
+  xy: 196, 692
+  size: 311, 312
+  orig: 400, 400
+  offset: 44, 44
+  index: -1
+FX/shiny
+  rotate: false
+  xy: 818, 223
+  size: 118, 130
+  orig: 180, 180
+  offset: 21, 30
+  index: -1
+JumpingCoin_Shadow2
+  rotate: false
+  xy: 881, 711
+  size: 52, 27
+  orig: 60, 32
+  offset: 4, 3
+  index: -1
+Pot_1
+  rotate: true
+  xy: 729, 454
+  size: 248, 211
+  orig: 248, 211
+  offset: 0, 0
+  index: -1
+Pot_Coin_1
+  rotate: false
+  xy: 937, 2
+  size: 48, 26
+  orig: 48, 26
+  offset: 0, 0
+  index: -1
+Pot_Coin_2
+  rotate: false
+  xy: 394, 536
+  size: 49, 17
+  orig: 49, 17
+  offset: 0, 0
+  index: -1
+Pot_Coin_3
+  rotate: true
+  xy: 970, 739
+  size: 47, 22
+  orig: 47, 22
+  offset: 0, 0
+  index: -1
+Pot_Lv2_Coin
+  rotate: false
+  xy: 510, 695
+  size: 191, 67
+  orig: 300, 300
+  offset: 54, 117
+  index: -1
+Pot_Lv3_Coin
+  rotate: false
+  xy: 729, 355
+  size: 193, 97
+  orig: 300, 300
+  offset: 50, 117
+  index: -1
+Pot_Lv4_Coin
+  rotate: true
+  xy: 818, 28
+  size: 193, 117
+  orig: 300, 300
+  offset: 50, 117
+  index: -1
+pot_01_Back_handrail_L
+  rotate: false
+  xy: 937, 30
+  size: 44, 58
+  orig: 44, 58
+  offset: 0, 0
+  index: -1
+pot_01_Back_handrail_L_S
+  rotate: false
+  xy: 938, 297
+  size: 45, 56
+  orig: 46, 60
+  offset: 0, 0
+  index: -1
+pot_01_Back_handrail_R
+  rotate: false
+  xy: 780, 704
+  size: 45, 58
+  orig: 45, 58
+  offset: 0, 0
+  index: -1
+pot_01_Back_handrail_R_S
+  rotate: false
+  xy: 937, 90
+  size: 44, 62
+  orig: 46, 66
+  offset: 1, 1
+  index: -1
+pot_02_coin_back
+  rotate: false
+  xy: 196, 536
+  size: 196, 70
+  orig: 196, 70
+  offset: 0, 0
+  index: -1
+pot_03_coin_back
+  rotate: false
+  xy: 2, 4
+  size: 325, 186
+  orig: 544, 404
+  offset: 83, 77
+  index: -1
+pot_04_coin_back_L
+  rotate: false
+  xy: 477, 138
+  size: 339, 211
+  orig: 640, 397
+  offset: 15, 54
+  index: -1
+pot_04_coin_back_R
+  rotate: true
+  xy: 493, 351
+  size: 339, 234
+  orig: 640, 397
+  offset: 277, 50
+  index: -1
+pot_04_green_jewrly_01
+  rotate: false
+  xy: 881, 740
+  size: 52, 46
+  orig: 52, 46
+  offset: 0, 0
+  index: -1
+pot_04_green_jewrly_02
+  rotate: false
+  xy: 828, 738
+  size: 51, 48
+  orig: 52, 49
+  offset: 1, 1
+  index: -1
+pot_04_green_jewrly_03
+  rotate: false
+  xy: 966, 267
+  size: 27, 28
+  orig: 28, 29
+  offset: 0, 0
+  index: -1
+pot_04_green_jewrly_04
+  rotate: true
+  xy: 942, 667
+  size: 44, 42
+  orig: 46, 43
+  offset: 1, 1
+  index: -1
+pot_04_green_jewrly_05
+  rotate: true
+  xy: 827, 706
+  size: 30, 33
+  orig: 32, 34
+  offset: 1, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 196, 608
+  size: 295, 82
+  orig: 304, 94
+  offset: 5, 2
+  index: -1

@@ -19,7 +19,7 @@ Then open the URL it prints (accept the self-signed cert warning).
 import os, sys, json, ssl, datetime, mimetypes, hashlib, base64, time, threading, tempfile
 import re
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
-from urllib.parse import urlparse
+from urllib.parse import urlparse, unquote
 
 # WebSocket (RFC 6455) — the keepalive channel /lifeservice/ws2. Captured protocol
 # (games/696/traffic_raw.json, 38 frames): client sends ONE binary protobuf handshake
@@ -730,10 +730,17 @@ def pick_response(req):
 # ─── static file serving ─────────────────────────────────────────────────────
 
 def resolve_static(path):
-    rel = path.lstrip('/')
+    # Decode URL paths exactly once: native font filenames can contain spaces.
+    rel = unquote(path).lstrip('/')
+    if '\0' in rel:
+        return None
     for root in (STATIC_ROOT, SHARED_ROOT):
-        fp = os.path.abspath(os.path.join(root, rel))
-        if not fp.startswith(root):        # path traversal guard
+        root = os.path.realpath(root)
+        fp = os.path.realpath(os.path.join(root, rel))
+        try:
+            if os.path.commonpath((root, fp)) != root:
+                continue
+        except ValueError:                 # e.g. a different drive on Windows
             continue
         if os.path.isdir(fp):
             fp = os.path.join(fp, 'index.html')

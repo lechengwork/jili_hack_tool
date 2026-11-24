@@ -1,0 +1,802 @@
+{
+  "game_id": "224",
+  "date": "2026-11-24",
+  "scope": "All captured manifests, including optional/historical bundles; not every gap is proven reachable in the current game mode.",
+  "remaining_manifest_missing": 0,
+  "missing_or_invalid_declarations": [],
+  "unavailable_or_rejected_originals": [],
+  "unconfirmed_sources": [],
+  "uncovered_metadata": [
+    {
+      "config": "annin/3.8/web-mobile/assets/annin/config.a96f3.json",
+      "path": "annin/3.8/web-mobile/assets/annin/import/04/042fee29-de44-43c2-9bc1-b8df0df46811.5666c.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "annin/3.8/web-mobile/assets/annin/config.a96f3.json",
+      "path": "annin/3.8/web-mobile/assets/annin/import/07/07ee7f2a-fe9f-4f76-8de5-9dd265121532.14fce.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "annin/3.8/web-mobile/assets/annin/config.a96f3.json",
+      "path": "annin/3.8/web-mobile/assets/annin/import/0d/0d80c37b-71a8-4262-a7e7-93d490f15ac4.a9f5b.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "annin/3.8/web-mobile/assets/annin/config.a96f3.json",
+      "path": "annin/3.8/web-mobile/assets/annin/import/13/13562646-bbe2-478c-9c12-c4a9ef1975ad.06ffa.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "annin/3.8/web-mobile/assets/annin/config.a96f3.json",
+      "path": "annin/3.8/web-mobile/assets/annin/import/13/135b621e-4037-4267-b70c-fc70cb8a71b3.8f418.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "annin/3.8/web-mobile/assets/annin/config.a96f3.json",
+      "path": "annin/3.8/web-mobile/assets/annin/import/17/172fd3c2-8bf3-4bc5-88c6-517bff396b75.e132b.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "annin/3.8/web-mobile/assets/annin/config.a96f3.json",
+      "path": "annin/3.8/web-mobile/assets/annin/import/18/184917d8-da0f-44d1-8840-93952cf3569e.09d7f.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "annin/3.8/web-mobile/assets/annin/config.a96f3.json",
+      "path": "annin/3.8/web-mobile/assets/annin/import/1d/1dea856a-f696-4df4-9654-7c953e3187f0.61b6f.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "annin/3.8/web-mobile/assets/annin/config.a96f3.json",
+      "path": "annin/3.8/web-mobile/assets/annin/import/1e/1e4d6295-97e7-4cc6-bfbf-6a6b282d57d5.d2a97.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "annin/3.8/web-mobile/assets/annin/config.a96f3.json",
+      "path": "annin/3.8/web-mobile/assets/annin/import/21/21156c6e-1b9c-498b-8134-a7c1fa0012f2.5a868.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "annin/3.8/web-mobile/assets/annin/config.a96f3.json",
+      "path": "annin/3.8/web-mobile/assets/annin/import/21/212810c9-d9e3-46f5-9a51-0e6fe8edc3c6.73fa3.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "annin/3.8/web-mobile/assets/annin/config.a96f3.json",
+      "path": "annin/3.8/web-mobile/assets/annin/import/22/223dafbe-beae-4d92-b29b-3ce41f40c67c.615f6.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "annin/3.8/web-mobile/assets/annin/config.a96f3.json",
+      "path": "annin/3.8/web-mobile/assets/annin/import/23/23ba308f-66be-4117-8eb6-d7c843f8c107.0a4e4.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "annin/3.8/web-mobile/assets/annin/config.a96f3.json",
+      "path": "annin/3.8/web-mobile/assets/annin/import/27/27c5aa9a-835a-49eb-8530-dc1a5e77e4c4.32bab.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "annin/3.8/web-mobile/assets/annin/config.a96f3.json",
+      "path": "annin/3.8/web-mobile/assets/annin/import/29/29357773-ac59-4eb9-bab8-5eda3c9ba222.35217.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "annin/3.8/web-mobile/assets/annin/config.a96f3.json",
+      "path": "annin/3.8/web-mobile/assets/annin/import/2c/2c08432f-3e82-408f-9849-5048a957dfed.c07c9.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "annin/3.8/web-mobile/assets/annin/config.a96f3.json",
+      "path": "annin/3.8/web-mobile/assets/annin/import/2c/2cd3e5fd-36d5-4a8e-a84c-611f1cb4faec.66182.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "annin/3.8/web-mobile/assets/annin/config.a96f3.json",
+      "path": "annin/3.8/web-mobile/assets/annin/import/2d/2d856e7b-dc40-48b2-8590-f502088a9cb4.35217.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "annin/3.8/web-mobile/assets/annin/config.a96f3.json",
+      "path": "annin/3.8/web-mobile/assets/annin/import/2f/2f633902-6d23-49ab-a4e7-5a03cd5dc2fc.d2940.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "annin/3.8/web-mobile/assets/annin/config.a96f3.json",
+      "path": "annin/3.8/web-mobile/assets/annin/import/31/310d2992-6023-4e6b-8996-e6dca3928737.ca81d.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "annin/3.8/web-mobile/assets/annin/config.a96f3.json",
+      "path": "annin/3.8/web-mobile/assets/annin/import/33/3374c8cc-9559-4ca2-bcc5-454514eb7b7a.840bc.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "annin/3.8/web-mobile/assets/annin/config.a96f3.json",
+      "path": "annin/3.8/web-mobile/assets/annin/import/33/339124d4-5564-4725-af04-bcac7acadf9c.d4c83.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "annin/3.8/web-mobile/assets/annin/config.a96f3.json",
+      "path": "annin/3.8/web-mobile/assets/annin/import/35/3572ce0d-21f4-45a2-9672-2e8f6256cae7.0507f.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "annin/3.8/web-mobile/assets/annin/config.a96f3.json",
+      "path": "annin/3.8/web-mobile/assets/annin/import/35/35b99a00-7c21-4875-8594-a27081ce24b2.4402c.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "annin/3.8/web-mobile/assets/annin/config.a96f3.json",
+      "path": "annin/3.8/web-mobile/assets/annin/import/36/3636ee40-2b98-48f8-94fa-0f0b205ee508.b3742.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "annin/3.8/web-mobile/assets/annin/config.a96f3.json",
+      "path": "annin/3.8/web-mobile/assets/annin/import/3e/3ecb9de7-af53-49ec-bc6e-7e98352d2c0c.47a7f.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "annin/3.8/web-mobile/assets/annin/config.a96f3.json",
+      "path": "annin/3.8/web-mobile/assets/annin/import/41/4103dc79-df50-4d16-82e8-94e9c2578e4e.98b45.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "annin/3.8/web-mobile/assets/annin/config.a96f3.json",
+      "path": "annin/3.8/web-mobile/assets/annin/import/41/41606b77-dad6-44ac-b164-519687b816b1.06621.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "annin/3.8/web-mobile/assets/annin/config.a96f3.json",
+      "path": "annin/3.8/web-mobile/assets/annin/import/42/4295e336-2963-4a45-bcf1-5cd6c43a397a.ea9c3.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "annin/3.8/web-mobile/assets/annin/config.a96f3.json",
+      "path": "annin/3.8/web-mobile/assets/annin/import/42/42e67dd6-4bf7-4819-b6f4-093b37afa7c3.270af.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "annin/3.8/web-mobile/assets/annin/config.a96f3.json",
+      "path": "annin/3.8/web-mobile/assets/annin/import/46/463cfefc-9e39-4d9b-afcc-e63a0d04fae8.f202d.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "annin/3.8/web-mobile/assets/annin/config.a96f3.json",
+      "path": "annin/3.8/web-mobile/assets/annin/import/46/465ec35f-533c-4626-947a-7aa1ac254b29.1ab61.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "annin/3.8/web-mobile/assets/annin/config.a96f3.json",
+      "path": "annin/3.8/web-mobile/assets/annin/import/49/4947505f-429b-4881-82de-21e00432d69a.9ce73.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "annin/3.8/web-mobile/assets/annin/config.a96f3.json",
+      "path": "annin/3.8/web-mobile/assets/annin/import/4e/4ea7bb23-9258-42fb-9202-48060943d51e.196a1.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "annin/3.8/web-mobile/assets/annin/config.a96f3.json",
+      "path": "annin/3.8/web-mobile/assets/annin/import/50/5054a4aa-8e6a-4262-afe4-d28b7eac31ee.35971.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "annin/3.8/web-mobile/assets/annin/config.a96f3.json",
+      "path": "annin/3.8/web-mobile/assets/annin/import/50/507bbf1a-4986-4815-9335-015746cf5b80.c07c9.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "annin/3.8/web-mobile/assets/annin/config.a96f3.json",
+      "path": "annin/3.8/web-mobile/assets/annin/import/51/51083949-319c-497f-8ca3-92b73d7eb301.ebf60.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "annin/3.8/web-mobile/assets/annin/config.a96f3.json",
+      "path": "annin/3.8/web-mobile/assets/annin/import/51/515223f4-5595-4217-89d3-889a17abba45.2d5cc.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "annin/3.8/web-mobile/assets/annin/config.a96f3.json",
+      "path": "annin/3.8/web-mobile/assets/annin/import/53/53dc740d-08a6-4e61-9e89-2ba1eb3f353f.8dfc9.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "annin/3.8/web-mobile/assets/annin/config.a96f3.json",
+      "path": "annin/3.8/web-mobile/assets/annin/import/53/53e2bff3-cce4-441a-8c15-197f64516963.ca915.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "annin/3.8/web-mobile/assets/annin/config.a96f3.json",
+      "path": "annin/3.8/web-mobile/assets/annin/import/56/56dcf426-7c02-4194-a05f-b6977902dae8.1b2c0.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "annin/3.8/web-mobile/assets/annin/config.a96f3.json",
+      "path": "annin/3.8/web-mobile/assets/annin/import/60/6029c8ec-b3c0-46c8-9430-439065d04257.d9a93.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "annin/3.8/web-mobile/assets/annin/config.a96f3.json",
+      "path": "annin/3.8/web-mobile/assets/annin/import/69/69c41bff-3814-4a47-9851-ffa3ca5b00fe.c2868.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "annin/3.8/web-mobile/assets/annin/config.a96f3.json",
+      "path": "annin/3.8/web-mobile/assets/annin/import/6b/6bae039e-5b17-42a5-b125-f1f3336feb28.c7a3f.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "annin/3.8/web-mobile/assets/annin/config.a96f3.json",
+      "path": "annin/3.8/web-mobile/assets/annin/import/6c/6c286577-f0d6-4edc-bcb9-f0f2c74408b7.01f7f.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "annin/3.8/web-mobile/assets/annin/config.a96f3.json",
+      "path": "annin/3.8/web-mobile/assets/annin/import/6c/6c62a132-38ab-4d98-8e54-0c5c041b0b67.ef833.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "annin/3.8/web-mobile/assets/annin/config.a96f3.json",
+      "path": "annin/3.8/web-mobile/assets/annin/import/6c/6c646f0e-e83f-45c9-ab7a-06e7f44b0b65.5c4f6.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "annin/3.8/web-mobile/assets/annin/config.a96f3.json",
+      "path": "annin/3.8/web-mobile/assets/annin/import/6e/6e1718a1-ece7-429d-b789-b310ff28f5d6.16ca9.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "annin/3.8/web-mobile/assets/annin/config.a96f3.json",
+      "path": "annin/3.8/web-mobile/assets/annin/import/73/7361968e-69be-4d37-8003-d284cb622bba.85b35.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "annin/3.8/web-mobile/assets/annin/config.a96f3.json",
+      "path": "annin/3.8/web-mobile/assets/annin/import/76/760dc334-2a6d-43e9-a0c0-fa9d17e98194.cb1c0.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "annin/3.8/web-mobile/assets/annin/config.a96f3.json",
+      "path": "annin/3.8/web-mobile/assets/annin/import/76/76fafd48-3dbb-4965-a808-5ee823c1dbc8.94921.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "annin/3.8/web-mobile/assets/annin/config.a96f3.json",
+      "path": "annin/3.8/web-mobile/assets/annin/import/78/78a73447-2f0b-4db5-873b-3bdaa6044dbb.9bc84.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "annin/3.8/web-mobile/assets/annin/config.a96f3.json",
+      "path": "annin/3.8/web-mobile/assets/annin/import/8b/8b339377-1eb9-4d55-8d55-17ba87e2d396.122eb.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "annin/3.8/web-mobile/assets/annin/config.a96f3.json",
+      "path": "annin/3.8/web-mobile/assets/annin/import/97/9790a05b-ce9e-418b-aa96-822dd970e184.f6ec2.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "annin/3.8/web-mobile/assets/annin/config.a96f3.json",
+      "path": "annin/3.8/web-mobile/assets/annin/import/98/98f06f50-3cf8-491e-9759-a76b662b26fd.983a2.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "annin/3.8/web-mobile/assets/annin/config.a96f3.json",
+      "path": "annin/3.8/web-mobile/assets/annin/import/9a/9a8bb181-ffe1-4e88-abb9-419573588812.bf331.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "annin/3.8/web-mobile/assets/annin/config.a96f3.json",
+      "path": "annin/3.8/web-mobile/assets/annin/import/9b/9bb9e381-0112-4202-8fd3-51c6017797a7.aa1dc.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "annin/3.8/web-mobile/assets/annin/config.a96f3.json",
+      "path": "annin/3.8/web-mobile/assets/annin/import/a0/a04ff936-3aab-4d3f-ab98-8e86d7cbe0c8.639c5.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "annin/3.8/web-mobile/assets/annin/config.a96f3.json",
+      "path": "annin/3.8/web-mobile/assets/annin/import/a3/a38cc3c9-3249-4e51-a5a2-c2e185c9adbf.6889c.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "annin/3.8/web-mobile/assets/annin/config.a96f3.json",
+      "path": "annin/3.8/web-mobile/assets/annin/import/a8/a85a4329-db0c-41c4-8b90-f8db018388a9.02e2f.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "annin/3.8/web-mobile/assets/annin/config.a96f3.json",
+      "path": "annin/3.8/web-mobile/assets/annin/import/a8/a8f75613-fff7-4e3a-b0b1-af425fc843df.eb37b.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "annin/3.8/web-mobile/assets/annin/config.a96f3.json",
+      "path": "annin/3.8/web-mobile/assets/annin/import/aa/aa17989a-2a6e-4372-96f7-623848f4761b.dfaa5.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "annin/3.8/web-mobile/assets/annin/config.a96f3.json",
+      "path": "annin/3.8/web-mobile/assets/annin/import/ae/ae8129bc-190f-4873-8830-21e8d1c081bc.79cbe.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "annin/3.8/web-mobile/assets/annin/config.a96f3.json",
+      "path": "annin/3.8/web-mobile/assets/annin/import/b2/b215c874-15c0-493e-b9f3-b01874b25d53.b89ec.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "annin/3.8/web-mobile/assets/annin/config.a96f3.json",
+      "path": "annin/3.8/web-mobile/assets/annin/import/b4/b4d9127d-3b1a-46c9-92a8-d97a5f8ca3e7.b7db6.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "annin/3.8/web-mobile/assets/annin/config.a96f3.json",
+      "path": "annin/3.8/web-mobile/assets/annin/import/b6/b66c8f54-6d53-45d5-b4ee-a7cafffbd769.60b2b.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "annin/3.8/web-mobile/assets/annin/config.a96f3.json",
+      "path": "annin/3.8/web-mobile/assets/annin/import/b6/b68172e6-2bba-437e-a4e4-b2cd18139c21.fba09.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "annin/3.8/web-mobile/assets/annin/config.a96f3.json",
+      "path": "annin/3.8/web-mobile/assets/annin/import/bb/bba42d79-9ea5-4003-b5c7-518b506b8f6b.9fd48.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "annin/3.8/web-mobile/assets/annin/config.a96f3.json",
+      "path": "annin/3.8/web-mobile/assets/annin/import/c5/c56dfb29-58d4-4fb4-8566-1955fec480ca.7b7d4.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "annin/3.8/web-mobile/assets/annin/config.a96f3.json",
+      "path": "annin/3.8/web-mobile/assets/annin/import/cb/cb918295-11dc-4a34-807c-f9d903c84b94.3a00c.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "annin/3.8/web-mobile/assets/annin/config.a96f3.json",
+      "path": "annin/3.8/web-mobile/assets/annin/import/cc/ccefc3d4-5bce-4d13-85b1-65a6be6c7e02.18f45.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "annin/3.8/web-mobile/assets/annin/config.a96f3.json",
+      "path": "annin/3.8/web-mobile/assets/annin/import/d0/d0375215-beef-4b25-9c90-498d9d7da1a2.26b10.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "annin/3.8/web-mobile/assets/annin/config.a96f3.json",
+      "path": "annin/3.8/web-mobile/assets/annin/import/d4/d4f3a446-ee73-4f6d-91cd-5395e3327320.14189.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "annin/3.8/web-mobile/assets/annin/config.a96f3.json",
+      "path": "annin/3.8/web-mobile/assets/annin/import/d8/d848a0a1-bc7b-44f1-9433-721ae64f26c1.ae834.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "annin/3.8/web-mobile/assets/annin/config.a96f3.json",
+      "path": "annin/3.8/web-mobile/assets/annin/import/db/db5dcf78-90cb-477e-bc84-11c0b803979f.e3a96.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "annin/3.8/web-mobile/assets/annin/config.a96f3.json",
+      "path": "annin/3.8/web-mobile/assets/annin/import/dd/dd536991-76ad-4704-ae6a-d39076848d54.14c2c.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "annin/3.8/web-mobile/assets/annin/config.a96f3.json",
+      "path": "annin/3.8/web-mobile/assets/annin/import/dd/ddaeaf6f-0909-4050-8826-e56343a7eae6.ac3ec.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "annin/3.8/web-mobile/assets/annin/config.a96f3.json",
+      "path": "annin/3.8/web-mobile/assets/annin/import/e0/e09664b5-5350-4d3a-97e2-25f299af2286.96f9e.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "annin/3.8/web-mobile/assets/annin/config.a96f3.json",
+      "path": "annin/3.8/web-mobile/assets/annin/import/e5/e5329920-52dd-4809-b4a3-14474083fad0.8ece1.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "annin/3.8/web-mobile/assets/annin/config.a96f3.json",
+      "path": "annin/3.8/web-mobile/assets/annin/import/e6/e6bb8fdc-67d1-4b08-b3ff-8ff770ed9cc1.28036.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "annin/3.8/web-mobile/assets/annin/config.a96f3.json",
+      "path": "annin/3.8/web-mobile/assets/annin/import/e8/e863a40b-d769-4888-8c0c-553569893b1c.aa97d.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "annin/3.8/web-mobile/assets/annin/config.a96f3.json",
+      "path": "annin/3.8/web-mobile/assets/annin/import/ec/ecab6fd5-d322-4028-8229-e99078e16f99.d97ac.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "annin/3.8/web-mobile/assets/annin/config.a96f3.json",
+      "path": "annin/3.8/web-mobile/assets/annin/import/ee/ee2657d9-8d4c-45a2-bc77-e86c4d1017a5.9a2de.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "annin/3.8/web-mobile/assets/annin/config.a96f3.json",
+      "path": "annin/3.8/web-mobile/assets/annin/import/f3/f362ac9c-1867-4065-ae70-7c685689c9c7.d1c5c.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "annin/3.8/web-mobile/assets/annin/config.a96f3.json",
+      "path": "annin/3.8/web-mobile/assets/annin/import/f4/f4fc06da-2920-4ac9-a70d-f0446ce6f2d3.d5fee.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "annin/3.8/web-mobile/assets/annin/config.a96f3.json",
+      "path": "annin/3.8/web-mobile/assets/annin/import/f7/f78694cf-99ca-4b9d-98ff-5ac9432ffdd1.7e05c.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "annin/3.8/web-mobile/assets/annin/config.a96f3.json",
+      "path": "annin/3.8/web-mobile/assets/annin/import/f9/f9facf50-b790-4715-8a48-5988e4e23e99.32755.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "annin/3.8/web-mobile/assets/annin/config.a96f3.json",
+      "path": "annin/3.8/web-mobile/assets/annin/import/fb/fbd0a1a9-5588-4ed5-93e8-911c556e9702.62c06.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "annin/3.8/web-mobile/assets/annin/config.a96f3.json",
+      "path": "annin/3.8/web-mobile/assets/annin/import/fd/fd14e7ee-581c-42e0-b17a-a7e65e95b56a.e8ca1.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "annin/3.8/web-mobile/assets/annin_loading/config.ba875.json",
+      "path": "annin/3.8/web-mobile/assets/annin_loading/import/1d/1d9f6a88-f53a-4dac-8243-7600fd8ffe08.7da7f.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "annin/3.8/web-mobile/assets/annin_loading/config.ba875.json",
+      "path": "annin/3.8/web-mobile/assets/annin_loading/import/41/41606b77-dad6-44ac-b164-519687b816b1.06621.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "annin/3.8/web-mobile/assets/annin_loading/config.ba875.json",
+      "path": "annin/3.8/web-mobile/assets/annin_loading/import/6c/6c286577-f0d6-4edc-bcb9-f0f2c74408b7.01f7f.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "annin/3.8/web-mobile/assets/annin_loading/config.ba875.json",
+      "path": "annin/3.8/web-mobile/assets/annin_loading/import/6e/6e1718a1-ece7-429d-b789-b310ff28f5d6.16ca9.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "annin/3.8/web-mobile/assets/annin_loading/config.ba875.json",
+      "path": "annin/3.8/web-mobile/assets/annin_loading/import/93/93c3326b-d299-4d2a-a1bb-ad63553b78d3.54f21.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "annin/3.8/web-mobile/assets/annin_loading/config.ba875.json",
+      "path": "annin/3.8/web-mobile/assets/annin_loading/import/a5/a5003730-1ed9-4404-8d86-ecc54af157df.89dfb.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "annin/3.8/web-mobile/assets/annin_loading/config.ba875.json",
+      "path": "annin/3.8/web-mobile/assets/annin_loading/import/c4/c4fae0dc-ed5d-4ae7-9435-4fc226a1b1f6.259f7.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "annin/3.8/web-mobile/assets/annin_loading/config.ba875.json",
+      "path": "annin/3.8/web-mobile/assets/annin_loading/import/f7/f78694cf-99ca-4b9d-98ff-5ac9432ffdd1.7e05c.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "aviator/assets/Game224/config.95fb8.json",
+      "path": "aviator/assets/Game224/import/06/06771545-a926-4785-937b-aa65a17dcebe.23a5b.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "aviator/assets/Game224/config.95fb8.json",
+      "path": "aviator/assets/Game224/import/06/06832f28-e721-4afd-96e2-04fcb5f1e9bb.168ab.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "aviator/assets/Game224/config.95fb8.json",
+      "path": "aviator/assets/Game224/import/0a/0afe6912-98fe-4153-8e00-1129fc672693.4db28.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "aviator/assets/Game224/config.95fb8.json",
+      "path": "aviator/assets/Game224/import/11/113f6f9c-2d38-4322-88a7-5535b74757e9.606ec.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "aviator/assets/Game224/config.95fb8.json",
+      "path": "aviator/assets/Game224/import/11/11b3dcee-af9d-495e-9a66-09ae9534f05d.6d785.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "aviator/assets/Game224/config.95fb8.json",
+      "path": "aviator/assets/Game224/import/12/12b8a5d4-299d-46a0-9789-5d1893d12c92.eb4c9.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "aviator/assets/Game224/config.95fb8.json",
+      "path": "aviator/assets/Game224/import/19/191b82db-2c2d-4029-9a54-748dcaa54e67.49000.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "aviator/assets/Game224/config.95fb8.json",
+      "path": "aviator/assets/Game224/import/1b/1b3e1549-8c26-4bfc-8f17-e717a098d0b3.5b470.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "aviator/assets/Game224/config.95fb8.json",
+      "path": "aviator/assets/Game224/import/1d/1d446f4a-8d3a-4379-b41c-bf20f9360422.d67e4.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "aviator/assets/Game224/config.95fb8.json",
+      "path": "aviator/assets/Game224/import/22/226e8a45-f5bd-4ef4-bdd9-8d04ac38892b.d8401.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "aviator/assets/Game224/config.95fb8.json",
+      "path": "aviator/assets/Game224/import/28/289ab9b2-2780-431d-8eae-5e11165e8f27.3cabb.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "aviator/assets/Game224/config.95fb8.json",
+      "path": "aviator/assets/Game224/import/29/29f4bc8d-6dae-4932-ace9-e88890ce20ad.7ee44.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "aviator/assets/Game224/config.95fb8.json",
+      "path": "aviator/assets/Game224/import/2c/2cedd647-a0e7-40d2-99f2-67dc8ca43dfc.19003.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "aviator/assets/Game224/config.95fb8.json",
+      "path": "aviator/assets/Game224/import/2d/2d20803e-43b0-4a7a-8a36-a3a15f01b0dd.011a8.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "aviator/assets/Game224/config.95fb8.json",
+      "path": "aviator/assets/Game224/import/2f/2fdf4d16-fa81-4acb-8ec5-d77c54ddb8c3.7b527.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "aviator/assets/Game224/config.95fb8.json",
+      "path": "aviator/assets/Game224/import/30/305d3063-6a39-4ab7-8eef-f599c47dd9dd.b74fb.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "aviator/assets/Game224/config.95fb8.json",
+      "path": "aviator/assets/Game224/import/32/323091cd-04c7-4227-b34a-7af63e1d5b02.d2402.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "aviator/assets/Game224/config.95fb8.json",
+      "path": "aviator/assets/Game224/import/3f/3f08fda7-4dd7-4f65-a507-6d7ea0ff26cf.bc228.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "aviator/assets/Game224/config.95fb8.json",
+      "path": "aviator/assets/Game224/import/4d/4d329287-3260-49d7-a52e-573cef88bc61.0aee7.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "aviator/assets/Game224/config.95fb8.json",
+      "path": "aviator/assets/Game224/import/4f/4f1154fa-006d-4d46-9c19-5b21c016ed86.983a2.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "aviator/assets/Game224/config.95fb8.json",
+      "path": "aviator/assets/Game224/import/54/54e08c55-4315-4da2-b62a-a9632ce442a5.f0c93.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "aviator/assets/Game224/config.95fb8.json",
+      "path": "aviator/assets/Game224/import/58/58035ea8-d41c-4522-a31e-0299f6d867b5.87628.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "aviator/assets/Game224/config.95fb8.json",
+      "path": "aviator/assets/Game224/import/5b/5b98b49f-ef66-45e4-bae4-df455cb20620.d67e4.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "aviator/assets/Game224/config.95fb8.json",
+      "path": "aviator/assets/Game224/import/5d/5d5ac6a2-3874-4d26-baa4-ab059379020d.79a06.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "aviator/assets/Game224/config.95fb8.json",
+      "path": "aviator/assets/Game224/import/5d/5da8a106-0832-410f-b4b4-2172588c2284.00755.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "aviator/assets/Game224/config.95fb8.json",
+      "path": "aviator/assets/Game224/import/60/60175f61-41da-41bc-b591-95b4318bb1b8.430d1.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "aviator/assets/Game224/config.95fb8.json",
+      "path": "aviator/assets/Game224/import/69/696675b5-8066-4cc6-bd29-10790e89b0d6.afbbb.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "aviator/assets/Game224/config.95fb8.json",
+      "path": "aviator/assets/Game224/import/6b/6b4407f7-ad93-4241-b34d-969d22b45734.89e45.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "aviator/assets/Game224/config.95fb8.json",
+      "path": "aviator/assets/Game224/import/6d/6dd7c4b4-a917-49ea-b0dc-d7c81b29360d.48215.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "aviator/assets/Game224/config.95fb8.json",
+      "path": "aviator/assets/Game224/import/73/7398da0d-8f73-461c-89c6-16bf79aa718d.ace29.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "aviator/assets/Game224/config.95fb8.json",
+      "path": "aviator/assets/Game224/import/76/76ffa1f0-fb80-46ac-aae1-66b45491fc7b.0d376.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "aviator/assets/Game224/config.95fb8.json",
+      "path": "aviator/assets/Game224/import/84/84910c7a-30da-4a0d-a2f2-11c35b5c5b74.94be7.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "aviator/assets/Game224/config.95fb8.json",
+      "path": "aviator/assets/Game224/import/87/876f2bae-a620-45d5-8dda-3ae664193bf4.a63c3.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "aviator/assets/Game224/config.95fb8.json",
+      "path": "aviator/assets/Game224/import/89/89b9382f-cb5c-4006-ab35-d0f905f917a1.8f667.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "aviator/assets/Game224/config.95fb8.json",
+      "path": "aviator/assets/Game224/import/8e/8ed043e0-79ab-484c-9a4d-6d8e74f8f442.347bf.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "aviator/assets/Game224/config.95fb8.json",
+      "path": "aviator/assets/Game224/import/8f/8faf0a63-ed8d-48a7-b951-e5fd30c39844.373e3.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "aviator/assets/Game224/config.95fb8.json",
+      "path": "aviator/assets/Game224/import/92/92212e7b-f610-4b16-88c4-756f72a1b32e.17d67.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "aviator/assets/Game224/config.95fb8.json",
+      "path": "aviator/assets/Game224/import/95/95b2804a-c20d-484c-a58b-4bb8f2772b0f.8de8d.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "aviator/assets/Game224/config.95fb8.json",
+      "path": "aviator/assets/Game224/import/9b/9b770e6d-d529-4146-8a8e-72e97a938ef9.e1bdd.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "aviator/assets/Game224/config.95fb8.json",
+      "path": "aviator/assets/Game224/import/9f/9fac948d-8e69-4c33-8d80-92e6b5bc755a.66b1e.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "aviator/assets/Game224/config.95fb8.json",
+      "path": "aviator/assets/Game224/import/a2/a24abb24-3d63-4b53-9415-f7299988e719.35d27.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "aviator/assets/Game224/config.95fb8.json",
+      "path": "aviator/assets/Game224/import/a5/a5db5f17-3b07-441c-b9c6-be0dad263b2b.4618b.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "aviator/assets/Game224/config.95fb8.json",
+      "path": "aviator/assets/Game224/import/ab/abf4341d-4aaf-4afb-a5cc-4b904c555be7.534e3.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "aviator/assets/Game224/config.95fb8.json",
+      "path": "aviator/assets/Game224/import/af/afdf8738-383d-405f-a3e8-590b6bd51d09.a7a09.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "aviator/assets/Game224/config.95fb8.json",
+      "path": "aviator/assets/Game224/import/af/afe746e3-c12e-4ed8-b59c-658b099510fb.9b8b6.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "aviator/assets/Game224/config.95fb8.json",
+      "path": "aviator/assets/Game224/import/b2/b2cabe4b-20fb-462a-898b-f21956f5e9b2.555a6.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "aviator/assets/Game224/config.95fb8.json",
+      "path": "aviator/assets/Game224/import/bf/bf8bd859-3ddb-40e9-840a-aa82969ea272.51be5.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "aviator/assets/Game224/config.95fb8.json",
+      "path": "aviator/assets/Game224/import/c0/c0dd65c3-8b8b-4373-bb7d-8aa1c80eb45b.cc277.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "aviator/assets/Game224/config.95fb8.json",
+      "path": "aviator/assets/Game224/import/c5/c5d248e6-a810-4e13-8ac6-5eeee09890d8.5ac98.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "aviator/assets/Game224/config.95fb8.json",
+      "path": "aviator/assets/Game224/import/c5/c5dcbf9b-a1b3-4573-ad46-04de9f6f85d9.8ef50.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "aviator/assets/Game224/config.95fb8.json",
+      "path": "aviator/assets/Game224/import/c7/c7a84bc3-2eeb-4b01-a740-f8ea392c671f.ff4b6.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "aviator/assets/Game224/config.95fb8.json",
+      "path": "aviator/assets/Game224/import/cc/cc6f7f51-89c5-4864-a9ab-ae9c8c2ebe30.58ec2.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "aviator/assets/Game224/config.95fb8.json",
+      "path": "aviator/assets/Game224/import/cd/cd216bd1-e64d-4d66-aa22-e1f24cc0aa53.29e1f.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "aviator/assets/Game224/config.95fb8.json",
+      "path": "aviator/assets/Game224/import/cd/cd853409-b95e-4b28-8845-22f2de7f1486.40baa.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "aviator/assets/Game224/config.95fb8.json",
+      "path": "aviator/assets/Game224/import/d0/d0573d2f-4068-42ea-ba71-82b8cf9cf9e0.ac14b.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "aviator/assets/Game224/config.95fb8.json",
+      "path": "aviator/assets/Game224/import/d1/d1c024fd-9edb-448d-a4a8-699abfbdedbe.66b1e.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "aviator/assets/Game224/config.95fb8.json",
+      "path": "aviator/assets/Game224/import/db/db323d5c-6b86-4d49-9aa8-81662057a890.dc3af.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "aviator/assets/Game224/config.95fb8.json",
+      "path": "aviator/assets/Game224/import/e7/e77e88ad-4c5b-4c83-97a8-2ef5e51a2ea4.7e89e.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "aviator/assets/Game224/config.95fb8.json",
+      "path": "aviator/assets/Game224/import/e8/e8a21582-640f-49ab-9318-bb4e508f9291.895f7.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "aviator/assets/Game224/config.95fb8.json",
+      "path": "aviator/assets/Game224/import/f0/f071f9d9-fcf9-44a3-b568-2b760f89c3ce.b0cee.cconb",
+      "reason": "binary import metadata not decoded"
+    },
+    {
+      "config": "aviator/assets/Game224/config.95fb8.json",
+      "path": "aviator/assets/Game224/import/f4/f4f0f510-797b-4c2f-8831-e037e01d7328.60c08.cconb",
+      "reason": "binary import metadata not decoded"
+    }
+  ],
+  "complete_acceptance_passed": false
+}

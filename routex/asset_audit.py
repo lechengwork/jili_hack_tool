@@ -159,6 +159,9 @@ def audit(root, check_http=False, base_url=None, ca_file=None):
             directory = folder / config.get('nativeBase', 'native') / uuid[:2]
             prefix = uuid + '.' + version
             matches = [p for p in inventory[directory] if p.name.startswith(prefix + '.')]
+            # Cocos native names without a leading dot (notably fonts) are
+            # stored under <uuid>.<version>/<original filename>.
+            matches += inventory[directory / prefix]
             row = {'config': cfg_rel, 'bundle': folder.relative_to(root).as_posix(), 'selection': selected,
                    'kind': 'native', 'uuid': uuid, 'version': version, 'type': typ, 'name': name,
                    'expected_prefix': (directory / prefix).relative_to(root).as_posix(),

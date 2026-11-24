@@ -1,0 +1,265 @@
+
+Bigwin.png
+size: 1763,1763
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1f_star_6
+  rotate: true
+  xy: 1352, 59
+  size: 128, 86
+  orig: 128, 128
+  offset: 0, 21
+  index: -1
+1f_star_7
+  rotate: true
+  xy: 1576, 188
+  size: 130, 128
+  orig: 200, 200
+  offset: 34, 37
+  index: -1
+BG_Black_Color
+  rotate: false
+  xy: 1576, 86
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+Coin/Coin_01
+  rotate: false
+  xy: 1362, 805
+  size: 151, 171
+  orig: 180, 180
+  offset: 17, 9
+  index: -1
+Coin/Coin_02
+  rotate: false
+  xy: 1548, 652
+  size: 136, 152
+  orig: 180, 180
+  offset: 27, 18
+  index: -1
+Coin/Coin_03
+  rotate: false
+  xy: 1548, 496
+  size: 113, 154
+  orig: 180, 180
+  offset: 37, 15
+  index: -1
+Coin/Coin_04
+  rotate: false
+  xy: 1576, 320
+  size: 92, 174
+  orig: 180, 180
+  offset: 46, 5
+  index: -1
+Coin/Coin_05
+  rotate: true
+  xy: 580, 25
+  size: 71, 178
+  orig: 180, 180
+  offset: 56, 2
+  index: -1
+Coin/Coin_06
+  rotate: true
+  xy: 1515, 806
+  size: 98, 171
+  orig: 180, 180
+  offset: 43, 9
+  index: -1
+Coin/Coin_07
+  rotate: false
+  xy: 1456, 178
+  size: 118, 165
+  orig: 180, 180
+  offset: 33, 13
+  index: -1
+Coin/Coin_08
+  rotate: false
+  xy: 1229, 785
+  size: 131, 159
+  orig: 180, 180
+  offset: 26, 16
+  index: -1
+Coin/Coin_09
+  rotate: true
+  xy: 1274, 189
+  size: 154, 180
+  orig: 180, 180
+  offset: 16, 0
+  index: -1
+Exp_Light
+  rotate: false
+  xy: 1515, 906
+  size: 208, 121
+  orig: 218, 128
+  offset: 5, 3
+  index: -1
+Fx_round_add
+  rotate: false
+  xy: 1040, 176
+  size: 232, 232
+  orig: 232, 232
+  offset: 0, 0
+  index: -1
+Fx_wave_add
+  rotate: false
+  xy: 1508, 1029
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+Light_02
+  rotate: false
+  xy: 1440, 48
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+Light_07
+  rotate: true
+  xy: 1, 82
+  size: 777, 577
+  orig: 778, 577
+  offset: 1, 0
+  index: -1
+Light_08
+  rotate: false
+  xy: 1, 861
+  size: 637, 901
+  orig: 639, 903
+  offset: 1, 1
+  index: -1
+PP_Win03
+  rotate: false
+  xy: 760, 12
+  size: 84, 84
+  orig: 90, 90
+  offset: 3, 4
+  index: -1
+Point1
+  rotate: false
+  xy: 1508, 1283
+  size: 24, 28
+  orig: 24, 28
+  offset: 0, 0
+  index: -1
+Point2
+  rotate: false
+  xy: 1691, 1333
+  size: 31, 31
+  orig: 31, 31
+  offset: 0, 0
+  index: -1
+Point3
+  rotate: true
+  xy: 1548, 474
+  size: 20, 19
+  orig: 20, 19
+  offset: 0, 0
+  index: -1
+WIN_txt_01_1
+  rotate: true
+  xy: 1131, 418
+  size: 354, 118
+  orig: 356, 118
+  offset: 0, 0
+  index: -1
+WIN_txt_01_2
+  rotate: false
+  xy: 1045, 53
+  size: 305, 121
+  orig: 306, 122
+  offset: 0, 1
+  index: -1
+WIN_txt_02_1
+  rotate: true
+  xy: 1545, 1281
+  size: 481, 144
+  orig: 483, 218
+  offset: 1, 74
+  index: -1
+WIN_txt_02_2
+  rotate: false
+  xy: 1274, 345
+  size: 300, 127
+  orig: 301, 128
+  offset: 1, 1
+  index: -1
+WIN_txt_03_1
+  rotate: false
+  xy: 640, 774
+  size: 587, 170
+  orig: 589, 170
+  offset: 1, 0
+  index: -1
+WIN_txt_03_2
+  rotate: true
+  xy: 1362, 978
+  size: 333, 144
+  orig: 334, 149
+  offset: 1, 1
+  index: -1
+light_01s
+  rotate: true
+  xy: 1691, 1366
+  size: 396, 71
+  orig: 484, 73
+  offset: 0, 1
+  index: -1
+light_03s
+  rotate: false
+  xy: 580, 98
+  size: 463, 69
+  orig: 484, 73
+  offset: 0, 2
+  index: -1
+light_05s
+  rotate: false
+  xy: 1, 10
+  size: 470, 70
+  orig: 483, 72
+  offset: 0, 1
+  index: -1
+lzes
+  rotate: false
+  xy: 1251, 474
+  size: 295, 309
+  orig: 350, 350
+  offset: 29, 9
+  index: -1
+s1_0
+  rotate: false
+  xy: 580, 821
+  size: 38, 38
+  orig: 38, 38
+  offset: 0, 0
+  index: -1
+special_effects3
+  rotate: false
+  xy: 580, 169
+  size: 458, 239
+  orig: 458, 239
+  offset: 0, 0
+  index: -1
+win_light1
+  rotate: false
+  xy: 640, 946
+  size: 720, 365
+  orig: 720, 365
+  offset: 0, 0
+  index: -1
+win_light2
+  rotate: false
+  xy: 640, 1313
+  size: 903, 449
+  orig: 903, 449
+  offset: 0, 0
+  index: -1
+win_light_New
+  rotate: false
+  xy: 580, 410
+  size: 549, 362
+  orig: 549, 362
+  offset: 0, 0
+  index: -1

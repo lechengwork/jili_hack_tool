@@ -54,6 +54,13 @@ class AssetAuditTests(unittest.TestCase):
         self.assertEqual(report['counts'].get('missing', 0), 0)
         self.assertEqual(report['declarations'][0]['kind'], 'import_pack')
 
+    def test_original_filename_native_directory_is_not_a_missing_font(self):
+        self.config(native=[0, 'aaaaa'])
+        self.file('demo/assets/game/native/ab/abc123def.aaaaa/Font.ttf', b'\x00\x01\x00\x00' + bytes(20))
+        report = audit(self.root)
+        self.assertEqual(report['counts'].get('missing', 0), 0)
+        self.assertEqual(report['declarations'][0]['files'][0]['status'], 'valid')
+
     def test_binary_pack_is_explicitly_uncovered(self):
         self.config(imports=[1, 'aaaaa'], packs={'pack00000': [0]})
         self.file('demo/assets/game/import/pa/pack00000.aaaaa.bin', b'original-binary')

@@ -1,0 +1,1303 @@
+{
+  "game_id": "545",
+  "date": "2026-11-24",
+  "scope": "All captured manifests, including optional/historical bundles; not every gap is proven reachable in the current game mode.",
+  "remaining_manifest_missing": 26,
+  "missing_or_invalid_declarations": [
+    {
+      "config": "cc3x3/assets/game/config.dd5af.json",
+      "bundle": "cc3x3/assets/game",
+      "selection": "unknown",
+      "kind": "native",
+      "uuid": "0032ae91-3077-435d-a6c5-fa00eaf0ccc8",
+      "version": "55f4a",
+      "type": "cc.ImageAsset",
+      "name": "Img/Intro/03_Frame_Glow_9",
+      "expected_prefix": "cc3x3/assets/game/native/00/0032ae91-3077-435d-a6c5-fa00eaf0ccc8.55f4a",
+      "files": [],
+      "status": "missing"
+    },
+    {
+      "config": "cc3x3/assets/game/config.dd5af.json",
+      "bundle": "cc3x3/assets/game",
+      "selection": "unknown",
+      "kind": "native",
+      "uuid": "003fd50c-0c48-43e0-8800-ef66b51a8901",
+      "version": "37c1e",
+      "type": "cc.ImageAsset",
+      "name": "Img/Intro/left_num_800",
+      "expected_prefix": "cc3x3/assets/game/native/00/003fd50c-0c48-43e0-8800-ef66b51a8901.37c1e",
+      "files": [],
+      "status": "missing"
+    },
+    {
+      "config": "cc3x3/assets/game/config.dd5af.json",
+      "bundle": "cc3x3/assets/game",
+      "selection": "unknown",
+      "kind": "native",
+      "uuid": "12be3cd0-ef39-4c96-a14c-8698a3b478d1",
+      "version": "48406",
+      "type": "cc.ImageAsset",
+      "name": "Img/Intro/left_symbol1",
+      "expected_prefix": "cc3x3/assets/game/native/12/12be3cd0-ef39-4c96-a14c-8698a3b478d1.48406",
+      "files": [],
+      "status": "missing"
+    },
+    {
+      "config": "cc3x3/assets/game/config.dd5af.json",
+      "bundle": "cc3x3/assets/game",
+      "selection": "unknown",
+      "kind": "native",
+      "uuid": "233f3f24-94e3-4502-a088-8b5f85906d16",
+      "version": "40c36",
+      "type": "cc.ImageAsset",
+      "name": "Img/Intro/left_num_500",
+      "expected_prefix": "cc3x3/assets/game/native/23/233f3f24-94e3-4502-a088-8b5f85906d16.40c36",
+      "files": [],
+      "status": "missing"
+    },
+    {
+      "config": "cc3x3/assets/game/config.dd5af.json",
+      "bundle": "cc3x3/assets/game",
+      "selection": "unknown",
+      "kind": "native",
+      "uuid": "26be91d4-83c7-451f-bf99-6201017e53bd",
+      "version": "f3066",
+      "type": "cc.ImageAsset",
+      "name": "Img/Intro/left_num_3300",
+      "expected_prefix": "cc3x3/assets/game/native/26/26be91d4-83c7-451f-bf99-6201017e53bd.f3066",
+      "files": [],
+      "status": "missing"
+    },
+    {
+      "config": "cc3x3/assets/game/config.dd5af.json",
+      "bundle": "cc3x3/assets/game",
+      "selection": "unknown",
+      "kind": "native",
+      "uuid": "31b5c156-32ab-4316-8151-6b56c4206566",
+      "version": "4f102",
+      "type": "cc.ImageAsset",
+      "name": "Img/Intro/right_bg",
+      "expected_prefix": "cc3x3/assets/game/native/31/31b5c156-32ab-4316-8151-6b56c4206566.4f102",
+      "files": [],
+      "status": "missing"
+    },
+    {
+      "config": "cc3x3/assets/game/config.dd5af.json",
+      "bundle": "cc3x3/assets/game",
+      "selection": "unknown",
+      "kind": "native",
+      "uuid": "4899238c-14a1-4141-94fc-871d2c38524c",
+      "version": "2bc31",
+      "type": "cc.ImageAsset",
+      "name": "Img/Intro/right_grand",
+      "expected_prefix": "cc3x3/assets/game/native/48/4899238c-14a1-4141-94fc-871d2c38524c.2bc31",
+      "files": [],
+      "status": "missing"
+    },
+    {
+      "config": "cc3x3/assets/game/config.dd5af.json",
+      "bundle": "cc3x3/assets/game",
+      "selection": "unknown",
+      "kind": "native",
+      "uuid": "5339ef82-b0c0-4803-8b01-8156e6c3eaf8",
+      "version": "0a97d",
+      "type": "cc.ImageAsset",
+      "name": "Img/Intro/left_num_400",
+      "expected_prefix": "cc3x3/assets/game/native/53/5339ef82-b0c0-4803-8b01-8156e6c3eaf8.0a97d",
+      "files": [],
+      "status": "missing"
+    },
+    {
+      "config": "cc3x3/assets/game/config.dd5af.json",
+      "bundle": "cc3x3/assets/game",
+      "selection": "unknown",
+      "kind": "native",
+      "uuid": "587b2d42-5411-4694-a3ae-95bad052cebf",
+      "version": "f0f8b",
+      "type": "cc.ImageAsset",
+      "name": "Img/Intro/left_symbol1_light",
+      "expected_prefix": "cc3x3/assets/game/native/58/587b2d42-5411-4694-a3ae-95bad052cebf.f0f8b",
+      "files": [],
+      "status": "missing"
+    },
+    {
+      "config": "cc3x3/assets/game/config.dd5af.json",
+      "bundle": "cc3x3/assets/game",
+      "selection": "unknown",
+      "kind": "native",
+      "uuid": "5a798788-99ae-42d7-9b5a-86f3d038fd5b",
+      "version": "0baba",
+      "type": "cc.ImageAsset",
+      "name": "Img/Intro/Intro_Feature_LT_02",
+      "expected_prefix": "cc3x3/assets/game/native/5a/5a798788-99ae-42d7-9b5a-86f3d038fd5b.0baba",
+      "files": [],
+      "status": "missing"
+    },
+    {
+      "config": "cc3x3/assets/game/config.dd5af.json",
+      "bundle": "cc3x3/assets/game",
+      "selection": "unknown",
+      "kind": "native",
+      "uuid": "65dcb97c-94f6-40c2-bc73-f38f0e72c117",
+      "version": "037cd",
+      "type": "cc.ImageAsset",
+      "name": "Img/Intro/left_bg",
+      "expected_prefix": "cc3x3/assets/game/native/65/65dcb97c-94f6-40c2-bc73-f38f0e72c117.037cd",
+      "files": [],
+      "status": "missing"
+    },
+    {
+      "config": "cc3x3/assets/game/config.dd5af.json",
+      "bundle": "cc3x3/assets/game",
+      "selection": "unknown",
+      "kind": "native",
+      "uuid": "7e2a7a9b-0d43-4eab-985a-3c592e6ad736",
+      "version": "86011",
+      "type": "cc.ImageAsset",
+      "name": "Img/Intro/left_num_900",
+      "expected_prefix": "cc3x3/assets/game/native/7e/7e2a7a9b-0d43-4eab-985a-3c592e6ad736.86011",
+      "files": [],
+      "status": "missing"
+    },
+    {
+      "config": "cc3x3/assets/game/config.dd5af.json",
+      "bundle": "cc3x3/assets/game",
+      "selection": "unknown",
+      "kind": "native",
+      "uuid": "8c7bfcaf-d662-4985-8733-3f084af9a20b",
+      "version": "55e7d",
+      "type": "cc.ImageAsset",
+      "name": "Img/Intro/left_bg_light",
+      "expected_prefix": "cc3x3/assets/game/native/8c/8c7bfcaf-d662-4985-8733-3f084af9a20b.55e7d",
+      "files": [],
+      "status": "missing"
+    },
+    {
+      "config": "cc3x3/assets/game/config.dd5af.json",
+      "bundle": "cc3x3/assets/game",
+      "selection": "unknown",
+      "kind": "native",
+      "uuid": "90ac74da-e707-436c-8f3f-81741dd03390",
+      "version": "cb8c7",
+      "type": "cc.ImageAsset",
+      "name": "Img/Intro/Intro_Feature_LT_03",
+      "expected_prefix": "cc3x3/assets/game/native/90/90ac74da-e707-436c-8f3f-81741dd03390.cb8c7",
+      "files": [],
+      "status": "missing"
+    },
+    {
+      "config": "cc3x3/assets/game/config.dd5af.json",
+      "bundle": "cc3x3/assets/game",
+      "selection": "unknown",
+      "kind": "native",
+      "uuid": "989b65c2-4c28-4ea8-bb19-04d22da1df79",
+      "version": "9013b",
+      "type": "cc.ImageAsset",
+      "name": "Img/Intro/left_cion2",
+      "expected_prefix": "cc3x3/assets/game/native/98/989b65c2-4c28-4ea8-bb19-04d22da1df79.9013b",
+      "files": [],
+      "status": "missing"
+    },
+    {
+      "config": "cc3x3/assets/game/config.dd5af.json",
+      "bundle": "cc3x3/assets/game",
+      "selection": "unknown",
+      "kind": "native",
+      "uuid": "9ae60b3d-447f-4d0e-9cab-d6f9c07d9634",
+      "version": "72659",
+      "type": "cc.ImageAsset",
+      "name": "Img/Intro/left_num_700",
+      "expected_prefix": "cc3x3/assets/game/native/9a/9ae60b3d-447f-4d0e-9cab-d6f9c07d9634.72659",
+      "files": [],
+      "status": "missing"
+    },
+    {
+      "config": "cc3x3/assets/game/config.dd5af.json",
+      "bundle": "cc3x3/assets/game",
+      "selection": "unknown",
+      "kind": "native",
+      "uuid": "a367b40d-ef8d-4902-997e-58ca5bc13e9d",
+      "version": "02006",
+      "type": "cc.ImageAsset",
+      "name": "Img/Intro/left_major",
+      "expected_prefix": "cc3x3/assets/game/native/a3/a367b40d-ef8d-4902-997e-58ca5bc13e9d.02006",
+      "files": [],
+      "status": "missing"
+    },
+    {
+      "config": "cc3x3/assets/game/config.dd5af.json",
+      "bundle": "cc3x3/assets/game",
+      "selection": "unknown",
+      "kind": "native",
+      "uuid": "af92af72-16ec-4e7a-a8a9-60957b21c0fe",
+      "version": "48ed8",
+      "type": "cc.ImageAsset",
+      "name": "Img/Intro/right_grand1_light",
+      "expected_prefix": "cc3x3/assets/game/native/af/af92af72-16ec-4e7a-a8a9-60957b21c0fe.48ed8",
+      "files": [],
+      "status": "missing"
+    },
+    {
+      "config": "cc3x3/assets/game/config.dd5af.json",
+      "bundle": "cc3x3/assets/game",
+      "selection": "unknown",
+      "kind": "native",
+      "uuid": "b9b0af21-9461-4445-b413-2753d90ee951",
+      "version": "d8f73",
+      "type": "cc.ImageAsset",
+      "name": "Img/Intro/right_coins",
+      "expected_prefix": "cc3x3/assets/game/native/b9/b9b0af21-9461-4445-b413-2753d90ee951.d8f73",
+      "files": [],
+      "status": "missing"
+    },
+    {
+      "config": "cc3x3/assets/game/config.dd5af.json",
+      "bundle": "cc3x3/assets/game",
+      "selection": "unknown",
+      "kind": "native",
+      "uuid": "baa9bce1-697c-4ee0-9f04-f4110f8aa727",
+      "version": "d4377",
+      "type": "cc.ImageAsset",
+      "name": "Img/Intro/left_TXT_respin",
+      "expected_prefix": "cc3x3/assets/game/native/ba/baa9bce1-697c-4ee0-9f04-f4110f8aa727.d4377",
+      "files": [],
+      "status": "missing"
+    },
+    {
+      "config": "cc3x3/assets/game/config.dd5af.json",
+      "bundle": "cc3x3/assets/game",
+      "selection": "unknown",
+      "kind": "native",
+      "uuid": "c3dc1201-0cc5-402e-8395-460e562d11da",
+      "version": "b3cf1",
+      "type": "cc.ImageAsset",
+      "name": "Img/Intro/symbo_light",
+      "expected_prefix": "cc3x3/assets/game/native/c3/c3dc1201-0cc5-402e-8395-460e562d11da.b3cf1",
+      "files": [],
+      "status": "missing"
+    },
+    {
+      "config": "cc3x3/assets/game/config.dd5af.json",
+      "bundle": "cc3x3/assets/game",
+      "selection": "unknown",
+      "kind": "native",
+      "uuid": "d8aaae84-11aa-4e63-9232-2d7a79d8a376",
+      "version": "91bde",
+      "type": "cc.ImageAsset",
+      "name": "Img/Intro/right_grand2",
+      "expected_prefix": "cc3x3/assets/game/native/d8/d8aaae84-11aa-4e63-9232-2d7a79d8a376.91bde",
+      "files": [],
+      "status": "missing"
+    },
+    {
+      "config": "cc3x3/assets/game/config.dd5af.json",
+      "bundle": "cc3x3/assets/game",
+      "selection": "unknown",
+      "kind": "native",
+      "uuid": "e4e47373-b229-4208-837f-023a7aed73de",
+      "version": "e5ac9",
+      "type": "cc.ImageAsset",
+      "name": "Img/Intro/left_cion1",
+      "expected_prefix": "cc3x3/assets/game/native/e4/e4e47373-b229-4208-837f-023a7aed73de.e5ac9",
+      "files": [],
+      "status": "missing"
+    },
+    {
+      "config": "cc3x3/assets/game/config.dd5af.json",
+      "bundle": "cc3x3/assets/game",
+      "selection": "unknown",
+      "kind": "native",
+      "uuid": "e69fb25b-ee2a-484c-9ab8-21c057520c93",
+      "version": "137d3",
+      "type": "cc.ImageAsset",
+      "name": "Img/Intro/left_cion3",
+      "expected_prefix": "cc3x3/assets/game/native/e6/e69fb25b-ee2a-484c-9ab8-21c057520c93.137d3",
+      "files": [],
+      "status": "missing"
+    },
+    {
+      "config": "cc3x3/assets/game/config.dd5af.json",
+      "bundle": "cc3x3/assets/game",
+      "selection": "unknown",
+      "kind": "native",
+      "uuid": "ef3c04f4-b114-4d20-8946-2fb0b71b8b7d",
+      "version": "a7b26",
+      "type": "cc.ImageAsset",
+      "name": "Img/Intro/left_respin_light",
+      "expected_prefix": "cc3x3/assets/game/native/ef/ef3c04f4-b114-4d20-8946-2fb0b71b8b7d.a7b26",
+      "files": [],
+      "status": "missing"
+    },
+    {
+      "config": "cc3x3/assets/game/config.dd5af.json",
+      "bundle": "cc3x3/assets/game",
+      "selection": "unknown",
+      "kind": "native",
+      "uuid": "fad532c0-91db-4a9f-8ece-9705191976c6",
+      "version": "d73db",
+      "type": "cc.ImageAsset",
+      "name": "Img/Intro/left_symbol2",
+      "expected_prefix": "cc3x3/assets/game/native/fa/fad532c0-91db-4a9f-8ece-9705191976c6.d73db",
+      "files": [],
+      "status": "missing"
+    }
+  ],
+  "unavailable_or_rejected_originals": [
+    {
+      "kind": "native",
+      "config": "cc3x3/assets/game/config.dd5af.json",
+      "uuid": "0032ae91-3077-435d-a6c5-fa00eaf0ccc8",
+      "version": "55f4a",
+      "target": "cc3x3/assets/game/native/00/0032ae91-3077-435d-a6c5-fa00eaf0ccc8.55f4a.png",
+      "method": "exact CDN image path from UUID/revision and original ImageAsset format metadata",
+      "extension": ".png",
+      "metadata": "cc3x3/assets/game/import/0a/0a8c72df3.0def2.json",
+      "width": 0,
+      "height": 0,
+      "format_evidence": [
+        {
+          "path": "cc3x3/cocos-js/_virtual_cc-oh5XZhdy.js",
+          "sha256": "ace12a1a37e64b968bd6c0eeca4106861cdcde92017d53a44b12e0f2c7f2b5b5",
+          "extensions": [
+            ".png",
+            ".jpg",
+            ".jpeg",
+            ".bmp",
+            ".webp",
+            ".pvr",
+            ".pkm",
+            ".astc"
+          ]
+        }
+      ],
+      "status": "unresolved",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "kind": "native",
+      "config": "cc3x3/assets/game/config.dd5af.json",
+      "uuid": "003fd50c-0c48-43e0-8800-ef66b51a8901",
+      "version": "37c1e",
+      "target": "cc3x3/assets/game/native/00/003fd50c-0c48-43e0-8800-ef66b51a8901.37c1e.png",
+      "method": "exact CDN image path from UUID/revision and original ImageAsset format metadata",
+      "extension": ".png",
+      "metadata": "cc3x3/assets/game/import/0a/0a8c72df3.0def2.json",
+      "width": 0,
+      "height": 0,
+      "format_evidence": [
+        {
+          "path": "cc3x3/cocos-js/_virtual_cc-oh5XZhdy.js",
+          "sha256": "ace12a1a37e64b968bd6c0eeca4106861cdcde92017d53a44b12e0f2c7f2b5b5",
+          "extensions": [
+            ".png",
+            ".jpg",
+            ".jpeg",
+            ".bmp",
+            ".webp",
+            ".pvr",
+            ".pkm",
+            ".astc"
+          ]
+        }
+      ],
+      "status": "unresolved",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "kind": "native",
+      "config": "cc3x3/assets/game/config.dd5af.json",
+      "uuid": "12be3cd0-ef39-4c96-a14c-8698a3b478d1",
+      "version": "48406",
+      "target": "cc3x3/assets/game/native/12/12be3cd0-ef39-4c96-a14c-8698a3b478d1.48406.png",
+      "method": "exact CDN image path from UUID/revision and original ImageAsset format metadata",
+      "extension": ".png",
+      "metadata": "cc3x3/assets/game/import/0a/0a8c72df3.0def2.json",
+      "width": 0,
+      "height": 0,
+      "format_evidence": [
+        {
+          "path": "cc3x3/cocos-js/_virtual_cc-oh5XZhdy.js",
+          "sha256": "ace12a1a37e64b968bd6c0eeca4106861cdcde92017d53a44b12e0f2c7f2b5b5",
+          "extensions": [
+            ".png",
+            ".jpg",
+            ".jpeg",
+            ".bmp",
+            ".webp",
+            ".pvr",
+            ".pkm",
+            ".astc"
+          ]
+        }
+      ],
+      "status": "unresolved",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "kind": "native",
+      "config": "cc3x3/assets/game/config.dd5af.json",
+      "uuid": "233f3f24-94e3-4502-a088-8b5f85906d16",
+      "version": "40c36",
+      "target": "cc3x3/assets/game/native/23/233f3f24-94e3-4502-a088-8b5f85906d16.40c36.png",
+      "method": "exact CDN image path from UUID/revision and original ImageAsset format metadata",
+      "extension": ".png",
+      "metadata": "cc3x3/assets/game/import/0a/0a8c72df3.0def2.json",
+      "width": 0,
+      "height": 0,
+      "format_evidence": [
+        {
+          "path": "cc3x3/cocos-js/_virtual_cc-oh5XZhdy.js",
+          "sha256": "ace12a1a37e64b968bd6c0eeca4106861cdcde92017d53a44b12e0f2c7f2b5b5",
+          "extensions": [
+            ".png",
+            ".jpg",
+            ".jpeg",
+            ".bmp",
+            ".webp",
+            ".pvr",
+            ".pkm",
+            ".astc"
+          ]
+        }
+      ],
+      "status": "unresolved",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "kind": "native",
+      "config": "cc3x3/assets/game/config.dd5af.json",
+      "uuid": "26be91d4-83c7-451f-bf99-6201017e53bd",
+      "version": "f3066",
+      "target": "cc3x3/assets/game/native/26/26be91d4-83c7-451f-bf99-6201017e53bd.f3066.png",
+      "method": "exact CDN image path from UUID/revision and original ImageAsset format metadata",
+      "extension": ".png",
+      "metadata": "cc3x3/assets/game/import/0a/0a8c72df3.0def2.json",
+      "width": 0,
+      "height": 0,
+      "format_evidence": [
+        {
+          "path": "cc3x3/cocos-js/_virtual_cc-oh5XZhdy.js",
+          "sha256": "ace12a1a37e64b968bd6c0eeca4106861cdcde92017d53a44b12e0f2c7f2b5b5",
+          "extensions": [
+            ".png",
+            ".jpg",
+            ".jpeg",
+            ".bmp",
+            ".webp",
+            ".pvr",
+            ".pkm",
+            ".astc"
+          ]
+        }
+      ],
+      "status": "unresolved",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "kind": "native",
+      "config": "cc3x3/assets/game/config.dd5af.json",
+      "uuid": "31b5c156-32ab-4316-8151-6b56c4206566",
+      "version": "4f102",
+      "target": "cc3x3/assets/game/native/31/31b5c156-32ab-4316-8151-6b56c4206566.4f102.png",
+      "method": "exact CDN image path from UUID/revision and original ImageAsset format metadata",
+      "extension": ".png",
+      "metadata": "cc3x3/assets/game/import/0a/0a8c72df3.0def2.json",
+      "width": 0,
+      "height": 0,
+      "format_evidence": [
+        {
+          "path": "cc3x3/cocos-js/_virtual_cc-oh5XZhdy.js",
+          "sha256": "ace12a1a37e64b968bd6c0eeca4106861cdcde92017d53a44b12e0f2c7f2b5b5",
+          "extensions": [
+            ".png",
+            ".jpg",
+            ".jpeg",
+            ".bmp",
+            ".webp",
+            ".pvr",
+            ".pkm",
+            ".astc"
+          ]
+        }
+      ],
+      "status": "unresolved",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "kind": "native",
+      "config": "cc3x3/assets/game/config.dd5af.json",
+      "uuid": "4899238c-14a1-4141-94fc-871d2c38524c",
+      "version": "2bc31",
+      "target": "cc3x3/assets/game/native/48/4899238c-14a1-4141-94fc-871d2c38524c.2bc31.png",
+      "method": "exact CDN image path from UUID/revision and original ImageAsset format metadata",
+      "extension": ".png",
+      "metadata": "cc3x3/assets/game/import/0a/0a8c72df3.0def2.json",
+      "width": 0,
+      "height": 0,
+      "format_evidence": [
+        {
+          "path": "cc3x3/cocos-js/_virtual_cc-oh5XZhdy.js",
+          "sha256": "ace12a1a37e64b968bd6c0eeca4106861cdcde92017d53a44b12e0f2c7f2b5b5",
+          "extensions": [
+            ".png",
+            ".jpg",
+            ".jpeg",
+            ".bmp",
+            ".webp",
+            ".pvr",
+            ".pkm",
+            ".astc"
+          ]
+        }
+      ],
+      "status": "unresolved",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "kind": "native",
+      "config": "cc3x3/assets/game/config.dd5af.json",
+      "uuid": "5339ef82-b0c0-4803-8b01-8156e6c3eaf8",
+      "version": "0a97d",
+      "target": "cc3x3/assets/game/native/53/5339ef82-b0c0-4803-8b01-8156e6c3eaf8.0a97d.png",
+      "method": "exact CDN image path from UUID/revision and original ImageAsset format metadata",
+      "extension": ".png",
+      "metadata": "cc3x3/assets/game/import/0a/0a8c72df3.0def2.json",
+      "width": 0,
+      "height": 0,
+      "format_evidence": [
+        {
+          "path": "cc3x3/cocos-js/_virtual_cc-oh5XZhdy.js",
+          "sha256": "ace12a1a37e64b968bd6c0eeca4106861cdcde92017d53a44b12e0f2c7f2b5b5",
+          "extensions": [
+            ".png",
+            ".jpg",
+            ".jpeg",
+            ".bmp",
+            ".webp",
+            ".pvr",
+            ".pkm",
+            ".astc"
+          ]
+        }
+      ],
+      "status": "unresolved",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "kind": "native",
+      "config": "cc3x3/assets/game/config.dd5af.json",
+      "uuid": "587b2d42-5411-4694-a3ae-95bad052cebf",
+      "version": "f0f8b",
+      "target": "cc3x3/assets/game/native/58/587b2d42-5411-4694-a3ae-95bad052cebf.f0f8b.png",
+      "method": "exact CDN image path from UUID/revision and original ImageAsset format metadata",
+      "extension": ".png",
+      "metadata": "cc3x3/assets/game/import/0a/0a8c72df3.0def2.json",
+      "width": 0,
+      "height": 0,
+      "format_evidence": [
+        {
+          "path": "cc3x3/cocos-js/_virtual_cc-oh5XZhdy.js",
+          "sha256": "ace12a1a37e64b968bd6c0eeca4106861cdcde92017d53a44b12e0f2c7f2b5b5",
+          "extensions": [
+            ".png",
+            ".jpg",
+            ".jpeg",
+            ".bmp",
+            ".webp",
+            ".pvr",
+            ".pkm",
+            ".astc"
+          ]
+        }
+      ],
+      "status": "unresolved",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "kind": "native",
+      "config": "cc3x3/assets/game/config.dd5af.json",
+      "uuid": "5a798788-99ae-42d7-9b5a-86f3d038fd5b",
+      "version": "0baba",
+      "target": "cc3x3/assets/game/native/5a/5a798788-99ae-42d7-9b5a-86f3d038fd5b.0baba.png",
+      "method": "exact CDN image path from UUID/revision and original ImageAsset format metadata",
+      "extension": ".png",
+      "metadata": "cc3x3/assets/game/import/0a/0a8c72df3.0def2.json",
+      "width": 0,
+      "height": 0,
+      "format_evidence": [
+        {
+          "path": "cc3x3/cocos-js/_virtual_cc-oh5XZhdy.js",
+          "sha256": "ace12a1a37e64b968bd6c0eeca4106861cdcde92017d53a44b12e0f2c7f2b5b5",
+          "extensions": [
+            ".png",
+            ".jpg",
+            ".jpeg",
+            ".bmp",
+            ".webp",
+            ".pvr",
+            ".pkm",
+            ".astc"
+          ]
+        }
+      ],
+      "status": "unresolved",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "kind": "native",
+      "config": "cc3x3/assets/game/config.dd5af.json",
+      "uuid": "65dcb97c-94f6-40c2-bc73-f38f0e72c117",
+      "version": "037cd",
+      "target": "cc3x3/assets/game/native/65/65dcb97c-94f6-40c2-bc73-f38f0e72c117.037cd.png",
+      "method": "exact CDN image path from UUID/revision and original ImageAsset format metadata",
+      "extension": ".png",
+      "metadata": "cc3x3/assets/game/import/0a/0a8c72df3.0def2.json",
+      "width": 0,
+      "height": 0,
+      "format_evidence": [
+        {
+          "path": "cc3x3/cocos-js/_virtual_cc-oh5XZhdy.js",
+          "sha256": "ace12a1a37e64b968bd6c0eeca4106861cdcde92017d53a44b12e0f2c7f2b5b5",
+          "extensions": [
+            ".png",
+            ".jpg",
+            ".jpeg",
+            ".bmp",
+            ".webp",
+            ".pvr",
+            ".pkm",
+            ".astc"
+          ]
+        }
+      ],
+      "status": "unresolved",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "kind": "native",
+      "config": "cc3x3/assets/game/config.dd5af.json",
+      "uuid": "7e2a7a9b-0d43-4eab-985a-3c592e6ad736",
+      "version": "86011",
+      "target": "cc3x3/assets/game/native/7e/7e2a7a9b-0d43-4eab-985a-3c592e6ad736.86011.png",
+      "method": "exact CDN image path from UUID/revision and original ImageAsset format metadata",
+      "extension": ".png",
+      "metadata": "cc3x3/assets/game/import/0a/0a8c72df3.0def2.json",
+      "width": 0,
+      "height": 0,
+      "format_evidence": [
+        {
+          "path": "cc3x3/cocos-js/_virtual_cc-oh5XZhdy.js",
+          "sha256": "ace12a1a37e64b968bd6c0eeca4106861cdcde92017d53a44b12e0f2c7f2b5b5",
+          "extensions": [
+            ".png",
+            ".jpg",
+            ".jpeg",
+            ".bmp",
+            ".webp",
+            ".pvr",
+            ".pkm",
+            ".astc"
+          ]
+        }
+      ],
+      "status": "unresolved",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "kind": "native",
+      "config": "cc3x3/assets/game/config.dd5af.json",
+      "uuid": "8c7bfcaf-d662-4985-8733-3f084af9a20b",
+      "version": "55e7d",
+      "target": "cc3x3/assets/game/native/8c/8c7bfcaf-d662-4985-8733-3f084af9a20b.55e7d.png",
+      "method": "exact CDN image path from UUID/revision and original ImageAsset format metadata",
+      "extension": ".png",
+      "metadata": "cc3x3/assets/game/import/0a/0a8c72df3.0def2.json",
+      "width": 0,
+      "height": 0,
+      "format_evidence": [
+        {
+          "path": "cc3x3/cocos-js/_virtual_cc-oh5XZhdy.js",
+          "sha256": "ace12a1a37e64b968bd6c0eeca4106861cdcde92017d53a44b12e0f2c7f2b5b5",
+          "extensions": [
+            ".png",
+            ".jpg",
+            ".jpeg",
+            ".bmp",
+            ".webp",
+            ".pvr",
+            ".pkm",
+            ".astc"
+          ]
+        }
+      ],
+      "status": "unresolved",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "kind": "native",
+      "config": "cc3x3/assets/game/config.dd5af.json",
+      "uuid": "90ac74da-e707-436c-8f3f-81741dd03390",
+      "version": "cb8c7",
+      "target": "cc3x3/assets/game/native/90/90ac74da-e707-436c-8f3f-81741dd03390.cb8c7.png",
+      "method": "exact CDN image path from UUID/revision and original ImageAsset format metadata",
+      "extension": ".png",
+      "metadata": "cc3x3/assets/game/import/0a/0a8c72df3.0def2.json",
+      "width": 0,
+      "height": 0,
+      "format_evidence": [
+        {
+          "path": "cc3x3/cocos-js/_virtual_cc-oh5XZhdy.js",
+          "sha256": "ace12a1a37e64b968bd6c0eeca4106861cdcde92017d53a44b12e0f2c7f2b5b5",
+          "extensions": [
+            ".png",
+            ".jpg",
+            ".jpeg",
+            ".bmp",
+            ".webp",
+            ".pvr",
+            ".pkm",
+            ".astc"
+          ]
+        }
+      ],
+      "status": "unresolved",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "kind": "native",
+      "config": "cc3x3/assets/game/config.dd5af.json",
+      "uuid": "989b65c2-4c28-4ea8-bb19-04d22da1df79",
+      "version": "9013b",
+      "target": "cc3x3/assets/game/native/98/989b65c2-4c28-4ea8-bb19-04d22da1df79.9013b.png",
+      "method": "exact CDN image path from UUID/revision and original ImageAsset format metadata",
+      "extension": ".png",
+      "metadata": "cc3x3/assets/game/import/0a/0a8c72df3.0def2.json",
+      "width": 0,
+      "height": 0,
+      "format_evidence": [
+        {
+          "path": "cc3x3/cocos-js/_virtual_cc-oh5XZhdy.js",
+          "sha256": "ace12a1a37e64b968bd6c0eeca4106861cdcde92017d53a44b12e0f2c7f2b5b5",
+          "extensions": [
+            ".png",
+            ".jpg",
+            ".jpeg",
+            ".bmp",
+            ".webp",
+            ".pvr",
+            ".pkm",
+            ".astc"
+          ]
+        }
+      ],
+      "status": "unresolved",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "kind": "native",
+      "config": "cc3x3/assets/game/config.dd5af.json",
+      "uuid": "9ae60b3d-447f-4d0e-9cab-d6f9c07d9634",
+      "version": "72659",
+      "target": "cc3x3/assets/game/native/9a/9ae60b3d-447f-4d0e-9cab-d6f9c07d9634.72659.png",
+      "method": "exact CDN image path from UUID/revision and original ImageAsset format metadata",
+      "extension": ".png",
+      "metadata": "cc3x3/assets/game/import/0a/0a8c72df3.0def2.json",
+      "width": 0,
+      "height": 0,
+      "format_evidence": [
+        {
+          "path": "cc3x3/cocos-js/_virtual_cc-oh5XZhdy.js",
+          "sha256": "ace12a1a37e64b968bd6c0eeca4106861cdcde92017d53a44b12e0f2c7f2b5b5",
+          "extensions": [
+            ".png",
+            ".jpg",
+            ".jpeg",
+            ".bmp",
+            ".webp",
+            ".pvr",
+            ".pkm",
+            ".astc"
+          ]
+        }
+      ],
+      "status": "unresolved",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "kind": "native",
+      "config": "cc3x3/assets/game/config.dd5af.json",
+      "uuid": "a367b40d-ef8d-4902-997e-58ca5bc13e9d",
+      "version": "02006",
+      "target": "cc3x3/assets/game/native/a3/a367b40d-ef8d-4902-997e-58ca5bc13e9d.02006.png",
+      "method": "exact CDN image path from UUID/revision and original ImageAsset format metadata",
+      "extension": ".png",
+      "metadata": "cc3x3/assets/game/import/0a/0a8c72df3.0def2.json",
+      "width": 0,
+      "height": 0,
+      "format_evidence": [
+        {
+          "path": "cc3x3/cocos-js/_virtual_cc-oh5XZhdy.js",
+          "sha256": "ace12a1a37e64b968bd6c0eeca4106861cdcde92017d53a44b12e0f2c7f2b5b5",
+          "extensions": [
+            ".png",
+            ".jpg",
+            ".jpeg",
+            ".bmp",
+            ".webp",
+            ".pvr",
+            ".pkm",
+            ".astc"
+          ]
+        }
+      ],
+      "status": "unresolved",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "kind": "native",
+      "config": "cc3x3/assets/game/config.dd5af.json",
+      "uuid": "af92af72-16ec-4e7a-a8a9-60957b21c0fe",
+      "version": "48ed8",
+      "target": "cc3x3/assets/game/native/af/af92af72-16ec-4e7a-a8a9-60957b21c0fe.48ed8.png",
+      "method": "exact CDN image path from UUID/revision and original ImageAsset format metadata",
+      "extension": ".png",
+      "metadata": "cc3x3/assets/game/import/0a/0a8c72df3.0def2.json",
+      "width": 0,
+      "height": 0,
+      "format_evidence": [
+        {
+          "path": "cc3x3/cocos-js/_virtual_cc-oh5XZhdy.js",
+          "sha256": "ace12a1a37e64b968bd6c0eeca4106861cdcde92017d53a44b12e0f2c7f2b5b5",
+          "extensions": [
+            ".png",
+            ".jpg",
+            ".jpeg",
+            ".bmp",
+            ".webp",
+            ".pvr",
+            ".pkm",
+            ".astc"
+          ]
+        }
+      ],
+      "status": "unresolved",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "kind": "native",
+      "config": "cc3x3/assets/game/config.dd5af.json",
+      "uuid": "b9b0af21-9461-4445-b413-2753d90ee951",
+      "version": "d8f73",
+      "target": "cc3x3/assets/game/native/b9/b9b0af21-9461-4445-b413-2753d90ee951.d8f73.png",
+      "method": "exact CDN image path from UUID/revision and original ImageAsset format metadata",
+      "extension": ".png",
+      "metadata": "cc3x3/assets/game/import/0a/0a8c72df3.0def2.json",
+      "width": 0,
+      "height": 0,
+      "format_evidence": [
+        {
+          "path": "cc3x3/cocos-js/_virtual_cc-oh5XZhdy.js",
+          "sha256": "ace12a1a37e64b968bd6c0eeca4106861cdcde92017d53a44b12e0f2c7f2b5b5",
+          "extensions": [
+            ".png",
+            ".jpg",
+            ".jpeg",
+            ".bmp",
+            ".webp",
+            ".pvr",
+            ".pkm",
+            ".astc"
+          ]
+        }
+      ],
+      "status": "unresolved",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "kind": "native",
+      "config": "cc3x3/assets/game/config.dd5af.json",
+      "uuid": "baa9bce1-697c-4ee0-9f04-f4110f8aa727",
+      "version": "d4377",
+      "target": "cc3x3/assets/game/native/ba/baa9bce1-697c-4ee0-9f04-f4110f8aa727.d4377.png",
+      "method": "exact CDN image path from UUID/revision and original ImageAsset format metadata",
+      "extension": ".png",
+      "metadata": "cc3x3/assets/game/import/0a/0a8c72df3.0def2.json",
+      "width": 0,
+      "height": 0,
+      "format_evidence": [
+        {
+          "path": "cc3x3/cocos-js/_virtual_cc-oh5XZhdy.js",
+          "sha256": "ace12a1a37e64b968bd6c0eeca4106861cdcde92017d53a44b12e0f2c7f2b5b5",
+          "extensions": [
+            ".png",
+            ".jpg",
+            ".jpeg",
+            ".bmp",
+            ".webp",
+            ".pvr",
+            ".pkm",
+            ".astc"
+          ]
+        }
+      ],
+      "status": "unresolved",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "kind": "native",
+      "config": "cc3x3/assets/game/config.dd5af.json",
+      "uuid": "c3dc1201-0cc5-402e-8395-460e562d11da",
+      "version": "b3cf1",
+      "target": "cc3x3/assets/game/native/c3/c3dc1201-0cc5-402e-8395-460e562d11da.b3cf1.png",
+      "method": "exact CDN image path from UUID/revision and original ImageAsset format metadata",
+      "extension": ".png",
+      "metadata": "cc3x3/assets/game/import/0a/0a8c72df3.0def2.json",
+      "width": 0,
+      "height": 0,
+      "format_evidence": [
+        {
+          "path": "cc3x3/cocos-js/_virtual_cc-oh5XZhdy.js",
+          "sha256": "ace12a1a37e64b968bd6c0eeca4106861cdcde92017d53a44b12e0f2c7f2b5b5",
+          "extensions": [
+            ".png",
+            ".jpg",
+            ".jpeg",
+            ".bmp",
+            ".webp",
+            ".pvr",
+            ".pkm",
+            ".astc"
+          ]
+        }
+      ],
+      "status": "unresolved",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "kind": "native",
+      "config": "cc3x3/assets/game/config.dd5af.json",
+      "uuid": "d8aaae84-11aa-4e63-9232-2d7a79d8a376",
+      "version": "91bde",
+      "target": "cc3x3/assets/game/native/d8/d8aaae84-11aa-4e63-9232-2d7a79d8a376.91bde.png",
+      "method": "exact CDN image path from UUID/revision and original ImageAsset format metadata",
+      "extension": ".png",
+      "metadata": "cc3x3/assets/game/import/0a/0a8c72df3.0def2.json",
+      "width": 0,
+      "height": 0,
+      "format_evidence": [
+        {
+          "path": "cc3x3/cocos-js/_virtual_cc-oh5XZhdy.js",
+          "sha256": "ace12a1a37e64b968bd6c0eeca4106861cdcde92017d53a44b12e0f2c7f2b5b5",
+          "extensions": [
+            ".png",
+            ".jpg",
+            ".jpeg",
+            ".bmp",
+            ".webp",
+            ".pvr",
+            ".pkm",
+            ".astc"
+          ]
+        }
+      ],
+      "status": "unresolved",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "kind": "native",
+      "config": "cc3x3/assets/game/config.dd5af.json",
+      "uuid": "e4e47373-b229-4208-837f-023a7aed73de",
+      "version": "e5ac9",
+      "target": "cc3x3/assets/game/native/e4/e4e47373-b229-4208-837f-023a7aed73de.e5ac9.png",
+      "method": "exact CDN image path from UUID/revision and original ImageAsset format metadata",
+      "extension": ".png",
+      "metadata": "cc3x3/assets/game/import/0a/0a8c72df3.0def2.json",
+      "width": 0,
+      "height": 0,
+      "format_evidence": [
+        {
+          "path": "cc3x3/cocos-js/_virtual_cc-oh5XZhdy.js",
+          "sha256": "ace12a1a37e64b968bd6c0eeca4106861cdcde92017d53a44b12e0f2c7f2b5b5",
+          "extensions": [
+            ".png",
+            ".jpg",
+            ".jpeg",
+            ".bmp",
+            ".webp",
+            ".pvr",
+            ".pkm",
+            ".astc"
+          ]
+        }
+      ],
+      "status": "unresolved",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "kind": "native",
+      "config": "cc3x3/assets/game/config.dd5af.json",
+      "uuid": "e69fb25b-ee2a-484c-9ab8-21c057520c93",
+      "version": "137d3",
+      "target": "cc3x3/assets/game/native/e6/e69fb25b-ee2a-484c-9ab8-21c057520c93.137d3.png",
+      "method": "exact CDN image path from UUID/revision and original ImageAsset format metadata",
+      "extension": ".png",
+      "metadata": "cc3x3/assets/game/import/0a/0a8c72df3.0def2.json",
+      "width": 0,
+      "height": 0,
+      "format_evidence": [
+        {
+          "path": "cc3x3/cocos-js/_virtual_cc-oh5XZhdy.js",
+          "sha256": "ace12a1a37e64b968bd6c0eeca4106861cdcde92017d53a44b12e0f2c7f2b5b5",
+          "extensions": [
+            ".png",
+            ".jpg",
+            ".jpeg",
+            ".bmp",
+            ".webp",
+            ".pvr",
+            ".pkm",
+            ".astc"
+          ]
+        }
+      ],
+      "status": "unresolved",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "kind": "native",
+      "config": "cc3x3/assets/game/config.dd5af.json",
+      "uuid": "ef3c04f4-b114-4d20-8946-2fb0b71b8b7d",
+      "version": "a7b26",
+      "target": "cc3x3/assets/game/native/ef/ef3c04f4-b114-4d20-8946-2fb0b71b8b7d.a7b26.png",
+      "method": "exact CDN image path from UUID/revision and original ImageAsset format metadata",
+      "extension": ".png",
+      "metadata": "cc3x3/assets/game/import/0a/0a8c72df3.0def2.json",
+      "width": 0,
+      "height": 0,
+      "format_evidence": [
+        {
+          "path": "cc3x3/cocos-js/_virtual_cc-oh5XZhdy.js",
+          "sha256": "ace12a1a37e64b968bd6c0eeca4106861cdcde92017d53a44b12e0f2c7f2b5b5",
+          "extensions": [
+            ".png",
+            ".jpg",
+            ".jpeg",
+            ".bmp",
+            ".webp",
+            ".pvr",
+            ".pkm",
+            ".astc"
+          ]
+        }
+      ],
+      "status": "unresolved",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "kind": "native",
+      "config": "cc3x3/assets/game/config.dd5af.json",
+      "uuid": "fad532c0-91db-4a9f-8ece-9705191976c6",
+      "version": "d73db",
+      "target": "cc3x3/assets/game/native/fa/fad532c0-91db-4a9f-8ece-9705191976c6.d73db.png",
+      "method": "exact CDN image path from UUID/revision and original ImageAsset format metadata",
+      "extension": ".png",
+      "metadata": "cc3x3/assets/game/import/0a/0a8c72df3.0def2.json",
+      "width": 0,
+      "height": 0,
+      "format_evidence": [
+        {
+          "path": "cc3x3/cocos-js/_virtual_cc-oh5XZhdy.js",
+          "sha256": "ace12a1a37e64b968bd6c0eeca4106861cdcde92017d53a44b12e0f2c7f2b5b5",
+          "extensions": [
+            ".png",
+            ".jpg",
+            ".jpeg",
+            ".bmp",
+            ".webp",
+            ".pvr",
+            ".pkm",
+            ".astc"
+          ]
+        }
+      ],
+      "status": "unresolved",
+      "error": "HTTP Error 404: Not Found"
+    }
+  ],
+  "unconfirmed_sources": [],
+  "uncovered_metadata": [
+    {
+      "config": "astarte2/3.8/web-mobile/assets/jili/config.397a0.json",
+      "path": "astarte2/3.8/web-mobile/assets/jili/import/0a/0a5869bdb.c8731.bin",
+      "reason": "binary import pack not decoded"
+    },
+    {
+      "config": "astarte2/3.8/web-mobile/assets/jiliMain/config.0c080.json",
+      "path": "astarte2/3.8/web-mobile/assets/jiliMain/import/0b/0bff10a16.489c2.bin",
+      "reason": "binary import pack not decoded"
+    },
+    {
+      "config": "cc3x3/assets/game/config.dd5af.json",
+      "uuid": "0032ae91-3077-435d-a6c5-fa00eaf0ccc8",
+      "reason": "native extension unresolved",
+      "candidate_extensions": []
+    },
+    {
+      "config": "cc3x3/assets/game/config.dd5af.json",
+      "uuid": "003fd50c-0c48-43e0-8800-ef66b51a8901",
+      "reason": "native extension unresolved",
+      "candidate_extensions": []
+    },
+    {
+      "config": "cc3x3/assets/game/config.dd5af.json",
+      "uuid": "12be3cd0-ef39-4c96-a14c-8698a3b478d1",
+      "reason": "native extension unresolved",
+      "candidate_extensions": []
+    },
+    {
+      "config": "cc3x3/assets/game/config.dd5af.json",
+      "uuid": "233f3f24-94e3-4502-a088-8b5f85906d16",
+      "reason": "native extension unresolved",
+      "candidate_extensions": []
+    },
+    {
+      "config": "cc3x3/assets/game/config.dd5af.json",
+      "uuid": "26be91d4-83c7-451f-bf99-6201017e53bd",
+      "reason": "native extension unresolved",
+      "candidate_extensions": []
+    },
+    {
+      "config": "cc3x3/assets/game/config.dd5af.json",
+      "uuid": "31b5c156-32ab-4316-8151-6b56c4206566",
+      "reason": "native extension unresolved",
+      "candidate_extensions": []
+    },
+    {
+      "config": "cc3x3/assets/game/config.dd5af.json",
+      "uuid": "4899238c-14a1-4141-94fc-871d2c38524c",
+      "reason": "native extension unresolved",
+      "candidate_extensions": []
+    },
+    {
+      "config": "cc3x3/assets/game/config.dd5af.json",
+      "uuid": "5339ef82-b0c0-4803-8b01-8156e6c3eaf8",
+      "reason": "native extension unresolved",
+      "candidate_extensions": []
+    },
+    {
+      "config": "cc3x3/assets/game/config.dd5af.json",
+      "uuid": "587b2d42-5411-4694-a3ae-95bad052cebf",
+      "reason": "native extension unresolved",
+      "candidate_extensions": []
+    },
+    {
+      "config": "cc3x3/assets/game/config.dd5af.json",
+      "uuid": "5a798788-99ae-42d7-9b5a-86f3d038fd5b",
+      "reason": "native extension unresolved",
+      "candidate_extensions": []
+    },
+    {
+      "config": "cc3x3/assets/game/config.dd5af.json",
+      "uuid": "65dcb97c-94f6-40c2-bc73-f38f0e72c117",
+      "reason": "native extension unresolved",
+      "candidate_extensions": []
+    },
+    {
+      "config": "cc3x3/assets/game/config.dd5af.json",
+      "uuid": "7e2a7a9b-0d43-4eab-985a-3c592e6ad736",
+      "reason": "native extension unresolved",
+      "candidate_extensions": []
+    },
+    {
+      "config": "cc3x3/assets/game/config.dd5af.json",
+      "uuid": "8c7bfcaf-d662-4985-8733-3f084af9a20b",
+      "reason": "native extension unresolved",
+      "candidate_extensions": []
+    },
+    {
+      "config": "cc3x3/assets/game/config.dd5af.json",
+      "uuid": "90ac74da-e707-436c-8f3f-81741dd03390",
+      "reason": "native extension unresolved",
+      "candidate_extensions": []
+    },
+    {
+      "config": "cc3x3/assets/game/config.dd5af.json",
+      "uuid": "989b65c2-4c28-4ea8-bb19-04d22da1df79",
+      "reason": "native extension unresolved",
+      "candidate_extensions": []
+    },
+    {
+      "config": "cc3x3/assets/game/config.dd5af.json",
+      "uuid": "9ae60b3d-447f-4d0e-9cab-d6f9c07d9634",
+      "reason": "native extension unresolved",
+      "candidate_extensions": []
+    },
+    {
+      "config": "cc3x3/assets/game/config.dd5af.json",
+      "uuid": "a367b40d-ef8d-4902-997e-58ca5bc13e9d",
+      "reason": "native extension unresolved",
+      "candidate_extensions": []
+    },
+    {
+      "config": "cc3x3/assets/game/config.dd5af.json",
+      "uuid": "af92af72-16ec-4e7a-a8a9-60957b21c0fe",
+      "reason": "native extension unresolved",
+      "candidate_extensions": []
+    },
+    {
+      "config": "cc3x3/assets/game/config.dd5af.json",
+      "uuid": "b9b0af21-9461-4445-b413-2753d90ee951",
+      "reason": "native extension unresolved",
+      "candidate_extensions": []
+    },
+    {
+      "config": "cc3x3/assets/game/config.dd5af.json",
+      "uuid": "baa9bce1-697c-4ee0-9f04-f4110f8aa727",
+      "reason": "native extension unresolved",
+      "candidate_extensions": []
+    },
+    {
+      "config": "cc3x3/assets/game/config.dd5af.json",
+      "uuid": "c3dc1201-0cc5-402e-8395-460e562d11da",
+      "reason": "native extension unresolved",
+      "candidate_extensions": []
+    },
+    {
+      "config": "cc3x3/assets/game/config.dd5af.json",
+      "uuid": "d8aaae84-11aa-4e63-9232-2d7a79d8a376",
+      "reason": "native extension unresolved",
+      "candidate_extensions": []
+    },
+    {
+      "config": "cc3x3/assets/game/config.dd5af.json",
+      "uuid": "e4e47373-b229-4208-837f-023a7aed73de",
+      "reason": "native extension unresolved",
+      "candidate_extensions": []
+    },
+    {
+      "config": "cc3x3/assets/game/config.dd5af.json",
+      "uuid": "e69fb25b-ee2a-484c-9ab8-21c057520c93",
+      "reason": "native extension unresolved",
+      "candidate_extensions": []
+    },
+    {
+      "config": "cc3x3/assets/game/config.dd5af.json",
+      "uuid": "ef3c04f4-b114-4d20-8946-2fb0b71b8b7d",
+      "reason": "native extension unresolved",
+      "candidate_extensions": []
+    },
+    {
+      "config": "cc3x3/assets/game/config.dd5af.json",
+      "uuid": "fad532c0-91db-4a9f-8ece-9705191976c6",
+      "reason": "native extension unresolved",
+      "candidate_extensions": []
+    },
+    {
+      "config": "cc3x3/assets/game/config.dd5af.json",
+      "path": "cc3x3/assets/game/import/0d/0d31611c2.72522.bin",
+      "reason": "binary import pack not decoded"
+    }
+  ],
+  "complete_acceptance_passed": false
+}

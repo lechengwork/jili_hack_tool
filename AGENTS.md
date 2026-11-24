@@ -24,6 +24,8 @@
 - 現有唯讀批次核對命令為`python3 -B routex/asset_batch_audit.py`（目前支援545、573、200、224、461、664，可加指定gameID）。它會短暫啟動各款真正的本地replay server做HTTP檢查，結束後停止，不開瀏覽器、不連真站、不下載補檔。exit 1代表有清單缺檔或未覆蓋項目，不能當成全部通過；工具仍不是完整動態依賴圖或演出驗收。
 - 完成清單檢查後仍需測試連續轉局、延遲／隨機資源與已收特殊演出，記錄missing／下載錯誤／關窗等現象。素材完整性、協定回放、瀏覽器演出及Windows實機驗收是不同項目，分別記錄，不互相代替。
 
+- 已確認來源的補檔可用 `python3 -B routex/repair_asset_gaps.py --fetch`；只接受相同 UUID／版本／原始副檔名及通過內容檢查的原檔，不覆寫既有檔。各款保存 `asset_repairs.json` 來源／SHA256及 `asset_unresolved.json` 缺口；完成後重跑實際 replay HTTP。不能確認來源、原站缺檔或雜湊不符時明列，不猜檔名或填入通用佔位內容。
+
 ## 每筆SPIN即時輸出math
 
 - 每筆成功SPIN完成解密與簽章驗證後，立即用該遊戲專用adapter轉成math JSON並寫入math資料夾，不必關遊戲，也不必等finish才匯出。

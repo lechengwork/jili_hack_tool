@@ -1,0 +1,216 @@
+
+ExtraBet.png
+size: 929,929
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+FX/000
+  rotate: false
+  xy: 859, 235
+  size: 67, 68
+  orig: 69, 71
+  offset: 1, 2
+  index: -1
+FX/01_Light_BG
+  rotate: true
+  xy: 643, 38
+  size: 98, 100
+  orig: 100, 100
+  offset: 1, 0
+  index: -1
+FX/Add_Particles0
+  rotate: false
+  xy: 747, 533
+  size: 173, 178
+  orig: 192, 178
+  offset: 8, 0
+  index: -1
+FX/Add_Particles1
+  rotate: false
+  xy: 859, 191
+  size: 51, 42
+  orig: 70, 70
+  offset: 8, 17
+  index: -1
+FX/Frame_Glow_10
+  rotate: false
+  xy: 827, 56
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+FX/Frame_Glow_2
+  rotate: false
+  xy: 745, 56
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+FX/Frame_Glow_3
+  rotate: false
+  xy: 257, 10
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+FX/Frame_Glow_4
+  rotate: false
+  xy: 2, 2
+  size: 42, 26
+  orig: 80, 80
+  offset: 19, 22
+  index: -1
+FX/Frame_Glow_6
+  rotate: false
+  xy: 339, 10
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+FX/Frame_Glow_7
+  rotate: false
+  xy: 421, 9
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+FX/Frame_Glow_9
+  rotate: false
+  xy: 503, 9
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+FX/Fx_tex_glow_30012
+  rotate: true
+  xy: 752, 713
+  size: 214, 165
+  orig: 256, 256
+  offset: 19, 51
+  index: -1
+FX/Fx_tex_glow_30013
+  rotate: false
+  xy: 643, 138
+  size: 214, 165
+  orig: 256, 256
+  offset: 19, 51
+  index: -1
+FX/GoldenShine/Symbol_09_GoldenShine_00
+  rotate: false
+  xy: 227, 537
+  size: 260, 194
+  orig: 300, 268
+  offset: 19, 36
+  index: -1
+FX/GoldenShine/Symbol_09_GoldenShine_01
+  rotate: false
+  xy: 489, 537
+  size: 256, 194
+  orig: 300, 268
+  offset: 21, 37
+  index: -1
+FX/GoldenShine/Symbol_09_GoldenShine_02
+  rotate: false
+  xy: 2, 30
+  size: 253, 194
+  orig: 300, 268
+  offset: 23, 37
+  index: -1
+FX/GoldenShine/Symbol_09_GoldenShine_03
+  rotate: true
+  xy: 257, 92
+  size: 249, 192
+  orig: 300, 268
+  offset: 25, 37
+  index: -1
+FX/GoldenShine/Symbol_09_GoldenShine_04
+  rotate: true
+  xy: 451, 91
+  size: 250, 190
+  orig: 300, 268
+  offset: 24, 39
+  index: -1
+FX/GoldenShine/Symbol_09_GoldenShine_05
+  rotate: false
+  xy: 485, 345
+  size: 252, 190
+  orig: 300, 268
+  offset: 22, 39
+  index: -1
+FX/GoldenShine/Symbol_09_GoldenShine_06
+  rotate: false
+  xy: 227, 343
+  size: 256, 192
+  orig: 300, 268
+  offset: 19, 37
+  index: -1
+FX/GoldenShine/Symbol_09_GoldenShine_07
+  rotate: false
+  xy: 491, 733
+  size: 259, 194
+  orig: 300, 268
+  offset: 18, 36
+  index: -1
+FX/GoldenShine/Symbol_09_GoldenShine_08
+  rotate: false
+  xy: 227, 733
+  size: 262, 194
+  orig: 300, 268
+  offset: 17, 36
+  index: -1
+FX/GoldenShine/Symbol_09_GoldenShine_09
+  rotate: true
+  xy: 2, 226
+  size: 262, 196
+  orig: 300, 268
+  offset: 18, 34
+  index: -1
+FX/HitLine01_00000
+  rotate: true
+  xy: 585, 24
+  size: 65, 41
+  orig: 128, 128
+  offset: 29, 47
+  index: -1
+FX/Point_1
+  rotate: false
+  xy: 200, 466
+  size: 22, 22
+  orig: 40, 40
+  offset: 9, 9
+  index: -1
+FX/Point_2
+  rotate: false
+  xy: 200, 230
+  size: 49, 48
+  orig: 50, 50
+  offset: 1, 1
+  index: -1
+FX/Point_3
+  rotate: true
+  xy: 200, 280
+  size: 61, 55
+  orig: 64, 64
+  offset: 1, 4
+  index: -1
+FX/Rainbow_03_1_Resize_00
+  rotate: false
+  xy: 2, 490
+  size: 223, 437
+  orig: 500, 500
+  offset: 250, 27
+  index: -1
+FX/btncardlight_04
+  rotate: false
+  xy: 859, 153
+  size: 46, 36
+  orig: 70, 40
+  offset: 21, 2
+  index: -1
+IMG/Symbol_09
+  rotate: true
+  xy: 739, 305
+  size: 226, 186
+  orig: 300, 268
+  offset: 37, 56
+  index: -1

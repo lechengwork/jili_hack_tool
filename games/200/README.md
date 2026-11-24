@@ -68,3 +68,10 @@ Login config, authenticated captures, current_session pointers, profiles, logs a
 ## 2026-11-24 唯讀素材盤點
 
 本款`asset_validation.json`已依原始config/native/import清單核對，包含`9926e`隨機音效的原始名稱／副檔名與內容檢查，並以本款真正的本地replay server核對現有素材HTTP回應。報告也另列WebP結果。本份checkout仍有清單缺項／未解析packs，不能視為完整素材驗收通過；可選或歷史清單的缺項也不等同已證實的本模式請求失敗。本輪未下載或補檔，沒有修改math資料或重跑Windows實機。重查：`python3 -B routex/asset_batch_audit.py 200`；exit 1時查看報告中的缺口。總表見根目錄RUNBOOK。
+
+
+### 2026-11-24 來源確認補檔後重驗
+
+本輪累計補回 593 個有原始 UUID／版本／副檔名或已驗證同檔來源的素材；未覆寫既有檔案。來源、SHA256及下載失敗記錄見 `asset_repairs.json`，剩餘逐檔清單見 `asset_unresolved.json`。原始清單仍缺 25 項；包含可選／歷史 bundle，不能直接視為當前模式必然會觸發的錯誤。
+
+實際 replay HTTP：1139 項有效、0 項錯誤；WebP 180/180 通過格式、尺寸與 HTTP 核對。另有 24 筆未覆蓋項目（含未解析 binary packs／副檔名），所以未宣稱完整素材或 Windows 實機驗收。本輪未重跑瀏覽器長時間演出。

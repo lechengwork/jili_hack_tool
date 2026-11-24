@@ -1,0 +1,146 @@
+
+Symbol_09.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+FX/FX_Clover_3
+  rotate: false
+  xy: 315, 235
+  size: 58, 75
+  orig: 100, 100
+  offset: 21, 13
+  index: -1
+FX/FX_Rainbow1
+  rotate: false
+  xy: 280, 743
+  size: 132, 271
+  orig: 200, 326
+  offset: 36, 34
+  index: -1
+FX/FX_Star2
+  rotate: false
+  xy: 513, 746
+  size: 96, 89
+  orig: 100, 100
+  offset: 3, 3
+  index: -1
+FX/Glow_1
+  rotate: false
+  xy: 334, 18
+  size: 215, 215
+  orig: 240, 240
+  offset: 13, 12
+  index: -1
+FX/Shine_4-2
+  rotate: false
+  xy: 315, 312
+  size: 239, 254
+  orig: 300, 300
+  offset: 30, 33
+  index: -1
+FX/Shine_4_alpha
+  rotate: true
+  xy: 513, 837
+  size: 177, 123
+  orig: 200, 200
+  offset: 10, 65
+  index: -1
+FX/Wind_MotionBlur_3
+  rotate: false
+  xy: 2, 544
+  size: 192, 470
+  orig: 220, 500
+  offset: 12, 13
+  index: -1
+FX/light_white
+  rotate: false
+  xy: 2, 230
+  size: 311, 312
+  orig: 400, 400
+  offset: 44, 44
+  index: -1
+FX/shiny
+  rotate: false
+  xy: 407, 611
+  size: 118, 130
+  orig: 180, 180
+  offset: 21, 30
+  index: -1
+JumpingCoin_Shadow2
+  rotate: false
+  xy: 407, 582
+  size: 52, 27
+  orig: 60, 32
+  offset: 4, 3
+  index: -1
+Pot_Coin_1
+  rotate: false
+  xy: 461, 583
+  size: 48, 26
+  orig: 48, 26
+  offset: 0, 0
+  index: -1
+Pot_Coin_2
+  rotate: false
+  xy: 245, 549
+  size: 49, 17
+  orig: 49, 17
+  offset: 0, 0
+  index: -1
+Pot_Coin_3
+  rotate: false
+  xy: 196, 544
+  size: 47, 22
+  orig: 47, 22
+  offset: 0, 0
+  index: -1
+Pot_Lv2_Coin
+  rotate: false
+  xy: 375, 243
+  size: 191, 67
+  orig: 300, 300
+  offset: 54, 117
+  index: -1
+Pot_Lv3_Coin
+  rotate: true
+  xy: 414, 821
+  size: 193, 97
+  orig: 300, 300
+  offset: 50, 117
+  index: -1
+Pot_Lv4_Coin
+  rotate: true
+  xy: 551, 48
+  size: 193, 117
+  orig: 300, 300
+  offset: 50, 117
+  index: -1
+Symbol_09/Symbol_09_Bg
+  rotate: false
+  xy: 196, 568
+  size: 209, 149
+  orig: 300, 268
+  offset: 43, 57
+  index: -1
+Symbol_09/Symbol_09_Frame
+  rotate: true
+  xy: 2, 2
+  size: 226, 155
+  orig: 300, 268
+  offset: 37, 56
+  index: -1
+pot_01_Back (2)
+  rotate: true
+  xy: 159, 3
+  size: 225, 173
+  orig: 225, 173
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 196, 719
+  size: 295, 82
+  orig: 304, 94
+  offset: 5, 2
+  index: -1
