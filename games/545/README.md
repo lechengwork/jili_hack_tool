@@ -96,3 +96,13 @@ Login config, authenticated captures, current_session pointers, profiles, logs a
 診斷入口為本機`https://127.0.0.1:8546/__replay_status`（服務自簽測試憑證）；包含轉局數、最近錯誤／請求及缺資源路徑。只記錄本地測試資訊，不記錄真站token。用一般Chrome測試，勿開DevTools；除錯連線本身可能觸發Jscrambler防護，不能把該防護回報當作普通瀏覽器的根因。
 
 本輪回歸：wire124局／130次回放，math126局／四池／134次回放，熱更新及錯誤JSON恢復通過；WebP162/162通過檔頭、尺寸與實際mock HTTPS的MIME／完整bytes檢查，三個binary import packs仍列於texture報告，非Windows實機完整驗證。
+
+
+## 2026-11-24 素材驗證範圍補充
+
+先前162/162 WebP與兩局成功SPIN不代表完整素材驗收。後續唯讀核對發現原始清單另有301個`9926e`音效／native資源（game50、other200、extra51），本機當時皆缺少。機率團隊回報已在其環境補齊；本次僅確認缺口，未在此處下載或補檔，也未獨立重驗對方的14輪結果。後續每款須依`AGENTS.md`及RUNBOOK「完整素材清單核對」檢查所有引用資源，特別包含隨機／延遲音效；WebP報告只代表貼圖檢查範圍。
+
+
+## 2026-11-24 唯讀素材盤點
+
+本款`asset_validation.json`已依原始config/native/import清單核對，包含`9926e`隨機音效的原始名稱／副檔名與內容檢查，並以本款真正的本地replay server核對現有素材HTTP回應。報告也另列WebP結果。本份checkout仍有清單缺項／未解析packs，不能視為完整素材驗收通過；可選或歷史清單的缺項也不等同已證實的本模式請求失敗。本輪未下載或補檔，沒有修改math資料或重跑Windows實機。重查：`python3 -B routex/asset_batch_audit.py 545`；exit 1時查看報告中的缺口。總表見根目錄RUNBOOK。

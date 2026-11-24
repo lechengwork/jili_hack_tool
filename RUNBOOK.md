@@ -32,6 +32,42 @@ Pappu／200 離線 replay：`.venv/bin/python -B replay_200.py`，亦可加 `--s
 
 Pappu／JILI 200／平台 4103：機率團隊入口見 `README_ForMath_200.md`，本地 Go module 在 `games/200/pappumath/`，server 直接呼叫、不經 RPC。專用擷取與逐局即時 math 流程見 `games/200/README.md`，不可套用 696 的封包或賠率公式。
 
+## Replay 必做：完整素材清單核對（2026-11-24起每款適用）
+
+**WebP通過不等於素材齊全，成功進場或兩局SPIN也不能取代完整素材檢查。** 545的game／other／extra清單曾分別列出50／200／51個`9926e`音效，合計301個漏存；這類資源可能在遊戲中隨機或延遲載入，所以當次沒有404也不能排除缺檔。使用者要求後續每款固定檢查，不再逐款提醒。
+
+1. 從當前入口與原始config列出所有引用的game、共用及延遲載入bundles，按其UUID、版本表、import metadata／packs與程式內動態載入清單建立預期路徑；副檔名必須有原始依據。
+2. 核對所有所需素材，而非只看貼圖：包括隨機／延遲音效、異常副檔名native、動畫、字型、語系與圖示，以及平台必需的貼圖替代格式。逐檔檢查存在性、格式／內容；有已知原檔時比對雜湊。
+3. 將清單與實際本地replay HTTP服務對照，確認狀態碼、適用的MIME與完整bytes。WebP仍另跑既有`texture_variants.py`流程；該工具只驗貼圖，不能當作其餘素材的通過報告。
+4. 缺檔須用原站同版本原檔，或有充分metadata及內容雜湊依據的既有相同原檔修復，再重驗。不得為任意404回成功、填空白／佔位檔、改副檔名，或假設所有隨機音效都能套同一份746-byte內容。參考既有`routex/restore_native_assets.py`與`games/200/restore_replay_assets.py`時，須先確認本款自己的對照；這些補檔程式不是通用的唯讀檢查命令。
+5. 結果保存到該款`asset_validation.json`或既有等效素材報告：逐bundle列出應有／存在／有效／缺少數量，保留來源、版本／雜湊、HTTP驗證結果，以及未解析packs或無法取得副檔名等未覆蓋項目。有缺檔或未覆蓋部分時，不得宣稱完整素材已驗收。
+6. 清單核對後再做連續SPIN、延遲／隨機資源及已收特殊演出的瀏覽器回放，保留缺資源、下載錯誤與關窗紀錄。將素材完整性、加密協定測試、實際演出及Windows實機結果分開列出。
+
+現有唯讀清單工具：
+
+```sh
+python3 -B routex/asset_batch_audit.py                  # 本批六款；真正replay HTTP
+python3 -B routex/asset_batch_audit.py 545 573          # 指定本批遊戲
+python3 -B routex/asset_audit.py 545 --http              # 僅隔離靜態根目錄HTTP，非replay handler
+python3 -B routex/test_asset_audit.py                  # 7項回歸
+```
+
+工具寫入各款`asset_validation.json`及被忽略的本地runtime紀錄；server正常啟動可能按既有manifest重建本機Cocos ZIP容器，不是建立交付包或補缺少的native。工具不下載或補native素材、不開瀏覽器、不連真站。批次會自行啟動／停止專用的本機server，不停止使用者原本開的replay。exit 1表示仍有缺檔、無效檔、HTTP問題或未覆蓋項目，必須看報告，不是應略過的成功結果。原始config/native/import盤點包含鏡像內的可選或歷史bundles，不代表每個缺項都已證實會在當前模式觸發。binary packs、未解析副檔名及任意計算的動態URL仍有明列限制；不能宣稱完整動態依賴圖或所有演出已驗收。長期規則同步於根目錄`AGENTS.md`。
+
+
+### 2026-11-24 六款素材盤點快照（未下載／未補檔）
+
+| 平台編號／遊戲 | JILI gameID | 清單中的9926e數量 | 本機缺少 | WebP格式／尺寸／實際replay HTTP |
+|---|---:|---:|---:|---:|
+| 1836 幸運草金幣3x3 | 545 | 301 | 301 | 162/162 |
+| 1837 幸運金幣2 | 573 | 351 | 349 | 325/325 |
+| 4103 Pappu | 200 | 321 | 74 | 180/180 |
+| 4104 Go Rush | 224 | 0（未列此版本） | 不適用 | 86/86 |
+| 1838 海盜女王2 | 461 | 301 | 301 | 140/140 |
+| 1839 幸運捷豹500 | 664 | 331 | 330 | 271/271 |
+
+六款已存在且可讀的素材均通過本機replay HTTP的狀態、MIME及完整bytes核對，但各款另有native／import清單缺項或未解析packs，**這批不能宣稱完整素材齊全**。未列9926e的224也不是全部通過。缺檔數是本份checkout的盤點，不代表同事已補檔的環境仍缺；清單包含可選／歷史資源，個別缺項是否會被本模式請求仍須追蹤。各款完整路徑、來源config、已解析原始副檔名證據及缺口見`games/<gameID>/asset_validation.json`。本輪沒有重跑瀏覽器演出或Windows實機。
+
 ## 後續每款遊戲的固定要求
 
 靜態資源交付前必須檢查非 ASTC 裝置：`python3 -B routex/texture_variants.py games/<ID>/static --report games/<ID>/texture_validation.json`。依原始 Cocos metadata 與已抓 ASTC 核對 WebP，缺檔時在準備階段加 `--fetch` 取得原站同版本檔案，再重驗；禁止只驗 Mac 畫面就視為 Windows 可用。此工具未覆蓋的 import packs 會明列，仍須保留 QA 實機驗證。

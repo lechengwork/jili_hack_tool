@@ -49,3 +49,8 @@ GetBonus／BonusSymbol保留原始整數語意，內部獎勵階段、重觸發�
 ## Git checkout / local-only files
 
 Login config, authenticated captures, current_session pointers, profiles, logs and ZIPs are local-only. Original archive members and archive_manifest.json are tracked; replay reconstructs its ZIP load bundles locally. Install root npm dependencies and `npm ci --prefix games/545/runtime` before original-codec checks. See the root README for setup.
+
+
+## 2026-11-24 唯讀素材盤點
+
+本款`asset_validation.json`已依原始config/native/import清單核對，包含`9926e`隨機音效的原始名稱／副檔名與內容檢查，並以本款真正的本地replay server核對現有素材HTTP回應。報告也另列WebP結果。本份checkout仍有清單缺項／未解析packs，不能視為完整素材驗收通過；可選或歷史清單的缺項也不等同已證實的本模式請求失敗。本輪未下載或補檔，沒有修改math資料或重跑Windows實機。重查：`python3 -B routex/asset_batch_audit.py 664`；exit 1時查看報告中的缺口。總表見根目錄RUNBOOK。
